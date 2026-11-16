@@ -1,0 +1,893 @@
+{
+ "schema_version": 1,
+ "subject": "biology",
+ "grade": 8,
+ "semester": "upper",
+ "textbook": "人教版（初中生物）",
+ "questions": [
+  {
+   "id": "cnb_j041_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "外界物体反射来的光线，在眼球里成像的部位是？",
+   "explain": "晶状体相当于镜头，视网膜相当于底片，成像在视网膜上。",
+   "options": [
+    "晶状体",
+    "角膜",
+    "视网膜",
+    "玻璃体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j041_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "听觉感受器位于？",
+   "explain": "声波经外耳道、鼓膜和听小骨传到内耳，刺激耳蜗内的感受器。",
+   "options": [
+    "鼓膜",
+    "耳郭",
+    "听小骨",
+    "耳蜗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j042_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "完成反射的神经结构是？",
+   "explain": "反射弧包括感受器、传入神经、神经中枢、传出神经和效应器。",
+   "options": [
+    "只有大脑",
+    "只有一根神经",
+    "骨骼",
+    "反射弧"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j042_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "膝跳反射的神经中枢位于？",
+   "explain": "膝跳反射是简单反射，神经中枢在脊髓。",
+   "options": [
+    "脊髓",
+    "大脑皮层",
+    "小脑",
+    "耳蜗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j043_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "运动系统主要由哪些结构组成？",
+   "explain": "骨是杠杆，关节是支点，骨骼肌提供动力。",
+   "options": [
+    "骨、关节和骨骼肌",
+    "只有肌肉",
+    "脑、脊髓和神经",
+    "心脏和血管"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j043_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "骨骼肌接受刺激后的反应是？",
+   "explain": "一组骨骼肌只能收缩牵拉骨，不能主动伸长把骨推开。",
+   "options": [
+    "既拉长又主动推开骨",
+    "收缩",
+    "变成神经",
+    "停止血液循环"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j044_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "幼年时期生长激素分泌不足，可能患？",
+   "explain": "侏儒症智力一般正常；幼年甲状腺激素不足才会患呆小症，智力受影响。",
+   "options": [
+    "呆小症",
+    "侏儒症",
+    "糖尿病",
+    "甲亢"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j044_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "胰岛素的主要作用是？",
+   "explain": "胰岛素由胰岛分泌，能促进组织细胞摄取和利用葡萄糖。",
+   "options": [
+    "促进生长发育",
+    "提高神经系统兴奋性",
+    "降低血糖",
+    "促进生殖器官发育"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j045_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "传染病流行必须同时具备？",
+   "explain": "三个环节缺少任何一个，传染病就不能在人群中流行。",
+   "options": [
+    "只有易感人群",
+    "只有病原体、没有传染源",
+    "传染源、传播途径和易感人群",
+    "健康的生活环境就一定会流行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j045_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "对患传染病的人进行隔离治疗，属于？",
+   "explain": "传染源是能够散播病原体的人或动物；隔离是为了控制传染源。",
+   "options": [
+    "切断传播途径",
+    "保护易感人群",
+    "增加易感者",
+    "控制传染源"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j046_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "皮肤和黏膜阻挡病原体，属于？",
+   "explain": "第一道防线是皮肤和黏膜；体液中的杀菌物质和吞噬细胞是第二道防线。",
+   "options": [
+    "第三道防线",
+    "特异性免疫",
+    "免疫规划",
+    "第一道防线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j046_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "接种疫苗后产生抗体，这种免疫是？",
+   "explain": "疫苗相当于抗原，促使淋巴细胞产生相应抗体，只针对特定病原体。",
+   "options": [
+    "特异性免疫",
+    "第一道防线",
+    "生来就有、对所有病原体完全相同的非特异性免疫",
+    "只由皮肤完成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j047_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "非处方药的英文简称是？",
+   "explain": "OTC 可以按说明书自行购买使用；处方药必须凭医师处方。",
+   "options": [
+    "OTC",
+    "DNA",
+    "HIV",
+    "AQI"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j047_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用药时正确的做法是？",
+   "explain": "加大剂量或服用过期药都可能造成伤害。",
+   "options": [
+    "把几种药一起加倍服用",
+    "按说明书或医嘱使用，不随意加大剂量",
+    "过期药只要没有变色就可以吃",
+    "用别人的处方药给自己治病"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j048_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "健康的生活方式包括？",
+   "explain": "这些习惯能降低心血管疾病和部分癌症的风险。",
+   "options": [
+    "用吸烟提神",
+    "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品",
+    "每天只睡很少时间",
+    "靠饮料代替饮水"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j048_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "酗酒对人体危害最大的系统之一是？",
+   "explain": "酒精麻痹神经系统，长期饮酒还会损害肝脏和心血管。",
+   "options": [
+    "可以保护肝脏",
+    "只影响头发颜色",
+    "神经系统",
+    "使免疫力无限提高"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j041_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "看近处物体时，晶状体的变化是？",
+   "explain": "睫状肌收缩，晶状体曲度变大，近处物体才能清楚成像。",
+   "options": [
+    "曲度变大",
+    "曲度变小",
+    "完全停止调节",
+    "移到视网膜后面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j042_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "望梅止渴属于？",
+   "explain": "在吃过梅的经验之后，看到梅就能分泌唾液，这是后天形成的复杂反射。",
+   "options": [
+    "生来就有的简单反射",
+    "复杂反射，要经过后天学习",
+    "不需要大脑皮层参与",
+    "只靠激素、不靠神经"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j043_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "屈肘时，肱二头肌和肱三头肌的状态是？",
+   "explain": "屈肘和伸肘由这组肌肉互相配合完成。",
+   "options": [
+    "两块肌肉同时收缩",
+    "两块肌肉同时舒张",
+    "肱二头肌收缩，肱三头肌舒张",
+    "肱二头肌舒张，肱三头肌收缩"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j044_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "体内缺碘，合成甲状腺激素的原料不足，可能引起？",
+   "explain": "甲状腺激素的合成需要碘；缺碘时甲状腺会代偿性增生。",
+   "options": [
+    "侏儒症",
+    "坏血病",
+    "夜盲症",
+    "地方性甲状腺肿"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j045_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "开窗通风、食物器具消毒，主要是？",
+   "explain": "这些做法减少病原体从传染源到达健康人的机会。",
+   "options": [
+    "切断传播途径",
+    "控制全部易感人群的遗传物质",
+    "消灭所有人体细胞",
+    "代替接种疫苗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j046_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "按规定有计划地接种疫苗，叫做？",
+   "explain": "免疫规划是保护易感人群的重要措施。",
+   "options": [
+    "控制传染源的隔离",
+    "免疫规划",
+    "非处方药治疗",
+    "反射弧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j047_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "动脉出血时，止血带应压迫在？",
+   "explain": "动脉血从心脏流向伤口，近心端压迫才能阻断来血；静脉出血则压远心端。",
+   "options": [
+    "伤口的远心端",
+    "手指末端无论伤口在哪里",
+    "伤口的近心端",
+    "只压迫静脉的远心端"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j048_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "毒品危害健康，根本原因是？",
+   "explain": "毒品会损害脑和神经系统，一旦成瘾很难戒断。",
+   "options": [
+    "可以代替一日三餐",
+    "能提高学习效率且没有依赖",
+    "只影响皮肤颜色",
+    "损害神经系统，而且容易成瘾"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j041_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "近视若是眼球前后径过长或晶状体曲度过大，物像落在视网膜前方，应佩戴？",
+   "explain": "凹透镜使光线发散后再进入眼球，使物像后移到视网膜上。",
+   "options": [
+    "凸透镜",
+    "凹透镜",
+    "平面镜",
+    "放大镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j042_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "如果反射弧中的传入神经受损，刺激感受器后？",
+   "explain": "反射弧的五个部分缺一不可，冲动到不了神经中枢。",
+   "options": [
+    "反射仍然完整",
+    "只有效应器自己收缩、与神经无关",
+    "不能产生反射",
+    "神经中枢会直接看到刺激"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j043_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "关节里减少摩擦的结构是？",
+   "explain": "关节面覆盖软骨，关节囊分泌滑液，使运动更灵活。",
+   "options": [
+    "骨髓",
+    "骨膜里的神经",
+    "肌腹",
+    "关节软骨和关节腔内的滑液"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j044_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "神经调节和激素调节相比？",
+   "explain": "人体以神经调节为主，激素调节配合，共同维持稳定。",
+   "options": [
+    "神经调节迅速、准确，激素调节作用时间通常较长",
+    "激素调节不需要体液运输",
+    "两者不能配合",
+    "只有激素能对刺激作出反应"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j045_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "艾滋病病毒主要不会通过哪一方式传播？",
+   "explain": "艾滋病通过血液、性接触和母婴传播；一般握手、共同进餐不会感染。",
+   "options": [
+    "输入含病毒的血液",
+    "一起进餐和握手",
+    "不安全性行为",
+    "母婴传播"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "免疫的功能不包括？",
+   "explain": "免疫有防御、自稳和监视功能；免疫过强可能引起过敏或自身免疫病。",
+   "options": [
+    "抵抗抗原的侵入",
+    "清除体内衰老、死亡的细胞",
+    "制造病原体让疾病流行",
+    "监视并清除异常细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "发现有人煤气中毒，首先应？",
+   "explain": "煤气的主要成分一氧化碳会与血红蛋白结合；先脱离现场并保持呼吸通畅。",
+   "options": [
+    "在密闭房间里点火查看",
+    "让中毒者继续躺在泄漏点旁边",
+    "先喂食物再开门",
+    "打开门窗，把人移到通风处，再拨打急救电话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "为了降低心血管疾病的风险，合适的做法是？",
+   "explain": "生活方式与心血管疾病、癌症有关，预防要从饮食、运动和戒烟做起。",
+   "options": [
+    "少吃高脂食物，经常运动，不吸烟",
+    "用静坐代替所有活动",
+    "每天大量饮酒",
+    "自行长期服用未经医生同意的激素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "影响生物生活的非生物因素包括？",
+   "explain": "非生物因素和生物因素合称生态因素。",
+   "options": [
+    "只有食物链",
+    "只有捕食关系",
+    "光、温度、水和空气",
+    "分类等级"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j049_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "鼠妇适于生活在？",
+   "explain": "探究实验中，鼠妇较多集中在阴暗潮湿一侧。",
+   "options": [
+    "强光干燥的地方",
+    "开水里",
+    "没有空气的密封罐",
+    "阴暗潮湿的地方"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j050_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "生态系统中，能把无机物制造成有机物的是？",
+   "explain": "生产者主要是绿色植物，是食物链的起点。",
+   "options": [
+    "消费者",
+    "分解者",
+    "非生物部分里的石头",
+    "生产者"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j050_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "细菌和真菌在生态系统中主要作为？",
+   "explain": "分解者把动植物遗体里的有机物分解成无机物，供生产者重新利用。",
+   "options": [
+    "分解者",
+    "生产者",
+    "消费者中的最高营养级",
+    "非生物成分"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j051_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "生物圈的范围大致包括？",
+   "explain": "绝大多数生物生活在这三部分交界的范围内。",
+   "options": [
+    "大气圈的底部、水圈的大部和岩石圈的表面",
+    "只有海洋",
+    "只有地面以上 1 米",
+    "地核"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j051_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "生物圈是？",
+   "explain": "森林、草原、海洋、湿地等都是生物圈中的生态系统。",
+   "options": [
+    "最小的一个细胞",
+    "地球上最大的生态系统",
+    "一种组织",
+    "一个器官"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j052_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "大量砍伐森林后，较容易引起？",
+   "explain": "植被破坏后，土壤失去保护，雨水更容易把泥土冲走。",
+   "options": [
+    "空气中的氧气无限增加",
+    "水土流失",
+    "当地降水量必定升高且不再变化",
+    "生物种类一定增多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j052_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "随意引进外来物种，可能？",
+   "explain": "缺少天敌时，外来物种可能大量繁殖，破坏原有的食物关系。",
+   "options": [
+    "一定使本地生物全部受益",
+    "不会繁殖",
+    "挤占本地生物的生存空间",
+    "自动提高生态系统的调节能力且没有上限"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j053_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "维护生态安全，较合适的做法是？",
+   "explain": "生态安全关心的是生态系统能否保持完整并持续提供服务。",
+   "options": [
+    "把所有野生动物都关进家里饲养",
+    "继续向河流排放污水",
+    "保护植被、治理污染、防止外来物种随意扩散",
+    "锯掉全部森林改成裸地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j053_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "保护当地的森林和湿地，属于？",
+   "explain": "保护栖息地，比把生物全部搬走更能维持原有的生态关系。",
+   "options": [
+    "把全部生物迁到外地",
+    "只保护一种观赏植物的花色",
+    "停止一切科学观察",
+    "就地维护生态系统"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j049_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "蚯蚓在土壤中活动，能使土壤更疏松，这说明？",
+   "explain": "生物既受环境限制，也会改变环境。",
+   "options": [
+    "生物能影响环境",
+    "环境对生物没有任何作用",
+    "生物不能适应环境",
+    "只有非生物因素起作用"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j050_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一条食物链「草→兔→狐」中，能量流动的特点是？",
+   "explain": "能量沿食物链传递时大部分被消耗，营养级越高，获得的能量越少。",
+   "options": [
+    "循环利用且越来越多",
+    "单向流动、逐级递减",
+    "从狐流向草",
+    "每个营养级获得的能量相同"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j051_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "生物生存需要的基本条件包括？",
+   "explain": "还需要一定的生存空间；缺少这些条件，生物就不能正常生活。",
+   "options": [
+    "只需要土壤的颜色",
+    "只需要重力",
+    "营养物质、阳光、空气、水和适宜的温度",
+    "不需要空间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j052_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "工厂把未经处理的污水排进河流，直接影响的是？",
+   "explain": "污染会通过饮水和食物链影响其他生物和人。",
+   "options": [
+    "只会让水中的氧气自动增多",
+    "与人类健康无关",
+    "使有毒物质沿食物链越来越少",
+    "水生生物的生存和下游的用水安全"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j053_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "垃圾分类的作用是？",
+   "explain": "分类投放可以减少有害物质进入土壤和水体。",
+   "options": [
+    "减少污染，便于回收可利用的物质",
+    "让有害垃圾直接进入农田",
+    "代替污水处理",
+    "使塑料在自然界中立刻消失"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "沙漠中的骆驼尿液很少、体温可以在一定范围内变化，主要说明？",
+   "explain": "这些特征有利于在缺水、昼夜温差大的环境中生活。",
+   "options": [
+    "生物不需要水",
+    "生物能适应环境",
+    "环境不会影响生物",
+    "骆驼不属于生物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j050_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "有毒物质进入食物链后，浓度通常最高的是？",
+   "explain": "有毒物质不易分解，会沿着食物链积累。",
+   "options": [
+    "生产者",
+    "空气",
+    "营养级最高的生物",
+    "分解者一定最低且不受影响"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j051_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "像生物圈那样为生物提供生存条件的整体，在目前已知范围内？",
+   "explain": "保护生物圈就是保护人类自己的家园。",
+   "options": [
+    "太阳系每颗行星都有",
+    "月球表面已经具备",
+    "可以不依赖能量输入",
+    "地球是唯一的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j052_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "分析「围湖造田」的影响，较合理的结论是？",
+   "explain": "湖泊是生态系统，缩小湖面就会削弱它的生态功能。",
+   "options": [
+    "湖泊调蓄洪水和净化水质的能力下降",
+    "湖泊生物一定增多",
+    "当地气候完全不受影响",
+    "围得越大，生态系统越稳定"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j053_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "某地为了增加粮食而毁林开荒，后来洪水和沙尘加重。更可取的做法是？",
+   "explain": "恢复植被有利于保持水土，也有利于维护生态安全。",
+   "options": [
+    "继续扩大开荒",
+    "退耕还林，恢复植被",
+    "把河水全部截断",
+    "引入没有检验的外来植物"
+   ],
+   "answer": 2
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+# AGENTS.md — StudyAssist 开发指南
+
+> 本文件面向在本仓库里工作的 AI 编码助手（Codex / Claude Code / Cursor 等），人类维护者同样适用。
+> **作用域**：本仓库根目录（StudyAssist 插件本体）、`tools/studyassist/`、`spec/unit/studyassist_*.lua`。
+> KOReader 上游核心代码不属于本项目范围，除非任务明确要求，否则不要改。
+
+**只读一段的话：** 这是一个 Lua（LuaJIT / Lua 5.1）写的 KOReader 插件；题库 JSON 是脚本生成的，不要手改；改完必须跑 `tools/studyassist/test_plugin.sh`；默认离线，只有 AI 子系统与用户显式触发的在线更新器可联网；不要新增依赖；改用户可见行为时同步更新 `README.md`。
+
+---
+
+## 目录
+
+- [1. 项目事实](#1-项目事实)
+- [2. 常用命令](#2-常用命令)
+- [3. 代码地图与数据流](#3-代码地图与数据流)
+- [4. 按任务定位修改点](#4-按任务定位修改点)
+- [5. 编码约定](#5-编码约定)
+- [6. 内容规则](#6-内容规则)
+- [7. 测试要求](#7-测试要求)
+- [8. 存档与兼容性](#8-存档与兼容性)
+- [9. 完成定义](#9-完成定义)
+- [10. 边界与禁止事项](#10-边界与禁止事项)
+- [11. 已知坑](#11-已知坑)
+- [12. 待确认的产品问题](#12-待确认的产品问题)
+- [13. 变更记录](#13-变更记录)
+
+---
+
+## 1. 项目事实
+
+| 项目 | 内容 |
+| --- | --- |
+| 产品名 | 学习助理（StudyAssist） |
+| 形态 | KOReader 插件，目录必须以 `.koplugin` 结尾 |
+| 运行环境 | KOReader 的 LuaJIT（Lua 5.1 语义），Kindle 等墨水屏设备 |
+| 用户 | 小学 1–6 年级孩子 + 家长；界面为简体中文 |
+| 网络 | **默认离线**；只有可选的 AI 出题与用户显式触发的在线更新器会联网，没有账号、同步、统计上报 |
+| 入口 | `main.lua` → 主菜单「更多工具 → 学习助理」；Dispatcher 动作 `studyassist_open` / 事件 `StudyAssistOpen` |
+| 核心依赖 | 仅 KOReader 自带模块（`ui/widget/*`、`luasettings`、`datastorage`、`dispatcher`、`json`、`logger`、`gettext`；AI 另用 `socket.http`/`ssl.https`/`turbo`）；构建期 Python 另用 pypinyin、Pillow |
+| 卡面 | `data/cards/` 49 张灰度 PNG（48 卡面 + 通用卡背；AI 生成，`build_card_art.py` 后处理，勿手改） |
+| 存档 | `koreader/settings/studyassist.lua`（`LuaSettings`） |
+| 题目 | 语文读 12 册 JSON；数学按 5 个教材版本、1–6 年级由 `core/mathgen.lua` 实时生成；知识点模式读 `data/knowledge/`（cn-math-taxonomy 同步，CC BY-NC 4.0） |
+| 测试 | busted，`spec/unit/studyassist_*.lua`；用 `tools/studyassist/test_plugin.sh` 链接到 KOReader 后运行 |
+| 打包 | `tools/studyassist/package_plugin.sh` → `install/studyassist/`（该目录被 gitignore） |
+
+### 关键设计约束
+
+1. **墨水屏优先**：不引入动画、不做逐帧刷新、避免每一题新建窗口；所有页面在同一个 `MainView` 里换 body。
+2. **零依赖**：不新增 LuaRocks / C 模块 / 外部二进制；能用 KOReader 自带模块就用自带的。构建期 Python 依赖（pypinyin、Pillow）只用于生成产物，不进插件运行时。
+3. **默认离线**：除 `core/ai_*` 的 AI 出题与 `core/update.lua` 的在线更新器外，任何路径都不得发起网络请求；两者都必须由用户显式配置/触发，不做后台调用（更新器默认手动检查）。
+4. **儿童内容**：题目和文案要适合对应年级，不能出现超纲、歧义、负面或吓唬孩子的内容。
+5. **存档兼容**：老版本 `studyassist.lua` 必须能平滑升级，不能因为加字段导致孩子丢星星。
+6. **卡面资源例外**：`data/cards/` 允许 AI 生成灰度 PNG（480×480，单张 ≤80KB、总量 ≤3MB），由 `build_card_art.py` 生成与校验；除此之外仍禁止新增二进制资源。
+
+---
+
+## 2. 常用命令
+
+> 以下命令在 macOS 模拟器环境验证过。KOReader 源码默认在 `~/GitHub/koreader`，其他位置用 `KOREADER_DIR=/path/to/koreader` 指定。
+
+| 目的 | 命令 |
+| --- | --- |
+| 初始化 KOReader 子模块（首次） | `cd "${KOREADER_DIR:-$HOME/GitHub/koreader}" && git submodule update --init --recursive` |
+| 构建 KOReader 模拟器 | `cd "${KOREADER_DIR:-$HOME/GitHub/koreader}" && ./kodev build` |
+| 运行并自动打开插件 | `tools/studyassist/run_emulator.command` |
+| 跑插件全部单测 | `tools/studyassist/test_plugin.sh` |
+| 跑单个单测 | `tools/studyassist/test_plugin.sh studyassist_session` |
+| 复用构建跑单测 | `KODEV_REUSE_BUILD=1 tools/studyassist/test_plugin.sh studyassist_session` |
+| 重新生成教材目录 | `python3 tools/studyassist/build_catalog.py` |
+| 重新生成语文题库 | `python3 tools/studyassist/build_bank.py` |
+| 校验语文题库 | `python3 tools/studyassist/validate_bank.py --all` |
+| 校验教材目录 | `python3 tools/studyassist/validate_catalog.py` |
+| 导出家长抽查清单 | `python3 tools/studyassist/export_review.py`（`--all` / `--per-unit N`） |
+| 打包安装包 | `tools/studyassist/package_plugin.sh` |
+
+注意事项：
+
+- macOS 上 `kodev` 依赖 GNU `getopt`、`bash ≥ 4`、`coreutils`、`ginstall` 等；建议 `brew install bash gnu-getopt coreutils make findutils`。脚本会把 Homebrew 的 `gnubin` 加进 `PATH`。
+- `test_plugin.sh` 会把本仓库链接为 KOReader 的 `plugins/studyassist.koplugin`，并把 `spec/unit/studyassist_*.lua` 链接进 KOReader；测试名是 **`studyassist_bank`** 这种形式，不要带 `_spec`。
+- `build_bank.py` 生成 1–6 年级题库时必须安装 `pypinyin`：`pip install -r tools/studyassist/requirements.txt`；`validate_bank.py` 的拼音深度校验同样依赖它。
+
+---
+
+## 3. 代码地图与数据流
+
+```text
+main.lua                 插件生命周期：注册菜单与 Dispatcher、开发环境自动打开
+ui/mainview.lua          单窗口状态机 + 所有页面布局
+ui/widgets.lua           墨水屏小组件（label / textbox / button / card / stat / progress）
+ui/update_dialog.lua     更新下载进度对话框（进度条 + 取消按钮，瞬态模态窗）
+core/session.lua         组题、判题、连对、重试、轮次结算
+core/catalog.lua         省份/年级/教材/单元目录读取与缓存
+core/bank.lua            语文 JSON 的加载、规范化、缓存、抽题
+core/knowledge.lua       课标知识点分册/先修图谱加载、缓存、分数/小数判分
+core/diagnose.lua        自适应诊断引擎（先修回溯、掌握/不稳/薄弱、学习路径）
+core/mathgen.lua         数学题与拓展题生成器（保留二年级人教老生成器 + 通用知识点引擎）
+core/progress.lua        存档、每日统计、连续天数、分年级自适应等级、错题本
+core/badges.lua          奖章定义与解锁判断（50 枚）
+core/cards.lua           固定卡池（48 张，含攻防/能力）、智能单抽权重、收藏力量
+core/report.lua          每日评分公式、总结提示词/严格校验、离线兜底
+core/ai_config.lua       AI 厂商预设、服务配置、Key 掩码与校验
+core/ai_http.lua         LuaSocket/LuaSec + Turbo 的 HTTPS POST
+core/ai_client.lua       OpenAI / Anthropic / Gemini 请求与响应
+core/ai_variant.lua      变种提示词、严格 JSON 校验、题目标准化
+core/ai_bank.lua         独立 AI 变种题库（studyassist_ai_bank.json）
+core/update.lua          GitHub Release 在线自更新（可选联网，历史数据零影响）
+core/update_http.lua     更新下载引擎（非阻塞分片 GET：进度回调、无超时、可取消）
+data/catalog.json        省份/年级/教材/单元目录（生成产物，勿手改）
+data/chinese/tongbian/   1–6 年级语文题库（生成产物，勿手改）
+data/knowledge/          课标知识点分册题库 + 先修图谱（sync_taxonomy.py 生成，勿手改）
+data/cards/              卡面插画（AI 生成灰度 PNG，build_card_art.py 后处理，勿手改）
+```
+
+### 启动与答题链路
+
+```text
+StudyAssist:init()
+  ├─ Dispatcher:registerAction("studyassist_open", ...)
+  ├─ ui.menu:registerToMainMenu()
+  └─ STUDYASSIST_AUTOSTART=1 → 1 秒后 showMainView()
+
+MainView:init()
+  ├─ Progress.open()           读 koreader/settings/studyassist.lua
+  └─ render_home()
+
+start_session(opts)
+  ├─ Session.new{ mode, subject, unit, ... }
+  │    ├─ mode="daily"     → build_daily()      语文5 + 数学5
+  │    ├─ mode="challenge" → build_challenge()  10 道拓展
+  │    ├─ mode="wrong"     → build_wrong()      最多 10 道错题
+  │    ├─ mode="ai"        → opts.ai_questions  AI 变种题
+  │    └─ 其它             → build_subject()    语文/数学单科 10 题
+  └─ render_quiz()
+
+submit_answer(value)
+  ├─ Session:submit() → Progress:record_answer() 记分/错题/自适应/连续天数
+  └─ render_feedback() → next_question() / finish_session()
+```
+
+### 状态机
+
+`MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`cards`、`card_detail`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
+新增页面时：设置 `state` → 改标题 → 用 `set_body(widget)` 换内容，不要新开 `UIManager:show` 的全屏窗口。
+
+---
+
+## 4. 按任务定位修改点
+
+| 想改什么 | 主要文件 | 同步事项 |
+| --- | --- | --- |
+| 题目难度曲线 / 抽题概率 | `core/session.lua`（`choose_difficulty`） | `core/progress.lua` 的自适应阈值、README 难度表、`studyassist_session_spec` |
+| 每轮题量 / 题型组成 | `core/session.lua`（`build_*`） | README「出题与练习规则」、`studyassist_session_spec` |
+| 语文题目内容 | `tools/studyassist/build_bank.py` | 重新生成 JSON、跑 `validate_bank.py`、抽查导出 |
+| 新增语文题型 | `build_bank.py` + `core/bank.lua` + `ui/mainview.lua`（`SKILL_LABEL`）+ `tools/studyassist/validate_bank.py`（`VALID_TYPES`） | 题目字段、README 题型表、测试 |
+| 新增年级/教材/单元 | `tools/studyassist/build_catalog.py` → `data/catalog.json` | `core/catalog.lua` 读取、README、`studyassist_catalog_spec` |
+| 新增数学知识点 | `tools/studyassist/build_catalog.py` 的 `skills` + `core/mathgen.lua` 的 `skill_generators` | `validate_catalog.py`、`studyassist_mathgen_spec`、README |
+| 新增拓展题 | `core/mathgen.lua`（生成函数 + `challenge_generators` + `challenge_units` 上下册） | `studyassist_mathgen_spec`、README |
+| 改星星 / 连对 / 首轮奖励 | `core/progress.lua`（`record_answer` / `record_session`）+ `core/session.lua`（`combo_bonus`） | README 积分表、`studyassist_progress_spec`、`studyassist_session_spec` |
+| 新增奖章 | `core/badges.lua` | README 奖章表、`studyassist_progress_spec`（注意「奖章墙 x/50」文案与翻页） |
+| 改每日总结 / 抽卡 | `core/report.lua` / `core/cards.lua`、`ui/mainview.lua` | README 每日总结章节、`studyassist_cards_spec`、`studyassist_ui_spec` |
+| 改卡面插画 / 卡片属性 | `core/cards.lua`（属性）、`tools/studyassist/build_card_art.py` → `data/cards/` | `build_card_art.py --check`、`studyassist_cards_spec`、README 抽卡章节 |
+| 改首页 / 设置 / 页面布局 | `ui/mainview.lua` | `studyassist_ui_spec`、README 使用说明 |
+| 改存档字段 | `core/progress.lua`（`SCHEMA_VERSION` + `normalize`） | 迁移逻辑、README 字段表、`studyassist_progress_spec` |
+| 改错题规则 | `core/progress.lua`（`record_wrong` / `record_mastery` / `trim_wrong`） | README 错题本说明、测试 |
+| 改 AI 出题 | `core/ai_config.lua` / `ai_client.lua` / `ai_variant.lua` / `ai_bank.lua`、`ui/mainview.lua` | `studyassist_ai_spec`、`studyassist_ui_spec`、README AI 说明 |
+| 改在线更新 | `core/update.lua` / `core/update_http.lua`、`ui/mainview.lua` / `ui/update_dialog.lua` | `studyassist_update_spec`、`studyassist_ui_spec`、README 在线更新说明 |
+| 同步知识点题库/图谱 | `tools/studyassist/sync_taxonomy.py` → `data/knowledge/` | `validate_knowledge.py`、`sync_taxonomy.py --check`、`studyassist_knowledge_spec`、README 统计 |
+| 改知识点加载/判分 | `core/knowledge.lua` | `studyassist_knowledge_spec`、`studyassist_session_spec` |
+| 改诊断规则 | `core/diagnose.lua` | `studyassist_diagnose_spec`、README 诊断说明 |
+| 改知识点掌握度 | `core/progress.lua`（`knowledge` 字段 + `finalize_kp_session`） | `studyassist_progress_spec`、README 存档字段表 |
+| 改打包 / 发布流程 | `tools/studyassist/package_plugin.sh` | README 打包说明 |
+
+---
+
+## 5. 编码约定
+
+### Lua
+
+- 目标 **Lua 5.1 / LuaJIT**：不要用 `goto`、整型除法 `//`、位运算符、`utf8` 标准库等 5.2+ 特性。
+- 所有模块用 `local M = {}` + `return M`；不要污染全局命名空间。
+- 优先 `local function`；模块内部函数不要挂到表上。
+- 字符串拼接用 `..`；大量拼接用 `table.concat`。
+- 用户可见文案用中文；**代码注释用英文**（与现有文件保持一致）。
+- 出错时返回 `nil, err`，调用方用 `InfoMessage` 提示；需要记录时用 `logger.warn` / `logger.info`，不要 `print`。
+
+### KOReader API
+
+- 窗口类继承 `InputContainer` / `WidgetContainer`；全屏页面设置 `covers_fullscreen = true`。
+- 刷新用 `UIManager:setDirty(self, "ui")`；不要自己造定时动画。
+- 尺寸统一用 `Screen:scaleBySize(...)` 或 `Size.*`，不要写死像素。
+- 字体用 `cfont` / `smalltfont` 等 KOReader 内置字体，不要打包字体文件。
+- 设置持久化用 `LuaSettings` + `DataStorage:getSettingsDir()`，不要自己拼绝对路径。
+- 新增可绑定的动作走 `Dispatcher:registerAction`，不要改 KOReader 的核心菜单。
+
+### UI 约定
+
+- 复用 `ui/widgets.lua` 的 `label` / `textbox` / `button` / `card` / `stat` / `progress`，保持视觉一致。
+- 按钮高度不小于 `Size.item.height_large`；儿童点击目标宁大勿小。
+- 长文本用 `TextBoxWidget` 自动换行，不要手动按字符数截断（错题列表的 `truncate` 只用于按钮标题）。
+- 页面切换必须重置临时状态：`selected`、`number_input`、`feedback`。
+
+### 文案与国际化
+
+- 当前产品定位是中文单语，大部分 UI 文案是硬编码中文，只有菜单名等用了 `gettext`。
+- 新增文案时：如果所在文件已使用 `_()`，跟随使用；否则保持硬编码中文并在 README 说明，不要半途引入一半 `_()` 一半硬编码的新风格。
+
+---
+
+## 6. 内容规则
+
+### 语文题库
+
+- **唯一事实来源是 `tools/studyassist/build_bank.py`**；`data/chinese/tongbian/*.json` 是生成产物，禁止手改。
+- 每单元必须 20 题，难度分布 8/8/4（每单元）。六年级下册按教材实际 6 个单元，共 120 题。
+- 每题 4 个互不相同的选项，答案唯一，解析至少 4 个字符。
+- 拼音必须带正确声调；多音字要用组词限定读音。
+- 阅读题必须带 `passage`；短文必须原创或公版，**不得复制教材课文**。
+- 题干、选项、解析都要适合对应年级：低年级句子短、词汇常见；高年级再提高抽象度。
+- 新增/修改后依次运行：`build_bank.py` → `validate_bank.py --all` → `export_review.py`，并人工抽查导出结果。
+
+### 数学题
+
+- 答案不能为负；除法要整除（有余数除法除外，且余数小于除数）。
+- 选项不能重复；干扰项要“像错的”，不能出现明显荒谬或两个正确答案。
+- 难度 1–3 要有可感知差异：数域、步骤数、是否需要推理。
+- 拓展题必须挂一个核心素养（`competency`），并写清楚适合对应年级的解析。
+- 生成器必须接受注入的 `rng`，保证测试可复现。
+
+---
+
+## 7. 测试要求
+
+改动以下任一文件后，**必须**跑完整插件测试（11 个 spec 全绿）：
+
+```bash
+tools/studyassist/test_plugin.sh
+```
+
+| 改动 | 至少补/改的测试 |
+| --- | --- |
+| `core/session.lua` | `studyassist_session_spec.lua` |
+| `core/progress.lua` / `core/badges.lua` | `studyassist_progress_spec.lua` |
+| `core/bank.lua` / 题库格式 | `studyassist_bank_spec.lua` |
+| `core/mathgen.lua` | `studyassist_mathgen_spec.lua` |
+| `core/ai_*.lua` | `studyassist_ai_spec.lua` |
+| `core/update.lua` | `studyassist_update_spec.lua` |
+| `core/knowledge.lua` / `data/knowledge/` | `studyassist_knowledge_spec.lua` |
+| `core/diagnose.lua` | `studyassist_diagnose_spec.lua` |
+| `core/cards.lua` / `core/report.lua` | `studyassist_cards_spec.lua` |
+| `ui/mainview.lua` | `studyassist_ui_spec.lua` |
+
+测试规则：
+
+- 不修改断言去“迁就”错误实现；先判断是代码错还是测试过时。
+- 数学生成器测试用固定/可注入 `rng`，不要依赖真实随机。
+- 存档测试必须在 `before_each` 里删除临时文件（参考现有 `studyassist_progress_spec`）。
+- UI 测试只做 smoke：页面能构建、状态正确、能走完一题，不追求像素级断言。
+
+---
+
+## 8. 存档与兼容性
+
+- 存档结构版本在 `core/progress.lua` 的 `SCHEMA_VERSION`（当前 5；v4 新增 `knowledge` 知识点掌握度；v5 新增挑战计数、daily 学科/玩法/知识点细分、`cards` 永久收藏、daily `report`）。
+- 任何字段变更都必须在 `Progress:normalize()` 里补齐默认值，保证旧存档可读；破坏性变更要写迁移。**迁移只增不删**：不得删除、改名或改变既有字段含义，`badges` 已解锁条目（含未知 ID）原样保留。
+- **升级快照**：`Progress.open` 在读入版本 <5 且存档文件存在时，先把原始字节一次性复制到 `studyassist.lua.pre-v5.bak`（已存在则跳过、永不覆盖），再 normalize；失败仅 `logger.warn`。
+- `Progress:reset_progress()` 只清空学习数据（含知识点掌握度、卡片收藏、挑战计数），**保留 `settings`**（省份、年级、学期、教材、目标、重试开关）。
+- `recent_ids` 最多 30 条；`daily` 保留 90 天；`wrong` 最多 200 条 —— 改这些上限要同步 README。
+- 错题存的是整题快照，改题库不会影响已有错题；这是有意设计，不要“顺手”改成只存 ID。
+
+---
+
+## 9. 完成定义
+
+一次改动要同时满足：
+
+- [ ] 行为符合任务描述，没有夹带无关重构。
+- [ ] 语法/风格符合 Lua 5.1 与现有代码。
+- [ ] 11 个插件测试全绿（贴出结果）。
+- [ ] `validate_bank.py --all` 通过（如果动了题库）。
+- [ ] `validate_catalog.py` 通过（如果动了目录/教材/知识点）。
+- [ ] 用户可见行为变化已同步到 `README.md`。
+- [ ] 存档字段变化已考虑旧存档兼容。
+- [ ] 没有新增依赖、字体或大文件（`data/cards/` 卡面除外，总量 ≤3MB）；AI 子系统之外没有网络请求。
+- [ ] `build_card_art.py --check` 通过（如果动了卡面）。
+- [ ] 回复中说明：改了什么、为什么、怎么验证、还有什么没做。
+
+---
+
+## 10. 边界与禁止事项
+
+**不要做：**
+
+- 不要修改 KOReader 上游核心代码来“方便”插件；优先用插件 API。
+- 不要手改 `data/catalog.json` 和 `data/chinese/tongbian/*.json`（会被重新生成覆盖）。
+- 除 AI 出题与用户显式触发的在线更新器外，不要引入网络请求、账号、云同步、埋点。
+- 不要引入新的 Lua 依赖、C 扩展、字体包或二进制资源。
+- 不要提交 `install/` 下的打包产物、截图、抽查清单（已被 gitignore）。
+- 不要用中文写死新的调试日志后留在代码里；提交前清理 `print` / 临时开关。
+- 不要为了让测试通过而放宽断言或跳过用例。
+
+**需要先确认：**
+
+- 改变计分规则、奖章数量、每轮题量等孩子可感知的产品规则。
+- 改变存档结构中的既有字段含义。
+- 增加英语等新科目；改动六三/五四学制模型。
+- AI 与在线更新器之外任何需要联网的功能。
+
+---
+
+## 11. 已知坑
+
+1. **拓展挑战的题型由 `MathGen.challenge_plan()` 决定**：每轮先按注入的 `rng` 洗牌，再取 10 类，同一轮不重复；如果按单元筛选后不足 10 类，会循环使用这些类型。`generate_challenge()` 仍保留 `index`（确定性测试用）和 `id`（指定题型）两种入口，改这里要同步 `studyassist_session_spec` 与 `studyassist_mathgen_spec`。
+2. **数学有两套生成路径**：二年级人教仍走 `core/mathgen.lua` 的老 `unit_names`/`generators`；其他年级/版本走 `data/catalog.json` + `skill_generators`。改老路径时不要破坏旧测试，改新路径时同步 `build_catalog.py`。
+3. **题库有内存缓存**：`core/bank.lua` 按 `plugin_path|subject|grade|semester|edition` 缓存；运行中改 JSON 不会生效，需要重启或调用 `Bank.clear_cache()`。
+4. **拼音依赖不是可选的**：生成 1–6 年级题库需要 `pypinyin`；没装会直接退出，避免生成没有声调的坏数据。
+5. **`kodev` 的 PATH 很敏感**：macOS 自带 `getopt` 不兼容，缺少 GNU 工具时会报 `unsupported getopt version`。
+6. **独立仓库要链接进 KOReader 才能测**：`test_plugin.sh` 会把本仓库链接到 `plugins/studyassist.koplugin`，并把 `spec/unit/studyassist_*.lua` 链接进 KOReader；直接在本仓库运行 `kodev` 不可用。
+7. **`install/` 被忽略**：打包 zip、截图、抽查清单都不在版本控制里，clone 后需要自己生成。
+8. **模拟器脚本依赖 KOReader 检出**：默认使用 `~/GitHub/koreader`，可用 `KOREADER_DIR` 覆盖；脚本会优先使用 `/usr/local/bin/bash`，再回退到 `/opt/homebrew/bin/bash` 或 `/bin/bash`。
+9. **`_meta.lua` 里的插件名用 `gettext` 包裹**，但正文 UI 基本没有 i18n；不要以为改 `_meta.lua` 就能整体翻译。
+10. **`Session:finish()` 对错题复习不加完成奖励**：`record_session()` 在 `mode == "review"` 时直接返回 0，这是刻意行为。
+11. **`data/catalog.json` 是生成产物**：省份/年级/教材/单元目录改 `tools/studyassist/build_catalog.py`，不要直接编辑 JSON。
+12. **AI Key 是明文**：保存在 `studyassist.lua`，设置页只做掩码；不要打印 Key、请求体或提示词到日志。
+13. **AI 题库是独立文件**：`studyassist_ai_bank.json`，不要塞回 `studyassist.lua`，否则普通答题每次 flush 都会重写大文件。
+14. **AI 配置文件是可选导入源**：`koreader/settings/studyassist_ai_config.json` 由 `AIConfig.import_file()` 解析，`Progress.open()` 只在默认存档路径下自动导入；单测传临时存档路径时不会读真实设置目录。导入用内容哈希去重，文件内容变化才覆盖插件内配置。
+15. **AI 失败不自动重试**：结构校验失败由用户点「重试」；不要在后台悄悄重复消耗 token。
+16. **知识点数据是生成产物**：`data/knowledge/` 由 `tools/studyassist/sync_taxonomy.py` 从 `~/GitHub/cn-math-taxonomy`（CC BY-NC 4.0）生成，禁止手改；源更新后重跑同步并跑 `validate_knowledge.py` 与 `--check`。
+17. **知识点题库也有内存缓存**：`core/knowledge.lua` 按 `plugin_path|subject|grade|semester` 缓存分册、按 `plugin_path|subject` 缓存图谱；改 JSON 后需重启或 `Knowledge.clear_cache()`。
+18. **诊断是测评不是练习**：`core/diagnose.lua` 不给星星、不进错题本、不影响自适应与连续天数，只回写知识点掌握度；参数 confirm=2、题量上限 12、回溯深度 ≤3，改这些要同步 README 与 `studyassist_diagnose_spec`。
+19. **kp 会话判题走 `Knowledge.judge`**：带 `topic` 的题（含错题快照）支持分数/小数答案；`MainView:start_session` 是白名单传参，新增会话字段记得同时加到 `Session.new` 调用里。
+20. **`MainView` 必须整屏绘制**：它是全屏页面而不是对话框；`paintTo` 先铺满白色背景，否则底层 ReaderUI 会透出来，看起来像浮层。
+21. **每日报告随 daily 清理，卡片永久**：`daily[date].report` 跟每日统计一起只保留 90 天；`cards` 收藏与 `badges` 永久保留，任何清理逻辑不得删除。卡片条目带 name/tier 快照，卡池未来调整不影响已集卡片。
+22. **抽卡先落盘再联网**：`Report.create` 先本地评分、抽卡并写入离线版报告，之后才可选请求 AI 润色；AI 失败只影响文案，不影响分数与卡片。同日重进不重抽。
+23. **挑战计数不追溯**：`total.challenge_sessions/challenge_correct` 从 v5 起累积，旧存档没有挑战历史；SSS 权重 = 已解锁挑战奖章数 × (1 + ⌊score/50⌋)，无挑战奖章时 SSS 不进卡池。
+24. **奖章墙翻页**：每页 10 枚共 5 页，`render_badges(page)` 会钳制页码；首页按钮文案是动态 `x/50`，新增奖章不用改 UI。
+25. **更新器是第二个联网子系统**：`core/update.lua` 默认手动检查；自动检查开关默认关，且仅在已联网时静默运行，不后台轮询、不埋点。改触发策略要同步 README 与 `studyassist_update_spec`。
+26. **升级必须重启**：Lua 模块缓存在 `package.loaded`，替换插件目录后需 `UIManager:restartKOReader()`（quit 85）才生效，不做热重载。
+27. **更新器数据隔离**：用户数据全在 settings 目录（插件目录之外）；`core/update.lua` 写集合仅限插件目录 + `.studyassist_update`/`.studyassist_backup` 两个临时目录，绝不引用 `getSettingsDir`。解压用 `extractToMemory` + 自写文件（libarchive 磁盘写入会丢读权限），路径经 `sanitize_entry_path` 净化；失败回滚。`studyassist_update_spec` 逐字节验证数据不变。
+28. **开发版/符号链接安装拒绝自更新**：`test_plugin.sh` 链接的安装会被 `lfs.symlinkattributes` 识别并拒绝。Release 附件必须名 `studyassist.koplugin.zip`、顶层 `studyassist.koplugin/`；国内直连 GitHub 可能不稳定，失败可重试。
+29. **卡面插画是生成产物**：`data/cards/*.png` 由 AI 生图 + `tools/studyassist/build_card_art.py` 后处理（灰度 480×480），禁止手改；缺图时 UI 自动降级为纯文字格。生图只在构建期用开发者凭证，插件运行时不联网生图。统一后处理标准为 `--colors 8 --smooth 3`（8 级灰度 + 3×3 中值滤波，全套约 1.1MB）；重生成时沿用同一标准，避免风格与体积漂移。
+30. **总结确认门**：`Report.needs_time_confirm(now)` 按设备本地时间 <19 点判定；`open_daily_report(now)` 可注入时间戳，单测与走查脚本必须注入（早于 19 点会弹 ConfirmBox 阻塞流程）。
+31. **可点击卡片格**：`Widgets.tappable` 用 InputContainer + GestureRange（同 Button 写法），`ges_events` 在分发时动态读取；`paintTo` 会写入 dimen.x/y，整格可点。
+32. **更新下载无超时、可取消**：`core/update_http.lua` 用非阻塞 socket + `UIManager:scheduleIn` 短 tick 驱动（仿上游 `httpasync`，但上游没有字节进度与中途取消），**刻意不设任何超时**——网络卡住只停进度，由用户点「取消下载」终止；不要"顺手"加回 block/total 超时。调度器与 socket/TLS 工厂可注入，单测用假 socket + 手动调度器跑完整引擎。`download_and_install` 返回 `{ cancel() }` 句柄；staging 目录在下载完成后才创建，取消不留临时文件。`transport` 参数是旧同步路径，仅单测用。检查更新（`Update.check`）仍是带超时的同步小请求，与下载是两条路径。
+
+---
+
+## 12. 待确认的产品问题
+
+> 遇到以下需求，先与维护者确认，不要自行决定。
+
+- 是否需要支持英语等其它科目，或五四学制？
+- 是否要做多设备同步或家长端报告？（除可选 AI 与在线更新器外仍为单机离线）
+- 拓展挑战是否要改成“每轮随机抽取 10 类”（会改变现有测试与体验）？
+- 是否需要把 UI 文案完整国际化（gettext）？
+- 是否需要为 Kindle 以外的设备（Kobo、Android）做适配与截图？
+
+---
+
+## 13. 变更记录
+
+| 日期 | 变更 | 原因 |
+| --- | --- | --- |
+| 2026-11-10 | 建立本文件；重写 README 以匹配实际实现 | 插件已合并回主仓库，需要给后续 AI/维护者一份准确说明 |
+| 2026-11-10 | 迁移为独立 Git 仓库，迁入题库工具、测试和截图 | 方便单独发布 GitHub，并保留可复现的开发流程 |
+| 2026-11-10 | 支持 1–6 年级、31 省预设、5 个数学教材版本、12 册语文题库 | 家长需要按地区/年级/教材出题 |
+| 2026-11-10 | 增加可选 AI 错题变种、多厂商服务配置与独立 AI 题库 | 用变种题强化错题学习 |
+| 2026-11-10 | 支持 `studyassist_ai_config.json` 自动导入 API 地址/Key/模型 | 家长可把配置推到 Kindle，免手填 |
+| 2026-11-11 | 同步 cn-math-taxonomy 小学数学/语文知识图谱与题库；新增知识点学习、练习、自适应诊断；存档 v4 增加知识点掌握度 | 按课标知识点先学后练，答错沿先修边找薄弱根因 |
+| 2026-11-12 | 新增每日 AI 总结与抽卡（38 张卡池、本地评分、SSS 挑战加成、离线兜底）、奖章墙扩至 50 枚并翻页、拓展挑战轮次/答对双线计数；存档 v5 纯增量迁移 + 升级前一次性快照 | 孩子收集了很多星星，需要更多玩法与更长线的荣誉目标，且升级不能丢已有荣誉 |
+| 2026-11-13 | 新增 GitHub Release 在线自更新（`core/update.lua`）：设置里手动检查/升级，可选启动自动检查（默认关）；设备端 libarchive 解压、原子替换+回滚、重启生效；历史数据零影响；存档新增 `update_auto_check`/`update_api_url` 设置项 | 免去每次 USB 推送插件，升级不丢学习记录 |
+| 2026-11-13 | 今日总结 19:00 前每次点击二次确认；卡片新增攻击力/防守力/能力特点与 AI 生成灰度卡面；集卡册缩略图 + 卡片详情页；收藏力量为每日评分加成（每 200 点 +1，封顶 +10）；存档零改动 | 提醒孩子先练习再总结，提升集卡玩法的可见性与长线目标 |
+| 2026-11-13 | 更新下载改为非阻塞分片下载：实时进度条（已下载/总大小/百分比）、不设超时、随时可点「取消下载」；新增 `core/update_http.lua` 与 `ui/update_dialog.lua`；存档零改动 | 国内直连 GitHub 慢，旧版固定超时容易报错；下载节奏交给用户掌控 |
+| 2026-11-14 | 新增 `docs/AI_INSTALL_GUIDE.md`：AI 可执行的 Kindle 安装教程（越狱 → KOReader → 插件 → 推送 AI 配置），README 安装节加链接 | 其他用户想把插件装进自己的 Kindle，把教程发给自己的 AI 即可逐步照做 |
+| 2026-11-14 | 卡池扩至 48 张（SS×10、SSS×8，新增白泽/鲲鹏/玉兔/獬豸/天马与星辰进阶形态）；抽卡改为每次智能抽 1 张：优先未收集卡，等级集齐后按权重转到有新卡的等级（SSS 门槛不变），全收集后才出重复；新增 10 张卡面已生成，且全部 49 张卡面按 8 级灰度 + 3×3 中值滤波统一重处理（总量 3.0MB → 1.1MB），`build_card_art.py` 支持 `--ids`/`--colors`/`--smooth`/`--allow-missing` | 一次 3 张消耗卡池太快，单抽 + 新卡优先延长收集目标 |

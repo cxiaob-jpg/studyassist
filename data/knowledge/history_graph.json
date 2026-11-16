@@ -1,0 +1,2046 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "history",
+  "nodes": [
+    {
+      "id": "cnh_j001",
+      "name": "远古时期的人类活动",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 史前时期：原始社会与中华文明的起源",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j002",
+      "name": "原始农业与史前社会",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 史前时期：原始社会与中华文明的起源",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j003",
+      "name": "中华文明的起源",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 史前时期：原始社会与中华文明的起源",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j004",
+      "name": "夏商西周王朝的更替",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j005",
+      "name": "动荡变化中的春秋时期",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j006",
+      "name": "战国时期的社会变革",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j007",
+      "name": "百家争鸣",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j008",
+      "name": "夏商周时期的科技与文化",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j009",
+      "name": "秦统一中国",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j010",
+      "name": "秦末农民大起义",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j011",
+      "name": "西汉建立和“文景之治”",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j012",
+      "name": "大一统王朝的巩固",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j013",
+      "name": "东汉的兴衰",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j014",
+      "name": "丝绸之路的开通与经营西域",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j015",
+      "name": "秦汉时期的科技与文化",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j016",
+      "name": "三国鼎立",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j017",
+      "name": "西晋的短暂统一和北方各族的内迁",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j018",
+      "name": "东晋南朝政治和江南地区开发",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j019",
+      "name": "北朝政治和北方民族大交融",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j020",
+      "name": "三国两晋南北朝时期的科技与文化",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j021",
+      "name": "从考古发现看中华文明的起源与形成",
+      "grade": 7,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 三国两晋南北朝时期：孕育统一和民族交融",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j022",
+      "name": "隋朝统一与灭亡",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j023",
+      "name": "唐朝建立与“贞观之治”",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j024",
+      "name": "“开元盛世”",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j025",
+      "name": "安史之乱与唐朝衰亡",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j026",
+      "name": "隋唐时期的民族交往与交融",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j027",
+      "name": "隋唐时期的中外文化交流",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j028",
+      "name": "隋唐时期的科技与文化",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 隋唐时期：繁荣与开放的时代",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j029",
+      "name": "北宋的政治",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j030",
+      "name": "辽、西夏与北宋并立",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j031",
+      "name": "金与南宋对峙",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j032",
+      "name": "元朝的建立与统一",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j033",
+      "name": "辽宋夏金元时期经济的繁荣",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j034",
+      "name": "辽宋夏金元时期的对外交流",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j035",
+      "name": "辽宋夏金元时期的科技与文化",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j036",
+      "name": "明朝的统治",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j037",
+      "name": "明朝的对外关系",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j038",
+      "name": "明朝的灭亡和清朝的建立",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j039",
+      "name": "清朝的边疆治理",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j040",
+      "name": "清朝君主专制的强化",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j041",
+      "name": "明清时期社会经济的发展",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j042",
+      "name": "明清时期的科技与文化",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j043",
+      "name": "我国传统节日的起源与传承",
+      "grade": 7,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "domain": "中国古代史"
+    },
+    {
+      "id": "cnh_j044",
+      "name": "鸦片战争",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 中国开始沦为半殖民地半封建社会",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j045",
+      "name": "第二次鸦片战争",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 中国开始沦为半殖民地半封建社会",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j046",
+      "name": "太平天国运动",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 中国开始沦为半殖民地半封建社会",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j047",
+      "name": "洋务运动和边疆危机",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 早期现代化的初步探索和民族危机加剧",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j048",
+      "name": "甲午中日战争与列强瓜分中国狂潮",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 早期现代化的初步探索和民族危机加剧",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j049",
+      "name": "戊戌变法",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 早期现代化的初步探索和民族危机加剧",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j050",
+      "name": "义和团运动和八国联军侵华",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 早期现代化的初步探索和民族危机加剧",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j051",
+      "name": "中国同盟会",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 资产阶级民主革命与中华民国的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j052",
+      "name": "辛亥革命",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 资产阶级民主革命与中华民国的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j053",
+      "name": "帝制复辟与军阀割据",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 资产阶级民主革命与中华民国的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j054",
+      "name": "五四运动",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 新民主主义革命的兴起",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j055",
+      "name": "中国共产党诞生",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 新民主主义革命的兴起",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j056",
+      "name": "国共合作与北伐战争",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u5",
+      "unit_name": "第5单元 从国共合作到农村革命根据地的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j057",
+      "name": "毛泽东开辟井冈山道路",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u5",
+      "unit_name": "第5单元 从国共合作到农村革命根据地的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j058",
+      "name": "中国工农红军长征与遵义会议",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u5",
+      "unit_name": "第5单元 从国共合作到农村革命根据地的建立",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j059",
+      "name": "从九一八事变到西安事变",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 中华民族的抗日战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j060",
+      "name": "七七事变与全民族抗战",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 中华民族的抗日战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j061",
+      "name": "全民族抗战中的正面战场和敌后战场",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 中华民族的抗日战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j062",
+      "name": "抗日战争的胜利",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 中华民族的抗日战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j063",
+      "name": "国民党挑起内战",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 人民解放战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j064",
+      "name": "人民解放战争的胜利",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 人民解放战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j065",
+      "name": "探寻红色文化的历史基因",
+      "grade": 8,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 人民解放战争",
+      "domain": "中国近代史"
+    },
+    {
+      "id": "cnh_j066",
+      "name": "中华人民共和国成立",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 中华人民共和国成立和社会主义制度建立",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j067",
+      "name": "巩固人民民主政权",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 中华人民共和国成立和社会主义制度建立",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j068",
+      "name": "社会主义制度建立",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 中华人民共和国成立和社会主义制度建立",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j069",
+      "name": "独立自主的和平外交",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 中华人民共和国成立和社会主义制度建立",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j070",
+      "name": "艰辛探索与曲折发展",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 社会主义建设道路的探索",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j071",
+      "name": "社会主义建设的巨大成就和先锋模范",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 社会主义建设道路的探索",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j072",
+      "name": "国防现代化起步和外交工作新突破",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 社会主义建设道路的探索",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j073",
+      "name": "伟大的历史转折",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 改革开放与中国特色社会主义的开创",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j074",
+      "name": "改革开放的起步",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 改革开放与中国特色社会主义的开创",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j075",
+      "name": "改革开放和社会主义现代化建设的全面展开",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 改革开放与中国特色社会主义的开创",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j076",
+      "name": "社会主义初级阶段基本路线",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 改革开放与中国特色社会主义的开创",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j077",
+      "name": "加快改革开放和社会主义现代化建设步伐",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 中国特色社会主义迈向21世纪",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j078",
+      "name": "中国特色社会主义事业取得新成就",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 中国特色社会主义迈向21世纪",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j079",
+      "name": "国防和外交工作新局面",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 中国特色社会主义迈向21世纪",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j080",
+      "name": "开始全面建设小康社会",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 在新形势下坚持和发展中国特色社会主义",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j081",
+      "name": "夺取全面建设小康社会新胜利",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 在新形势下坚持和发展中国特色社会主义",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j082",
+      "name": "推进国防军队建设和外交工作",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 在新形势下坚持和发展中国特色社会主义",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j083",
+      "name": "擘画中国梦宏伟蓝图",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 中国特色社会主义进入新时代",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j084",
+      "name": "决胜全面建成小康社会",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 中国特色社会主义进入新时代",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j085",
+      "name": "维护国家安全和推进祖国统一",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 中国特色社会主义进入新时代",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j086",
+      "name": "构建人类命运共同体与中国特色大国外交",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 中国特色社会主义进入新时代",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j087",
+      "name": "实现第一个百年奋斗目标",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u7",
+      "unit_name": "第7单元 全面建设社会主义现代化国家",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j088",
+      "name": "开启全面建设社会主义现代化国家新征程",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u7",
+      "unit_name": "第7单元 全面建设社会主义现代化国家",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j089",
+      "name": "新时代社会生活的巨大变化",
+      "grade": 8,
+      "semester": "lower",
+      "unit": "u7",
+      "unit_name": "第7单元 全面建设社会主义现代化国家",
+      "domain": "中国现代史"
+    },
+    {
+      "id": "cnh_j090",
+      "name": "从原始社会到奴隶社会",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 文明的产生和古代亚非文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j091",
+      "name": "古代两河流域",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 文明的产生和古代亚非文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j092",
+      "name": "古代埃及",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 文明的产生和古代亚非文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j093",
+      "name": "古代印度",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u1",
+      "unit_name": "第1单元 文明的产生和古代亚非文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j094",
+      "name": "古代希腊",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 古代欧洲文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j095",
+      "name": "古代罗马",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u2",
+      "unit_name": "第2单元 古代欧洲文明",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j096",
+      "name": "法兰克王国和西欧封建制度",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 封建时代的欧洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j097",
+      "name": "西欧的城市和大学",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 封建时代的欧洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j098",
+      "name": "拜占庭帝国",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u3",
+      "unit_name": "第3单元 封建时代的欧洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j099",
+      "name": "封建时代的日本",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 中古时期的亚洲、非洲和美洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j100",
+      "name": "阿拉伯帝国",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 中古时期的亚洲、非洲和美洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j101",
+      "name": "中古时期的非洲和美洲",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u4",
+      "unit_name": "第4单元 中古时期的亚洲、非洲和美洲",
+      "domain": "世界古代史"
+    },
+    {
+      "id": "cnh_j102",
+      "name": "西欧经济社会发展与文艺复兴运动",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j104",
+      "name": "早期殖民掠夺",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j105",
+      "name": "英国资产阶级革命",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 资本主义制度的初步确立",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j106",
+      "name": "美国的独立",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 资本主义制度的初步确立",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j107",
+      "name": "法国大革命和拿破仑帝国",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u6",
+      "unit_name": "第6单元 资本主义制度的初步确立",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j108",
+      "name": "第一次工业革命",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 第一次工业革命和马克思主义的诞生",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j109",
+      "name": "马克思主义的诞生",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 第一次工业革命和马克思主义的诞生",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j110",
+      "name": "第一国际和巴黎公社",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 第一次工业革命和马克思主义的诞生",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j111",
+      "name": "唱响“国际歌”",
+      "grade": 9,
+      "semester": "upper",
+      "unit": "u7",
+      "unit_name": "第7单元 第一次工业革命和马克思主义的诞生",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j112",
+      "name": "殖民地人民的反抗斗争",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j113",
+      "name": "俄国的改革",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j114",
+      "name": "美国内战",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j115",
+      "name": "日本明治维新",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j116",
+      "name": "第二次工业革命",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j117",
+      "name": "工业化国家的社会变化",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j118",
+      "name": "近代科学与文化",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "domain": "世界近代史"
+    },
+    {
+      "id": "cnh_j119",
+      "name": "第一次世界大战",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j120",
+      "name": "列宁与十月革命",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j121",
+      "name": "《凡尔赛条约》和《九国公约》",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j122",
+      "name": "苏联的社会主义建设",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j123",
+      "name": "亚非拉民族民主运动的高涨",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j124",
+      "name": "罗斯福新政",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j125",
+      "name": "法西斯国家的侵略扩张",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j126",
+      "name": "第二次世界大战",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j127",
+      "name": "冷战",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j128",
+      "name": "二战后资本主义的新变化",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j129",
+      "name": "社会主义的发展与挫折",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j130",
+      "name": "亚非拉国家的新发展",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j131",
+      "name": "联合国与世界贸易组织",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j132",
+      "name": "冷战后的世界格局",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j133",
+      "name": "不断发展的现代社会",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "domain": "世界现代史"
+    },
+    {
+      "id": "cnh_j134",
+      "name": "时事溯源",
+      "grade": 9,
+      "semester": "lower",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "domain": "世界现代史"
+    }
+  ],
+  "edges": [
+    {
+      "from": "cnh_j002",
+      "to": "cnh_j001",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「远古时期的人类活动」，再学「原始农业与史前社会」。"
+    },
+    {
+      "from": "cnh_j003",
+      "to": "cnh_j002",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「原始农业与史前社会」，再学「中华文明的起源」。"
+    },
+    {
+      "from": "cnh_j004",
+      "to": "cnh_j003",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中华文明的起源」，再学「夏商西周王朝的更替」。"
+    },
+    {
+      "from": "cnh_j005",
+      "to": "cnh_j004",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「夏商西周王朝的更替」，再学「动荡变化中的春秋时期」。"
+    },
+    {
+      "from": "cnh_j006",
+      "to": "cnh_j005",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「动荡变化中的春秋时期」，再学「战国时期的社会变革」。"
+    },
+    {
+      "from": "cnh_j007",
+      "to": "cnh_j006",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「战国时期的社会变革」，再学「百家争鸣」。"
+    },
+    {
+      "from": "cnh_j008",
+      "to": "cnh_j007",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「百家争鸣」，再学「夏商周时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j009",
+      "to": "cnh_j008",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「夏商周时期的科技与文化」，再学「秦统一中国」。"
+    },
+    {
+      "from": "cnh_j010",
+      "to": "cnh_j009",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「秦统一中国」，再学「秦末农民大起义」。"
+    },
+    {
+      "from": "cnh_j013",
+      "to": "cnh_j012",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「大一统王朝的巩固」，再学「东汉的兴衰」。"
+    },
+    {
+      "from": "cnh_j014",
+      "to": "cnh_j013",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「东汉的兴衰」，再学「丝绸之路的开通与经营西域」。"
+    },
+    {
+      "from": "cnh_j015",
+      "to": "cnh_j014",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「丝绸之路的开通与经营西域」，再学「秦汉时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j016",
+      "to": "cnh_j015",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「秦汉时期的科技与文化」，再学「三国鼎立」。"
+    },
+    {
+      "from": "cnh_j017",
+      "to": "cnh_j016",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「三国鼎立」，再学「西晋的短暂统一和北方各族的内迁」。"
+    },
+    {
+      "from": "cnh_j018",
+      "to": "cnh_j017",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「西晋的短暂统一和北方各族的内迁」，再学「东晋南朝政治和江南地区开发」。"
+    },
+    {
+      "from": "cnh_j019",
+      "to": "cnh_j018",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「东晋南朝政治和江南地区开发」，再学「北朝政治和北方民族大交融」。"
+    },
+    {
+      "from": "cnh_j020",
+      "to": "cnh_j019",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「北朝政治和北方民族大交融」，再学「三国两晋南北朝时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j021",
+      "to": "cnh_j020",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「三国两晋南北朝时期的科技与文化」，再学「从考古发现看中华文明的起源与形成」。"
+    },
+    {
+      "from": "cnh_j022",
+      "to": "cnh_j021",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「从考古发现看中华文明的起源与形成」，再学「隋朝统一与灭亡」。"
+    },
+    {
+      "from": "cnh_j023",
+      "to": "cnh_j022",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「隋朝统一与灭亡」，再学「唐朝建立与“贞观之治”」。"
+    },
+    {
+      "from": "cnh_j026",
+      "to": "cnh_j025",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「安史之乱与唐朝衰亡」，再学「隋唐时期的民族交往与交融」。"
+    },
+    {
+      "from": "cnh_j027",
+      "to": "cnh_j026",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「隋唐时期的民族交往与交融」，再学「隋唐时期的中外文化交流」。"
+    },
+    {
+      "from": "cnh_j028",
+      "to": "cnh_j027",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「隋唐时期的中外文化交流」，再学「隋唐时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j029",
+      "to": "cnh_j028",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「隋唐时期的科技与文化」，再学「北宋的政治」。"
+    },
+    {
+      "from": "cnh_j030",
+      "to": "cnh_j029",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「北宋的政治」，再学「辽、西夏与北宋并立」。"
+    },
+    {
+      "from": "cnh_j031",
+      "to": "cnh_j030",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「辽、西夏与北宋并立」，再学「金与南宋对峙」。"
+    },
+    {
+      "from": "cnh_j032",
+      "to": "cnh_j031",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「金与南宋对峙」，再学「元朝的建立与统一」。"
+    },
+    {
+      "from": "cnh_j033",
+      "to": "cnh_j032",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「元朝的建立与统一」，再学「辽宋夏金元时期经济的繁荣」。"
+    },
+    {
+      "from": "cnh_j034",
+      "to": "cnh_j033",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「辽宋夏金元时期经济的繁荣」，再学「辽宋夏金元时期的对外交流」。"
+    },
+    {
+      "from": "cnh_j035",
+      "to": "cnh_j034",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「辽宋夏金元时期的对外交流」，再学「辽宋夏金元时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j036",
+      "to": "cnh_j035",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「辽宋夏金元时期的科技与文化」，再学「明朝的统治」。"
+    },
+    {
+      "from": "cnh_j037",
+      "to": "cnh_j036",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「明朝的统治」，再学「明朝的对外关系」。"
+    },
+    {
+      "from": "cnh_j038",
+      "to": "cnh_j037",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「明朝的对外关系」，再学「明朝的灭亡和清朝的建立」。"
+    },
+    {
+      "from": "cnh_j039",
+      "to": "cnh_j038",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「明朝的灭亡和清朝的建立」，再学「清朝的边疆治理」。"
+    },
+    {
+      "from": "cnh_j040",
+      "to": "cnh_j039",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「清朝的边疆治理」，再学「清朝君主专制的强化」。"
+    },
+    {
+      "from": "cnh_j041",
+      "to": "cnh_j040",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「清朝君主专制的强化」，再学「明清时期社会经济的发展」。"
+    },
+    {
+      "from": "cnh_j042",
+      "to": "cnh_j041",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「明清时期社会经济的发展」，再学「明清时期的科技与文化」。"
+    },
+    {
+      "from": "cnh_j043",
+      "to": "cnh_j042",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「明清时期的科技与文化」，再学「我国传统节日的起源与传承」。"
+    },
+    {
+      "from": "cnh_j044",
+      "to": "cnh_j043",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「我国传统节日的起源与传承」，再学「鸦片战争」。"
+    },
+    {
+      "from": "cnh_j046",
+      "to": "cnh_j045",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「第二次鸦片战争」，再学「太平天国运动」。"
+    },
+    {
+      "from": "cnh_j047",
+      "to": "cnh_j046",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「太平天国运动」，再学「洋务运动和边疆危机」。"
+    },
+    {
+      "from": "cnh_j048",
+      "to": "cnh_j047",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「洋务运动和边疆危机」，再学「甲午中日战争与列强瓜分中国狂潮」。"
+    },
+    {
+      "from": "cnh_j049",
+      "to": "cnh_j048",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「甲午中日战争与列强瓜分中国狂潮」，再学「戊戌变法」。"
+    },
+    {
+      "from": "cnh_j050",
+      "to": "cnh_j049",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「戊戌变法」，再学「义和团运动和八国联军侵华」。"
+    },
+    {
+      "from": "cnh_j051",
+      "to": "cnh_j050",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「义和团运动和八国联军侵华」，再学「中国同盟会」。"
+    },
+    {
+      "from": "cnh_j053",
+      "to": "cnh_j052",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「辛亥革命」，再学「帝制复辟与军阀割据」。"
+    },
+    {
+      "from": "cnh_j054",
+      "to": "cnh_j053",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「帝制复辟与军阀割据」，再学「五四运动」。"
+    },
+    {
+      "from": "cnh_j056",
+      "to": "cnh_j055",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中国共产党诞生」，再学「国共合作与北伐战争」。"
+    },
+    {
+      "from": "cnh_j057",
+      "to": "cnh_j056",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「国共合作与北伐战争」，再学「毛泽东开辟井冈山道路」。"
+    },
+    {
+      "from": "cnh_j059",
+      "to": "cnh_j058",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中国工农红军长征与遵义会议」，再学「从九一八事变到西安事变」。"
+    },
+    {
+      "from": "cnh_j061",
+      "to": "cnh_j060",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「七七事变与全民族抗战」，再学「全民族抗战中的正面战场和敌后战场」。"
+    },
+    {
+      "from": "cnh_j062",
+      "to": "cnh_j061",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「全民族抗战中的正面战场和敌后战场」，再学「抗日战争的胜利」。"
+    },
+    {
+      "from": "cnh_j063",
+      "to": "cnh_j062",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「抗日战争的胜利」，再学「国民党挑起内战」。"
+    },
+    {
+      "from": "cnh_j065",
+      "to": "cnh_j064",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「人民解放战争的胜利」，再学「探寻红色文化的历史基因」。"
+    },
+    {
+      "from": "cnh_j066",
+      "to": "cnh_j065",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「探寻红色文化的历史基因」，再学「中华人民共和国成立」。"
+    },
+    {
+      "from": "cnh_j067",
+      "to": "cnh_j066",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中华人民共和国成立」，再学「巩固人民民主政权」。"
+    },
+    {
+      "from": "cnh_j068",
+      "to": "cnh_j067",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「巩固人民民主政权」，再学「社会主义制度建立」。"
+    },
+    {
+      "from": "cnh_j069",
+      "to": "cnh_j068",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「社会主义制度建立」，再学「独立自主的和平外交」。"
+    },
+    {
+      "from": "cnh_j070",
+      "to": "cnh_j069",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「独立自主的和平外交」，再学「艰辛探索与曲折发展」。"
+    },
+    {
+      "from": "cnh_j071",
+      "to": "cnh_j070",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「艰辛探索与曲折发展」，再学「社会主义建设的巨大成就和先锋模范」。"
+    },
+    {
+      "from": "cnh_j072",
+      "to": "cnh_j071",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「社会主义建设的巨大成就和先锋模范」，再学「国防现代化起步和外交工作新突破」。"
+    },
+    {
+      "from": "cnh_j073",
+      "to": "cnh_j072",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「国防现代化起步和外交工作新突破」，再学「伟大的历史转折」。"
+    },
+    {
+      "from": "cnh_j075",
+      "to": "cnh_j074",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「改革开放的起步」，再学「改革开放和社会主义现代化建设的全面展开」。"
+    },
+    {
+      "from": "cnh_j076",
+      "to": "cnh_j075",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「改革开放和社会主义现代化建设的全面展开」，再学「社会主义初级阶段基本路线」。"
+    },
+    {
+      "from": "cnh_j077",
+      "to": "cnh_j076",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「社会主义初级阶段基本路线」，再学「加快改革开放和社会主义现代化建设步伐」。"
+    },
+    {
+      "from": "cnh_j078",
+      "to": "cnh_j077",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「加快改革开放和社会主义现代化建设步伐」，再学「中国特色社会主义事业取得新成就」。"
+    },
+    {
+      "from": "cnh_j079",
+      "to": "cnh_j078",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中国特色社会主义事业取得新成就」，再学「国防和外交工作新局面」。"
+    },
+    {
+      "from": "cnh_j080",
+      "to": "cnh_j079",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「国防和外交工作新局面」，再学「开始全面建设小康社会」。"
+    },
+    {
+      "from": "cnh_j081",
+      "to": "cnh_j080",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「开始全面建设小康社会」，再学「夺取全面建设小康社会新胜利」。"
+    },
+    {
+      "from": "cnh_j082",
+      "to": "cnh_j081",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「夺取全面建设小康社会新胜利」，再学「推进国防军队建设和外交工作」。"
+    },
+    {
+      "from": "cnh_j083",
+      "to": "cnh_j082",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「推进国防军队建设和外交工作」，再学「擘画中国梦宏伟蓝图」。"
+    },
+    {
+      "from": "cnh_j084",
+      "to": "cnh_j083",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「擘画中国梦宏伟蓝图」，再学「决胜全面建成小康社会」。"
+    },
+    {
+      "from": "cnh_j085",
+      "to": "cnh_j084",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「决胜全面建成小康社会」，再学「维护国家安全和推进祖国统一」。"
+    },
+    {
+      "from": "cnh_j086",
+      "to": "cnh_j085",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「维护国家安全和推进祖国统一」，再学「构建人类命运共同体与中国特色大国外交」。"
+    },
+    {
+      "from": "cnh_j087",
+      "to": "cnh_j086",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「构建人类命运共同体与中国特色大国外交」，再学「实现第一个百年奋斗目标」。"
+    },
+    {
+      "from": "cnh_j088",
+      "to": "cnh_j087",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「实现第一个百年奋斗目标」，再学「开启全面建设社会主义现代化国家新征程」。"
+    },
+    {
+      "from": "cnh_j089",
+      "to": "cnh_j088",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「开启全面建设社会主义现代化国家新征程」，再学「新时代社会生活的巨大变化」。"
+    },
+    {
+      "from": "cnh_j090",
+      "to": "cnh_j089",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「新时代社会生活的巨大变化」，再学「从原始社会到奴隶社会」。"
+    },
+    {
+      "from": "cnh_j091",
+      "to": "cnh_j090",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「从原始社会到奴隶社会」，再学「古代两河流域」。"
+    },
+    {
+      "from": "cnh_j092",
+      "to": "cnh_j091",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「古代两河流域」，再学「古代埃及」。"
+    },
+    {
+      "from": "cnh_j093",
+      "to": "cnh_j092",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「古代埃及」，再学「古代印度」。"
+    },
+    {
+      "from": "cnh_j094",
+      "to": "cnh_j093",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「古代印度」，再学「古代希腊」。"
+    },
+    {
+      "from": "cnh_j095",
+      "to": "cnh_j094",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「古代希腊」，再学「古代罗马」。"
+    },
+    {
+      "from": "cnh_j096",
+      "to": "cnh_j095",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「古代罗马」，再学「法兰克王国和西欧封建制度」。"
+    },
+    {
+      "from": "cnh_j097",
+      "to": "cnh_j096",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「法兰克王国和西欧封建制度」，再学「西欧的城市和大学」。"
+    },
+    {
+      "from": "cnh_j098",
+      "to": "cnh_j097",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「西欧的城市和大学」，再学「拜占庭帝国」。"
+    },
+    {
+      "from": "cnh_j099",
+      "to": "cnh_j098",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「拜占庭帝国」，再学「封建时代的日本」。"
+    },
+    {
+      "from": "cnh_j100",
+      "to": "cnh_j099",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「封建时代的日本」，再学「阿拉伯帝国」。"
+    },
+    {
+      "from": "cnh_j101",
+      "to": "cnh_j100",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「阿拉伯帝国」，再学「中古时期的非洲和美洲」。"
+    },
+    {
+      "from": "cnh_j102",
+      "to": "cnh_j101",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「中古时期的非洲和美洲」，再学「西欧经济社会发展与文艺复兴运动」。"
+    },
+    {
+      "from": "cnh_j105",
+      "to": "cnh_j104",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「早期殖民掠夺」，再学「英国资产阶级革命」。"
+    },
+    {
+      "from": "cnh_j106",
+      "to": "cnh_j105",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「英国资产阶级革命」，再学「美国的独立」。"
+    },
+    {
+      "from": "cnh_j107",
+      "to": "cnh_j106",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「美国的独立」，再学「法国大革命和拿破仑帝国」。"
+    },
+    {
+      "from": "cnh_j108",
+      "to": "cnh_j107",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「法国大革命和拿破仑帝国」，再学「第一次工业革命」。"
+    },
+    {
+      "from": "cnh_j111",
+      "to": "cnh_j110",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「第一国际和巴黎公社」，再学「唱响“国际歌”」。"
+    },
+    {
+      "from": "cnh_j112",
+      "to": "cnh_j111",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「唱响“国际歌”」，再学「殖民地人民的反抗斗争」。"
+    },
+    {
+      "from": "cnh_j113",
+      "to": "cnh_j112",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「殖民地人民的反抗斗争」，再学「俄国的改革」。"
+    },
+    {
+      "from": "cnh_j114",
+      "to": "cnh_j113",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「俄国的改革」，再学「美国内战」。"
+    },
+    {
+      "from": "cnh_j115",
+      "to": "cnh_j114",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「美国内战」，再学「日本明治维新」。"
+    },
+    {
+      "from": "cnh_j116",
+      "to": "cnh_j115",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「日本明治维新」，再学「第二次工业革命」。"
+    },
+    {
+      "from": "cnh_j117",
+      "to": "cnh_j116",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「第二次工业革命」，再学「工业化国家的社会变化」。"
+    },
+    {
+      "from": "cnh_j118",
+      "to": "cnh_j117",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「工业化国家的社会变化」，再学「近代科学与文化」。"
+    },
+    {
+      "from": "cnh_j119",
+      "to": "cnh_j118",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「近代科学与文化」，再学「第一次世界大战」。"
+    },
+    {
+      "from": "cnh_j121",
+      "to": "cnh_j120",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「列宁与十月革命」，再学「《凡尔赛条约》和《九国公约》」。"
+    },
+    {
+      "from": "cnh_j122",
+      "to": "cnh_j121",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「《凡尔赛条约》和《九国公约》」，再学「苏联的社会主义建设」。"
+    },
+    {
+      "from": "cnh_j123",
+      "to": "cnh_j122",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「苏联的社会主义建设」，再学「亚非拉民族民主运动的高涨」。"
+    },
+    {
+      "from": "cnh_j124",
+      "to": "cnh_j123",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「亚非拉民族民主运动的高涨」，再学「罗斯福新政」。"
+    },
+    {
+      "from": "cnh_j125",
+      "to": "cnh_j124",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「罗斯福新政」，再学「法西斯国家的侵略扩张」。"
+    },
+    {
+      "from": "cnh_j128",
+      "to": "cnh_j127",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「冷战」，再学「二战后资本主义的新变化」。"
+    },
+    {
+      "from": "cnh_j129",
+      "to": "cnh_j128",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「二战后资本主义的新变化」，再学「社会主义的发展与挫折」。"
+    },
+    {
+      "from": "cnh_j130",
+      "to": "cnh_j129",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「社会主义的发展与挫折」，再学「亚非拉国家的新发展」。"
+    },
+    {
+      "from": "cnh_j131",
+      "to": "cnh_j130",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「亚非拉国家的新发展」，再学「联合国与世界贸易组织」。"
+    },
+    {
+      "from": "cnh_j132",
+      "to": "cnh_j131",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「联合国与世界贸易组织」，再学「冷战后的世界格局」。"
+    },
+    {
+      "from": "cnh_j133",
+      "to": "cnh_j132",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「冷战后的世界格局」，再学「不断发展的现代社会」。"
+    },
+    {
+      "from": "cnh_j134",
+      "to": "cnh_j133",
+      "strength": "soft",
+      "reason": "按统编版历史的教学顺序，先学「不断发展的现代社会」，再学「时事溯源」。"
+    },
+    {
+      "from": "cnh_j009",
+      "to": "cnh_j006",
+      "strength": "hard",
+      "reason": "秦统一中国，建立在战国时期秦国变法图强的基础上。"
+    },
+    {
+      "from": "cnh_j011",
+      "to": "cnh_j010",
+      "strength": "hard",
+      "reason": "西汉的建立，直接承接秦末农民大起义和秦朝灭亡。"
+    },
+    {
+      "from": "cnh_j012",
+      "to": "cnh_j011",
+      "strength": "hard",
+      "reason": "汉武帝巩固大一统，建立在西汉已经建立并出现文景之治的基础上。"
+    },
+    {
+      "from": "cnh_j014",
+      "to": "cnh_j012",
+      "strength": "hard",
+      "reason": "丝绸之路的开通，以汉武帝时期通西域、巩固统一为前提。"
+    },
+    {
+      "from": "cnh_j024",
+      "to": "cnh_j023",
+      "strength": "hard",
+      "reason": "开元盛世承接唐朝建立和贞观之治后的发展。"
+    },
+    {
+      "from": "cnh_j025",
+      "to": "cnh_j024",
+      "strength": "hard",
+      "reason": "安史之乱打断的是开元盛世以来的唐朝统治。"
+    },
+    {
+      "from": "cnh_j044",
+      "to": "cnh_j040",
+      "strength": "hard",
+      "reason": "鸦片战争前夜的清朝，已经处在君主专制强化之后的封建社会晚期。"
+    },
+    {
+      "from": "cnh_j045",
+      "to": "cnh_j044",
+      "strength": "hard",
+      "reason": "第二次鸦片战争是鸦片战争之后列强侵华的继续。"
+    },
+    {
+      "from": "cnh_j052",
+      "to": "cnh_j051",
+      "strength": "hard",
+      "reason": "辛亥革命由中国同盟会等革命党人推动。"
+    },
+    {
+      "from": "cnh_j055",
+      "to": "cnh_j054",
+      "strength": "hard",
+      "reason": "中国共产党诞生于五四运动之后，工人阶级队伍和马克思主义传播都已出现。"
+    },
+    {
+      "from": "cnh_j057",
+      "to": "cnh_j055",
+      "strength": "hard",
+      "reason": "井冈山道路是中国共产党成立后探索中国革命道路的结果。"
+    },
+    {
+      "from": "cnh_j058",
+      "to": "cnh_j057",
+      "strength": "hard",
+      "reason": "长征从农村革命根据地出发，遵义会议解决的是长征途中的路线问题。"
+    },
+    {
+      "from": "cnh_j060",
+      "to": "cnh_j059",
+      "strength": "hard",
+      "reason": "七七事变和全民族抗战，承接九一八事变以来的局部抗战和西安事变后的抗日局面。"
+    },
+    {
+      "from": "cnh_j062",
+      "to": "cnh_j060",
+      "strength": "hard",
+      "reason": "抗日战争的胜利，建立在七七事变后全民族抗战的基础上。"
+    },
+    {
+      "from": "cnh_j064",
+      "to": "cnh_j063",
+      "strength": "hard",
+      "reason": "人民解放战争的胜利，承接国民党发动全面内战之后的作战。"
+    },
+    {
+      "from": "cnh_j066",
+      "to": "cnh_j064",
+      "strength": "hard",
+      "reason": "中华人民共和国成立，承接人民解放战争的胜利。"
+    },
+    {
+      "from": "cnh_j068",
+      "to": "cnh_j066",
+      "strength": "hard",
+      "reason": "社会主义制度的建立，以中华人民共和国已经成立为前提。"
+    },
+    {
+      "from": "cnh_j074",
+      "to": "cnh_j073",
+      "strength": "hard",
+      "reason": "改革开放的起步，由十一届三中全会这个历史转折打开。"
+    },
+    {
+      "from": "cnh_j109",
+      "to": "cnh_j108",
+      "strength": "hard",
+      "reason": "马克思主义诞生的社会条件，包括第一次工业革命后资本主义的发展和工人运动。"
+    },
+    {
+      "from": "cnh_j110",
+      "to": "cnh_j109",
+      "strength": "hard",
+      "reason": "第一国际和巴黎公社，是马克思主义诞生之后国际工人运动的发展。"
+    },
+    {
+      "from": "cnh_j119",
+      "to": "cnh_j116",
+      "strength": "hard",
+      "reason": "第一次世界大战发生在第二次工业革命之后帝国主义争夺的背景中。"
+    },
+    {
+      "from": "cnh_j120",
+      "to": "cnh_j119",
+      "strength": "hard",
+      "reason": "十月革命发生在第一次世界大战期间的俄国。"
+    },
+    {
+      "from": "cnh_j126",
+      "to": "cnh_j125",
+      "strength": "hard",
+      "reason": "第二次世界大战由法西斯国家的侵略扩张直接引起。"
+    },
+    {
+      "from": "cnh_j127",
+      "to": "cnh_j126",
+      "strength": "hard",
+      "reason": "冷战是第二次世界大战结束后出现的美苏对峙。"
+    }
+  ]
+}

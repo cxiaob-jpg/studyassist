@@ -1,0 +1,621 @@
+-- Timestamp on the real current date at a fixed hour, so daily-key cleanup
+-- and record_answer (which use the real clock) stay aligned across describes.
+local function today_at(hour)
+    local t = os.date("*t")
+    t.hour = hour
+    t.min = 0
+    t.sec = 0
+    return os.time(t)
+end
+
+-- Record first-try correct math answers on the real current day.
+local function record_answers(progress, count, prefix)
+    for i = 1, count do
+        progress:record_answer({
+            id = string.format("%s-%d", prefix or "ui-gate", i),
+            subject = "math", semester = "upper", unit = "m2",
+            type = "math_number", skill = "add_sub", difficulty = 1,
+            answer_mode = "number", stem = "1 + 1 = ?", answer = 2, explain = "1 + 1 = 2。",
+        }, { attempt = 1, correct = true })
+    end
+end
+
+describe("StudyAssist UI smoke", function()
+    local DataStorage
+    local Device
+    local MainView
+    local AIBank
+    local view
+    local ai_bank_path
+
+    setup(function()
+        require("commonrequire")
+        package.path = "plugins/studyassist.koplugin/?.lua;" .. package.path
+        DataStorage = require("datastorage")
+        Device = require("device")
+        MainView = require("ui/mainview")
+        AIBank = require("core.ai_bank")
+    end)
+
+    before_each(function()
+        ai_bank_path = DataStorage:getDataDir() .. "/studyassist_ui_ai_bank_spec.json"
+        os.remove(ai_bank_path)
+        os.remove(ai_bank_path .. ".bad")
+        os.remove(ai_bank_path .. ".tmp")
+        view = MainView:new{
+            plugin_path = "./plugins/studyassist.koplugin",
+            plugin = {},
+        }
+        view.ai_bank = AIBank.open(ai_bank_path)
+    end)
+
+    after_each(function()
+        os.remove(ai_bank_path)
+        os.remove(ai_bank_path .. ".bad")
+        os.remove(ai_bank_path .. ".tmp")
+    end)
+
+    it("builds every top-level page", function()
+        assert.are.equal("home", view.state)
+        view:render_unit_select("chinese")
+        assert.are.equal("unit_select", view.state)
+        view:render_settings()
+        assert.are.equal("settings", view.state)
+        view:render_badges()
+        assert.are.equal("badges", view.state)
+        view:render_wrongbook()
+        assert.are.equal("wrongbook", view.state)
+        view:render_home()
+        assert.are.equal("home", view.state)
+    end)
+
+    it("runs a math question through quiz and feedback pages", function()
+        view:start_session({ mode = "subject", subject = "math", unit = "m2" })
+        assert.are.equal("quiz", view.state)
+        local q = view.session:current()
+        assert.is_not_nil(q)
+        view:submit_answer(q.answer)
+        assert.are.equal("feedback", view.state)
+        assert.is_true(view.feedback.correct)
+        view:next_question()
+        assert.are.equal("quiz", view.state)
+    end)
+
+    it("builds a math challenge page", function()
+        view:start_session({ mode = "challenge", subject = "math", unit = "all" })
+        assert.are.equal("quiz", view.state)
+        local q = view.session:current()
+        assert.is_true(q.challenge)
+        assert.is_string(q.competency)
+    end)
+
+    it("builds a Chinese quiz page with the real bank", function()
+        view:start_session({ mode = "subject", subject = "chinese", unit = "u1" })
+        assert.are.equal("quiz", view.state)
+        local q = view.session:current()
+        assert.are.equal("chinese", q.subject)
+        assert.are.equal(4, #q.options)
+    end)
+
+    it("opens province, grade and textbook selectors", function()
+        view:render_settings()
+        assert.are.equal("settings", view.state)
+        view:render_province_select()
+        assert.are.equal("choice_list", view.state)
+        view:render_grade_select()
+        assert.are.equal("choice_list", view.state)
+        view:render_edition_select("chinese")
+        assert.are.equal("choice_list", view.state)
+        view:render_edition_select("math")
+        assert.are.equal("choice_list", view.state)
+    end)
+
+    it("runs grade-one Chinese and grade-six math questions", function()
+        view.progress.data.settings.grade = 1
+        view.progress.data.settings.semester = "upper"
+        view:start_session({ mode = "subject", subject = "chinese", unit = "all" })
+        assert.are.equal("quiz", view.state)
+        assert.are.equal(1, view.session:current().grade)
+
+        view.progress.data.settings.grade = 6
+        view.progress.data.settings.math_edition = "renjiao"
+        view:start_session({ mode = "subject", subject = "math", unit = "all" })
+        assert.are.equal("quiz", view.state)
+        assert.are.equal(6, view.session:current().grade)
+    end)
+
+    it("builds AI settings, bank and wrong-detail AI entries", function()
+        view:render_ai_settings()
+        assert.are.equal("ai_settings", view.state)
+        view:render_ai_preset_select()
+        assert.are.equal("choice_list", view.state)
+        view:render_ai_bank()
+        assert.are.equal("ai_bank", view.state)
+        local item = {
+            id = "wrong-ai-ui", subject = "math", grade = 4, semester = "upper",
+            edition = "renjiao", unit = "m2", unit_name = "测试单元",
+            type = "math_choice", skill = "add_sub", difficulty = 2,
+            answer_mode = "choice", stem = "1 + 1 = ?", options = { "1", "2", "3", "4" },
+            answer = 2, explain = "1 + 1 = 2。",
+        }
+        view:render_wrong_detail(item)
+        assert.are.equal("wrong_detail", view.state)
+    end)
+
+    local function find_button(widget, needle)
+        if type(widget) ~= "table" then return nil end
+        if type(widget.text) == "string" and widget.text:find(needle, 1, true) and widget.callback then
+            return widget
+        end
+        for i = 1, #widget do
+            local found = find_button(widget[i], needle)
+            if found then return found end
+        end
+        return nil
+    end
+
+    it("enters AI settings from the settings page", function()
+        view:render_settings()
+        local button = assert(find_button(view.body, "AI 出题"))
+        button.callback()
+        assert.are.equal("ai_settings", view.state)
+    end)
+
+    it("paints settings and AI settings as full-screen pages", function()
+        view:render_settings()
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:render_ai_settings()
+        local settings_scroll = view.body[1]
+        assert.is_not_nil(settings_scroll[1])
+        view:paintTo(Device.screen.bb, 0, 0)
+        assert.are.equal("ai_settings", view.state)
+
+        view:render_ai_bank()
+        local bank_scroll = view.body[1]
+        assert.is_not_nil(bank_scroll[1])
+        view:paintTo(Device.screen.bb, 0, 0)
+        assert.are.equal("ai_bank", view.state)
+    end)
+
+    it("previews a stored AI variant group", function()
+        view.ai_bank:add_group({
+            id = "aig-ui-1", created_at = 1760000000,
+            provider = { name = "DeepSeek", model = "deepseek-chat" },
+            origins = { { id = "wrong-ai-ui", subject = "math", stem = "1 + 1 = ?" } },
+            questions = {
+                {
+                    id = "aig-ui-1-q1", origin_id = "wrong-ai-ui", ai_generated = true,
+                    subject = "math", grade = 4, unit = "m2", unit_name = "测试单元",
+                    type = "math_choice", skill = "add_sub", difficulty = 2,
+                    answer_mode = "choice", stem = "2 + 2 = ?", options = { "3", "4", "5", "6" },
+                    answer = 2, explain = "2 + 2 = 4。",
+                },
+            },
+        })
+        view:render_ai_preview("aig-ui-1")
+        assert.are.equal("ai_preview", view.state)
+    end)
+
+    it("reflects the selected grade and textbook labels", function()
+        view.progress.data.settings.grade = 4
+        view.progress.data.settings.math_edition = "sujiao"
+        assert.are.equal("四年级", view:grade_label())
+        assert.are.equal("苏教版", view:edition_name("math"))
+        assert.is_truthy(view:course_label():find("四年级", 1, true))
+        assert.is_truthy(view:course_label():find("苏教版", 1, true))
+    end)
+end)
+
+describe("StudyAssist knowledge UI smoke", function()
+    local DataStorage
+    local MainView
+    local AIBank
+    local view
+    local ai_bank_path
+
+    setup(function()
+        require("commonrequire")
+        package.path = "plugins/studyassist.koplugin/?.lua;" .. package.path
+        DataStorage = require("datastorage")
+        MainView = require("ui/mainview")
+        AIBank = require("core.ai_bank")
+    end)
+
+    before_each(function()
+        ai_bank_path = DataStorage:getDataDir() .. "/studyassist_ui_kp_spec_ai_bank.json"
+        os.remove(ai_bank_path)
+        view = MainView:new{
+            plugin_path = "./plugins/studyassist.koplugin",
+            plugin = {},
+        }
+        view.ai_bank = AIBank.open(ai_bank_path)
+    end)
+
+    after_each(function()
+        os.remove(ai_bank_path)
+        os.remove(ai_bank_path .. ".bad")
+        os.remove(ai_bank_path .. ".tmp")
+    end)
+
+    it("builds the knowledge pages", function()
+        view:render_kp_subject()
+        assert.are.equal("kp_subject", view.state)
+        view:render_kp_select("math")
+        assert.are.equal("kp_select", view.state)
+        view:render_kp_select("chinese")
+        assert.are.equal("kp_select", view.state)
+        view:render_kp_learn("math", "cnm_p001")
+        assert.are.equal("kp_learn", view.state)
+    end)
+
+    it("runs a knowledge practice session to the summary", function()
+        view:start_kp_practice("math", "cnm_p001")
+        assert.are.equal("quiz", view.state)
+        assert.are.equal("kp", view.session.mode)
+        assert.are.equal(4, view.session:total())
+        for i = 1, 4 do
+            local q = view.session:current()
+            view:submit_answer(q.answer)
+            assert.are.equal("feedback", view.state)
+            view:next_question()
+        end
+        assert.are.equal("summary", view.state)
+        assert.is_not_nil(view.summary.kp_statuses)
+    end)
+
+    it("builds a mixed knowledge session for Chinese", function()
+        view:start_kp_mixed("chinese")
+        assert.are.equal("quiz", view.state)
+        assert.are.equal(10, view.session:total())
+        for _, q in ipairs(view.session.questions) do
+            assert.are.equal("chinese", q.subject)
+            assert.is_string(q.topic)
+        end
+    end)
+
+    it("runs a diagnosis to the result page and persists mastery", function()
+        view:start_diagnose("math", "cnm_p001")
+        assert.are.equal("diagnose_quiz", view.state)
+        local guard = 0
+        while view.state ~= "diagnose_result" and guard < 20 do
+            guard = guard + 1
+            if view.state == "diagnose_quiz" then
+                local q = view.diagnose_item.question
+                view:submit_answer(q.answer)
+                assert.are.equal("diagnose_feedback", view.state)
+            elseif view.state == "diagnose_feedback" then
+                view:diagnose_next()
+            else
+                break
+            end
+        end
+        assert.are.equal("diagnose_result", view.state)
+        assert.are.equal("mastered", view.progress:kp_status("math", "cnm_p001"))
+    end)
+
+    it("builds the extended keypad for a fraction question", function()
+        view:start_session({
+            mode = "kp",
+            subject = "math",
+            kp_topic = "cnm_p079",
+            kp_questions = {
+                {
+                    id = "cnm_p079_q2", topic = "cnm_p079", subject = "math",
+                    grade = 3, semester = "upper", unit = "u1",
+                    unit_name = "分数的初步认识", type = "knowledge", skill = "数与代数",
+                    difficulty = 1, answer_mode = "number", answer_format = "fraction",
+                    stem = "每份是多少？", answer = "1/4", explain = "平均分成 4 份。",
+                },
+            },
+        })
+        assert.are.equal("quiz", view.state)
+        assert.are.equal("fraction", view.session:current().answer_format)
+        view:submit_answer("0.25")
+        assert.are.equal("feedback", view.state)
+        assert.is_true(view.feedback.correct)
+    end)
+    it("paints the knowledge pages full-screen", function()
+        local Device = require("device")
+        view:render_kp_select("math")
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:render_kp_learn("math", "cnm_p001")
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:start_diagnose("math", "cnm_p001")
+        view:paintTo(Device.screen.bb, 0, 0)
+        assert.are.equal("diagnose_quiz", view.state)
+        local q = view.diagnose_item.question
+        view:submit_answer(q.answer)
+        view:paintTo(Device.screen.bb, 0, 0)
+        assert.are.equal("diagnose_feedback", view.state)
+        view:diagnose_next()
+        view:paintTo(Device.screen.bb, 0, 0)
+    end)
+    it("backtracks across volumes on real data when answers are wrong", function()
+        local settings = view.progress.data.settings
+        local old_grade = settings.grade
+        settings.grade = 3
+        settings.semester = "upper"
+        view:start_diagnose("math", "cnm_p079") -- 认识几分之一, hard prereq cnm_p278, soft cnm_p043 (grade 2)
+        assert.are.equal("diagnose_quiz", view.state)
+        local guard = 0
+        while view.state ~= "diagnose_result" and guard < 30 do
+            guard = guard + 1
+            if view.state == "diagnose_quiz" then
+                local q = view.diagnose_item.question
+                local wrong = q.answer_mode == "number" and "999999"
+                    or ((q.answer % #q.options) + 1)
+                view:submit_answer(wrong)
+            elseif view.state == "diagnose_feedback" then
+                view:diagnose_next()
+            else
+                break
+            end
+        end
+        assert.are.equal("diagnose_result", view.state)
+        assert.are.equal("weak", view.progress:kp_status("math", "cnm_p079"))
+        -- Hard prerequisite must be tested before the soft one.
+        assert.are.equal("cnm_p079", view.diagnose.answers[1].topic)
+        assert.are.equal("cnm_p079", view.diagnose.answers[2].topic)
+        assert.are.equal("cnm_p278", view.diagnose.answers[3].topic)
+        assert.is_true(#view.diagnose_summary.path > 0)
+        settings.grade = old_grade
+    end)
+end)
+
+describe("StudyAssist title-bar back navigation", function()
+    local DataStorage
+    local Device
+    local MainView
+    local AIBank
+    local view
+    local ai_bank_path
+
+    setup(function()
+        require("commonrequire")
+        package.path = "plugins/studyassist.koplugin/?.lua;" .. package.path
+        DataStorage = require("datastorage")
+        Device = require("device")
+        MainView = require("ui/mainview")
+        AIBank = require("core.ai_bank")
+    end)
+
+    before_each(function()
+        ai_bank_path = DataStorage:getDataDir() .. "/studyassist_ui_back_spec_ai_bank.json"
+        os.remove(ai_bank_path)
+        view = MainView:new{
+            plugin_path = "./plugins/studyassist.koplugin",
+            plugin = {},
+        }
+        view.ai_bank = AIBank.open(ai_bank_path)
+    end)
+
+    after_each(function()
+        os.remove(ai_bank_path)
+        os.remove(ai_bank_path .. ".bad")
+        os.remove(ai_bank_path .. ".tmp")
+    end)
+
+    it("shows the back button only outside the home page", function()
+        assert.are.equal("home", view.state)
+        assert.is_nil(view.title_bar.left_icon)
+        view:render_kp_select("math")
+        assert.are.equal("chevron.left", view.title_bar.left_icon)
+        view:render_home()
+        assert.is_nil(view.title_bar.left_icon)
+    end)
+
+    it("returns second-level pages straight to home", function()
+        view:render_unit_select("math")
+        view:onBack()
+        assert.are.equal("home", view.state)
+        view:render_kp_select("chinese")
+        view:onBack()
+        assert.are.equal("home", view.state)
+        view:render_settings()
+        view:onBack()
+        assert.are.equal("home", view.state)
+        view:render_wrongbook()
+        view:onBack()
+        assert.are.equal("home", view.state)
+        view:render_badges()
+        view:onBack()
+        assert.are.equal("home", view.state)
+    end)
+
+    it("steps up from the knowledge card to the list, then home", function()
+        view:render_kp_learn("chinese", "cnc_p001")
+        assert.are.equal("kp_learn", view.state)
+        view:onBack()
+        assert.are.equal("kp_select", view.state)
+        assert.are.equal("chinese", view.kp_subject)
+        view:onBack()
+        assert.are.equal("home", view.state)
+    end)
+
+    it("keeps the session and asks for confirmation when backing out of a quiz", function()
+        view:start_session({ mode = "subject", subject = "math", unit = "m1" })
+        assert.are.equal("quiz", view.state)
+        assert.are.equal("chevron.left", view.title_bar.left_icon)
+        view:onBack()
+        assert.are.equal("quiz", view.state) -- ConfirmBox pending, not exited
+        assert.is_not_nil(view.session)
+    end)
+
+    it("honours custom back callbacks for choice lists and the AI bank", function()
+        view:render_province_select()
+        assert.are.equal("choice_list", view.state)
+        view:onBack()
+        assert.are.equal("settings", view.state)
+        view:render_ai_bank(nil, function() view:render_wrongbook() end)
+        assert.are.equal("ai_bank", view.state)
+        view:onBack()
+        assert.are.equal("wrongbook", view.state)
+    end)
+
+    it("builds daily report and card book pages", function()
+        -- Earlier tests may have answered questions today; start from a clean
+        -- day and a clean draw ledger.
+        view.progress.data.daily[os.date("%Y-%m-%d")] = nil
+        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
+        view.progress:flush()
+        local Cards = require("core.cards")
+        view:open_daily_report(today_at(20))
+        assert.are.equal("home", view.state) -- no answers yet: only progress shown
+        -- One short of a draw: still no report and no cards.
+        record_answers(view.progress, Cards.DRAW_ANSWERS - 1, "ui-report")
+        view:open_daily_report(today_at(20))
+        assert.are.equal("home", view.state)
+        assert.is_nil(view.progress:daily_report())
+        -- The 20th answer earns a draw; opening draws the first hand.
+        record_answers(view.progress, 1, "ui-report-last")
+        view:open_daily_report(today_at(20))
+        assert.are.equal("daily_report", view.state)
+        local report = view.progress:daily_report()
+        assert.is_not_nil(report)
+        assert.are.equal(1, #report.cards)
+        assert.is_false(report.ai)
+        assert.is_false(report.revealed)
+        report.revealed = true
+        view.progress:save_daily_report(report)
+        view:render_daily_report()
+        assert.are.equal("daily_report", view.state)
+        view:render_cards(true)
+        assert.are.equal("cards", view.state)
+        view:leave_cards()
+        assert.are.equal("daily_report", view.state)
+        view:render_cards()
+        view:onBack()
+        assert.are.equal("home", view.state)
+        -- re-entering the same day shows the stored report, no redraw
+        view:open_daily_report(today_at(20))
+        assert.are.equal("daily_report", view.state)
+        assert.are.equal(report.created_at, view.progress:daily_report().created_at)
+        view:paintTo(Device.screen.bb, 0, 0)
+    end)
+
+    it("shows accumulated draw progress and allows repeated draws", function()
+        view.progress.data.daily[os.date("%Y-%m-%d")] = nil
+        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
+        view.progress:flush()
+        local Cards = require("core.cards")
+        local UIManager = require("ui/uimanager")
+        local shown = {}
+        local orig_show = UIManager.show
+        UIManager.show = function(_, widget) table.insert(shown, widget) end
+        finally(function() UIManager.show = orig_show end)
+        -- No answers: opening shows the accumulated progress, no report.
+        view:open_daily_report(today_at(20))
+        assert.are.equal("home", view.state)
+        assert.is_nil(view.progress:daily_report())
+        assert.is_not_nil(shown[#shown])
+        -- 19 answers: still no draw credit.
+        record_answers(view.progress, Cards.DRAW_ANSWERS - 1, "ui-draw")
+        view:open_daily_report(today_at(20))
+        assert.is_nil(view.progress:daily_report())
+        -- The 20th answer earns a draw; opening draws 1 card.
+        record_answers(view.progress, 1, "ui-draw-last")
+        view:open_daily_report(today_at(20))
+        assert.are.equal("daily_report", view.state)
+        local first = view.progress:daily_report()
+        assert.are.equal(1, #first.cards)
+        assert.are.equal(0, view.progress:draw_status().credits)
+        -- Viewing again does not redraw or spend a credit.
+        view:open_daily_report(today_at(20))
+        assert.are.equal(first.created_at, view.progress:daily_report().created_at)
+        -- Earn another credit and draw again: a fresh hand, no daily limit.
+        local owned_before = Cards.owned_types(view.progress)
+        record_answers(view.progress, Cards.DRAW_ANSWERS, "ui-draw-2")
+        assert.are.equal(1, view.progress:draw_status().credits)
+        view:draw_cards(today_at(20))
+        assert.are.equal("daily_report", view.state)
+        local second = view.progress:daily_report()
+        assert.are.equal(1, #second.cards)
+        assert.are.equal(2, view.progress:draw_status().draws)
+        -- Smart draw: the second hand is always a brand-new card type.
+        assert.are.equal(owned_before + 1, Cards.owned_types(view.progress))
+    end)
+
+    it("opens a card detail page from the book and the report", function()
+        local Cards = require("core.cards")
+        local card = Cards.get("r01")
+        view.progress:add_cards({ { id = card.id, tier = card.tier, name = card.name, desc = card.desc } })
+        view:render_cards()
+        assert.are.equal("cards", view.state)
+        view:render_card_detail(card.id, "cards")
+        assert.are.equal("card_detail", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:onBack()
+        assert.are.equal("cards", view.state)
+        view:onBack()
+        assert.are.equal("home", view.state)
+        -- Build a report so report-side navigation has a target.
+        view.progress.data.daily[os.date("%Y-%m-%d")] = nil
+        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
+        view.progress:flush()
+        record_answers(view.progress, require("core.cards").DRAW_ANSWERS, "ui-detail")
+        view:open_daily_report(today_at(20))
+        assert.are.equal("daily_report", view.state)
+        -- Book entered from the report keeps its back target through detail.
+        view:render_cards(true)
+        view:render_card_detail(card.id, "cards")
+        view:onBack()
+        assert.are.equal("cards", view.state)
+        view:onBack()
+        assert.are.equal("daily_report", view.state)
+        -- Directly from a revealed report card.
+        view:render_card_detail(card.id, "daily_report")
+        view:leave_card_detail()
+        assert.are.equal("daily_report", view.state)
+    end)
+
+    it("paginates the badge wall", function()
+        view:render_badges(2)
+        assert.are.equal("badges", view.state)
+        assert.are.equal(2, view.badge_page)
+        view:render_badges(99)
+        assert.are.equal(5, view.badge_page)
+        view:render_badges(0)
+        assert.are.equal(1, view.badge_page)
+        view:paintTo(Device.screen.bb, 0, 0)
+    end)
+
+    it("paints correctly after the title bar is rebuilt", function()
+        view:render_kp_select("math")
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:onBack()
+        assert.are.equal("home", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        view:render_kp_learn("math", "cnm_p001")
+        view:paintTo(Device.screen.bb, 0, 0)
+    end)
+
+    it("shows update download progress and wires the cancel button", function()
+        local UIManager = require("ui/uimanager")
+        local UpdateDialog = require("ui/update_dialog")
+        local cancelled = 0
+        local dialog = UpdateDialog:new{
+            total = 2048,
+            cancel_callback = function() cancelled = cancelled + 1 end,
+        }
+        UIManager:show(dialog)
+        dialog:update_progress(0, 2048)
+        dialog:update_progress(1024, 2048)
+        dialog:update_progress(2048, 2048)
+        dialog:paintTo(Device.screen.bb, 0, 0)
+        dialog:set_installing()
+        dialog:paintTo(Device.screen.bb, 0, 0)
+        dialog:dismiss()
+        assert.are.equal(0, cancelled) -- completing never cancels
+
+        -- Unknown total (chunked): bytes-only status, cancel still works.
+        local dialog2 = UpdateDialog:new{
+            total = 0,
+            cancel_callback = function() cancelled = cancelled + 1 end,
+        }
+        UIManager:show(dialog2)
+        dialog2:update_progress(4096, 0)
+        dialog2.cancel_button.callback() -- simulate tapping "取消下载"
+        assert.are.equal(1, cancelled)
+        dialog2:dismiss()
+    end)
+end)

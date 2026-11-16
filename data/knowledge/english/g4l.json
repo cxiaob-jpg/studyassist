@@ -1,0 +1,3951 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "english",
+  "grade": 4,
+  "semester": "lower",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第1单元 Class rules"
+    },
+    {
+      "id": "u2",
+      "name": "第2单元 Family rules"
+    },
+    {
+      "id": "u3",
+      "name": "第3单元 Time for school"
+    },
+    {
+      "id": "u4",
+      "name": "第4单元 Going shopping"
+    },
+    {
+      "id": "u5",
+      "name": "第5单元 Farms and us"
+    },
+    {
+      "id": "u6",
+      "name": "第6单元 On the farm"
+    },
+    {
+      "id": "u7",
+      "name": "复习 A great weekend plan"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cne_p151",
+      "name": "规则用词",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "认读 quietly、talk、keep 和 desk。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「安静地」？",
+        "answer": "quietly"
+      }
+    },
+    {
+      "id": "cne_p152",
+      "name": "祈使句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "用动词原形开头的祈使句提出要求，并用 Do not 表示禁止。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "哪一句是祈使句？",
+        "answer": "Talk quietly."
+      }
+    },
+    {
+      "id": "cne_p153",
+      "name": "说规则",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "用祈使句说出图书馆或教室里的规则。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "图书馆里要小声说话，应说哪一句？",
+        "answer": "Talk quietly."
+      }
+    },
+    {
+      "id": "cne_p154",
+      "name": "读懂规则",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "读规则短文，找出可以做和不可以做的事。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Talk quietly. Do not eat. Keep your desk clean. 不可以做什么？",
+        "answer": "吃东西"
+      }
+    },
+    {
+      "id": "cne_p246",
+      "name": "must 与 mustn't 说班规",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "用 must / mustn't 说明教室里必须做和不能做的事（Part B）。",
+      "mastery_criteria": [
+        "能选出正确的 must / mustn't 句子",
+        "能区分必须与禁止"
+      ],
+      "example": {
+        "question": "想说「我们必须听老师讲」，应选哪一句？",
+        "answer": "We must listen to the teacher."
+      }
+    },
+    {
+      "id": "cne_p247",
+      "name": "制作班级规则海报",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Class rules",
+      "description": "读懂班级规则海报，并能选出适合写进海报的句子（Project）。",
+      "mastery_criteria": [
+        "能根据海报表述选出规则",
+        "能判断哪句适合写进班规海报"
+      ],
+      "example": {
+        "question": "海报上写 Keep the classroom clean. 这是在要求？",
+        "answer": "保持教室干净"
+      }
+    },
+    {
+      "id": "cne_p199",
+      "name": "家规：have to 与 can't",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Family rules",
+      "description": "用 I have to... 和 I can't... 说家里的规矩。",
+      "mastery_criteria": [
+        "能在选择题中选出正确的一项",
+        "能在新版教材单元语境中运用"
+      ],
+      "example": {
+        "question": "I ____ go to bed before 9:30. 我得九点半前睡觉。",
+        "answer": "have to"
+      }
+    },
+    {
+      "id": "cne_p229",
+      "name": "家规用词",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Family rules",
+      "description": "认读 make the bed、do housework、keep quiet、go to bed early 等家规相关表达。",
+      "mastery_criteria": [
+        "能选出家规相关词的意思",
+        "能根据中文选出英文表达"
+      ],
+      "example": {
+        "question": "「整理床铺」用哪一组词？",
+        "answer": "make the bed"
+      }
+    },
+    {
+      "id": "cne_p230",
+      "name": "用 have to 说家规",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Family rules",
+      "description": "用 have to / don't have to / can't 说出家里的规则。",
+      "mastery_criteria": [
+        "能选出正确的家规句子",
+        "能区分必须做和不能做"
+      ],
+      "example": {
+        "question": "想说「我必须早睡」，应选哪一句？",
+        "answer": "I have to go to bed early."
+      }
+    },
+    {
+      "id": "cne_p231",
+      "name": "读懂家规短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Family rules",
+      "description": "读家规列表或短文，找出必须做和不能做的事。",
+      "mastery_criteria": [
+        "能根据短文选出家规",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：I have to make the bed. I can't play football inside. 我必须做什么？",
+        "answer": "整理床铺"
+      }
+    },
+    {
+      "id": "cne_p088",
+      "name": "一天中的活动",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "认读 breakfast、lunch、dinner 和 music。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「早餐」？",
+        "answer": "breakfast"
+      }
+    },
+    {
+      "id": "cne_p089",
+      "name": "What time is it",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "用 What time is it? 询问时刻，并用 It is 6 o'clock. 回答。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "想问「现在几点」，应选哪一句？",
+        "answer": "What time is it?"
+      }
+    },
+    {
+      "id": "cne_p090",
+      "name": "说时刻和该做的事",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "用 It is time for 说出该吃饭或上课了。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "现在 9 点，该上音乐课了，应说哪一句？",
+        "answer": "It is 9 o'clock. It is time for music."
+      }
+    },
+    {
+      "id": "cne_p091",
+      "name": "读懂作息时刻",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "从短文里读出几点做什么。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：It is 7 o'clock. It is time for breakfast. 7 点该做什么？",
+        "answer": "吃早饭"
+      }
+    },
+    {
+      "id": "cne_p248",
+      "name": "It's time to 该做什么",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "用 It's time to … / It's time for … 说出该做的事。",
+      "mastery_criteria": [
+        "能选出正确的 It's time 句子",
+        "能区分 time to 与 time for"
+      ],
+      "example": {
+        "question": "想说「该起床了」，应选哪一句？",
+        "answer": "It's time to get up."
+      }
+    },
+    {
+      "id": "cne_p249",
+      "name": "读懂作息时间表",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Time for school",
+      "description": "读简单作息表或短文，找出几点该做什么。",
+      "mastery_criteria": [
+        "能根据时间表选出活动",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：7:00 get up. 7:30 breakfast. 七点半做什么？",
+        "answer": "吃早饭"
+      }
+    },
+    {
+      "id": "cne_p104",
+      "name": "商店物品",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "认读 glove、scarf、umbrella 和 sunglasses。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「手套」？",
+        "answer": "glove"
+      }
+    },
+    {
+      "id": "cne_p105",
+      "name": "How much 询问价格",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "用 How much is 或 How much are 询问价格。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "想问「这件衬衫多少钱」，应选哪一句？",
+        "answer": "How much is this shirt?"
+      }
+    },
+    {
+      "id": "cne_p106",
+      "name": "在商店购物",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "用 Can I help you? 和 How much 完成简单购物对话。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "售货员招呼顾客，常说哪一句？",
+        "answer": "Can I help you?"
+      }
+    },
+    {
+      "id": "cne_p107",
+      "name": "读懂价签",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "读商店里的价格句子，找出物品和价钱。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：The scarf is 20 yuan. The umbrella is 15 yuan. 围巾多少钱？",
+        "answer": "20 元"
+      }
+    },
+    {
+      "id": "cne_p250",
+      "name": "购物用语 I'll take",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "用 Can I help you? / How much …? / I'll take … 完成简单购物对话。",
+      "mastery_criteria": [
+        "能选出正确的购物答句",
+        "能读懂简短购物对话"
+      ],
+      "example": {
+        "question": "店员问 Can I help you? 想买钢笔，应选哪一句？",
+        "answer": "I'd like a pen, please."
+      }
+    },
+    {
+      "id": "cne_p251",
+      "name": "读懂购物小票与价签",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Going shopping",
+      "description": "读价签或简短购物记录，找出物品和价格。",
+      "mastery_criteria": [
+        "能根据价签选出价格",
+        "能选出和记录一致的句子"
+      ],
+      "example": {
+        "question": "价签：ruler — 3 yuan. 尺子多少钱？",
+        "answer": "3 元"
+      }
+    },
+    {
+      "id": "cne_p096",
+      "name": "农场",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "认读 tomato、potato、horse 和 cow。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「西红柿」？",
+        "answer": "tomato"
+      }
+    },
+    {
+      "id": "cne_p097",
+      "name": "These are 与 Those are",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "用 These are 指近处的多个事物，用 Those are 指远处的多个事物。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "指着近处的几只鸭子，应选哪一句？",
+        "answer": "These are ducks."
+      }
+    },
+    {
+      "id": "cne_p098",
+      "name": "在农场谈论动物和蔬菜",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "用 Are these 询问近处的这些是不是某种蔬菜或动物。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "指着近处的西红柿问，应说哪一句？",
+        "answer": "Are these tomatoes?"
+      }
+    },
+    {
+      "id": "cne_p099",
+      "name": "读懂农场短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "读农场短文，按文字找出动物或蔬菜的数量。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：These are tomatoes. They are red. 近处这些是什么？",
+        "answer": "西红柿"
+      }
+    },
+    {
+      "id": "cne_p252",
+      "name": "农场动物与作物",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "认读 hen、cow、horse、tomato、potato、carrot 等农场动物与作物词（Part B）。",
+      "mastery_criteria": [
+        "能选出农场词的意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「奶牛」？",
+        "answer": "cow"
+      }
+    },
+    {
+      "id": "cne_p253",
+      "name": "There be 说农场有什么",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Farms and us",
+      "description": "用 There is / There are 描述农场里有什么。",
+      "mastery_criteria": [
+        "能选出正确的 There be 句子",
+        "能区分 is 与 are"
+      ],
+      "example": {
+        "question": "想说「农场里有一匹马」，应选哪一句？",
+        "answer": "There is a horse on the farm."
+      }
+    },
+    {
+      "id": "cne_p200",
+      "name": "从农场到餐桌的食物",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u6",
+      "unit_name": "第6单元 On the farm",
+      "description": "认读 rice、wheat、milk、egg、bread 等食物及来源（挂新版第6单元 On the farm）。",
+      "mastery_criteria": [
+        "能在选择题中选出正确的一项",
+        "能在新版教材单元语境中运用"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「小麦」？",
+        "answer": "wheat"
+      }
+    },
+    {
+      "id": "cne_p232",
+      "name": "农场活动",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u6",
+      "unit_name": "第6单元 On the farm",
+      "description": "认读 milk cows、pick vegetables、feed chickens、plant seeds 等农场活动（On the farm）。",
+      "mastery_criteria": [
+        "能选出农场活动的意思",
+        "能根据中文选出英文表达"
+      ],
+      "example": {
+        "question": "「挤牛奶」用哪一组词？",
+        "answer": "milk cows"
+      }
+    },
+    {
+      "id": "cne_p233",
+      "name": "在农场做什么",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u6",
+      "unit_name": "第6单元 On the farm",
+      "description": "用 I can … / We … on the farm 说在农场做的事。",
+      "mastery_criteria": [
+        "能选出农场活动句子",
+        "能读懂农场对话"
+      ],
+      "example": {
+        "question": "想说「我可以在农场喂鸡」，应选哪一句？",
+        "answer": "I can feed chickens on the farm."
+      }
+    },
+    {
+      "id": "cne_p234",
+      "name": "读懂农场劳动短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u6",
+      "unit_name": "第6单元 On the farm",
+      "description": "读农场短文，找出人们在农场做的劳动。",
+      "mastery_criteria": [
+        "能根据短文选出农场活动",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：On the farm we milk cows and feed chickens. 我们做什么？",
+        "answer": "挤牛奶和喂鸡"
+      }
+    },
+    {
+      "id": "cne_p254",
+      "name": "周末计划词汇",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u7",
+      "unit_name": "复习 A great weekend plan",
+      "description": "认读 picnic、cinema、museum、visit、plan 等周末计划相关词（Revision）。",
+      "mastery_criteria": [
+        "能选出周末计划词的意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "picnic 的意思是？",
+        "answer": "野餐"
+      }
+    },
+    {
+      "id": "cne_p255",
+      "name": "用 will 说周末打算",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u7",
+      "unit_name": "复习 A great weekend plan",
+      "description": "用 I will … / We will … 说出周末打算做的事。",
+      "mastery_criteria": [
+        "能选出正确的 will 计划句",
+        "能读懂简短打算"
+      ],
+      "example": {
+        "question": "想说「我们周末将去野餐」，应选哪一句？",
+        "answer": "We will have a picnic this weekend."
+      }
+    },
+    {
+      "id": "cne_p256",
+      "name": "讨论精彩周末计划",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u7",
+      "unit_name": "复习 A great weekend plan",
+      "description": "综合用 What will you do …? / Let's … 讨论一个精彩的周末计划。",
+      "mastery_criteria": [
+        "能选出询问周末计划的问句",
+        "能选出合适的建议句"
+      ],
+      "example": {
+        "question": "想问「你周末将做什么？」，应选哪一句？",
+        "answer": "What will you do this weekend?"
+      }
+    },
+    {
+      "id": "cne_p257",
+      "name": "读懂周末计划短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u7",
+      "unit_name": "复习 A great weekend plan",
+      "description": "读周末计划短文或海报，找出时间、地点和活动。",
+      "mastery_criteria": [
+        "能根据短文选出计划内容",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：On Saturday we will have a picnic. 星期六计划做什么？",
+        "answer": "野餐"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cne_p088_q1",
+      "topic": "cne_p088",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "一天中的活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「早餐」？",
+      "explain": "breakfast 的意思是早餐。",
+      "answer_mode": "choice",
+      "options": [
+        "lunch",
+        "breakfast",
+        "dinner",
+        "music"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p088_q2",
+      "topic": "cne_p088",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "一天中的活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「lunch」的中文意思是哪一个？",
+      "explain": "lunch 的意思是午餐。",
+      "answer_mode": "choice",
+      "options": [
+        "早餐",
+        "晚餐",
+        "午餐",
+        "音乐"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p088_q3",
+      "topic": "cne_p088",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "一天中的活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「晚餐」的单词。",
+      "explain": "表示晚餐的单词是 dinner。",
+      "answer_mode": "choice",
+      "options": [
+        "breakfast",
+        "lunch",
+        "music",
+        "dinner"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p088_q4",
+      "topic": "cne_p088",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "一天中的活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「音乐」？",
+      "explain": "music 的意思是音乐。",
+      "answer_mode": "choice",
+      "options": [
+        "music",
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p089_q1",
+      "topic": "cne_p089",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What time is it",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想问「现在几点」，应选哪一句？",
+      "explain": "问时刻说 What time is it?",
+      "answer_mode": "choice",
+      "options": [
+        "What time it is?",
+        "How many time is it?",
+        "What time is it?",
+        "Where is the time?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p089_q2",
+      "topic": "cne_p089",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What time is it",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "It is 6 o'clock. 现在几点？",
+      "explain": "6 o'clock 是 6 点。",
+      "answer_mode": "choice",
+      "options": [
+        "5 点",
+        "7 点",
+        "9 点",
+        "6 点"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p089_q3",
+      "topic": "cne_p089",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What time is it",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "It is time for lunch. 该做什么了？",
+      "explain": "lunch 是午饭。",
+      "answer_mode": "choice",
+      "options": [
+        "吃午饭",
+        "吃早饭",
+        "吃晚饭",
+        "上音乐课"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p089_q4",
+      "topic": "cne_p089",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What time is it",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "It is 7 o'clock. It is time for breakfast. 该吃哪一餐？",
+      "explain": "breakfast 是早饭。",
+      "answer_mode": "choice",
+      "options": [
+        "午饭",
+        "早饭",
+        "晚饭",
+        "下午茶"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p090_q1",
+      "topic": "cne_p090",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "说时刻和该做的事",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "现在 9 点，该上音乐课了，应说哪一句？",
+      "explain": "音乐是 music，时刻要和 9 点一致。",
+      "answer_mode": "choice",
+      "options": [
+        "It is 9 o'clock. It is time for lunch.",
+        "It is 6 o'clock. It is time for breakfast.",
+        "It is 12 o'clock. It is time for dinner.",
+        "It is 9 o'clock. It is time for music."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p090_q2",
+      "topic": "cne_p090",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "说时刻和该做的事",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "What time is it? 若是 12 点，应回答哪一句？",
+      "explain": "12 点说 It is 12 o'clock。",
+      "answer_mode": "choice",
+      "options": [
+        "It is 12 o'clock.",
+        "It is 10 o'clock.",
+        "It is 2 o'clock.",
+        "It is 8 o'clock."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p090_q3",
+      "topic": "cne_p090",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "说时刻和该做的事",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "It is time for English. 该上什么课？",
+      "explain": "English 是英语。",
+      "answer_mode": "choice",
+      "options": [
+        "音乐",
+        "英语",
+        "数学",
+        "体育"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p090_q4",
+      "topic": "cne_p090",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "说时刻和该做的事",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Hurry up! It is time for school. 这句是在催什么？",
+      "explain": "time for school 是该上学了。",
+      "answer_mode": "choice",
+      "options": [
+        "该吃晚饭了",
+        "该睡觉了",
+        "该去上学了",
+        "该回家了"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p091_q1",
+      "topic": "cne_p091",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时刻",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：It is 7 o'clock. It is time for breakfast. 7 点该做什么？",
+      "explain": "breakfast 是早饭。",
+      "answer_mode": "choice",
+      "options": [
+        "吃早饭",
+        "吃午饭",
+        "吃晚饭",
+        "上音乐课"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p091_q2",
+      "topic": "cne_p091",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时刻",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：It is 12 o'clock. Have some lunch. 几点吃午饭？",
+      "explain": "12 o'clock。",
+      "answer_mode": "choice",
+      "options": [
+        "7 点",
+        "12 点",
+        "6 点",
+        "9 点"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p091_q3",
+      "topic": "cne_p091",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时刻",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Music is at 9 o'clock. 音乐课是几点？",
+      "explain": "at 9 o'clock 是 9 点。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 9
+    },
+    {
+      "id": "cne_p091_q4",
+      "topic": "cne_p091",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时刻",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：It is 6 o'clock. It is time for dinner. 哪一句和短文一致？",
+      "explain": "6 o'clock 和 dinner。",
+      "answer_mode": "choice",
+      "options": [
+        "6 点该吃早饭了。",
+        "7 点该吃晚饭了。",
+        "6 点该上音乐课了。",
+        "6 点该吃晚饭了。"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p096_q1",
+      "topic": "cne_p096",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「西红柿」？",
+      "explain": "tomato 的意思是西红柿。",
+      "answer_mode": "choice",
+      "options": [
+        "potato",
+        "tomato",
+        "horse",
+        "cow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p096_q2",
+      "topic": "cne_p096",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「potato」的中文意思是哪一个？",
+      "explain": "potato 的意思是土豆。",
+      "answer_mode": "choice",
+      "options": [
+        "西红柿",
+        "马",
+        "土豆",
+        "奶牛"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p096_q3",
+      "topic": "cne_p096",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「马」的单词。",
+      "explain": "表示马的单词是 horse。",
+      "answer_mode": "choice",
+      "options": [
+        "tomato",
+        "potato",
+        "cow",
+        "horse"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p096_q4",
+      "topic": "cne_p096",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「奶牛」？",
+      "explain": "cow 的意思是奶牛。",
+      "answer_mode": "choice",
+      "options": [
+        "cow",
+        "tomato",
+        "potato",
+        "horse"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p097_q1",
+      "topic": "cne_p097",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "These are 与 Those are",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "指着近处的几只鸭子，应选哪一句？",
+      "explain": "近处的复数用 These are。",
+      "answer_mode": "choice",
+      "options": [
+        "This is ducks.",
+        "These is ducks.",
+        "These are ducks.",
+        "That are ducks."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p097_q2",
+      "topic": "cne_p097",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "These are 与 Those are",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "Those are horses. 这句在说什么？",
+      "explain": "Those are 是远处的复数。",
+      "answer_mode": "choice",
+      "options": [
+        "近处的这一个是马",
+        "近处的这些是马",
+        "远处的那一个是马",
+        "远处的那些是马"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p097_q3",
+      "topic": "cne_p097",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "These are 与 Those are",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "These are potatoes. 这句里的 potatoes 是？",
+      "explain": "potatoes 是 potato 的复数。",
+      "answer_mode": "choice",
+      "options": [
+        "复数",
+        "单数",
+        "一个人名",
+        "一种颜色"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p097_q4",
+      "topic": "cne_p097",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "These are 与 Those are",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句说的是不止一头牛？",
+      "explain": "These are cows 是复数。",
+      "answer_mode": "choice",
+      "options": [
+        "That is a cow.",
+        "These are cows.",
+        "This is a cow.",
+        "It is a cow."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p098_q1",
+      "topic": "cne_p098",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "在农场谈论动物和蔬菜",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "指着近处的西红柿问，应说哪一句？",
+      "explain": "西红柿是 tomatoes。",
+      "answer_mode": "choice",
+      "options": [
+        "Are these potatoes?",
+        "Is this a horse?",
+        "Are these cows?",
+        "Are these tomatoes?"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p098_q2",
+      "topic": "cne_p098",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "在农场谈论动物和蔬菜",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "Are these horses? 若是，应回答哪一句？",
+      "explain": "these 的肯定回答是 Yes, they are。",
+      "answer_mode": "choice",
+      "options": [
+        "Yes, they are.",
+        "Yes, it is.",
+        "No, it is not.",
+        "Yes, these is."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p098_q3",
+      "topic": "cne_p098",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "在农场谈论动物和蔬菜",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Those are cows. 远处的是什么？",
+      "explain": "cows 是奶牛。",
+      "answer_mode": "choice",
+      "options": [
+        "马",
+        "奶牛",
+        "土豆",
+        "西红柿"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p098_q4",
+      "topic": "cne_p098",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "在农场谈论动物和蔬菜",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "The potatoes are big. 什么很大？",
+      "explain": "potatoes 是土豆。",
+      "answer_mode": "choice",
+      "options": [
+        "西红柿",
+        "马",
+        "土豆",
+        "奶牛"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p099_q1",
+      "topic": "cne_p099",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读懂农场短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：These are tomatoes. They are red. 近处这些是什么？",
+      "explain": "tomatoes 是西红柿。",
+      "answer_mode": "choice",
+      "options": [
+        "西红柿",
+        "土豆",
+        "马",
+        "奶牛"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p099_q2",
+      "topic": "cne_p099",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读懂农场短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Those are horses. They are brown. 马是什么颜色？",
+      "explain": "brown 是棕色。文字没有说它们是黑色。",
+      "answer_mode": "choice",
+      "options": [
+        "红色",
+        "棕色",
+        "绿色",
+        "黄色"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p099_q3",
+      "topic": "cne_p099",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读懂农场短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：I see seventeen cows and eleven horses. 奶牛有几头？",
+      "explain": "seventeen cows 是 17 头。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 17
+    },
+    {
+      "id": "cne_p099_q4",
+      "topic": "cne_p099",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读懂农场短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：The potatoes are big. The tomatoes are small. 哪一句和短文一致？",
+      "explain": "potatoes are big，tomatoes are small。",
+      "answer_mode": "choice",
+      "options": [
+        "土豆小，西红柿大。",
+        "土豆和西红柿一样大。",
+        "没有写大小。",
+        "土豆大，西红柿小。"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p104_q1",
+      "topic": "cne_p104",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "商店物品",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「手套」？",
+      "explain": "glove 的意思是手套。",
+      "answer_mode": "choice",
+      "options": [
+        "scarf",
+        "glove",
+        "umbrella",
+        "sunglasses"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p104_q2",
+      "topic": "cne_p104",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "商店物品",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「scarf」的中文意思是哪一个？",
+      "explain": "scarf 的意思是围巾。",
+      "answer_mode": "choice",
+      "options": [
+        "手套",
+        "雨伞",
+        "围巾",
+        "太阳镜"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p104_q3",
+      "topic": "cne_p104",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "商店物品",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「雨伞」的单词。",
+      "explain": "表示雨伞的单词是 umbrella。",
+      "answer_mode": "choice",
+      "options": [
+        "glove",
+        "scarf",
+        "sunglasses",
+        "umbrella"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p104_q4",
+      "topic": "cne_p104",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "商店物品",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「太阳镜」？",
+      "explain": "sunglasses 的意思是太阳镜。",
+      "answer_mode": "choice",
+      "options": [
+        "sunglasses",
+        "glove",
+        "scarf",
+        "umbrella"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p105_q1",
+      "topic": "cne_p105",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "How much 询问价格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想问「这件衬衫多少钱」，应选哪一句？",
+      "explain": "问价格用 How much。",
+      "answer_mode": "choice",
+      "options": [
+        "How many is this shirt?",
+        "How old is this shirt?",
+        "How much is this shirt?",
+        "How tall is this shirt?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p105_q2",
+      "topic": "cne_p105",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "How much 询问价格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The sunglasses are 50 yuan. 太阳镜多少元？",
+      "explain": "句子里写的是 50 yuan。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 50
+    },
+    {
+      "id": "cne_p105_q3",
+      "topic": "cne_p105",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "How much 询问价格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "The gloves are 8 yuan. 手套多少钱？",
+      "explain": "8 yuan 是 8 元。",
+      "answer_mode": "choice",
+      "options": [
+        "8 元",
+        "7 元",
+        "18 元",
+        "80 元"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p105_q4",
+      "topic": "cne_p105",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "How much 询问价格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "How much is it? 这句是在问什么？",
+      "explain": "How much 问价钱。",
+      "answer_mode": "choice",
+      "options": [
+        "它有多重",
+        "它多少钱",
+        "它有多高",
+        "它有多少个"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p106_q1",
+      "topic": "cne_p106",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "在商店购物",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "售货员招呼顾客，常说哪一句？",
+      "explain": "商店里常说 Can I help you?",
+      "answer_mode": "choice",
+      "options": [
+        "How old are you?",
+        "Where are you from?",
+        "Let's clean the room.",
+        "Can I help you?"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p106_q2",
+      "topic": "cne_p106",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "在商店购物",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「这条围巾很漂亮」，应说哪一句？",
+      "explain": "围巾是 scarf。",
+      "answer_mode": "choice",
+      "options": [
+        "This scarf is pretty.",
+        "This umbrella is pretty.",
+        "These gloves are pretty.",
+        "These sunglasses are pretty."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p106_q3",
+      "topic": "cne_p106",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "在商店购物",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "How much is this umbrella? 若是 15 元，应回答哪一句？",
+      "explain": "一把伞用 It is，价格是 15 元。",
+      "answer_mode": "choice",
+      "options": [
+        "It is 50 yuan.",
+        "It is 15 yuan.",
+        "They are 8 yuan.",
+        "It is 5 yuan."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p106_q4",
+      "topic": "cne_p106",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "在商店购物",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "They are too expensive. 这句的意思是？",
+      "explain": "too expensive 是太贵。",
+      "answer_mode": "choice",
+      "options": [
+        "它们很便宜",
+        "我要买它们",
+        "它们太贵了",
+        "它们是 10 元"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p107_q1",
+      "topic": "cne_p107",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：The scarf is 20 yuan. The umbrella is 15 yuan. 围巾多少钱？",
+      "explain": "scarf is 20 yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "20 元",
+        "15 元",
+        "50 元",
+        "8 元"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p107_q2",
+      "topic": "cne_p107",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：The sunglasses are 50 yuan. 太阳镜多少元？",
+      "explain": "50 yuan。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 50
+    },
+    {
+      "id": "cne_p107_q3",
+      "topic": "cne_p107",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Can I help you? The gloves are 8 yuan. 哪一句和文字一致？",
+      "explain": "gloves are 8 yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "手套是 15 元。",
+        "雨伞是 8 元。",
+        "手套是 8 元。",
+        "围巾是 8 元。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p107_q4",
+      "topic": "cne_p107",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：The umbrella is cheap. It is 10 yuan. 雨伞怎么样？",
+      "explain": "cheap 是便宜，价格是 10 yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "很贵，50 元",
+        "便宜，20 元",
+        "没写价格",
+        "便宜，10 元"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p151_q1",
+      "topic": "cne_p151",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "规则用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「安静地」？",
+      "explain": "quietly 的意思是安静地。",
+      "answer_mode": "choice",
+      "options": [
+        "quietly",
+        "talk",
+        "keep",
+        "desk"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p151_q2",
+      "topic": "cne_p151",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "规则用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「talk」的中文意思是哪一个？",
+      "explain": "talk 的意思是说话。",
+      "answer_mode": "choice",
+      "options": [
+        "安静地",
+        "说话",
+        "保持",
+        "书桌"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p151_q3",
+      "topic": "cne_p151",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "规则用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「保持」的单词。",
+      "explain": "表示保持的单词是 keep。",
+      "answer_mode": "choice",
+      "options": [
+        "quietly",
+        "talk",
+        "keep",
+        "desk"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p151_q4",
+      "topic": "cne_p151",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "规则用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「书桌」？",
+      "explain": "desk 的意思是书桌。",
+      "answer_mode": "choice",
+      "options": [
+        "quietly",
+        "talk",
+        "keep",
+        "desk"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p152_q1",
+      "topic": "cne_p152",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "祈使句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是祈使句？",
+      "explain": "祈使句用动词原形开头。",
+      "answer_mode": "choice",
+      "options": [
+        "You talk quietly?",
+        "Talk quietly.",
+        "She talks quietly.",
+        "Talking quietly is."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p152_q2",
+      "topic": "cne_p152",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "祈使句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "Keep to the right. 这句是在说什么？",
+      "explain": "Keep to the right 是靠右。",
+      "answer_mode": "choice",
+      "options": [
+        "靠左走",
+        "保持安静",
+        "靠右走",
+        "把桌子擦干净"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p152_q3",
+      "topic": "cne_p152",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "祈使句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "Do not talk. 这句的意思是？",
+      "explain": "Do not talk 是不要说话。",
+      "answer_mode": "choice",
+      "options": [
+        "请说话",
+        "正在说话",
+        "喜欢说话",
+        "不要说话"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p152_q4",
+      "topic": "cne_p152",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "祈使句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句表示「请安静」？",
+      "explain": "祈使句说 Be quiet。",
+      "answer_mode": "choice",
+      "options": [
+        "Be quiet.",
+        "Is quiet.",
+        "Are quiet.",
+        "Quiet is be."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p153_q1",
+      "topic": "cne_p153",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "说规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "图书馆里要小声说话，应说哪一句？",
+      "explain": "小声是 quietly。",
+      "answer_mode": "choice",
+      "options": [
+        "Talk loudly.",
+        "Keep to the left.",
+        "Talk quietly.",
+        "Do not read."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p153_q2",
+      "topic": "cne_p153",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "说规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "Keep your desk clean. 这句是在说什么？",
+      "explain": "desk clean。",
+      "answer_mode": "choice",
+      "options": [
+        "靠右走",
+        "不要说话",
+        "可以跑",
+        "保持书桌干净"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p153_q3",
+      "topic": "cne_p153",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "说规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Do not eat in the library. 图书馆里不可以做什么？",
+      "explain": "Do not eat。",
+      "answer_mode": "choice",
+      "options": [
+        "吃东西",
+        "看书",
+        "安静地说话",
+        "靠右走"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p153_q4",
+      "topic": "cne_p153",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "说规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Work quietly. 这句是在要求什么？",
+      "explain": "quietly 是安静地。",
+      "answer_mode": "choice",
+      "options": [
+        "大声说话",
+        "安静地做事",
+        "出去玩",
+        "吃午饭"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p154_q1",
+      "topic": "cne_p154",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂规则",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Talk quietly. Do not eat. Keep your desk clean. 不可以做什么？",
+      "explain": "Do not eat。",
+      "answer_mode": "choice",
+      "options": [
+        "安静说话",
+        "保持书桌干净",
+        "看书",
+        "吃东西"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p154_q2",
+      "topic": "cne_p154",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂规则",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Keep to the right. 哪一句和文字一致？",
+      "explain": "Keep to the right。",
+      "answer_mode": "choice",
+      "options": [
+        "请靠右。",
+        "请靠左。",
+        "请吃东西。",
+        "请大声说话。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p154_q3",
+      "topic": "cne_p154",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂规则",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：We are reading in the library. Please work quietly. 人们正在哪里？",
+      "explain": "in the library。",
+      "answer_mode": "choice",
+      "options": [
+        "操场",
+        "图书馆",
+        "食堂",
+        "公园"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p154_q4",
+      "topic": "cne_p154",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂规则",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Do not run in the classroom. Walk quietly. 教室里应该怎样走？",
+      "explain": "Walk quietly，并且 Do not run。",
+      "answer_mode": "choice",
+      "options": [
+        "跑",
+        "吃东西",
+        "安静地走",
+        "大声说话"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p199_q1",
+      "topic": "cne_p199",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规：have to 与 can't",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I ____ go to bed before 9:30. 我得九点半前睡觉。",
+      "explain": "主语是 I，用 have to。",
+      "answer_mode": "choice",
+      "options": [
+        "can",
+        "have to",
+        "has to",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p199_q2",
+      "topic": "cne_p199",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规：have to 与 can't",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "「我们不能在床上吃东西」哪一句正确？",
+      "explain": "can't 后面接动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "We can eat in bed.",
+        "We don't can eat in bed.",
+        "We can't eats in bed.",
+        "We can't eat in bed."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p199_q3",
+      "topic": "cne_p199",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规：have to 与 can't",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "He ____ help with the dishes. 他得帮忙洗碗。",
+      "explain": "主语 he 是第三人称单数，用 has to。",
+      "answer_mode": "choice",
+      "options": [
+        "have to",
+        "haves to",
+        "has to",
+        "have"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p199_q4",
+      "topic": "cne_p199",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规：have to 与 can't",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一条是家规？",
+      "explain": "说要做什么的祈使句才是规矩。",
+      "answer_mode": "choice",
+      "options": [
+        "I like apples.",
+        "Clean your room on Saturdays.",
+        "It is sunny today.",
+        "She is my sister."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p200_q1",
+      "topic": "cne_p200",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "从农场到餐桌的食物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「小麦」？",
+      "explain": "wheat 是小麦。",
+      "answer_mode": "choice",
+      "options": [
+        "white",
+        "weather",
+        "wheat",
+        "water"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p200_q2",
+      "topic": "cne_p200",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "从农场到餐桌的食物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "Milk comes from ____. 牛奶来自哪里？",
+      "explain": "牛奶来自奶牛 cows。",
+      "answer_mode": "choice",
+      "options": [
+        "cows",
+        "trees",
+        "fish",
+        "hens"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p200_q3",
+      "topic": "cne_p200",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "从农场到餐桌的食物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "Eggs come from ____.",
+      "explain": "鸡蛋来自母鸡 hens。",
+      "answer_mode": "choice",
+      "options": [
+        "hens",
+        "sheep",
+        "cows",
+        "rice"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p200_q4",
+      "topic": "cne_p200",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "从农场到餐桌的食物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「大米」？",
+      "explain": "rice 是米饭、大米。",
+      "answer_mode": "choice",
+      "options": [
+        "rice",
+        "race",
+        "nice",
+        "ice"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p229_q1",
+      "topic": "cne_p229",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「整理床铺」用哪一组词？",
+      "explain": "make the bed 是整理床铺。",
+      "answer_mode": "choice",
+      "options": [
+        "make the bed",
+        "do homework",
+        "go to bed",
+        "keep quiet"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p229_q2",
+      "topic": "cne_p229",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "keep quiet 的意思是？",
+      "explain": "keep quiet 是保持安静。",
+      "answer_mode": "choice",
+      "options": [
+        "早睡",
+        "做家务",
+        "起床",
+        "保持安静"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p229_q3",
+      "topic": "cne_p229",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「早睡」用哪一组？",
+      "explain": "go to bed early。",
+      "answer_mode": "choice",
+      "options": [
+        "make the bed",
+        "watch TV late",
+        "go to bed early",
+        "get up late"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p229_q4",
+      "topic": "cne_p229",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "家规用词",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "do housework 是在说什么？",
+      "explain": "housework 是家务。",
+      "answer_mode": "choice",
+      "options": [
+        "做运动",
+        "做家务",
+        "做作业",
+        "做游戏"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p230_q1",
+      "topic": "cne_p230",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用 have to 说家规",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「我必须早睡」，应选哪一句？",
+      "explain": "have to + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "I have to go to bed early.",
+        "I have go to bed early.",
+        "I has to go to bed early.",
+        "I have to going to bed early."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p230_q2",
+      "topic": "cne_p230",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用 have to 说家规",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I can't watch TV late. 这句家规是？",
+      "explain": "can't 表示不能。",
+      "answer_mode": "choice",
+      "options": [
+        "必须很晚看电视",
+        "可以不整理床铺",
+        "必须大声说话",
+        "不能很晚看电视"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p230_q3",
+      "topic": "cne_p230",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用 have to 说家规",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句表示「不必」？",
+      "explain": "don't have to 是不必。",
+      "answer_mode": "choice",
+      "options": [
+        "I can't cook today.",
+        "I must cook today.",
+        "I don't have to cook today.",
+        "I have to cook today."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p230_q4",
+      "topic": "cne_p230",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用 have to 说家规",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "At home I ____ make the bed.",
+      "explain": "I 后用 have to。",
+      "answer_mode": "choice",
+      "options": [
+        "having to",
+        "have to",
+        "have",
+        "has to"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p231_q1",
+      "topic": "cne_p231",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂家规短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：I have to make the bed. I can't play football inside. 我必须做什么？",
+      "explain": "have to make the bed。",
+      "answer_mode": "choice",
+      "options": [
+        "整理床铺",
+        "在屋里踢球",
+        "晚睡",
+        "大声说话"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p231_q2",
+      "topic": "cne_p231",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂家规短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：We have to keep quiet at night. 晚上要怎样？",
+      "explain": "keep quiet。",
+      "answer_mode": "choice",
+      "options": [
+        "大声唱歌",
+        "踢足球",
+        "开派对",
+        "保持安静"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p231_q3",
+      "topic": "cne_p231",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂家规短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Tom has to do housework. He can't watch TV before homework. 哪一句一致？",
+      "explain": "can't watch TV before homework。",
+      "answer_mode": "choice",
+      "options": [
+        "他可以先看电视。",
+        "他没有家规。",
+        "做完作业前不能看电视。",
+        "他不必做家务。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p231_q4",
+      "topic": "cne_p231",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂家规短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：I don't have to cook, but I have to wash the dishes. 我必须做什么？",
+      "explain": "have to wash the dishes。",
+      "answer_mode": "choice",
+      "options": [
+        "看电视",
+        "洗碗",
+        "做饭",
+        "不必洗碗"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p232_q1",
+      "topic": "cne_p232",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "农场活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「挤牛奶」用哪一组词？",
+      "explain": "milk cows 是挤牛奶。",
+      "answer_mode": "choice",
+      "options": [
+        "milk cows",
+        "feed chickens",
+        "pick vegetables",
+        "plant seeds"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p232_q2",
+      "topic": "cne_p232",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "农场活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "feed chickens 的意思是？",
+      "explain": "feed chickens 是喂鸡。",
+      "answer_mode": "choice",
+      "options": [
+        "挤牛奶",
+        "摘菜",
+        "播种",
+        "喂鸡"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p232_q3",
+      "topic": "cne_p232",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "农场活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「摘蔬菜」用哪一组？",
+      "explain": "pick vegetables。",
+      "answer_mode": "choice",
+      "options": [
+        "milk cows",
+        "ride a horse",
+        "pick vegetables",
+        "plant seeds"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p232_q4",
+      "topic": "cne_p232",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "农场活动",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "plant seeds 是在做什么？",
+      "explain": "plant seeds 是播种。",
+      "answer_mode": "choice",
+      "options": [
+        "买菜",
+        "播种",
+        "喂鸡",
+        "挤奶"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p233_q1",
+      "topic": "cne_p233",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "在农场做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「我可以在农场喂鸡」，应选哪一句？",
+      "explain": "can + 动词原形；地点 on the farm。",
+      "answer_mode": "choice",
+      "options": [
+        "I can feed chickens on the farm.",
+        "I can feed chickens on the shop.",
+        "I can feeding chickens.",
+        "I can feeds chickens."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p233_q2",
+      "topic": "cne_p233",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "在农场做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "We pick vegetables on the farm. 我们在农场做什么？",
+      "explain": "pick vegetables。",
+      "answer_mode": "choice",
+      "options": [
+        "挤牛奶",
+        "看书",
+        "看电影",
+        "摘蔬菜"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p233_q3",
+      "topic": "cne_p233",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "在农场做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句是在农场做的事？",
+      "explain": "milk cows 是农场活动。",
+      "answer_mode": "choice",
+      "options": [
+        "They milk cows in the library.",
+        "They watch TV on the farm only.",
+        "They milk cows every morning.",
+        "They buy milk in a cinema."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p233_q4",
+      "topic": "cne_p233",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "在农场做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "On the farm I ____ plant seeds.",
+      "explain": "情态 can 后接原形。",
+      "answer_mode": "choice",
+      "options": [
+        "is",
+        "can",
+        "cans",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p234_q1",
+      "topic": "cne_p234",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "读懂农场劳动短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：On the farm we milk cows and feed chickens. 我们做什么？",
+      "explain": "milk cows and feed chickens。",
+      "answer_mode": "choice",
+      "options": [
+        "挤牛奶和喂鸡",
+        "只摘菜",
+        "只播种",
+        "去商店"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p234_q2",
+      "topic": "cne_p234",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "读懂农场劳动短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Farmers plant seeds in spring. 农民春天做什么？",
+      "explain": "plant seeds。",
+      "answer_mode": "choice",
+      "options": [
+        "堆雪人",
+        "放风筝",
+        "游泳",
+        "播种"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p234_q3",
+      "topic": "cne_p234",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "读懂农场劳动短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Amy picks vegetables. Tom milks cows. 哪一句一致？",
+      "explain": "Tom milks cows。",
+      "answer_mode": "choice",
+      "options": [
+        "汤姆摘菜。",
+        "他们在图书馆。",
+        "汤姆挤牛奶。",
+        "艾米挤牛奶。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p234_q4",
+      "topic": "cne_p234",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u6",
+      "unit_name": "读懂农场劳动短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：From the farm we get milk and eggs. 我们从农场得到什么？",
+      "explain": "milk and eggs。",
+      "answer_mode": "choice",
+      "options": [
+        "汽车",
+        "牛奶和鸡蛋",
+        "书和笔",
+        "衣服"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p246_q1",
+      "topic": "cne_p246",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "must 与 mustn't 说班规",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想说「我们必须听老师讲」，应选哪一句？",
+      "explain": "must + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "We must listen to the teacher.",
+        "We must listening to the teacher.",
+        "We mustn't listen to the teacher.",
+        "We must listens to the teacher."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p246_q2",
+      "topic": "cne_p246",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "must 与 mustn't 说班规",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "We mustn't run in the hall. 这句班规是？",
+      "explain": "mustn't 表示禁止。",
+      "answer_mode": "choice",
+      "options": [
+        "走廊里必须跑",
+        "教室里必须跑",
+        "可以在走廊大喊",
+        "走廊里不能跑"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p246_q3",
+      "topic": "cne_p246",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "must 与 mustn't 说班规",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句表示「必须」？",
+      "explain": "must 表示必须。",
+      "answer_mode": "choice",
+      "options": [
+        "You can never listen.",
+        "You don't must talk.",
+        "You must keep quiet in class.",
+        "You mustn't keep quiet in class."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p246_q4",
+      "topic": "cne_p246",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "must 与 mustn't 说班规",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 3,
+      "stem": "读一读：We must raise our hands. We mustn't shout. 哪一句和班规一致？",
+      "explain": "must raise … mustn't shout。",
+      "answer_mode": "choice",
+      "options": [
+        "可以在走廊跑。",
+        "要举手，不能大喊。",
+        "要大喊，不能举手。",
+        "不必举手。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p247_q1",
+      "topic": "cne_p247",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "制作班级规则海报",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "海报上写 Keep the classroom clean. 这是在要求？",
+      "explain": "keep … clean。",
+      "answer_mode": "choice",
+      "options": [
+        "保持教室干净",
+        "在走廊跑",
+        "大声说话",
+        "乱扔垃圾"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p247_q2",
+      "topic": "cne_p247",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "制作班级规则海报",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "哪一句适合写进班规海报？",
+      "explain": "班规用祈使句。",
+      "answer_mode": "choice",
+      "options": [
+        "I like apples.",
+        "It is sunny today.",
+        "My name is Tom.",
+        "Listen to the teacher."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p247_q3",
+      "topic": "cne_p247",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "制作班级规则海报",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读海报：1. Listen carefully. 2. Don't push. 不可以做什么？",
+      "explain": "Don't push。",
+      "answer_mode": "choice",
+      "options": [
+        "举手",
+        "保持安静",
+        "推搡",
+        "认真听"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p247_q4",
+      "topic": "cne_p247",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "制作班级规则海报",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 3,
+      "stem": "读一读：Our class rules: We must help each other. We mustn't litter. 哪一句可加进海报？",
+      "explain": "保持干净与不乱扔一致。",
+      "answer_mode": "choice",
+      "options": [
+        "Never listen.",
+        "Keep the floor clean.",
+        "Run in the hall every day.",
+        "Shout in class."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p248_q1",
+      "topic": "cne_p248",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "It's time to 该做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「该起床了」，应选哪一句？",
+      "explain": "It's time to + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "It's time to get up.",
+        "It's time to getting up.",
+        "It's time for get up.",
+        "It time to get up."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p248_q2",
+      "topic": "cne_p248",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "It's time to 该做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "It's time for breakfast. 这句是在说？",
+      "explain": "time for breakfast。",
+      "answer_mode": "choice",
+      "options": [
+        "该睡觉了",
+        "该上学了",
+        "该放学了",
+        "该吃早饭了"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p248_q3",
+      "topic": "cne_p248",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "It's time to 该做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句正确？",
+      "explain": "time to + 原形。",
+      "answer_mode": "choice",
+      "options": [
+        "It's time for go to school.",
+        "It's time going to school.",
+        "It's time to go to school.",
+        "It's time to goes to school."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p248_q4",
+      "topic": "cne_p248",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "It's time to 该做什么",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 3,
+      "stem": "读一读：It's 7:00. It's time to ____. 早上七点最合适填？",
+      "explain": "七点常是上学时间。",
+      "answer_mode": "choice",
+      "options": [
+        "sleep in class",
+        "go to school",
+        "go to bed",
+        "watch TV all night"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p249_q1",
+      "topic": "cne_p249",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时间表",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：7:00 get up. 7:30 breakfast. 七点半做什么？",
+      "explain": "7:30 breakfast。",
+      "answer_mode": "choice",
+      "options": [
+        "吃早饭",
+        "起床",
+        "睡觉",
+        "放学"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p249_q2",
+      "topic": "cne_p249",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时间表",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：It's time to go to bed at 9:00. 九点该做什么？",
+      "explain": "go to bed。",
+      "answer_mode": "choice",
+      "options": [
+        "起床",
+        "吃早饭",
+        "去上学",
+        "睡觉"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p249_q3",
+      "topic": "cne_p249",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时间表",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Amy: 6:30 get up; 7:00 go to school. 艾米几点去上学？",
+      "explain": "7:00 go to school。",
+      "answer_mode": "choice",
+      "options": [
+        "8 点",
+        "9 点",
+        "7 点",
+        "6:30"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p249_q4",
+      "topic": "cne_p249",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂作息时间表",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 3,
+      "stem": "读一读：Tom gets up at 6:30. He has breakfast at 7:00. It's time to go at 7:20. 他先做什么？",
+      "explain": "先 get up，再 breakfast，再 go。",
+      "answer_mode": "choice",
+      "options": [
+        "先睡觉",
+        "起床",
+        "先出门",
+        "先吃晚饭"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p250_q1",
+      "topic": "cne_p250",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "购物用语 I'll take",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "店员问 Can I help you? 想买钢笔，应选哪一句？",
+      "explain": "想要用 I'd like …",
+      "answer_mode": "choice",
+      "options": [
+        "I'd like a pen, please.",
+        "I'd like a book, please.",
+        "I don't like pens.",
+        "How old are you?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p250_q2",
+      "topic": "cne_p250",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "购物用语 I'll take",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I'll take two. 这句购物时表示？",
+      "explain": "I'll take 表示决定买。",
+      "answer_mode": "choice",
+      "options": [
+        "我只要看",
+        "太贵了",
+        "不要了",
+        "我要买两个"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p250_q3",
+      "topic": "cne_p250",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "购物用语 I'll take",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—How much is it? —____.",
+      "explain": "问价格用 It's … yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "It's ten o'clock.",
+        "I take ten.",
+        "It's ten yuan.",
+        "I'm ten."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p250_q4",
+      "topic": "cne_p250",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "购物用语 I'll take",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 3,
+      "stem": "读对话：—Can I help you? —Yes. How much are the apples? —Five yuan. —OK, I'll take them. 顾客最后决定？",
+      "explain": "I'll take them。",
+      "answer_mode": "choice",
+      "options": [
+        "只要一支笔",
+        "买下苹果",
+        "只问时间",
+        "不买了"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p251_q1",
+      "topic": "cne_p251",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂购物小票与价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "价签：ruler — 3 yuan. 尺子多少钱？",
+      "explain": "3 yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "3 元",
+        "4 元",
+        "5 元",
+        "10 元"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p251_q2",
+      "topic": "cne_p251",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂购物小票与价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：I buy a notebook. It is 5 yuan. 本子多少钱？",
+      "explain": "5 yuan。",
+      "answer_mode": "choice",
+      "options": [
+        "3 元",
+        "笔记本免费",
+        "10 元",
+        "5 元"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p251_q3",
+      "topic": "cne_p251",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂购物小票与价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：pen 2 yuan; eraser 1 yuan. 买一支笔和一块橡皮一共？",
+      "explain": "2+1=3。",
+      "answer_mode": "choice",
+      "options": [
+        "1 元",
+        "4 元",
+        "3 元",
+        "2 元"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p251_q4",
+      "topic": "cne_p251",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂购物小票与价签",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 3,
+      "stem": "读一读：Amy buys two pencils. Each is 2 yuan. She pays ____ yuan.",
+      "explain": "两支各 2 元共 4 元。",
+      "answer_mode": "choice",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p252_q1",
+      "topic": "cne_p252",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场动物与作物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「奶牛」？",
+      "explain": "cow 是奶牛。",
+      "answer_mode": "choice",
+      "options": [
+        "cow",
+        "hen",
+        "horse",
+        "carrot"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p252_q2",
+      "topic": "cne_p252",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场动物与作物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "tomato 的意思是？",
+      "explain": "tomato 是西红柿。",
+      "answer_mode": "choice",
+      "options": [
+        "土豆",
+        "胡萝卜",
+        "母鸡",
+        "西红柿"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p252_q3",
+      "topic": "cne_p252",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场动物与作物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「马」用哪个词？",
+      "explain": "horse 是马。",
+      "answer_mode": "choice",
+      "options": [
+        "hen",
+        "potato",
+        "horse",
+        "cow"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p252_q4",
+      "topic": "cne_p252",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农场动物与作物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 3,
+      "stem": "读一读：We have hens and cows on the farm. We grow carrots. 农场没有提到哪种？",
+      "explain": "写了 hens、cows、carrots，没有 horse。",
+      "answer_mode": "choice",
+      "options": [
+        "胡萝卜",
+        "马",
+        "母鸡",
+        "奶牛"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p253_q1",
+      "topic": "cne_p253",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "There be 说农场有什么",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想说「农场里有一匹马」，应选哪一句？",
+      "explain": "单数用 There is。",
+      "answer_mode": "choice",
+      "options": [
+        "There is a horse on the farm.",
+        "There are a horse on the farm.",
+        "There is horse on the farm.",
+        "There be a horse on the farm."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p253_q2",
+      "topic": "cne_p253",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "There be 说农场有什么",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "There are many hens. 这句话里母鸡是？",
+      "explain": "are + many 表复数。",
+      "answer_mode": "choice",
+      "options": [
+        "只有一只",
+        "没有母鸡",
+        "一只马",
+        "很多只"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p253_q3",
+      "topic": "cne_p253",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "There be 说农场有什么",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句正确？",
+      "explain": "复数 tomatoes 用 are。",
+      "answer_mode": "choice",
+      "options": [
+        "There are a tomato.",
+        "There be tomatoes.",
+        "There are some tomatoes.",
+        "There is some tomatoes."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p253_q4",
+      "topic": "cne_p253",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "There be 说农场有什么",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 3,
+      "stem": "读一读：There is a cow. There are three horses. 一共提到几只动物？",
+      "explain": "1 头牛 + 3 匹马 = 4。",
+      "answer_mode": "choice",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p254_q1",
+      "topic": "cne_p254",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "周末计划词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "picnic 的意思是？",
+      "explain": "picnic 是野餐。",
+      "answer_mode": "choice",
+      "options": [
+        "野餐",
+        "电影院",
+        "博物馆",
+        "计划"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p254_q2",
+      "topic": "cne_p254",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "周末计划词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「博物馆」？",
+      "explain": "museum 是博物馆。",
+      "answer_mode": "choice",
+      "options": [
+        "cinema",
+        "picnic",
+        "park",
+        "museum"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p254_q3",
+      "topic": "cne_p254",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "周末计划词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「计划」用哪个词？",
+      "explain": "plan 是计划。",
+      "answer_mode": "choice",
+      "options": [
+        "plant",
+        "plate",
+        "plan",
+        "play"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p254_q4",
+      "topic": "cne_p254",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "周末计划词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 3,
+      "stem": "读一读：Our weekend plan: visit a museum and see a film. 计划里没有？",
+      "explain": "写了 museum 和 film，没有 picnic。",
+      "answer_mode": "choice",
+      "options": [
+        "周末安排",
+        "去野餐",
+        "参观博物馆",
+        "看电影"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p255_q1",
+      "topic": "cne_p255",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "用 will 说周末打算",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「我们周末将去野餐」，应选哪一句？",
+      "explain": "will + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "We will have a picnic this weekend.",
+        "We will having a picnic this weekend.",
+        "We will has a picnic.",
+        "We are will picnic."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p255_q2",
+      "topic": "cne_p255",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "用 will 说周末打算",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I will visit my grandma. 我打算？",
+      "explain": "visit grandma。",
+      "answer_mode": "choice",
+      "options": [
+        "去电影院上班",
+        "去博物馆睡觉",
+        "不去了",
+        "看望奶奶"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p255_q3",
+      "topic": "cne_p255",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "用 will 说周末打算",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句是周末打算？",
+      "explain": "will … on Saturday。",
+      "answer_mode": "choice",
+      "options": [
+        "I go to the cinema yesterday.",
+        "I going cinema.",
+        "I will go to the cinema on Saturday.",
+        "I went to the cinema yesterday only."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p255_q4",
+      "topic": "cne_p255",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "用 will 说周末打算",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 3,
+      "stem": "读一读：Tom will go to the museum. Amy will stay at home. 谁打算去博物馆？",
+      "explain": "Tom will go to the museum。",
+      "answer_mode": "choice",
+      "options": [
+        "谁都不去",
+        "汤姆",
+        "艾米",
+        "两人都去"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p256_q1",
+      "topic": "cne_p256",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "讨论精彩周末计划",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问「你周末将做什么？」，应选哪一句？",
+      "explain": "What will you do …",
+      "answer_mode": "choice",
+      "options": [
+        "What will you do this weekend?",
+        "What will you did this weekend?",
+        "What do you did this weekend?",
+        "What you will do?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p256_q2",
+      "topic": "cne_p256",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "讨论精彩周末计划",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "Let's go to the park! 这句是在？",
+      "explain": "Let's 表提议。",
+      "answer_mode": "choice",
+      "options": [
+        "禁止去公园",
+        "询问价格",
+        "说明昨天去了",
+        "提议去公园"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p256_q3",
+      "topic": "cne_p256",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "讨论精彩周末计划",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—What will you do on Sunday? —____.",
+      "explain": "用 will 回答打算。",
+      "answer_mode": "choice",
+      "options": [
+        "I am books.",
+        "Yes, I am Sunday.",
+        "I will read books.",
+        "I read books yesterday only."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p256_q4",
+      "topic": "cne_p256",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "讨论精彩周末计划",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 3,
+      "stem": "读对话：—Let's visit the museum! —Great! I will take a camera. 他们同意做什么？",
+      "explain": "Let's visit the museum，对方说 Great。",
+      "answer_mode": "choice",
+      "options": [
+        "取消计划",
+        "参观博物馆",
+        "只在家睡觉",
+        "去买菜"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p257_q1",
+      "topic": "cne_p257",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "读懂周末计划短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：On Saturday we will have a picnic. 星期六计划做什么？",
+      "explain": "have a picnic。",
+      "answer_mode": "choice",
+      "options": [
+        "野餐",
+        "看电影",
+        "睡觉",
+        "考试"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p257_q2",
+      "topic": "cne_p257",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "读懂周末计划短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Sunday: visit the museum. 星期天去哪里？",
+      "explain": "visit the museum。",
+      "answer_mode": "choice",
+      "options": [
+        "电影院",
+        "农场",
+        "医院",
+        "博物馆"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p257_q3",
+      "topic": "cne_p257",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "读懂周末计划短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：My great weekend plan: cinema on Saturday, park on Sunday. 哪一句一致？",
+      "explain": "park on Sunday。",
+      "answer_mode": "choice",
+      "options": [
+        "周六去公园。",
+        "没有计划。",
+        "周日去公园。",
+        "周日去电影院。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p257_q4",
+      "topic": "cne_p257",
+      "subject": "english",
+      "grade": 4,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u7",
+      "unit_name": "读懂周末计划短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 3,
+      "stem": "读一读：We will meet at 9:00. We will go to the cinema. Don't be late! 集合几点？",
+      "explain": "meet at 9:00。",
+      "answer_mode": "choice",
+      "options": [
+        "晚上",
+        "9 点",
+        "电影院开门时间未写",
+        "8 点"
+      ],
+      "answer": 2
+    }
+  ]
+}

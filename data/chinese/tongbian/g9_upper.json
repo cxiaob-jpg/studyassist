@@ -1,0 +1,2389 @@
+{
+ "schema_version": 1,
+ "subject": "chinese",
+ "grade": 9,
+ "semester": "upper",
+ "textbook": "统编版（2022课标初中目录）",
+ "questions": [
+  {
+   "id": "cnc_j127_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《沁园春·雪》的作者是谁？",
+   "explain": "这是毛泽东的词。陈毅写的是《梅岭三章》。",
+   "options": [
+    "毛泽东",
+    "陈毅",
+    "李白",
+    "苏轼"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j127_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「山舞银蛇，原驰蜡象」写的是什么？",
+   "explain": "雪把山原变成银白的蛇和蜡象。这是想象中的动态，不是真的有蛇和象。",
+   "options": [
+    "春天的江水和行船",
+    "大雪覆盖下的群山和高原，像在舞动、奔驰",
+    "长城上的真实动物表演",
+    "作者少年时放牧的牛羊"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j128_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《周总理，你在哪里》的作者是谁？",
+   "explain": "这首诗用呼唤和山谷、大地、森林、大海的回答来写对总理的思念。",
+   "options": [
+    "艾青",
+    "柯岩",
+    "余光中",
+    "林徽因"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j128_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《乡愁》里，小时候、长大后、后来啊、而现在，依次借什么来写？",
+   "explain": "余光中用四样事物写四个阶段。海峡是现在这一节，写的是分离。",
+   "options": [
+    "矿灯、稻穗、路基、驳船",
+    "春风、青草、飞鸟、歌声",
+    "邮票、船票、坟墓、海峡",
+    "银蛇、蜡象、红装、弓箭"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j129_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "本单元任务二的名称是什么？",
+   "explain": "第一单元是活动探究，任务二是诗歌朗诵，任务三才是尝试创作。",
+   "options": [
+    "新闻采访",
+    "举办演讲比赛",
+    "诗歌朗诵",
+    "辩论"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j129_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "朗诵《乡愁》时，邮票、船票、坟墓、海峡为什么常常要放慢？",
+   "explain": "四节各有一个事物。重音落在意象上，感情才听得见。",
+   "options": [
+    "这四个词都是生僻字，必须逐笔解释",
+    "放慢是为了把诗念成一篇请假条",
+    "因为这四个词不在诗里，要临时加上",
+    "它们是每一节的中心意象，听的人要能抓住"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j130_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "本单元任务三要求写什么？",
+   "explain": "任务三是尝试创作，和前面的鉴赏、朗诵连在一起。",
+   "options": [
+    "一则带电头的消息",
+    "一篇驳论文",
+    "一张请假条",
+    "一首感情真实、意象清楚的小诗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j130_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一段更像这次要交的小诗？",
+   "explain": "第一段有灯和影子，是诗的句子。后三段是议论、消息和请假条。",
+   "options": [
+    "晚自习的灯一盏盏灭了，走廊里只剩我的影子还站着。",
+    "我认为读书非常重要，所以大家必须读书。",
+    "昨日我校运动会破了纪录，特此报道。",
+    "请准假一天，学生李明。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j127_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下阕先评论哪些历史人物，结句又落到哪里？",
+   "explain": "「略输文采」「稍逊风骚」「只识弯弓射大雕」都是指出不足。「俱往矣，数风流人物，还看今朝。」",
+   "options": [
+    "只赞美秦始皇，认为后人不必再提",
+    "把成吉思汗写成最懂文采的人",
+    "秦皇汉武、唐宗宋祖、成吉思汗都有不足，风流人物要看今朝",
+    "结句回到上阕的长城和黄河，不再写人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j128_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《我爱这土地》里，「为什么我的眼里常含泪水」的下一句是什么？",
+   "explain": "艾青先写一只鸟歌唱土地、河流、风和黎明，最后用这一问一答收束。",
+   "options": [
+    "因为我丢掉了手中的邮票",
+    "因为四月的花还没有开",
+    "因为雪把山原挡住了",
+    "因为我对这土地爱得深沉"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j129_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "评价同学的朗诵，哪一种说法有用？",
+   "explain": "指出哪一句、什么问题，对方才改得了。只夸声音大，没有说到诗。",
+   "options": [
+    "第二段「泪水」读得太快，听不出诗人为什么爱这土地",
+    "声音很大，所以一定最好",
+    "一首诗必须在十秒内念完",
+    "只要不看稿，感情就一定对"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j130_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "写「窗」这首小诗，哪一种做法更合适？",
+   "explain": "创作要有自己的意象。默写课文和空话都不是创作。",
+   "options": [
+    "把《沁园春·雪》整首默写上去，换一个标题",
+    "抓住窗上的一样东西，写出自己当时的心情",
+    "只写「窗很重要」四个字，重复十遍",
+    "写成化学实验的步骤"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j127_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句不属于《沁园春·雪》？",
+   "explain": "「海日生残夜」是王湾《次北固山下》的句子。其余三句都在这首词里。",
+   "options": [
+    "千里冰封，万里雪飘",
+    "江山如此多娇，引无数英雄竞折腰",
+    "须晴日，看红装素裹，分外妖娆",
+    "海日生残夜，江春入旧年"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j128_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种对应是错的？",
+   "explain": "《我看》是穆旦的。林徽因写的是四月天。把作者和题目对调，就和课文相反。",
+   "options": [
+    "《我看》的作者是林徽因，写的是呼唤周总理",
+    "《你是人间的四月天》的副题表明它是一句爱的赞颂",
+    "《我看》的作者是穆旦，写向晚的春风揉过青草",
+    "《周总理，你在哪里》不是新闻消息"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j129_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种做法不像这次朗诵？",
+   "explain": "诗要有节奏。念成通知，听众听不出哪里在赞美、哪里在呼唤。",
+   "options": [
+    "先标出要重读的词，再按感情试读两遍",
+    "把《沁园春·雪》按通知的口气一口气念完，上下阕也不换气",
+    "读完请同学说哪一节最清楚",
+    "《我爱这土地》的问句稍作停顿，再读出回答"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j130_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一首不像这次练习？",
+   "explain": "只换一个词，还是余光中的诗。自己的画面和修改才算尝试创作。",
+   "options": [
+    "写下雨时操场的一个画面，一共六行",
+    "用一种声音开头，再用一种颜色收束",
+    "全文抄录《乡愁》，只把「邮票」改成「邮箱」",
+    "改掉自己诗里说空了的一句，换成看得见的动作"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j131_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《想和做》的作者是谁？",
+   "explain": "这篇是胡绳的议论文。顾颉刚写的是《怀疑与学问》。",
+   "options": [
+    "胡绳",
+    "顾颉刚",
+    "雨果",
+    "毕淑敏"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j131_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "作者反对哪两种做法？",
+   "explain": "文章开头就批评这两种偏向。后面主张从实际出发，把想和做联结起来。",
+   "options": [
+    "只反对读书，赞成天天空想",
+    "只空想而不动手，以及只埋头做而不想",
+    "只反对观察，赞成抄课文",
+    "认为想和做必须分成两个人来完成"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j132_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《怀疑与学问》的作者是谁？",
+   "explain": "顾颉刚在这篇里谈怀疑和证据。吴晗写《谈骨气》，陶行知写《创造宣言》。",
+   "options": [
+    "胡绳",
+    "顾颉刚",
+    "吴晗",
+    "陶行知"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j132_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文章开头引用的「学者先要会疑」，是谁的话？",
+   "explain": "课文先引程颐，再引张载「在可疑而不疑者，不曾学」。戴震是后文的例子，不是这句的作者。",
+   "options": [
+    "朱熹",
+    "戴震",
+    "程颐",
+    "孟子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j133_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这封信是谁写给巴特勒上尉的？",
+   "explain": "巴特勒希望雨果赞美这次远征，雨果回信拒绝，并谴责劫掠。",
+   "options": [
+    "顾颉刚",
+    "胡绳",
+    "雨果",
+    "毕淑敏"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j133_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "雨果把圆明园称作什么，又把劫掠者比作什么？",
+   "explain": "信中赞美圆明园属于人类的想象和艺术，同时点出一个洗劫、一个放火。",
+   "options": [
+    "圆明园是一座不值得一看的废园，强盗指的是园中的石兽",
+    "他把巴特勒写成圆明园的设计者",
+    "他把自己写成放火的人",
+    "圆明园是世界的奇迹，英法两国的行为像两个强盗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j134_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《精神的三间小屋》的作者是谁？",
+   "explain": "「三间小屋」是毕淑敏用来写精神空间的比喻。",
+   "options": [
+    "雨果",
+    "胡绳",
+    "顾颉刚",
+    "毕淑敏"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j134_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "三间小屋依次用来安放什么？",
+   "explain": "第一间不要被仇恨塞满，第二间给事业，第三间留给自己。",
+   "options": [
+    "爱和恨，事业，自身",
+    "只放金银、房屋和官职",
+    "过去、现在、将来三本日记",
+    "三篇课文的读书笔记"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j135_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "本单元写作专题的题目是什么？",
+   "explain": "第二单元的写作是观点要明确。论证要合理在第五单元，深入思考在第六单元。",
+   "options": [
+    "观点要明确",
+    "学写小小说",
+    "论证要合理",
+    "学会深入思考"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j135_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「想和做要连在一起」这样的句子，在议论文里起什么作用？",
+   "explain": "观点要能用一句话讲清自己赞成什么。例子是用来支撑这句话的。",
+   "options": [
+    "它只是一个例子，不能当观点",
+    "它就是可以统领全文的观点",
+    "它是电头，必须放在日期后面",
+    "它是诗的一行，不能出现在作文里"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j136_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第二单元综合性学习的题目是什么？",
+   "explain": "2024 审定目录把这一课写成「我们的数字时代」。君子自强不息在第五单元。",
+   "options": [
+    "君子自强不息",
+    "我们的数字时代",
+    "岁月如歌",
+    "身边的文化遗产"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j136_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "看到一条没有来源的转发，哪一种做法更合适？",
+   "explain": "数字时代更要核对。没来源的话不能因为传得快就当成事实。",
+   "options": [
+    "立刻转到三个群，以免别人落后",
+    "按自己的想象把内容改得更醒目",
+    "先查是谁在何时说的，再决定转不转",
+    "把没见过的截图说成自己拍的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j131_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「从实际出发」在这篇里是什么意思？",
+   "explain": "想要靠做来检验。不看实际，想法就还是空的。",
+   "options": [
+    "离开学校，就不必再想",
+    "把别人的结论直接当成自己的",
+    "观察做的结果，再想下一步，而不是凭空定一套做法",
+    "只要做事，就可以不再观察"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j132_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "作者认为做学问的基础是什么？",
+   "explain": "怀疑是为了核对。没有证据，怀疑就只剩下不信。",
+   "options": [
+    "别人说得越肯定越要照做",
+    "只要怀疑一切，就不必再找证据",
+    "书上印了的话都不能再问",
+    "事实和证据，不轻信没有根据的传说"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j133_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "雨果写这封信的态度是什么？",
+   "explain": "他为法国感到羞愧，不是在庆功。归还是他提出的希望。",
+   "options": [
+    "拒绝为这次远征叫好，希望有一天能把抢去的东西归还",
+    "感谢巴特勒寄来战利品",
+    "建议把圆明园再烧一次",
+    "认为艺术不该属于任何国家，所以烧掉也无妨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j134_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "作者用「小屋」这个比喻，是为了说什么？",
+   "explain": "小屋是精神的房间。课文谈的不是建筑施工。",
+   "options": [
+    "建议每人在校园里盖三间瓦房",
+    "人的精神也要有地方安置，不能挤成一团",
+    "精神不需要整理，越大越好",
+    "三间小屋是圆明园里的景点"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j135_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一段更像「观点明确」？",
+   "explain": "第一段先亮出观点，再用一件事说明。后三段或者没有观点，或者没有议论。",
+   "options": [
+    "抄袭很常见。昨天吃饭了。操场很大。",
+    "我有很多想法，但是不告诉你是哪一个。",
+    "先写「作业要自己做」，再写一次抄袭被发现后返工的事。",
+    "把《乡愁》默写完，不写自己的看法。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j136_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "讨论「手机和作业」，哪一种发言更贴题？",
+   "explain": "有自己的时间和做法，别人才听得见你怎样用数字工具。空话和默写都没有讨论这件事。",
+   "options": [
+    "数字很重要，非常重要，特别重要。",
+    "请把《岳阳楼记》默写一遍。",
+    "我的观点是没有观点。",
+    "我每天用二十分钟查生字，又有四十分钟只在刷视频，准备把后者减掉。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j131_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和这篇议论文不一致？",
+   "explain": "作者批评的正是只想不做。把它说成「做不做没关系」，就和课文相反。",
+   "options": [
+    "想可以指导做，做也可以证明想",
+    "只死做，不容易找到更好的办法",
+    "课文要读者把想和做连起来",
+    "作者认为只要想得动听，做不做都没有关系"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j132_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和课文一致？",
+   "explain": "辨伪和建设是课文后半的两层意思。自信力是鲁迅那篇的靶子，不是这篇的论点。",
+   "options": [
+    "怀疑既能帮助辨伪，也能引出新的看法；戴震追问《大学》章句就是例子",
+    "作者要求学生对老师的每一句话都保持沉默",
+    "程颐认为学习时不该有任何疑问",
+    "这篇是驳论文，中心论点是「中国人失掉了自信力」"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j133_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和这封信不一致？",
+   "explain": "赞美的是圆明园，不是焚烧。把焚烧说成文明，就读反了。",
+   "options": [
+    "信中有对圆明园的具体赞美",
+    "雨果认为焚烧圆明园是一次值得赞美的文明行动",
+    "作者谴责的是抢劫和放火",
+    "收信人是巴特勒上尉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j134_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种安排和课文相反？",
+   "explain": "课文反对让一种情绪挤掉其余的空间。三间都用来记仇，就没有后两间了。",
+   "options": [
+    "爱和恨要有界限，不能让恨占满",
+    "事业需要一间自己的屋子",
+    "把三间都用来记仇，不给事业和自己留地方",
+    "人要给自己留一间安静的屋子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j135_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种修改没有让观点变明确？",
+   "explain": "删掉观点、留下散事，读者更不知道要证明什么。其余三种都在收紧观点。",
+   "options": [
+    "把原来含糊的「这样做不太好」改成「承诺过的讨论要按时到」",
+    "每段都回到同一句观点",
+    "删去和观点无关的天气预报",
+    "删掉观点句，只留三件互不相干的事"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j136_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种做法不像这次活动？",
+   "explain": "编造通知是传播假消息。比较、说明和指出缺少的信息，才是在讨论数字生活。",
+   "options": [
+    "编一条没发生的停课通知发到班群里，看谁先相信",
+    "比较两种查资料的办法哪一种更能核对原文",
+    "说明自己怎样关掉无关提醒",
+    "指出一条消息为什么缺少时间和作者"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j137_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《岳阳楼记》的作者是谁？",
+   "explain": "范仲淹应滕子京之请写了这篇记。欧阳修写《醉翁亭记》。",
+   "options": [
+    "欧阳修",
+    "张岱",
+    "范仲淹",
+    "苏轼"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j137_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「不以物喜，不以己悲」说的是什么样的人？",
+   "explain": "这是古仁人的态度。迁客骚人则是雨则悲、晴则喜。",
+   "options": [
+    "看见下雨就一定痛哭，看见晴天就一定狂喜",
+    "只关心自己的官职升了没有",
+    "把岳阳楼当成酒店来经营",
+    "不因为外物好坏和个人得失而大喜大悲"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j138_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《醉翁亭记》的作者是谁？",
+   "explain": "作者自署「庐陵欧阳修」。范仲淹写的是岳阳楼。",
+   "options": [
+    "范仲淹",
+    "张岱",
+    "柳宗元",
+    "欧阳修"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j138_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「醉翁之意不在酒，在乎山水之间也」是什么意思？",
+   "explain": "酒是陪衬。乐趣在山水，更在后文与民同乐。",
+   "options": [
+    "真意不在喝酒，而在山水之中",
+    "太守不会喝酒，所以亭子里没有酒",
+    "醉翁把酒换成了茶",
+    "这句话在批评山水不值得看"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j139_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《湖心亭看雪》的作者是谁？",
+   "explain": "这篇选自张岱《陶庵梦忆》，写崇祯五年十二月的西湖。",
+   "options": [
+    "张岱",
+    "苏轼",
+    "欧阳修",
+    "范仲淹"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j139_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「湖中人鸟声俱绝」写出了雪后怎样的感觉？",
+   "explain": "更定以后他才独往。俱绝是都消失了，所以不是热闹。",
+   "options": [
+    "湖上正在唱戏，非常热闹",
+    "极静，连人和鸟的声音都没有了",
+    "雨很大，但是没有雪",
+    "作者和全城的人一起划船"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j140_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「长风破浪会有时，直挂云帆济沧海」出自谁的哪一首？",
+   "explain": "行路难写宴席上不能下咽，仍相信有乘风破浪的一天。",
+   "options": [
+    "刘禹锡《酬乐天扬州初逢席上见赠》",
+    "李白《行路难》（其一）",
+    "苏轼《水调歌头》",
+    "张岱《湖心亭看雪》"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j140_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「沉舟侧畔千帆过，病树前头万木春」表达的是什么？",
+   "explain": "这是刘禹锡赠白居易的诗。二十三年贬谪之后，他用千帆、万木把自己从「病树」里拔出来。",
+   "options": [
+    "中秋之夜想念弟弟",
+    "大雪之夜在湖心亭饮酒",
+    "自己久被弃置，仍看见新陈代谢，要重新振作",
+    "在岳阳楼上先忧后乐"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j141_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「议论要言之有据」里的「据」指什么？",
+   "explain": "有据，就是读者能看到你凭什么这样说。重复口号不是根据。",
+   "options": [
+    "观点本身重复三遍",
+    "与观点无关的风景描写",
+    "能支撑观点的事实、引言或道理",
+    "电头上的日期"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j141_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要证明「先忧后乐今天仍然有用」，哪一种材料更算根据？",
+   "explain": "第一则是一件能对上观点的事。天气和抄诗不能证明这句志向。",
+   "options": [
+    "先忧后乐很重要，非常重要",
+    "昨天的天气是晴天",
+    "请把《乡愁》抄一遍",
+    "一位同学把班级的难事做在前面，庆功时把自己的名字写在最后"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j142_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「露从今夜白，月是故乡明」的作者是谁？",
+   "explain": "这是杜甫《月夜忆舍弟》。戍鼓、边秋、有弟皆分散，都在这首里。",
+   "options": [
+    "刘长卿",
+    "韩愈",
+    "温庭筠",
+    "杜甫"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j142_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「云横秦岭家何在？雪拥蓝关马不前」写的是什么处境？",
+   "explain": "一封朝奏、夕贬潮州，是韩愈《左迁至蓝关示侄孙湘》。潮州路八千。",
+   "options": [
+    "韩愈因上奏被贬潮州，在蓝关遇雪，叮嘱侄孙",
+    "诗人在中秋怀念弟弟子由",
+    "诗人清晨住在茅店，听见鸡声",
+    "诗人路过贾谊旧宅，感叹谪宦"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j137_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「先天下之忧而忧，后天下之乐而乐」里的「先」「后」是什么意思？",
+   "explain": "两个字都是动词，表示时间上的先后。这是全文要归到的志向。",
+   "options": [
+    "在天下人忧之前就忧，在天下人乐之后才乐",
+    "先去游玩，后去写文章",
+    "先写景，后写滕子京的生平",
+    "先乐后忧，和字面顺序相反"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j138_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「太守之乐其乐」乐的是什么？",
+   "explain": "「人知从太守游而乐，而不知太守之乐其乐也。」游人乐，太守因他们的乐而乐。",
+   "options": [
+    "只有自己醉了，游人都不许笑",
+    "自己的快乐建立在众人快乐之上",
+    "把滁州的山卖掉以后的快乐",
+    "在岳阳楼上看见洞庭湖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j139_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「一痕、一点、一芥、两三粒」依次指什么？",
+   "explain": "由大到小，人只占两三粒。这是白描，不是在介绍另外几篇的地点。",
+   "options": [
+    "高山、太阳、酒杯、渔翁",
+    "岳阳楼、醉翁亭、酿泉、太守",
+    "长堤、湖心亭、小舟、舟中人",
+    "圆明园的四座建筑"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j140_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《水调歌头》的小序说这首词写于什么时候、怀念谁？",
+   "explain": "子由是苏辙。词从问月写到「但愿人长久，千里共婵娟」。出猎是《江城子》，不在这三首里。",
+   "options": [
+    "密州出猎的清晨，怀念孙权",
+    "安史之乱中的长安，怀念弟弟",
+    "崇祯五年十二月，怀念金陵客人",
+    "丙辰中秋，兼怀子由"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j141_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "材料不能支撑观点，常见的问题是什么？",
+   "explain": "守时和风景没有关系。这样的例子再具体，也不是这一观点的根据。",
+   "options": [
+    "观点说的是守时，例子却只写风景很美",
+    "例子发生在观点所说的那件事里",
+    "先说出观点，再解释例子的哪一点对得上",
+    "引用的句子和自己的看法方向一致"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j142_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「鸡声茅店月，人迹板桥霜」出自哪一首？",
+   "explain": "两句都是名词排在一起，写出早行的寒冷。作者是温庭筠。",
+   "options": [
+    "杜甫《月夜忆舍弟》",
+    "温庭筠《商山早行》",
+    "刘长卿《长沙过贾谊宅》",
+    "韩愈《左迁至蓝关示侄孙湘》"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j137_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和课文一致？",
+   "explain": "巴陵胜状在洞庭湖。滁州和酿泉在《醉翁亭记》。作者要的是先忧后乐，不是先乐后忧。",
+   "options": [
+    "滕子京把岳阳楼重修在滁州",
+    "阴雨时迁客感到去国怀乡，春和景明时又感到喜洋洋，作者认为这还不是古仁人",
+    "「衔远山，吞长江」写的是醉翁亭前的酿泉",
+    "作者主张先享受自己的快乐，再考虑天下"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j138_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句把两篇「记」说混了？",
+   "explain": "先忧后乐是范仲淹在岳阳楼说的。醉翁亭在滁州，不在巴陵。",
+   "options": [
+    "《醉翁亭记》的亭在滁州琅琊山",
+    "《岳阳楼记》写洞庭湖的阴晴",
+    "《醉翁亭记》提出先天下之忧而忧，地点在巴陵",
+    "欧阳修说作亭者是山之僧智仙，名亭者是太守自己"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j139_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "舟子说「莫说相公痴，更有痴似相公者」，「痴」在这里怎样理解？",
+   "explain": "亭上已经有人在看雪。舟子的话写出作者并不孤单，也写出他不肯随众的那一点。",
+   "options": [
+    "舟子在骂作者不会划船",
+    "痴是一种病，作者因此不能出门",
+    "这句话证明湖心亭上没有别人",
+    "大雪之夜还要到湖上看雪，旁人觉得痴，作者却把这份痴当成知己"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j140_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句和作者对不上？",
+   "explain": "长风破浪是李白的句子。把它安到苏轼的中秋词上，就串了。",
+   "options": [
+    "苏轼《水调歌头》的名句是「长风破浪会有时」",
+    "李白《行路难》有「欲渡黄河冰塞川，将登太行雪满山」",
+    "刘禹锡写过「到乡翻似烂柯人」",
+    "「明月几时有，把酒问青天」是苏轼的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j141_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种修改真正补上了根据？",
+   "explain": "戴震的事能说明疑问怎样产生。雪景不能证明抄作业，游记也顶不上疑问。",
+   "options": [
+    "把观点改成四个字，例子仍是一篇不相关的游记",
+    "在「读书要有疑问」下面补上戴震追问《大学》的事",
+    "删掉所有例子，只留一句口号",
+    "用《沁园春·雪》的雪景证明「作业可以抄」"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j142_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句是刘长卿《长沙过贾谊宅》里的？",
+   "explain": "贾谊被贬长沙，刘长卿自己也在贬途。日斜、楚客，都在这首过宅诗里。",
+   "options": [
+    "月是故乡明",
+    "雪拥蓝关马不前",
+    "秋草独寻人去后，寒林空见日斜时",
+    "人迹板桥霜"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j143_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《故乡》的作者是谁？",
+   "explain": "这篇是鲁迅的小说。少年闰土的片段，小学读过节选。",
+   "options": [
+    "鲁迅",
+    "莫泊桑",
+    "曹文轩",
+    "刘绍棠"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j143_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中年闰土见了「我」，态度和少年时有什么不同？",
+   "explain": "隔了二十年，闰土先是恭敬地叫老爷。香炉、烛台是他挑走的东西。",
+   "options": [
+    "仍然拉着「我」去刺猹",
+    "叫「老爷」，脸上没有欢喜，拣了香炉和烛台",
+    "把「我」当成杨二嫂",
+    "在船上大声讲少年时的趣事"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j144_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《我的叔叔于勒》的作者是谁？",
+   "explain": "这是莫泊桑的短篇小说。契诃夫写的是《变色龙》，在九年级下册。",
+   "options": [
+    "鲁迅",
+    "莫泊桑",
+    "曹文轩",
+    "契诃夫"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j144_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "出发去哲尔赛岛之前，菲利普一家怎样谈论于勒？",
+   "explain": "前半用于勒的信撑起发财梦。卖牡蛎是船上才发现的。",
+   "options": [
+    "已经决定永远不见他",
+    "知道他在船上卖牡蛎，所以去感谢他",
+    "盼他发财回来，认为他是全家的希望",
+    "把他当成杨二嫂"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j145_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《孤独之旅》的作者是谁？",
+   "explain": "杜小康跟随父亲到芦苇荡放鸭，出自曹文轩《草房子》。",
+   "options": [
+    "刘绍棠",
+    "鲁迅",
+    "曹文轩",
+    "莫泊桑"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j145_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "杜小康在芦荡的暴风雨之后，最明显的变化是什么？",
+   "explain": "课文写他在雨后找鸭，鸭下了蛋。孤独把他催大了一步。",
+   "options": [
+    "他立刻回到油麻地当了校长",
+    "他和何满子结成兄弟",
+    "他在船上认出了于勒",
+    "他哭过，也开始承担，不再只是被父亲保护的孩子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j146_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第四单元写作专题的题目是什么？",
+   "explain": "第四单元读的是小说，写作就是学写小小说。尝试创作是第一单元的写诗。",
+   "options": [
+    "观点要明确",
+    "议论要言之有据",
+    "尝试创作",
+    "学写小小说"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j146_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一则小小说至少要有什么？",
+   "explain": "人物遇到一点变化，故事才发生。课程表和诗不是小说。",
+   "options": [
+    "一个人物，和事情中的一次变化",
+    "只有一个标题",
+    "全班的课程表",
+    "三首不相关的诗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j147_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《简·爱》的作者是谁？",
+   "explain": "教材把这本书放在第四单元后面，任务是怎样读外国小说。吴敬梓写《儒林外史》。",
+   "options": [
+    "夏洛蒂·勃朗特",
+    "吴敬梓",
+    "鲁迅",
+    "莫泊桑"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j147_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "小说的叙述「我」主要是谁？",
+   "explain": "全书用简的第一人称来写。罗切斯特是她后来遇到的庄园主人，不是叙述者。",
+   "options": [
+    "罗切斯特",
+    "简·爱",
+    "里德太太",
+    "圣约翰"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j143_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "杨二嫂在小说里被比成什么？",
+   "explain": "「然而圆规很不平」写的是她两手搭在髀间的姿势。这是外貌，也带着讥讽。",
+   "options": [
+    "银蛇",
+    "蜡象",
+    "圆规",
+    "海燕"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j144_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若瑟夫给了于勒牡蛎钱之后，心里怎样称呼他？",
+   "explain": "父母改口叫他「这个小子」「那个讨饭的」。若瑟夫的称呼把亲缘说了出来。",
+   "options": [
+    "这是一个无关的水手，不必再看",
+    "这是父亲的仇人，应该躲开",
+    "这是圆规，应该讥笑",
+    "这是我的叔叔，父亲的弟弟，我的亲叔叔"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j145_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《蒲柳人家》（节选）里，何满子最怕又最亲的人是谁？",
+   "explain": "一丈青大娘是他的奶奶，管得严，也护着他。何大学问是他爷爷。",
+   "options": [
+    "一丈青大娘",
+    "杜雍和",
+    "杨二嫂",
+    "菲利普夫人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j146_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一段更像小小说的结尾？",
+   "explain": "第一段有人物、有发现。后三段没有故事。",
+   "options": [
+    "小小说很重要。",
+    "他把找零推回去，才看见牡蛎后面那个人的手和父亲的手一样粗糙。",
+    "今天星期一，天气晴。",
+    "请遵守课堂纪律。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j147_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "简离开桑菲尔德，主要因为她不能接受什么？",
+   "explain": "婚礼被打断后，她知道阁楼上的伯莎是罗切斯特的妻子。她要的是被当成平等的人，不是被留下当成附属。",
+   "options": [
+    "她不愿意读书",
+    "她想去卖牡蛎",
+    "没有平等人格的婚姻，以及罗切斯特已有妻子这件事",
+    "她要回鲁镇当掌柜"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j143_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "结尾「希望是本无所谓有，无所谓无的」紧接着说的是什么？",
+   "explain": "希望要靠走出来。小说没有许诺闰土变回少年，也没有写于勒。",
+   "options": [
+    "只要回到故乡，闰土就会恢复少年的样子",
+    "杨二嫂会把圆规收起来",
+    "水手一定能找到于勒",
+    "这正如地上的路，其实地上本没有路，走的人多了，也便成了路"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j144_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和小说一致？",
+   "explain": "躲避发生在船上。咸亨酒店是《孔乙己》的场景。于勒是父亲的弟弟。",
+   "options": [
+    "父亲发现卖牡蛎的是于勒以后，带着全家躲开，不认这门亲戚",
+    "全家把于勒接回家，并举行宴会",
+    "于勒是「我」的哥哥，不是叔叔",
+    "故事发生在鲁镇的咸亨酒店"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j145_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种对应是错的？",
+   "explain": "放鸭的是杜小康。何满子生活在北运河边的蒲柳人家，不是芦荡里的放鸭少年。",
+   "options": [
+    "《孤独之旅》的作者是曹文轩",
+    "《蒲柳人家》写杜小康在芦荡放鸭",
+    "何大学问喜欢闯荡、讲见闻",
+    "两篇都是写少年的小说，一篇自读、一篇也是自读"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j146_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种写法不像小小说？",
+   "explain": "小小说要短，也要有人。只有建筑物的历史，人物没有出场，就还不是小说。",
+   "options": [
+    "一个人在车站多等了十分钟，决定把没寄出的信自己送去",
+    "结尾不把道理喊满，让读者自己感到那个变化",
+    "用两千字介绍一座楼的全部历史，人物直到最后一句还没有出场",
+    "全文只写一个场景，但有动作和转折"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j147_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读这部长篇，哪一种做法合适？",
+   "explain": "外国小说仍然要看人物在具体处境里的选择。科举是《儒林外史》的事。",
+   "options": [
+    "把它当成《儒林外史》，专门找科举笑话",
+    "只背作者国籍，不看人物",
+    "把简·爱和杜小康当成同一个人",
+    "按生活阶段看简在舅母家、学校和桑菲尔德分别做了什么选择"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j148_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这篇课文讨论的首要问题是什么？",
+   "explain": "讲话把培养什么人称为教育的首要问题，再落到德智体美劳全面发展的建设者和接班人。",
+   "options": [
+    "怎样写一首小诗",
+    "培养什么人",
+    "圆明园是谁烧毁的",
+    "杜小康为什么放鸭"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j148_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "公开讲话里常被概括的「六个下功夫」，哪一项在其中？",
+   "explain": "理想信念和爱国情怀是路径的前两条。后几项分别属于雨果的信和《沁园春·雪》。教材若有删节，以课文实际段落为准，这里考的是这篇讲话的公开要点。",
+   "options": [
+    "只增加考试科目，取消体育和劳动",
+    "把圆明园写成两个强盗的信",
+    "坚定理想信念，厚植爱国主义情怀",
+    "先写雪景，再评论秦皇汉武"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j149_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《中国人失掉自信力了吗》的作者是谁？",
+   "explain": "这是鲁迅的杂文，题目就是要驳斥的那句话。",
+   "options": [
+    "吴晗",
+    "陶行知",
+    "鲁迅",
+    "毛泽东"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j149_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "作者指出，当时一些公开文字的问题是什么？",
+   "explain": "「自信力」被作者从对方的说法里拆开。信外物、求神，都不是信自己。",
+   "options": [
+    "全体中国人从来没有任何可信的事",
+    "只有状元宰相的文章才算自信",
+    "求神拜佛就是发展自信力",
+    "先前信地、信物，并不信自己；后来信国联、求神拜佛，那是自欺"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j150_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《谈骨气》的作者是谁？",
+   "explain": "吴晗用孟子「富贵不能淫，贫贱不能移，威武不能屈」来解释骨气。陶行知写《创造宣言》。",
+   "options": [
+    "陶行知",
+    "鲁迅",
+    "顾颉刚",
+    "吴晗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j150_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《谈骨气》里，文天祥、不食嗟来之食的人、闻一多，依次对应孟子的哪三句？",
+   "explain": "文天祥拒绝高官，是不能淫；饿者不吃侮辱性的食物，是不能移；闻一多拍案而起，是不能屈。",
+   "options": [
+    "富贵不能淫，贫贱不能移，威武不能屈",
+    "三个例子都只证明「威武不能屈」",
+    "三个例子都在证明创造不需要环境",
+    "三个例子都是鲁迅小说里的人物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j151_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「我们有并不失掉自信力的中国人在」里，「自信力」是什么色彩？",
+   "explain": "自信力在作者这边是要保住的东西。同一篇文章里的「自欺力」才是批评。",
+   "options": [
+    "褒义，作者用它肯定那些切实的人",
+    "贬义，作者用它骂读者",
+    "和色彩无关，只是一个地名",
+    "中性的数量词，表示人数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j151_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "作者说有人「在发展着自欺力」，「自欺力」的表达效果是什么？",
+   "explain": "仿词把对方的「自信」翻成「自欺」，态度是否定的。",
+   "options": [
+    "褒义，表扬他们很会安慰自己",
+    "贬义，仿照「自信力」造出来，揭露自我安慰",
+    "中性的科学术语，没有态度",
+    "只表示声音很大"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j152_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第五单元写作专题的题目是什么？",
+   "explain": "第五单元读的是议论，写作专题是论证要合理。观点要明确在第二单元。",
+   "options": [
+    "观点要明确",
+    "论证要合理",
+    "学写小小说",
+    "学会深入思考"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j152_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "观点是「不能轻信没有来源的消息」，哪一个例子推得出来？",
+   "explain": "例子里有「没来源」和「核对」，才接得上观点。晚霞、跑步和圆明园推不出这句。",
+   "options": [
+    "昨天的晚霞很红，因此不能轻信",
+    "他跑得很快，因此消息都是假的",
+    "一条没写作者和时间的转发，核对后发现是两年前的旧闻",
+    "圆明园很美，因此所有新闻都不要看"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j153_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「天行健，君子以自强不息」这句常用来概括这次活动的话，出自哪里？",
+   "explain": "这是《周易》里的句子。活动用它来谈遇到困难还继续做。",
+   "options": [
+    "《岳阳楼记》",
+    "《简·爱》",
+    "《周易》",
+    "《故乡》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j153_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一种材料更贴「自强不息」？",
+   "explain": "要有困难和接着做的行动。没有困难的故事，和只喊重要，都还没谈自强。",
+   "options": [
+    "他从来没有遇到过任何困难",
+    "自强很重要，非常重要，特别重要",
+    "把《乡愁》抄在黑板边上",
+    "一次实验失败后，他把步骤改了一处，又做通了"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j148_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「德智体美劳全面发展」是什么意思？",
+   "explain": "五个方面缺一不可。课文反对把教育收成单一的分数。",
+   "options": [
+    "只要成绩高，其余可以不做",
+    "只要会朗诵，就完成了教育的全部任务",
+    "只在毕业前谈一次理想",
+    "德、智、体、美、劳都要发展，不能只剩刷题"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j149_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「状元宰相的文章是不足为据的，要自己去看地底下」是什么意思？",
+   "explain": "地底下指埋头苦干的人。这是作者立起的正面。",
+   "options": [
+    "看有没有自信力，不能只看权贵的文章，要看普通而切实的人",
+    "地底下埋着状元的考卷",
+    "宰相的文章一定代表全体中国人",
+    "作者承认中国人已经全部失掉自信力"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j150_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《创造宣言》要驳斥的一种借口是什么？",
+   "explain": "陶行知连续驳「环境平凡」「年纪太小」「太无能」「陷入绝境」等说法，结论是处处、天天、人人都可以创造。",
+   "options": [
+    "人只要有骨气就不必做事",
+    "环境太平凡，所以不能创造",
+    "中国人已经失掉自信力",
+    "教育不必培养建设者和接班人"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j151_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《谈骨气》里的「骨气」和「嗟来之食」放在一起，感情有什么不同？",
+   "explain": "饿者不吃嗟来之食，正是为了保住骨气。把施舍说成表扬，就和例子相反。",
+   "options": [
+    "两个词都是褒义，都在表扬施舍的人",
+    "两个词都没有感情",
+    "骨气是褒的，嗟来之食是带侮辱的施舍，所以被拒绝",
+    "嗟来之食是褒义，骨气是贬义"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j152_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他一次抄袭被发现，因此所有同学都没有自信力。」问题在哪里？",
+   "explain": "一个人不能代表全体。这是论证不合理，不是用词本身的错。",
+   "options": [
+    "例子和观点都在说抄袭",
+    "使用了「因此」这个词",
+    "写到了同学",
+    "由一个人的一件事，跳到了全体同学，结论比材料大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j153_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "班级用三分钟讲一个自强的人。哪一种开场更清楚？",
+   "explain": "先点明讲哪一种行动。背诗和空话没有把这个人讲出来。",
+   "options": [
+    "残奥会选手每次摔倒都自己爬起来，我要说的是她怎样改动作，不是她的奖牌数量。",
+    "这个人很了不起，非常了不起。",
+    "我先背一遍《沁园春·雪》。",
+    "自强就是不说话。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j148_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和这篇讲话的方向相反？",
+   "explain": "只抓分数，就丢掉了讲话要展开的那些方面。",
+   "options": [
+    "教育只负责提高分数，理想、体育和劳动都不必管",
+    "培养建设者和接班人是根本任务",
+    "理想信念要往日常里做",
+    "爱国不是一句口号"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j149_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种读法把驳论读反了？",
+   "explain": "驳论的题目常常是要批的话，不是作者的结论。读成作者赞成这句，就整个反了。",
+   "options": [
+    "题目是对方的说法，作者要驳它",
+    "题目就是作者的观点，所以鲁迅认为中国人已经失掉了自信力",
+    "文中区分了自信力和自欺力",
+    "作者承认有并不失掉自信力的中国人在"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j150_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种对应是错的？",
+   "explain": "文天祥那三个例子在《谈骨气》里。把它们安到陶行知名下，就串篇了。",
+   "options": [
+    "《谈骨气》引用了孟子的三句",
+    "《创造宣言》认为平凡的环境也能创造",
+    "《创造宣言》的三个例子是文天祥、嗟来之食和闻一多",
+    "两篇都是议论，一篇谈气节，一篇谈创造"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j151_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种理解把色彩读反了？",
+   "explain": "前仆后继写的是脊梁式的人物，是赞。把它读成嘲笑，色彩就反了。",
+   "options": [
+    "「自欺力」带有批评",
+    "「自信力」在作者要肯定的那句里是正面的",
+    "「骨气」不是缺点",
+    "「前仆后继」在这篇驳论里是在嘲笑那些埋头苦干的人"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j152_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种修改让论证变得合理？",
+   "explain": "结论缩回到这一个人和这一次作业，材料才托得住。硬加因此不能补上缺口。",
+   "options": [
+    "把「因此所有同学都失掉自信力」改成「因此这次作业不能说明他已经会了」",
+    "在无关的例子后面加一个「因此」",
+    "把三个互不相干的例子都保留，结论仍写全体",
+    "删掉观点，只留一个过大的结论"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j153_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种计划不像这次活动的结果？",
+   "explain": "没有行动的计划无法检查。分段练习、讲人物和改习惯，都看得见。",
+   "options": [
+    "这周把一次没做完的长跑分三段跑完，并记下每段的时间",
+    "计划上只有「我要自强」五个字，没有一件准备做的事",
+    "向同学讲清一个人物哪一次没有放弃",
+    "说明自己准备改掉的一个具体习惯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j154_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《曹刿论战》出自哪一部书？",
+   "explain": "课文写鲁庄公十年齐鲁长勺之战。邹忌出自《战国策》，陈涉出自《史记》。",
+   "options": [
+    "《战国策》",
+    "《史记》",
+    "《出师表》",
+    "《左传》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j154_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "曹刿认为可以一战的理由是什么？",
+   "explain": "小惠、小信都不能作为根据。只有察狱以情，曹刿才说可以一战。",
+   "options": [
+    "小大之狱，虽不能察，必以情，忠之属也",
+    "衣食分给别人，民弗敢专",
+    "祭祀用的牛羊玉帛，神弗敢加",
+    "他自己会驾车"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j155_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《邹忌讽齐王纳谏》出自哪里？",
+   "explain": "邹忌和齐威王的事记在《战国策》。曹刿的事在《左传》。",
+   "options": [
+    "《战国策》",
+    "《左传》",
+    "《史记》",
+    "《孟子》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j155_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "妻、妾、客都说邹忌比徐公美，原因分别是什么？",
+   "explain": "邹忌自己看见徐公后觉得不如。他没有怪这三个人，而是想通了各自的原因。",
+   "options": [
+    "三个人都亲眼量过，徐公确实不如他",
+    "妻私他，妾畏他，客有求于他",
+    "三个人都不认识徐公",
+    "齐王命令他们这样说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j156_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《陈涉世家》的作者是谁？",
+   "explain": "这篇选自《史记·陈涉世家》。左丘明传统上系于《左传》，诸葛亮写《出师表》。",
+   "options": [
+    "左丘明",
+    "司马迁",
+    "刘向",
+    "诸葛亮"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j156_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「燕雀安知鸿鹄之志哉」是谁说的，用来回什么？",
+   "explain": "陈胜少时佣耕，同伴笑他。鸿鹄之志就是后来要做的大事。",
+   "options": [
+    "吴广说的，回答都尉",
+    "曹刿说的，回答鲁庄公",
+    "陈胜说的，回答佣者「苟富贵，无相忘」之后的嘲笑",
+    "邹忌说的，回答徐公"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j157_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《出师表》是谁写给谁的？",
+   "explain": "表是臣对君的文体。写给儿子的是《诫子书》，不是这一篇。",
+   "options": [
+    "诸葛亮写给儿子诸葛瞻",
+    "曹操写给孙权",
+    "诸葛亮写给后主刘禅",
+    "司马迁写给汉武帝"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j157_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "诸葛亮反复劝刘禅做什么？",
+   "explain": "「亲贤臣，远小人，此先汉所以兴隆也。」郭攸之等人是他向刘禅推荐的贤臣。",
+   "options": [
+    "把宫中的事全部交给营中",
+    "不必再读先帝的遗诏",
+    "立即杀掉郭攸之、费祎、董允",
+    "亲贤臣，远小人"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j158_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「忽如一夜春风来，千树万树梨花开」把雪比成什么？",
+   "explain": "这是岑参《白雪歌送武判官归京》。雪压枝头，像春天忽然开了梨花。",
+   "options": [
+    "柳絮",
+    "蜡象",
+    "红山茶",
+    "梨花"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j158_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《十五从军征》写老兵归来看见什么？",
+   "explain": "十五从军，八十始得归。家变成了坟，是这首乐府的中心。",
+   "options": [
+    "松柏冢累累，家人已经不在，羹饭不知送给谁",
+    "中秋的月亮和弟弟",
+    "密州出猎的千骑",
+    "湖心亭上的两个金陵人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j159_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第六单元写作专题的题目是什么？",
+   "explain": "目录写的是学会深入思考，放在史传和诗词曲这一单元的写作里。",
+   "options": [
+    "学会深入思考",
+    "学写小小说",
+    "观点要明确",
+    "诗歌朗诵"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j159_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「纳谏很好」怎样才算往深处想了一步？",
+   "explain": "深入是说出变化的原因。加重语气和抄词都还停在表面。",
+   "options": [
+    "把「很好」写成「非常好」",
+    "想清门庭若市后来变成无可进者，是因为缺点真的少了，不是人们忽然不敢说",
+    "换成另一个完全无关的故事",
+    "只抄「门庭若市」四个字"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j160_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《唐诗三百首》的编选者一般署谁？",
+   "explain": "这是清代的选本。李白、杜甫是其中的作者，不是编选者。",
+   "options": [
+    "李白",
+    "蘅塘退士孙洙",
+    "杜甫",
+    "文天祥"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j160_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读这本选本，哪一种做法合适？",
+   "explain": "选本没有贯穿始终的情节。体裁和题目是目录，不是小说的回目。",
+   "options": [
+    "从第一首读到最后一首，当成一个人物的一生",
+    "只记「三百」这个数字，不看任何一首",
+    "按五绝、七律等体裁去找，先读题目和作者，再背名句",
+    "把它和《简·爱》当成同一部书的两个译名"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j161_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「溪云初起日沉阁，山雨欲来风满楼」的作者是谁？",
+   "explain": "这是许浑《咸阳城东楼》。山雨欲来，风先满楼。",
+   "options": [
+    "李商隐",
+    "秦观",
+    "许浑",
+    "辛弃疾"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j161_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「春蚕到死丝方尽，蜡炬成灰泪始干」出自谁的哪一首？",
+   "explain": "相见时难别亦难，东风无力百花残。蚕丝和蜡泪都写情到尽头。",
+   "options": [
+    "许浑《咸阳城东楼》",
+    "秦观《浣溪沙》",
+    "辛弃疾《丑奴儿》",
+    "李商隐《无题》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j154_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「一鼓作气，再而衰，三而竭」解释的是什么？",
+   "explain": "第一次鼓气足，第二次衰减，第三次用尽。齐人三鼓之后，鲁军才进攻。",
+   "options": [
+    "为什么要先逃跑",
+    "为什么等齐人三鼓之后才击鼓进军",
+    "为什么曹刿不去观战",
+    "为什么鲁庄公应该亲自击鼓三次"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j155_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "邹忌用这件事讽齐王，想说明什么？",
+   "explain": "私、畏、求，对应宫中、朝廷和地方。所以王受的蒙蔽比邹忌更严重。",
+   "options": [
+    "齐国应该立刻攻打鲁国",
+    "徐公应该来当齐王",
+    "宫妇左右、朝廷之臣、四境之内都可能蒙蔽大王",
+    "纳谏会让国家更听不见消息"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j156_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "陈胜吴广在大泽乡起事，直接的处境是什么？",
+   "explain": "「失期，法皆斩。」他们把「死国」和白白送死比较之后决定起事。",
+   "options": [
+    "齐军已经三鼓",
+    "齐王刚刚下令纳谏",
+    "刘备三顾茅庐",
+    "遇雨失期，按秦法失期当斩，逃也是死、举事也是死"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j157_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「受任于败军之际，奉命于危难之间」回忆的是什么？",
+   "explain": "三顾茅庐、临崩寄大事，都在表的后半。这是出师之前说明自己为什么必须北伐。",
+   "options": [
+    "先帝三顾之后把天下托给他，他在兵败危难时接受任命",
+    "陈胜在大泽乡起义",
+    "曹刿在长勺追击齐军",
+    "邹忌讽齐王"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j158_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「人生自古谁无死？留取丹心照汗青」的作者是谁？",
+   "explain": "这是《过零丁洋》的结句。惶恐滩、零丁洋都在这首诗里。",
+   "options": [
+    "辛弃疾",
+    "文天祥",
+    "张养浩",
+    "岑参"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j159_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读「兴，百姓苦；亡，百姓苦」之后，哪一种想法更深入？",
+   "explain": "第一问碰到了作者为什么不把兴写成喜、把亡写成悲。后三条的「因此」接不上。",
+   "options": [
+    "这首曲押韵，所以它是对的",
+    "张养浩是元朝人，因此百姓不苦",
+    "无论谁兴谁亡，代价都落在百姓身上，所以看历史不能只看胜负",
+    "潼关在山上，因此没有百姓"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j160_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选本里的《行路难》和课文诗词三首是什么关系？",
+   "explain": "选本是从唐诗里挑出来的。课文选了其中一首，不能把编者和作者对调。",
+   "options": [
+    "选本里的《行路难》作者改成了孙洙",
+    "课文里的那首不是李白写的",
+    "选本只收宋词，不收唐诗",
+    "同一首诗可以既在选本里，也在课文里，作者仍是李白"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j161_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "秦观《浣溪沙》「自在飞花轻似梦，无边丝雨细如愁」用什么来写愁？",
+   "explain": "漠漠轻寒、晓阴像穷秋。愁被写成细雨，不是少年故意说愁。",
+   "options": [
+    "飞花像梦，丝雨像愁，都是轻而细的",
+    "山雨把楼吹满",
+    "蚕到死才把丝吐尽",
+    "少年登楼强说愁"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j154_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "「下视其辙，登轼而望之」之后曹刿才说可以追，他看到了什么？",
+   "explain": "车辙乱、军旗倒，说明齐军是真败，不是诱敌。鱼腹帛书是《陈涉世家》的事。",
+   "options": [
+    "齐军又击了一次鼓",
+    "鲁庄公已经把玉帛送出去了",
+    "辙乱，旗靡",
+    "陈胜在鱼腹里放了帛书"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j155_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "令初下之后，群臣进谏的情况怎样变化？",
+   "explain": "悬赏进谏之后，可说的缺点越来越少。这是纳谏的结果，不是把人赶走。",
+   "options": [
+    "始终没有人敢说话",
+    "一年后进谏的人比第一天更多",
+    "齐王把进谏的人全部赶走",
+    "门庭若市，后来时时而间进，最后虽欲言无可进者"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j156_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "「王侯将相宁有种乎」和鱼腹丹书、篝火狐鸣是什么关系？",
+   "explain": "卜者建议他们先取信众人。丹书、狐鸣是办法，口号是对戍卒说的道理。",
+   "options": [
+    "丹书和狐鸣用来制造「陈胜王」的舆论，这句口号则直接号召戍卒不必相信王侯天生",
+    "三件事都是曹刿在长勺做的",
+    "丹书是诸葛亮写给后主的表",
+    "狐鸣发生在邹忌家里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j157_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法把两篇诸葛亮的文章说混了？",
+   "explain": "静和俭是《诫子书》的话。这篇表是给后主的，不能记成家信。",
+   "options": [
+    "《出师表》劝后主亲贤远佞",
+    "《出师表》的主要听众是儿子，中心是静以修身、俭以养德",
+    "《诫子书》才是写给儿子的",
+    "表的结尾有「临表涕零，不知所言」"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j158_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句和作品对得上？",
+   "explain": "兴亡都苦的是百姓，这是潼关怀古的结句。《南乡子》是辛弃疾登京口北固亭，有「生子当如孙仲谋」。",
+   "options": [
+    "《南乡子》的作者是岑参，写的是梨花",
+    "《白雪歌》的结句是「留取丹心照汗青」",
+    "张养浩《山坡羊·潼关怀古》写「兴，百姓苦；亡，百姓苦」",
+    "《十五从军征》是辛弃疾在北固亭写的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j159_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种思考仍然停在表面？",
+   "explain": "只有评语、没有原因，就还没有深入。其余三种都在问原因。",
+   "options": [
+    "先写志气，再写失期和「天下苦秦久矣」怎样碰到一起",
+    "追问曹刿为什么不在一鼓时进军",
+    "问邹忌为什么不直接批评齐王，而要先讲比美",
+    "只写「陈胜很有志气」，不写失期当斩为什么会把戍卒推到起事"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j160_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一种说法和这本选本不一致？",
+   "explain": "孙洙是编选的人。把全部作品说成他写的，就和选本的性质相反。",
+   "options": [
+    "书中所有的诗都是孙洙一个人写的",
+    "里面同时有李白、杜甫、王维等人的作品",
+    "可以用它来复习课内已经学过的唐诗",
+    "读的时候要分清诗题和作者，避免串句"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j161_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "哪一句是辛弃疾《丑奴儿·书博山道中壁》里的？",
+   "explain": "少年强说愁，中年欲说还休，却道天凉好个秋。其余三句分别属于许浑、李商隐和秦观。",
+   "options": [
+    "山雨欲来风满楼",
+    "少年不识愁滋味，爱上层楼。而今识尽愁滋味，欲说还休",
+    "蜡炬成灰泪始干",
+    "自在飞花轻似梦"
+   ],
+   "answer": 2
+  }
+ ]
+}

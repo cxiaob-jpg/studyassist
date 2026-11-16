@@ -1,0 +1,2433 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 4,
+ "semester": "lower",
+ "textbook": "人教版PEP（2022课标修订版，三年级起点）",
+ "questions": [
+  {
+   "id": "cne_p151_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「安静地」？",
+   "explain": "quietly 的意思是安静地。",
+   "options": [
+    "quietly",
+    "talk",
+    "keep",
+    "desk"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p151_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「talk」的中文意思是哪一个？",
+   "explain": "talk 的意思是说话。",
+   "options": [
+    "安静地",
+    "说话",
+    "保持",
+    "书桌"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p152_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句是祈使句？",
+   "explain": "祈使句用动词原形开头。",
+   "options": [
+    "You talk quietly?",
+    "Talk quietly.",
+    "She talks quietly.",
+    "Talking quietly is."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p152_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Keep to the right. 这句是在说什么？",
+   "explain": "Keep to the right 是靠右。",
+   "options": [
+    "靠左走",
+    "保持安静",
+    "靠右走",
+    "把桌子擦干净"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p153_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "图书馆里要小声说话，应说哪一句？",
+   "explain": "小声是 quietly。",
+   "options": [
+    "Talk loudly.",
+    "Keep to the left.",
+    "Talk quietly.",
+    "Do not read."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p153_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Keep your desk clean. 这句是在说什么？",
+   "explain": "desk clean。",
+   "options": [
+    "靠右走",
+    "不要说话",
+    "可以跑",
+    "保持书桌干净"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p154_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Talk quietly. Do not eat. Keep your desk clean. 不可以做什么？",
+   "explain": "Do not eat。",
+   "options": [
+    "安静说话",
+    "保持书桌干净",
+    "看书",
+    "吃东西"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p154_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Keep to the right. 哪一句和文字一致？",
+   "explain": "Keep to the right。",
+   "options": [
+    "请靠右。",
+    "请靠左。",
+    "请吃东西。",
+    "请大声说话。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p246_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我们必须听老师讲」，应选哪一句？",
+   "explain": "must + 动词原形。",
+   "options": [
+    "We must listen to the teacher.",
+    "We must listening to the teacher.",
+    "We mustn't listen to the teacher.",
+    "We must listens to the teacher."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p246_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We mustn't run in the hall. 这句班规是？",
+   "explain": "mustn't 表示禁止。",
+   "options": [
+    "走廊里必须跑",
+    "教室里必须跑",
+    "可以在走廊大喊",
+    "走廊里不能跑"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p247_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "海报上写 Keep the classroom clean. 这是在要求？",
+   "explain": "keep … clean。",
+   "options": [
+    "保持教室干净",
+    "在走廊跑",
+    "大声说话",
+    "乱扔垃圾"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p247_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句适合写进班规海报？",
+   "explain": "班规用祈使句。",
+   "options": [
+    "I like apples.",
+    "It is sunny today.",
+    "My name is Tom.",
+    "Listen to the teacher."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p151_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「保持」的单词。",
+   "explain": "表示保持的单词是 keep。",
+   "options": [
+    "quietly",
+    "talk",
+    "keep",
+    "desk"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p151_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「书桌」？",
+   "explain": "desk 的意思是书桌。",
+   "options": [
+    "quietly",
+    "talk",
+    "keep",
+    "desk"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p152_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do not talk. 这句的意思是？",
+   "explain": "Do not talk 是不要说话。",
+   "options": [
+    "请说话",
+    "正在说话",
+    "喜欢说话",
+    "不要说话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p152_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「请安静」？",
+   "explain": "祈使句说 Be quiet。",
+   "options": [
+    "Be quiet.",
+    "Is quiet.",
+    "Are quiet.",
+    "Quiet is be."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p153_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do not eat in the library. 图书馆里不可以做什么？",
+   "explain": "Do not eat。",
+   "options": [
+    "吃东西",
+    "看书",
+    "安静地说话",
+    "靠右走"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p153_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Work quietly. 这句是在要求什么？",
+   "explain": "quietly 是安静地。",
+   "options": [
+    "大声说话",
+    "安静地做事",
+    "出去玩",
+    "吃午饭"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p154_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：We are reading in the library. Please work quietly. 人们正在哪里？",
+   "explain": "in the library。",
+   "options": [
+    "操场",
+    "图书馆",
+    "食堂",
+    "公园"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p154_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Do not run in the classroom. Walk quietly. 教室里应该怎样走？",
+   "explain": "Walk quietly，并且 Do not run。",
+   "options": [
+    "跑",
+    "吃东西",
+    "安静地走",
+    "大声说话"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p246_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「必须」？",
+   "explain": "must 表示必须。",
+   "options": [
+    "You can never listen.",
+    "You don't must talk.",
+    "You must keep quiet in class.",
+    "You mustn't keep quiet in class."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p247_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读海报：1. Listen carefully. 2. Don't push. 不可以做什么？",
+   "explain": "Don't push。",
+   "options": [
+    "举手",
+    "保持安静",
+    "推搡",
+    "认真听"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p246_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：We must raise our hands. We mustn't shout. 哪一句和班规一致？",
+   "explain": "must raise … mustn't shout。",
+   "options": [
+    "可以在走廊跑。",
+    "要举手，不能大喊。",
+    "要大喊，不能举手。",
+    "不必举手。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p247_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：Our class rules: We must help each other. We mustn't litter. 哪一句可加进海报？",
+   "explain": "保持干净与不乱扔一致。",
+   "options": [
+    "Never listen.",
+    "Keep the floor clean.",
+    "Run in the hall every day.",
+    "Shout in class."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p199_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I ____ go to bed before 9:30. 我得九点半前睡觉。",
+   "explain": "主语是 I，用 have to。",
+   "options": [
+    "can",
+    "have to",
+    "has to",
+    "am"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p199_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「我们不能在床上吃东西」哪一句正确？",
+   "explain": "can't 后面接动词原形。",
+   "options": [
+    "We can eat in bed.",
+    "We don't can eat in bed.",
+    "We can't eats in bed.",
+    "We can't eat in bed."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p229_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「整理床铺」用哪一组词？",
+   "explain": "make the bed 是整理床铺。",
+   "options": [
+    "make the bed",
+    "do homework",
+    "go to bed",
+    "keep quiet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p229_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "keep quiet 的意思是？",
+   "explain": "keep quiet 是保持安静。",
+   "options": [
+    "早睡",
+    "做家务",
+    "起床",
+    "保持安静"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p230_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我必须早睡」，应选哪一句？",
+   "explain": "have to + 动词原形。",
+   "options": [
+    "I have to go to bed early.",
+    "I have go to bed early.",
+    "I has to go to bed early.",
+    "I have to going to bed early."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p230_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I can't watch TV late. 这句家规是？",
+   "explain": "can't 表示不能。",
+   "options": [
+    "必须很晚看电视",
+    "可以不整理床铺",
+    "必须大声说话",
+    "不能很晚看电视"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p231_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I have to make the bed. I can't play football inside. 我必须做什么？",
+   "explain": "have to make the bed。",
+   "options": [
+    "整理床铺",
+    "在屋里踢球",
+    "晚睡",
+    "大声说话"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p231_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：We have to keep quiet at night. 晚上要怎样？",
+   "explain": "keep quiet。",
+   "options": [
+    "大声唱歌",
+    "踢足球",
+    "开派对",
+    "保持安静"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p199_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "He ____ help with the dishes. 他得帮忙洗碗。",
+   "explain": "主语 he 是第三人称单数，用 has to。",
+   "options": [
+    "have to",
+    "haves to",
+    "has to",
+    "have"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p199_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一条是家规？",
+   "explain": "说要做什么的祈使句才是规矩。",
+   "options": [
+    "I like apples.",
+    "Clean your room on Saturdays.",
+    "It is sunny today.",
+    "She is my sister."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p229_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「早睡」用哪一组？",
+   "explain": "go to bed early。",
+   "options": [
+    "make the bed",
+    "watch TV late",
+    "go to bed early",
+    "get up late"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p229_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "do housework 是在说什么？",
+   "explain": "housework 是家务。",
+   "options": [
+    "做运动",
+    "做家务",
+    "做作业",
+    "做游戏"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p230_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「不必」？",
+   "explain": "don't have to 是不必。",
+   "options": [
+    "I can't cook today.",
+    "I must cook today.",
+    "I don't have to cook today.",
+    "I have to cook today."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p230_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "At home I ____ make the bed.",
+   "explain": "I 后用 have to。",
+   "options": [
+    "having to",
+    "have to",
+    "have",
+    "has to"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p231_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Tom has to do housework. He can't watch TV before homework. 哪一句一致？",
+   "explain": "can't watch TV before homework。",
+   "options": [
+    "他可以先看电视。",
+    "他没有家规。",
+    "做完作业前不能看电视。",
+    "他不必做家务。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p231_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I don't have to cook, but I have to wash the dishes. 我必须做什么？",
+   "explain": "have to wash the dishes。",
+   "options": [
+    "看电视",
+    "洗碗",
+    "做饭",
+    "不必洗碗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p088_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「早餐」？",
+   "explain": "breakfast 的意思是早餐。",
+   "options": [
+    "lunch",
+    "breakfast",
+    "dinner",
+    "music"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p088_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「lunch」的中文意思是哪一个？",
+   "explain": "lunch 的意思是午餐。",
+   "options": [
+    "早餐",
+    "晚餐",
+    "午餐",
+    "音乐"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p089_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问「现在几点」，应选哪一句？",
+   "explain": "问时刻说 What time is it?",
+   "options": [
+    "What time it is?",
+    "How many time is it?",
+    "What time is it?",
+    "Where is the time?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p089_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is 6 o'clock. 现在几点？",
+   "explain": "6 o'clock 是 6 点。",
+   "options": [
+    "5 点",
+    "7 点",
+    "9 点",
+    "6 点"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p090_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "现在 9 点，该上音乐课了，应说哪一句？",
+   "explain": "音乐是 music，时刻要和 9 点一致。",
+   "options": [
+    "It is 9 o'clock. It is time for lunch.",
+    "It is 6 o'clock. It is time for breakfast.",
+    "It is 12 o'clock. It is time for dinner.",
+    "It is 9 o'clock. It is time for music."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p090_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "What time is it? 若是 12 点，应回答哪一句？",
+   "explain": "12 点说 It is 12 o'clock。",
+   "options": [
+    "It is 12 o'clock.",
+    "It is 10 o'clock.",
+    "It is 2 o'clock.",
+    "It is 8 o'clock."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p091_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：It is 7 o'clock. It is time for breakfast. 7 点该做什么？",
+   "explain": "breakfast 是早饭。",
+   "options": [
+    "吃早饭",
+    "吃午饭",
+    "吃晚饭",
+    "上音乐课"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p091_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：It is 12 o'clock. Have some lunch. 几点吃午饭？",
+   "explain": "12 o'clock。",
+   "options": [
+    "7 点",
+    "12 点",
+    "6 点",
+    "9 点"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p248_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「该起床了」，应选哪一句？",
+   "explain": "It's time to + 动词原形。",
+   "options": [
+    "It's time to get up.",
+    "It's time to getting up.",
+    "It's time for get up.",
+    "It time to get up."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p248_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It's time for breakfast. 这句是在说？",
+   "explain": "time for breakfast。",
+   "options": [
+    "该睡觉了",
+    "该上学了",
+    "该放学了",
+    "该吃早饭了"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p249_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：7:00 get up. 7:30 breakfast. 七点半做什么？",
+   "explain": "7:30 breakfast。",
+   "options": [
+    "吃早饭",
+    "起床",
+    "睡觉",
+    "放学"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p249_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：It's time to go to bed at 9:00. 九点该做什么？",
+   "explain": "go to bed。",
+   "options": [
+    "起床",
+    "吃早饭",
+    "去上学",
+    "睡觉"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p088_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「晚餐」的单词。",
+   "explain": "表示晚餐的单词是 dinner。",
+   "options": [
+    "breakfast",
+    "lunch",
+    "music",
+    "dinner"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p088_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「音乐」？",
+   "explain": "music 的意思是音乐。",
+   "options": [
+    "music",
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p089_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is time for lunch. 该做什么了？",
+   "explain": "lunch 是午饭。",
+   "options": [
+    "吃午饭",
+    "吃早饭",
+    "吃晚饭",
+    "上音乐课"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p089_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is 7 o'clock. It is time for breakfast. 该吃哪一餐？",
+   "explain": "breakfast 是早饭。",
+   "options": [
+    "午饭",
+    "早饭",
+    "晚饭",
+    "下午茶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p090_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is time for English. 该上什么课？",
+   "explain": "English 是英语。",
+   "options": [
+    "音乐",
+    "英语",
+    "数学",
+    "体育"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p090_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Hurry up! It is time for school. 这句是在催什么？",
+   "explain": "time for school 是该上学了。",
+   "options": [
+    "该吃晚饭了",
+    "该睡觉了",
+    "该去上学了",
+    "该回家了"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p091_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "读一读：Music is at 9 o'clock. 音乐课是几点？",
+   "explain": "at 9 o'clock 是 9 点。",
+   "answer": 9
+  },
+  {
+   "id": "cne_p091_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：It is 6 o'clock. It is time for dinner. 哪一句和短文一致？",
+   "explain": "6 o'clock 和 dinner。",
+   "options": [
+    "6 点该吃早饭了。",
+    "7 点该吃晚饭了。",
+    "6 点该上音乐课了。",
+    "6 点该吃晚饭了。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p248_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句正确？",
+   "explain": "time to + 原形。",
+   "options": [
+    "It's time for go to school.",
+    "It's time going to school.",
+    "It's time to go to school.",
+    "It's time to goes to school."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p249_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy: 6:30 get up; 7:00 go to school. 艾米几点去上学？",
+   "explain": "7:00 go to school。",
+   "options": [
+    "8 点",
+    "9 点",
+    "7 点",
+    "6:30"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p248_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：It's 7:00. It's time to ____. 早上七点最合适填？",
+   "explain": "七点常是上学时间。",
+   "options": [
+    "sleep in class",
+    "go to school",
+    "go to bed",
+    "watch TV all night"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p249_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：Tom gets up at 6:30. He has breakfast at 7:00. It's time to go at 7:20. 他先做什么？",
+   "explain": "先 get up，再 breakfast，再 go。",
+   "options": [
+    "先睡觉",
+    "起床",
+    "先出门",
+    "先吃晚饭"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p104_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「手套」？",
+   "explain": "glove 的意思是手套。",
+   "options": [
+    "scarf",
+    "glove",
+    "umbrella",
+    "sunglasses"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p104_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「scarf」的中文意思是哪一个？",
+   "explain": "scarf 的意思是围巾。",
+   "options": [
+    "手套",
+    "雨伞",
+    "围巾",
+    "太阳镜"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p105_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问「这件衬衫多少钱」，应选哪一句？",
+   "explain": "问价格用 How much。",
+   "options": [
+    "How many is this shirt?",
+    "How old is this shirt?",
+    "How much is this shirt?",
+    "How tall is this shirt?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p105_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "The sunglasses are 50 yuan. 太阳镜多少元？",
+   "explain": "句子里写的是 50 yuan。",
+   "answer": 50
+  },
+  {
+   "id": "cne_p106_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "售货员招呼顾客，常说哪一句？",
+   "explain": "商店里常说 Can I help you?",
+   "options": [
+    "How old are you?",
+    "Where are you from?",
+    "Let's clean the room.",
+    "Can I help you?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p106_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「这条围巾很漂亮」，应说哪一句？",
+   "explain": "围巾是 scarf。",
+   "options": [
+    "This scarf is pretty.",
+    "This umbrella is pretty.",
+    "These gloves are pretty.",
+    "These sunglasses are pretty."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p107_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：The scarf is 20 yuan. The umbrella is 15 yuan. 围巾多少钱？",
+   "explain": "scarf is 20 yuan。",
+   "options": [
+    "20 元",
+    "15 元",
+    "50 元",
+    "8 元"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p107_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "读一读：The sunglasses are 50 yuan. 太阳镜多少元？",
+   "explain": "50 yuan。",
+   "answer": 50
+  },
+  {
+   "id": "cne_p250_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "店员问 Can I help you? 想买钢笔，应选哪一句？",
+   "explain": "想要用 I'd like …",
+   "options": [
+    "I'd like a pen, please.",
+    "I'd like a book, please.",
+    "I don't like pens.",
+    "How old are you?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p250_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I'll take two. 这句购物时表示？",
+   "explain": "I'll take 表示决定买。",
+   "options": [
+    "我只要看",
+    "太贵了",
+    "不要了",
+    "我要买两个"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p251_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "价签：ruler — 3 yuan. 尺子多少钱？",
+   "explain": "3 yuan。",
+   "options": [
+    "3 元",
+    "4 元",
+    "5 元",
+    "10 元"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p251_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I buy a notebook. It is 5 yuan. 本子多少钱？",
+   "explain": "5 yuan。",
+   "options": [
+    "3 元",
+    "笔记本免费",
+    "10 元",
+    "5 元"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p104_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「雨伞」的单词。",
+   "explain": "表示雨伞的单词是 umbrella。",
+   "options": [
+    "glove",
+    "scarf",
+    "sunglasses",
+    "umbrella"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p104_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「太阳镜」？",
+   "explain": "sunglasses 的意思是太阳镜。",
+   "options": [
+    "sunglasses",
+    "glove",
+    "scarf",
+    "umbrella"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p105_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The gloves are 8 yuan. 手套多少钱？",
+   "explain": "8 yuan 是 8 元。",
+   "options": [
+    "8 元",
+    "7 元",
+    "18 元",
+    "80 元"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p105_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "How much is it? 这句是在问什么？",
+   "explain": "How much 问价钱。",
+   "options": [
+    "它有多重",
+    "它多少钱",
+    "它有多高",
+    "它有多少个"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p106_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "How much is this umbrella? 若是 15 元，应回答哪一句？",
+   "explain": "一把伞用 It is，价格是 15 元。",
+   "options": [
+    "It is 50 yuan.",
+    "It is 15 yuan.",
+    "They are 8 yuan.",
+    "It is 5 yuan."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p106_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "They are too expensive. 这句的意思是？",
+   "explain": "too expensive 是太贵。",
+   "options": [
+    "它们很便宜",
+    "我要买它们",
+    "它们太贵了",
+    "它们是 10 元"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p107_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Can I help you? The gloves are 8 yuan. 哪一句和文字一致？",
+   "explain": "gloves are 8 yuan。",
+   "options": [
+    "手套是 15 元。",
+    "雨伞是 8 元。",
+    "手套是 8 元。",
+    "围巾是 8 元。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p107_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：The umbrella is cheap. It is 10 yuan. 雨伞怎么样？",
+   "explain": "cheap 是便宜，价格是 10 yuan。",
+   "options": [
+    "很贵，50 元",
+    "便宜，20 元",
+    "没写价格",
+    "便宜，10 元"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p250_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "—How much is it? —____.",
+   "explain": "问价格用 It's … yuan。",
+   "options": [
+    "It's ten o'clock.",
+    "I take ten.",
+    "It's ten yuan.",
+    "I'm ten."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p251_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：pen 2 yuan; eraser 1 yuan. 买一支笔和一块橡皮一共？",
+   "explain": "2+1=3。",
+   "options": [
+    "1 元",
+    "4 元",
+    "3 元",
+    "2 元"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p250_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读对话：—Can I help you? —Yes. How much are the apples? —Five yuan. —OK, I'll take them. 顾客最后决定？",
+   "explain": "I'll take them。",
+   "options": [
+    "只要一支笔",
+    "买下苹果",
+    "只问时间",
+    "不买了"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p251_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy buys two pencils. Each is 2 yuan. She pays ____ yuan.",
+   "explain": "两支各 2 元共 4 元。",
+   "options": [
+    "6",
+    "4",
+    "2",
+    "3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p096_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「西红柿」？",
+   "explain": "tomato 的意思是西红柿。",
+   "options": [
+    "potato",
+    "tomato",
+    "horse",
+    "cow"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p096_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「potato」的中文意思是哪一个？",
+   "explain": "potato 的意思是土豆。",
+   "options": [
+    "西红柿",
+    "马",
+    "土豆",
+    "奶牛"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p097_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "指着近处的几只鸭子，应选哪一句？",
+   "explain": "近处的复数用 These are。",
+   "options": [
+    "This is ducks.",
+    "These is ducks.",
+    "These are ducks.",
+    "That are ducks."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p097_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Those are horses. 这句在说什么？",
+   "explain": "Those are 是远处的复数。",
+   "options": [
+    "近处的这一个是马",
+    "近处的这些是马",
+    "远处的那一个是马",
+    "远处的那些是马"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p098_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "指着近处的西红柿问，应说哪一句？",
+   "explain": "西红柿是 tomatoes。",
+   "options": [
+    "Are these potatoes?",
+    "Is this a horse?",
+    "Are these cows?",
+    "Are these tomatoes?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p098_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Are these horses? 若是，应回答哪一句？",
+   "explain": "these 的肯定回答是 Yes, they are。",
+   "options": [
+    "Yes, they are.",
+    "Yes, it is.",
+    "No, it is not.",
+    "Yes, these is."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p099_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：These are tomatoes. They are red. 近处这些是什么？",
+   "explain": "tomatoes 是西红柿。",
+   "options": [
+    "西红柿",
+    "土豆",
+    "马",
+    "奶牛"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p099_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Those are horses. They are brown. 马是什么颜色？",
+   "explain": "brown 是棕色。文字没有说它们是黑色。",
+   "options": [
+    "红色",
+    "棕色",
+    "绿色",
+    "黄色"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p252_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「奶牛」？",
+   "explain": "cow 是奶牛。",
+   "options": [
+    "cow",
+    "hen",
+    "horse",
+    "carrot"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p252_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "tomato 的意思是？",
+   "explain": "tomato 是西红柿。",
+   "options": [
+    "土豆",
+    "胡萝卜",
+    "母鸡",
+    "西红柿"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p253_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「农场里有一匹马」，应选哪一句？",
+   "explain": "单数用 There is。",
+   "options": [
+    "There is a horse on the farm.",
+    "There are a horse on the farm.",
+    "There is horse on the farm.",
+    "There be a horse on the farm."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p253_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "There are many hens. 这句话里母鸡是？",
+   "explain": "are + many 表复数。",
+   "options": [
+    "只有一只",
+    "没有母鸡",
+    "一只马",
+    "很多只"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p096_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「马」的单词。",
+   "explain": "表示马的单词是 horse。",
+   "options": [
+    "tomato",
+    "potato",
+    "cow",
+    "horse"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p096_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「奶牛」？",
+   "explain": "cow 的意思是奶牛。",
+   "options": [
+    "cow",
+    "tomato",
+    "potato",
+    "horse"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p097_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "These are potatoes. 这句里的 potatoes 是？",
+   "explain": "potatoes 是 potato 的复数。",
+   "options": [
+    "复数",
+    "单数",
+    "一个人名",
+    "一种颜色"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p097_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句说的是不止一头牛？",
+   "explain": "These are cows 是复数。",
+   "options": [
+    "That is a cow.",
+    "These are cows.",
+    "This is a cow.",
+    "It is a cow."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p098_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Those are cows. 远处的是什么？",
+   "explain": "cows 是奶牛。",
+   "options": [
+    "马",
+    "奶牛",
+    "土豆",
+    "西红柿"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p098_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The potatoes are big. 什么很大？",
+   "explain": "potatoes 是土豆。",
+   "options": [
+    "西红柿",
+    "马",
+    "土豆",
+    "奶牛"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p099_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "读一读：I see seventeen cows and eleven horses. 奶牛有几头？",
+   "explain": "seventeen cows 是 17 头。",
+   "answer": 17
+  },
+  {
+   "id": "cne_p099_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：The potatoes are big. The tomatoes are small. 哪一句和短文一致？",
+   "explain": "potatoes are big，tomatoes are small。",
+   "options": [
+    "土豆小，西红柿大。",
+    "土豆和西红柿一样大。",
+    "没有写大小。",
+    "土豆大，西红柿小。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p252_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「马」用哪个词？",
+   "explain": "horse 是马。",
+   "options": [
+    "hen",
+    "potato",
+    "horse",
+    "cow"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p253_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句正确？",
+   "explain": "复数 tomatoes 用 are。",
+   "options": [
+    "There are a tomato.",
+    "There be tomatoes.",
+    "There are some tomatoes.",
+    "There is some tomatoes."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p252_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：We have hens and cows on the farm. We grow carrots. 农场没有提到哪种？",
+   "explain": "写了 hens、cows、carrots，没有 horse。",
+   "options": [
+    "胡萝卜",
+    "马",
+    "母鸡",
+    "奶牛"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p253_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：There is a cow. There are three horses. 一共提到几只动物？",
+   "explain": "1 头牛 + 3 匹马 = 4。",
+   "options": [
+    "5",
+    "4",
+    "1",
+    "3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p200_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「小麦」？",
+   "explain": "wheat 是小麦。",
+   "options": [
+    "white",
+    "weather",
+    "wheat",
+    "water"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p200_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Milk comes from ____. 牛奶来自哪里？",
+   "explain": "牛奶来自奶牛 cows。",
+   "options": [
+    "cows",
+    "trees",
+    "fish",
+    "hens"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p232_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「挤牛奶」用哪一组词？",
+   "explain": "milk cows 是挤牛奶。",
+   "options": [
+    "milk cows",
+    "feed chickens",
+    "pick vegetables",
+    "plant seeds"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p232_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "feed chickens 的意思是？",
+   "explain": "feed chickens 是喂鸡。",
+   "options": [
+    "挤牛奶",
+    "摘菜",
+    "播种",
+    "喂鸡"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p233_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我可以在农场喂鸡」，应选哪一句？",
+   "explain": "can + 动词原形；地点 on the farm。",
+   "options": [
+    "I can feed chickens on the farm.",
+    "I can feed chickens on the shop.",
+    "I can feeding chickens.",
+    "I can feeds chickens."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p233_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We pick vegetables on the farm. 我们在农场做什么？",
+   "explain": "pick vegetables。",
+   "options": [
+    "挤牛奶",
+    "看书",
+    "看电影",
+    "摘蔬菜"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p234_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：On the farm we milk cows and feed chickens. 我们做什么？",
+   "explain": "milk cows and feed chickens。",
+   "options": [
+    "挤牛奶和喂鸡",
+    "只摘菜",
+    "只播种",
+    "去商店"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p234_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Farmers plant seeds in spring. 农民春天做什么？",
+   "explain": "plant seeds。",
+   "options": [
+    "堆雪人",
+    "放风筝",
+    "游泳",
+    "播种"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p200_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Eggs come from ____.",
+   "explain": "鸡蛋来自母鸡 hens。",
+   "options": [
+    "hens",
+    "sheep",
+    "cows",
+    "rice"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p200_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「大米」？",
+   "explain": "rice 是米饭、大米。",
+   "options": [
+    "rice",
+    "race",
+    "nice",
+    "ice"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p232_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「摘蔬菜」用哪一组？",
+   "explain": "pick vegetables。",
+   "options": [
+    "milk cows",
+    "ride a horse",
+    "pick vegetables",
+    "plant seeds"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p232_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "plant seeds 是在做什么？",
+   "explain": "plant seeds 是播种。",
+   "options": [
+    "买菜",
+    "播种",
+    "喂鸡",
+    "挤奶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p233_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是在农场做的事？",
+   "explain": "milk cows 是农场活动。",
+   "options": [
+    "They milk cows in the library.",
+    "They watch TV on the farm only.",
+    "They milk cows every morning.",
+    "They buy milk in a cinema."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p233_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "On the farm I ____ plant seeds.",
+   "explain": "情态 can 后接原形。",
+   "options": [
+    "is",
+    "can",
+    "cans",
+    "am"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p234_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy picks vegetables. Tom milks cows. 哪一句一致？",
+   "explain": "Tom milks cows。",
+   "options": [
+    "汤姆摘菜。",
+    "他们在图书馆。",
+    "汤姆挤牛奶。",
+    "艾米挤牛奶。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p234_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：From the farm we get milk and eggs. 我们从农场得到什么？",
+   "explain": "milk and eggs。",
+   "options": [
+    "汽车",
+    "牛奶和鸡蛋",
+    "书和笔",
+    "衣服"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p254_q1",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "picnic 的意思是？",
+   "explain": "picnic 是野餐。",
+   "options": [
+    "野餐",
+    "电影院",
+    "博物馆",
+    "计划"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p254_q2",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「博物馆」？",
+   "explain": "museum 是博物馆。",
+   "options": [
+    "cinema",
+    "picnic",
+    "park",
+    "museum"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p255_q1",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我们周末将去野餐」，应选哪一句？",
+   "explain": "will + 动词原形。",
+   "options": [
+    "We will have a picnic this weekend.",
+    "We will having a picnic this weekend.",
+    "We will has a picnic.",
+    "We are will picnic."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p255_q2",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I will visit my grandma. 我打算？",
+   "explain": "visit grandma。",
+   "options": [
+    "去电影院上班",
+    "去博物馆睡觉",
+    "不去了",
+    "看望奶奶"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p256_q1",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问「你周末将做什么？」，应选哪一句？",
+   "explain": "What will you do …",
+   "options": [
+    "What will you do this weekend?",
+    "What will you did this weekend?",
+    "What do you did this weekend?",
+    "What you will do?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p256_q2",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Let's go to the park! 这句是在？",
+   "explain": "Let's 表提议。",
+   "options": [
+    "禁止去公园",
+    "询问价格",
+    "说明昨天去了",
+    "提议去公园"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p257_q1",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：On Saturday we will have a picnic. 星期六计划做什么？",
+   "explain": "have a picnic。",
+   "options": [
+    "野餐",
+    "看电影",
+    "睡觉",
+    "考试"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p257_q2",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Sunday: visit the museum. 星期天去哪里？",
+   "explain": "visit the museum。",
+   "options": [
+    "电影院",
+    "农场",
+    "医院",
+    "博物馆"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p254_q3",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「计划」用哪个词？",
+   "explain": "plan 是计划。",
+   "options": [
+    "plant",
+    "plate",
+    "plan",
+    "play"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p255_q3",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是周末打算？",
+   "explain": "will … on Saturday。",
+   "options": [
+    "I go to the cinema yesterday.",
+    "I going cinema.",
+    "I will go to the cinema on Saturday.",
+    "I went to the cinema yesterday only."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p256_q3",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "—What will you do on Sunday? —____.",
+   "explain": "用 will 回答打算。",
+   "options": [
+    "I am books.",
+    "Yes, I am Sunday.",
+    "I will read books.",
+    "I read books yesterday only."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p257_q3",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：My great weekend plan: cinema on Saturday, park on Sunday. 哪一句一致？",
+   "explain": "park on Sunday。",
+   "options": [
+    "周六去公园。",
+    "没有计划。",
+    "周日去公园。",
+    "周日去电影院。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p254_q4",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：Our weekend plan: visit a museum and see a film. 计划里没有？",
+   "explain": "写了 museum 和 film，没有 picnic。",
+   "options": [
+    "周末安排",
+    "去野餐",
+    "参观博物馆",
+    "看电影"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p255_q4",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：Tom will go to the museum. Amy will stay at home. 谁打算去博物馆？",
+   "explain": "Tom will go to the museum。",
+   "options": [
+    "谁都不去",
+    "汤姆",
+    "艾米",
+    "两人都去"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p256_q4",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读对话：—Let's visit the museum! —Great! I will take a camera. 他们同意做什么？",
+   "explain": "Let's visit the museum，对方说 Great。",
+   "options": [
+    "取消计划",
+    "参观博物馆",
+    "只在家睡觉",
+    "去买菜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p257_q4",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "读一读：We will meet at 9:00. We will go to the cinema. Don't be late! 集合几点？",
+   "explain": "meet at 9:00。",
+   "options": [
+    "晚上",
+    "9 点",
+    "电影院开门时间未写",
+    "8 点"
+   ],
+   "answer": 2
+  }
+ ]
+}

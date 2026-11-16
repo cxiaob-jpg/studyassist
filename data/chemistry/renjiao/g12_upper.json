@@ -1,0 +1,1593 @@
+{
+ "schema_version": 1,
+ "subject": "chemistry",
+ "grade": 12,
+ "semester": "upper",
+ "textbook": "人教版（高中化学）",
+ "questions": [
+  {
+   "id": "cnk_h079_q1",
+   "unit": "u0",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "选择性必修第三册《有机化学基础》主要研究的是？",
+   "explain": "这一册围绕有机物的碳骨架、官能团、反应和用途。晶胞、pH 和金属活动性不是本册的主线。",
+   "options": [
+    "有机化合物的结构、性质、转化及其应用",
+    "只计算晶胞中的原子个数",
+    "只测定溶液的 pH",
+    "只比较金属的活动性顺序"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h079_q2",
+   "unit": "u0",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "有机化合物的性质，主要由什么决定？",
+   "explain": "碳怎样连接、带有什么官能团，决定有机物能发生什么反应。颜色、容器和气温说明不了结构。",
+   "options": [
+    "只由样品的颜色决定",
+    "碳骨架和官能团",
+    "只由盛放容器的大小决定",
+    "只由实验当天的气温决定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h079_q3",
+   "unit": "u0",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "进入本册之前，必修里已经认识过的有机物包括？",
+   "explain": "必修第二册已经介绍简单有机物和基本营养物质。本册是在这些内容上继续学习。",
+   "options": [
+    "只有氯化钠和硫酸",
+    "只有铁和铜",
+    "甲烷、乙烯、乙醇、乙酸，以及糖类、油脂和蛋白质",
+    "只有氢气和氧气"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h079_q4",
+   "unit": "u0",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "把「结构决定性质」用在有机化学，合理的理解是？",
+   "explain": "官能团不同，反应就不同。分子式相同仍可能是同分异构体，性质不必相同。",
+   "options": [
+    "性质与结构无关，只能靠气味判断",
+    "只要会写分子式，就不必区分官能团",
+    "分子式相同的物质性质一定完全相同",
+    "先弄清碳骨架和官能团，再解释反应和用途"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h080_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "有机物分子中，碳原子最常见的成键特点是？",
+   "explain": "碳原子最外层有 4 个电子，在有机物中通常形成 4 个共价键，也可以彼此相连。",
+   "options": [
+    "只形成 1 个离子键",
+    "形成 4 个共价键",
+    "一定形成金属键",
+    "不能与其他碳原子相连"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h080_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "甲烷分子的空间构型是？",
+   "explain": "甲烷中碳原子以四个等同的单键连着四个氢，分子是正四面体，不是平面或直线。",
+   "options": [
+    "平面正方形",
+    "直线形",
+    "正四面体形",
+    "三角锥形"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h081_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "研究一种未知有机化合物，通常首先要做的是？",
+   "explain": "混合物的组成说不清楚。蒸馏、重结晶等方法用来得到较纯的样品，再做进一步测定。",
+   "options": [
+    "直接把全部样品点燃只看火焰颜色",
+    "先把它写成高分子",
+    "分离提纯，得到较纯的样品",
+    "只测量实验室的室温"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h081_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "蒸馏适用于分离的混合物通常是？",
+   "explain": "蒸馏利用沸点不同把液体分开。沸点相同的液体、固体的颜色都不能靠普通蒸馏分开。",
+   "options": [
+    "任何固体都能靠蒸馏分开颜色",
+    "只有气体单质",
+    "沸点完全相同的互溶液体",
+    "沸点相差较大的液体混合物"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h082_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "有机物分子中，碳原子之间可以形成的共价键包括？",
+   "explain": "碳碳之间可以是单键、双键或三键。这是结构特点，还不是某一类烃的具体反应。",
+   "options": [
+    "只能形成离子键",
+    "只能形成金属键",
+    "不能彼此相连",
+    "单键、双键或三键"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h082_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "同系物的组成通常相差？",
+   "explain": "同系物结构相似，分子组成相差若干个 CH2 原子团。电子、中子和晶胞不是这个差别。",
+   "options": [
+    "一个或若干个 CH2",
+    "一个电子",
+    "一个中子",
+    "一个晶胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h080_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "分子式为 C4H10 的饱和链烃，可能的结构有几种？",
+   "explain": "C4H10 有正丁烷和异丁烷两种碳骨架。分子式相同、结构不同，它们是同分异构体。",
+   "options": [
+    "1 种",
+    "3 种",
+    "4 种",
+    "2 种"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h081_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某烃 1 mol 完全燃烧，生成二氧化碳 88 g。二氧化碳的相对分子质量按 44。该烃分子中碳原子数是多少？",
+   "explain": "88 g 二氧化碳是 88÷44＝2 mol。1 mol 烃生成 2 mol 二氧化碳，分子中有 2 个碳原子。",
+   "answer": 2
+  },
+  {
+   "id": "cnk_h082_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "要分离沸点明显不同的液体有机物，常用的方法是？",
+   "explain": "沸点不同的液体适合蒸馏。磁铁、焰色和过滤解决不了互溶液体的分离。",
+   "options": [
+    "用磁铁吸引",
+    "蒸馏",
+    "用焰色试验",
+    "用过滤把互溶的液体分开"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h080_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "乙醇和甲醚的分子式都是 C2H6O，但性质不同。二者的关系是？",
+   "explain": "分子式相同、结构不同，互为同分异构体。同系物的分子式不同，组成相差若干个 CH2。",
+   "options": [
+    "同分异构体",
+    "同素异形体",
+    "同位素",
+    "同系物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h081_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "要确定有机物的分子式，并且判断可能含有的官能团，通常还需要？",
+   "explain": "元素组成给出最简式，相对分子质量才能确定分子式。官能团还要靠特征反应或谱图，不能只看颜色。",
+   "options": [
+    "只看样品颜色",
+    "相对分子质量和能反映官能团的实验或谱学信息",
+    "只知道沸点就一定能写出唯一结构",
+    "只测量密度就能确定全部同分异构体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h082_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "分子式都是 C2H6O 的乙醇和甲醚性质不同。同时用上结构和研究方法，合理的结论是？",
+   "explain": "乙醇含羟基，甲醚含醚键，分子式相同却是同分异构体。只靠分子式或一个沸点写不出唯一结构。",
+   "options": [
+    "分子式相同就一定是同一种物质",
+    "只要测出沸点就能确定全部原子的连接方式",
+    "分子式相同仍可能结构不同，所以还要靠官能团信息区分",
+    "二者相差一个 CH2，所以是同系物"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h083_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "烷烃分子中，碳原子之间只含有？",
+   "explain": "烷烃是饱和烃，碳碳之间都是单键，不含双键、三键或苯环。",
+   "options": [
+    "碳碳单键",
+    "碳碳双键",
+    "碳碳三键",
+    "苯环"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h083_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "烷烃的通式是？",
+   "explain": "饱和链烃每增加一个碳，就增加两个氢，通式是 CnH2n+2。",
+   "options": [
+    "CnH2n",
+    "CnH2n+2",
+    "CnH2n-2",
+    "CnH2n-6"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h084_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙烯分子中的官能团是？",
+   "explain": "乙烯是最简单的烯烃，官能团是碳碳双键。羟基、羧基和醛基属于烃的衍生物。",
+   "options": [
+    "羟基",
+    "碳碳双键",
+    "羧基",
+    "醛基"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h084_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙烯使溴的四氯化碳溶液褪色，主要因为发生了？",
+   "explain": "溴分子加到碳碳双键上，红棕色褪去。这不是中和、酯化或复分解。",
+   "options": [
+    "中和反应",
+    "酯化反应",
+    "加成反应",
+    "复分解反应"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h085_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "苯的分子式是？",
+   "explain": "苯是 C6H6。C6H12、C6H14 氢原子更多，C2H4 是乙烯。",
+   "options": [
+    "C6H12",
+    "C6H14",
+    "C6H6",
+    "C2H4"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h085_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "苯分子中六个碳碳键的关系是？",
+   "explain": "苯环上的碳碳键完全等同，不能简单看成单双键交替，也不含三键或离子键。",
+   "options": [
+    "三个单键和三个双键交替，长短明显不同",
+    "全部是碳碳三键",
+    "全部是离子键",
+    "键长等同，是介于单键和双键之间的特殊共价键"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h086_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列物质属于饱和烃的是？",
+   "explain": "乙烷只有碳碳单键。乙烯、乙炔和苯都有不饱和结构。",
+   "options": [
+    "乙烯",
+    "乙炔",
+    "苯",
+    "乙烷"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h086_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "能使溴的四氯化碳溶液因加成而褪色的是？",
+   "explain": "乙烯含碳碳双键，能与溴加成。烷烃不能加成。苯通常也不与溴的四氯化碳溶液发生加成。",
+   "options": [
+    "乙烯",
+    "乙烷",
+    "甲烷",
+    "苯"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h083_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "丁烷分子中碳原子数为 4。按通式 CnH2n+2，氢原子数是多少？",
+   "explain": "n＝4 时，氢原子数是 2×4+2＝10。丁烷的分子式是 C4H10。",
+   "answer": 10
+  },
+  {
+   "id": "cnk_h084_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "炔烃的通式是 CnH2n-2。n＝3 时，分子中氢原子数是多少？",
+   "explain": "2×3−2＝4。含三个碳的炔烃分子式是 C3H4。",
+   "answer": 4
+  },
+  {
+   "id": "cnk_h085_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "苯与液溴在铁或溴化铁催化下，主要发生？",
+   "explain": "苯环稳定，在催化剂作用下氢被溴取代。它不像乙烯那样与溴迅速加成。",
+   "options": [
+    "取代反应",
+    "像乙烯那样迅速加成",
+    "酯化反应",
+    "中和反应"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h086_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某单烯烃分子中含 4 个碳原子。按通式 CnH2n，氢原子数是多少？",
+   "explain": "n＝4 时，氢原子数是 2×4＝8。该单烯烃的分子式是 C4H8。",
+   "answer": 8
+  },
+  {
+   "id": "cnk_h083_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "甲烷与氯气在光照下主要发生的反应类型是？",
+   "explain": "甲烷没有不饱和键，不能加成。光照下氯原子逐步取代氢原子，属于取代反应。",
+   "options": [
+    "加成反应",
+    "加聚反应",
+    "酯化反应",
+    "取代反应"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h084_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "比较乙烷、乙烯和乙炔，不饱和程度最高的是？",
+   "explain": "乙炔含碳碳三键，不饱和程度高于乙烯的双键。乙烷是饱和烃。乙烯是 C2H4，乙炔是 C2H2，乙烯的氢原子更多。",
+   "options": [
+    "乙炔",
+    "乙烷",
+    "三者的不饱和程度相同",
+    "乙烯含有的氢原子更少，所以比乙炔更不饱和"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h085_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "甲苯能使酸性高锰酸钾溶液褪色，苯通常不能。主要原因是？",
+   "explain": "使酸性高锰酸钾褪色的是甲苯的侧链，不是苯环本身。苯没有可被氧化的侧链。",
+   "options": [
+    "苯含有典型的碳碳双键，所以更容易褪色",
+    "甲苯的侧链甲基可以被氧化，苯环本身不易被酸性高锰酸钾氧化",
+    "甲苯不含碳，所以不能被氧化",
+    "两者的差别只是颜色深浅，与结构无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h086_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列反应类型判断正确的是？",
+   "explain": "烷烃走取代，烯烃走加成。苯在催化剂下与液溴发生的是取代，不是中和。",
+   "options": [
+    "乙烷与溴水迅速发生加成",
+    "乙烯在光照下只能发生酯化",
+    "乙烷与氯气在光照下发生取代，乙烯与溴发生加成",
+    "苯与液溴在催化剂下发生中和"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h087_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "卤代烃分子中的官能团是？",
+   "explain": "卤代烃的官能团是与碳相连的卤原子。羟基、醛基和羧基是其他衍生物的官能团。",
+   "options": [
+    "碳卤键",
+    "羟基",
+    "醛基",
+    "羧基"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h087_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "溴乙烷在氢氧化钠水溶液中加热，主要得到？",
+   "explain": "水溶液中加热，溴原子被羟基取代，主要产物是乙醇。生成乙烯需要醇溶液中的消去条件。",
+   "options": [
+    "乙烯",
+    "乙醇",
+    "乙炔",
+    "乙酸乙酯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h088_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙醇分子中的官能团是？",
+   "explain": "乙醇是醇类，官能团是羟基。醛基、羧基和三键分别属于醛、羧酸和炔烃。",
+   "options": [
+    "醛基",
+    "羟基",
+    "羧基",
+    "碳碳三键"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h088_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "苯酚溶液中滴加三氯化铁溶液，常观察到？",
+   "explain": "酚羟基与三氯化铁作用显紫色。银镜用于醛基，这个现象不是放出氨气或析出钠。",
+   "options": [
+    "放出氨气",
+    "出现银镜",
+    "溶液显紫色",
+    "析出金属钠"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h089_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙醛分子中的官能团是？",
+   "explain": "乙醛的官能团是醛基 —CHO。羧基、羟基和氨基是其他类别的官能团。",
+   "options": [
+    "羧基",
+    "羟基",
+    "醛基",
+    "氨基"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h089_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙醛与新制氢氧化铜悬浊液共热，特征现象是？",
+   "explain": "醛基把氢氧化铜还原成氧化亚铜，出现砖红色沉淀。紫色是酚与三氯化铁的现象。",
+   "options": [
+    "溶液显紫色",
+    "放出氯气",
+    "析出金属钠",
+    "产生砖红色沉淀"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h090_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙酸分子中的官能团是？",
+   "explain": "乙酸是羧酸，官能团是羧基 —COOH，不是醛基或双键。",
+   "options": [
+    "醛基",
+    "碳碳双键",
+    "氨基",
+    "羧基"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h090_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙酸与乙醇在浓硫酸加热条件下生成乙酸乙酯，这个反应属于？",
+   "explain": "羧酸与醇生成酯和水，是酯化。它不是双键加成，也不是消去或加聚。",
+   "options": [
+    "酯化反应",
+    "加成反应",
+    "消去反应",
+    "加聚反应"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h091_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "设计有机合成路线时，要同时考虑的是？",
+   "explain": "合成既要连上所需的碳链，也要把官能团变成目标结构。容器和颜色不能代替路线。",
+   "options": [
+    "碳骨架的构建和官能团的转化",
+    "只改变容器的形状",
+    "只记录室温",
+    "只比较样品的颜色"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h091_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "由溴乙烷制备乙醇，应选择的条件是？",
+   "explain": "水溶液中加热发生取代，得到乙醇。醇溶液中加热会发生消去，得到乙烯。",
+   "options": [
+    "氢氧化钠的醇溶液并加热",
+    "氢氧化钠水溶液并加热",
+    "直接加聚",
+    "与溴水加成"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h092_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列官能团与名称对应正确的是？",
+   "explain": "—CHO 是醛基，—COOH 是羧基，—OH 是羟基，碳卤键是卤原子。不能互换名称。",
+   "options": [
+    "—OH 一定是羧基",
+    "—CHO 是醛基",
+    "—COOH 是醛基",
+    "碳卤键是羟基"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h092_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "检验醛基，可用的试剂是？",
+   "explain": "银氨溶液与醛基发生银镜反应。三氯化铁用于酚，石蕊只能说明酸碱性，溴水不是醛基的专用检验。",
+   "options": [
+    "三氯化铁溶液",
+    "只用石蕊试液就能证明醛基",
+    "银氨溶液",
+    "只用溴的四氯化碳溶液证明所有醛"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h093_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "实验活动「乙酸乙酯的制备与性质」的主要目的是？",
+   "explain": "本实验围绕酯的生成和现象，不是晶体、定容或配合物。",
+   "options": [
+    "测定晶胞参数",
+    "配制一定物质的量浓度的标准溶液",
+    "制备乙酸乙酯，并观察它的主要性质",
+    "观察配合物的颜色"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h093_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "制备乙酸乙酯时，浓硫酸的主要作用是？",
+   "explain": "浓硫酸加快酯化，同时吸水，使平衡向生成酯的方向移动。目标产物不是乙烯。",
+   "options": [
+    "把乙醇氧化成乙烯作为目标产物",
+    "只用来中和乙酸",
+    "作指示剂显示滴定终点",
+    "作催化剂，并吸收生成的水"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h094_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "实验活动「有机化合物中常见官能团的检验」主要目的是？",
+   "explain": "本实验把现象和官能团对应起来，不是量热、滴定或晶体导电。",
+   "options": [
+    "测定反应热的数值",
+    "配制标准酸溶液",
+    "观察金属晶体是否导电",
+    "用特征现象判断样品中可能含有的官能团"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h094_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "银镜反应呈阳性，通常说明样品中可能含有？",
+   "explain": "银镜说明存在可被银氨溶液氧化的基团，醛基是常见例子。碳碳单键、单纯苯环和氯离子不能据此证明。",
+   "options": [
+    "醛基，或其他能被银氨溶液氧化的还原性基团",
+    "碳碳单键",
+    "只有苯环而没有任何侧链",
+    "氯离子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h087_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "溴乙烷在氢氧化钠的醇溶液中加热，主要发生？",
+   "explain": "醇溶液提供消去条件，相邻碳上的氢和溴一起脱去，生成乙烯。水解要用水溶液。",
+   "options": [
+    "水解生成乙醇",
+    "加聚生成聚乙烯",
+    "消去反应，生成乙烯",
+    "中和后析出金属钠"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h088_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "乙醇在铜或银催化下加热，被氧气氧化的主要产物是？",
+   "explain": "伯醇的催化氧化先得到醛。乙醇在铜或银催化下主要生成乙醛，不是酯、聚乙烯或甲烷。",
+   "options": [
+    "乙酸乙酯",
+    "聚乙烯",
+    "甲烷",
+    "乙醛"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h089_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "银镜反应通常用于检验？",
+   "explain": "银氨溶液能氧化醛基并析出银。一般的酮和碳碳单键不能发生银镜反应，也不能用来检验所有烃。",
+   "options": [
+    "醛基",
+    "所有烃",
+    "一般的酮羰基",
+    "碳碳单键"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h090_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "乙酸乙酯的分子式是 C4H8O2。相对原子质量按 C 12、H 1、O 16，它的相对分子质量是多少？",
+   "explain": "12×4+1×8+16×2＝48+8+32＝88。",
+   "answer": 88
+  },
+  {
+   "id": "cnk_h091_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "由乙醇制备乙酸乙酯，合理的路线是？",
+   "explain": "乙酸乙酯来自乙酸和乙醇的酯化。乙醇可以氧化得到乙酸，再与另一部分乙醇反应。",
+   "options": [
+    "乙醇直接加聚成聚乙烯后再水解",
+    "乙醇消去成乙烯后就一定是乙酸乙酯",
+    "一部分乙醇氧化成乙酸，再与乙醇酯化",
+    "把乙醇点燃就得到乙酸乙酯"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h092_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列转化顺序合理的是？",
+   "explain": "卤代烃水解到醇，醇氧化到醛，醛再氧化到羧酸。后面几条把反应类型和产物配错了。",
+   "options": [
+    "乙酸直接消去成溴乙烷",
+    "乙醛水解成溴乙烷",
+    "乙醇在氢氧化钠醇溶液中消去成乙酸",
+    "溴乙烷水解得乙醇，乙醇氧化得乙醛，乙醛氧化得乙酸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h093_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用饱和碳酸钠溶液处理蒸出的乙酸乙酯，主要是为了？",
+   "explain": "碳酸钠除去酸、溶解醇，酯在其中溶解度小，便于分层。它不把酯氧化或加聚。",
+   "options": [
+    "中和挥发的乙酸，溶解乙醇，并降低乙酸乙酯的溶解度",
+    "把乙酸乙酯氧化成乙酸",
+    "使乙酸乙酯发生银镜反应",
+    "把酯加聚成塑料"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h094_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "酸性高锰酸钾溶液褪色，不能单独证明一定含有碳碳双键。因为？",
+   "explain": "酸性高锰酸钾是较强的氧化剂，不饱和烃、醇、醛和甲苯侧链等都可能使它褪色。",
+   "options": [
+    "只有碳碳双键能使它褪色，没有例外",
+    "醇、醛和某些带侧链的芳香烃等也能使它褪色",
+    "它只与烷烃反应",
+    "褪色一定是中和反应"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h087_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "判断卤代烃主要发生水解还是消去，关键要看？",
+   "explain": "试剂的溶剂和加热条件决定反应方向。不能只看颜色，也不能认为有碱就一定消去。",
+   "options": [
+    "只看卤代烃的颜色",
+    "两种条件的产物一定相同",
+    "只要有氢氧化钠就一定只生成烯烃",
+    "氢氧化钠在水溶液中加热倾向取代，在醇溶液中加热倾向消去"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h088_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列酸性顺序合理的是？",
+   "explain": "苯酚能与氢氧化钠反应，但不能与碳酸氢钠反应放出二氧化碳，酸性介于碳酸和乙醇之间。",
+   "options": [
+    "碳酸强于苯酚，苯酚强于乙醇",
+    "乙醇强于苯酚，苯酚强于碳酸",
+    "三者酸性完全相同",
+    "苯酚能与碳酸氢钠放出二氧化碳，所以酸性比碳酸强"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h089_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "乙醛催化加氢的主要产物是？",
+   "explain": "醛基加氢被还原成羟基，乙醛得到乙醇。氧化才会走向乙酸，加氢不能得到乙炔或苯。",
+   "options": [
+    "乙酸",
+    "乙醇",
+    "乙炔",
+    "苯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h090_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "乙酸乙酯在氢氧化钠溶液中加热，主要得到？",
+   "explain": "碱性条件下酯水解生成羧酸盐和醇，所以是乙酸钠和乙醇。酸催化水解才得到乙酸。",
+   "options": [
+    "乙酸和乙醇",
+    "乙烯和氢气",
+    "乙酸钠和乙醇",
+    "氨基酸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h091_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "由溴乙烷制备乙烯，应选择的条件是？",
+   "explain": "醇溶液中加热发生消去，得到乙烯。水溶液得到的是乙醇。银氨溶液和三氯化铁不是这个转化的试剂。",
+   "options": [
+    "氢氧化钠的水溶液并加热",
+    "银氨溶液并水浴加热",
+    "三氯化铁溶液",
+    "氢氧化钠的醇溶液并加热"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h092_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列条件与反应匹配正确的是？",
+   "explain": "酯化用羧酸、醇、浓硫酸和加热。溴乙烷的水溶液是水解；氢氧化铜试验是氧化；三氯化铁使酚显紫色。",
+   "options": [
+    "乙酸与乙醇在浓硫酸加热下发生酯化",
+    "溴乙烷在氢氧化钠水溶液中加热只发生消去",
+    "乙醛与新制氢氧化铜共热发生酯化",
+    "苯酚遇三氯化铁发生银镜反应"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h093_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "做这个实验时，更符合安全要求的做法是？",
+   "explain": "浓硫酸会灼伤皮肤。热的液体不能用嘴吸，浓硫酸也不能冲进沸液，封闭加热有危险。",
+   "options": [
+    "用嘴直接吸出热的混合液",
+    "浓硫酸有强腐蚀性，取用时防止沾到皮肤，加热时不要把装置密闭",
+    "把浓硫酸一次倒进已经沸腾的乙醇里",
+    "加热时把整套装置完全封死"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h094_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "要区分乙酸和苯酚，较合适的现象是？",
+   "explain": "羧酸酸性强于碳酸，能与碳酸氢钠放出二氧化碳。酚能与三氯化铁显色，乙酸不能。两者都能与氢氧化钠反应。",
+   "options": [
+    "两者都能发生银镜反应",
+    "两者遇三氯化铁都显紫色",
+    "乙酸与碳酸氢钠反应放出二氧化碳，苯酚不能；苯酚遇三氯化铁显紫色，乙酸不能",
+    "两者都不能与氢氧化钠反应"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h095_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "葡萄糖的分子式是？",
+   "explain": "葡萄糖是含六个碳的单糖，分子式为 C6H12O6。另三个分别接近乙醇、乙烯和乙酸。",
+   "options": [
+    "C6H12O6",
+    "C2H6O",
+    "C2H4",
+    "C2H4O2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h095_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列属于还原糖的是？",
+   "explain": "葡萄糖能发生银镜反应，是还原糖。蔗糖本身不能，聚乙烯和甲烷也不是糖。",
+   "options": [
+    "蔗糖",
+    "葡萄糖",
+    "聚乙烯",
+    "甲烷"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h096_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "蛋白质水解的最终产物主要是？",
+   "explain": "蛋白质由氨基酸缩合而成，彻底水解得到氨基酸，不是葡萄糖、甘油或乙烯。",
+   "options": [
+    "葡萄糖",
+    "氨基酸",
+    "甘油",
+    "乙烯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h096_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "氨基酸分子中通常同时含有？",
+   "explain": "氨基酸的名字来自氨基和羧基。只含醛基、三键或卤原子的不是氨基酸。",
+   "options": [
+    "只有醛基",
+    "只有碳碳三键",
+    "氨基和羧基",
+    "只有卤原子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h097_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "核酸的基本组成单位是？",
+   "explain": "核酸由核苷酸连接而成。氨基酸是蛋白质的单位，葡萄糖是单糖，乙烯是烯烃。",
+   "options": [
+    "氨基酸",
+    "葡萄糖",
+    "核苷酸",
+    "乙烯"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h097_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一个核苷酸通常由哪三部分组成？",
+   "explain": "核苷酸含磷酸、五碳糖和碱基。氨基与羧基属于氨基酸，金属离子和配体属于配合物。",
+   "options": [
+    "氨基、羧基和肽键",
+    "只有碳和氢",
+    "金属离子、配体和水",
+    "磷酸、戊糖和碱基"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h098_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列物质属于糖类的是？",
+   "explain": "葡萄糖是单糖。乙酸乙酯是酯，蛋白质由氨基酸组成，DNA 是核酸。",
+   "options": [
+    "乙酸乙酯",
+    "蛋白质",
+    "DNA",
+    "葡萄糖"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h098_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列物质彻底水解后主要得到氨基酸的是？",
+   "explain": "蛋白质水解得到氨基酸。淀粉、蔗糖和纤维素水解得到的是糖。",
+   "options": [
+    "蛋白质",
+    "淀粉",
+    "蔗糖",
+    "纤维素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h099_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "实验活动「糖类的性质」的主要目的是？",
+   "explain": "本实验看糖的还原性、水解和淀粉与碘的作用，不是酯化、配合物或晶胞。",
+   "options": [
+    "观察葡萄糖、蔗糖、淀粉等糖类的特征性质",
+    "制备乙酸乙酯",
+    "观察配合物的颜色",
+    "测定晶胞中的原子数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h099_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "葡萄糖与新制氢氧化铜悬浊液共热，可观察到？",
+   "explain": "葡萄糖含醛基，把氢氧化铜还原成砖红色的氧化亚铜。紫色是酚的显色。",
+   "options": [
+    "溶液显紫色",
+    "砖红色沉淀",
+    "放出氨气",
+    "析出金属钠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h095_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "葡萄糖的分子式是 C6H12O6。相对原子质量按 C 12、H 1、O 16，相对分子质量是多少？",
+   "explain": "12×6+12+16×6＝72+12+96＝180。",
+   "answer": 180
+  },
+  {
+   "id": "cnk_h096_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "4 个氨基酸分子缩合成一条肽链。脱去的水分子数是多少？",
+   "explain": "n 个氨基酸形成一条肽链，脱去 n−1 分子水。4−1＝3。",
+   "answer": 3
+  },
+  {
+   "id": "cnk_h097_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "DNA 与 RNA 的一个差别是？",
+   "explain": "DNA 用胸腺嘧啶，RNA 用尿嘧啶。两者都含戊糖和碱基，碱基不是氨基酸。",
+   "options": [
+    "DNA 含胸腺嘧啶，RNA 含尿嘧啶",
+    "DNA 的碱基是氨基酸",
+    "RNA 不含糖",
+    "两者都只由葡萄糖构成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h098_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列组合正确的是？",
+   "explain": "核苷酸才是磷酸、戊糖和碱基。肽键连接氨基酸，DNA 的单位不是氨基酸。",
+   "options": [
+    "氨基酸由磷酸和碱基组成",
+    "核苷酸由磷酸、戊糖和碱基组成",
+    "葡萄糖由肽键连接成淀粉",
+    "DNA 的基本单位是氨基酸"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h099_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "蔗糖本身通常不能发生银镜反应。要检验它的水解产物，应注意？",
+   "explain": "银镜反应需要碱性环境。酸还没中和时，银氨溶液会被破坏。三氯化铁和焰色不能证明水解产物。",
+   "options": [
+    "在强酸性条件下直接做银镜反应",
+    "用三氯化铁检验蔗糖",
+    "先在酸催化下水解，再用碱中和过量的酸，然后做银镜反应",
+    "把蔗糖点燃后看焰色"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h095_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "淀粉遇碘液变蓝；蔗糖不能发生银镜反应，水解后可以。这说明？",
+   "explain": "淀粉与碘形成蓝色物质。蔗糖要先水解成葡萄糖和果糖，产物才能表现还原性。",
+   "options": [
+    "蔗糖本身就是还原糖，水解前后完全一样",
+    "淀粉变蓝说明它是醛",
+    "碘液变蓝是酸碱中和",
+    "淀粉有能与碘作用的结构；蔗糖本身不是还原糖，水解生成的单糖才有还原性"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h096_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列关于蛋白质的判断正确的是？",
+   "explain": "变性破坏空间结构，通常不可逆。盐析是溶解度变化，可以复原。蛋白质含氮，水解产物是氨基酸。",
+   "options": [
+    "加热、强酸或重金属盐可使蛋白质变性，这种变性通常不能加水复原",
+    "变性就是水解成葡萄糖",
+    "蛋白质不含氮",
+    "盐析和变性完全相同，都能用加水复原"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h097_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "关于核酸和蛋白质，合理的说法是？",
+   "explain": "核酸的单位是核苷酸，蛋白质的单位是氨基酸。不能把水解产物对调，也不能都说成葡萄糖。",
+   "options": [
+    "蛋白质水解就得到核苷酸",
+    "核酸储存遗传信息，蛋白质的合成与核酸中的信息有关",
+    "核酸水解的最终产物是氨基酸",
+    "两者的基本单位都是葡萄糖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h098_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列判断正确的是？",
+   "explain": "蔗糖要水解后才表现还原性。蛋白质的单位是氨基酸，淀粉遇碘变蓝是糖类的现象。",
+   "options": [
+    "所有糖都是还原糖",
+    "蛋白质的基本单位是核苷酸",
+    "蔗糖不是还原糖，葡萄糖是还原糖；蛋白质含肽键，核酸的基本单位是核苷酸",
+    "淀粉遇碘变蓝说明它是蛋白质"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h099_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "淀粉溶液加碘水变蓝。水解较完全后再加碘水，蓝色消失。这说明？",
+   "explain": "蓝色来自淀粉与碘的作用。水解后淀粉结构消失，所以不再变蓝。产物不是蛋白质或聚乙烯。",
+   "options": [
+    "淀粉变成了蛋白质",
+    "蓝色消失说明生成了聚乙烯",
+    "碘水变蓝是酸碱指示剂的变色",
+    "淀粉被水解，能与碘显蓝色的结构被破坏"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h100_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乙烯生成聚乙烯的反应类型是？",
+   "explain": "乙烯的双键打开后彼此连接，属于加聚。它不水解，也不发生银镜或中和。",
+   "options": [
+    "水解反应",
+    "加聚反应",
+    "银镜反应",
+    "中和反应"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h100_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "缩聚反应与加聚反应的一个重要差别是？",
+   "explain": "缩聚在形成高分子时脱去小分子。加聚一般不脱小分子。乙烷没有适合加聚的不饱和键。",
+   "options": [
+    "加聚一定生成水",
+    "缩聚的单体不能含官能团",
+    "缩聚通常会同时生成水等小分子",
+    "两者都只适用于乙烷"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h101_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "聚乙烯属于？",
+   "explain": "聚乙烯是常见塑料。它不是蛋白质、单糖或金属晶体。",
+   "options": [
+    "蛋白质",
+    "单糖",
+    "塑料类高分子材料",
+    "金属晶体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnk_h101_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "线型高分子加热可以软化、冷却后又变硬，这类材料通常称为？",
+   "explain": "热塑性塑料的线型分子可以反复软化成型。热固性塑料固化后不能这样反复加工。",
+   "options": [
+    "热固性塑料",
+    "小分子晶体",
+    "离子化合物",
+    "热塑性塑料"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h102_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "由乙烯得到聚乙烯，反应类型是？",
+   "explain": "乙烯通过加成彼此连接成高分子，是加聚反应。",
+   "options": [
+    "水解反应",
+    "酯化反应",
+    "银镜反应",
+    "加聚反应"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnk_h102_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "缩聚反应生成高分子时，通常还会？",
+   "explain": "缩聚同时得到高分子和小分子。乙烷不能作为这种单体，产物也不是单糖。",
+   "options": [
+    "产生水等小分子",
+    "只生成小分子而不生成高分子",
+    "把高分子变成单糖",
+    "要求单体一定是乙烷"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h100_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "乙烯的相对分子质量按 28。聚乙烯的聚合度为 100，忽略端基时，这条高分子的相对分子质量约是多少？",
+   "explain": "每个链节来自一个乙烯，相对分子质量约 28。100 个链节是 28×100＝2800。",
+   "answer": 2800
+  },
+  {
+   "id": "cnk_h101_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "涤纶是常见的合成纤维，它主要是通过什么反应得到的？",
+   "explain": "涤纶是聚酯，由二元酸和二元醇缩聚并脱去小分子得到。它不是乙烯的加聚产物。",
+   "options": [
+    "缩聚反应",
+    "乙烯直接加聚且不脱去小分子",
+    "氨基酸水解",
+    "葡萄糖发酵"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h102_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "塑料、合成纤维和合成橡胶都属于？",
+   "explain": "这三类都是合成高分子材料。核酸是生物大分子，烷烃和离子晶体不是这个类别。",
+   "options": [
+    "核酸",
+    "合成高分子材料",
+    "小分子烷烃",
+    "离子晶体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h100_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列单体适合发生加聚反应的是？",
+   "explain": "加聚需要不饱和键。乙烯有碳碳双键。乙烷、乙酸和乙醇不能按乙烯的方式加聚。",
+   "options": [
+    "乙烯",
+    "乙烷",
+    "乙酸",
+    "乙醇"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnk_h101_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "天然橡胶经过硫化后弹性更好。硫化的主要作用是？",
+   "explain": "硫化在分子链之间形成交联，橡胶更有弹性。它不是变成糖、乙烯或乙酸。",
+   "options": [
+    "把橡胶变成葡萄糖",
+    "使线型分子链之间发生交联",
+    "切断所有碳碳键，使它变回乙烯",
+    "把橡胶氧化成乙酸"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnk_h102_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列判断正确的是？",
+   "explain": "双键适合加聚，双官能团适合缩聚。聚乙烯来自乙烯的加聚，加热软化也不会变成氨基酸。",
+   "options": [
+    "乙烷最适合加聚",
+    "聚乙烯是缩聚脱水得到的",
+    "加聚单体通常含不饱和键；缩聚单体通常含两个或更多能相互反应的官能团",
+    "热塑性塑料加热后一定分解成氨基酸"
+   ],
+   "answer": 3
+  }
+ ]
+}

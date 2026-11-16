@@ -1,0 +1,2149 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 3,
+ "semester": "upper",
+ "textbook": "人教版PEP（2022课标修订版，三年级起点）",
+ "questions": [
+  {
+   "id": "cne_p001_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "英语字母表一共有多少个字母？",
+   "explain": "英语字母表从 A 到 Z，一共 26 个字母。",
+   "answer": 26
+  },
+  {
+   "id": "cne_p001_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "字母表里，紧挨在 D 后面的是哪一个？",
+   "explain": "D 的下一个字母是 E。",
+   "options": [
+    "the letter C",
+    "the letter F",
+    "the letter B",
+    "the letter E"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p002_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一组是同一个字母的大写和小写？",
+   "explain": "G 的大写是 G，小写是 g，所以是 Gg。",
+   "options": [
+    "Dp",
+    "Bt",
+    "Qm",
+    "Gg"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p002_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个是小写字母？",
+   "explain": "h 是小写，H、B、M 是大写。",
+   "options": [
+    "the small letter h",
+    "the capital letter H",
+    "the capital letter B",
+    "the capital letter M"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p004_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词含有字母 b 的开头音？",
+   "explain": "bag 含有字母 b 的开头音。",
+   "options": [
+    "cat",
+    "bag",
+    "dog",
+    "pen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p004_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词不含字母 b 的开头音？",
+   "explain": "cat 不含字母 b 的开头音。",
+   "options": [
+    "bag",
+    "bed",
+    "cat",
+    "bus"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p005_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「你好」？",
+   "explain": "hello 的意思是你好。",
+   "options": [
+    "goodbye",
+    "thanks",
+    "hello",
+    "sorry"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p005_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「hi」是打招呼的词，它的中文意思是哪一个？",
+   "explain": "hi 的意思是你好。",
+   "options": [
+    "你好",
+    "再见",
+    "谢谢",
+    "对不起"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p006_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I ____ ten. 横线上应填哪个词？",
+   "explain": "I 和 am 搭配，所以是 I am ten。",
+   "options": [
+    "is",
+    "are",
+    "be",
+    "am"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p006_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "You ____ a student. 横线上应填哪个词？",
+   "explain": "You 和 are 搭配。",
+   "options": [
+    "are",
+    "am",
+    "is",
+    "be"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p007_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "见到老师，应说哪一句？",
+   "explain": "见面时说 Hello。",
+   "options": [
+    "Hello!",
+    "Goodbye!",
+    "Thank you!",
+    "I am ten."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p007_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要离开了，应说哪一句？",
+   "explain": "告别说 Goodbye。",
+   "options": [
+    "Hello!",
+    "Goodbye!",
+    "Thank you!",
+    "I am Amy."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p008_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Hello! I am Sarah. 这个人叫什么？",
+   "explain": "句子写的是 I am Sarah。",
+   "options": [
+    "Mike",
+    "Sarah",
+    "Amy",
+    "John"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p008_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Hi! I am John. 哪一句和短文意思相同？",
+   "explain": "短文说 I am John。",
+   "options": [
+    "他叫 Sarah。",
+    "他要告别。",
+    "他叫 John。",
+    "他在说谢谢。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p001_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面哪一组是按字母表顺序排列的？",
+   "explain": "字母表开头是 A、B、C、D。",
+   "options": [
+    "A, B, C, D",
+    "A, C, B, D",
+    "B, A, D, C",
+    "D, C, B, A"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p001_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个是字母表的最后一个字母？",
+   "explain": "字母表的最后一个字母是 Z。",
+   "options": [
+    "the letter Y",
+    "the letter Z",
+    "the letter X",
+    "the letter A"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p002_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "英语大写字母有多少个？",
+   "explain": "大写字母从 A 到 Z，一共 26 个。",
+   "answer": 26
+  },
+  {
+   "id": "cne_p002_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "单词 bag 的第一个字母是哪一种写法？",
+   "explain": "bag 以小写 b 开头。",
+   "options": [
+    "the capital letter B",
+    "the small letter d",
+    "the small letter b",
+    "the capital letter D"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p004_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "bed 和哪个词的开头音相同？",
+   "explain": "bed 和 bus 的开头都是字母 b 的开头音。",
+   "options": [
+    "cat",
+    "dog",
+    "pen",
+    "bus"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p004_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择含有字母 b 的开头音的单词。",
+   "explain": "box 含有字母 b 的开头音。",
+   "options": [
+    "box",
+    "dog",
+    "pen",
+    "sun"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p005_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「再见」的单词。",
+   "explain": "表示再见的单词是 goodbye。",
+   "options": [
+    "goodbye",
+    "hello",
+    "hi",
+    "thanks"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p005_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「谢谢」？",
+   "explain": "thanks 的意思是谢谢。",
+   "options": [
+    "hello",
+    "thanks",
+    "hi",
+    "goodbye"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p006_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "介绍自己要说 I am Amy。",
+   "options": [
+    "I are Amy.",
+    "I am Amy.",
+    "I be Amy.",
+    "Am I Amy name."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p006_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "My name ____ Chen Jie. 横线上应填哪个词？",
+   "explain": "name 和 is 搭配。",
+   "options": [
+    "am",
+    "are",
+    "is",
+    "be"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p007_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "别人帮了你，应说哪一句？",
+   "explain": "致谢说 Thank you。",
+   "options": [
+    "Hello!",
+    "Goodbye!",
+    "Thank you!",
+    "I am five."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p007_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想告诉对方自己的名字，应说哪一句？",
+   "explain": "介绍名字说 I am Mike。",
+   "options": [
+    "Goodbye, Mike.",
+    "Thank you, Mike.",
+    "Hello is Mike.",
+    "I am Mike."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p008_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Goodbye, Amy! Amy 在做什么？",
+   "explain": "Goodbye 是告别。",
+   "options": [
+    "问候",
+    "致谢",
+    "介绍年龄",
+    "告别"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p008_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I am Chen Jie. Thank you! 哪一句是短文里有的？",
+   "explain": "短文写的名字是 Chen Jie。",
+   "options": [
+    "I am Chen Jie.",
+    "I am Sarah.",
+    "I am Mike.",
+    "I am John."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p014_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "指着近处的钢笔，哪一句是对的？",
+   "explain": "近处的一件物品说 This is。",
+   "options": [
+    "These is a pen.",
+    "This are a pen.",
+    "This be a pen.",
+    "This is a pen."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p014_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "指着远处的尺子，哪一句是对的？",
+   "explain": "远处的一件物品说 That is。",
+   "options": [
+    "That is a ruler.",
+    "This are a ruler.",
+    "That am a ruler.",
+    "That be a ruler."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p035_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「爸爸」？",
+   "explain": "father 的意思是爸爸。",
+   "options": [
+    "father",
+    "mother",
+    "brother",
+    "sister"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p035_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「mother」的中文意思是哪一个？",
+   "explain": "mother 的意思是妈妈。",
+   "options": [
+    "爸爸",
+    "妈妈",
+    "哥哥或弟弟",
+    "姐姐或妹妹"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p036_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "问「他是谁」，应选哪一句？",
+   "explain": "问男性是谁说 Who is he?",
+   "options": [
+    "Who are he?",
+    "Who is he?",
+    "Who he is name?",
+    "What is he who?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p036_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Who is she? 这句是在问什么？",
+   "explain": "Who is she 问她是谁。",
+   "options": [
+    "她在哪里",
+    "她几岁",
+    "她是谁",
+    "她喜欢什么"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p037_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "介绍自己的爸爸，应说哪一句？",
+   "explain": "爸爸是 father。",
+   "options": [
+    "This is my mother.",
+    "This is my sister.",
+    "This is my father.",
+    "This is my brother."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p037_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "This is my sister. 这是谁？",
+   "explain": "sister 是姐姐或妹妹。",
+   "options": [
+    "爸爸",
+    "妈妈",
+    "哥哥或弟弟",
+    "姐姐或妹妹"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p038_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：This is my father. He is from China. 这是谁？",
+   "explain": "father 是爸爸。",
+   "options": [
+    "妈妈",
+    "姐姐或妹妹",
+    "朋友",
+    "爸爸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p038_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：She is my mother. 哪一句和文字一致？",
+   "explain": "She is my mother 是妈妈。",
+   "options": [
+    "她是我的妈妈。",
+    "他是我的爸爸。",
+    "她是我的姐姐。",
+    "他是我的弟弟。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p014_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "This is my nose. 这句里的 This 用来指什么？",
+   "explain": "This 指近处。",
+   "options": [
+    "远处的那一个",
+    "近处的这一个",
+    "好几个",
+    "过去的一个"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p014_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "That is a cat. 这句里的 That 用来指什么？",
+   "explain": "That 指远处。",
+   "options": [
+    "近处的这一个",
+    "许多个",
+    "远处的那一个",
+    "自己的名字"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p035_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「哥哥或弟弟」的单词。",
+   "explain": "表示哥哥或弟弟的单词是 brother。",
+   "options": [
+    "father",
+    "mother",
+    "brother",
+    "sister"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p035_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「姐姐或妹妹」？",
+   "explain": "sister 的意思是姐姐或妹妹。",
+   "options": [
+    "father",
+    "mother",
+    "brother",
+    "sister"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p036_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "He ____ my father. 横线上应填哪个词？",
+   "explain": "He 和 is 搭配。",
+   "options": [
+    "am",
+    "are",
+    "be",
+    "is"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p036_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "She 后面用 is。",
+   "options": [
+    "She is my mother.",
+    "She are my mother.",
+    "She am my mother.",
+    "She be my mother."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p037_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Who is he? 若他是哥哥，应回答哪一句？",
+   "explain": "哥哥说 He is my brother。",
+   "options": [
+    "He is my brother.",
+    "She is my sister.",
+    "She is my mother.",
+    "He is my father."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p037_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "This is my family. 这句的意思是？",
+   "explain": "family 是家庭。",
+   "options": [
+    "这是我的朋友",
+    "这是我的家庭",
+    "这是我的学校",
+    "这是我的书"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p038_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：This is my brother. He is ten. 弟弟或哥哥几岁？",
+   "explain": "He is ten 是 10 岁。",
+   "options": [
+    "6 岁",
+    "10 岁",
+    "9 岁",
+    "8 岁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p038_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Sarah says, \"This is my sister.\" 哪一句是对的？",
+   "explain": "sister 是姐姐或妹妹。",
+   "options": [
+    "Sarah 在介绍爸爸。",
+    "Sarah 在介绍妈妈。",
+    "Sarah 在介绍姐姐或妹妹。",
+    "Sarah 在介绍老师。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p017_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「猫」？",
+   "explain": "cat 的意思是猫。",
+   "options": [
+    "dog",
+    "bird",
+    "cat",
+    "duck"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p017_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「dog」的中文意思是哪一个？",
+   "explain": "dog 的意思是狗。",
+   "options": [
+    "猫",
+    "鸟",
+    "鸭子",
+    "狗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p018_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "介绍一只猫，应说哪一句？",
+   "explain": "猫是 cat。",
+   "options": [
+    "This is a dog.",
+    "This is a bird.",
+    "This is a duck.",
+    "This is a cat."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p018_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "This is a duck. 这是什么动物？",
+   "explain": "duck 是鸭子。",
+   "options": [
+    "鸭子",
+    "猫",
+    "狗",
+    "鸟"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p019_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：This is a cat. It is black. 这是什么？",
+   "explain": "cat 是猫。",
+   "options": [
+    "猫",
+    "狗",
+    "鸟",
+    "鸭子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p019_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：That is a duck. It is yellow. 鸭子是什么颜色？",
+   "explain": "文字写 It is yellow。",
+   "options": [
+    "黑色",
+    "黄色",
+    "蓝色",
+    "绿色"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p040_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「大的」？",
+   "explain": "big 的意思是大的。",
+   "options": [
+    "small",
+    "big",
+    "tall",
+    "short"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p040_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「small」的中文意思是哪一个？",
+   "explain": "small 的意思是小的。",
+   "options": [
+    "大的",
+    "高的",
+    "小的",
+    "矮的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p041_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「它很小」？",
+   "explain": "小的是 small。",
+   "options": [
+    "It is tall.",
+    "It is big.",
+    "It is small.",
+    "It is long."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p041_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Look at the elephant. It is big. 大象怎么样？",
+   "explain": "big 是大的。",
+   "options": [
+    "很小",
+    "很矮",
+    "很短",
+    "很大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p042_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文字：Look at the bear. It is big. 熊怎么样？",
+   "explain": "文字写 It is big。",
+   "options": [
+    "很小",
+    "很矮",
+    "很瘦",
+    "很大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p042_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文字：The monkey is small. 哪一句和文字一致？",
+   "explain": "monkey 是猴子，small 是小。",
+   "options": [
+    "猴子很小。",
+    "猴子很大。",
+    "猴子很高。",
+    "熊很小。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p017_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「鸟」的单词。",
+   "explain": "表示鸟的单词是 bird。",
+   "options": [
+    "bird",
+    "cat",
+    "dog",
+    "duck"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p017_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「鸭子」？",
+   "explain": "duck 的意思是鸭子。",
+   "options": [
+    "cat",
+    "duck",
+    "dog",
+    "bird"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p018_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What is this? 若答案是狗，应说哪一句？",
+   "explain": "狗是 dog。",
+   "options": [
+    "It is a cat.",
+    "It is a dog.",
+    "It is a bird.",
+    "It is a duck."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p018_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Look! That is a bird. 远处的是什么？",
+   "explain": "bird 是鸟。",
+   "options": [
+    "猫",
+    "狗",
+    "鸟",
+    "鸭子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p019_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I see a dog. 哪一句和文字一致？",
+   "explain": "dog 是狗。",
+   "options": [
+    "我看见一只猫。",
+    "我看见一只鸟。",
+    "我看见一只狗。",
+    "我看见一只鸭子。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p019_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：This is a bird. It is blue. 哪一句是对的？",
+   "explain": "文字说的是 bird，颜色是 blue。",
+   "options": [
+    "鸟是红色的。",
+    "猫是蓝色的。",
+    "鸭子是蓝色的。",
+    "鸟是蓝色的。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p040_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「高的」的单词。",
+   "explain": "表示高的的单词是 tall。",
+   "options": [
+    "big",
+    "small",
+    "short",
+    "tall"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p040_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「矮的」？",
+   "explain": "short 的意思是矮的。",
+   "options": [
+    "short",
+    "big",
+    "small",
+    "tall"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p041_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The giraffe is tall. 长颈鹿怎么样？",
+   "explain": "tall 是高的。",
+   "options": [
+    "很高",
+    "很矮",
+    "很小",
+    "很短"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p041_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is short. 这句的意思是？",
+   "explain": "在这一课里 short 是矮的。",
+   "options": [
+    "它很高",
+    "它很矮",
+    "它很大",
+    "它很长"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p042_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文字：The giraffe is tall. The cat is short. 谁很高？",
+   "explain": "giraffe is tall。",
+   "options": [
+    "猫",
+    "长颈鹿",
+    "熊",
+    "猴子"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p042_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文字：It is a pig. It is big. 又大的动物是什么？",
+   "explain": "pig 是猪。",
+   "options": [
+    "猫",
+    "鸟",
+    "猪",
+    "鸭子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p021_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「我喜欢面包」？",
+   "explain": "喜欢一件事物说 I like bread。",
+   "options": [
+    "I likes bread.",
+    "Like I bread.",
+    "I like bread.",
+    "I like am bread."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p021_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I like milk. 这句的意思是？",
+   "explain": "like 在这里是喜欢。",
+   "options": [
+    "我不喜欢牛奶",
+    "我有牛奶",
+    "牛奶喜欢我",
+    "我喜欢牛奶"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p050_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「梨」？",
+   "explain": "pear 的意思是梨。",
+   "options": [
+    "apple",
+    "banana",
+    "orange",
+    "pear"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p050_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「apple」的中文意思是哪一个？",
+   "explain": "apple 的意思是苹果。",
+   "options": [
+    "苹果",
+    "梨",
+    "香蕉",
+    "橙子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p051_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "问对方喜不喜欢梨，应选哪一句？",
+   "explain": "you 前面用 Do。",
+   "options": [
+    "Do you like pears?",
+    "Does you like pears?",
+    "Do you likes pears?",
+    "Are you like pears?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p051_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Do you like apples? 肯定回答应选哪一句？",
+   "explain": "Do 的肯定回答是 Yes, I do。",
+   "options": [
+    "Yes, I does.",
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, I like do."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p052_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "cat 的复数是哪一个？",
+   "explain": "一般直接加 s，cats。",
+   "options": [
+    "cates",
+    "cats",
+    "cat's",
+    "cat"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p052_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "box 的复数是哪一个？",
+   "explain": "以 x 结尾加 es，boxes。",
+   "options": [
+    "boxs",
+    "boxies",
+    "boxes",
+    "box"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p053_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Do you like pears? Yes, I do. 这个人喜欢梨吗？",
+   "explain": "回答是 Yes, I do。",
+   "options": [
+    "不喜欢",
+    "没说",
+    "喜欢",
+    "只喜欢苹果"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p053_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Do you like apples? No, I do not. 哪一句和对话一致？",
+   "explain": "No, I do not 表示不喜欢。",
+   "options": [
+    "这个人喜欢苹果。",
+    "这个人喜欢梨。",
+    "这个人有三个苹果。",
+    "这个人不喜欢苹果。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p021_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "I 后面用 like，不加 s。",
+   "options": [
+    "I like apples.",
+    "I likes apples.",
+    "I like am apples.",
+    "Like I apples."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p021_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I do not like rice. 这句的意思是？",
+   "explain": "do not like 表示不喜欢。",
+   "options": [
+    "我喜欢米饭",
+    "我不喜欢米饭",
+    "我没有米饭",
+    "米饭不喜欢我"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p050_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「香蕉」的单词。",
+   "explain": "表示香蕉的单词是 banana。",
+   "options": [
+    "pear",
+    "banana",
+    "apple",
+    "orange"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p050_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「橙子」？",
+   "explain": "orange 的意思是橙子。",
+   "options": [
+    "pear",
+    "apple",
+    "orange",
+    "banana"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p051_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do you like bananas? 否定回答应选哪一句？",
+   "explain": "Do 的否定回答是 No, I do not。",
+   "options": [
+    "No, I does not.",
+    "No, I am not.",
+    "No, I do not.",
+    "No, I not like."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p051_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do you like oranges? 这句是在问什么？",
+   "explain": "Do you like 问的是喜不喜欢。",
+   "options": [
+    "橙子在哪里",
+    "橙子是什么颜色",
+    "你有几个橙子",
+    "你喜欢橙子吗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p052_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "two dogs 里有几只狗？",
+   "explain": "two 表示 2。",
+   "answer": 2
+  },
+  {
+   "id": "cne_p052_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句的名词是复数？",
+   "explain": "three birds 是复数。",
+   "options": [
+    "I see three birds.",
+    "I see one bird.",
+    "I see a bird.",
+    "I see the bird."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p053_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I like bananas. I see four bananas. 有几根香蕉？",
+   "explain": "four 是 4。",
+   "options": [
+    "4 根",
+    "3 根",
+    "5 根",
+    "2 根"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p053_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I have an orange. 这里的 orange 是什么？",
+   "explain": "在水果这一课里 an orange 是一个橙子。",
+   "options": [
+    "橙色",
+    "橙子",
+    "苹果",
+    "梨"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p009_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「红色」？",
+   "explain": "red 的意思是红色。",
+   "options": [
+    "yellow",
+    "green",
+    "red",
+    "blue"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p009_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「yellow」的中文意思是哪一个？",
+   "explain": "yellow 的意思是黄色。",
+   "options": [
+    "红色",
+    "绿色",
+    "蓝色",
+    "黄色"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p010_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It ____ red. 横线上应填哪个词？",
+   "explain": "It 和 is 搭配。",
+   "options": [
+    "am",
+    "are",
+    "be",
+    "is"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p010_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "说颜色要用 It is blue。",
+   "options": [
+    "It is blue.",
+    "It are blue.",
+    "It am blue.",
+    "It be blue."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p011_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问「它是什么颜色」，应说哪一句？",
+   "explain": "问颜色说 What colour is it?",
+   "options": [
+    "What colour is it?",
+    "What is your name?",
+    "How are you?",
+    "Goodbye!"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p011_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "What colour is it? 若它是红色的，应回答哪一句？",
+   "explain": "红色是 red，句子是 It is red。",
+   "options": [
+    "It is blue.",
+    "It is red.",
+    "I am red.",
+    "It are red."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p012_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文字：Look at the apple. It is blue. 苹果是什么颜色？",
+   "explain": "文字写的是 blue，所以是蓝色。",
+   "options": [
+    "红色",
+    "蓝色",
+    "绿色",
+    "黄色"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p012_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文字：The bag is yellow. 哪一句和文字一致？",
+   "explain": "yellow 是黄色。",
+   "options": [
+    "书包是绿色的。",
+    "书包是红色的。",
+    "书包是黄色的。",
+    "书包是蓝色的。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p009_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「绿色」的单词。",
+   "explain": "表示绿色的单词是 green。",
+   "options": [
+    "green",
+    "red",
+    "yellow",
+    "blue"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p009_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「蓝色」？",
+   "explain": "blue 的意思是蓝色。",
+   "options": [
+    "red",
+    "blue",
+    "yellow",
+    "green"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p010_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The apple ____ green. 横线上应填哪个词？",
+   "explain": "apple 是单数物品，用 is。",
+   "options": [
+    "am",
+    "is",
+    "are",
+    "be"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p010_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句用来说明物品是黄色的？",
+   "explain": "完整的句子是 It is yellow。",
+   "options": [
+    "I yellow.",
+    "Yellow it.",
+    "It is yellow.",
+    "It yellow is."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p011_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Show me green. 这句是在说什么？",
+   "explain": "green 是绿色。",
+   "options": [
+    "给我看看红色",
+    "给我看看黄色",
+    "给我看看绿色",
+    "给我看看蓝色"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p011_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is blue and yellow. 这里有几种颜色？",
+   "explain": "句子写了 blue 和 yellow。",
+   "options": [
+    "红色和绿色",
+    "只有蓝色",
+    "只有黄色",
+    "蓝色和黄色"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p012_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文字：I see a red bird. 鸟是什么颜色？",
+   "explain": "文字写的是 red。",
+   "options": [
+    "黄色",
+    "绿色",
+    "蓝色",
+    "红色"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p012_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文字：The pen is green. 哪一句是对的？",
+   "explain": "pen 的颜色写的是 green。",
+   "options": [
+    "It is green.",
+    "It is red.",
+    "It is blue.",
+    "It is yellow."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p003_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个是元音字母？",
+   "explain": "A 是元音字母，B、C、D 不是。",
+   "options": [
+    "the letter A",
+    "the letter B",
+    "the letter C",
+    "the letter D"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p003_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "英语元音字母有几个？",
+   "explain": "元音字母是 a、e、i、o、u，一共 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cne_p024_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「一」？",
+   "explain": "one 的意思是一。",
+   "options": [
+    "two",
+    "one",
+    "three",
+    "ten"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p024_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「two」的中文意思是哪一个？",
+   "explain": "two 的意思是二。",
+   "options": [
+    "一",
+    "三",
+    "二",
+    "十"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p026_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问「你有多少个气球」，应选哪一句？",
+   "explain": "问数量用 How many。",
+   "options": [
+    "How old balloons?",
+    "What many balloons?",
+    "How many balloon is?",
+    "How many balloons?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p026_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "one、two、three 的下一个数是几？",
+   "explain": "three 的下一个数是 four，也就是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cne_p027_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方几岁，应说哪一句？",
+   "explain": "问年龄说 How old are you?",
+   "options": [
+    "How old are you?",
+    "How are you?",
+    "How many are you?",
+    "What is your name?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p027_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "How old are you? 若是 9 岁，应回答哪一句？",
+   "explain": "9 是 nine。",
+   "options": [
+    "I am ten.",
+    "I am nine.",
+    "I am five.",
+    "I am six."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p028_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I have three balls. 有几个球？",
+   "explain": "three 是 3。",
+   "options": [
+    "2 个",
+    "3 个",
+    "4 个",
+    "10 个"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p028_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I see ten kites. 哪一句和文字一致？",
+   "explain": "ten kites 是 10 个风筝。",
+   "options": [
+    "我看见 5 个风筝。",
+    "我看见 10 个球。",
+    "我看见 10 个风筝。",
+    "我看见 1 个风筝。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p003_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个不是元音字母？",
+   "explain": "T 是辅音字母。",
+   "options": [
+    "the letter A",
+    "the letter E",
+    "the letter T",
+    "the letter U"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p003_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面哪一组全是元音字母？",
+   "explain": "五个元音字母是 A、E、I、O、U。",
+   "options": [
+    "A, E, I, O, B",
+    "B, C, D, F, G",
+    "A, B, C, D, E",
+    "A, E, I, O, U"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p024_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「三」的单词。",
+   "explain": "表示三的单词是 three。",
+   "options": [
+    "one",
+    "two",
+    "ten",
+    "three"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p024_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「十」？",
+   "explain": "ten 的意思是十。",
+   "options": [
+    "ten",
+    "one",
+    "two",
+    "three"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p026_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "How many cakes? 这句是在问什么？",
+   "explain": "How many 问的是数量。",
+   "options": [
+    "蛋糕是什么颜色",
+    "有多少个蛋糕",
+    "蛋糕在哪里",
+    "谁要蛋糕"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p026_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I have five books. 一共有多少本书？",
+   "explain": "five 是 5。",
+   "options": [
+    "4 本",
+    "6 本",
+    "5 本",
+    "10 本"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p027_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Happy birthday! 这句用在什么时候？",
+   "explain": "Happy birthday 是生日祝福。",
+   "options": [
+    "告别",
+    "问路",
+    "生日",
+    "购物"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p027_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "This is a gift for you. 这句的意思是？",
+   "explain": "gift 是礼物。",
+   "options": [
+    "这是我的气球",
+    "你几岁了",
+    "再见",
+    "这是给你的礼物"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p028_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "读一读：This is a boat. I have one boat. 有几艘小船？",
+   "explain": "one 是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cne_p028_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I am six. I have two dolls. 玩具娃娃有几个？",
+   "explain": "two dolls 是 2 个；six 是年龄。",
+   "options": [
+    "2 个",
+    "6 个",
+    "1 个",
+    "3 个"
+   ],
+   "answer": 1
+  }
+ ]
+}

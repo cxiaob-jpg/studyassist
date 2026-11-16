@@ -1,0 +1,3205 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 7,
+ "semester": "lower",
+ "textbook": "人教版（新目标）（初中新目标目录）",
+ "questions": [
+  {
+   "id": "cne_j010_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "books 词尾 s 的读音和哪一个同类？",
+   "explain": "books 和 maps 的词尾都读 /s/。",
+   "options": [
+    "pens",
+    "bags",
+    "buses",
+    "maps"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j010_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "bags 词尾 s 的读音和哪一个同类？",
+   "explain": "bags 和 pens 的词尾都读 /z/。",
+   "options": [
+    "pens",
+    "books",
+    "maps",
+    "buses"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j062_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「老虎」？",
+   "explain": "tiger 的意思是老虎。",
+   "options": [
+    "elephant",
+    "panda",
+    "koala",
+    "tiger"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j062_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「elephant」的中文意思是哪一个？",
+   "explain": "elephant 的意思是大象。",
+   "options": [
+    "大象",
+    "老虎",
+    "熊猫",
+    "树袋熊"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j063_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "为什么你喜欢熊猫？哪一句正确？",
+   "explain": "you 用 Why do you like。",
+   "options": [
+    "Why do you like pandas?",
+    "Why you like pandas?",
+    "Why does you like pandas?",
+    "Why do you likes pandas?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j063_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "因为它们很可爱。哪一句正确？",
+   "explain": "they are cute，回答原因用 because。",
+   "options": [
+    "Because they is cute.",
+    "Because they are cute.",
+    "So they are cute.",
+    "Why they are cute."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j064_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "熊猫是黑白相间的。哪一句正确？",
+   "explain": "复数 pandas 用 are。",
+   "options": [
+    "Pandas is black and white.",
+    "Pandas are black and white.",
+    "Pandas are black white.",
+    "Panda are black and white."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j064_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这只大象很友好。哪一句正确？",
+   "explain": "单数用 is，形容词是 friendly。",
+   "options": [
+    "The elephant are friendly.",
+    "The elephant is friend.",
+    "The elephant is friendly.",
+    "The elephant is a friendly."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j065_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方为什么喜欢大象，哪一句合适？",
+   "explain": "Why do you like 问原因。",
+   "options": [
+    "Why are you like elephants?",
+    "Why do you likes elephants?",
+    "Why do you like elephants?",
+    "What do you like elephants?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j065_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说熊猫来自中国，哪一句合适？",
+   "explain": "复数用 are from。",
+   "options": [
+    "Pandas is from China.",
+    "Pandas are from the China.",
+    "Panda are from China.",
+    "Pandas are from China."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j066_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Pandas are from China. They are black and white. They are kind of shy. 熊猫来自哪里？",
+   "explain": "from China。",
+   "options": [
+    "澳大利亚",
+    "南非",
+    "印度",
+    "中国"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j066_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Pandas are from China. They are black and white. They are kind of shy. 它们的性格怎样？",
+   "explain": "kind of shy 是有点害羞。",
+   "options": [
+    "有点害羞",
+    "非常吓人",
+    "很懒",
+    "很友好而且短文说它们爱打架"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j010_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的词尾读 /ɪz/？",
+   "explain": "buses 的 -es 读 /ɪz/。",
+   "options": [
+    "books",
+    "buses",
+    "bags",
+    "maps"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j010_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "boxes 的词尾和哪个词的读音相同？",
+   "explain": "boxes 和 watches 的词尾都读 /ɪz/。",
+   "options": [
+    "cats",
+    "dogs",
+    "watches",
+    "birds"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j062_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「熊猫」的单词。",
+   "explain": "表示熊猫的单词是 panda。",
+   "options": [
+    "tiger",
+    "panda",
+    "elephant",
+    "koala"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j062_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「树袋熊」？",
+   "explain": "koala 的意思是树袋熊。",
+   "options": [
+    "tiger",
+    "elephant",
+    "koala",
+    "panda"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j063_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Why does she like koalas? 这句在问什么？",
+   "explain": "Why 问原因。",
+   "options": [
+    "她在哪里看树袋熊",
+    "树袋熊吃什么",
+    "她为什么喜欢树袋熊",
+    "她会不会画树袋熊"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j063_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "because they are smart。",
+   "options": [
+    "I like elephants because they is smart.",
+    "I like elephants so they are smart.",
+    "Because I like elephants they are smart.",
+    "I like elephants because they are smart."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j064_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "kind 的意思是哪一个？",
+   "explain": "kind 可以表示和蔼。",
+   "options": [
+    "可怕的",
+    "懒惰的",
+    "来自南方的",
+    "和蔼的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j064_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「老虎有点吓人」？",
+   "explain": "kind of 表示有点，放在形容词前。",
+   "options": [
+    "Tigers are kind of scary.",
+    "Tigers are a kind of scary.",
+    "Tigers is kind of scary.",
+    "Tigers are kind scary of."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j065_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Where are lions from? 这句在问什么？",
+   "explain": "Where ... from 问来源。",
+   "options": [
+    "狮子来自哪里",
+    "狮子为什么可爱",
+    "狮子在吃什么",
+    "狮子多少钱"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j065_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说树袋熊很懒，哪一句合适？",
+   "explain": "are 加形容词 lazy。",
+   "options": [
+    "Koalas is very lazy.",
+    "Koalas are very lazy.",
+    "Koalas are very lazily.",
+    "Koalas very are lazy."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j066_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Koalas are from Australia. They sleep all day. People think they are lazy. 树袋熊来自哪里？",
+   "explain": "from Australia。",
+   "options": [
+    "中国",
+    "澳大利亚",
+    "美国",
+    "英国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j066_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Koalas are from Australia. They sleep all day. 哪一句和短文一致？",
+   "explain": "sleep all day 是白天都在睡。",
+   "options": [
+    "Koalas are from China.",
+    "Koalas never sleep.",
+    "Koalas sleep during the day.",
+    "Koalas are black and white."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j057_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「规则」？",
+   "explain": "rule 的意思是规则。",
+   "options": [
+    "hallway",
+    "fight",
+    "rule",
+    "uniform"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j057_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「hallway」的中文意思是哪一个？",
+   "explain": "hallway 的意思是走廊。",
+   "options": [
+    "规则",
+    "打架",
+    "校服",
+    "走廊"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j058_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "不要在课堂上吃东西。哪一句正确？",
+   "explain": "否定祈使句用 Don't 加动词原形。",
+   "options": [
+    "Not eat in class.",
+    "Don't eating in class.",
+    "Doesn't eat in class.",
+    "Don't eat in class."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j058_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "请准时。哪一句正确？",
+   "explain": "Please 后面用动词原形 be。",
+   "options": [
+    "Please be on time.",
+    "Please is on time.",
+    "Please to be on time.",
+    "Please being on time."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j059_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我们在图书馆必须保持安静。哪一句正确？",
+   "explain": "must 后面用动词原形 be。",
+   "options": [
+    "We must be quiet in the library.",
+    "We must are quiet in the library.",
+    "We must to be quiet in the library.",
+    "We must quiet in the library."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j059_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他不得不早起。哪一句正确？",
+   "explain": "He has to 加动词原形。",
+   "options": [
+    "He have to get up early.",
+    "He has to get up early.",
+    "He has to gets up early.",
+    "He must to get up early."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j060_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想告诉新生不能在走廊打架，哪一句合适？",
+   "explain": "规则用 Don't fight。",
+   "options": [
+    "Not fight in the hallways.",
+    "Don't fight in the hallways.",
+    "Doesn't fight in the hallways.",
+    "Fight don't in the hallways."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j060_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说学生必须穿校服，哪一句合适？",
+   "explain": "must wear 是必须穿。",
+   "options": [
+    "Students must wears the school uniform.",
+    "Students must to wear the school uniform.",
+    "Students must wear the school uniform.",
+    "Students wear must the school uniform."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j061_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Rules: Don't arrive late. Don't run in the hallways. We must wear uniforms. 可以迟到吗？",
+   "explain": "Don't arrive late 是不要迟到。",
+   "options": [
+    "可以",
+    "只在星期一可以",
+    "不可以",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j061_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Rules: Don't arrive late. Don't run in the hallways. We must wear uniforms. 必须穿什么？",
+   "explain": "wear uniforms 是穿校服。",
+   "options": [
+    "运动鞋",
+    "帽子",
+    "短裙",
+    "校服"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j057_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「打架」的单词。",
+   "explain": "表示打架的单词是 fight。",
+   "options": [
+    "fight",
+    "rule",
+    "hallway",
+    "uniform"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j057_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「校服」？",
+   "explain": "uniform 的意思是校服。",
+   "options": [
+    "rule",
+    "uniform",
+    "hallway",
+    "fight"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j058_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是祈使句？",
+   "explain": "以动词原形开头、省略主语的是祈使句。",
+   "options": [
+    "She listens to the teacher.",
+    "Listen to the teacher.",
+    "Does she listen to the teacher?",
+    "She is listening to the teacher."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j058_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Don't run in the hallways. 这句的意思是什么？",
+   "explain": "Don't run 是否定命令。",
+   "options": [
+    "请在走廊里跑",
+    "她不在走廊里跑",
+    "不要在走廊里跑",
+    "走廊里没有规则"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j059_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "上课不准听音乐。哪一句正确？",
+   "explain": "can't 后面用动词原形 listen。",
+   "options": [
+    "We can't to listen to music in class.",
+    "We don't can listen to music in class.",
+    "We can't listen to music in class.",
+    "We can't listening to music in class."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j059_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "must 和 have to 都表示什么？",
+   "explain": "两者都表示必须做。",
+   "options": [
+    "可能",
+    "过去常常",
+    "正在",
+    "必须"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j060_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Can we eat in the classroom? 老师要说不行，哪一句合适？",
+   "explain": "拒绝用 No, you can't。",
+   "options": [
+    "No, you don't.",
+    "No, you aren't eat.",
+    "Yes, you can't.",
+    "No, you can't."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j060_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We have to be on time. 这句话的意思是什么？",
+   "explain": "have to 表示必须。",
+   "options": [
+    "我们必须准时",
+    "我们可以迟到",
+    "我们正在准时",
+    "准时是一条建议，可做可不做"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j061_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Students can't eat in class. They can eat in the dining hall. 他们可以在哪里吃东西？",
+   "explain": "in the dining hall 是餐厅。",
+   "options": [
+    "餐厅",
+    "课堂上",
+    "走廊里",
+    "图书馆里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j061_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Students can't eat in class. They can eat in the dining hall. 哪一句和短文一致？",
+   "explain": "can't eat in class 就是课堂上不能吃。",
+   "options": [
+    "Students can eat in class.",
+    "Students cannot eat in class.",
+    "Students must run in the hallways.",
+    "Students arrive late every day."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j050_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他每天都锻炼。哪一个词最合适？",
+   "explain": "每天都做用 always。",
+   "options": [
+    "never",
+    "sometimes",
+    "seldom only once",
+    "always"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j050_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她从不迟到。哪一句正确？",
+   "explain": "be 动词放在 never 前面：is never。",
+   "options": [
+    "She is never late.",
+    "She never is late.",
+    "She is late never.",
+    "She never late."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j103_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「锻炼」？",
+   "explain": "exercise 的意思是锻炼。",
+   "options": [
+    "exercise",
+    "hardly",
+    "twice",
+    "Internet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j103_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「hardly」的中文意思是哪一个？",
+   "explain": "hardly 的意思是几乎不。",
+   "options": [
+    "锻炼",
+    "几乎不",
+    "两次",
+    "互联网"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j104_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方多久锻炼一次，哪一句正确？",
+   "explain": "How often 问频率，后面用助动词 do。",
+   "options": [
+    "How often you exercise?",
+    "How often do you exercise?",
+    "How long do you exercise once?",
+    "How far do you exercise?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j104_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我一周两次。哪一句正确？",
+   "explain": "twice a week 表示一周两次。",
+   "options": [
+    "I exercise two time a week.",
+    "I exercise twice week.",
+    "I exercise twice a week.",
+    "I exercise a twice week."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j105_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "医生问你多久运动一次，哪一句是这个问题？",
+   "explain": "How often 用来问习惯的频率。",
+   "options": [
+    "How old do you exercise?",
+    "What time is exercise yesterday?",
+    "How often do you exercise?",
+    "How many exercise are you?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j105_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你几乎不喝牛奶，应怎么说？",
+   "explain": "hardly ever 放在实义动词前面。",
+   "options": [
+    "I hardly ever drank milk tomorrow.",
+    "I hard ever drink milk.",
+    "I hardly ever drinking milk.",
+    "I hardly ever drink milk."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j106_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Jack exercises every day. Mary exercises twice a week. Peter hardly ever exercises. 谁每天锻炼？",
+   "explain": "Jack exercises every day。",
+   "options": [
+    "Mary",
+    "Peter",
+    "没有人",
+    "Jack"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j106_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Jack exercises every day. Mary exercises twice a week. Peter hardly ever exercises. 谁几乎不锻炼？",
+   "explain": "Peter hardly ever exercises。",
+   "options": [
+    "Peter",
+    "Jack",
+    "Mary",
+    "三个人一样"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j247_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "— Is this your ball? — Yes, it's ____.",
+   "explain": "it's 后面单独用 mine。",
+   "options": [
+    "my",
+    "me",
+    "I",
+    "mine"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j247_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "His running shoes are new, but ____ are old. 我的鞋旧。",
+   "explain": "mine = my shoes。",
+   "options": [
+    "I",
+    "mine",
+    "me",
+    "my"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j050_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I usually do my homework at 7. usually 的意思是什么？",
+   "explain": "usually 是通常。",
+   "options": [
+    "从不",
+    "通常",
+    "总是，一次不落",
+    "只在周末"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j050_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "频度从高到低，哪一组顺序正确？",
+   "explain": "always 最高，never 最低。",
+   "options": [
+    "never, sometimes, usually, always",
+    "usually, never, always, sometimes",
+    "always, usually, sometimes, never",
+    "sometimes, always, never, usually"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j103_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「两次」的单词。",
+   "explain": "表示两次的单词是 twice。",
+   "options": [
+    "exercise",
+    "hardly",
+    "twice",
+    "Internet"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j103_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「互联网」？",
+   "explain": "Internet 的意思是互联网。",
+   "options": [
+    "exercise",
+    "hardly",
+    "twice",
+    "Internet"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j104_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "hardly ever 的意思是哪一个？",
+   "explain": "hardly ever 表示频率非常低。",
+   "options": [
+    "每天",
+    "一周三次",
+    "只在昨天",
+    "几乎从不"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j104_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "She uses the Internet every day. 这句说明什么？",
+   "explain": "every day 是每天。",
+   "options": [
+    "她每天上网",
+    "她几乎不上网",
+    "她一周上一次",
+    "她昨天没上网"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j105_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对方回答 Three times a week. 这是在说什么？",
+   "explain": "times a week 表示每周几次。",
+   "options": [
+    "一周三次",
+    "三点钟",
+    "三公里",
+    "三个人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j105_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想建议对方多运动，哪一句合适？",
+   "explain": "should 后面用动词原形。",
+   "options": [
+    "You should exercises more.",
+    "You should exercise more.",
+    "You should to exercise more.",
+    "You should exercising more."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j106_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Mary uses the Internet once a week. She reads books every night. 她多久上一次网？",
+   "explain": "once a week。",
+   "options": [
+    "每天",
+    "一周一次",
+    "几乎从不",
+    "一周两次"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j106_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Mary uses the Internet once a week. She reads books every night. 哪一句和短文一致？",
+   "explain": "reads books every night。",
+   "options": [
+    "Mary never reads.",
+    "Mary uses the Internet every day.",
+    "Mary reads every night.",
+    "Mary hardly ever reads."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j247_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The red bag is ____. 红包是她的。",
+   "explain": "句末单独用 hers。",
+   "options": [
+    "hers'",
+    "hers",
+    "her",
+    "she"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j247_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句正确？",
+   "explain": "theirs = their club。",
+   "options": [
+    "Our club is bigger than their.",
+    "Our club is bigger than theirs.",
+    "Ours club is bigger than theirs.",
+    "Our club is bigger than them club."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j027_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「香蕉」？",
+   "explain": "banana 的意思是香蕉。",
+   "options": [
+    "banana",
+    "hamburger",
+    "salad",
+    "ice-cream"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j027_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「hamburger」的中文意思是哪一个？",
+   "explain": "hamburger 的意思是汉堡包。",
+   "options": [
+    "香蕉",
+    "汉堡包",
+    "沙拉",
+    "冰激凌"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j028_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "banana 是可数名词。哪一句正确？",
+   "explain": "可数名词复数是 bananas。",
+   "options": [
+    "I like a bananas.",
+    "I like bananas.",
+    "I likes bananas.",
+    "I like an bananas."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j028_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "milk 是不可数名词。哪一句正确？",
+   "explain": "不可数名词不加 a，也不加 s。",
+   "options": [
+    "I like a milk.",
+    "I like milks.",
+    "I like milk.",
+    "I like an milk."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j030_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方喜不喜欢沙拉，哪一句合适？",
+   "explain": "you 用 Do you like。",
+   "options": [
+    "Are you like salad?",
+    "Does you like salad?",
+    "Do you likes salad?",
+    "Do you like salad?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j030_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你喜欢香蕉，应怎么说？",
+   "explain": "I like 加可数名词复数。",
+   "options": [
+    "I like bananas.",
+    "I likes bananas.",
+    "I like banana's.",
+    "I am like bananas."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j031_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Gina likes bananas and milk. She doesn't like hamburgers. Gina 喜欢汉堡吗？",
+   "explain": "She doesn't like hamburgers。",
+   "options": [
+    "不喜欢",
+    "喜欢",
+    "只在学校喜欢",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j031_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Gina likes bananas and milk. She doesn't like hamburgers. 她喜欢喝什么？",
+   "explain": "likes milk 是喜欢牛奶。",
+   "options": [
+    "沙拉",
+    "牛奶",
+    "汉堡",
+    "茶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j083_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「面条」？",
+   "explain": "noodle 的意思是面条。",
+   "options": [
+    "noodle",
+    "mutton",
+    "cabbage",
+    "dumpling"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j083_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「mutton」的中文意思是哪一个？",
+   "explain": "mutton 的意思是羊肉。",
+   "options": [
+    "面条",
+    "羊肉",
+    "卷心菜",
+    "饺子"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j084_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我想要一碗牛肉面。哪一句正确？",
+   "explain": "would like 后面直接加名词；noodles 常用复数。",
+   "options": [
+    "I would like a bowl of beef noodle.",
+    "I would like a bowl of beef noodles.",
+    "I would like to a bowl of beef noodles.",
+    "I like would a bowl of beef noodles."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j084_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你想要什么？哪一句正确？",
+   "explain": "What would you like。",
+   "options": [
+    "What would you like to?",
+    "What do you would like?",
+    "What would you like?",
+    "What would you like it?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j085_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "服务员问 May I take your order? 你想要面条，哪一句合适？",
+   "explain": "点餐用 I'd like，noodles 用复数。",
+   "options": [
+    "I like beef noodles every day.",
+    "I would like to beef noodles.",
+    "I'd like beef noodles, please.",
+    "I'd like beef noodle, please."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j085_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问有哪些种类的饺子，哪一句合适？",
+   "explain": "What kind of 问哪一种。",
+   "options": [
+    "What kind of dumplings would you like to?",
+    "What kind dumplings you like?",
+    "How kind of dumplings would you like?",
+    "What kind of dumplings would you like?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j086_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Waiter: What would you like? Tom: I'd like a large bowl of mutton noodles. Tom 要什么面？",
+   "explain": "mutton noodles 是羊肉面。",
+   "options": [
+    "牛肉面",
+    "白菜面",
+    "鸡蛋面",
+    "羊肉面"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j086_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Waiter: What would you like? Tom: I'd like a large bowl of mutton noodles. 他要多大的碗？",
+   "explain": "a large bowl。",
+   "options": [
+    "大碗",
+    "小碗",
+    "中碗",
+    "不要碗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j248_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "— Do you like apples or bananas? — ____",
+   "explain": "选择疑问句不用 yes 或 no 回答。",
+   "options": [
+    "Yes, I do.",
+    "No, I don't.",
+    "Yes, I like.",
+    "I like bananas."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j248_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用 or 连接，选出正确的选择疑问句。",
+   "explain": "or 连接两个选项，句子用疑问语序。",
+   "options": [
+    "Is it a carrot or a potato?",
+    "Is it a carrot and a potato?",
+    "It is a carrot or a potato?",
+    "Is it a carrot but a potato?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j027_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「沙拉」的单词。",
+   "explain": "表示沙拉的单词是 salad。",
+   "options": [
+    "banana",
+    "hamburger",
+    "salad",
+    "ice-cream"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j027_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「冰激凌」？",
+   "explain": "ice-cream 的意思是冰激凌。",
+   "options": [
+    "banana",
+    "hamburger",
+    "salad",
+    "ice-cream"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j028_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想要一些沙拉，哪一句正确？",
+   "explain": "salad 在这里作不可数食物，用 some salad。",
+   "options": [
+    "I want a salads.",
+    "I want some salads the count.",
+    "I want an salad.",
+    "I want some salad."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j028_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一个是不可数名词？",
+   "explain": "milk 不可数；香蕉、汉堡和苹果可数。",
+   "options": [
+    "milk",
+    "banana",
+    "hamburger",
+    "apple"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j030_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对方说 I don't like hamburgers. 这句话的意思是什么？",
+   "explain": "don't like 表示不喜欢。",
+   "options": [
+    "我有汉堡",
+    "我不喜欢汉堡",
+    "我正在吃汉堡",
+    "汉堡在桌子上"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j030_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想建议一起吃冰激凌，哪一句合适？",
+   "explain": "Let's 后面用动词原形 have。",
+   "options": [
+    "Let's has some ice-cream.",
+    "Let have an ice-cream the.",
+    "Let's have some ice-cream.",
+    "Let's having ice-cream."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j031_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Tom likes salad. He doesn't like ice-cream. His sister likes ice-cream. 谁喜欢冰激凌？",
+   "explain": "His sister likes ice-cream。",
+   "options": [
+    "Tom",
+    "Gina",
+    "Tom 的姐姐或妹妹",
+    "Tom 的爸爸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j031_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Tom likes salad. He doesn't like ice-cream. 哪一句和短文一致？",
+   "explain": "第一句就是 Tom likes salad。干扰项里后半句短文没有说到汉堡。",
+   "options": [
+    "Tom likes ice-cream.",
+    "Tom doesn't like salad.",
+    "Tom has no sister in this text and he likes hamburgers.",
+    "Tom likes salad."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j083_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「卷心菜」的单词。",
+   "explain": "表示卷心菜的单词是 cabbage。",
+   "options": [
+    "noodle",
+    "mutton",
+    "cabbage",
+    "dumpling"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j083_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「饺子」？",
+   "explain": "dumpling 的意思是饺子。",
+   "options": [
+    "noodle",
+    "mutton",
+    "cabbage",
+    "dumpling"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j084_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "疑问句里用 any 还是 some？哪一句正确？",
+   "explain": "would like 的问句表示邀请，仍常用 some。",
+   "options": [
+    "Would you like any dumplings?",
+    "Would you like some dumpling?",
+    "Do you would like some dumplings?",
+    "Would you like some dumplings?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j084_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "She would like mutton cabbage dumplings. 她想要什么馅的饺子？",
+   "explain": "mutton cabbage 是羊肉白菜。",
+   "options": [
+    "羊肉白菜",
+    "牛肉",
+    "只有卷心菜、没有肉",
+    "鱼肉"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j085_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Are there any vegetables in the soup? 这句在问什么？",
+   "explain": "Are there any 问是否有。",
+   "options": [
+    "汤里有蔬菜吗",
+    "汤多少钱",
+    "你想要汤吗",
+    "汤是谁做的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j085_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A large bowl, please. 这句话的意思是什么？",
+   "explain": "large bowl 是大碗。",
+   "options": [
+    "请来一小碗",
+    "请来一大碗",
+    "不要碗",
+    "碗在桌子底下"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j086_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Gina would like some cabbage dumplings. She would not like any meat. Gina 要肉吗？",
+   "explain": "would not like any meat。",
+   "options": [
+    "要羊肉",
+    "不要",
+    "要牛肉",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j086_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Gina would like some cabbage dumplings. 哪一句和短文一致？",
+   "explain": "cabbage dumplings 是白菜饺子。",
+   "options": [
+    "Gina wants mutton dumplings.",
+    "Gina wants a bowl of soup only.",
+    "Gina wants cabbage dumplings.",
+    "Gina does not want dumplings."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j248_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Which is healthier, fruit ____ candy?",
+   "explain": "Which ..., A or B 问哪一个。",
+   "options": [
+    "but",
+    "and",
+    "so",
+    "or"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j248_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do you eat breakfast at home or at school? 这句问的是？",
+   "explain": "or 前后是两个地点。",
+   "options": [
+    "几点吃早饭",
+    "早饭吃什么",
+    "吃不吃早饭",
+    "在哪里吃早饭"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j067_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「报纸」？",
+   "explain": "newspaper 的意思是报纸。",
+   "options": [
+    "newspaper",
+    "soup",
+    "movie",
+    "just"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j067_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「soup」的中文意思是哪一个？",
+   "explain": "soup 的意思是汤。",
+   "options": [
+    "报纸",
+    "汤",
+    "电影",
+    "正好；只是"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j068_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他正在看电视。哪一句正确？",
+   "explain": "现在进行时是 is 加 watching。",
+   "options": [
+    "He watching TV.",
+    "He is watching TV.",
+    "He is watch TV.",
+    "He are watching TV."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j068_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他们正在吃晚饭。哪一句正确？",
+   "explain": "They are eating。",
+   "options": [
+    "They are eat dinner.",
+    "They is eating dinner.",
+    "They are eating dinner.",
+    "They eating dinner."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j069_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方正在做什么，哪一句合适？",
+   "explain": "What are you doing。",
+   "options": [
+    "What do you doing?",
+    "What are you do?",
+    "What are you doing?",
+    "What is you doing?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j069_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你正在喝汤，应回答什么？",
+   "explain": "I am drinking。",
+   "options": [
+    "I drinking soup.",
+    "I am drink soup.",
+    "I is drinking soup.",
+    "I am drinking soup."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j070_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is Sunday morning. Tom is reading a newspaper. His mother is making soup. Tom 正在做什么？",
+   "explain": "is reading a newspaper。",
+   "options": [
+    "做汤",
+    "看电影",
+    "打电话",
+    "读报纸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j070_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is Sunday morning. Tom is reading a newspaper. His mother is making soup. 妈妈正在做什么？",
+   "explain": "is making soup。",
+   "options": [
+    "做汤",
+    "读报纸",
+    "看电视",
+    "写作业"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j067_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「电影」的单词。",
+   "explain": "表示电影的单词是 movie。",
+   "options": [
+    "newspaper",
+    "soup",
+    "movie",
+    "just"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j067_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「正好；只是」？",
+   "explain": "just 的意思是正好；只是。",
+   "options": [
+    "newspaper",
+    "soup",
+    "movie",
+    "just"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j068_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她正在读书吗？哪一句正确？",
+   "explain": "把 is 提前，reading 保留。",
+   "options": [
+    "Does she reading a book?",
+    "Is she read a book?",
+    "Does she reads a book now?",
+    "Is she reading a book?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j068_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "swim 的 -ing 形式是哪一个？",
+   "explain": "重读闭音节、末尾单辅音要双写再加 ing。",
+   "options": [
+    "swimming",
+    "swiming",
+    "swims",
+    "swim"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j069_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Is Mary talking on the phone? 她正在读报，应回答什么？",
+   "explain": "否定正在打电话，并说明她在读报。",
+   "options": [
+    "No, she is reading a newspaper.",
+    "Yes, she is reading a newspaper.",
+    "No, she reading a newspaper.",
+    "No, she does read a newspaper."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j069_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Let's go to the movies. 对方正在做作业，哪一句能说明去不了？",
+   "explain": "现在正在做用 am doing。",
+   "options": [
+    "I do my homework every day.",
+    "I am doing my homework.",
+    "I am do my homework.",
+    "I does my homework."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j070_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Gina is talking on the phone. She is not watching the movie. Gina 在看电影吗？",
+   "explain": "is not watching the movie。",
+   "options": [
+    "在看",
+    "没有",
+    "和 Tom 一起看",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j070_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Gina is talking on the phone. She is not watching the movie. 哪一句和短文一致？",
+   "explain": "talking on the phone 就是在打电话。",
+   "options": [
+    "Gina is watching a movie.",
+    "Gina is making soup.",
+    "Gina is using the phone.",
+    "Gina is reading a newspaper."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j071_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「雨；下雨」？",
+   "explain": "rain 的意思是雨；下雨。",
+   "options": [
+    "rain",
+    "windy",
+    "cloudy",
+    "sunny"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j071_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「windy」的中文意思是哪一个？",
+   "explain": "windy 的意思是有风的。",
+   "options": [
+    "雨；下雨",
+    "有风的",
+    "多云的",
+    "晴朗的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j073_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问北京的天气，哪一句合适？",
+   "explain": "How is the weather in Beijing 是常见问法。",
+   "options": [
+    "What is the weather in Beijing?",
+    "How is the weather in Beijing is?",
+    "How is the weather in Beijing?",
+    "What weather is it in Beijing does?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j073_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北京正在下雨，应怎么说？",
+   "explain": "正在下雨用 It is raining。",
+   "options": [
+    "It is rain in Beijing.",
+    "It raining in Beijing.",
+    "Beijing is raining.",
+    "It is raining in Beijing."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j074_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is sunny in Shanghai. It is raining in Beijing. It is windy in Guangzhou. 北京的天气怎样？",
+   "explain": "raining in Beijing。",
+   "options": [
+    "晴朗",
+    "有风",
+    "多云",
+    "正在下雨"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j074_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is sunny in Shanghai. It is raining in Beijing. It is windy in Guangzhou. 哪里有风？",
+   "explain": "windy in Guangzhou。",
+   "options": [
+    "广州",
+    "上海",
+    "北京",
+    "三地都有风"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j071_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「多云的」的单词。",
+   "explain": "表示多云的的单词是 cloudy。",
+   "options": [
+    "rain",
+    "windy",
+    "cloudy",
+    "sunny"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j071_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「晴朗的」？",
+   "explain": "sunny 的意思是晴朗的。",
+   "options": [
+    "rain",
+    "windy",
+    "cloudy",
+    "sunny"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j073_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对方说 It is sunny. 你觉得天气很好，哪一句合适？",
+   "explain": "What a fine day。",
+   "options": [
+    "What a fine day!",
+    "What fine day!",
+    "How a fine day!",
+    "What a fine day it are!"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j073_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "How is the weather? 也可以说成哪一句？",
+   "explain": "What's the weather like 和 How is the weather 同义。",
+   "options": [
+    "What's the weather is like?",
+    "What's the weather like?",
+    "How the weather is?",
+    "What does the weather like?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j074_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What a cold day in Harbin! People are wearing sweaters. 哈尔滨的人穿着什么？",
+   "explain": "wearing sweaters。",
+   "options": [
+    "短裙",
+    "毛衣",
+    "校服",
+    "短袜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j074_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What a cold day in Harbin! People are wearing sweaters. 哪一句和短文一致？",
+   "explain": "a cold day 说明很冷。短文没有说下雨。",
+   "options": [
+    "It is hot in Harbin.",
+    "People are wearing skirts.",
+    "It is cold in Harbin.",
+    "It is raining in Harbin."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j087_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「博物馆」？",
+   "explain": "museum 的意思是博物馆。",
+   "options": [
+    "museum",
+    "farm",
+    "fire",
+    "flower"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j087_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「farm」的中文意思是哪一个？",
+   "explain": "farm 的意思是农场。",
+   "options": [
+    "博物馆",
+    "农场",
+    "火；火灾",
+    "花"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j088_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "昨天的郊游很棒。哪一句正确？",
+   "explain": "单数过去式用 was，不和 yesterday 一起用 is。",
+   "options": [
+    "The school trip were great.",
+    "The school trip was great.",
+    "The school trip is great yesterday.",
+    "The school trip was greated."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j088_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "农民们当时很友好。哪一句正确？",
+   "explain": "复数过去式用 were。",
+   "options": [
+    "The farmers was friendly.",
+    "The farmers were friend.",
+    "The farmers were friendly.",
+    "The farmers are friendly yesterday."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j089_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "play 的过去式是哪一个？",
+   "explain": "一般直接加 ed。",
+   "options": [
+    "plaied",
+    "playd",
+    "played",
+    "playing"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j089_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "stop 的过去式是哪一个？",
+   "explain": "重读闭音节末尾辅音双写再加 ed。",
+   "options": [
+    "stoped",
+    "stopping",
+    "stops",
+    "stopped"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j090_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的 -ed 读 /ɪd/？",
+   "explain": "visited 的 -ed 在 /t/ 后读 /ɪd/。",
+   "options": [
+    "played",
+    "stopped",
+    "cleaned",
+    "visited"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j090_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "stopped 的 -ed 和哪个词同类？",
+   "explain": "stopped 和 watched 的 -ed 都读 /t/。",
+   "options": [
+    "watched",
+    "played",
+    "lived",
+    "needed"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j091_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方的郊游怎么样，哪一句合适？",
+   "explain": "How was your school trip。",
+   "options": [
+    "How was your school trip?",
+    "How is your school trip yesterday?",
+    "How were your school trip?",
+    "What was your school trip like did?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j091_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "郊游很有趣，应怎么说？",
+   "explain": "It was interesting。",
+   "options": [
+    "It were interesting.",
+    "It was interesting.",
+    "It was interest.",
+    "It is interesting yesterday."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j092_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "June 5th. The trip was great. We visited a farm. We milked a cow and saw many flowers. 他们去了哪里？",
+   "explain": "visited a farm。",
+   "options": [
+    "博物馆",
+    "农场",
+    "消防站",
+    "学校"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j092_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "June 5th. The trip was great. We visited a farm. We milked a cow and saw many flowers. 旅行感觉怎样？",
+   "explain": "was great。",
+   "options": [
+    "很糟糕",
+    "一般",
+    "很棒",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j093_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「湖」？",
+   "explain": "lake 的意思是湖。",
+   "options": [
+    "beach",
+    "badminton",
+    "lake",
+    "visitor"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j093_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「beach」的中文意思是哪一个？",
+   "explain": "beach 的意思是海滩。",
+   "options": [
+    "湖",
+    "羽毛球",
+    "游客",
+    "海滩"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j096_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方上周末做了什么，哪一句合适？",
+   "explain": "What did you do。",
+   "options": [
+    "What did you did last weekend?",
+    "What did you do last weekend?",
+    "What do you do last weekend?",
+    "What did you last weekend?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j096_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你去了海滩，应怎么说？",
+   "explain": "went 是 go 的过去式。",
+   "options": [
+    "I goed to the beach.",
+    "I go to the beach last weekend.",
+    "I went to the beach.",
+    "I went to the beach yesterday now."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j087_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「火；火灾」的单词。",
+   "explain": "表示火；火灾的单词是 fire。",
+   "options": [
+    "museum",
+    "farm",
+    "fire",
+    "flower"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j087_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「花」？",
+   "explain": "flower 的意思是花。",
+   "options": [
+    "museum",
+    "farm",
+    "fire",
+    "flower"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j088_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Was the weather good? 否定回答是哪一句？",
+   "explain": "weather 用 it wasn't。",
+   "options": [
+    "No, it weren't.",
+    "No, it didn't.",
+    "No, it isn't.",
+    "No, it wasn't."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j088_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Were there any cows? 肯定回答是哪一句？",
+   "explain": "Were there 用 Yes, there were。",
+   "options": [
+    "Yes, there were.",
+    "Yes, there was.",
+    "Yes, there are.",
+    "Yes, they were cows yes."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j089_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "study 的过去式是哪一个？",
+   "explain": "辅音加 y，变 i 再加 ed。",
+   "options": [
+    "studied",
+    "studyed",
+    "studed",
+    "studies"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j089_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "昨天我们参观了博物馆。哪一句正确？",
+   "explain": "yesterday 和过去式 visited 一起用。",
+   "options": [
+    "We visit a museum yesterday.",
+    "We visited a museum yesterday.",
+    "We visited a museum tomorrow.",
+    "We visiting a museum yesterday."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j090_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "played 的 -ed 和哪个词同类？",
+   "explain": "played 和 cleaned 的 -ed 都读 /d/。",
+   "options": [
+    "stopped",
+    "cleaned",
+    "watched",
+    "visited"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j090_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "needed 的词尾读什么？",
+   "explain": "needed 以 /d/ 结尾，-ed 读 /ɪd/。",
+   "options": [
+    "/t/",
+    "/d/",
+    "/ɪd/",
+    "不发音"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j091_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Did you see any cows? 你看到了，应回答什么？",
+   "explain": "Did 提问用 did 简答。",
+   "options": [
+    "Yes, I do.",
+    "Yes, I saw.",
+    "Yes, I did.",
+    "Yes, I was."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j091_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说我们给奶牛挤了奶，哪一句合适？",
+   "explain": "milked 是过去式。",
+   "options": [
+    "We milk a cow yesterday.",
+    "We did milked a cow.",
+    "We milking a cow.",
+    "We milked a cow."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j092_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The weather was bad. It rained. We did not take any photos. 他们拍照了吗？",
+   "explain": "did not take any photos。",
+   "options": [
+    "拍了很多",
+    "只拍了花",
+    "短文没说",
+    "没有"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j092_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The weather was bad. It rained. 哪一句和日记一致？",
+   "explain": "天气不好并且下了雨。这段没有写挤奶。",
+   "options": [
+    "It rained and the weather was bad.",
+    "The weather was great.",
+    "They took many photos.",
+    "They milked a cow in this text."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j093_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「羽毛球」的单词。",
+   "explain": "表示羽毛球的单词是 badminton。",
+   "options": [
+    "badminton",
+    "lake",
+    "beach",
+    "visitor"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j093_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「游客」？",
+   "explain": "visitor 的意思是游客。",
+   "options": [
+    "lake",
+    "visitor",
+    "beach",
+    "badminton"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j096_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Who did you go with? 这句在问什么？",
+   "explain": "Who ... with 问同伴。",
+   "options": [
+    "你去了哪里",
+    "你怎么去的",
+    "你星期几去的",
+    "你和谁一起去的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j096_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说访客们打了羽毛球，哪一句合适？",
+   "explain": "played 是 play 的过去式。",
+   "options": [
+    "The visitors played badminton.",
+    "The visitors play badminton last Sunday.",
+    "The visitors were played badminton.",
+    "The visitors plaied badminton."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j094_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你上周打羽毛球了吗？哪一句正确？",
+   "explain": "Did 后面用动词原形 play。",
+   "options": [
+    "Did you played badminton last weekend?",
+    "Do you played badminton last weekend?",
+    "Did you played badminton last weekend now?",
+    "Did you play badminton last weekend?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j094_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Did he go to the beach? 否定回答是哪一句？",
+   "explain": "简答 No, he didn't，不再加动词。",
+   "options": [
+    "No, he didn't.",
+    "No, he didn't went.",
+    "No, he doesn't.",
+    "No, he wasn't go."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j095_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "go 的过去式是哪一个？",
+   "explain": "go 的过去式是 went。",
+   "options": [
+    "went",
+    "goed",
+    "goes",
+    "going"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j095_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "see 的过去式是哪一个？",
+   "explain": "see 的过去式是 saw。",
+   "options": [
+    "seed",
+    "saw",
+    "seen",
+    "sawed"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j163_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「皇帝」？",
+   "explain": "emperor 的意思是皇帝。",
+   "options": [
+    "emperor",
+    "stupid",
+    "stone",
+    "weak"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j163_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「stupid」的中文意思是哪一个？",
+   "explain": "stupid 的意思是愚蠢的。",
+   "options": [
+    "皇帝",
+    "愚蠢的",
+    "石头",
+    "虚弱的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j166_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "故事开头，哪一句合适？",
+   "explain": "there was an old man。",
+   "options": [
+    "Once upon a time, there is an old man yesterday.",
+    "Once upon a time, there were an old man.",
+    "Once upon a time, there was a old man.",
+    "Once upon a time, there was an old man."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j166_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "老人一直试着移山。哪一句合适？",
+   "explain": "kept trying to move。",
+   "options": [
+    "The old man kept trying to move the mountain.",
+    "The old man kept try to move the mountain.",
+    "The old man kept to trying move the mountain.",
+    "The old man kept trying move the mountain."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j167_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "An old man tried to move the mountains. His family kept working every day. 老人想做什么？",
+   "explain": "move the mountains。",
+   "options": [
+    "移走大山",
+    "建造宫殿",
+    "寻找皇帝",
+    "离开村庄"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j167_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "An old man tried to move the mountains. His family kept working every day. 家人怎样？",
+   "explain": "kept working every day。",
+   "options": [
+    "马上放弃",
+    "每天继续干活",
+    "只看不干",
+    "搬走了"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j094_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她没有去湖边。哪一句正确？",
+   "explain": "didn't 后面用原形 go。",
+   "options": [
+    "She didn't went to the lake.",
+    "She didn't go to the lake.",
+    "She doesn't went to the lake.",
+    "She didn't goes to the lake."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j094_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What did you do last weekend? 这句在问什么？",
+   "explain": "did 加过去时间问已经做的事。",
+   "options": [
+    "上周末你将做什么",
+    "你周末通常做什么",
+    "上周末你做了什么",
+    "你正在做什么"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j095_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "read 的过去式和原形拼写一样。哪一句正确？",
+   "explain": "read 的过去式仍拼作 read，不写成 readed。",
+   "options": [
+    "I readed an interesting book last night.",
+    "I reads an interesting book last night.",
+    "I read an interesting book last night.",
+    "I reading an interesting book last night."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j095_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我们过得很愉快。哪一句正确？",
+   "explain": "have 的过去式是 had。",
+   "options": [
+    "We haved a good time.",
+    "We has a good time yesterday.",
+    "We had have a good time.",
+    "We had a good time."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j163_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「石头」的单词。",
+   "explain": "表示石头的单词是 stone。",
+   "options": [
+    "emperor",
+    "stupid",
+    "stone",
+    "weak"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j163_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「虚弱的」？",
+   "explain": "weak 的意思是虚弱的。",
+   "options": [
+    "emperor",
+    "stupid",
+    "stone",
+    "weak"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j166_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "别人觉得这很愚蠢，应怎么说？",
+   "explain": "thought it was stupid。",
+   "options": [
+    "Other people thought it is stupid yesterday.",
+    "Other people thought it was stupid.",
+    "Other people think it was stupid now past.",
+    "Other people thought it were stupid."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j166_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说他没有放弃，哪一句合适？",
+   "explain": "did not give up。",
+   "options": [
+    "He did not gave up.",
+    "He did not giving up.",
+    "He did not give up.",
+    "He not gave up."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j167_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A god thought the man was weak, but he sent two gods to help. 谁来帮忙？",
+   "explain": "two gods to help。",
+   "options": [
+    "皇帝",
+    "邻居",
+    "两位神",
+    "没有人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j167_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A god thought the man was weak, but he sent two gods to help. 哪一句和故事一致？",
+   "explain": "sent two gods to help。",
+   "options": [
+    "The man gave up at once.",
+    "The family never worked.",
+    "The god refused to help.",
+    "The gods came to help the man."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j097_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "On Saturday morning I went to the lake with my father. We went fishing. 星期六上午他和谁去的？",
+   "explain": "with my father。",
+   "options": [
+    "他的妈妈",
+    "同学",
+    "他的爸爸",
+    "游客"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j097_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "On Saturday morning I went to the lake with my father. We went fishing. 他们做了什么？",
+   "explain": "went fishing。",
+   "options": [
+    "打羽毛球",
+    "去海滩",
+    "参观农场",
+    "钓鱼"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j097_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "On Sunday Lisa stayed at home and read a book. She did not play badminton. 她打羽毛球了吗？",
+   "explain": "did not play badminton。",
+   "options": [
+    "没有",
+    "打了",
+    "和爸爸打了",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j097_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "On Sunday Lisa stayed at home and read a book. 哪一句和日记一致？",
+   "explain": "stayed at home and read a book。",
+   "options": [
+    "Lisa went to the lake on Sunday.",
+    "Lisa read at home on Sunday.",
+    "Lisa played badminton.",
+    "Lisa did not read."
+   ],
+   "answer": 2
+  }
+ ]
+}

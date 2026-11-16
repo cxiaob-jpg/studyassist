@@ -1,0 +1,2780 @@
+{
+ "schema_version": 1,
+ "subject": "math",
+ "grade": 7,
+ "semester": "upper",
+ "textbook": "初中通用版（2022课标初中目录）",
+ "questions": [
+  {
+   "id": "cnm_001_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "在 -5，0，3，-0.2，8，-1/3，0.5 这七个数中，负数共有几个？",
+   "explain": "负数有 -5，-0.2，-1/3，共 3 个；0 不是负数。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_002_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "若向东走 5 m 记作 +5 m，则 -3 m 表示什么？（选择正确答案）",
+   "explain": "正负号表示相反的方向：向东为正，则负号表示向西，数值 3 表示走了 3 m，即向西走 3 m。",
+   "options": [
+    "向东走 3 m",
+    "向西走 5 m",
+    "向东走 5 m",
+    "向西走 3 m"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_002_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某地规定海拔高于海平面记为正，海拔 +120 m 表示高于海平面 120 m。那么低于海平面 35 m 的地方应记作多少 m？",
+   "explain": "高于为正，则低于为负，低于海平面 35 m 记作 -35 m。",
+   "answer": -35
+  },
+  {
+   "id": "cnm_002_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "如果收入 200 元记作 +200 元，那么支出 150 元应记作哪一个？",
+   "explain": "收入记为正，支出与收入意义相反，应记为负，数值为 150，即 -150 元。",
+   "options": [
+    "+150 元",
+    "-200 元",
+    "-150 元",
+    "+350 元"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_003_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各数中，不是有理数的是哪一个？",
+   "explain": "有理数包括整数和分数（有限小数、无限循环小数），π 是无限不循环小数，不是有理数。",
+   "options": [
+    "π",
+    "-4",
+    "0",
+    "2.5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_003_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "在 -3，0，5/2，-0.5，8，-1/4 这六个数中，整数共有几个？",
+   "explain": "整数包括正整数、0、负整数：-3，0，8 共 3 个；其余是分数。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_004_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数轴上，原点左侧 2 个单位长度处的点表示的数是多少？",
+   "explain": "原点左侧为负方向，距离原点 2 个单位，表示 -2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_005_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "在数轴上标出 -1.5 和 2 的位置，哪个更靠右？（只写出这个数）",
+   "explain": "数轴上右边的点表示的数大于左边的点，2 > -1.5，所以 2 更靠右。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_005_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数轴上点 P 表示 -2，把点 P 向右移动 5 个单位长度得到点 Q，则点 Q 表示的数是多少？",
+   "explain": "向右移动是加：-2+5=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_006_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各组数中，互为相反数的是哪一组？",
+   "explain": "互为相反数要求只有符号不同。0.5 与 -1/2 绝对值相同符号相反；2 与 1/2、-3 与 1/3 是倒数关系或既非相反也非倒数；-(-4)=4，两数相等。",
+   "options": [
+    "2 与 1/2",
+    "-3 与 1/3",
+    "-(-4) 与 4",
+    "0.5 与 -1/2"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_006_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "若 a 的相反数是 -6，则 a 等于多少？",
+   "explain": "-6 的相反数是 6，所以 a=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_007_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数轴上表示 -7 的点到原点的距离是多少个单位长度？",
+   "explain": "绝对值的几何意义：|-7| 就是表示 -7 的点到原点的距离，等于 7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_008_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 |-12|-|5|+|0| 的值。",
+   "explain": "|-12|=12，|5|=5，|0|=0，所以 12-5+0=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_009_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "在 -5，-1，0，3 这四个数中，最小的数是多少？",
+   "explain": "负数小于 0 小于正数；两个负数中绝对值大的反而小，|-5|>|-1|，所以 -5 最小。",
+   "answer": -5
+  },
+  {
+   "id": "cnm_001_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若 m 是一个正数，则下列各式一定是负数的是哪一个？",
+   "explain": "m 为正数时，-m 一定是负数；m-1 当 m>1 时为正；m^2>0；-(-m)=m 是正数。",
+   "options": [
+    "-m",
+    "m-1",
+    "m^2",
+    "-(-m)"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_002_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "规定水位上升记为正。某水库三天的水位变化依次记作 -3 m，+5 m，-4 m，则这三天后水位与最初相比变化了多少 m？（上升为正，下降为负）",
+   "explain": "总变化 =（-3）+5+（-4）= -2，即比最初下降了 2 m。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_003_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列说法正确的是哪一个？",
+   "explain": "整数包括正整数、0、负整数；分数是有理数；有理数按符号分类要分正数、0、负数三类；0 不是正数。",
+   "options": [
+    "分数不是有理数",
+    "有理数分为正有理数和负有理数两类",
+    "0 是正数",
+    "正整数、0、负整数统称整数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_004_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列关于直线的描述中，哪一条直线是数轴？",
+   "explain": "数轴必须同时具备原点、正方向、单位长度，且单位长度要统一。只有“有原点和正方向、1，2，3 间距都是 1 cm”的那条满足全部要求。",
+   "options": [
+    "有原点和单位长度，但没有规定正方向",
+    "有原点和正方向，在原点右侧标出 1，2，且 0 到 1 的距离是 1 cm，1 到 2 的距离是 2 cm",
+    "有原点和正方向，在原点右侧依次标出 1，2，3，相邻两点距离都是 1 cm",
+    "有正方向和单位长度，但没有确定原点"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_004_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "在数轴上，与原点的距离等于 4 个单位长度的点共有几个？",
+   "explain": "原点左右两侧各有一个点，分别表示 4 和 -4，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_005_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数轴上相邻两个整数 -2 与 -1 之间被平均分成 4 等份。从 -2 开始向右数的第 1 个分点表示的数是哪一个？",
+   "explain": "每一小格长度为 1/4=0.25。从 -2 向右一格得 -2+0.25=-1.75（越向右数越大）。",
+   "options": [
+    "-1.75",
+    "-2.25",
+    "-1.5",
+    "-1.25"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_006_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 a+3 与 2a-6 互为相反数，则 a 等于多少？",
+   "explain": "互为相反数的两数和为 0：(a+3)+(2a-6)=0，3a-3=0，所以 a=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_007_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列说法正确的是哪一个？",
+   "explain": "互为相反数的两个数到原点距离相等，绝对值相等。绝对值等于本身的数是非负数（含 0）；0 的绝对值是 0；绝对值最小的数是 0。",
+   "options": [
+    "绝对值等于它本身的数是正数",
+    "互为相反数的两个数的绝对值相等",
+    "任何数的绝对值都大于 0",
+    "绝对值最小的数是 -1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_007_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "在数轴上，到原点距离小于 3 的整数共有几个？",
+   "explain": "满足 |x|<3 的整数有 -2，-1，0，1，2，共 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_008_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若有理数 a 满足 |a|=-a，则 a 一定是哪一类数？",
+   "explain": "|a|=-a 说明 a 的绝对值等于它的相反数，只有 a≤0 时成立，所以 a 是非正数（注意 a=0 也满足）。",
+   "options": [
+    "正数",
+    "负数",
+    "非正数（负数或 0）",
+    "非负数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_009_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列各式中，大小关系正确的是哪一个？",
+   "explain": "-|-4|=-4，-4 < -3 正确；-3 < -2；|-5|=5 > 3；-1/2=-3/6 > -4/6=-2/3。",
+   "options": [
+    "-3 > -2",
+    "|-5| < |3|",
+    "-|-4| < -3",
+    "-1/2 < -2/3"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_010_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列计算正确的是哪一个？",
+   "explain": "(-2)+5：异号相加，取 5 的符号（正），5-2=3。其余三式符号或数值有误：(-5)+3=-2，(-5)+(-3)=-8，4+(-9)=-5。",
+   "options": [
+    "(-5)+3=-8",
+    "(-5)+(-3)=8",
+    "4+(-9)=5",
+    "(-2)+5=3"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_011_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "简便计算 (-7)+12+(-3)+8。",
+   "explain": "把同号的数结合：[(-7)+(-3)]+(12+8)=-10+20=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_012_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-4)-(-9)。",
+   "explain": "(-4)-(-9)=(-4)+9=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_012_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各式中，与 5-(-3) 的值相等的是哪一个？",
+   "explain": "减去 -3 等于加上它的相反数 3，所以 5-(-3)=5+3=8。",
+   "options": [
+    "5-3",
+    "5+3",
+    "-5+3",
+    "-5-3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_013_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 -3+8-(-2)-5。",
+   "explain": "先化为省略括号的和：-3+8+2-5，再计算：（-3-5）+（8+2）=-8+10=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_013_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-4)-(-6)+(-3)。",
+   "explain": "减法化为加法：(-4)+6+(-3)=-4+6-3=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_013_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "把 -3+(-5)-(-7)+2 写成省略加号和括号的和的形式，正确的是哪一个？",
+   "explain": "+(-5) 写作 -5；-(-7) 写作 +7；+2 保持不变，所以是 -3-5+7+2。",
+   "options": [
+    "-3-5+7+2",
+    "-3-5-7+2",
+    "-3+5+7+2",
+    "-3-5+7-2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_014_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各式中，结果为正数的是哪一个？",
+   "explain": "同号两数相乘得正数，(-2)×(-3)=6；(-2)×3 与 2×(-3) 异号得负，0×(-3)=0。",
+   "options": [
+    "(-2)×3",
+    "2×(-3)",
+    "0×(-3)",
+    "(-2)×(-3)"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_015_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-2)×7×(-5)。",
+   "explain": "两个负因数（偶数个）积为正：先把 (-2)×(-5)=10，再 10×7=70。",
+   "answer": 70
+  },
+  {
+   "id": "cnm_017_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-18)÷6。",
+   "explain": "异号两数相除得负，绝对值相除：18÷6=3，所以结果是 -3。",
+   "answer": -3
+  },
+  {
+   "id": "cnm_018_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 8-12÷(-3)。",
+   "explain": "先算除法：12÷(-3)=-4，再算 8-(-4)=12。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_018_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "计算 2+3×(-4) 的结果是哪一个？",
+   "explain": "先算乘法 3×(-4)=-12，再算 2+(-12)=-10。若先算加法会得到 -20。",
+   "options": [
+    "-20",
+    "14",
+    "20",
+    "-10"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_019_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在幂 (-5)³ 中，底数是哪一个？",
+   "explain": "括号内的 -5 是相同因数，即底数；3 是指数。",
+   "options": [
+    "-5",
+    "5",
+    "-3",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_019_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把 (-3)×(-3)×(-3)×(-3) 写成幂 a^n 的形式，指数 n 是多少？",
+   "explain": "4 个 (-3) 相乘，写成 (-3)^4，指数是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_020_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各数中，结果为负数的是哪一个？",
+   "explain": "负数的奇次幂是负数：(-2)³=-8；(-3)²=9，(-1)⁴=1，0⁵=0。",
+   "options": [
+    "(-3)²",
+    "(-1)⁴",
+    "(-2)³",
+    "0⁵"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_020_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-10)³。",
+   "explain": "(-10)³=(-10)×(-10)×(-10)=-1000（负数的奇次幂为负）。",
+   "answer": -1000
+  },
+  {
+   "id": "cnm_021_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (-3)²-2×5。",
+   "explain": "先乘方 (-3)²=9，再乘 2×5=10，最后 9-10=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_022_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "把 3 450 000 用科学记数法表示。（选择正确的一项）",
+   "explain": "科学记数法 a×10^n 要求 1≤|a|<10。3 450 000 小数点向左移 6 位得 3.45，所以是 3.45×10^6。",
+   "options": [
+    "3.45×10^5",
+    "34.5×10^5",
+    "3.45×10^6",
+    "0.345×10^7"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_022_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把 8 600 000 用科学记数法写成 a×10^n（1≤a<10）的形式，则 n 等于多少？",
+   "explain": "8 600 000=8.6×10^6，所以 n=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_023_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把 3.14159 精确到 0.01，结果是多少？",
+   "explain": "精确到 0.01 即保留两位小数，千分位 1 小于 5 舍去，得 3.14。",
+   "answer": 3.14
+  },
+  {
+   "id": "cnm_024_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把二进制数 101 化为十进制数。",
+   "explain": "101（二进制）=1×2²+0×2+1=4+0+1=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_024_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "二进制的计数规则是“逢几进一”？（只填数字）",
+   "explain": "二进制只用 0 和 1 两个数码，每满 2 就向前一位进 1，即逢二进一。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_010_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 |a|=6，|b|=4，且 a<0<b，求 a+b 的值。",
+   "explain": "由 a<0 得 a=-6，由 b>0 得 b=4，所以 a+b=-6+4=-2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_011_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "简便计算 (-1.6)+3.7+(-2.4)+1.3。",
+   "explain": "把互相凑整的数结合：[(-1.6)+(-2.4)]+(3.7+1.3)=-4+5=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_011_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "简便计算 (-5/2)+(7/3)+(-3/2)+(2/3)。",
+   "explain": "同分母结合：[(-5/2)+(-3/2)]+(7/3+2/3)=-4+3=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_012_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某地某天最高气温是 3 ℃，最低气温是 -9 ℃，这一天的温差是多少 ℃？",
+   "explain": "温差=最高气温-最低气温=3-(-9)=3+9=12（℃）。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_013_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 1-2+3-4+5-6+…+99-100 的值。",
+   "explain": "两项一组：(1-2)+(3-4)+…+(99-100)，共 50 组，每组为 -1，所以和为 -50。",
+   "answer": -50
+  },
+  {
+   "id": "cnm_014_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "当 a=-3，b=-4 时，求 ab-a 的值。",
+   "explain": "ab=(-3)×(-4)=12，ab-a=12-(-3)=12+3=15。",
+   "answer": 15
+  },
+  {
+   "id": "cnm_014_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 |a|=3，|b|=5，且 ab<0，求 ab 的值。",
+   "explain": "ab<0 说明 a、b 异号，|ab|=|a|×|b|=15，积为负，所以 ab=-15。",
+   "answer": -15
+  },
+  {
+   "id": "cnm_015_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "用分配律计算 (-12)×(1/2-2/3+1/4)。",
+   "explain": "(-12)×1/2+(-12)×(-2/3)+(-12)×1/4=-6+8-3=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_015_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (-5/9)×13+(-5/9)×(-4)。",
+   "explain": "逆用分配律提取公因数：(-5/9)×[13+(-4)]=(-5/9)×9=-5。",
+   "answer": -5
+  },
+  {
+   "id": "cnm_015_q5",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "5 个不等于 0 的有理数相乘，积为正数，则其中负因数的个数可能是几个？",
+   "explain": "积为正，负因数个数必须是偶数。选项中只有 4 是偶数（共 5 个因数，另一个为正数）。",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_016_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列说法正确的是哪一个？",
+   "explain": "1×1=1，(-1)×(-1)=1，所以倒数等于本身的数是 1 和 -1；0 没有倒数；1/2 的倒数 2 比它大。",
+   "options": [
+    "0 的倒数是 0",
+    "倒数等于它本身的数是 1 和 -1",
+    "倒数等于它本身的数只有 1",
+    "一个数的倒数一定比它小"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_016_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 a、b 互为倒数，c、d 互为相反数，求 4ab-3(c+d) 的值。",
+   "explain": "互为倒数 ab=1，互为相反数 c+d=0，所以原式=4×1-3×0=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_017_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (-12)÷(-3/4)。",
+   "explain": "除以一个数等于乘它的倒数：(-12)×(-4/3)=16。",
+   "answer": 16
+  },
+  {
+   "id": "cnm_017_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列计算正确的是哪一个？",
+   "explain": "0 除以任何不为 0 的数都得 0。(-8)÷(-2)=4；6÷(-1/3)=6×(-3)=-18；除数不能为 0。",
+   "options": [
+    "(-8)÷(-2)=-4",
+    "6÷(-1/3)=-2",
+    "0÷(-5)=0",
+    "(-1)÷0=0"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_017_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个数乘 -3/5 得 9，这个数是多少？",
+   "explain": "这个数=9÷(-3/5)=9×(-5/3)=-15。",
+   "answer": -15
+  },
+  {
+   "id": "cnm_018_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 -6÷(-2)×3+(-4)。",
+   "explain": "先乘除后加减，乘除按从左到右：(-6)÷(-2)=3，3×3=9，9+(-4)=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_018_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (-2)×(3-5)÷(1/2)-1。",
+   "explain": "先算括号 3-5=-2；(-2)×(-2)=4；4÷(1/2)=8；8-1=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_018_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (-1/2+2/3)÷(-1/6)×(-5)。",
+   "explain": "括号内 -1/2+2/3=1/6；1/6÷(-1/6)=-1；-1×(-5)=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_019_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列各组中，两个式子的值相等的是哪一组？",
+   "explain": "(-2)³=-8，-2³=-8，相等。(-2)²=4 而 -2²=-4；(-3)²=9 而 -3²=-9；2³=8 而 3²=9。",
+   "options": [
+    "(-2)² 与 -2²",
+    "(-2)³ 与 -2³",
+    "(-3)² 与 -3²",
+    "2³ 与 3²"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_019_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 -2²-(-2)² 的值。",
+   "explain": "-2²=-(2×2)=-4；(-2)²=4；所以 -4-4=-8。",
+   "answer": -8
+  },
+  {
+   "id": "cnm_020_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 a=-1，求 a^2025-a^2026+a^2 的值。",
+   "explain": "a^2025=-1，a^2026=1，a^2=1，所以 -1-1+1=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_021_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 -2²+(-3)²÷(-3)。",
+   "explain": "先算乘方：-2²=-4，(-3)²=9；再算除法 9÷(-3)=-3；最后 -4+(-3)=-7。",
+   "answer": -7
+  },
+  {
+   "id": "cnm_021_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "计算 -2+3×(-2)² 的结果是哪一个？",
+   "explain": "先算乘方 (-2)²=4，再算乘法 3×4=12，最后 -2+12=10。",
+   "options": [
+    "-14",
+    "4",
+    "34",
+    "10"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_021_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (-2)³÷4-(-3)×2。",
+   "explain": "(-2)³=-8，-8÷4=-2；(-3)×2=-6，-2-(-6)=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_022_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把科学记数法 5.2×10^4 还原成原数。",
+   "explain": "5.2×10^4=5.2×10000=52000。",
+   "answer": 52000
+  },
+  {
+   "id": "cnm_022_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "地球到太阳的平均距离约为 150 000 000 km，用科学记数法表示为哪一个？",
+   "explain": "150 000 000 小数点向左移 8 位得 1.5，所以是 1.5×10^8；15×10^7 与 0.15×10^9 的系数不在 1 到 10 之间。",
+   "options": [
+    "15×10^7 km",
+    "1.5×10^8 km",
+    "1.5×10^7 km",
+    "0.15×10^9 km"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_022_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把 -720 000 000 写成 a×10^n（1≤|a|<10）的形式，求 a+n 的值。",
+   "explain": "-720 000 000=-7.2×10^8，所以 a=-7.2，n=8，a+n=0.8。",
+   "answer": 0.8
+  },
+  {
+   "id": "cnm_023_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把 0.03586 精确到 0.001，有几个有效数字？（只填有效数字的个数）",
+   "explain": "0.03586 精确到 0.001 得 0.036，从左边第一个不是 0 的数字 3 起到末位：3，6，共 2 个有效数字。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_023_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "近似数 0.0420 的有效数字有几个？",
+   "explain": "从左边第一个不是 0 的数字 4 起，到末位：4，2，0，共 3 个有效数字（末尾的 0 也算）。",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_023_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把 2.0951 保留三个有效数字，结果是多少？",
+   "explain": "保留三个有效数字：2，0，9 三位，第四位 5 进一得 2.10。",
+   "answer": 2.1
+  },
+  {
+   "id": "cnm_023_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把 12 345 四舍五入精确到千位，结果是多少？（写成普通整数）",
+   "explain": "精确到千位，看百位数字 3，小于 5 舍去，得 12000。",
+   "answer": 12000
+  },
+  {
+   "id": "cnm_024_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把二进制数 1101 化为十进制数。",
+   "explain": "1101（二进制）=1×2³+1×2²+0×2+1=8+4+0+1=13。",
+   "answer": 13
+  },
+  {
+   "id": "cnm_024_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把十进制数 10 化为二进制数，结果是哪一个？",
+   "explain": "10=8+2=1×2³+0×2²+1×2+0，所以二进制是 1010。",
+   "options": [
+    "1010",
+    "1100",
+    "1001",
+    "101"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_024_q5",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把二进制数 1011 与 110 相加，其和化为十进制数是多少？",
+   "explain": "1011（二进制）=11，110（二进制）=6，和为 17。",
+   "answer": 17
+  },
+  {
+   "id": "cnm_025_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一本书的价格是 a 元，买 5 本这样的书一共需要多少元？",
+   "explain": "总价=单价×数量，所以 5 本书共 5×a=5a 元。",
+   "options": [
+    "a+5",
+    "a/5",
+    "a-5",
+    "5a"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_026_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各式中，是代数式的是哪一个？",
+   "explain": "代数式是用运算符号连接数或字母的式子，不含等号和不等号。A 是等式，C、D 含不等号，只有 2a-b 是代数式。",
+   "options": [
+    "x+1=3",
+    "2a-b",
+    "3>2",
+    "x≤5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_027_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "“比 m 大 7 的数”用代数式表示为哪一个？",
+   "explain": "比 m 大 7，就是在 m 的基础上加 7，所以是 m+7。",
+   "options": [
+    "m-7",
+    "7-m",
+    "m+7",
+    "7m"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_028_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "若 a 表示一个正方形的边长（单位：cm），则代数式 4a 表示这个正方形的什么？",
+   "explain": "正方形有 4 条边，每条边长 a，边长之和 4a 就是周长。面积应为 a^2。",
+   "options": [
+    "面积",
+    "周长",
+    "对角线长",
+    "边长的一半"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_029_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "当 x=3 时，求代数式 2x+5 的值。",
+   "explain": "把 x=3 代入：2×3+5=6+5=11。",
+   "answer": 11
+  },
+  {
+   "id": "cnm_030_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数列 3，5，7，9，… 的第 n 项是 2n+1，则第 20 项是多少？",
+   "explain": "令 n=20，得 2×20+1=41。",
+   "answer": 41
+  },
+  {
+   "id": "cnm_025_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三个连续整数中最小的一个是 n，则这三个数依次为 n，n+1，n+2，它们的和可用字母表示。当 n=7 时，这三个数的和是多少？",
+   "explain": "三个数的和为 n+(n+1)+(n+2)=3n+3，当 n=7 时为 3×7+3=24（即 7+8+9=24）。",
+   "answer": 24
+  },
+  {
+   "id": "cnm_025_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "关于用字母表示数，下列说法正确的是哪一个？",
+   "explain": "字母可以表示任意数，取值不同结果不同。a 可为负数或 0，所以 -a 不一定是负数；b 为负数或 0 时 a+b 不大于 a。只有 C 正确。",
+   "options": [
+    "字母 a 一定表示正数",
+    "-a 一定是负数",
+    "字母 a 可以取正数、负数或 0",
+    "a+b 一定大于 a"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_026_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列代数式书写规范的是哪一个？",
+   "explain": "数字与字母相乘，乘号省略且数字写在字母前，所以 a×4 应写成 4a；系数 1 省略，1a 应写成 a；除法应写成分数 a/b。",
+   "options": [
+    "4a",
+    "a×4",
+    "1a",
+    "a÷b"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_026_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "下列 6 个式子：① 2a+1　② x=3　③ 5　④ a-b>0　⑤ m/n　⑥ π。其中是代数式的有几个？",
+   "explain": "单独的数或字母也是代数式。①③⑤⑥ 是代数式；②含等号、④含不等号，不是代数式。共 4 个。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_027_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某班男生有 x 人，女生比男生少 3 人，则全班共有 (x+(x-3)) 人。当 x=25 时，全班共有多少人？",
+   "explain": "女生人数为 x-3，全班人数为 x+(x-3)=2x-3。x=25 时，2×25-3=47。",
+   "answer": 47
+  },
+  {
+   "id": "cnm_027_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "某商品原价 a 元，先涨价 10%，再按涨价后的价格打八折出售，则现价是多少元？",
+   "explain": "涨价后为 a(1+10%)=1.1a，再打八折为 1.1a×0.8=0.88a。",
+   "options": [
+    "0.88a",
+    "0.9a",
+    "1.18a",
+    "0.72a"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_028_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "某书店原有图书 m 本，卖出 n 本后又进货 5 本。代数式 m-n+5 表示的是什么？",
+   "explain": "m-n 是卖出后剩下的本数，再加上进货的 5 本，就是现在书店里的图书本数。",
+   "options": [
+    "卖出的图书本数",
+    "进货前书店里的图书本数",
+    "卖出和进货的图书总本数",
+    "现在书店里的图书本数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_028_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "水箱原有水 100 L，每分钟流出 5 L，t 分钟后剩余水量为 (100-5t) L。水箱里的水恰好放完是第几分钟？",
+   "explain": "剩余水量为 0 时 100-5t=0，解得 t=20，即第 20 分钟恰好放完。",
+   "answer": 20
+  },
+  {
+   "id": "cnm_029_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "当 a=-2 时，求 3a²-a。",
+   "explain": "负数代入要加括号：3×(-2)²-(-2)=3×4+2=14。",
+   "answer": 14
+  },
+  {
+   "id": "cnm_029_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 x-2y=3，求代数式 2x-4y+1 的值。",
+   "explain": "把 x-2y 看成整体：2x-4y+1=2(x-2y)+1=2×3+1=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_030_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数列 2，5，10，17，26，… 的第 n 项是哪一个？",
+   "explain": "各项依次为 1²+1，2²+1，3²+1，4²+1，5²+1，所以第 n 项是 n²+1。",
+   "options": [
+    "2n",
+    "3n-1",
+    "n^2+n",
+    "n^2+1"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_030_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "用火柴棒在一行中连续摆正方形：摆 1 个正方形用 4 根，摆 2 个用 7 根，摆 3 个用 10 根。按此规律摆 25 个正方形需要多少根火柴棒？",
+   "explain": "每多摆一个正方形增加 3 根，所以摆 n 个需要 4+3(n-1)=3n+1 根，n=25 时为 76 根。",
+   "answer": 76
+  },
+  {
+   "id": "cnm_031_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列式子中，是单项式的是哪一个？",
+   "explain": "单项式是数与字母的积。A、D 是和差形式，B 的分母含字母，都不是单项式；-5xy 是单项式。",
+   "options": [
+    "a+b",
+    "2/x",
+    "-5xy",
+    "a-1"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_032_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "多项式 2x²-3x+7 的常数项是哪一个？",
+   "explain": "不含字母的项叫常数项，这里是 +7，常数项为 7。",
+   "options": [
+    "7",
+    "-3",
+    "2",
+    "-7"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_033_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各组中，是同类项的是哪一组？",
+   "explain": "同类项要求字母相同且相同字母的指数相同。3ab 与 -ba 字母相同、指数都是 1（与字母顺序无关），是同类项；其余各组字母或指数不同。",
+   "options": [
+    "2x 与 2y",
+    "a²b 与 ab²",
+    "3ab 与 -ba",
+    "5x² 与 5x³"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_034_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "合并同类项 3a+5a-2a 后，结果是 ka，求 k 的值。",
+   "explain": "同类项合并时系数相加，字母部分不变：3+5-2=6，结果为 6a。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_035_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "a+(b-c) 去括号后等于哪一个？",
+   "explain": "括号前是“+”号，去括号后括号内各项都不变号，所以是 a+b-c。",
+   "options": [
+    "a+b+c",
+    "a+b-c",
+    "a-b+c",
+    "a-b-c"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_036_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (2a+3)+(a-5)，结果写成 ma+n 的形式，求 m+n 的值。",
+   "explain": "(2a+3)+(a-5)=3a-2，所以 m=3，n=-2，m+n=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_037_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "先化简再求值：(x+3)+(2x-1)，其中 x=-1。",
+   "explain": "化简得 3x+2，代入 x=-1 得 3×(-1)+2=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_038_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正方形的边长为 (x+1) cm，当 x=4 时，它的周长是多少 cm？",
+   "explain": "周长为 4(x+1)，x=4 时为 4×5=20（cm）。",
+   "answer": 20
+  },
+  {
+   "id": "cnm_031_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 3x^m y^3 是 5 次单项式，求 m 的值。",
+   "explain": "次数是字母指数之和，m+3=5，所以 m=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_032_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列各式中，不是整式的是哪一个？",
+   "explain": "整式包括单项式和多项式，分母中不能含字母。1/(x+1) 的分母含字母 x，不是整式；-x/2 是单项式，2a-b 是多项式，5 是单项式。",
+   "options": [
+    "-x/2",
+    "1/(x+1)",
+    "2a-b",
+    "5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_033_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 3x^2 y^n 与 -5x^m y^3 是同类项，求 m+n 的值。",
+   "explain": "同类项中相同字母的指数相等：m=2，n=3，所以 m+n=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_033_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列说法正确的是哪一个？",
+   "explain": "所有常数项都是同类项，所以 D 正确；2ab 与 2abc 字母不同；x²y 与 xy² 字母指数不同，都不是同类项。",
+   "options": [
+    "所有的常数项都不是同类项",
+    "2ab 与 2abc 是同类项",
+    "x²y 与 xy² 是同类项，因为字母相同",
+    "-3 与 5 是同类项"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_034_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列合并同类项正确的是哪一个？",
+   "explain": "4a²b 与 3ba² 是同类项，系数 4-3=1，得 a²b。B、D 不是同类项不能合并；C 合并后字母部分应保留，为 3x²。",
+   "options": [
+    "4a²b-3ba²=a²b",
+    "3a+2b=5ab",
+    "5x²-2x²=3",
+    "2x+3x²=5x³"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_034_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "多项式 2x²+mx-5x+3 合并同类项后不含 x 的一次项，求 m 的值。",
+   "explain": "一次项合并为 (m-5)x，不含一次项即系数 m-5=0，所以 m=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_035_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列去括号正确的是哪一个？",
+   "explain": "A 应为 5-x+2；B 应为 -a+b；D 应为 -3x-3y；C 用分配律 2×a-2×3=2a-6 正确。",
+   "options": [
+    "5-(x-2)=5-x-2",
+    "-(a-b)=-a-b",
+    "2(a-3)=2a-6",
+    "-3(x+y)=-3x+3y"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_035_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "化简 2(x-1)-3(x-2)，结果写成 ax+b 的形式（a、b 为常数），求 a+b 的值。",
+   "explain": "2(x-1)-3(x-2)=2x-2-3x+6=-x+4，所以 a=-1，b=4，a+b=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_036_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "已知 A=2x²-x，B=x²+3x-1，则 A-B 等于哪一个？",
+   "explain": "A-B=2x²-x-(x²+3x-1)=2x²-x-x²-3x+1=x²-4x+1，注意括号前是负号，-1 要变成 +1。",
+   "options": [
+    "x²+2x-1",
+    "x²-4x-1",
+    "3x²+2x-1",
+    "x²-4x+1"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_036_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 A=x²+2x，B=2x²-x+3。化简 2A-B 后结果为 ax+b（a、b 为常数），求 a+b 的值。",
+   "explain": "2A-B=2x²+4x-2x²+x-3=5x-3，所以 a=5，b=-3，a+b=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_037_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "化简求值：2(a²-ab)-(a²-2ab)，其中 a=-1，b=2。（只填最后的值）",
+   "explain": "先化简：2a²-2ab-a²+2ab=a²，再代入 a=-1 得 (-1)²=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_037_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "先化简再求值：3(x²-2x)-2(x²-3x)，其中 x=-3。",
+   "explain": "化简：3x²-6x-2x²+6x=x²，代入 x=-3 得 (-3)²=9。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_037_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "先化简再求值：2(x²y+xy²)-(2x²y-xy²)，其中 x=1/2，y=-2。",
+   "explain": "化简：2x²y+2xy²-2x²y+xy²=3xy²。代入得 3×(1/2)×(-2)²=3×(1/2)×4=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_038_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "三角形三边的长分别是 a cm，(a+2) cm，(2a-1) cm，则它的周长是多少 cm？",
+   "explain": "周长=a+(a+2)+(2a-1)=4a+1。",
+   "options": [
+    "4a+3",
+    "3a+1",
+    "4a+1",
+    "4a-1"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_038_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三角形的第一边长 (3a+2) cm，第二边比第一边长 (a-1) cm，第三边比第二边短 3 cm。周长化简为 pa+q（p、q 为常数），求 p+q 的值。",
+   "explain": "第二边 3a+2+a-1=4a+1，第三边 4a+1-3=4a-2，周长 (3a+2)+(4a+1)+(4a-2)=11a+1，所以 p+q=12。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_039_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列式子中，是方程的是哪一个？",
+   "explain": "方程是含有未知数的等式。A 不是等式，C 是等式但不含未知数，D 是不等式；只有 2x-5=7 是方程。",
+   "options": [
+    "3x+1",
+    "2x-5=7",
+    "4+5=9",
+    "x>3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_040_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "由 2x=6 如何得到 x=3？",
+   "explain": "x 的系数是 2，等式两边同除以 2（不为 0 的数），得 x=3。",
+   "options": [
+    "等式两边同减去 2",
+    "等式两边同除以 2",
+    "等式两边同乘 2",
+    "等式两边同加 3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_040_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "由 x+5=9 得到 x=4，依据的是等式的哪条性质？",
+   "explain": "要消去左边的 +5，两边同减 5：x+5-5=9-5，得 x=4。",
+   "options": [
+    "等式两边同加 5",
+    "等式两边同乘 5",
+    "等式两边同除以 5",
+    "等式两边同减 5"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_041_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列方程中，是一元一次方程的是哪一个？",
+   "explain": "A 含两个未知数；B 未知数次数是 2；C 的分母含未知数，不是整式方程；只有 2x+1=7 是一元一次方程。",
+   "options": [
+    "x+y=3",
+    "x²=4",
+    "1/x=2",
+    "2x+1=7"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_042_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "解方程 2x-5=9。（只填 x 的值）",
+   "explain": "移项得 2x=9+5=14，系数化为 1 得 x=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_043_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "解方程 3(x-1)=9。（只填 x 的值）",
+   "explain": "去括号得 3x-3=9，移项得 3x=12，所以 x=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_044_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "解方程 x/2 + x/3 = 5。（只填 x 的值）",
+   "explain": "两边同乘 6：3x+2x=30，即 5x=30，所以 x=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_045_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一个数的 2 倍加 3 等于 15，设这个数为 x，列出的方程是哪一个？",
+   "explain": "“这个数的 2 倍”是 2x，“加 3”是 2x+3，等于 15，所以方程为 2x+3=15。",
+   "options": [
+    "2x+3=15",
+    "2(x+3)=15",
+    "2x-3=15",
+    "2+3x=15"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_046_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲单独做 6 天完成，乙单独做 12 天完成，合作需几天？（单位：天）",
+   "explain": "设合作需 x 天，把工作总量看作 1，则 (1/6+1/12)x=1，即 (1/4)x=1，x=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_046_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一项工程，甲单独做 3 天完成，乙单独做 6 天完成，两人合作需几天完成？（单位：天）",
+   "explain": "甲每天完成 1/3，乙每天完成 1/6，合作每天完成 1/2，所以需要 1÷(1/2)=2 天。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_047_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲乙相距 100 km，相向而行，速度 30 与 20 km/h，几小时相遇？（单位：小时）",
+   "explain": "相遇问题：路程和=速度和×时间，(30+20)t=100，所以 t=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_047_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲、乙两人从相距 60 km 的两地同时出发相向而行，速度分别是 4 km/h 和 6 km/h，几小时后相遇？（单位：小时）",
+   "explain": "设 t 小时后相遇，4t+6t=60，解得 t=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_048_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一件商品进价 80 元，利润率 25%，售价多少？（单位：元）",
+   "explain": "利润=进价×利润率=80×25%=20 元，售价=进价+利润=100 元。",
+   "answer": 100
+  },
+  {
+   "id": "cnm_048_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一件标价 200 元的商品打八折出售，售价是多少元？",
+   "explain": "打八折即按标价的 80% 出售，200×0.8=160 元。",
+   "answer": 160
+  },
+  {
+   "id": "cnm_049_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某通话方案月租 10 元，另外每分钟收费 0.2 元。一个月通话 50 分钟，费用是多少元？",
+   "explain": "费用=月租+通话费=10+0.2×50=10+10=20 元。",
+   "answer": 20
+  },
+  {
+   "id": "cnm_039_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 x=-1 是方程 2x+a=5 的解，求 a 的值。",
+   "explain": "方程的解代入后等式成立：2×(-1)+a=5，所以 a=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_039_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列各数中，是方程 2(x-1)=x+3 的解的是哪一个？",
+   "explain": "逐一代入检验：x=5 时左边 2×4=8，右边 5+3=8，相等；x=1、3、7 时两边不相等。",
+   "options": [
+    "5",
+    "1",
+    "3",
+    "7"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_040_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列根据等式的性质所作的变形，正确的是哪一个？",
+   "explain": "等式两边乘同一个数，等式仍成立，C 正确。A、D 两边加减的不是同一个数；B 中若 c=0，不能两边同除以 c。",
+   "options": [
+    "由 a=b，得 a-c=b+c",
+    "由 ac=bc，得 a=b",
+    "由 a=b，得 ac=bc",
+    "由 a=b，得 a+3=b-3"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_040_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "利用等式的性质解方程 (2/3)x-1=7，求 x 的值。",
+   "explain": "两边同加 1 得 (2/3)x=8，再两边同乘 3/2（即除以 2/3）得 x=12。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_041_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 (m-1)x^|m|+3=0 是关于 x 的一元一次方程，求 m 的值。",
+   "explain": "x 的次数为 1，所以 |m|=1，m=1 或 -1；又一次项系数 m-1≠0，故 m≠1，只能 m=-1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_041_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "关于 x 的方程 ax+b=0 是一元一次方程，a、b 需要满足什么条件？",
+   "explain": "标准形式 ax+b=0 要求未知数的系数 a≠0，否则 x 项消失；b 可以是 0。",
+   "options": [
+    "a=0",
+    "b≠0",
+    "a≠0",
+    "a、b 都不为 0"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_042_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 3x+2=x-6。（只填 x 的值）",
+   "explain": "移项得 3x-x=-6-2，合并得 2x=-8，系数化为 1 得 x=-4。",
+   "answer": -4
+  },
+  {
+   "id": "cnm_042_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "解方程 2x-3=5x+6 时，移项后正确的是哪一个？",
+   "explain": "移项要变号：把 5x 移到左边变为 -5x，把 -3 移到右边变为 +3，得 2x-5x=6+3。",
+   "options": [
+    "2x-5x=6-3",
+    "2x-5x=6+3",
+    "2x+5x=6+3",
+    "2x-5x=-3-6"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_043_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 2(x-3)=4-(x+1)。（只填 x 的值）",
+   "explain": "去括号得 2x-6=4-x-1，移项合并得 3x=9，所以 x=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_043_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 5(x+2)-3(2x-1)=4。（只填 x 的值）",
+   "explain": "去括号得 5x+10-6x+3=4，合并得 -x+13=4，所以 x=9。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_043_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 2x-3(x-1)=-2(x+1)+7。（只填 x 的值）",
+   "explain": "去括号得 2x-3x+3=-2x-2+7，即 -x+3=-2x+5，移项得 x=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_044_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 (x+1)/2 - x/3 = 1。（只填 x 的值）",
+   "explain": "两边同乘 6：3(x+1)-2x=6，去括号得 x+3=6，所以 x=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_044_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 (2x-1)/3 = (x+2)/2。（只填 x 的值）",
+   "explain": "两边同乘 6：2(2x-1)=3(x+2)，得 4x-2=3x+6，所以 x=8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_044_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "解方程 (x-1)/2 - (2x+1)/3 = 1。（只填 x 的值）",
+   "explain": "两边同乘 6（注意右边的 1 也要乘 6）：3(x-1)-2(2x+1)=6，得 3x-3-4x-2=6，即 -x-5=6，所以 x=-11。",
+   "answer": -11
+  },
+  {
+   "id": "cnm_045_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个数的 3 倍减 5 等于 16，求这个数。",
+   "explain": "设这个数为 x，列方程 3x-5=16，解得 3x=21，x=7。检验：3×7-5=16，符合题意。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_045_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某班有学生 45 人，男生比女生多 5 人，女生有多少人？",
+   "explain": "设女生 x 人，则男生 x+5 人，列方程 x+(x+5)=45，解得 x=20。",
+   "answer": 20
+  },
+  {
+   "id": "cnm_045_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三个连续偶数的和是 78，其中最大的偶数是多少？",
+   "explain": "设中间的偶数为 x，则另两个为 x-2、x+2，列方程 (x-2)+x+(x+2)=78，得 x=26，最大数为 28。",
+   "answer": 28
+  },
+  {
+   "id": "cnm_046_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某车间有 28 名工人生产螺栓和螺母，每人每天可生产螺栓 12 个或螺母 18 个，1 个螺栓配 2 个螺母。为使每天生产的螺栓和螺母刚好配套，应安排多少人生产螺栓？",
+   "explain": "设 x 人生产螺栓，则 (28-x) 人生产螺母。螺母数是螺栓数的 2 倍：2×12x=18(28-x)，解得 x=12。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_046_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一项工程，甲单独做 10 天完成，乙单独做 15 天完成。先由甲单独做 5 天，剩下的由两人合作，还需几天完成？（单位：天）",
+   "explain": "甲做 5 天后剩 1-5/10=1/2。两人合作每天完成 1/10+1/15=1/6，所以还需 (1/2)÷(1/6)=3 天。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_047_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "甲以 4 km/h 的速度先出发，2 小时后乙以 6 km/h 的速度从同一地点同向出发，乙出发后几小时追上甲？（单位：小时）",
+   "explain": "追及问题：设乙出发后 t 小时追上，则 6t=4(t+2)，解得 t=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_047_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "两车相距 300 km，同时相向而行，速度分别为 60 km/h 和 40 km/h，几小时后两车相距 50 km（此时尚未相遇）？（单位：小时）",
+   "explain": "尚未相遇时，两车共行驶了 300-50=250 km，设 t 小时，则 (60+40)t=250，解得 t=2.5。",
+   "answer": 2.5
+  },
+  {
+   "id": "cnm_048_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某商品标价 150 元，打九折出售，仍获利 35 元，求这件商品的进价（单位：元）。",
+   "explain": "售价为 150×0.9=135 元。设进价为 x，则 135-x=35，解得 x=100。",
+   "answer": 100
+  },
+  {
+   "id": "cnm_048_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某商品按标价的八折出售，售价为 240 元，此时利润率为 20%，求这件商品的进价（单位：元）。",
+   "explain": "设进价为 x，则售价=x(1+20%)=240，所以 1.2x=240，x=200。",
+   "answer": 200
+  },
+  {
+   "id": "cnm_049_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "方案甲每月 20 元+0.1 元/分钟，乙每月 0 元+0.2 元/分钟，通话多少分钟费用相同？（单位：分钟）",
+   "explain": "设通话 t 分钟，20+0.1t=0.2t，解得 0.1t=20，t=200。",
+   "answer": 200
+  },
+  {
+   "id": "cnm_049_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "租车方案 A：每天 100 元，另按 2 元/km 计费；方案 B：每天 50 元，另按 3 元/km 计费。一天行驶多少 km 时两种方案费用相同？（单位：km）",
+   "explain": "设行驶 x km，100+2x=50+3x，解得 x=50。",
+   "answer": 50
+  },
+  {
+   "id": "cnm_050_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "圆柱的侧面展开后是什么平面图形？",
+   "explain": "沿圆柱的高剪开侧面并展平，得到长方形，它的长是底面圆的周长，宽是圆柱的高。",
+   "options": [
+    "三角形",
+    "圆",
+    "长方形",
+    "扇形"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_050_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列图形中，属于立体图形的是",
+   "explain": "球占有空间的一部分，是立体图形；圆、三角形、梯形都在同一平面内，是平面图形。",
+   "options": [
+    "球",
+    "圆",
+    "三角形",
+    "梯形"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_051_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一个直立放置的圆柱，从正面看和从上面看分别得到什么图形？",
+   "explain": "直立的圆柱从正面看是长方形，从上面看是底面的圆。",
+   "options": [
+    "圆，长方形",
+    "长方形，圆",
+    "长方形，长方形",
+    "圆，圆"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_051_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "用小立方块搭几何体：底层是 2 行 2 列共 4 个小立方块，第二层只在其中一个角上放 1 个小立方块。从上面看，能看到几个小正方形？",
+   "explain": "从上面看，第二层的小立方块被遮在底层的正上方，看到的就是底层的 2×2 个小正方形，共 4 个。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_052_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直角三角形绕一条直角边旋转一周得到什么几何体？",
+   "explain": "直角三角形绕一条直角边旋转一周，斜边扫出圆锥的侧面，另一条直角边扫出底面，得到圆锥。",
+   "options": [
+    "圆柱",
+    "球",
+    "圆锥",
+    "棱锥"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_052_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用笔尖在纸上快速划过会留下一条线，这个现象说明",
+   "explain": "笔尖可以看作一个点，点运动形成线，即“点动成线”。",
+   "options": [
+    "线动成面",
+    "点动成线",
+    "面动成体",
+    "体动成面"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_053_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "关于射线 AB，下列说法正确的是",
+   "explain": "射线 AB 以 A 为端点，经过点 B，向 AB 方向无限延伸，端点字母写在前面。",
+   "options": [
+    "端点是 B，向 BA 方向无限延伸",
+    "端点是 A，向 AB 方向无限延伸",
+    "有 A、B 两个端点",
+    "可以向两个方向无限延伸"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_054_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "为什么木工弹墨线只需固定两点？",
+   "explain": "墨线固定两个点后，经过这两点的直线只有一条，所以位置就确定了，依据是“两点确定一条直线”。",
+   "options": [
+    "垂线段最短",
+    "两点确定一条直线",
+    "两点之间线段最短",
+    "过直线外一点有且只有一条直线与已知直线平行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_054_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列现象中，可以用“两点确定一条直线”解释的是",
+   "explain": "两个钉子相当于两个点，经过两点的直线唯一，所以木条被固定；其余分别是“两点之间线段最短”和“垂线段最短”的应用。",
+   "options": [
+    "用两个钉子把一根木条固定在墙上",
+    "把弯曲的河道改直，缩短航程",
+    "从教室门口走到讲台，沿直线走最近",
+    "测量跳远成绩时，量取落地点到起跳线的垂线段"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_054_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "平面上有不在同一条直线上的 3 个点，经过每两点画一条直线，共可画几条直线？",
+   "explain": "两点确定一条直线，3 个点任取两点有 3 种取法，且这 3 条直线互不相同，共 3 条。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_055_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "点 M 是线段 AB 中点，AB=8，AM 多长？（只填数值）",
+   "explain": "中点把线段分成相等的两段，AM=AB÷2=8÷2=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_055_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "点 C 在线段 AB 上，AC=5 cm，CB=3 cm，则 AB 的长是多少 cm？",
+   "explain": "点 C 在线段 AB 上，AB=AC+CB=5+3=8 cm。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_055_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用叠合法比较线段 AB 与 CD 的长短：使点 A 与点 C 重合，射线 AB 与射线 CD 同向，结果点 B 落在线段 CD 的内部（不与点 D 重合）。则 AB 与 CD 的大小关系是",
+   "explain": "点 B 落在线段 CD 内部，说明 AB 只是 CD 的一部分，所以 AB<CD。",
+   "options": [
+    "AB>CD",
+    "AB<CD",
+    "AB=CD",
+    "无法比较"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_056_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "平角的度数是多少度？",
+   "explain": "射线绕端点旋转，终边与始边成一条直线时形成平角，它是周角 360° 的一半，即 180°。",
+   "answer": 180
+  },
+  {
+   "id": "cnm_056_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "射线 OA 绕端点 O 旋转，当终边第一次与始边成一条直线时，所形成的角叫做",
+   "explain": "终边与始边成一条直线时形成的角是平角（180°）；继续旋转到与始边重合时形成周角。",
+   "options": [
+    "直角",
+    "平角",
+    "周角",
+    "钝角"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_057_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把 35°30′ 化成度。（只填数值，单位：度）",
+   "explain": "因为 1′=1/60°，所以 30′=0.5°，35°30′=35.5°。",
+   "answer": 35.5
+  },
+  {
+   "id": "cnm_057_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "1.25° 等于多少分（′）？",
+   "explain": "1°=60′，所以 1.25°=1.25×60′=75′。",
+   "answer": 75
+  },
+  {
+   "id": "cnm_058_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "OC 平分 ∠AOB=80°，∠AOC 多大？（单位：度，只填数值）",
+   "explain": "角平分线把角分成相等的两部分，∠AOC=80°÷2=40°。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_058_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "∠AOB=30°，∠BOC=45°，射线 OB 在 ∠AOC 的内部，则 ∠AOC 是多少度？",
+   "explain": "射线 OB 在 ∠AOC 内部，∠AOC=∠AOB+∠BOC=30°+45°=75°。",
+   "answer": 75
+  },
+  {
+   "id": "cnm_058_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "OC 是 ∠AOB 的平分线，下列结论中不正确的是",
+   "explain": "平分线把角分成相等的两份，∠AOC=∠BOC=1/2∠AOB，∠AOB=2∠BOC；∠AOC=2∠AOB 错误。",
+   "options": [
+    "∠AOC=∠BOC",
+    "∠AOC=1/2∠AOB",
+    "∠AOB=2∠BOC",
+    "∠AOC=2∠AOB"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_059_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列各组角中，互为余角的是",
+   "explain": "和为 90° 的两个角互为余角，30°+60°=90°；45°+135° 与 100°+80° 都是 180°，互为补角；20°+80°=100°。",
+   "options": [
+    "45° 和 135°",
+    "30° 和 60°",
+    "100° 和 80°",
+    "20° 和 80°"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_060_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "若 ∠1+∠2=90°，∠1+∠3=90°，则 ∠2 与 ∠3 的关系？为什么？",
+   "explain": "∠2 与 ∠3 都是 ∠1 的余角，所以 ∠2=90°-∠1=∠3，依据是“同角的余角相等”。",
+   "options": [
+    "∠2=∠3，因为同角的补角相等",
+    "∠2+∠3=180°，因为互为补角",
+    "∠2=∠3，因为同角的余角相等",
+    "无法确定它们的关系"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_060_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "∠α=∠β，∠α=55°，则 ∠β 的余角是多少度？",
+   "explain": "∠β=∠α=55°，它的余角是 90°-55°=35°（也就是等角的余角相等）。",
+   "answer": 35
+  },
+  {
+   "id": "cnm_061_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "400 m 跑道一圈，直道长 100 m，两个弯道合计长度？（一圈由两段相同的直道和两个相同的弯道组成，每段直道长 100 m；单位：m，只填数值）",
+   "explain": "两段直道共 2×100=200 m，两个弯道合计 400-200=200 m。",
+   "answer": 200
+  },
+  {
+   "id": "cnm_061_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某同学沿 400 m 的环形跑道跑了 3 圈半，一共跑了多少米？",
+   "explain": "3 圈半=3.5 圈，3.5×400=1400 m。",
+   "answer": 1400
+  },
+  {
+   "id": "cnm_050_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个六棱柱共有几个面？（含上、下两个底面）",
+   "explain": "六棱柱有 6 个侧面，再加上、下 2 个底面，共 6+2=8 个面。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_050_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个棱柱共有 21 条棱，这个棱柱是几棱柱？（填数字，如五棱柱填 5）",
+   "explain": "n 棱柱有 3n 条棱（上、下底面各 n 条，侧棱 n 条），3n=21，n=7，是七棱柱。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_051_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列由 6 个相同的小正方形拼成的图形中，不能折叠成正方体的是",
+   "explain": "含有 2×2 田字形的图形不能折成正方体（会有面重叠）；其余三种分别是 3-3 型、2-2-2 型、1-4-1 型，都是正方体的展开图。",
+   "options": [
+    "一行 4 个，其下方再有 2 个，紧贴在这一行最左边两个小正方形的正下方（成田字形）",
+    "第一行 3 个，第二行 3 个，第二行最左边的小正方形紧贴在第一行最右边小正方形的正下方",
+    "三行各 2 个，每行都比上一行向右错开一格，相邻两行恰有一个小正方形上下紧贴",
+    "中间一行 4 个，上面 1 个、下面 1 个，分别紧贴在中间一行某个小正方形的上方和下方"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_051_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "正方体展开图如下：中间一行 4 个小正方形，从左到右依次标有数字 1、2、3、4；标 5 的小正方形紧贴在“2”的正上方，标 6 的小正方形紧贴在“4”的正下方。折成正方体后，与标有 2 的面相对的面上的数字是几？",
+   "explain": "中间一行 4 个面围成一圈，隔一个面相对：1 与 3 相对，2 与 4 相对；5 与 6 相对。所以与 2 相对的是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_052_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列现象中，能说明“面动成体”的是",
+   "explain": "直角三角形是面，旋转后得到立体图形圆锥，是面动成体；雨刷是线动成面，流星、笔尖是点动成线。",
+   "options": [
+    "将一个直角三角形绕直角边旋转一周，形成一个圆锥",
+    "汽车的雨刷在挡风玻璃上扫出一个扇形区域",
+    "流星划过夜空留下一道亮线",
+    "用笔尖在纸上画出一条曲线"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_052_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个长方形的长为 4 cm，宽为 3 cm，绕它的长边所在直线旋转一周得到一个圆柱。取 π=3.14，这个圆柱的体积是多少 cm^3？（结果保留两位小数）",
+   "explain": "绕长边旋转，圆柱的高为 4，底面半径为 3，体积 V=π×3^2×4=36π=36×3.14=113.04。",
+   "answer": 113.04
+  },
+  {
+   "id": "cnm_053_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "直线 l 上依次有 A、B、C、D 四个点，以这些点为端点的线段共有几条？",
+   "explain": "每两个点确定一条线段，共 4×3÷2=6 条：AB、AC、AD、BC、BD、CD。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_053_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列说法正确的是",
+   "explain": "直线 AB 与直线 BA 表示同一条直线；线段 AB 与 BA 是同一条线段；射线 AB 与 BA 端点不同，不是同一条射线；直线无法度量长度。",
+   "options": [
+    "线段 AB 与线段 BA 是不同的线段",
+    "射线 AB 与射线 BA 是同一条射线",
+    "直线可以度量长度",
+    "直线 AB 与直线 BA 是同一条直线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_053_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "平面内有 5 个点，其中任意三点都不在同一条直线上，过其中每两点画一条直线，可以画几条直线？",
+   "explain": "任意三点不共线，则每两点确定一条不同的直线，共 5×4÷2=10 条。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_054_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把弯曲的公路改直，就能缩短路程，其数学依据是",
+   "explain": "弯路改直后，起点和终点之间的路线变成线段，由“两点之间线段最短”可知路程缩短。",
+   "options": [
+    "垂线段最短",
+    "两点确定一条直线",
+    "同角的补角相等",
+    "两点之间线段最短"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_054_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "已知 A、B 两点间的距离为 7 cm，点 C 是平面内任意一点，AC+BC 的最小值是多少 cm？",
+   "explain": "由“两点之间线段最短”，AC+BC≥AB=7 cm，当点 C 在线段 AB 上时取到等号，所以最小值为 7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_055_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "点 M 是线段 AB 的中点，点 N 是线段 AM 的中点，AB=24 cm，求 NB 的长（单位：cm）。",
+   "explain": "AM=12，AN=6，所以 NB=AB-AN=24-6=18 cm。",
+   "answer": 18
+  },
+  {
+   "id": "cnm_056_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "从点 O 引出 4 条射线 OA、OB、OC、OD，它们依次排列，且 ∠AOD 小于平角，则图中小于平角的角共有几个？",
+   "explain": "每两条射线构成一个角，共 4×3÷2=6 个：∠AOB、∠AOC、∠AOD、∠BOC、∠BOD、∠COD。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_056_q5",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列关于角的表示，正确的是",
+   "explain": "用三个大写字母表示角时，顶点字母写在中间，∠AOB 与 ∠BOA 是同一个角；顶点处有多个角时不能只用顶点字母表示；∠1 是用数字表示的角。",
+   "options": [
+    "∠AOB 与 ∠BOA 表示不同的两个角",
+    "无论顶点处有几个角，都可以用 ∠O 表示",
+    "∠1 是用三个大写字母记出的角",
+    "∠AOB 中，中间的字母 O 表示角的顶点"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_057_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "把 18°15′36″ 化成度。（只填数值，单位：度）",
+   "explain": "15′=15/60°=0.25°，36″=36/3600°=0.01°，所以 18°15′36″=18.26°。",
+   "answer": 18.26
+  },
+  {
+   "id": "cnm_058_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "∠AOB=100°，射线 OC 在 ∠AOB 的内部，且 ∠AOC=3∠BOC，则 ∠BOC 是多少度？",
+   "explain": "设 ∠BOC=x，则 ∠AOC=3x，x+3x=100°，解得 x=25°。",
+   "answer": 25
+  },
+  {
+   "id": "cnm_059_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个角的补角是 120°，这个角的余角是多少度？",
+   "explain": "这个角为 180°-120°=60°，它的余角为 90°-60°=30°。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_059_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个角的补角是它的余角的 3 倍，这个角是多少度？",
+   "explain": "设这个角为 x°，则 180-x=3(90-x)，解得 x=45。",
+   "answer": 45
+  },
+  {
+   "id": "cnm_060_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "∠1 与 ∠2 互补，∠3 与 ∠2 互补，∠1=40°，则 ∠3 是多少度？",
+   "explain": "∠2=180°-40°=140°，∠3=180°-140°=40°；也可直接由“同角的补角相等”得 ∠3=∠1=40°。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_060_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列推理中，正确的是",
+   "explain": "∠1、∠3 都是 ∠2 的补角，由“同角的补角相等”得 ∠1=∠3；其他选项中角的和不同或没有共同的（或相等的）角，不能得出结论。",
+   "options": [
+    "因为 ∠1 与 ∠2 互补，∠2 与 ∠3 互补，所以 ∠1=∠3",
+    "因为 ∠1+∠2=90°，∠3+∠4=90°，所以 ∠1=∠3",
+    "因为 ∠1+∠2=90°，∠2+∠3=180°，所以 ∠1=∠3",
+    "因为 ∠1 与 ∠2 互余，∠3 与 ∠4 互补，∠2=∠4，所以 ∠1=∠3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_060_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "∠1+∠2=180°，∠2+∠3=180°，且 ∠1=2x+10°，∠3=3x-20°，求 x 的值。",
+   "explain": "同角的补角相等，所以 ∠1=∠3，即 2x+10=3x-20，解得 x=30。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_061_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某田径场内沿跑道一圈长 400 m，由两段相同的直道（每段 90 m）和两段半圆形弯道组成。取 π=22/7，两个半圆弯道合起来是一个圆，这个圆的直径是多少 m？",
+   "explain": "弯道总长=400-2×90=220 m，即圆周长 πd=220，d=220÷(22/7)=70 m。",
+   "answer": 70
+  },
+  {
+   "id": "cnm_061_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在 400 m 比赛中，各条跑道的起跑线位置不同，外道运动员的起跑线靠前，主要原因是",
+   "explain": "外道弯道的半径更大、弯道更长，为使每个运动员跑的总路程相同，外道的起跑线要适当前移。",
+   "options": [
+    "外道运动员体能更好",
+    "外道的直道更短",
+    "为了使比赛场地更美观",
+    "外道的弯道更长，起跑线前移才能使各道运动员跑的路程相同"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_061_q5",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "设计场地草图时采用比例尺 1:1000，草图上一段直道长 10 cm，则这段直道的实际长度是多少 m？",
+   "explain": "实际长度=10×1000=10000 cm=100 m。",
+   "answer": 100
+  }
+ ]
+}

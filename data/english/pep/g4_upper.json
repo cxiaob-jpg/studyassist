@@ -1,0 +1,2587 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 4,
+ "semester": "upper",
+ "textbook": "人教版PEP（2022课标修订版，三年级起点）",
+ "questions": [
+  {
+   "id": "cne_p080_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「医生」？",
+   "explain": "doctor 的意思是医生。",
+   "options": [
+    "nurse",
+    "doctor",
+    "driver",
+    "farmer"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p080_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「nurse」的中文意思是哪一个？",
+   "explain": "nurse 的意思是护士。",
+   "options": [
+    "医生",
+    "司机",
+    "护士",
+    "农民"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p081_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "问「他的职业是什么」，应选哪一句？",
+   "explain": "询问职业说 What is his job?",
+   "options": [
+    "What is he job?",
+    "Where is his job?",
+    "What is his job?",
+    "Who is his job?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p081_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "He is a doctor. 他的职业是？",
+   "explain": "doctor 是医生。",
+   "options": [
+    "护士",
+    "司机",
+    "农民",
+    "医生"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p082_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说叔叔是农民，应说哪一句？",
+   "explain": "农民是 farmer。",
+   "options": [
+    "My uncle is a doctor.",
+    "My uncle is a nurse.",
+    "My uncle is a driver.",
+    "My uncle is a farmer."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p082_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Is this your baby brother? 这句是在问什么？",
+   "explain": "baby brother 是小弟弟。",
+   "options": [
+    "这是你的小弟弟吗",
+    "这是你的爸爸吗",
+    "这是你的叔叔吗",
+    "这是你的阿姨吗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p083_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：This is my father. He is a doctor. 爸爸的职业是？",
+   "explain": "He is a doctor。",
+   "options": [
+    "医生",
+    "护士",
+    "司机",
+    "农民"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p083_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：My mother is a nurse. My uncle is a driver. 谁是司机？",
+   "explain": "uncle is a driver。",
+   "options": [
+    "妈妈",
+    "叔叔",
+    "爸爸",
+    "阿姨"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p209_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「打扫」？",
+   "explain": "clean 是打扫。",
+   "options": [
+    "clean",
+    "cook",
+    "wash",
+    "sweep"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p209_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "cook 的意思是？",
+   "explain": "cook 是做饭。",
+   "options": [
+    "洗碗",
+    "扫地",
+    "擦桌子",
+    "做饭"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p210_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我可以帮忙做饭」，应选哪一句？",
+   "explain": "帮忙做某事用 I can help + 动词原形。",
+   "options": [
+    "I can help cook.",
+    "I can help cooks.",
+    "I help can cook.",
+    "I am help cook."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p210_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Let me wash the dishes. 这句是在说什么？",
+   "explain": "wash the dishes 是洗碗。",
+   "options": [
+    "让我来扫地",
+    "让我来做饭",
+    "请你洗碗",
+    "让我来洗碗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p211_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：My dad can cook. My mum can clean. 谁会做饭？",
+   "explain": "dad can cook。",
+   "options": [
+    "爸爸",
+    "妈妈",
+    "我",
+    "哥哥"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p211_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I help wash the dishes every day. 我每天做什么？",
+   "explain": "wash the dishes 是洗碗。",
+   "options": [
+    "扫地",
+    "做饭",
+    "擦桌子",
+    "洗碗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p080_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「司机」的单词。",
+   "explain": "表示司机的单词是 driver。",
+   "options": [
+    "doctor",
+    "nurse",
+    "farmer",
+    "driver"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p080_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「农民」？",
+   "explain": "farmer 的意思是农民。",
+   "options": [
+    "farmer",
+    "doctor",
+    "nurse",
+    "driver"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p081_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "My father is a driver. 爸爸的职业是？",
+   "explain": "driver 是司机。",
+   "options": [
+    "司机",
+    "医生",
+    "护士",
+    "农民"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p081_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「她的妈妈是护士」？",
+   "explain": "她的用 Her，护士是 nurse。",
+   "options": [
+    "His mother is a nurse.",
+    "Her mother is a nurse.",
+    "Her mother is a doctor.",
+    "His father is a nurse."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p082_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "She is a nurse. 哪一句和这句话意思相同？",
+   "explain": "She 是她，nurse 是护士。",
+   "options": [
+    "她是医生。",
+    "她是护士。",
+    "他是护士。",
+    "她是司机。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p082_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What is your aunt's job? 这句是在问什么？",
+   "explain": "aunt 是姑姑或阿姨，job 是职业。",
+   "options": [
+    "你爸爸做什么工作",
+    "你妈妈在哪里",
+    "你姑姑或阿姨做什么工作",
+    "你几岁了"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p083_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：She is a farmer. 哪一句和文字一致？",
+   "explain": "She 是她，farmer 是农民。",
+   "options": [
+    "他是农民。",
+    "她是医生。",
+    "她是农民。",
+    "她是护士。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p083_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：His father is a doctor. Her mother is a teacher. 谁的爸爸是医生？",
+   "explain": "His father 是他的爸爸。",
+   "options": [
+    "她的爸爸",
+    "他的妈妈",
+    "她的妈妈",
+    "他的爸爸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p209_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「洗碗」用哪个词最合适？",
+   "explain": "wash the dishes 是洗碗。",
+   "options": [
+    "sweep",
+    "make",
+    "wash",
+    "cook"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p209_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "sweep the floor 是在做什么？",
+   "explain": "sweep the floor 是扫地。",
+   "options": [
+    "擦桌子",
+    "扫地",
+    "做饭",
+    "洗碗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p210_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示主动帮忙打扫？",
+   "explain": "help 后用动词原形 clean。",
+   "options": [
+    "I helps clean.",
+    "Can I helping clean?",
+    "I can help clean.",
+    "I can help cooking."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p210_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Mum is busy. I can ____. 横线上最合适的是？",
+   "explain": "can 后用动词原形 help。",
+   "options": [
+    "to help she",
+    "help her",
+    "helps her",
+    "helping her"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p211_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：We are a happy family. Dad cooks. Mum cleans. I sweep. 哪一句和短文一致？",
+   "explain": "I sweep 是扫地。",
+   "options": [
+    "爸爸扫地。",
+    "我不帮忙。",
+    "我扫地。",
+    "妈妈做饭。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p211_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy helps her family. She can cook and wash. 艾米会做什么？",
+   "explain": "cook and wash。",
+   "options": [
+    "只擦桌子",
+    "做饭和洗碗",
+    "只做饭",
+    "只扫地"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p067_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「朋友」？",
+   "explain": "friend 的意思是朋友。",
+   "options": [
+    "friend",
+    "strong",
+    "quiet",
+    "friendly"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p067_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「strong」的中文意思是哪一个？",
+   "explain": "strong 的意思是强壮的。",
+   "options": [
+    "朋友",
+    "强壮的",
+    "安静的",
+    "友好的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p068_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "He ____ a new pen. 横线上应填哪个词？",
+   "explain": "He 后面用 has。",
+   "options": [
+    "have",
+    "has",
+    "is",
+    "are"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p068_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句是正确的？",
+   "explain": "She 后面用 has。",
+   "options": [
+    "She have a bag.",
+    "She has are a bag.",
+    "She has a bag.",
+    "She having a bag."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p069_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "介绍一个强壮的朋友，应说哪一句？",
+   "explain": "强壮是 strong。",
+   "options": [
+    "He is quiet.",
+    "He is friendly.",
+    "He is strong.",
+    "He is tall."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p069_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "She is friendly. 她怎么样？",
+   "explain": "friendly 是友好的。",
+   "options": [
+    "很安静",
+    "很强壮",
+    "很矮",
+    "很友好"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p070_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I have a friend. He is strong. His name is John. 朋友叫什么？",
+   "explain": "His name is John。",
+   "options": [
+    "Mike",
+    "Amy",
+    "Sarah",
+    "John"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p070_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：She is quiet and friendly. 哪一句和短文一致？",
+   "explain": "quiet and friendly，主语是 She。",
+   "options": [
+    "她安静而且友好。",
+    "她强壮而且高。",
+    "她不友好。",
+    "他很安静。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p212_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「友好善良的」？",
+   "explain": "kind 是善良友好的。",
+   "options": [
+    "kind",
+    "funny",
+    "tall",
+    "quiet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p212_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "helpful 的意思是？",
+   "explain": "helpful 是乐于助人。",
+   "options": [
+    "有趣的",
+    "诚实的",
+    "安静的",
+    "乐于助人的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p213_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「她乐于助人」，应选哪一句？",
+   "explain": "She is + 形容词。",
+   "options": [
+    "She is helpful.",
+    "She is help.",
+    "She helpful is.",
+    "She are helpful."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p213_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I choose him because he is kind. 我选他的原因是？",
+   "explain": "because he is kind。",
+   "options": [
+    "他很高",
+    "他很安静",
+    "他有眼镜",
+    "他善良"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p067_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「安静的」的单词。",
+   "explain": "表示安静的的单词是 quiet。",
+   "options": [
+    "friend",
+    "strong",
+    "quiet",
+    "friendly"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p067_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「友好的」？",
+   "explain": "friendly 的意思是友好的。",
+   "options": [
+    "friend",
+    "strong",
+    "quiet",
+    "friendly"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p068_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I ____ a ruler. 横线上应填哪个词？",
+   "explain": "I 后面用 have。",
+   "options": [
+    "has",
+    "am",
+    "is",
+    "have"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p068_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "He has glasses. 这句的意思是？",
+   "explain": "has glasses 是有眼镜。",
+   "options": [
+    "他有眼镜",
+    "他没有眼镜",
+    "他是眼镜",
+    "眼镜有他"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p069_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What is his name? 这句是在问什么？",
+   "explain": "What is his name 问名字。",
+   "options": [
+    "他叫什么名字",
+    "他在哪里",
+    "他有什么",
+    "他来自哪里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p069_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "My friend is quiet. 哪一句和这句话意思相同？",
+   "explain": "quiet 是安静的。",
+   "options": [
+    "我的朋友很强壮。",
+    "我的朋友很安静。",
+    "我的朋友很友好。",
+    "我的朋友很高。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p070_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：He has a blue bag. 他有什么？",
+   "explain": "a blue bag。",
+   "options": [
+    "一个红色的包",
+    "一个蓝色的包",
+    "一副眼镜",
+    "一把尺子"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p070_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：My friend is Amy. She has long hair. 谁留着长头发？",
+   "explain": "Amy 是朋友，She has long hair。",
+   "options": [
+    "John",
+    "Mike",
+    "Amy",
+    "Chen Jie"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p212_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「有趣的」用哪个词？",
+   "explain": "funny 是有趣的。",
+   "options": [
+    "honest",
+    "helpful",
+    "funny",
+    "kind"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p212_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "He is honest. 他怎么样？",
+   "explain": "honest 是诚实。",
+   "options": [
+    "安静",
+    "诚实",
+    "有趣",
+    "强壮"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p213_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句适合写进朋友小书？",
+   "explain": "用 is 连接品质词。",
+   "options": [
+    "My friend are funny.",
+    "Friend my is kind.",
+    "My friend is funny and kind.",
+    "My friend is a book."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p213_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "She is honest and helpful. 哪一句意思相同？",
+   "explain": "honest and helpful，主语 She。",
+   "options": [
+    "他诚实。",
+    "她诚实而且乐于助人。",
+    "她有趣而且安静。",
+    "她强壮而且高。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p072_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「卧室」？",
+   "explain": "bedroom 的意思是卧室。",
+   "options": [
+    "kitchen",
+    "bedroom",
+    "bathroom",
+    "study"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p072_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「kitchen」的中文意思是哪一个？",
+   "explain": "kitchen 的意思是厨房。",
+   "options": [
+    "卧室",
+    "卫生间",
+    "厨房",
+    "书房"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p073_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "She ____ in the kitchen. 横线上应填哪个词？",
+   "explain": "She 和 is 搭配。",
+   "options": [
+    "am",
+    "are",
+    "is",
+    "be"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p073_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「他在书房」？",
+   "explain": "He 后面用 is。",
+   "options": [
+    "He are in the study.",
+    "He am in the study.",
+    "He be in the study.",
+    "He is in the study."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p074_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问妈妈在哪里，应说哪一句？",
+   "explain": "问位置用 Where is。",
+   "options": [
+    "Who is my mother?",
+    "What is my mother?",
+    "How is my mother?",
+    "Where is my mother?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p074_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "She is in the kitchen. 她在哪里？",
+   "explain": "kitchen 是厨房。",
+   "options": [
+    "厨房",
+    "卧室",
+    "卫生间",
+    "书房"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p075_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：My father is in the study. My mother is in the kitchen. 爸爸在哪里？",
+   "explain": "father is in the study。",
+   "options": [
+    "书房",
+    "厨房",
+    "卧室",
+    "卫生间"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p075_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：The cat is in the bedroom. 哪一句和文字一致？",
+   "explain": "bedroom 是卧室。",
+   "options": [
+    "猫在厨房。",
+    "猫在卧室。",
+    "猫在书房。",
+    "妈妈在卧室。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p214_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「医院」？",
+   "explain": "hospital 是医院。",
+   "options": [
+    "hospital",
+    "park",
+    "shop",
+    "library"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p214_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "library 的意思是？",
+   "explain": "library 是图书馆。",
+   "options": [
+    "公园",
+    "商店",
+    "学校",
+    "图书馆"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p215_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在图书馆人们常常做什么？",
+   "explain": "图书馆读书。",
+   "options": [
+    "read books",
+    "see a doctor",
+    "buy food",
+    "play football"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p215_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "People see a doctor in the hospital. 人们在哪里看病？",
+   "explain": "hospital 是医院。",
+   "options": [
+    "公园",
+    "商店",
+    "图书馆",
+    "医院"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p072_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「卫生间」的单词。",
+   "explain": "表示卫生间的单词是 bathroom。",
+   "options": [
+    "bedroom",
+    "kitchen",
+    "study",
+    "bathroom"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p072_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「书房」？",
+   "explain": "study 的意思是书房。",
+   "options": [
+    "study",
+    "bedroom",
+    "kitchen",
+    "bathroom"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p073_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Where is she? 这句是在问什么？",
+   "explain": "Where is she 问地点。",
+   "options": [
+    "她在哪里",
+    "她是谁",
+    "她喜欢什么",
+    "她有什么"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p073_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "They ____ in the bedroom. 横线上应填哪个词？",
+   "explain": "They 和 are 搭配。",
+   "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p074_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Go to the bathroom. 这句是让人去哪里？",
+   "explain": "bathroom 是卫生间。",
+   "options": [
+    "书房",
+    "卫生间",
+    "厨房",
+    "卧室"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p074_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Is she in the study? 这句是在问什么？",
+   "explain": "study 是书房。",
+   "options": [
+    "她在厨房吗",
+    "书房是谁的",
+    "她在书房吗",
+    "书房有多大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p075_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Where is Amy? She is in the bathroom. Amy 在哪里？",
+   "explain": "bathroom 是卫生间。",
+   "options": [
+    "书房",
+    "厨房",
+    "卫生间",
+    "卧室"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p075_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：They are in the living room. 这句说他们在客厅。哪一个词是「他们」？",
+   "explain": "They 表示他们。",
+   "options": [
+    "She",
+    "He",
+    "It",
+    "They"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p214_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「公园」用哪个词？",
+   "explain": "park 是公园。",
+   "options": [
+    "hospital",
+    "zoo",
+    "park",
+    "shop"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p214_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We can buy things in a ____.",
+   "explain": "商店是 shop。",
+   "options": [
+    "library",
+    "shop",
+    "park",
+    "hospital"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p215_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句和「在公园玩耍」意思相同？",
+   "explain": "play in the park。",
+   "options": [
+    "People read in the park.",
+    "People cook in the park.",
+    "People play in the park.",
+    "People play in the shop."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p215_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We buy fruit in the shop. 我们在商店做什么？",
+   "explain": "buy fruit 是买水果。",
+   "options": [
+    "踢球",
+    "买水果",
+    "看病",
+    "读书"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p084_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「学校」？",
+   "explain": "school 的意思是学校。",
+   "options": [
+    "playground",
+    "school",
+    "library",
+    "computer"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p084_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「playground」的中文意思是哪一个？",
+   "explain": "playground 的意思是操场。",
+   "options": [
+    "学校",
+    "图书馆",
+    "操场",
+    "计算机"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p085_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "The library is on the second floor. 图书馆在第几层？",
+   "explain": "second 是第二，所以是第 2 层。",
+   "answer": 2
+  },
+  {
+   "id": "cne_p085_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "first floor 是第几层？",
+   "explain": "first 是第一。",
+   "options": [
+    "第 2 层",
+    "第 3 层",
+    "第 4 层",
+    "第 1 层"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p086_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问图书馆在哪里，应说哪一句？",
+   "explain": "图书馆是 library。",
+   "options": [
+    "Where is the playground?",
+    "Where is the classroom?",
+    "Do you have a library?",
+    "Where is the library?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p086_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The playground is on the first floor. 操场在第几层？",
+   "explain": "first floor 是第一层。",
+   "options": [
+    "第 1 层",
+    "第 2 层",
+    "第 3 层",
+    "第 4 层"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p087_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：The library is on the second floor. 图书馆在第几层？",
+   "explain": "second floor 是第二层。",
+   "options": [
+    "第 2 层",
+    "第 1 层",
+    "第 3 层",
+    "第 4 层"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p087_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：We have a big playground. 哪一句和短文一致？",
+   "explain": "a big playground。",
+   "options": [
+    "我们没有操场。",
+    "我们有一个大操场。",
+    "图书馆很大。",
+    "操场在第二层。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p216_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说「我们可以帮助打扫公园」，应选哪一句？",
+   "explain": "can help + 动词原形。",
+   "options": [
+    "We can help clean the park.",
+    "We can help cleans the park.",
+    "We help can clean the park.",
+    "We are help the park."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p216_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We can help at the library. 这句是在说什么？",
+   "explain": "at the library。",
+   "options": [
+    "我们可以在医院帮忙",
+    "我们在商店买书",
+    "我们打扫公园",
+    "我们可以在图书馆帮忙"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p217_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Miss White is a school helper. She helps in the library. 怀特老师在哪里帮忙？",
+   "explain": "in the library。",
+   "options": [
+    "图书馆",
+    "医院",
+    "公园",
+    "商店"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p217_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Tom helps clean the playground. 汤姆帮忙做什么？",
+   "explain": "clean the playground。",
+   "options": [
+    "做饭",
+    "买东西",
+    "看病",
+    "打扫操场"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p084_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「图书馆」的单词。",
+   "explain": "表示图书馆的单词是 library。",
+   "options": [
+    "school",
+    "playground",
+    "computer",
+    "library"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p084_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「计算机」？",
+   "explain": "computer 的意思是计算机。",
+   "options": [
+    "computer",
+    "school",
+    "playground",
+    "library"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p085_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想问「教师办公室在哪里」，应选哪一句？",
+   "explain": "问地点用 Where is。",
+   "options": [
+    "Where is the teachers' office?",
+    "What is the teachers' office?",
+    "Who is the teachers' office?",
+    "How is the teachers' office?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p085_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is on the first floor. 这句是在说什么？",
+   "explain": "first floor 是第一层。",
+   "options": [
+    "在第二层",
+    "在第一层",
+    "在操场上",
+    "在图书馆里"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p086_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Do you have a computer room? 这句是在问什么？",
+   "explain": "Do you have 问有没有。",
+   "options": [
+    "计算机教室在哪里",
+    "你们有计算机教室吗",
+    "你喜欢计算机吗",
+    "计算机是谁的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p086_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "This is my school. 哪一句和这句话意思相同？",
+   "explain": "school 是学校。",
+   "options": [
+    "这是我的教室。",
+    "这是图书馆。",
+    "这是我的学校。",
+    "这是操场。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p087_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：The computer room is next to the library. 计算机教室在哪里？",
+   "explain": "next to the library 是在图书馆旁边。文字没有写楼层。",
+   "options": [
+    "在操场上",
+    "在教室里",
+    "在图书馆旁边",
+    "在第一层的门后"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p087_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Classroom 2 is on the first floor. 二班教室在第几层？",
+   "explain": "on the first floor；2 是教室编号，不是楼层。",
+   "options": [
+    "第 2 层",
+    "第 3 层",
+    "第 4 层",
+    "第 1 层"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p216_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示帮助社区？",
+   "explain": "help old people。",
+   "options": [
+    "We helps old people.",
+    "Can we helping?",
+    "We can help old people.",
+    "We can help cooks."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p216_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Young people can ____ in the community.",
+   "explain": "can 后用动词原形。",
+   "options": [
+    "to help",
+    "help",
+    "helps",
+    "helping"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p217_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Our school helpers are kind. They help teachers and students. 哪一句和短文一致？",
+   "explain": "helpers are kind。",
+   "options": [
+    "老师不需要帮手。",
+    "学生不能帮忙。",
+    "学校帮手很善良。",
+    "学校帮手不帮忙。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p217_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy is a helper. She can help at the school gate. 艾米在哪里帮忙？",
+   "explain": "at the school gate。",
+   "options": [
+    "食堂",
+    "校门口",
+    "图书馆",
+    "教室"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p092_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「温暖的」？",
+   "explain": "warm 的意思是温暖的。",
+   "options": [
+    "cold",
+    "warm",
+    "cool",
+    "hot"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p092_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「cold」的中文意思是哪一个？",
+   "explain": "cold 的意思是寒冷的。",
+   "options": [
+    "温暖的",
+    "凉爽的",
+    "寒冷的",
+    "炎热的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p093_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问天气，应选哪一句？",
+   "explain": "问天气说 What is the weather like?",
+   "options": [
+    "What is the weather is?",
+    "How the weather like?",
+    "What is the weather like?",
+    "Where is the weather?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p093_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is cold. 天气怎么样？",
+   "explain": "cold 是冷。",
+   "options": [
+    "很热",
+    "很暖和",
+    "很凉爽",
+    "很冷"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p094_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "外面很冷，应说哪一句？",
+   "explain": "冷是 cold。",
+   "options": [
+    "It is hot outside.",
+    "It is warm outside.",
+    "It is cool outside.",
+    "It is cold outside."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p094_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is warm. We can fly a kite. 为什么可以放风筝？",
+   "explain": "It is warm 是天气暖和。",
+   "options": [
+    "因为天气暖和",
+    "因为很冷",
+    "因为在下雨",
+    "因为是夜晚"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p095_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：It is cold and snowy in Harbin. 哈尔滨的天气怎么样？",
+   "explain": "cold and snowy。",
+   "options": [
+    "又冷又下雪",
+    "很热",
+    "很暖和",
+    "只是有风"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p095_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：It is sunny in Beijing. It is rainy in Shanghai. 哪里下雨？",
+   "explain": "rainy 写在 Shanghai。",
+   "options": [
+    "北京",
+    "上海",
+    "哈尔滨",
+    "两个城市都下雨"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p218_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下雨天适合做什么？",
+   "explain": "rainy → stay inside。",
+   "options": [
+    "stay inside",
+    "fly a kite",
+    "have a picnic",
+    "swim outside"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p218_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It's sunny. We can ____.",
+   "explain": "晴天可 outdoors 玩。",
+   "options": [
+    "stay in bed all day",
+    "take an umbrella only",
+    "close all windows forever",
+    "play outside"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p219_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Rainy day! Take an umbrella. 下雨天要带什么？",
+   "explain": "umbrella 是雨伞。",
+   "options": [
+    "雨伞",
+    "太阳镜",
+    "风筝",
+    "雪人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p219_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Windy! Don't fly a kite near the road. 大风天不要做什么？",
+   "explain": "Don't fly a kite near the road。",
+   "options": [
+    "待在家里",
+    "带雨伞",
+    "穿外套",
+    "在路边放风筝"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p092_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「凉爽的」的单词。",
+   "explain": "表示凉爽的的单词是 cool。",
+   "options": [
+    "warm",
+    "cold",
+    "hot",
+    "cool"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p092_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「炎热的」？",
+   "explain": "hot 的意思是炎热的。",
+   "options": [
+    "hot",
+    "warm",
+    "cold",
+    "cool"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p093_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is sunny in Beijing. 北京的天气怎么样？",
+   "explain": "sunny 是晴朗。",
+   "options": [
+    "晴朗",
+    "下雨",
+    "下雪",
+    "有风"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p093_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示「今天很热」？",
+   "explain": "热是 hot。",
+   "options": [
+    "It is cold today.",
+    "It is hot today.",
+    "It is cool today.",
+    "It is warm today."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p094_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Can I go outside? 这句是在问什么？",
+   "explain": "go outside 是出去。",
+   "options": [
+    "天气怎么样",
+    "我可以出去吗",
+    "现在几点",
+    "你喜欢冷天吗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p094_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is hot. Have some water. 这句建议做什么？",
+   "explain": "Have some water 是喝些水。",
+   "options": [
+    "穿上外套",
+    "放风筝",
+    "喝些水",
+    "关窗"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p095_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：It is warm today. Let's fly a kite. 哪一句和短文一致？",
+   "explain": "warm，并且 Let's fly a kite。",
+   "options": [
+    "今天很冷。",
+    "今天在下雨。",
+    "今天暖和，建议放风筝。",
+    "不建议出去。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p095_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Here is the world weather. It is cool in London. 伦敦怎么样？",
+   "explain": "cool 是凉爽。",
+   "options": [
+    "炎热",
+    "寒冷",
+    "下雪",
+    "凉爽"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p218_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句适合大风天？",
+   "explain": "大风不宜放风筝。",
+   "options": [
+    "Let's go swimming outside.",
+    "Open all the windows.",
+    "Don't fly a kite.",
+    "Let's have a picnic."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p218_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It's snowy. We can make a snowman. 天气怎么样？",
+   "explain": "snowy 是下雪。",
+   "options": [
+    "多云",
+    "下雪",
+    "下雨",
+    "晴天"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p219_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Hot day! Drink water. Wear a hat. 哪一句和提醒一致？",
+   "explain": "Drink water. Wear a hat。",
+   "options": [
+    "要关窗睡觉。",
+    "不要喝水。",
+    "要喝水、戴帽子。",
+    "要放风筝。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p219_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Snowy! Put on a coat. 下雪天要穿什么？",
+   "explain": "coat 是外套。",
+   "options": [
+    "雨伞",
+    "外套",
+    "短裤",
+    "凉鞋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p100_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「衬衫」？",
+   "explain": "shirt 的意思是衬衫。",
+   "options": [
+    "dress",
+    "shirt",
+    "skirt",
+    "pants"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p100_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「dress」的中文意思是哪一个？",
+   "explain": "dress 的意思是连衣裙。",
+   "options": [
+    "衬衫",
+    "裙子",
+    "连衣裙",
+    "裤子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p101_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "问「这是谁的帽子」，应选哪一句？",
+   "explain": "问属于谁用 Whose。",
+   "options": [
+    "Who hat is this?",
+    "Where hat is this?",
+    "Whose hat is this?",
+    "What hat is this?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p101_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is Amy's dress. 裙子是谁的？",
+   "explain": "Amy's 表示 Amy 的。",
+   "options": [
+    "Mike 的",
+    "老师的",
+    "我的",
+    "Amy 的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p102_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说自己喜欢这条裙子，应说哪一句？",
+   "explain": "裙子是 skirt。",
+   "options": [
+    "I like this shirt.",
+    "I like this dress.",
+    "I like these pants.",
+    "I like this skirt."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p102_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Whose shirt is this? 若是 Mike 的，应回答哪一句？",
+   "explain": "Mike 的要说 Mike's。",
+   "options": [
+    "It is Mike's.",
+    "It is Amy's.",
+    "It is Sarah's.",
+    "It is Chen Jie's."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p103_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：This is Amy's dress. It is red. 连衣裙是谁的？",
+   "explain": "Amy's dress。",
+   "options": [
+    "Amy 的",
+    "Mike 的",
+    "John 的",
+    "Sarah 的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p103_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Whose pants are these? They are Zhang Peng's. 裤子是谁的？",
+   "explain": "回答是 Zhang Peng's。",
+   "options": [
+    "Amy 的",
+    "Zhang Peng 的",
+    "Chen Jie 的",
+    "老师的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p220_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「堆雪人」用哪一组词？",
+   "explain": "make a snowman 是堆雪人。",
+   "options": [
+    "make a snowman",
+    "fly a kite",
+    "go swimming",
+    "pick apples"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p220_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "fly a kite 的意思是？",
+   "explain": "fly a kite 是放风筝。",
+   "options": [
+    "游泳",
+    "堆雪人",
+    "摘苹果",
+    "放风筝"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p221_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Season: summer. Wear: T-shirt. Do: swim. 卡片里的季节是？",
+   "explain": "summer 是夏天。",
+   "options": [
+    "夏天",
+    "冬天",
+    "秋天",
+    "春天"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p221_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Season: winter. Wear: coat. Do: make a snowman. 冬天做什么？",
+   "explain": "make a snowman。",
+   "options": [
+    "游泳",
+    "放风筝",
+    "摘苹果",
+    "堆雪人"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p100_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「裙子」的单词。",
+   "explain": "表示裙子的单词是 skirt。",
+   "options": [
+    "shirt",
+    "dress",
+    "pants",
+    "skirt"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p100_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「裤子」？",
+   "explain": "pants 的意思是裤子。",
+   "options": [
+    "pants",
+    "shirt",
+    "dress",
+    "skirt"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p101_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Whose pants are these? 这句是在问什么？",
+   "explain": "Whose pants 问裤子是谁的。",
+   "options": [
+    "这条裤子是谁的",
+    "裤子是什么颜色",
+    "裤子多少钱",
+    "裤子在哪里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p101_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "This is Chen Jie's skirt. 裙子是谁的？",
+   "explain": "Chen Jie's 表示 Chen Jie 的。",
+   "options": [
+    "Amy 的",
+    "Chen Jie 的",
+    "John 的",
+    "Sarah 的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p102_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "These pants are Zhang Peng's. 裤子是谁的？",
+   "explain": "Zhang Peng's 是 Zhang Peng 的。",
+   "options": [
+    "Amy 的",
+    "Zhang Peng 的",
+    "Sarah 的",
+    "John 的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p102_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Put on your shirt. 这句是在说什么？",
+   "explain": "Put on your shirt 是穿上衬衫。",
+   "options": [
+    "脱下你的裙子",
+    "这是谁的裤子",
+    "穿上你的衬衫",
+    "我喜欢这条连衣裙"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p103_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：I like that green skirt. 喜欢的裙子是什么颜色？",
+   "explain": "green skirt。",
+   "options": [
+    "红色",
+    "蓝色",
+    "绿色",
+    "黄色"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p103_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：My shirt is white. Sarah's shirt is blue. 谁的衬衫是蓝色的？",
+   "explain": "Sarah's shirt is blue。",
+   "options": [
+    "我的",
+    "Amy 的",
+    "Mike 的",
+    "Sarah 的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p220_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "夏天常做的活动是？",
+   "explain": "夏天常游泳。",
+   "options": [
+    "wear a thick coat",
+    "skate on ice",
+    "go swimming",
+    "make a snowman"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p220_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "pick apples 多在哪个季节？",
+   "explain": "摘苹果多在秋天。",
+   "options": [
+    "夏天只游泳",
+    "秋天",
+    "冬天",
+    "春天只放风筝"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p221_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Spring trip. Wear a sweater. Fly a kite. 哪一句和卡片一致？",
+   "explain": "Fly a kite。",
+   "options": [
+    "春天去游泳。",
+    "春天摘苹果。",
+    "春天可以放风筝。",
+    "春天要穿大衣堆雪人。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p221_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Autumn. Wear a jacket. Pick apples. 穿着是什么？",
+   "explain": "jacket 是夹克。",
+   "options": [
+    "泳装",
+    "夹克",
+    "T 恤",
+    "大衣"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p222_q1",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：I help at home. I clean. I help in the park too. 我在哪里帮忙？",
+   "explain": "at home … in the park too。",
+   "options": [
+    "家里和公园",
+    "只在家里",
+    "只在公园",
+    "在医院"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p222_q2",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "读一读：Let's help! We can help our family and community. 短文号召做什么？",
+   "explain": "Let's help。",
+   "options": [
+    "一起购物",
+    "一起睡觉",
+    "一起吵架",
+    "一起帮忙"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p222_q3",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：Amy is kind. She helps her mum cook. She helps at school too. 哪一句一致？",
+   "explain": "helps mum … helps at school too。",
+   "options": [
+    "艾米只在商店帮忙。",
+    "艾米不会做饭。",
+    "艾米在家和学校都帮忙。",
+    "艾米不帮忙。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p222_q4",
+   "unit": "urNone",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "读一读：We help old people in our community. 我们帮助谁？",
+   "explain": "old people in our community。",
+   "options": [
+    "动物",
+    "社区里的老人",
+    "只有老师",
+    "只有同学"
+   ],
+   "answer": 2
+  }
+ ]
+}

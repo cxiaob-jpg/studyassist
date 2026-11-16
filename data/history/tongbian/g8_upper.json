@@ -1,0 +1,1505 @@
+{
+ "schema_version": 1,
+ "subject": "history",
+ "grade": 8,
+ "semester": "upper",
+ "textbook": "统编版（初中历史）",
+ "questions": [
+  {
+   "id": "cnh_j044_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1839年在虎门销毁鸦片的是？",
+   "explain": "林则徐主持虎门销烟。",
+   "options": [
+    "魏源",
+    "林则徐",
+    "关天培",
+    "邓世昌"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j044_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "鸦片战争爆发于？",
+   "explain": "英国于1840年发动鸦片战争。",
+   "options": [
+    "1839年",
+    "1856年",
+    "1840年",
+    "1894年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j045_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1856年到1860年发动第二次鸦片战争的主要国家是？",
+   "explain": "英法是主凶，美俄是帮凶。",
+   "options": [
+    "美国和日本",
+    "德国和意大利",
+    "英国和法国",
+    "俄国单独一国"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j045_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1860年被英法联军焚毁的皇家园林是？",
+   "explain": "英法联军攻入北京，火烧圆明园。",
+   "options": [
+    "颐和园",
+    "避暑山庄",
+    "拙政园",
+    "圆明园"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j046_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1851年洪秀全在哪里发动起义？",
+   "explain": "金田起义标志太平天国运动爆发。",
+   "options": [
+    "天京",
+    "永安",
+    "大泽乡",
+    "金田"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j046_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1853年太平天国定都，并把南京改称？",
+   "explain": "太平军占领南京后定都，改名天京。",
+   "options": [
+    "天京",
+    "北京",
+    "东京",
+    "西京"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j044_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1842年《南京条约》割让给英国的是？",
+   "explain": "《南京条约》把香港岛割让给英国。",
+   "options": [
+    "台湾岛",
+    "九龙司",
+    "澳门",
+    "香港岛"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j045_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《北京条约》增开的商埠是？",
+   "explain": "1860年《北京条约》增开天津为商埠。",
+   "options": [
+    "天津",
+    "香港岛",
+    "上海",
+    "广州"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j046_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1856年太平天国领导集团的内讧称为？",
+   "explain": "天京事变使太平天国由盛转衰。",
+   "options": [
+    "戊戌政变",
+    "天京事变",
+    "西安事变",
+    "陈桥兵变"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j044_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "《南京条约》开放的通商口岸是？",
+   "explain": "这五个口岸习惯称为五口通商。天津是后来的条约口岸。",
+   "options": [
+    "广州、厦门、福州、宁波、上海",
+    "天津、南京、镇江、汉口、九江",
+    "苏州、杭州、沙市、重庆",
+    "旅顺、大连、威海卫"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j045_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "第二次鸦片战争期间，侵占中国北方大片领土的是？",
+   "explain": "沙俄借机强迫清政府签订一系列条约，割占北方领土。",
+   "options": [
+    "日本",
+    "俄国",
+    "德国",
+    "意大利"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j046_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1864年太平天国失败的标志是？",
+   "explain": "湘军攻破天京，太平天国运动失败。",
+   "options": [
+    "金田起义",
+    "北伐失败只是前期挫折",
+    "天京陷落",
+    "天京事变"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j047_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "洋务派前期提出的口号是？",
+   "explain": "前期以自强为口号，创办军事工业。",
+   "options": [
+    "自强",
+    "求富是后期口号",
+    "民主",
+    "扶清灭洋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j047_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "李鸿章在上海创办的军事企业是？",
+   "explain": "江南制造总局是规模最大的近代军事企业之一。",
+   "options": [
+    "福州船政局",
+    "江南制造总局",
+    "汉阳铁厂",
+    "轮船招商局"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j048_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "甲午中日战争爆发于？",
+   "explain": "1894年日本挑起甲午中日战争。",
+   "options": [
+    "1840年",
+    "1894年",
+    "1898年",
+    "1900年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j048_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "黄海海战中率致远舰撞向敌舰的是？",
+   "explain": "邓世昌指挥致远舰，与舰同沉。丁汝昌是北洋海军提督。",
+   "options": [
+    "林则徐",
+    "左宝贵",
+    "邓世昌",
+    "丁汝昌"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j049_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1895年康有为、梁启超领导的上书是？",
+   "explain": "公车上书反对签订《马关条约》。百日维新是1898年的变法。",
+   "options": [
+    "虎门销烟",
+    "百日维新",
+    "公车上书",
+    "戊戌政变"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j049_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "戊戌变法期间支持变法的皇帝是？",
+   "explain": "光绪帝颁布一系列变法诏令。",
+   "options": [
+    "道光帝",
+    "咸丰帝",
+    "宣统帝",
+    "光绪帝"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j050_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1900年侵华的八国联军以哪国军官为统帅？",
+   "explain": "瓦德西担任联军统帅，八国包括英、美、俄、日、法、德、意、奥。",
+   "options": [
+    "日本单独一国",
+    "美国单独一国",
+    "俄国单独一国",
+    "德国"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j050_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1901年清政府与十一国签订的条约是？",
+   "explain": "《辛丑条约》是中国近代赔款数目最庞大的不平等条约。",
+   "options": [
+    "《辛丑条约》",
+    "《南京条约》",
+    "《马关条约》",
+    "《北京条约》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j047_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "洋务派创办的民用企业中，经营航运的是？",
+   "explain": "轮船招商局是洋务派的民用航运企业。",
+   "options": [
+    "开平煤矿",
+    "湖北织布局",
+    "轮船招商局",
+    "安庆内军械所"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j048_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1895年《马关条约》割让的中国领土包括？",
+   "explain": "《马关条约》把这些地方割让给日本。",
+   "options": [
+    "香港岛",
+    "九龙司地方一区",
+    "外兴安岭以南",
+    "辽东半岛、台湾全岛及所有附属各岛屿、澎湖列岛"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j049_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1898年变法从开始到失败大约一百天，又称？",
+   "explain": "6月11日光绪帝颁布明定国是诏书，9月政变发生。",
+   "options": [
+    "百日维新",
+    "洋务运动",
+    "辛亥革命",
+    "新文化运动"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j050_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《辛丑条约》规定的赔款是？",
+   "explain": "4.5亿两分39年还清，本息合计白银9.8亿两。",
+   "options": [
+    "2100万银元",
+    "白银4.5亿两",
+    "白银2亿两",
+    "白银200万两"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j047_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1884年清政府在新疆建省，与此直接相关的是？",
+   "explain": "左宗棠收复新疆后，1884年新疆建立行省。",
+   "options": [
+    "邓世昌黄海大战",
+    "戊戌变法",
+    "义和团运动",
+    "左宗棠收复新疆"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j048_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "《马关条约》允许日本在中国通商口岸？",
+   "explain": "允许日本在通商口岸设厂，列强援引片面最惠国待遇也获得这项特权。",
+   "options": [
+    "开设工厂",
+    "只许传教",
+    "废除关税",
+    "建立国会"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j049_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "戊戌政变后被害的谭嗣同等人被称作？",
+   "explain": "谭嗣同、刘光第、林旭、杨锐、杨深秀、康广仁遇害。",
+   "options": [
+    "公车上书的举人",
+    "戊戌六君子",
+    "洋务派",
+    "义和团"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j050_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "《辛丑条约》划定的使馆界在？",
+   "explain": "东交民巷划为使馆界，不准中国人居住。",
+   "options": [
+    "天津紫竹林",
+    "上海外滩",
+    "北京东交民巷",
+    "广州沙面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j051_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1894年孙中山在檀香山建立的团体是？",
+   "explain": "兴中会是中国第一个资产阶级革命团体。",
+   "options": [
+    "兴中会",
+    "同盟会",
+    "华兴会",
+    "光复会"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j051_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1905年中国同盟会在哪里成立？",
+   "explain": "同盟会以孙中山为总理。",
+   "options": [
+    "檀香山",
+    "日本东京",
+    "上海",
+    "武汉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j052_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1911年10月10日爆发的起义是？",
+   "explain": "武昌起义后，各省纷纷响应。",
+   "options": [
+    "广州起义",
+    "武昌起义",
+    "南昌起义",
+    "秋收起义"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j052_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中华民国临时政府成立于？",
+   "explain": "孙中山在南京就任临时大总统。",
+   "options": [
+    "1911年10月10日",
+    "1912年2月12日",
+    "1912年1月1日",
+    "1913年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j053_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1915年底袁世凯复辟帝制，年号是？",
+   "explain": "袁世凯的帝制遭到反对，很快失败。",
+   "options": [
+    "宣统",
+    "洪秀",
+    "洪宪",
+    "共和"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j053_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1916年袁世凯死后，中国出现的局面是？",
+   "explain": "北洋军阀分裂为不同派系，争权夺利。",
+   "options": [
+    "清帝复位并长期统治",
+    "国民革命立刻成功",
+    "日本宣布投降",
+    "北洋军阀割据混战"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j051_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "同盟会的政治纲领是？",
+   "explain": "这十六个字后来被阐发为三民主义。",
+   "options": [
+    "自强、求富",
+    "扶清灭洋",
+    "驱除鞑虏，恢复中华，创立民国，平均地权",
+    "外争主权，内除国贼"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j052_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1912年2月12日发生的事情是？",
+   "explain": "清帝退位，清朝统治结束。",
+   "options": [
+    "武昌起义",
+    "袁世凯称帝",
+    "张勋复辟",
+    "宣统帝下诏退位"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j053_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1917年拥立溥仪复辟的是？",
+   "explain": "张勋复辟只维持了短短十几天。",
+   "options": [
+    "张勋",
+    "袁世凯",
+    "孙中山",
+    "段祺瑞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j051_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "三民主义中的民权主义是指？",
+   "explain": "民族、民权、民生分别对应驱除鞑虏恢复中华、创立民国、平均地权。",
+   "options": [
+    "驱除鞑虏",
+    "平均地权",
+    "废除不平等条约",
+    "创立民国"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j052_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "辛亥革命的直接成果包括？",
+   "explain": "辛亥革命推翻了清朝统治，结束了君主专制，建立了中华民国。",
+   "options": [
+    "推翻清王朝，建立中华民国",
+    "完成平均地权",
+    "赶走全部列强",
+    "实现国共合作"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j053_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "护国战争反对的是？",
+   "explain": "蔡锷等发起护国战争，迫使袁世凯取消帝制。",
+   "options": [
+    "张勋复辟",
+    "袁世凯称帝",
+    "八国联军",
+    "北伐战争"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j054_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "五四运动爆发于？",
+   "explain": "北京学生在天安门前集会游行。",
+   "options": [
+    "1911年10月10日",
+    "1921年7月",
+    "1924年1月",
+    "1919年5月4日"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j054_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "五四运动的直接起因是？",
+   "explain": "中国代表拒绝在对德和约上签字。",
+   "options": [
+    "巴黎和会把德国在山东的权益转交给日本",
+    "袁世凯称帝",
+    "《辛丑条约》签订",
+    "九一八事变"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j055_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共一大开幕的地点是？",
+   "explain": "1921年7月，会议先在上海召开，后转移到浙江嘉兴南湖。",
+   "options": [
+    "上海",
+    "北京",
+    "广州",
+    "武汉"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j055_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共一大确定党的名称是？",
+   "explain": "大会通过了党的第一个纲领。",
+   "options": [
+    "中国同盟会",
+    "中国共产党",
+    "中国国民党",
+    "社会主义青年团"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j054_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "五四运动中的口号包括？",
+   "explain": "学生要求惩办卖国贼，拒绝在和约上签字。",
+   "options": [
+    "驱除鞑虏，恢复中华",
+    "外争主权，内除国贼",
+    "自强、求富",
+    "扶清灭洋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j055_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中共一大选举的中央局书记是？",
+   "explain": "陈独秀被选为中央局书记。",
+   "options": [
+    "李大钊",
+    "毛泽东",
+    "陈独秀",
+    "董必武"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j054_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "五四运动后期，哪一支力量成为主力？",
+   "explain": "6月以后，上海等地工人罢工，运动中心转到上海。",
+   "options": [
+    "只有学生一直单独行动",
+    "北洋军阀",
+    "工人阶级",
+    "帝国主义"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j055_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1922年中共二大的重要贡献是？",
+   "explain": "二大第一次提出彻底的反帝反封建的民主革命纲领。",
+   "options": [
+    "决定发动武昌起义",
+    "决定建立黄埔军校",
+    "决定开辟井冈山根据地",
+    "制定民主革命纲领"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j056_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1924年标志着国共第一次合作正式形成的会议是？",
+   "explain": "国民党一大在广州召开，同意共产党员以个人身份加入国民党。",
+   "options": [
+    "中共一大",
+    "国民党一大",
+    "中共二大",
+    "遵义会议"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j056_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1924年孙中山在广州创办的军校是？",
+   "explain": "黄埔军校培养了大批军事人才。",
+   "options": [
+    "保定军校",
+    "云南讲武堂",
+    "黄埔军校",
+    "抗大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j057_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1927年8月1日爆发的起义是？",
+   "explain": "南昌起义打响武装反抗国民党反动派的第一枪。",
+   "options": [
+    "秋收起义",
+    "广州起义",
+    "南昌起义",
+    "武昌起义"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j057_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "秋收起义后，毛泽东率领部队转向？",
+   "explain": "毛泽东决定向敌人力量薄弱的农村进军。",
+   "options": [
+    "南昌",
+    "上海",
+    "瑞金",
+    "井冈山"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j058_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1934年10月中央红军开始长征的出发地是？",
+   "explain": "由于第五次反围剿失败，中央红军被迫长征。",
+   "options": [
+    "延安",
+    "吴起镇",
+    "会宁",
+    "瑞金"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j058_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1935年1月召开的遵义会议着重解决了？",
+   "explain": "遵义会议开始确立以毛泽东为主要代表的马克思主义正确路线在党中央的领导地位。",
+   "options": [
+    "军事和组织问题",
+    "土地问题",
+    "抗日民族统一战线",
+    "建国方案"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j056_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1926年北伐的主要对象是？",
+   "explain": "北伐口号是打倒列强，除军阀。",
+   "options": [
+    "八国联军",
+    "日本关东军",
+    "清政府",
+    "吴佩孚、孙传芳、张作霖"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j057_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1928年与毛泽东在井冈山会师的是？",
+   "explain": "朱德、陈毅率部与毛泽东会师，组成中国工农红军第四军。",
+   "options": [
+    "朱德",
+    "周恩来",
+    "叶挺",
+    "朱德和陈毅所部是教材重点"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j058_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1935年10月中央红军到达的陕北地点是？",
+   "explain": "吴起镇会师标志中央红军长征结束。",
+   "options": [
+    "会宁",
+    "吴起镇",
+    "遵义",
+    "延安是稍后的驻地"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j056_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "北伐中叶挺领导的部队被称为？",
+   "explain": "独立团所在的第四军赢得铁军称号。",
+   "options": [
+    "独立团",
+    "学生军",
+    "新军",
+    "八路军"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j057_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "井冈山道路的主要内容是？",
+   "explain": "这是适合中国国情的革命道路。",
+   "options": [
+    "先夺取中心城市再放弃农村",
+    "农村包围城市，武装夺取政权",
+    "只做议会斗争",
+    "依赖军阀混战"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j058_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1936年10月红军三大主力会师的地点是？",
+   "explain": "会宁会师标志长征胜利结束。",
+   "options": [
+    "陕西吴起镇",
+    "江西瑞金",
+    "甘肃会宁",
+    "贵州遵义"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j059_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1931年9月18日日本炸毁柳条湖一段铁路，随即进攻？",
+   "explain": "九一八事变后，东北很快沦陷。",
+   "options": [
+    "沈阳北大营",
+    "卢沟桥",
+    "上海闸北",
+    "宛平城"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j059_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1935年北平学生反对华北自治的运动是？",
+   "explain": "一二·九运动宣传了停止内战、一致抗日的主张。",
+   "options": [
+    "五四运动",
+    "一二·九运动",
+    "五卅运动",
+    "一二·一运动"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j060_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1937年7月7日日本进攻宛平城，这一事件称为？",
+   "explain": "卢沟桥事变标志全民族抗战开始。",
+   "options": [
+    "九一八事变",
+    "七七事变",
+    "一二·九运动",
+    "八一三事变"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j060_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1937年8月13日日本进攻上海，中国军队进行的是？",
+   "explain": "淞沪会战粉碎了日军三个月灭亡中国的企图。",
+   "options": [
+    "徐州会战",
+    "武汉会战",
+    "淞沪会战",
+    "百团大战"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j061_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1937年9月林彪率领的平型关大捷属于？",
+   "explain": "平型关大捷是全民族抗战以来中国军队取得的第一个胜利。",
+   "options": [
+    "正面战场的大会战",
+    "远征军入缅作战",
+    "敌后战场的伏击战",
+    "解放战争"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j061_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1940年彭德怀指挥的大规模破袭战是？",
+   "explain": "百团大战打击了日军的囚笼政策。",
+   "options": [
+    "台儿庄战役",
+    "淞沪会战",
+    "辽沈战役",
+    "百团大战"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j062_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1945年8月15日发生的事情是？",
+   "explain": "8月15日日本宣布无条件投降。",
+   "options": [
+    "七七事变",
+    "九一八事变",
+    "南京解放",
+    "日本天皇宣布无条件投降"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j062_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "日本正式签署投降书是在？",
+   "explain": "9月2日举行签字仪式，中国抗日战争和世界反法西斯战争胜利结束。",
+   "options": [
+    "1945年9月2日",
+    "1945年8月15日",
+    "1945年10月25日",
+    "1946年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j059_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1936年12月12日发动西安事变的是？",
+   "explain": "张学良、杨虎城实行兵谏。",
+   "options": [
+    "蒋介石和汪精卫",
+    "周恩来和叶剑英",
+    "张学良和杨虎城",
+    "张自忠和佟麟阁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j060_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1937年12月日军占领南京后制造的暴行是？",
+   "explain": "日军屠杀中国居民和放下武器的士兵达30万人以上。",
+   "options": [
+    "旅顺大屠杀",
+    "济南惨案",
+    "五卅惨案",
+    "南京大屠杀"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j061_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "敌后战场创造的作战方法包括？",
+   "explain": "敌后军民开展地道战、地雷战、游击战。",
+   "options": [
+    "地道战和地雷战",
+    "只打阵地防御",
+    "洋枪队",
+    "海军决战"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j062_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1945年10月25日台湾光复，台湾脱离了哪国殖民统治？",
+   "explain": "台湾回到祖国怀抱。",
+   "options": [
+    "荷兰",
+    "日本",
+    "英国",
+    "法国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j059_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "西安事变和平解决的结果是？",
+   "explain": "中国共产党促成西安事变和平解决。",
+   "options": [
+    "日本立即投降",
+    "国共合作彻底破裂",
+    "红军停止长征",
+    "十年内战基本结束，抗日民族统一战线初步形成"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j060_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1938年春李宗仁指挥的胜利战役是？",
+   "explain": "台儿庄战役是抗战以来正面战场的重大胜利。",
+   "options": [
+    "台儿庄战役",
+    "平型关大捷",
+    "百团大战",
+    "渡江战役"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j061_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "正面战场和敌后战场的关系是？",
+   "explain": "国民党在正面战场组织会战，共产党在敌后开辟根据地。",
+   "options": [
+    "彼此没有关系",
+    "相互配合，共同对敌",
+    "敌后战场在1931年已经结束",
+    "正面战场没有进行过会战"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j062_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "抗日战争胜利的意义包括？",
+   "explain": "抗战胜利洗雪了民族耻辱，为民主革命在全国的胜利奠定基础。",
+   "options": [
+    "中国因此变成殖民地",
+    "军阀割据从此开始",
+    "中国人民第一次取得完全胜利的民族解放战争",
+    "清朝因此灭亡"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j063_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1945年毛泽东赴重庆谈判，签订的文件是？",
+   "explain": "国共双方签订《政府与中共代表会谈纪要》，即双十协定。",
+   "options": [
+    "双十协定",
+    "《共同纲领》",
+    "《停战协定》",
+    "《国内和平协定》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j063_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1946年国民党军队进攻中原解放区，标志？",
+   "explain": "蒋介石撕毁协议，发动全面内战。",
+   "options": [
+    "抗日战争开始",
+    "全面内战爆发",
+    "三大战役开始",
+    "渡江战役开始"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j064_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1947年夏，刘伯承、邓小平率军挺进的地区是？",
+   "explain": "挺进大别山揭开战略进攻的序幕。",
+   "options": [
+    "陕北",
+    "大别山",
+    "山东",
+    "东北"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j064_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1948年9月到1949年初的三大战役是？",
+   "explain": "三大战役基本消灭国民党军队主力。",
+   "options": [
+    "淞沪、太原、徐州",
+    "台儿庄、平型关、百团",
+    "辽沈、淮海、平津",
+    "渡江、解放南京、追歼残敌"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j065_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "探寻红色文化，应当把遗址放回？",
+   "explain": "一大会址、遵义会议会址等都对应明确的历史事件。",
+   "options": [
+    "只当作旅游打卡点",
+    "只用传闻解释",
+    "具体的历史事件中去理解",
+    "与革命历史分开"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j065_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一处遗址与中国共产党诞生直接相关？",
+   "explain": "1921年中共一大在上海开幕，后转移到嘉兴南湖。",
+   "options": [
+    "圆明园",
+    "虎门炮台",
+    "卢沟桥",
+    "中共一大会址"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j063_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "重庆谈判中中国共产党争取的是？",
+   "explain": "毛泽东赴重庆，是为了尽一切可能争取和平。",
+   "options": [
+    "立即渡江",
+    "建都南京",
+    "和平民主",
+    "废除总理制"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j064_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1949年4月23日人民解放军占领？",
+   "explain": "南京解放，国民党政权垮台。",
+   "options": [
+    "北平",
+    "沈阳",
+    "徐州",
+    "南京"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j065_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一处遗址与长征中的转折直接相关？",
+   "explain": "1935年遵义会议在贵州遵义召开。",
+   "options": [
+    "遵义会议会址",
+    "中共一大会址",
+    "黄埔军校旧址",
+    "北大营"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j063_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "双十协定规定？",
+   "explain": "协定确认和平建国的基本方针。",
+   "options": [
+    "日本继续占领东北",
+    "恢复帝制",
+    "立刻渡江作战",
+    "和平建国，坚决避免内战"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j064_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "渡江战役发生在？",
+   "explain": "1949年4月21日发起渡江战役，23日解放南京。",
+   "options": [
+    "1949年4月",
+    "1947年夏",
+    "1948年9月",
+    "1945年8月"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j065_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "这项活动要形成的做法是？",
+   "explain": "红色文化要落到具体的时间、地点和史实上。",
+   "options": [
+    "只背诵口号",
+    "用遗址、文物和可靠记述核对革命史实",
+    "忽略时间和地点",
+    "把不同事件混成一件事"
+   ],
+   "answer": 2
+  }
+ ]
+}

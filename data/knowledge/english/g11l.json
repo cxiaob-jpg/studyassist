@@ -1,0 +1,3854 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "english",
+  "grade": 11,
+  "semester": "lower",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第1单元 People of Achievement"
+    },
+    {
+      "id": "u2",
+      "name": "第2单元 Looking into the Future"
+    },
+    {
+      "id": "u3",
+      "name": "第3单元 Fascinating Parks"
+    },
+    {
+      "id": "u4",
+      "name": "第4单元 Body Language"
+    },
+    {
+      "id": "u5",
+      "name": "第5单元 Working the Land"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cne_h118",
+      "name": "人物成就",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "认读 achievement、genius、career 和 honour。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「成就」？",
+        "answer": "achievement"
+      }
+    },
+    {
+      "id": "cne_h119",
+      "name": "科学家与贡献",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "认读 Nobel、discover、theory 和 devote。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「诺贝尔奖」？",
+        "answer": "Nobel"
+      }
+    },
+    {
+      "id": "cne_h120",
+      "name": "that 引导主语从句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "能用 that 引导主语从句，或用 it 作形式主语。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "___ he refused the prize surprised us. 横线处填哪一个？",
+        "answer": "That"
+      }
+    },
+    {
+      "id": "cne_h121",
+      "name": "whether 引导主语从句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "能用 whether 引导主语从句，并使用陈述语序。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "___ she will accept the honour is unknown. 横线处填哪一个？",
+        "answer": "Whether"
+      }
+    },
+    {
+      "id": "cne_h122",
+      "name": "描述人物成就",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "能按时间说明人物做了什么，并给出评价。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说她把一生献给了研究，哪一句合适？",
+        "answer": "She devoted her life to research"
+      }
+    },
+    {
+      "id": "cne_h123",
+      "name": "读人物短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "根据短文推断作者没有直接说满的态度，并找出事实。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 她把许多年用在了什么上？",
+        "answer": "研究"
+      }
+    },
+    {
+      "id": "cne_h124",
+      "name": "写人物简介",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 People of Achievement",
+      "description": "能按要点选出人物简介中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：多年研究、发现挽救病人、不是每个学生都知道。哪一句三个要点都有？",
+        "answer": "She devoted years to research, her discovery saved patients, and whether every student knows her is uncertain"
+      }
+    },
+    {
+      "id": "cne_h125",
+      "name": "未来生活",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "认读 robot、automatic、predict 和 innovation。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「机器人」？",
+        "answer": "robot"
+      }
+    },
+    {
+      "id": "cne_h126",
+      "name": "智能设备",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "认读 sensor、remote、appliance 和 warning。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「传感器」？",
+        "answer": "sensor"
+      }
+    },
+    {
+      "id": "cne_h127",
+      "name": "表语从句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "能用 that、whether 或疑问词引导表语从句。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The problem is ___ the sensor fails at night. 横线处填哪一个？",
+        "answer": "that"
+      }
+    },
+    {
+      "id": "cne_h128",
+      "name": "同位语从句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "能用 that 引导同位语从句，并把它和定语从句分开。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The news ___ the robot won a prize is true. that 在从句中不充当成分，横线处填哪一个？",
+        "answer": "that"
+      }
+    },
+    {
+      "id": "cne_h129",
+      "name": "描述未来设备",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "能按步骤说明一台设备如何工作。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想按步骤说明机器人如何做饭，哪一句适合作为第一步？",
+        "answer": "First, the sensor checks the food"
+      }
+    },
+    {
+      "id": "cne_h130",
+      "name": "读未来生活短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "根据上下文推断 sensor 出了什么问题，以及作者还不确定什么。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 机器人会做什么？",
+        "answer": "自己做饭"
+      }
+    },
+    {
+      "id": "cne_h131",
+      "name": "写步骤说明",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Looking into the Future",
+      "description": "能按要点选出步骤说明中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：机器人会做饭、传感器昨天失灵、网络能否修好还未知。哪一句三个要点都有？",
+        "answer": "The robot can cook, the sensor failed yesterday, and whether the network can be repaired is unknown"
+      }
+    },
+    {
+      "id": "cne_h132",
+      "name": "公园",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "认读 park、wildlife、boundary 和 ranger。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「公园」？",
+        "answer": "park"
+      }
+    },
+    {
+      "id": "cne_h133",
+      "name": "自然保护",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "认读 wetland、species、prohibit 和 ecology。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「湿地」？",
+        "answer": "wetland"
+      }
+    },
+    {
+      "id": "cne_h134",
+      "name": "动词 -ing 的完成式",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "能用 having done 表示该动作先于主句动作。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "___ the trail, they entered the wetland. 表示先走完步道，横线处填哪一个？",
+        "answer": "Having walked"
+      }
+    },
+    {
+      "id": "cne_h135",
+      "name": "with 复合结构",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "能用 with 加宾语再加补语，表示伴随的状态。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "He waited, with the lights ___. 表示灯亮着，横线处填哪一个？",
+        "answer": "on"
+      }
+    },
+    {
+      "id": "cne_h136",
+      "name": "描述公园规则",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "能按顺序说明参观公园的做法和禁止事项。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想按顺序说明先关门再进入湿地，哪一句合适？",
+        "answer": "Having closed the gate, enter the wetland quietly"
+      }
+    },
+    {
+      "id": "cne_h137",
+      "name": "读公园短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "读短文，判断哪一条是规则，哪一条是已经做完的动作。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 他们进入湿地之前做了什么？",
+        "answer": "核对了地图"
+      }
+    },
+    {
+      "id": "cne_h138",
+      "name": "写参观说明",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Fascinating Parks",
+      "description": "能按要点选出参观说明中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：先看地图、禁止投喂、护林员带路。哪一句三个要点都有？",
+        "answer": "Having checked the map, remember that feeding is prohibited, and follow the ranger"
+      }
+    },
+    {
+      "id": "cne_h139",
+      "name": "肢体语言",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "认读 gesture、posture、expression 和 contact。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「手势」？",
+        "answer": "gesture"
+      }
+    },
+    {
+      "id": "cne_h140",
+      "name": "表情与距离",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "认读 frown、nod、distance 和 interpret。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「皱眉」？",
+        "answer": "frown"
+      }
+    },
+    {
+      "id": "cne_h141",
+      "name": "非谓语的完成式和被动式",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "能在语境中使用 having been done，表示先被完成。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "___ by the host, the guests sat down. 表示已经被迎接过，横线处填哪一个？",
+        "answer": "Having been greeted"
+      }
+    },
+    {
+      "id": "cne_h142",
+      "name": "感官动词后的宾补",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "能在 see、hear、notice 后面选择省略 to 的不定式或 -ing。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "I saw her ___ . 表示看见她点头的全过程，横线处填哪一个？",
+        "answer": "nod"
+      }
+    },
+    {
+      "id": "cne_h143",
+      "name": "描述肢体语言",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "能描述一个手势或表情，并说明它可能表示什么。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说点头常常表示同意，哪一句合适？",
+        "answer": "A nod often means agreement"
+      }
+    },
+    {
+      "id": "cne_h144",
+      "name": "读肢体语言短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "根据上下文推断 nod 和 frown 分别暗示什么。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 客人坐下之前发生了什么？",
+        "answer": "他们被问候了"
+      }
+    },
+    {
+      "id": "cne_h145",
+      "name": "写观察笔记",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Body Language",
+      "description": "能按要点选出观察笔记中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：先被问候、点头表示同意、皱眉后拉开距离。哪一句三个要点都有？",
+        "answer": "Having been greeted they sat down, a nod meant agreement, and a frown made the speaker keep a distance"
+      }
+    },
+    {
+      "id": "cne_h146",
+      "name": "农业",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "认读 agriculture、crop、soil 和 harvest。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「农业」？",
+        "answer": "agriculture"
+      }
+    },
+    {
+      "id": "cne_h147",
+      "name": "耕作",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "认读 fertilizer、irrigation、yield 和 organic。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「肥料」？",
+        "answer": "fertilizer"
+      }
+    },
+    {
+      "id": "cne_h148",
+      "name": "不定式的被动式",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "能用 to be done 表示将要被做或应该被做。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The crops are ___ tomorrow. 表示明天将被收割，横线处填哪一个？",
+        "answer": "to be harvested"
+      }
+    },
+    {
+      "id": "cne_h149",
+      "name": "独立主格",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "能识别独立主格：名词加上分词，逻辑主语和主句主语不同。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "Weather ___, we will start the harvest. 表示如果天气允许，横线处填哪一个？",
+        "answer": "permitting"
+      }
+    },
+    {
+      "id": "cne_h150",
+      "name": "说明农事过程",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "能说明耕作步骤，并就产量和土壤给出有依据的看法。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说土壤需要被检测，哪一句合适？",
+        "answer": "The soil needs to be tested"
+      }
+    },
+    {
+      "id": "cne_h151",
+      "name": "读农业短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "读短文，找出必须先做的事和仍然取决于天气的事。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 小麦什么时候将被收割？",
+        "answer": "下周"
+      }
+    },
+    {
+      "id": "cne_h152",
+      "name": "写农事安排",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Working the Land",
+      "description": "能按要点选出安排说明中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：下周收割、先检测土壤、天气允许就三天做完。哪一句三个要点都有？",
+        "answer": "The wheat is to be harvested next week, the soil is to be tested first, and weather permitting they will finish in three days"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cne_h118_q1",
+      "topic": "cne_h118",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "人物成就",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「成就」？",
+      "explain": "achievement 的意思是成就。",
+      "answer_mode": "choice",
+      "options": [
+        "genius",
+        "career",
+        "honour",
+        "achievement"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h118_q2",
+      "topic": "cne_h118",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "人物成就",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「genius」的中文意思是哪一个？",
+      "explain": "genius 的意思是天赋。",
+      "answer_mode": "choice",
+      "options": [
+        "天赋",
+        "成就",
+        "事业",
+        "荣誉"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h118_q3",
+      "topic": "cne_h118",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "人物成就",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「事业」的单词。",
+      "explain": "表示事业的单词是 career。",
+      "answer_mode": "choice",
+      "options": [
+        "achievement",
+        "career",
+        "genius",
+        "honour"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h118_q4",
+      "topic": "cne_h118",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "人物成就",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「荣誉」？",
+      "explain": "honour 的意思是荣誉。",
+      "answer_mode": "choice",
+      "options": [
+        "achievement",
+        "genius",
+        "honour",
+        "career"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h119_q1",
+      "topic": "cne_h119",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "科学家与贡献",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「诺贝尔奖」？",
+      "explain": "Nobel 的意思是诺贝尔奖。",
+      "answer_mode": "choice",
+      "options": [
+        "Nobel",
+        "discover",
+        "theory",
+        "devote"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h119_q2",
+      "topic": "cne_h119",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "科学家与贡献",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「discover」的中文意思是哪一个？",
+      "explain": "discover 的意思是发现。",
+      "answer_mode": "choice",
+      "options": [
+        "诺贝尔奖",
+        "发现",
+        "理论",
+        "奉献"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h119_q3",
+      "topic": "cne_h119",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "科学家与贡献",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「理论」的单词。",
+      "explain": "表示理论的单词是 theory。",
+      "answer_mode": "choice",
+      "options": [
+        "Nobel",
+        "discover",
+        "theory",
+        "devote"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h119_q4",
+      "topic": "cne_h119",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "科学家与贡献",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「奉献」？",
+      "explain": "devote 的意思是奉献。",
+      "answer_mode": "choice",
+      "options": [
+        "Nobel",
+        "discover",
+        "theory",
+        "devote"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h120_q1",
+      "topic": "cne_h120",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "that 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "___ he refused the prize surprised us. 横线处填哪一个？",
+      "explain": "主语从句不缺成分、表示一件事，用 That。",
+      "answer_mode": "choice",
+      "options": [
+        "What",
+        "That",
+        "Which",
+        "Who"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h120_q2",
+      "topic": "cne_h120",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "that 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句用 it 作形式主语？",
+      "explain": "It is clear that 后面才是真正的主语从句。",
+      "answer_mode": "choice",
+      "options": [
+        "That is clear she devoted her life",
+        "Clear that she devoted is it",
+        "It is clear that she devoted her life to research",
+        "It clear that she devoted"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h120_q3",
+      "topic": "cne_h120",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "that 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "___ he discovered is still unknown. 从句缺少发现的内容，横线处填哪一个？",
+      "explain": "从句缺少宾语时用 What，不能用 That。",
+      "answer_mode": "choice",
+      "options": [
+        "That",
+        "Which",
+        "If",
+        "What"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h120_q4",
+      "topic": "cne_h120",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "that 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "That 从句作主语时，谓语用单数 has。",
+      "answer_mode": "choice",
+      "options": [
+        "That the theory works has been proved",
+        "The theory works has been proved",
+        "That the theory works have been proved",
+        "Which the theory works has been proved"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h121_q1",
+      "topic": "cne_h121",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "whether 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "___ she will accept the honour is unknown. 横线处填哪一个？",
+      "explain": "主语从句放在句首表示“是否”时用 Whether，不用 If。",
+      "answer_mode": "choice",
+      "options": [
+        "If",
+        "That",
+        "Whether",
+        "What"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h121_q2",
+      "topic": "cne_h121",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "whether 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句语序正确？",
+      "explain": "whether 从句用陈述语序 he is。",
+      "answer_mode": "choice",
+      "options": [
+        "Whether is he a genius is not important",
+        "If he is a genius is not important",
+        "Whether he a genius is",
+        "Whether he is a genius is not important"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h121_q3",
+      "topic": "cne_h121",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "whether 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "It is uncertain ___ they discovered the cause. 横线处填哪一个？",
+      "explain": "不确定“是否”用 whether。",
+      "answer_mode": "choice",
+      "options": [
+        "whether",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h121_q4",
+      "topic": "cne_h121",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "whether 引导主语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句不能放在句首？",
+      "explain": "If 不能引导放在句首的主语从句。",
+      "answer_mode": "choice",
+      "options": [
+        "Whether she will come is unknown",
+        "If she will come is unknown",
+        "That she will come is certain",
+        "What she will say is unknown"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h122_q1",
+      "topic": "cne_h122",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "描述人物成就",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说她把一生献给了研究，哪一句合适？",
+      "explain": "devoted her life to 用来概括事业。",
+      "answer_mode": "choice",
+      "options": [
+        "Devoted she life research to",
+        "She not devoted her life to research",
+        "She devoted her life to reseerch",
+        "She devoted her life to research"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h122_q2",
+      "topic": "cne_h122",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "描述人物成就",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说她是否得奖还不清楚，哪一句合适？",
+      "explain": "句首用 Whether，语序是 she will get。",
+      "answer_mode": "choice",
+      "options": [
+        "Whether she will get the honour is unknown",
+        "If she will get the honour is unknown",
+        "Whether will she get the honour is unknown",
+        "Unknown whether will she"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h122_q3",
+      "topic": "cne_h122",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "描述人物成就",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想先给结论再说事实，哪一句合适？",
+      "explain": "It is clear that 先给评价。",
+      "answer_mode": "choice",
+      "options": [
+        "It is clear his discovery changed that",
+        "It is clear that his discovery changed medicine",
+        "Clear is that it discovery",
+        "That clear it is"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h122_q4",
+      "topic": "cne_h122",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "描述人物成就",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想按步骤介绍人物，哪一句适合作为第二步？",
+      "explain": "Next 用来连接步骤。",
+      "answer_mode": "choice",
+      "options": [
+        "Next, he publish the theory",
+        "Published he next the",
+        "Next, he published the theory",
+        "Next, he was published the theory"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h123_q1",
+      "topic": "cne_h123",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读人物短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 她把许多年用在了什么上？",
+      "explain": "短文写 devoted many years to research。",
+      "answer_mode": "choice",
+      "options": [
+        "研究",
+        "表演",
+        "旅行",
+        "贷款"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h123_q2",
+      "topic": "cne_h123",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读人物短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 她的发现带来了什么？",
+      "explain": "短文写 saved a great number of patients。",
+      "answer_mode": "choice",
+      "options": [
+        "取消了理论",
+        "挽救了许多病人",
+        "破坏了实验室",
+        "短文没有结果"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h123_q3",
+      "topic": "cne_h123",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读人物短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 哪一件事作者说还不一定？",
+      "explain": "Whether every student knows her story 表示这件事不确定。",
+      "answer_mode": "choice",
+      "options": [
+        "发现有没有用",
+        "她有没有做研究",
+        "是不是每个学生都知道她的故事",
+        "病人有没有获救"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h123_q4",
+      "topic": "cne_h123",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读人物短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Tu Youyou devoted many years to research. It is now clear that her discovery saved a great number of patients. Whether every student knows her story is another question. 作者对这项发现的态度更接近哪一种？",
+      "explain": "saved a great number of patients 说明作者认为发现重要。",
+      "answer_mode": "choice",
+      "options": [
+        "认为它没有价值",
+        "只在怀疑病人",
+        "没有态度",
+        "认为它很重要"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h124_q1",
+      "topic": "cne_h124",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写人物简介",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：多年研究、发现挽救病人、不是每个学生都知道。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "She did research",
+        "She devoted years to research, her discovery saved patients, and whether every student knows her is uncertain",
+        "Patients recovered",
+        "Students are busy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h124_q2",
+      "topic": "cne_h124",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写人物简介",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "简介用形式主语评价发现，哪一句正确？",
+      "explain": "It is important that 后面用陈述句。",
+      "answer_mode": "choice",
+      "options": [
+        "It is important we remember that this",
+        "Important that it we remember",
+        "It is important that we remember this achievement",
+        "That important is it"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h124_q3",
+      "topic": "cne_h124",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写人物简介",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为简介的第一句？",
+      "explain": "简介可以先说明 This paragraph introduces。",
+      "answer_mode": "choice",
+      "options": [
+        "This paragraph introduce a scientist",
+        "This paragraph introduces an scientist",
+        "This paragraph introducing a scientist",
+        "This paragraph introduces a scientist"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h124_q4",
+      "topic": "cne_h124",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写人物简介",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句的主语从句用了 Whether？",
+      "explain": "句首用 Whether，语序是 the story is。",
+      "answer_mode": "choice",
+      "options": [
+        "Whether the story is widely known matters",
+        "If the story is widely known matters",
+        "Whether is the story known matters",
+        "Matters whether is the story"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h125_q1",
+      "topic": "cne_h125",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "未来生活",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「机器人」？",
+      "explain": "robot 的意思是机器人。",
+      "answer_mode": "choice",
+      "options": [
+        "automatic",
+        "predict",
+        "robot",
+        "innovation"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h125_q2",
+      "topic": "cne_h125",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "未来生活",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「automatic」的中文意思是哪一个？",
+      "explain": "automatic 的意思是自动的。",
+      "answer_mode": "choice",
+      "options": [
+        "机器人",
+        "预测",
+        "创新",
+        "自动的"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h125_q3",
+      "topic": "cne_h125",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "未来生活",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「预测」的单词。",
+      "explain": "表示预测的单词是 predict。",
+      "answer_mode": "choice",
+      "options": [
+        "predict",
+        "robot",
+        "automatic",
+        "innovation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h125_q4",
+      "topic": "cne_h125",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "未来生活",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「创新」？",
+      "explain": "innovation 的意思是创新。",
+      "answer_mode": "choice",
+      "options": [
+        "robot",
+        "innovation",
+        "automatic",
+        "predict"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h126_q1",
+      "topic": "cne_h126",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "智能设备",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「传感器」？",
+      "explain": "sensor 的意思是传感器。",
+      "answer_mode": "choice",
+      "options": [
+        "remote",
+        "appliance",
+        "network",
+        "sensor"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h126_q2",
+      "topic": "cne_h126",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "智能设备",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「remote」的中文意思是哪一个？",
+      "explain": "remote 的意思是远程的。",
+      "answer_mode": "choice",
+      "options": [
+        "远程的",
+        "传感器",
+        "家用电器",
+        "网络"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h126_q3",
+      "topic": "cne_h126",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "智能设备",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「家用电器」的单词。",
+      "explain": "表示家用电器的单词是 appliance。",
+      "answer_mode": "choice",
+      "options": [
+        "sensor",
+        "appliance",
+        "remote",
+        "network"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h126_q4",
+      "topic": "cne_h126",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "智能设备",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「网络」？",
+      "explain": "network 的意思是网络。",
+      "answer_mode": "choice",
+      "options": [
+        "sensor",
+        "remote",
+        "network",
+        "appliance"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h127_q1",
+      "topic": "cne_h127",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "表语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The problem is ___ the sensor fails at night. 横线处填哪一个？",
+      "explain": "从句不缺成分，表语从句用 that。",
+      "answer_mode": "choice",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "who"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h127_q2",
+      "topic": "cne_h127",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "表语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The question is ___ the robot can cook. 表示“是否”，横线处填哪一个？",
+      "explain": "表示是否用 whether。",
+      "answer_mode": "choice",
+      "options": [
+        "that",
+        "whether",
+        "which",
+        "who"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h127_q3",
+      "topic": "cne_h127",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "表语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句语序正确？",
+      "explain": "表语从句用陈述语序 the appliance stops。",
+      "answer_mode": "choice",
+      "options": [
+        "That is why does the appliance stop",
+        "That is why stops the appliance",
+        "That is why the appliance stops",
+        "Why that is the appliance stops"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h127_q4",
+      "topic": "cne_h127",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "表语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "What I need is ___ the network is stable. 横线处填哪一个？",
+      "explain": "is 后面的从句不缺成分，用 that。",
+      "answer_mode": "choice",
+      "options": [
+        "what",
+        "which",
+        "if",
+        "that"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h128_q1",
+      "topic": "cne_h128",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "同位语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The news ___ the robot won a prize is true. that 在从句中不充当成分，横线处填哪一个？",
+      "explain": "news 的内容是一整件事，用 that 引导同位语从句。",
+      "answer_mode": "choice",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "who"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h128_q2",
+      "topic": "cne_h128",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "同位语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是同位语从句？",
+      "explain": "that the sensor failed 是 fact 的内容，that 不作成分。",
+      "answer_mode": "choice",
+      "options": [
+        "The sensor that failed was new",
+        "The robot which we bought is small",
+        "The fact that the sensor failed surprised them",
+        "The prize which he won is gold"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h128_q3",
+      "topic": "cne_h128",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "同位语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是定语从句而不是同位语从句？",
+      "explain": "which he wrote 里 which 作 wrote 的宾语，是定语从句。",
+      "answer_mode": "choice",
+      "options": [
+        "The report that he was late is false",
+        "The idea that robots will cook is new",
+        "The news that she won is true",
+        "The report which he wrote is short"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h128_q4",
+      "topic": "cne_h128",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "同位语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "We heard the warning ___ the network might break. 横线处填哪一个？",
+      "explain": "warning 的具体内容用 that 同位语从句。",
+      "answer_mode": "choice",
+      "options": [
+        "that",
+        "which",
+        "where",
+        "whom"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h129_q1",
+      "topic": "cne_h129",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "描述未来设备",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想按步骤说明机器人如何做饭，哪一句适合作为第一步？",
+      "explain": "First 用来开始步骤。",
+      "answer_mode": "choice",
+      "options": [
+        "First, the sensor check the food",
+        "First, the sensor checking the food",
+        "First, the sensor checks the food",
+        "First, sensor checks the food"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h129_q2",
+      "topic": "cne_h129",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "描述未来设备",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说问题在于网络不稳定，哪一句合适？",
+      "explain": "表语从句用 that 加陈述语序。",
+      "answer_mode": "choice",
+      "options": [
+        "The problem is that is the network not stable",
+        "The problem is why does it stop",
+        "Problem that the network",
+        "The problem is that the network is not stable"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h129_q3",
+      "topic": "cne_h129",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "描述未来设备",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想转述一个消息的内容，哪一句是同位语从句？",
+      "explain": "that the appliance can be controlled 是 news 的内容。",
+      "answer_mode": "choice",
+      "options": [
+        "The news that the appliance can be controlled remotely is exciting",
+        "The appliance that we bought is remote",
+        "The news which excited us is short",
+        "Exciting news is the appliance"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h129_q4",
+      "topic": "cne_h129",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "描述未来设备",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想预测这项创新会节省时间，哪一句合适？",
+      "explain": "predict that 后面用陈述语序。",
+      "answer_mode": "choice",
+      "options": [
+        "I predict that will the innovation save time",
+        "I predict that the innovation will save time",
+        "Predict I innovation time",
+        "Save will time that"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h130_q1",
+      "topic": "cne_h130",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读未来生活短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 机器人会做什么？",
+      "explain": "短文写 cooks by itself。",
+      "answer_mode": "choice",
+      "options": [
+        "修理网络",
+        "写新闻",
+        "发射火箭",
+        "自己做饭"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h130_q2",
+      "topic": "cne_h130",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读未来生活短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 昨天什么部件出了故障？",
+      "explain": "短文写 its sensor failed。",
+      "answer_mode": "choice",
+      "options": [
+        "传感器",
+        "烤箱门",
+        "预算",
+        "灯笼"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h130_q3",
+      "topic": "cne_h130",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读未来生活短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 延误的原因是什么？",
+      "explain": "The fact that its sensor failed explains the delay。",
+      "answer_mode": "choice",
+      "options": [
+        "网络已经修好",
+        "传感器失灵",
+        "机器人不会做饭",
+        "没有原因"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h130_q4",
+      "topic": "cne_h130",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读未来生活短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The new robot cooks by itself. The fact that its sensor failed yesterday explains the delay. The question is whether the network can be repaired today. 作者还不确定哪一件事？",
+      "explain": "whether the network can be repaired 是还不确定的问题。",
+      "answer_mode": "choice",
+      "options": [
+        "机器人会不会做饭",
+        "传感器昨天有没有坏",
+        "网络今天能不能修好",
+        "有没有延误"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h131_q1",
+      "topic": "cne_h131",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写步骤说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：机器人会做饭、传感器昨天失灵、网络能否修好还未知。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "The robot can cook, the sensor failed yesterday, and whether the network can be repaired is unknown",
+        "The robot can cook",
+        "Networks are useful",
+        "Yesterday was busy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h131_q2",
+      "topic": "cne_h131",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写步骤说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "说明里用同位语从句，哪一句正确？",
+      "explain": "fact 的内容用 that 从句，that 不作成分。",
+      "answer_mode": "choice",
+      "options": [
+        "The fact which the sensor failed explains the delay",
+        "The fact that the sensor failed explains the delay",
+        "The fact that failed the sensor explains",
+        "Fact the that sensor failed"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h131_q3",
+      "topic": "cne_h131",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写步骤说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为步骤的第二句？",
+      "explain": "Second 连接下一步，whether 从句用陈述语序。",
+      "answer_mode": "choice",
+      "options": [
+        "Second, check whether the network are on",
+        "Whether check second is",
+        "Second, check whether the network is on",
+        "On the network whether"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h131_q4",
+      "topic": "cne_h131",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写步骤说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句的表语从句是正确的？",
+      "explain": "that 从句用陈述语序 the appliance stops。",
+      "answer_mode": "choice",
+      "options": [
+        "The problem is that does the appliance stop",
+        "The problem is why does it stop suddenly",
+        "Is the problem that stops it",
+        "The problem is that the appliance stops suddenly"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h132_q1",
+      "topic": "cne_h132",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "公园",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「公园」？",
+      "explain": "park 的意思是公园。",
+      "answer_mode": "choice",
+      "options": [
+        "boundary",
+        "park",
+        "ranger",
+        "trail"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h132_q2",
+      "topic": "cne_h132",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "公园",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「boundary」的中文意思是哪一个？",
+      "explain": "boundary 的意思是边界。",
+      "answer_mode": "choice",
+      "options": [
+        "公园",
+        "护林员",
+        "边界",
+        "步道"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h132_q3",
+      "topic": "cne_h132",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "公园",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「护林员」的单词。",
+      "explain": "表示护林员的单词是 ranger。",
+      "answer_mode": "choice",
+      "options": [
+        "park",
+        "boundary",
+        "trail",
+        "ranger"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h132_q4",
+      "topic": "cne_h132",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "公园",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「步道」？",
+      "explain": "trail 的意思是步道。",
+      "answer_mode": "choice",
+      "options": [
+        "trail",
+        "park",
+        "boundary",
+        "ranger"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h133_q1",
+      "topic": "cne_h133",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "自然保护",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「湿地」？",
+      "explain": "wetland 的意思是湿地。",
+      "answer_mode": "choice",
+      "options": [
+        "ecology",
+        "prohibit",
+        "wetland",
+        "binoculars"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h133_q2",
+      "topic": "cne_h133",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "自然保护",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「ecology」的中文意思是哪一个？",
+      "explain": "ecology 的意思是生态。",
+      "answer_mode": "choice",
+      "options": [
+        "湿地",
+        "禁止",
+        "望远镜",
+        "生态"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h133_q3",
+      "topic": "cne_h133",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "自然保护",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「禁止」的单词。",
+      "explain": "表示禁止的单词是 prohibit。",
+      "answer_mode": "choice",
+      "options": [
+        "prohibit",
+        "wetland",
+        "ecology",
+        "binoculars"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h133_q4",
+      "topic": "cne_h133",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "自然保护",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「望远镜」？",
+      "explain": "binoculars 的意思是望远镜。",
+      "answer_mode": "choice",
+      "options": [
+        "wetland",
+        "binoculars",
+        "ecology",
+        "prohibit"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h134_q1",
+      "topic": "cne_h134",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "动词 -ing 的完成式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "___ the trail, they entered the wetland. 表示先走完步道，横线处填哪一个？",
+      "explain": "走步道在进入湿地之前，用 Having walked。",
+      "answer_mode": "choice",
+      "options": [
+        "Walking",
+        "Walked",
+        "To walk",
+        "Having walked"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h134_q2",
+      "topic": "cne_h134",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "动词 -ing 的完成式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句表示先完成再离开？",
+      "explain": "Having closed 发生在 left 之前。",
+      "answer_mode": "choice",
+      "options": [
+        "Having closed the gate, the ranger left",
+        "Closing the gate, the ranger had already left",
+        "Closed the gate, the ranger leaving",
+        "The ranger left, having the gate close"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h134_q3",
+      "topic": "cne_h134",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "动词 -ing 的完成式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "___ warned, visitors still fed the birds. 表示已经被警告过，横线处填哪一个？",
+      "explain": "被警告用 Having been warned。",
+      "answer_mode": "choice",
+      "options": [
+        "Having",
+        "Having been",
+        "Been having",
+        "To have"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h134_q4",
+      "topic": "cne_h134",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "动词 -ing 的完成式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句的 -ing 和主语搭配错了？",
+      "explain": "飞走的应该是鸟，不是护林员。",
+      "answer_mode": "choice",
+      "options": [
+        "Having flown away, the birds left the tree",
+        "The ranger, having checked the trail, rested",
+        "Having flown away, the ranger looked up",
+        "Having been prohibited, the action stopped"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h135_q1",
+      "topic": "cne_h135",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "with 复合结构",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "He waited, with the lights ___. 表示灯亮着，横线处填哪一个？",
+      "explain": "with the lights on 是复合结构，on 作补语。",
+      "answer_mode": "choice",
+      "options": [
+        "on",
+        "turned",
+        "to on",
+        "were on"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h135_q2",
+      "topic": "cne_h135",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "with 复合结构",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "With the problem ___, they went on. 表示问题已经被解决，横线处填哪一个？",
+      "explain": "problem 是被解决的，用 solved。",
+      "answer_mode": "choice",
+      "options": [
+        "solving",
+        "solved",
+        "solve",
+        "to solving"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h135_q3",
+      "topic": "cne_h135",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "with 复合结构",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "with a map in her hand 不再加 was。",
+      "answer_mode": "choice",
+      "options": [
+        "She entered with a map was in her hand",
+        "She entered with a map being was",
+        "She entered with a map in her hand",
+        "With a map was in her hand, she entered"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h135_q4",
+      "topic": "cne_h135",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "with 复合结构",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "With the ranger ___ the way, we did not get lost. 表示护林员正在带路，横线处填哪一个？",
+      "explain": "ranger 主动带路，用 leading。",
+      "answer_mode": "choice",
+      "options": [
+        "led",
+        "lead",
+        "to lead",
+        "leading"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h136_q1",
+      "topic": "cne_h136",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "描述公园规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想按顺序说明先关门再进入湿地，哪一句合适？",
+      "explain": "Having closed 表示先关门。",
+      "answer_mode": "choice",
+      "options": [
+        "Closing after entered the gate",
+        "Having closed the gate, enter the wetland quietly",
+        "Enter, having the gate close later",
+        "Gate closed having enter"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h136_q2",
+      "topic": "cne_h136",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "描述公园规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说禁止投喂，哪一句合适？",
+      "explain": "is prohibited 用来说明禁止。",
+      "answer_mode": "choice",
+      "options": [
+        "Prohibited feeding are animals",
+        "Feeding animals are prohibited",
+        "Feeding animals is prohibited",
+        "Feeding animals is prohibitted"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h136_q3",
+      "topic": "cne_h136",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "描述公园规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想描述手里拿着望远镜看鸟，哪一句合适？",
+      "explain": "with binoculars in her hand 不再用 were。",
+      "answer_mode": "choice",
+      "options": [
+        "She watched with binoculars were in her hand",
+        "With binoculars were, she watched",
+        "Binoculars in hand were with",
+        "She watched the birds with binoculars in her hand"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h136_q4",
+      "topic": "cne_h136",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "描述公园规则",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想说明边界已经标出，哪一句合适？",
+      "explain": "已经被标出用 has been marked。",
+      "answer_mode": "choice",
+      "options": [
+        "The boundary has been marked on the map",
+        "The boundary has marked the map",
+        "Marked has been the boundary",
+        "Boundary marking the map has"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h137_q1",
+      "topic": "cne_h137",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读公园短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 他们进入湿地之前做了什么？",
+      "explain": "Having checked the map 发生在 followed 之前。",
+      "answer_mode": "choice",
+      "options": [
+        "投喂了鸟",
+        "离开了边界",
+        "核对了地图",
+        "关上了灯"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h137_q2",
+      "topic": "cne_h137",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读公园短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 什么是被禁止的？",
+      "explain": "短文写 Feeding birds is prohibited。",
+      "answer_mode": "choice",
+      "options": [
+        "看地图",
+        "走步道",
+        "跟随护林员",
+        "给鸟投喂"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h137_q3",
+      "topic": "cne_h137",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读公园短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 谁在带路？",
+      "explain": "短文写 With the ranger leading us。",
+      "answer_mode": "choice",
+      "options": [
+        "护林员",
+        "鸟",
+        "地图",
+        "边界"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h137_q4",
+      "topic": "cne_h137",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读公园短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Having checked the map, we followed the trail into the wetland. Feeding birds is prohibited. With the ranger leading us, we stayed inside the boundary. 哪一句是短文中的规则而不是已经发生的事？",
+      "explain": "is prohibited 是规则。Having checked 是已经做的事。",
+      "answer_mode": "choice",
+      "options": [
+        "他们已经核对地图",
+        "不要给鸟投喂",
+        "他们已经沿着步道走",
+        "护林员已经在带路"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h138_q1",
+      "topic": "cne_h138",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写参观说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：先看地图、禁止投喂、护林员带路。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "Check the map",
+        "Feeding is bad",
+        "Rangers are helpful",
+        "Having checked the map, remember that feeding is prohibited, and follow the ranger"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h138_q2",
+      "topic": "cne_h138",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写参观说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "说明里表示先完成再前进，哪一句正确？",
+      "explain": "Having read 表示先读完规则。",
+      "answer_mode": "choice",
+      "options": [
+        "Having read the rules, start along the trail",
+        "Reading the rules after you finish the trail first",
+        "Read having the rules, start",
+        "The trail having read you"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h138_q3",
+      "topic": "cne_h138",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写参观说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为说明的标题？",
+      "explain": "步骤说明可以用 How to visit。",
+      "answer_mode": "choice",
+      "options": [
+        "How to visiting the wetland",
+        "How to visit the wetland",
+        "How to visits the wetland",
+        "How to visit to the wetland"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h138_q4",
+      "topic": "cne_h138",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写参观说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句的 with 结构是正确的？",
+      "explain": "with the map in your pocket 不加 is。",
+      "answer_mode": "choice",
+      "options": [
+        "Walk with the map is in your pocket",
+        "With the map is, walk",
+        "Walk with the map in your pocket",
+        "Pocket with map is walk"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h139_q1",
+      "topic": "cne_h139",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "肢体语言",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「手势」？",
+      "explain": "gesture 的意思是手势。",
+      "answer_mode": "choice",
+      "options": [
+        "gesture",
+        "posture",
+        "expression",
+        "contact"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h139_q2",
+      "topic": "cne_h139",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "肢体语言",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「posture」的中文意思是哪一个？",
+      "explain": "posture 的意思是姿势。",
+      "answer_mode": "choice",
+      "options": [
+        "手势",
+        "姿势",
+        "表情",
+        "接触"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h139_q3",
+      "topic": "cne_h139",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "肢体语言",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「表情」的单词。",
+      "explain": "表示表情的单词是 expression。",
+      "answer_mode": "choice",
+      "options": [
+        "gesture",
+        "posture",
+        "expression",
+        "contact"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h139_q4",
+      "topic": "cne_h139",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "肢体语言",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「接触」？",
+      "explain": "contact 的意思是接触。",
+      "answer_mode": "choice",
+      "options": [
+        "gesture",
+        "posture",
+        "expression",
+        "contact"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h140_q1",
+      "topic": "cne_h140",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "表情与距离",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「皱眉」？",
+      "explain": "frown 的意思是皱眉。",
+      "answer_mode": "choice",
+      "options": [
+        "nod",
+        "frown",
+        "distance",
+        "interpret"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h140_q2",
+      "topic": "cne_h140",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "表情与距离",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「nod」的中文意思是哪一个？",
+      "explain": "nod 的意思是点头。",
+      "answer_mode": "choice",
+      "options": [
+        "皱眉",
+        "距离",
+        "点头",
+        "解读"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h140_q3",
+      "topic": "cne_h140",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "表情与距离",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「距离」的单词。",
+      "explain": "表示距离的单词是 distance。",
+      "answer_mode": "choice",
+      "options": [
+        "frown",
+        "nod",
+        "interpret",
+        "distance"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h140_q4",
+      "topic": "cne_h140",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "表情与距离",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「解读」？",
+      "explain": "interpret 的意思是解读。",
+      "answer_mode": "choice",
+      "options": [
+        "interpret",
+        "frown",
+        "nod",
+        "distance"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h141_q1",
+      "topic": "cne_h141",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "非谓语的完成式和被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "___ by the host, the guests sat down. 表示已经被迎接过，横线处填哪一个？",
+      "explain": "客人是被迎接的，而且发生在坐下之前，用 Having been greeted。",
+      "answer_mode": "choice",
+      "options": [
+        "Having greeted",
+        "Greeted having",
+        "Having been greeted",
+        "To have greeting"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h141_q2",
+      "topic": "cne_h141",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "非谓语的完成式和被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句表示先被询问再回答？",
+      "explain": "Having been asked 是先被问。",
+      "answer_mode": "choice",
+      "options": [
+        "Having asked, she was nodded",
+        "Asked having been, nodded she",
+        "Being ask, she nodded",
+        "Having been asked, she nodded"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h141_q3",
+      "topic": "cne_h141",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "非谓语的完成式和被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "The man seemed ___ the gesture. 表示似乎已经误会了手势，横线处填哪一个？",
+      "explain": "发生在 seemed 之前用 to have misunderstood。",
+      "answer_mode": "choice",
+      "options": [
+        "to have misunderstood",
+        "to misunderstand yesterday",
+        "misunderstanding been",
+        "have misunderstand"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h141_q4",
+      "topic": "cne_h141",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "非谓语的完成式和被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句把主动和被动用反了？",
+      "explain": "点头的是人，不是头被点头以后自己微笑。",
+      "answer_mode": "choice",
+      "options": [
+        "Having nodded, he sat down",
+        "Having been nodded, the head smiled",
+        "Having been shown the sign, she understood",
+        "The guest, having been invited, arrived"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h142_q1",
+      "topic": "cne_h142",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "感官动词后的宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I saw her ___ . 表示看见她点头的全过程，横线处填哪一个？",
+      "explain": "see 后面表示全过程用省略 to 的 nod。",
+      "answer_mode": "choice",
+      "options": [
+        "to nod",
+        "nodded",
+        "to nodding",
+        "nod"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h142_q2",
+      "topic": "cne_h142",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "感官动词后的宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I saw her ___ at me when I entered. 表示进来时正看见她在皱眉，横线处填哪一个？",
+      "explain": "强调正在进行用 frowning。",
+      "answer_mode": "choice",
+      "options": [
+        "frowning",
+        "frown",
+        "to frown",
+        "frowned"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h142_q3",
+      "topic": "cne_h142",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "感官动词后的宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "hear 后面不能加 to call，进行中用 calling。",
+      "answer_mode": "choice",
+      "options": [
+        "We heard someone to call his name",
+        "We heard someone calling his name",
+        "We heard someone called to his name",
+        "We heard someone to calling"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h142_q4",
+      "topic": "cne_h142",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "感官动词后的宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "她被看见进了房间。被动句哪一句正确？",
+      "explain": "主动 see sb do，被动要还原 to：was seen to enter。",
+      "answer_mode": "choice",
+      "options": [
+        "She was seen enter the room",
+        "She was seen entering to the room",
+        "She was seen to enter the room",
+        "Seen was she enter"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h143_q1",
+      "topic": "cne_h143",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "描述肢体语言",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说点头常常表示同意，哪一句合适？",
+      "explain": "means agreement 用来解释手势。",
+      "answer_mode": "choice",
+      "options": [
+        "A nod often means agreement",
+        "A nod often mean agreement",
+        "An nod often means agreement",
+        "A nod often means agreemant"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h143_q2",
+      "topic": "cne_h143",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "描述肢体语言",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说我看见她皱了一下眉，强调全过程，哪一句合适？",
+      "explain": "see her frown 省略 to。",
+      "answer_mode": "choice",
+      "options": [
+        "I saw her to frown",
+        "I saw her frown",
+        "I saw her frowned",
+        "Saw I her to frown"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h143_q3",
+      "topic": "cne_h143",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "描述肢体语言",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想说客人被问候之后才坐下，哪一句合适？",
+      "explain": "Having been greeted 表示先被问候。",
+      "answer_mode": "choice",
+      "options": [
+        "Having greeted, the guests were sat by the host",
+        "Greeted having been the guests sat",
+        "Having been greeted, the guests sat down",
+        "The guests sat, having greet"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h143_q4",
+      "topic": "cne_h143",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "描述肢体语言",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想提醒对方距离太近，哪一句合适？",
+      "explain": "祈使句 Please keep 用来提醒。",
+      "answer_mode": "choice",
+      "options": [
+        "Please keep an comfortable distance",
+        "Keep is an expression",
+        "Please keep a comfortible distance",
+        "Please keep a comfortable distance"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h144_q1",
+      "topic": "cne_h144",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读肢体语言短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 客人坐下之前发生了什么？",
+      "explain": "Having been greeted 在 sat down 之前。",
+      "answer_mode": "choice",
+      "options": [
+        "他们皱眉了",
+        "他们被问候了",
+        "他们离开了",
+        "他们点头拒绝了"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h144_q2",
+      "topic": "cne_h144",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读肢体语言短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 作者把点头理解成什么？",
+      "explain": "短文写 interpreted as agreement。",
+      "answer_mode": "choice",
+      "options": [
+        "拒绝",
+        "距离太远",
+        "同意",
+        "没有理解"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h144_q3",
+      "topic": "cne_h144",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读肢体语言短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 皱眉让说话人做了什么？",
+      "explain": "短文写 keep a greater distance。",
+      "answer_mode": "choice",
+      "options": [
+        "马上坐下",
+        "继续靠近",
+        "开始点头",
+        "保持更远的距离"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h144_q4",
+      "topic": "cne_h144",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读肢体语言短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Having been greeted, the guests sat down. I saw the host nod, which I interpreted as agreement. A frown, however, made the speaker keep a greater distance. 文中 which 更可能指什么？",
+      "explain": "which I interpreted 紧接 nod，指点头这个动作。",
+      "answer_mode": "choice",
+      "options": [
+        "主人点头这件事",
+        "客人这个人",
+        "距离这个词",
+        "皱眉的人"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h145_q1",
+      "topic": "cne_h145",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写观察笔记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：先被问候、点头表示同意、皱眉后拉开距离。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "They sat down",
+        "A nod is a gesture",
+        "Having been greeted they sat down, a nod meant agreement, and a frown made the speaker keep a distance",
+        "Distance matters"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h145_q2",
+      "topic": "cne_h145",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写观察笔记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "笔记里表示看见全过程，哪一句正确？",
+      "explain": "see her nod 不带 to。",
+      "answer_mode": "choice",
+      "options": [
+        "I saw her to nod once",
+        "I saw her nodded once",
+        "Saw her I to nod",
+        "I saw her nod once"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h145_q3",
+      "topic": "cne_h145",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写观察笔记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为笔记的第一句？",
+      "explain": "笔记可以先写 I watched how。",
+      "answer_mode": "choice",
+      "options": [
+        "I watched how people used gestures",
+        "I watched how people used gesters",
+        "I watched how people used gesturres",
+        "I watched how did people use gestures"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h145_q4",
+      "topic": "cne_h145",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写观察笔记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "被动句要还原 to，哪一句正确？",
+      "explain": "was noticed 后面用 to leave。",
+      "answer_mode": "choice",
+      "options": [
+        "He was noticed leave early",
+        "He was noticed to leave early",
+        "He was noticed to leaving early",
+        "Noticed was he leave"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h146_q1",
+      "topic": "cne_h146",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农业",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「农业」？",
+      "explain": "agriculture 的意思是农业。",
+      "answer_mode": "choice",
+      "options": [
+        "crop",
+        "soil",
+        "harvest",
+        "agriculture"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h146_q2",
+      "topic": "cne_h146",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农业",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「crop」的中文意思是哪一个？",
+      "explain": "crop 的意思是作物。",
+      "answer_mode": "choice",
+      "options": [
+        "作物",
+        "农业",
+        "土壤",
+        "收获"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h146_q3",
+      "topic": "cne_h146",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农业",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「土壤」的单词。",
+      "explain": "表示土壤的单词是 soil。",
+      "answer_mode": "choice",
+      "options": [
+        "agriculture",
+        "soil",
+        "crop",
+        "harvest"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h146_q4",
+      "topic": "cne_h146",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "农业",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「收获」？",
+      "explain": "harvest 的意思是收获。",
+      "answer_mode": "choice",
+      "options": [
+        "agriculture",
+        "crop",
+        "harvest",
+        "soil"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h147_q1",
+      "topic": "cne_h147",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "耕作",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「肥料」？",
+      "explain": "fertilizer 的意思是肥料。",
+      "answer_mode": "choice",
+      "options": [
+        "fertilizer",
+        "irrigation",
+        "yield",
+        "organic"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h147_q2",
+      "topic": "cne_h147",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "耕作",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「irrigation」的中文意思是哪一个？",
+      "explain": "irrigation 的意思是灌溉。",
+      "answer_mode": "choice",
+      "options": [
+        "肥料",
+        "灌溉",
+        "产量",
+        "有机的"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h147_q3",
+      "topic": "cne_h147",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "耕作",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「产量」的单词。",
+      "explain": "表示产量的单词是 yield。",
+      "answer_mode": "choice",
+      "options": [
+        "fertilizer",
+        "irrigation",
+        "yield",
+        "organic"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h147_q4",
+      "topic": "cne_h147",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "耕作",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「有机的」？",
+      "explain": "organic 的意思是有机的。",
+      "answer_mode": "choice",
+      "options": [
+        "fertilizer",
+        "irrigation",
+        "yield",
+        "organic"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h148_q1",
+      "topic": "cne_h148",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不定式的被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The crops are ___ tomorrow. 表示明天将被收割，横线处填哪一个？",
+      "explain": "作物是被收割的，用 to be harvested。",
+      "answer_mode": "choice",
+      "options": [
+        "to harvest",
+        "to be harvested",
+        "harvesting",
+        "harvested be"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h148_q2",
+      "topic": "cne_h148",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不定式的被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是正确的？",
+      "explain": "soil 是被检测的对象，用 to be tested。",
+      "answer_mode": "choice",
+      "options": [
+        "The soil needs to test",
+        "The soil needs to be test",
+        "The soil needs to be tested",
+        "The soil needs tested be"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h148_q3",
+      "topic": "cne_h148",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不定式的被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "There is a report ___ before Friday. 表示报告将被完成，横线处填哪一个？",
+      "explain": "report 是被完成的，定语用 to be finished。",
+      "answer_mode": "choice",
+      "options": [
+        "to finish",
+        "finishing",
+        "finished to",
+        "to be finished"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h148_q4",
+      "topic": "cne_h148",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不定式的被动式",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句把主动和被动用反了？",
+      "explain": "被种植的是小麦，不是农民。",
+      "answer_mode": "choice",
+      "options": [
+        "The farmer is to be grown by the wheat",
+        "The wheat is to be grown by the farmer",
+        "The farmer hopes to grow wheat",
+        "The field is to be irrigated"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h149_q1",
+      "topic": "cne_h149",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "独立主格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "Weather ___, we will start the harvest. 表示如果天气允许，横线处填哪一个？",
+      "explain": "weather 自己允许，用 permitting，这是独立主格。",
+      "answer_mode": "choice",
+      "options": [
+        "permitted",
+        "permits",
+        "permitting",
+        "to permitting"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h149_q2",
+      "topic": "cne_h149",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "独立主格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The work ___, the farmers went home. 表示工作已经被做完，横线处填哪一个？",
+      "explain": "work 是被完成的，用 finished。",
+      "answer_mode": "choice",
+      "options": [
+        "finishing",
+        "finish",
+        "to finish",
+        "finished"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h149_q3",
+      "topic": "cne_h149",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "独立主格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是独立主格而不是普通状语？",
+      "explain": "The soil tested 的逻辑主语 soil 和主句主语 they 不同。",
+      "answer_mode": "choice",
+      "options": [
+        "The soil tested, they chose the fertilizer",
+        "Having tested the soil, they chose the fertilizer",
+        "Tested by them, the soil was poor",
+        "They tested the soil and chose the fertilizer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h149_q4",
+      "topic": "cne_h149",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "独立主格",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "Time permitting 表示如果时间允许。",
+      "answer_mode": "choice",
+      "options": [
+        "Time permitted, we will check if time allows us now as a person",
+        "Time permitting, we will check the irrigation",
+        "Permitting time, the clock left",
+        "Time permitting we will to check"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h150_q1",
+      "topic": "cne_h150",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "说明农事过程",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说土壤需要被检测，哪一句合适？",
+      "explain": "needs to be tested 表示被检测。",
+      "answer_mode": "choice",
+      "options": [
+        "The soil needs to test the farmer",
+        "Tested to be needs the soil",
+        "Soil is testing the lab",
+        "The soil needs to be tested"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h150_q2",
+      "topic": "cne_h150",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "说明农事过程",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说如果天气允许就开始收割，哪一句合适？",
+      "explain": "Weather permitting 是独立主格。",
+      "answer_mode": "choice",
+      "options": [
+        "Weather permitting, we will start the harvest",
+        "Weather permitted by us, the sky starts",
+        "Permitting weather we start to",
+        "Harvest permits the weather"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h150_q3",
+      "topic": "cne_h150",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "说明农事过程",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想说明有机肥可能提高产量，哪一句合适？",
+      "explain": "may increase 用来提出有依据的可能。",
+      "answer_mode": "choice",
+      "options": [
+        "Organic fertilizer may increased the yield",
+        "Organic fertilizer may increase the yield",
+        "Organic fertilizer may to increase the yield",
+        "Organic fertilizer may increases the yield"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h150_q4",
+      "topic": "cne_h150",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "说明农事过程",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想反驳过度施肥，哪一句合适？",
+      "explain": "can damage 说明反对的理由。",
+      "answer_mode": "choice",
+      "options": [
+        "Damage can the soil fertilizer too",
+        "Fertilizer is always harmless",
+        "Too much fertilizer can damage the soil",
+        "Soil damages the sentence"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h151_q1",
+      "topic": "cne_h151",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读农业短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 小麦什么时候将被收割？",
+      "explain": "短文写 next week。",
+      "answer_mode": "choice",
+      "options": [
+        "下周",
+        "昨天",
+        "三年后",
+        "不会收割"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h151_q2",
+      "topic": "cne_h151",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读农业短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 什么需要先被检测？",
+      "explain": "短文写 Soil samples need to be tested。",
+      "answer_mode": "choice",
+      "options": [
+        "天气",
+        "土壤样本",
+        "农民",
+        "灌溉设备的价格"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h151_q3",
+      "topic": "cne_h151",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读农业短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 三天内做完取决于什么？",
+      "explain": "Weather permitting 表示取决于天气。",
+      "answer_mode": "choice",
+      "options": [
+        "检测已经失败",
+        "小麦自己决定",
+        "天气允许",
+        "没有条件"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h151_q4",
+      "topic": "cne_h151",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读农业短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The wheat is to be harvested next week. Soil samples need to be tested first. Weather permitting, the farmers will finish the work in three days. 哪一件事是被做的而不是农民主动发出的动作？",
+      "explain": "samples need to be tested 是被动。farmers will finish 是主动。",
+      "answer_mode": "choice",
+      "options": [
+        "农民将完成工作",
+        "农民决定日期",
+        "短文没有被动",
+        "土壤样本被检测"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h152_q1",
+      "topic": "cne_h152",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写农事安排",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：下周收割、先检测土壤、天气允许就三天做完。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "The wheat is ripe",
+        "The wheat is to be harvested next week, the soil is to be tested first, and weather permitting they will finish in three days",
+        "Soil is important",
+        "Three days is short"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h152_q2",
+      "topic": "cne_h152",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写农事安排",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "安排里用不定式被动，哪一句正确？",
+      "explain": "is to be irrigated 表示将被灌溉。",
+      "answer_mode": "choice",
+      "options": [
+        "The field is to irrigate tonight",
+        "The field is to be irrigate tonight",
+        "The field is to be irrigated tonight",
+        "Irrigated is to the field be"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h152_q3",
+      "topic": "cne_h152",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写农事安排",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为安排的第一句？",
+      "explain": "安排可以先写 Here is the plan。",
+      "answer_mode": "choice",
+      "options": [
+        "Here are the plan for the harvest",
+        "Here is the plans for the harvest",
+        "Here is plan for the harvest",
+        "Here is the plan for the harvest"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h152_q4",
+      "topic": "cne_h152",
+      "subject": "english",
+      "grade": 11,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写农事安排",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句是独立主格？",
+      "explain": "Time permitting 的主语 time 和主句主语 we 不同。",
+      "answer_mode": "choice",
+      "options": [
+        "Time permitting, we will test two more fields",
+        "Having time, we will test two more fields",
+        "We permit the time to test",
+        "Permitting, time tests us"
+      ],
+      "answer": 1
+    }
+  ]
+}

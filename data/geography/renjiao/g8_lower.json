@@ -1,0 +1,961 @@
+{
+ "schema_version": 1,
+ "subject": "geography",
+ "grade": 8,
+ "semester": "lower",
+ "textbook": "人教版（初中地理）",
+ "questions": [
+  {
+   "id": "cng_j046_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国四大地理区域是？",
+   "explain": "综合自然和人文地理特征，划分为这四大区域。",
+   "options": [
+    "只有东部和西部",
+    "七大洲的别称",
+    "没有区域差异",
+    "北方地区、南方地区、西北地区、青藏地区"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j046_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北方地区和南方地区的分界线大致是？",
+   "explain": "该线与 1 月 0℃等温线、800 毫米年等降水量线大体一致。",
+   "options": [
+    "秦岭—淮河一线",
+    "长城",
+    "黄河",
+    "北回归线"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j046_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "西北地区与北方地区的分界，大致相当于？",
+   "explain": "400 毫米等降水量线大致是季风区与非季风区、农耕区与畜牧区的界线。",
+   "options": [
+    "赤道",
+    "400 毫米年等降水量线",
+    "南极圈",
+    "海岸线"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j046_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "青藏地区与其他地区的分界主要依据是？",
+   "explain": "昆仑山—祁连山—横断山脉一线既是阶梯分界，也是青藏地区的边界。",
+   "options": [
+    "经度完全相同",
+    "人口数量完全相等",
+    "地势第一级阶梯的边缘",
+    "与地形无关的铁路"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j047_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北方地区主要位于？",
+   "explain": "包括东北、华北和黄土高原等。",
+   "options": [
+    "秦岭—淮河以北的东部季风区",
+    "青藏高原内部",
+    "华南沿海的全部岛屿",
+    "西北沙漠腹地"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j047_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北方地区的耕地以什么为主？",
+   "explain": "降水较少，耕地多为旱地，主要种植小麦、玉米等。",
+   "options": [
+    "水田",
+    "旱地",
+    "高寒牧场",
+    "无法耕作的石山"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j048_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "东北三省是指？",
+   "explain": "三省合称东北三省，白山黑水是其代称。",
+   "options": [
+    "河北、山西、山东",
+    "黑龙江、吉林、辽宁",
+    "江苏、浙江、上海",
+    "新疆、西藏、青海"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j048_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "东北平原土壤肥沃，典型土壤是？",
+   "explain": "冷湿环境下形成的黑土有机质含量高。",
+   "options": [
+    "红壤",
+    "荒漠土",
+    "黑土",
+    "水稻土遍布所有山地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j049_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "黄土高原是世界上最大的黄土堆积区，主要位于？",
+   "explain": "山西、陕西、宁夏、甘肃等省区的大部分属于黄土高原。",
+   "options": [
+    "长江入海口",
+    "珠江三角洲",
+    "黄河中游",
+    "塔里木盆地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j049_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "黄土高原千沟万壑的地表，主要是因为？",
+   "explain": "土质疏松、夏季暴雨、植被破坏导致沟谷发育。",
+   "options": [
+    "全年没有降水",
+    "冰川覆盖全部地表",
+    "海水长期浸泡",
+    "水土流失严重"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j050_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北京是我国的？",
+   "explain": "北京是中华人民共和国的首都。",
+   "options": [
+    "最大的海港城市",
+    "位于南海的经济特区",
+    "西北的石油基地",
+    "首都，也是政治、文化中心和国际交往中心"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j050_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北京的地势特点是？",
+   "explain": "西面是西山，北面是军都山，东南是平原。",
+   "options": [
+    "西北高、东南低",
+    "东南高、西北低",
+    "完全平坦且四周是海",
+    "中部是世界最高峰"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j047_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "华北平原春旱较严重，主要因为？",
+   "explain": "春旱是华北农业的重要限制因素。",
+   "options": [
+    "夏季完全没有雨",
+    "冬季气温过高",
+    "春季降水少、升温快、蒸发旺，又正值作物需水期",
+    "没有河流和地下水"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j048_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "传统上，辽中南工业基地依赖的资源主要是？",
+   "explain": "鞍山、抚顺等地煤铁资源促进了重工业发展。",
+   "options": [
+    "热带经济作物",
+    "海洋渔业以外没有任何资源",
+    "高寒草场",
+    "煤、铁等矿产资源"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j049_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "治理黄土高原水土流失的生物措施是？",
+   "explain": "恢复植被可以保持水土；工程措施还有修梯田、打坝淤地等。",
+   "options": [
+    "植树种草",
+    "把所有坡地改成陡坡耕种",
+    "砍伐全部植被",
+    "填平黄河"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j050_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "为减轻交通和环境压力，北京在城市建设中注重？",
+   "explain": "北京既要保障首都功能，也要治理“大城市病”。",
+   "options": [
+    "无限扩大高耗能工业",
+    "发展公共交通、保护历史文化名城、疏解非首都功能",
+    "拆除全部文物",
+    "填平所有绿地"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j047_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "东北平原可以大规模机械化耕作，有利条件是？",
+   "explain": "平原开阔，适合大型农机作业。",
+   "options": [
+    "地块极其破碎",
+    "全部是陡坡梯田",
+    "劳动力比土地还密集且无法使用机器",
+    "地势平坦、耕地连片、人均耕地多"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j048_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "过度开垦和黑土流失会使东北商品粮基地？",
+   "explain": "黑土退化是东北农业可持续发展的突出问题。",
+   "options": [
+    "土壤肥力下降，需要保护性耕作",
+    "黑土自动增厚",
+    "气候变成热带雨林",
+    "与生态保护无关"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j049_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "黄土土质疏松、直立性强，传统民居是？",
+   "explain": "黄土便于开挖窑洞，冬暖夏凉。",
+   "options": [
+    "吊脚楼",
+    "窑洞",
+    "冰屋",
+    "竹楼"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j050_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "北京的水资源紧张，可行的措施包括？",
+   "explain": "开源节流并重，是缺水城市的共同选择。",
+   "options": [
+    "鼓励浪费用水",
+    "把密云水库排空",
+    "节约用水、污水回用，并接受南水北调供水",
+    "停止所有绿化"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j051_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "南方地区位于秦岭—淮河以南、青藏高原以东，气候以什么为主？",
+   "explain": "夏季高温多雨，冬季温和少雨。",
+   "options": [
+    "亚热带、热带季风气候",
+    "温带大陆性气候",
+    "寒带气候",
+    "高原山地气候遍布所有平原"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j051_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "南方地区耕地多是？",
+   "explain": "降水丰富，水田比重大，水稻是主要粮食作物。",
+   "options": [
+    "旱地小麦连作",
+    "水田",
+    "高寒牧场",
+    "无法灌溉的沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j052_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "长江三角洲位于？",
+   "explain": "长江与沿海交汇，包括上海、江苏南部和浙江北部等。",
+   "options": [
+    "黄河源头",
+    "长江入海口附近",
+    "珠江口以西的全部高原",
+    "塔里木盆地"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j052_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "长江三角洲最大的城市、我国最大的城市是？",
+   "explain": "上海是直辖市，也是长江三角洲的核心城市。",
+   "options": [
+    "拉萨",
+    "乌鲁木齐",
+    "上海",
+    "哈尔滨"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j053_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "香港和澳门是我国的？",
+   "explain": "1997 年香港回归，1999 年澳门回归，设立特别行政区。",
+   "options": [
+    "省",
+    "自治区",
+    "特别行政区",
+    "直辖市"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j053_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "香港位于珠江口的？",
+   "explain": "澳门在珠江口西侧，北与珠海相邻。",
+   "options": [
+    "西侧，北与珠海相邻",
+    "长江入海口",
+    "渤海湾内部",
+    "东侧，北与深圳相邻"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j054_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "台湾岛是我国面积最大的岛屿，西隔什么与福建省相望？",
+   "explain": "台湾海峡连接东海和南海。",
+   "options": [
+    "琼州海峡",
+    "渤海海峡",
+    "马六甲海峡",
+    "台湾海峡"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j054_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "台湾岛的地形以什么为主？",
+   "explain": "东部和中部多山，西部有狭窄平原。",
+   "options": [
+    "山地",
+    "平原占绝大部分",
+    "沙漠",
+    "冰川覆盖全岛"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j051_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "南方地区红壤较广，土壤特点是？",
+   "explain": "高温多雨使养分淋溶，红壤需要改良。",
+   "options": [
+    "黑土那样极为肥沃且遍布东北以外所有山地",
+    "完全是盐碱地",
+    "酸性较强、有机质较少",
+    "与气候无关"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j052_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "本区能够成为我国经济最发达地区之一，有利条件包括？",
+   "explain": "江海联运和发达的交通网络是重要优势。",
+   "options": [
+    "远离海洋和长江",
+    "没有港口",
+    "交通闭塞",
+    "河海交汇、平原广阔、劳动力素质高、腹地广阔"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j053_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "香港经济的重要支柱包括？",
+   "explain": "香港是国际金融、贸易和航运中心之一。",
+   "options": [
+    "对外贸易、金融、航运和旅游业",
+    "高寒畜牧业",
+    "大规模种植小麦",
+    "没有服务业"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j054_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "台湾因物产丰富被称为“祖国东南海上的明珠”，盛产？",
+   "explain": "气候湿热，农业和森林资源丰富。",
+   "options": [
+    "青稞和甜菜",
+    "稻米、甘蔗、热带和亚热带水果",
+    "只有石油、没有农产品",
+    "终年冰雪、没有森林"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j051_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "长江中下游有“鱼米之乡”之称，因为？",
+   "explain": "河网密、热量足，农业和渔业都发达。",
+   "options": [
+    "完全没有河流",
+    "只产青稞和牦牛",
+    "气候干旱只能放牧",
+    "水田广布、河湖众多，稻米和淡水鱼产量大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j052_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "杭州、苏州等城市以园林和历史遗迹著称，说明本区？",
+   "explain": "水乡、古镇和园林是长江三角洲的文化特色。",
+   "options": [
+    "自然与人文旅游资源都很丰富",
+    "完全没有文化底蕴",
+    "只能发展重工业",
+    "与水乡风貌无关"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j053_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "祖国内地与香港、澳门的关系可以概括为？",
+   "explain": "内地提供土地、资源和市场，港澳提供资金、技术和管理经验。",
+   "options": [
+    "彼此隔绝",
+    "优势互补、互惠互利",
+    "香港澳门不需要内地的物资和空间",
+    "内地不需要港澳的资金和技术"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j054_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "台湾是中国不可分割的一部分，其居民祖籍多在？",
+   "explain": "历史上大量移民来自闽粤，语言文化与祖国大陆一脉相承。",
+   "options": [
+    "欧洲各国",
+    "南极科考站",
+    "福建、广东等省",
+    "中亚内陆国家"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j055_q1",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "西北地区最显著的自然特征是？",
+   "explain": "深居内陆、距海遥远，降水稀少。",
+   "options": [
+    "干旱",
+    "湿热",
+    "高寒且降水极为丰富",
+    "与江南水乡相同"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j055_q2",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "从东到西，西北地区的自然景观大致是？",
+   "explain": "降水自东向西递减，植被随之变化。",
+   "options": [
+    "森林—雨林—海洋",
+    "草原—荒漠草原—荒漠",
+    "水田—丘陵—雪山且降水递增",
+    "与距海远近无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j056_q1",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "塔里木盆地是我国面积最大的盆地，位于？",
+   "explain": "盆地周围是天山、昆仑山等山脉，内部是塔克拉玛干沙漠。",
+   "options": [
+    "四川东部",
+    "新疆南部",
+    "青海湖边",
+    "东北平原中部"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j056_q2",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "盆地边缘出现串珠状绿洲，主要因为？",
+   "explain": "冰雪融水出山后，在冲积扇前缘形成绿洲。",
+   "options": [
+    "盆地中心降水最多",
+    "绿洲与水源无关",
+    "高山冰雪融水在山麓形成水源",
+    "全年受台风灌溉"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j055_q3",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "本区农业以畜牧业和灌溉农业为主，灌溉水源主要来自？",
+   "explain": "天山、祁连山等高山冰雪融水补给绿洲。",
+   "options": [
+    "丰沛的台风雨",
+    "赤道对流雨",
+    "高山冰雪融水和地下水",
+    "当地全年的暴雨"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j056_q3",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "西气东输工程的气源地之一是？",
+   "explain": "轮南等地的天然气通过管道输往上海等东部城市。",
+   "options": [
+    "珠江三角洲的水田",
+    "长江三角洲的全部港口",
+    "东南沿海的渔场",
+    "塔里木盆地的天然气田"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j055_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "过度放牧和开垦会导致？",
+   "explain": "干旱区生态脆弱，必须合理放牧、保护植被。",
+   "options": [
+    "草原自动恢复且无需管理",
+    "降水突然增加到江南水平",
+    "沙漠全部变成水田",
+    "土地荒漠化加剧"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j056_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "在塔里木盆地发展农业，必须特别注意？",
+   "explain": "水资源是绿洲的生命线，过度用水会使河流下游和植被衰退。",
+   "options": [
+    "节约用水，保护绿洲生态",
+    "大水漫灌且开垦全部沙漠",
+    "砍伐全部胡杨",
+    "把内流河引入海洋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j057_q1",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "青藏地区的突出自然特征是？",
+   "explain": "平均海拔 4000 米以上，空气稀薄、气温低。",
+   "options": [
+    "炎热干燥",
+    "低温潮湿且全是平原",
+    "高寒",
+    "与华北平原完全相同"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j057_q2",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "本区的主要牲畜是？",
+   "explain": "牦牛适应高寒缺氧环境，有“高原之舟”之称。",
+   "options": [
+    "亚洲象",
+    "袋鼠",
+    "北极熊",
+    "牦牛、藏绵羊等"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j058_q1",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "三江源地区位于青海省南部，是哪些大河的源头？",
+   "explain": "“中华水塔”指的就是这三条江河的源区。",
+   "options": [
+    "珠江、淮河、松花江",
+    "塔里木河、额尔齐斯河、雅鲁藏布江",
+    "只是运河的源头",
+    "长江、黄河、澜沧江"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j058_q2",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "三江源生态一旦破坏，会直接影响？",
+   "explain": "源区的冰川、湖泊和湿地是河流的补给来源。",
+   "options": [
+    "中下游的水资源和生态安全",
+    "只有青海湖的盐度",
+    "与长江黄河无关",
+    "只改变南极冰盖"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j057_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "青藏地区的农业主要分布在？",
+   "explain": "河谷海拔较低、气温较高，可发展河谷农业，种植青稞、小麦等。",
+   "options": [
+    "海拔较低的河谷，如湟水谷地、雅鲁藏布江谷地",
+    "所有冰川表面",
+    "盆地中心的流动沙丘",
+    "东海海面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j058_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "保护三江源的重要措施是？",
+   "explain": "设立三江源国家公园，限制过度放牧和不合理开发。",
+   "options": [
+    "大规模开垦湿地",
+    "退牧还草、保护湿地和野生动物",
+    "在源区建设高耗水工业",
+    "捕杀珍稀动物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j057_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "太阳能、地热能丰富，主要因为？",
+   "explain": "日照强、地热显示区多，是重要的清洁能源。",
+   "options": [
+    "全年阴雨",
+    "海拔高、空气稀薄、晴天多，以及地处板块交界",
+    "位于海洋深处",
+    "与太阳辐射无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j058_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "近年来三江源局部生态好转，说明？",
+   "explain": "退牧还草、人工增雨和巡护等措施已见到成效，但仍需长期坚持。",
+   "options": [
+    "高寒区生态破坏后绝对无法恢复",
+    "保护工作没有意义",
+    "科学保护和恢复可以改善高寒区生态",
+    "冰川融化对河流没有影响"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j059_q1",
+   "unit": "u11",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国目前仍是世界上最大的？",
+   "explain": "经济总量居世界前列，但人均水平和发展不平衡问题仍然存在。",
+   "options": [
+    "发展中国家",
+    "发达国家",
+    "没有工业的国家",
+    "面积最小的国家"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j059_q2",
+   "unit": "u11",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2013 年我国提出的国际合作倡议是？",
+   "explain": "共建丝绸之路经济带和 21 世纪海上丝绸之路。",
+   "options": [
+    "闭关锁国",
+    "“一带一路”",
+    "停止所有对外贸易",
+    "只与一个大洲往来"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j059_q3",
+   "unit": "u11",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我国发展中面临的挑战包括？",
+   "explain": "国情决定了必须走可持续发展道路。",
+   "options": [
+    "已经没有任何挑战",
+    "人口、资源和环境完全协调",
+    "资源环境压力、区域发展不平衡、维护海洋权益等",
+    "不需要参与国际事务"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j059_q4",
+   "unit": "u11",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "我国用占世界很少的耕地养活了占世界约五分之一的人口，同时积极参与国际事务，说明？",
+   "explain": "粮食安全和对外援助、国际合作都体现大国责任。",
+   "options": [
+    "中国不承担国际责任",
+    "粮食安全与世界无关",
+    "发展成就可以忽视环境保护",
+    "中国是负责任的大国"
+   ],
+   "answer": 4
+  }
+ ]
+}

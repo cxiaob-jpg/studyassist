@@ -1,0 +1,2933 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 8,
+ "semester": "lower",
+ "textbook": "人教版（新目标）（初中新目标目录）",
+ "questions": [
+  {
+   "id": "cne_j147_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我去公园是为了做志愿者。哪一句正确？",
+   "explain": "to volunteer 表示目的。",
+   "options": [
+    "I went to the park to volunteer.",
+    "I went to the park for volunteer.",
+    "I went to the park volunteering.",
+    "I went to the park to volunteering."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j147_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她张贴通知是为了找帮手。哪一句正确？",
+   "explain": "to find 表示目的。",
+   "options": [
+    "She put up a notice find helpers.",
+    "She put up a notice to find helpers.",
+    "She put up a notice to found helpers.",
+    "She put up a notice for find helpers."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j147_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "to do 放在句子后部，这里表示什么？",
+   "explain": "不定式可以说明为什么做这件事。",
+   "options": [
+    "过去的时间",
+    "比较的对象",
+    "目的",
+    "被动的动作"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j147_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他们筹款是为了帮助穷人。哪一句正确？",
+   "explain": "to help 是目的。",
+   "options": [
+    "They raise money help the poor.",
+    "They raise money to helping the poor.",
+    "They raise money for to help the poor.",
+    "They raise money to help the poor."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j142_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「头痛」？",
+   "explain": "headache 的意思是头痛。",
+   "options": [
+    "stomachache",
+    "fever",
+    "cough",
+    "headache"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j142_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「stomachache」的中文意思是哪一个？",
+   "explain": "stomachache 的意思是胃痛。",
+   "options": [
+    "胃痛",
+    "头痛",
+    "发烧",
+    "咳嗽"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j143_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你应该去看医生。哪一句正确？",
+   "explain": "should 后面用动词原形。",
+   "options": [
+    "You should see a doctor.",
+    "You should to see a doctor.",
+    "You should sees a doctor.",
+    "You should seeing a doctor."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j143_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你不该吃这么多。哪一句正确？",
+   "explain": "shouldn't 后面用动词原形。",
+   "options": [
+    "You shouldn't to eat so much.",
+    "You shouldn't eat so much.",
+    "You shouldn't eats so much.",
+    "You don't should eat so much."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j144_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "看到同学不舒服，哪一句合适？",
+   "explain": "What's the matter 用来问出了什么问题。",
+   "options": [
+    "What's the matter yesterday happened?",
+    "What's the matter?",
+    "What the matter is you?",
+    "How the matter are you?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j144_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你头痛，应怎么说？",
+   "explain": "have a headache。",
+   "options": [
+    "I have headache.",
+    "I has a headache.",
+    "I have a headache.",
+    "I have an headache."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j145_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Ben has a stomachache. The doctor says he should not eat cold food. 他怎么了？",
+   "explain": "has a stomachache。",
+   "options": [
+    "头痛",
+    "咳嗽",
+    "胃痛",
+    "牙疼"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j145_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Ben has a stomachache. The doctor says he should not eat cold food. 医生建议他怎样？",
+   "explain": "should not eat cold food。",
+   "options": [
+    "多吃冰淇淋",
+    "去跑步",
+    "不休息",
+    "别吃冷的食物"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j251_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "She cut ____ when she was cooking.",
+   "explain": "主语 she 伤到自己，用 herself。",
+   "options": [
+    "her",
+    "she",
+    "hers",
+    "herself"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j251_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Take care of ____, Tom!",
+   "explain": "对一个人说，用 yourself。",
+   "options": [
+    "your",
+    "yourself",
+    "you",
+    "yourselves"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j142_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「发烧」的单词。",
+   "explain": "表示发烧的单词是 fever。",
+   "options": [
+    "headache",
+    "fever",
+    "stomachache",
+    "cough"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j142_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「咳嗽」？",
+   "explain": "cough 的意思是咳嗽。",
+   "options": [
+    "headache",
+    "stomachache",
+    "cough",
+    "fever"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j143_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她牙痛，哪一条建议合适？",
+   "explain": "should see。",
+   "options": [
+    "She should sees a dentist.",
+    "She should to see a dentist.",
+    "She should see a dentist.",
+    "She should seeing a dentist."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j143_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "should 在这些句子里表示什么？",
+   "explain": "should 用来告诉别人宜做什么。",
+   "options": [
+    "过去的事实",
+    "正在进行",
+    "已经完成",
+    "建议"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j144_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对方发烧了，你建议他躺下。哪一句合适？",
+   "explain": "should lie。",
+   "options": [
+    "You should lies down and rest.",
+    "You should to lie down and rest.",
+    "You should lying down and rest.",
+    "You should lie down and rest."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j144_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对方说 I have a cough. 你还想问持续多久，哪一句合适？",
+   "explain": "How long 问持续了多久。",
+   "options": [
+    "How long have you had it?",
+    "How long did you had it tomorrow?",
+    "How far have you had it?",
+    "How often you have it yesterday now?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j145_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Lisa has a fever and a cough. She should drink more water. 她应该做什么？",
+   "explain": "should drink more water。",
+   "options": [
+    "多喝水",
+    "少喝水",
+    "吃更多糖",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j145_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Lisa has a fever and a cough. 哪一句和短文一致？",
+   "explain": "fever and a cough 都有。",
+   "options": [
+    "Lisa only has a headache.",
+    "Lisa has both a fever and a cough.",
+    "Lisa should not drink water.",
+    "Ben has a fever in this sentence."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j251_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We enjoyed ____ at the party.",
+   "explain": "we 对应 ourselves。",
+   "options": [
+    "us",
+    "ourself",
+    "ours",
+    "ourselves"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j251_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I hurt ____. 哪一个正确？",
+   "explain": "I 对应 myself。",
+   "options": [
+    "meself",
+    "me self",
+    "myself",
+    "mine"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j154_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「压力」？",
+   "explain": "pressure 的意思是压力。",
+   "options": [
+    "argue",
+    "nervous",
+    "proper",
+    "pressure"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j154_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「argue」的中文意思是哪一个？",
+   "explain": "argue 的意思是争吵。",
+   "options": [
+    "争吵",
+    "压力",
+    "紧张的",
+    "合适的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j155_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "虽然他很累，但是他做完了作业。哪一句正确？",
+   "explain": "although 和 but 不同时用。",
+   "options": [
+    "Although he was tired, he finished his homework.",
+    "Although he was tired, but he finished his homework.",
+    "Although he was tired, so he finished his homework.",
+    "Although he is tired, he finished his homework yesterday without a tense."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j155_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "虽然她紧张，她还是上了台。哪一句正确？",
+   "explain": "Although 后面直接接结果，不加 but。",
+   "options": [
+    "Although she was nervous, but she went on the stage.",
+    "Although she was nervous, she went on the stage.",
+    "Although she nervous, she went on the stage.",
+    "Although she was nervous, she goes on the stage yesterday."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j165_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他早起是为了赶上公共汽车。哪一句正确？",
+   "explain": "so that he could catch。",
+   "options": [
+    "He got up early so that he catch the bus.",
+    "He got up early to that he could catch the bus.",
+    "He got up early so that he could catch the bus.",
+    "He got up early so that he can caught the bus."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j165_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "so that 在这句里表示什么？",
+   "explain": "so that 说明希望达到的结果。",
+   "options": [
+    "让步",
+    "比较",
+    "被动",
+    "目的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j154_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「紧张的」的单词。",
+   "explain": "表示紧张的的单词是 nervous。",
+   "options": [
+    "pressure",
+    "nervous",
+    "argue",
+    "proper"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j154_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「合适的」？",
+   "explain": "proper 的意思是合适的。",
+   "options": [
+    "pressure",
+    "argue",
+    "proper",
+    "nervous"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j155_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "although 的意思接近哪一个？",
+   "explain": "although 表示让步。",
+   "options": [
+    "因为",
+    "所以",
+    "虽然",
+    "除非"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j155_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句使用正确？",
+   "explain": "保留 although，去掉 but。",
+   "options": [
+    "Although they argue, but they still love each other.",
+    "Although they argue, so they still love each other.",
+    "But although they argue, they still love.",
+    "Although they argue, they still love each other."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j165_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她留了便条，以便父母能看见。哪一句正确？",
+   "explain": "could see。",
+   "options": [
+    "She left a note so that her parents could see it.",
+    "She left a note so that her parents can saw it.",
+    "She left a note for that her parents could see it.",
+    "She left a note so that her parents see it yesterday."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j165_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一个短语可以引导目的从句？",
+   "explain": "so that 后面接一个完整的目的从句。",
+   "options": [
+    "as tall as",
+    "so that",
+    "more than",
+    "ever since"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j168_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「沙漠」？",
+   "explain": "desert 的意思是沙漠。",
+   "options": [
+    "ocean",
+    "desert",
+    "ancient",
+    "protect"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j168_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「ocean」的中文意思是哪一个？",
+   "explain": "ocean 的意思是海洋。",
+   "options": [
+    "沙漠",
+    "古代的",
+    "海洋",
+    "保护"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j169_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "珠穆朗玛峰是世界上最高的山。哪一句正确？",
+   "explain": "在世界上所有山中用 the highest。",
+   "options": [
+    "Qomolangma is the higher mountain in the world.",
+    "Qomolangma is highest mountain in the world.",
+    "Qomolangma is the highest mountain in the world.",
+    "Qomolangma is the most high mountain in the world."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j169_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这条河比那条长。哪一句正确？",
+   "explain": "两者用 longer than。",
+   "options": [
+    "This river is the longest than that one.",
+    "This river is more long than that one.",
+    "This river is longer that that one.",
+    "This river is longer than that one."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j170_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说这片沙漠很大，哪一句合适？",
+   "explain": "陈述事实、不比较时用原级 large。",
+   "options": [
+    "This desert is very larger.",
+    "This desert is the larger.",
+    "This desert are very large.",
+    "This desert is very large."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j170_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问世界上最高的山是哪座，哪一句合适？",
+   "explain": "the highest。",
+   "options": [
+    "What is the highest mountain in the world?",
+    "What is the higher mountain in the world?",
+    "What is highest mountain in the world?",
+    "What is the most high mountain in the world?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j171_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Qomolangma is the highest mountain in the world. It is higher than any other mountain. 它是什么？",
+   "explain": "the highest mountain。",
+   "options": [
+    "世界上最高的山",
+    "一条河",
+    "一片沙漠",
+    "一个海洋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j171_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The Nile is the longest river in the world. The Amazon is shorter than the Nile. 哪条河更短？",
+   "explain": "The Amazon is shorter。",
+   "options": [
+    "尼罗河",
+    "亚马孙河",
+    "两样长",
+    "珠穆朗玛峰"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j168_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「古代的」的单词。",
+   "explain": "表示古代的的单词是 ancient。",
+   "options": [
+    "desert",
+    "ocean",
+    "protect",
+    "ancient"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j168_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「保护」？",
+   "explain": "protect 的意思是保护。",
+   "options": [
+    "protect",
+    "desert",
+    "ocean",
+    "ancient"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j169_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "三者以上用哪一种形式？",
+   "explain": "三者以上用最高级。",
+   "options": [
+    "最高级",
+    "只用不加 the 的原级",
+    "只用比较级加 than",
+    "动词过去式"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j169_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是两者比较？",
+   "explain": "larger than 比较两个大洋。",
+   "options": [
+    "The Pacific Ocean is the largest ocean in the world.",
+    "The Pacific Ocean is larger than the Atlantic Ocean.",
+    "The Pacific Ocean is large.",
+    "Oceans are blue."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j170_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说我们应该保护海洋，哪一句合适？",
+   "explain": "should protect。",
+   "options": [
+    "We should to protect the ocean.",
+    "We should protect the ocean.",
+    "We should protects the ocean.",
+    "We should protecting the ocean."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j170_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It is 8,848.86 meters high. 这句在说什么？",
+   "explain": "meters high 表示高度。",
+   "options": [
+    "它的年龄",
+    "它的人口",
+    "它的高度",
+    "它的票价"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j171_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The Sahara is a great desert. We should protect the animals there. 我们应该做什么？",
+   "explain": "protect the animals there。",
+   "options": [
+    "离开所有沙漠",
+    "把河移走",
+    "保护那里的动物",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j171_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The Nile is the longest river in the world. 哪一句和短文一致？",
+   "explain": "Nile 是文中最长的河。",
+   "options": [
+    "The Amazon is longer than the Nile.",
+    "Qomolangma is a river.",
+    "The Sahara is an ocean.",
+    "No river in this text is longer than the Nile."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j158_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「暴风雨」？",
+   "explain": "rainstorm 的意思是暴风雨。",
+   "options": [
+    "alarm",
+    "flashlight",
+    "wind",
+    "rainstorm"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j158_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「alarm」的中文意思是哪一个？",
+   "explain": "alarm 的意思是闹钟。",
+   "options": [
+    "闹钟",
+    "暴风雨",
+    "手电筒",
+    "风"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j159_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "昨晚八点我正在读书。哪一句正确？",
+   "explain": "I 后面用 was reading。",
+   "options": [
+    "I was reading at eight last night.",
+    "I was read at eight last night.",
+    "I were reading at eight last night.",
+    "I reading at eight last night."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j159_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他们当时正在睡觉。哪一句正确？",
+   "explain": "They 后面用 were sleeping。",
+   "options": [
+    "They was sleeping at that time.",
+    "They were sleeping at that time.",
+    "They were sleep at that time.",
+    "They sleeping at that time."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j160_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "暴风雨来的时候，我正在读。哪一句正确？",
+   "explain": "came 是短动作，用 when；阅读用过去进行时。",
+   "options": [
+    "I was reading when the rainstorm was come.",
+    "I was reading when the rainstorm came.",
+    "I read when the rainstorm was coming at that long time only.",
+    "I was read when the rainstorm came."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j160_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我睡觉的时候，弟弟在看电视。哪一句正确？",
+   "explain": "两段同时持续的动作都可以用过去进行时，while 连接其中一段。",
+   "options": [
+    "While I slept a short knock, my brother was watching TV.",
+    "While I was sleep, my brother was watching TV.",
+    "While I was sleeping, my brother was watching TV.",
+    "While I was sleeping, my brother watched TV for a long time in the same pattern."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j161_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问暴风雨来时对方在做什么，哪一句合适？",
+   "explain": "were you doing，when 从句用 came。",
+   "options": [
+    "What were you do when the rainstorm came?",
+    "What did you doing when the rainstorm came?",
+    "What were you doing when the rainstorm came?",
+    "What were you doing when the rainstorm comes?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j161_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "当时你正在洗澡，应怎么说？",
+   "explain": "was taking。",
+   "options": [
+    "I was take a shower.",
+    "I were taking a shower.",
+    "I taking a shower.",
+    "I was taking a shower."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j162_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "When the rainstorm came, Ben was reading. His sister was sleeping. 暴风雨来时 Ben 在做什么？",
+   "explain": "Ben was reading。",
+   "options": [
+    "在睡觉",
+    "在洗澡",
+    "在扫地",
+    "在读书"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j162_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "When the rainstorm came, Ben was reading. His sister was sleeping. 妹妹在做什么？",
+   "explain": "was sleeping。",
+   "options": [
+    "在睡觉",
+    "在读书",
+    "在看新闻",
+    "在做饭"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j158_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「手电筒」的单词。",
+   "explain": "表示手电筒的单词是 flashlight。",
+   "options": [
+    "rainstorm",
+    "flashlight",
+    "alarm",
+    "wind"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j158_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「风」？",
+   "explain": "wind 的意思是风。",
+   "options": [
+    "rainstorm",
+    "alarm",
+    "wind",
+    "flashlight"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j159_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "过去进行时的结构是哪一个？",
+   "explain": "was 或 were 加 doing。",
+   "options": [
+    "did 加动词原形",
+    "have 加过去分词",
+    "was 或 were 加动词 ing",
+    "will 加动词原形"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j159_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她那时没在看电视。哪一句正确？",
+   "explain": "wasn't watching。",
+   "options": [
+    "She wasn't watch TV then.",
+    "She weren't watching TV then.",
+    "She not watching TV then.",
+    "She wasn't watching TV then."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j160_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "when the rainstorm came 里的 came 表示什么？",
+   "explain": "came 是暴风雨到来的那一下。",
+   "options": [
+    "一段很长的习惯",
+    "将来的计划",
+    "现在的状态",
+    "突然发生的短动作"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j160_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句里 while 用得合适？",
+   "explain": "while 后面接 was calling 这段较长的动作。",
+   "options": [
+    "While Mary was calling, the bell rang.",
+    "While the bell rang for one second, Mary was calling all night without while.",
+    "While Mary called once, the bell was ringing for hours in this beginner pattern.",
+    "While the bell rang, Mary was call."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j161_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "While the wind was blowing, I felt scared. 这句说明什么？",
+   "explain": "while 说明害怕发生在刮风期间。",
+   "options": [
+    "刮风的那段时间里我感到害怕",
+    "风还没开始",
+    "我明天会害怕",
+    "我没有感到害怕"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j161_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "闹钟没响，哪一句合适？",
+   "explain": "did not go off。",
+   "options": [
+    "My alarm did not went off.",
+    "My alarm did not go off.",
+    "My alarm was not go off.",
+    "My alarm not went off."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j162_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "While the wind was blowing, the lights went out. Mom was making dinner. 灯灭的时候妈妈在做什么？",
+   "explain": "Mom was making dinner。",
+   "options": [
+    "在睡觉",
+    "在做晚饭",
+    "在读报",
+    "在公园"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j162_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "While the wind was blowing, the lights went out. 哪一句和短文一致？",
+   "explain": "刮风期间灯灭了。",
+   "options": [
+    "The lights went out before there was any wind.",
+    "Ben was sleeping when the rainstorm came.",
+    "The lights went out while the wind was blowing.",
+    "Mom was reading in the park."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j164_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "除非你赶快，否则会迟到。哪一句正确？",
+   "explain": "unless 从句用 hurry，主句用 will be。",
+   "options": [
+    "You will be late unless you will hurry.",
+    "You will be late unless you hurry.",
+    "You will be late unless you hurried yesterday.",
+    "You are late unless you will hurry tomorrow."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j164_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "unless 的意思接近哪一个？",
+   "explain": "unless 等于 if not。",
+   "options": [
+    "因为",
+    "虽然",
+    "如果不",
+    "以便"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j224_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「鞠躬」？",
+   "explain": "bow 的意思是鞠躬。",
+   "options": [
+    "kiss",
+    "bow",
+    "greet",
+    "manner"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j224_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「kiss」的中文意思是哪一个？",
+   "explain": "kiss 的意思是亲吻。",
+   "options": [
+    "鞠躬",
+    "问候",
+    "亲吻",
+    "礼仪"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j226_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在中国，朋友见面常常握手。哪一句合适？",
+   "explain": "are supposed to shake hands。",
+   "options": [
+    "In China, people are supposed shake hands.",
+    "In China, people supposed to shake hands.",
+    "In China, people are supposed to shaking hands.",
+    "In China, people are supposed to shake hands."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j226_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问在日本该怎么问候，哪一句合适？",
+   "explain": "How are people supposed to greet。",
+   "options": [
+    "How are people supposed to greet in Japan?",
+    "How do people supposed to greet in Japan?",
+    "How are people supposed greet in Japan?",
+    "How people are supposed to greet in Japan?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j227_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "In this country, you are supposed to bow when you meet someone. You are not supposed to kiss. 见面应该做什么？",
+   "explain": "supposed to bow。",
+   "options": [
+    "鞠躬",
+    "亲吻",
+    "握手以外没有写鞠躬",
+    "什么都不做"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j227_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "In this country, you are supposed to bow when you meet someone. You are not supposed to kiss. 应该亲吻吗？",
+   "explain": "not supposed to kiss。",
+   "options": [
+    "应该",
+    "不应该",
+    "只对陌生人亲吻",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j164_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "如果他不帮忙，我们就搬不动石头。哪一句正确？",
+   "explain": "unless he helps。",
+   "options": [
+    "We cannot move the stone unless he will help.",
+    "We cannot move the stone unless he help.",
+    "We could not move the stone unless he helps tomorrow in the past.",
+    "We cannot move the stone unless he helps."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j164_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句和 If you do not try, you will not win. 最接近？",
+   "explain": "unless you try 就是 if you do not try。",
+   "options": [
+    "You will not win unless you try.",
+    "You will not win unless you will try.",
+    "You will win unless you try.",
+    "Unless you try, you will win."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j224_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「问候」的单词。",
+   "explain": "表示问候的单词是 greet。",
+   "options": [
+    "bow",
+    "kiss",
+    "manner",
+    "greet"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j224_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「礼仪」？",
+   "explain": "manner 的意思是礼仪。",
+   "options": [
+    "manner",
+    "bow",
+    "kiss",
+    "greet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j226_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "迟到是不礼貌的，哪一句合适？",
+   "explain": "impolite to be late。",
+   "options": [
+    "It is impolite be late.",
+    "It is impolite to be late.",
+    "It is impolite to being late.",
+    "It is impolite to late."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j226_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We kissed when we met. 这句是在说什么？",
+   "explain": "kissed when we met。",
+   "options": [
+    "我们拒绝问候",
+    "我们正在学习鞠躬的单词",
+    "见面时我们亲吻了",
+    "我们没有见面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j227_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Being on time is important. It is impolite to be late for a meeting. 开会迟到怎样？",
+   "explain": "impolite to be late。",
+   "options": [
+    "被鼓励",
+    "没有关系",
+    "不礼貌",
+    "是一种问候"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j227_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "You are supposed to bow. 哪一句和说明一致？",
+   "explain": "应该鞠躬。",
+   "options": [
+    "Kissing is required.",
+    "Being late is polite.",
+    "People should not bow.",
+    "Bowing is the expected greeting."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j173_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「宝藏」？",
+   "explain": "treasure 的意思是宝藏。",
+   "options": [
+    "island",
+    "classic",
+    "treasure",
+    "page"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j173_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「island」的中文意思是哪一个？",
+   "explain": "island 的意思是岛。",
+   "options": [
+    "宝藏",
+    "名著",
+    "页",
+    "岛"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j174_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我已经读完了这本书。哪一句正确？",
+   "explain": "have read，read 的过去分词与原形同形。",
+   "options": [
+    "I have already readed this book.",
+    "I has already read this book.",
+    "I have already reading this book.",
+    "I have already read this book."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j174_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她已经看过这部电影。哪一句正确？",
+   "explain": "has seen。",
+   "options": [
+    "She has already seen the film.",
+    "She has already saw the film.",
+    "She have already seen the film.",
+    "She has already see the film."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j175_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我已经做完作业了。哪一句正确？",
+   "explain": "肯定句用 already。",
+   "options": [
+    "I have already finished my homework.",
+    "I have yet finished my homework.",
+    "I already have finished my homework yesterday.",
+    "I have finished already my homework yet."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j175_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你读过《金银岛》了吗？哪一句正确？",
+   "explain": "疑问句用 yet，放在句末。",
+   "options": [
+    "Have you read Treasure Island already yet?",
+    "Have you read Treasure Island yet?",
+    "Did you have read Treasure Island yet?",
+    "Have you readed Treasure Island yet?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j176_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方是否已经读过这本名著，哪一句合适？",
+   "explain": "Have you read ... yet。",
+   "options": [
+    "Did you have read this classic yet?",
+    "Have you read this classic yet?",
+    "Have you read this classic yesterday?",
+    "Have you readed this classic yet?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j176_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你刚读完，应怎么说？",
+   "explain": "Yes, I have already finished it。",
+   "options": [
+    "Yes, I have yet finished it.",
+    "Yes, I already finished it tomorrow.",
+    "Yes, I have already finished it.",
+    "Yes, I has already finished it."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j177_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Amy has already read Treasure Island. Pete has not finished it yet. 谁已经读完了？",
+   "explain": "Amy has already read。",
+   "options": [
+    "Pete",
+    "两个人都读完了",
+    "Amy",
+    "没有人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j177_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Amy has already read Treasure Island. Pete has not finished it yet. Pete 读完了吗？",
+   "explain": "has not finished it yet。",
+   "options": [
+    "已经读完",
+    "读了两遍",
+    "短文没说",
+    "还没有"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j179_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你曾经去过博物馆吗？哪一句正确？",
+   "explain": "Have you ever been。",
+   "options": [
+    "Have you ever been to a museum?",
+    "Have you never been to a museum as a yes-no with ever?",
+    "Did you ever been to a museum?",
+    "Have you ever went to a museum?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j179_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我从未坐过地铁。哪一句正确？",
+   "explain": "have never taken。",
+   "options": [
+    "I have never took the subway.",
+    "I have never taken the subway.",
+    "I have ever taken the subway to mean never.",
+    "I has never taken the subway."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j173_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「名著」的单词。",
+   "explain": "表示名著的单词是 classic。",
+   "options": [
+    "classic",
+    "treasure",
+    "island",
+    "page"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j173_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「页」？",
+   "explain": "page 的意思是页。",
+   "options": [
+    "treasure",
+    "page",
+    "island",
+    "classic"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j174_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "现在完成时的结构是哪一个？",
+   "explain": "have 或 has 加 done。",
+   "options": [
+    "was 加动词 ing",
+    "have 或 has 加过去分词",
+    "will 加动词原形",
+    "did 加动词原形"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j174_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他们还没有找到宝藏。哪一句正确？",
+   "explain": "have not found。",
+   "options": [
+    "They have not find the treasure yet.",
+    "They has not found the treasure yet.",
+    "They have not found the treasure yet.",
+    "They have not founded the treasure yet."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j175_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他还没回来。哪一句正确？",
+   "explain": "否定句用 yet。",
+   "options": [
+    "He has not come back already.",
+    "He has not came back yet.",
+    "He has not come back yet.",
+    "He not has come back yet."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j175_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "already 常用于哪一种句子？",
+   "explain": "already 常放在肯定的现在完成时里。",
+   "options": [
+    "只用于过去进行时",
+    "只用于 if 从句",
+    "只用于最高级",
+    "肯定句"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j176_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "还没读到第 20 页，哪一句合适？",
+   "explain": "have not reached ... yet。",
+   "options": [
+    "I have not reach page 20 yet.",
+    "I has not reached page 20 yet.",
+    "I did not have reached page 20 yet.",
+    "I have not reached page 20 yet."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j176_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What book have you read? 这句在问什么？",
+   "explain": "have you read 问到目前为止读过的书。",
+   "options": [
+    "你读过什么书",
+    "你正在写什么书",
+    "你明天要买什么书",
+    "这本书多少页"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j177_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The book is a classic. It is about a boy and treasure on an island. 这本书讲什么？",
+   "explain": "treasure on an island。",
+   "options": [
+    "岛上的宝藏和一个男孩",
+    "一座现代城市",
+    "如何做饭",
+    "一场暴风雨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j177_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Pete has not finished it yet. 哪一句和记录一致？",
+   "explain": "not finished yet 说明还没读完。",
+   "options": [
+    "Pete has already finished the book.",
+    "Pete is still reading the book.",
+    "Amy has not started.",
+    "The book is not about an island."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j179_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "ever 常出现在哪一种句子里？",
+   "explain": "Have you ever 用来问经历。",
+   "options": [
+    "只出现在最高级前",
+    "只出现在祈使句",
+    "疑问句",
+    "只和 yesterday 连用"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j179_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她从未用过这台相机。哪一句正确？",
+   "explain": "has never used。",
+   "options": [
+    "She has never use this camera.",
+    "She have never used this camera.",
+    "She has ever used this camera to mean not.",
+    "She has never used this camera."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j146_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「志愿者」？",
+   "explain": "volunteer 的意思是志愿者。",
+   "options": [
+    "lonely",
+    "sign",
+    "notice",
+    "volunteer"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j146_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「lonely」的中文意思是哪一个？",
+   "explain": "lonely 的意思是孤独的。",
+   "options": [
+    "孤独的",
+    "志愿者",
+    "标牌",
+    "通知"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j148_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说自己可以发食物，哪一句合适？",
+   "explain": "could 后面用动词原形。",
+   "options": [
+    "I could to give out food.",
+    "I could give out food.",
+    "I could giving out food.",
+    "I could gave out food."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j148_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方想参加志愿活动吗，哪一句合适？",
+   "explain": "Would you like to help。",
+   "options": [
+    "Would you like helping out yesterday?",
+    "Do you would like to help?",
+    "Would you like to help?",
+    "Would you like help?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j149_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We need volunteers to clean up the city park on Saturday. Please call Mr. Li. 需要志愿者做什么？",
+   "explain": "clean up the city park。",
+   "options": [
+    "建造医院",
+    "卖票",
+    "打扫城市公园",
+    "开车"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j149_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We need volunteers to clean up the city park on Saturday. 在星期几？",
+   "explain": "on Saturday。",
+   "options": [
+    "星期日",
+    "星期一",
+    "星期五",
+    "星期六"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j184_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这辆自行车我买了三年了。哪一句正确？",
+   "explain": "for three years 是一段时间。have had 可以和 for 连用。",
+   "options": [
+    "I have had this bike since three years.",
+    "I have had this bike for three years.",
+    "I have bought this bike for three years.",
+    "I have had this bike for three years ago."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j184_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "从 2019 年起我就住在这里。哪一句正确？",
+   "explain": "since 2019 是起点。",
+   "options": [
+    "I have lived here for 2019.",
+    "I have lived here since three years.",
+    "I have lived here since 2019.",
+    "I lived here since 2019 and I do not live here now."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j146_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「标牌」的单词。",
+   "explain": "表示标牌的单词是 sign。",
+   "options": [
+    "volunteer",
+    "sign",
+    "lonely",
+    "notice"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j146_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「通知」？",
+   "explain": "notice 的意思是通知。",
+   "options": [
+    "volunteer",
+    "lonely",
+    "notice",
+    "sign"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j148_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "孤独的老人需要什么，哪一句说得清楚？",
+   "explain": "someone to talk to。",
+   "options": [
+    "They need someone talk to.",
+    "They need someone to talking to.",
+    "They need someone for talk.",
+    "They need someone to talk to."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j148_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I'll help to clean up the park. 这句是在做什么？",
+   "explain": "I'll help to 表示愿意帮忙。",
+   "options": [
+    "提出帮忙打扫公园",
+    "拒绝打扫",
+    "询问公园在哪里",
+    "比较两座公园"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j149_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Anna wants to help. She will give out notices after school. 她放学后做什么？",
+   "explain": "give out notices。",
+   "options": [
+    "发通知",
+    "打扫自己的房间",
+    "去看病",
+    "待在家里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j149_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Anna wants to help. She will give out notices after school. 哪一句和短文一致？",
+   "explain": "give out notices after school。",
+   "options": [
+    "Anna will not help.",
+    "Anna will hand out notices after school.",
+    "The park clean-up is on Monday.",
+    "Mr. Li will give out food at the hospital."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j184_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "for 后面通常接什么？",
+   "explain": "for three years、for two hours 都是一段时间。",
+   "options": [
+    "一个过去的年份",
+    "一个星期几的名称单独作起点",
+    "一个最高级",
+    "一段时间"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j184_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他从星期一就病了，到现在还病着。哪一句正确？",
+   "explain": "since Monday 表示从星期一开始一直到现在。",
+   "options": [
+    "He has been ill since Monday.",
+    "He has been ill for Monday.",
+    "He was ill since Monday and he is well now in this sentence.",
+    "He has been ill since three days."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j156_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "建议对方和父母谈谈，哪一句合适？",
+   "explain": "Why don't you 后面用动词原形。",
+   "options": [
+    "Why don't you to talk to your parents?",
+    "Why don't you talk to your parents?",
+    "Why not you talk to your parents?",
+    "Why don't you talking to your parents?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j156_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Why not write him a letter? 这句是在做什么？",
+   "explain": "Why not 加动词原形，用来提建议。",
+   "options": [
+    "询问信的价格",
+    "描述已经写完的信",
+    "建议写信",
+    "拒绝写信"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j157_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Dear Linda, I argued with my parents. I feel nervous. What should I do? 写信人怎么了？",
+   "explain": "argued with my parents，feel nervous。",
+   "options": [
+    "考试得了满分",
+    "去公园做志愿",
+    "和父母吵了架，感到紧张",
+    "身体发烧"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j157_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Linda says: Why don't you talk to them? Although you are upset, they love you. Linda 建议什么？",
+   "explain": "Why don't you talk to them。",
+   "options": [
+    "不要再说话",
+    "离开家",
+    "和他们继续吵",
+    "和他们谈谈"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j172_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Tom ___ to the library yesterday. He read an old book about the ocean. 横线处选哪一个？",
+   "explain": "yesterday 要用过去式 went。",
+   "options": [
+    "goes",
+    "went",
+    "going",
+    "will go"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j172_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The Sahara is one of ___ deserts in the world. 横线处选哪一个？",
+   "explain": "one of 后面用 the 加最高级。",
+   "options": [
+    "bigger",
+    "big",
+    "the biggest",
+    "the bigger"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j178_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「照相机」？",
+   "explain": "camera 的意思是照相机。",
+   "options": [
+    "progress",
+    "unusual",
+    "collect",
+    "camera"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j178_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「progress」的中文意思是哪一个？",
+   "explain": "progress 的意思是进步。",
+   "options": [
+    "进步",
+    "照相机",
+    "不寻常的",
+    "收集"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j180_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她现在不在这里，去了图书馆。哪一句正确？",
+   "explain": "人不在这里，用 has gone to。",
+   "options": [
+    "She has been to the library and is still there now.",
+    "She has gone to the library.",
+    "She has went to the library.",
+    "She has gone the library."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j180_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他去过上海，上周已经回来了。哪一句正确？",
+   "explain": "去过并回来了，用 has been to。",
+   "options": [
+    "He has gone to Shanghai and is back home now.",
+    "He has been in Shanghai for a finished trip last week without been.",
+    "He has been to Shanghai.",
+    "He has went to Shanghai."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j181_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方是否去过游乐园，哪一句合适？",
+   "explain": "Have you ever been to。",
+   "options": [
+    "Have you ever gone to an amusement park and come back in the same word?",
+    "Did you ever been to an amusement park?",
+    "Have you ever been to an amusement park?",
+    "Have you ever be to an amusement park?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j181_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你去过，而且是去年去的，应怎么说？",
+   "explain": "先说 have，再用 went 补过去的时间。",
+   "options": [
+    "Yes, I have gone there and I am back.",
+    "Yes, I went there next year.",
+    "Yes, I have never been there last year.",
+    "Yes, I have. I went there last year."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j182_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Kate has been to the science museum. She took photos there last month. 她现在还在馆里吗？",
+   "explain": "has been to，并且上个月拍了照。",
+   "options": [
+    "还在馆里",
+    "从未去过",
+    "短文没说她去过",
+    "不在，她已经回来了"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j182_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Leo has gone to the film museum. He is not at home. Leo 在哪里？",
+   "explain": "has gone，人不在家。",
+   "options": [
+    "在电影博物馆",
+    "在家里",
+    "在科学博物馆",
+    "在学校"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j183_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「围巾」？",
+   "explain": "scarf 的意思是围巾。",
+   "options": [
+    "scarf",
+    "soft",
+    "yard",
+    "honest"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j183_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「soft」的中文意思是哪一个？",
+   "explain": "soft 的意思是柔软的。",
+   "options": [
+    "围巾",
+    "柔软的",
+    "院子",
+    "诚实的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j185_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方拥有这条围巾多久了，哪一句合适？",
+   "explain": "延续到现在用 have you had，不用 have you bought。",
+   "options": [
+    "How long have you bought this scarf?",
+    "How long did you have this scarf next year?",
+    "How long have you had this scarf?",
+    "How long have you has this scarf?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j185_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你拥有两年了，应怎么说？",
+   "explain": "for two years。",
+   "options": [
+    "I have had it since two years.",
+    "I have bought it for two years.",
+    "I had it for two years and I sold it.",
+    "I have had it for two years."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j186_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I have had this scarf for three years. My grandma made it. 围巾是谁做的？",
+   "explain": "My grandma made it。",
+   "options": [
+    "妈妈",
+    "同学",
+    "售货员",
+    "奶奶"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j186_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I have had this scarf for three years. 拥有多久了？",
+   "explain": "for three years。",
+   "options": [
+    "三年",
+    "三个月",
+    "从昨天开始",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j225_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你应该握手。哪一句正确？",
+   "explain": "are supposed to shake。",
+   "options": [
+    "You are supposed shake hands.",
+    "You are supposed to shaking hands.",
+    "You are supposed to shake hands.",
+    "You supposed to shake hands."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j225_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在那里不应该大声说话。哪一句正确？",
+   "explain": "are not supposed to talk。",
+   "options": [
+    "You are not supposed talk loudly there.",
+    "You are not supposed to talking loudly there.",
+    "You not supposed to talk loudly there.",
+    "You are not supposed to talk loudly there."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j156_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "你觉得对方该先冷静，哪一句合适？",
+   "explain": "should calm。",
+   "options": [
+    "You should to calm down first.",
+    "You should calms down first.",
+    "You should calming down first.",
+    "You should calm down first."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j156_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说压力太大，哪一句合适？",
+   "explain": "pressure 这里不可数，用 too much。",
+   "options": [
+    "I have too much pressure.",
+    "I have too many pressure.",
+    "I have too much pressures.",
+    "I has too much pressure."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j157_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Although you are upset, they love you. 这句还说明什么？",
+   "explain": "Although 表示让步，爱这个事实还在。",
+   "options": [
+    "虽然你不高兴，他们仍然爱你",
+    "他们不爱你",
+    "你并不心烦",
+    "Linda 很紧张"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j157_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Linda says: Why don't you talk to them? 哪一句和回信一致？",
+   "explain": "建议是 talk to them。",
+   "options": [
+    "Linda tells the writer to argue again.",
+    "Linda advises a talk with the parents.",
+    "The writer is not nervous.",
+    "The parents do not love the writer."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j172_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Mary was reading ___ the rainstorm came. 横线处选哪一个？",
+   "explain": "一个短动作到来，用 when。",
+   "options": [
+    "but",
+    "unless",
+    "so that",
+    "when"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j172_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We should ___ the animals in the desert. They are in danger. 横线处选哪一个？",
+   "explain": "should 后面用动词原形 protect。",
+   "options": [
+    "protect",
+    "protected",
+    "protecting",
+    "to protect"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j178_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「不寻常的」的单词。",
+   "explain": "表示不寻常的的单词是 unusual。",
+   "options": [
+    "camera",
+    "unusual",
+    "progress",
+    "collect"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j178_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「收集」？",
+   "explain": "collect 的意思是收集。",
+   "options": [
+    "camera",
+    "progress",
+    "collect",
+    "unusual"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j180_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Has she gone to the museum? 若回答 Yes，她现在在哪里？",
+   "explain": "gone 表示人还在那里。",
+   "options": [
+    "在家里",
+    "已经回来了",
+    "从未去过",
+    "在博物馆，还没回来"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j180_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句表示去过那个地方而且人已经回来？",
+   "explain": "have been to 表示经历，人已回来。",
+   "options": [
+    "They have been to the science museum.",
+    "They have gone to the science museum.",
+    "They have went to the science museum.",
+    "They have been the science museum."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j181_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Me neither. 用在什么时候？",
+   "explain": "Neither 表示也不。",
+   "options": [
+    "对方说从未做过，你也没有",
+    "对方说去过，你也去过",
+    "你正在出发",
+    "你拒绝邀请"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j181_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说这是不寻常的经历，哪一句合适？",
+   "explain": "an unusual experience。",
+   "options": [
+    "It was an unusual experiences.",
+    "It was an unusual experience.",
+    "It were an unusual experience.",
+    "It was a unusual experience."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j182_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Kate has never been to a space museum. 她去过太空博物馆吗？",
+   "explain": "never been。",
+   "options": [
+    "去过",
+    "没有",
+    "和 Leo 一起去了",
+    "上周去了"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j182_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Leo has gone to the film museum. 哪一句和短文一致？",
+   "explain": "gone 说明他还没回来。",
+   "options": [
+    "Leo has come back home.",
+    "Kate is at the film museum now.",
+    "Leo is away at the film museum.",
+    "Kate has been to a space museum."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j183_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「院子」的单词。",
+   "explain": "表示院子的单词是 yard。",
+   "options": [
+    "scarf",
+    "soft",
+    "yard",
+    "honest"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j183_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「诚实的」？",
+   "explain": "honest 的意思是诚实的。",
+   "options": [
+    "scarf",
+    "soft",
+    "yard",
+    "honest"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j185_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Since when have you lived in this yard? 这句在问什么？",
+   "explain": "Since when 问起始时间。",
+   "options": [
+    "你从何时起住在这个院子里",
+    "院子有多大",
+    "你昨天住不住",
+    "院子软不软"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j185_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说玩具熊又软又旧，哪一句合适？",
+   "explain": "is soft and old。",
+   "options": [
+    "The bear is soft and old for since.",
+    "The bear is soft and old.",
+    "The bear are soft and old.",
+    "The bear is a old soft."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j186_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Jeff has owned the bike since he was ten. He still rides it. 他现在还骑这辆车吗？",
+   "explain": "still rides it。",
+   "options": [
+    "已经卖掉了",
+    "还骑",
+    "从未拥有",
+    "只在十岁前骑"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j186_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Jeff has owned the bike since he was ten. 哪一句和短文一致？",
+   "explain": "since he was ten，而且 still rides。",
+   "options": [
+    "Jeff has had the bike for ten days only.",
+    "Jeff sold the bike.",
+    "Jeff got the bike when he was ten and still has it.",
+    "The scarf is three days old."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j225_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "be supposed to 的意思接近哪一个？",
+   "explain": "它表示按规矩应当。",
+   "options": [
+    "应该",
+    "曾经",
+    "已经被允许离开",
+    "正在鞠躬"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j225_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "第一次见面他们应该鞠躬吗？哪一句正确？",
+   "explain": "Are they supposed to bow。",
+   "options": [
+    "Do they supposed to bow when they meet for the first time?",
+    "Are they supposed to bow when they meet for the first time?",
+    "Are they supposed bow when they meet?",
+    "Are they suppose to bow when they meet?"
+   ],
+   "answer": 2
+  }
+ ]
+}

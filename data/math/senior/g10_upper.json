@@ -1,0 +1,3878 @@
+{
+ "schema_version": 1,
+ "subject": "math",
+ "grade": 10,
+ "semester": "upper",
+ "textbook": "人教A版（高中新教材）",
+ "questions": [
+  {
+   "id": "cnm_h001_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下面哪一组对象可以组成集合？",
+   "explain": "组成集合的对象必须确定。全体正整数有明确标准；另外三组没有明确标准，不能组成集合。",
+   "options": [
+    "比较高的同学",
+    "漂亮的花",
+    "全体正整数",
+    "很大的数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h001_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "把 1，2，2，3 写成集合后，不同元素有几个？",
+   "explain": "集合里的元素互不相同，1，2，2，3 只保留 1、2、3，共 3 个。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h002_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {0，2，4，6} 中的偶数个数是多少？",
+   "explain": "0、2、4、6 都是偶数，4 个元素全部计入。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h002_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2 与集合 {1，2，3} 的关系是？",
+   "explain": "2 是集合里的一个元素，所以 2 属于该集合。元素和子集不是同一种关系。",
+   "options": [
+    "2 属于这个集合",
+    "2 不属于这个集合",
+    "{2} 属于这个集合",
+    "2 是这个集合的子集"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h003_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "用列举法写出小于 6 的正整数，元素有几个？",
+   "explain": "小于 6 的正整数是 1、2、3、4、5，共 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h003_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {1，2，3} 的元素个数是多少？",
+   "explain": "列举出来的三个数互不相同，元素个数是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h004_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {x | x 是小于 4 的正整数} 有几个元素？",
+   "explain": "小于 4 的正整数是 1、2、3，共 3 个。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h004_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {x | x 是 12 的正约数} 有几个元素？",
+   "explain": "12 的正约数是 1、2、3、4、6、12，共 6 个。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h005_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "按本图谱约定，自然数集含 0。集合 {−1，0，1，2} 中的自然数有几个？",
+   "explain": "自然数集含 0 和正整数。−1 不是自然数，其余 3 个是。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h005_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {−2，−1，0，1} 中的正整数有几个？",
+   "explain": "正整数从 1 起，0 和负数都不是，只有 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h006_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "集合 {1，2} 的子集共有多少个？",
+   "explain": "n 元集合有 2 的 n 次方个子集。2 个元素有 4 个子集，含空集和它自己。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h006_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "{1，2} 与 {2，1} 的关系是？",
+   "explain": "元素完全相同，只是写法顺序不同，所以两个集合相等。",
+   "options": [
+    "两个集合相等",
+    "前者是后者的真子集",
+    "没有包含关系",
+    "后者才是前者的子集"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h007_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "3 个元素的集合有多少个真子集？",
+   "explain": "子集共 8 个，去掉它自己，真子集有 7 个。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h007_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "{1} 的真子集有多少个？",
+   "explain": "子集是空集和它自己。去掉它自己，真子集只有空集，共 1 个。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h008_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "A={1，2，3，4}，B={3，4，5}，A 与 B 的交集有几个元素？",
+   "explain": "同时属于 A 和 B 的是 3 和 4，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h008_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "A={1，2}，B={3，4}，交集的元素个数是多少？",
+   "explain": "没有公共元素，交集是空集，元素个数为 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h009_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "A 有 3 个元素，B 有 3 个元素，交集有 2 个元素。并集有几个元素？",
+   "explain": "并集个数等于两边个数之和减去重复计算的公共元素，3+3−2=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h009_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "A={1，2}，B={2，3，4}，并集有几个元素？",
+   "explain": "合并后是 1、2、3、4，2 只算一次，共 4 个。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h010_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "全集有 5 个元素，A 有 2 个元素。A 的补集有几个元素？",
+   "explain": "补集是全集中不属于 A 的元素，5−2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h010_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "全集 U={1，2，3，4}，A={1，4}。A 的补集有几个元素？",
+   "explain": "不属于 A 的是 2 和 3，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h011_q1",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "全集 8 个元素，A 有 5 个，B 有 4 个，A∩B 有 2 个。A∪B 有几个元素？",
+   "explain": "先求并集：5+4−2=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h011_q2",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "全集有 8 个元素，A 有 5 个，B 有 4 个，A∩B 有 2 个。A∪B 在全集里的补集有几个元素？",
+   "explain": "并集有 5+4−2=7 个元素，补集是全集去掉并集，8−7=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h012_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "对实数 x，「x>2」是「x>0」的什么条件？",
+   "explain": "x>2 一定能推出 x>0，所以充分；x>0 不能推出 x>2，所以不必要。",
+   "options": [
+    "必要不充分条件",
+    "充分不必要条件",
+    "充要条件",
+    "既不充分也不必要"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h012_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "对实数 x，「x>0」是「x>2」的什么条件？",
+   "explain": "x>2 必须先有 x>0，所以必要；只知道 x>0 推不出 x>2，所以不充分。",
+   "options": [
+    "充分不必要条件",
+    "充要条件",
+    "必要不充分条件",
+    "既不充分也不必要"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h013_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "对实数 x，「x²=4」是「x=2 或 x=−2」的什么条件？",
+   "explain": "两边互相推出：平方等于 4 正好就是这两个实数。",
+   "options": [
+    "充分不必要条件",
+    "必要不充分条件",
+    "充要条件",
+    "既不充分也不必要"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h013_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「三角形两边相等」是「三角形有两个角相等」的什么条件？",
+   "explain": "等腰对等角，等角对等边，两边互相推出。",
+   "options": [
+    "充分不必要条件",
+    "必要不充分条件",
+    "既不充分也不必要",
+    "充要条件"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h014_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "命题「所有实数的平方都大于或等于 0」的量词是？",
+   "explain": "「所有」是全称量词。这个命题是真命题。",
+   "options": [
+    "存在量词",
+    "没有量词",
+    "既是全称又是存在",
+    "全称量词"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h014_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "命题「存在一个实数，它的平方等于 −1」是？",
+   "explain": "实数的平方不会是负数，所以不存在这样的实数，命题为假。",
+   "options": [
+    "假命题",
+    "真命题",
+    "全称命题而且为真",
+    "无法判断"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h015_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「所有实数都大于 0」的否定是？",
+   "explain": "全称命题的否定是存在命题，而且把结论否定。不是把「所有」改成「所有都不」。",
+   "options": [
+    "存在一个实数不大于 0",
+    "所有实数都不大于 0",
+    "存在一个实数大于 0",
+    "所有实数都小于 0"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h015_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「存在整数是偶数」的否定是？",
+   "explain": "存在命题的否定是全称命题，结论改为「不是偶数」。",
+   "options": [
+    "存在整数不是偶数",
+    "所有整数都不是偶数",
+    "所有整数都是偶数",
+    "不存在整数是奇数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h001_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "空集是怎样的集合？",
+   "explain": "空集一个元素都没有。只含 0 的集合有一个元素，不是空集。",
+   "options": [
+    "不含任何元素的集合",
+    "只含 0 的集合",
+    "只含一个元素的集合",
+    "元素都相等的集合"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h001_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「很小的正数」能不能组成集合？",
+   "explain": "集合要求对象确定。无穷多个可以组成集合，例如全体正整数；「很小」标准不明，所以不能。",
+   "options": [
+    "能，正数都是确定的",
+    "不能，因为「很小」没有明确标准",
+    "能，但只能是有限集",
+    "不能，因为正数有无穷多个"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h002_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "集合 {1，3，5，7，9} 中大于 6 的元素有几个？",
+   "explain": "大于 6 的元素是 7 和 9，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h002_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "集合 {1，2，2} 里，元素 2 写了两次。按互异性，它能否算成两个不同的元素？",
+   "explain": "集合中的元素互异。{1，2，2} 与 {1，2} 是同一个集合，重复写出的 2 只算一个元素。",
+   "options": [
+    "能，只要都写出来",
+    "能，但要加括号",
+    "不能，元素互不相同",
+    "只有无限集才不能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h003_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "不超过 10 的正偶数有几个？",
+   "explain": "正偶数 2、4、6、8、10 都不超过 10，共 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h003_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用列举法表示集合时，下面哪种说法正确？",
+   "explain": "列举法不关心书写顺序。{1，2} 和 {2，1} 是同一个集合。",
+   "options": [
+    "必须从小到大写",
+    "每个元素至少写两遍",
+    "只能表示无限集",
+    "元素次序可以交换，集合不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h004_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "全体整数更适合用哪种方法表示？",
+   "explain": "整数有无限多个，不能一一列举完，适合用描述法。",
+   "options": [
+    "列举法",
+    "只能画图",
+    "只能写空集",
+    "描述法"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h004_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "{x | x>0} 里的 x 表示什么？",
+   "explain": "描述法里竖线右边是元素要满足的条件，x 代表所有满足条件的元素。",
+   "options": [
+    "满足 x>0 的数",
+    "只有 1 这一个数",
+    "大于 0 的集合的个数",
+    "方程的解的个数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h005_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "有理数集与实数集的关系是？",
+   "explain": "有理数都是实数，但实数里还有无理数，所以有理数集是实数集的真子集。",
+   "options": [
+    "有理数集是实数集的真子集",
+    "实数集是有理数集的子集",
+    "两个集合相等",
+    "两个集合没有公共元素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h005_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "√2 属于哪个集合？",
+   "explain": "√2 是无理数，是实数，但不是有理数，更不是整数或自然数。",
+   "options": [
+    "自然数集",
+    "实数集，但不属于有理数集",
+    "整数集",
+    "有理数集"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h006_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "空集的子集有多少个？",
+   "explain": "空集只有它自己这一个子集，个数是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h006_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A 是 B 的子集，下面哪句一定对？",
+   "explain": "子集的定义是 A 的元素都是 B 的元素。A 可以和 B 相等，元素不一定更少。",
+   "options": [
+    "B 中的每个元素都在 A 中",
+    "A 的元素比 B 少",
+    "A 中的每个元素都在 B 中",
+    "A 不能等于 B"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h007_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "任何集合的真子集是否包含它自己？",
+   "explain": "真子集要求是子集并且两个集合不相等，所以集合不是自己的真子集。",
+   "options": [
+    "包含",
+    "只有空集包含",
+    "不包含",
+    "只有无限集不包含"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h007_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "4 元集合的真子集个数是多少？",
+   "explain": "子集 16 个，去掉自身，真子集 15 个。",
+   "answer": 15
+  },
+  {
+   "id": "cnm_h008_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A={1，2，3}，A 与 A 的交集有几个元素？",
+   "explain": "A 与自己的公共元素就是 A 的全部元素，共 3 个。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h008_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若 A 是 B 的子集，则 A∩B 等于？",
+   "explain": "A 的元素都在 B 里，公共部分就是 A。",
+   "options": [
+    "A",
+    "B",
+    "空集",
+    "A 与 B 的并集"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h009_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A 有 5 个元素，B 是 A 的子集且有 2 个元素。A 与 B 的并集有几个元素？",
+   "explain": "B 的元素都已在 A 中，并集就是 A，仍是 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h009_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A∪B 与 A 的关系一定是？",
+   "explain": "并集包含 A 的全部元素，也包含 B 的元素，所以 A 是并集的子集。",
+   "options": [
+    "A∪B 是 A 的子集",
+    "A 是 A∪B 的子集",
+    "两者相等",
+    "两者交集为空"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h010_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A 的补集再取补集，元素个数与 A 相同。若 A 有 6 个元素，结果有几个？",
+   "explain": "补集的补集就是 A 自己，元素个数仍是 6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h010_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A 与它在全集中的补集的交集是？",
+   "explain": "补集里的元素都不属于 A，所以两者没有公共元素。",
+   "options": [
+    "全集",
+    "A 本身",
+    "空集",
+    "补集本身"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h011_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A 有 6 个元素，A∩B 有 2 个。只属于 A、不属于 B 的元素有几个？",
+   "explain": "从 A 中去掉公共的 2 个，剩下 4 个只属于 A。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h011_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "先做补集再做交集，和先做交集再做补集，是否总是相同？",
+   "explain": "运算顺序不同，结果一般不同。必须看清括号和全集。",
+   "options": [
+    "总是相同",
+    "只有空集时才不同",
+    "只有无限集才不同",
+    "不一定相同"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h012_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "集合 A={1，2}，B={1，2，3}。若「x∈A」可以推出「x∈B」，这种推出关系记为 1；不能记为 0。这里应记为多少？",
+   "explain": "A 是 B 的子集，x 属于 A 就一定属于 B，推得出，记 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h012_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「x=1」是「x²=1」的什么条件？",
+   "explain": "x=1 能推出 x²=1；但 x²=1 时 x 还可能是 −1，所以不是必要。",
+   "options": [
+    "充分不必要条件",
+    "必要不充分条件",
+    "充要条件",
+    "既不充分也不必要"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h013_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 p 是 q 的充要条件，则「p 推出 q」记 1、「q 推出 p」也记 1。两件都成立时，把两个数相加得多少？",
+   "explain": "充要表示两个方向都能推出，1+1=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h013_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「x>1」是「x≥1」的什么条件？",
+   "explain": "x>1 能推出 x≥1；x≥1 还包括 x=1，推不出 x>1。",
+   "options": [
+    "充要条件",
+    "充分不必要条件",
+    "必要不充分条件",
+    "既不充分也不必要"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h014_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "在集合 {1，2，3} 中，满足 x>2 的元素有几个？用来判断「存在 x>2」。",
+   "explain": "只有 3 大于 2，有 1 个，所以「存在」成立。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h014_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「有的直角三角形是等腰三角形」使用的量词是？",
+   "explain": "「有的」表示至少存在一个，是存在量词。等腰直角三角形确实存在。",
+   "options": [
+    "全称量词",
+    "否定量词",
+    "存在量词",
+    "不含量词"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h015_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "命题「1>0」为真时，把它的真值记为 1。它的否定的真值应记为多少？",
+   "explain": "真命题的否定是假命题，真值记 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h015_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "否定「存在 x∈R，使 x²<0」时，量词应变成？",
+   "explain": "存在的否定是全称。原命题为假，它的否定「所有实数的平方都大于或等于 0」为真。",
+   "options": [
+    "仍是存在量词",
+    "去掉量词",
+    "变成两个存在量词",
+    "全称量词"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h016_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "3<5 表示的关系是？",
+   "explain": "小于号表示两个数不相等，而且有大小，是不等关系。",
+   "options": [
+    "相等关系",
+    "不等关系",
+    "集合的属于关系",
+    "函数的对应关系"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h016_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "方程 2x=6 的解是多少？",
+   "explain": "两边同除以 2，x=3。这里用等式性质求唯一解。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h017_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 x+3>5 的正整数解中，最小的一个是多少？",
+   "explain": "x>2。大于 2 的正整数里最小的是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h017_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 2x−1<5 的最大整数解是多少？",
+   "explain": "2x<6，x<3。小于 3 的最大整数是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h018_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "已知 a>b。a+4 与 b+4 比较，若 a+4 更大则回答 1，更小回答 −1，相等回答 0。",
+   "explain": "两边加同一个数，不等号方向不变，a+4 仍然更大。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h018_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "已知 a>b。−2a 与 −2b 比较，若 −2a 更大则回答 1，更小回答 −1。",
+   "explain": "乘负数要改变不等号方向，所以 −2a < −2b，−2a 更小。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h019_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "比较 2³ 与 3²：计算 2³−3²。",
+   "explain": "8−9=−1，差为负，所以 2³ 更小。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h019_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "比较 (a+1)² 与 a²+1 时，先计算差里常数项以外的部分。已知差等于 2a。当 a=3 时差是多少？",
+   "explain": "(a+1)²−(a²+1)=2a。a=3 时差是 6，前者更大。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h020_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 1<x<5 的整数解有几个？",
+   "explain": "不含端点，整数解是 2、3、4，共 3 个。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h020_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 0≤x≤3 的整数解之和是多少？",
+   "explain": "整数解 0、1、2、3，和为 6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h021_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "4 和 9 的几何平均数是多少？",
+   "explain": "几何平均数是 √(4×9)=√36=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h022_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正数 x、y 满足 x+y=10。xy 的最大值是多少？",
+   "explain": "当 x=y=5 时积最大，最大值是 5×5=25。",
+   "answer": 25
+  },
+  {
+   "id": "cnm_h022_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正数 x、y 满足 xy=16。x+y 的最小值是多少？",
+   "explain": "x+y ≥ 2√(xy)=8，等号在 x=y=4 时取到。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h023_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "方程 x²−5x+6=0 的较小实根是多少？",
+   "explain": "因式分解得 (x−2)(x−3)=0，较小根是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h023_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "方程 x²−5x+6=0 的较大实根是多少？",
+   "explain": "两根是 2 和 3，较大的是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h024_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 x²−5x+6<0 的整数解有几个？",
+   "explain": "(x−2)(x−3)<0，解集是 2<x<3，中间没有整数。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h024_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 x²−5x+6≤0 的整数解之和是多少？",
+   "explain": "解集是 2≤x≤3，整数解 2 和 3，和为 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h025_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "对任意实数 x，x²+1≥k 恒成立。k 的最大值是多少？",
+   "explain": "x²+1 的最小值是 1。k 不能超过这个最小值，最大的 k 是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h025_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "不等式 x²−2x+m>0 对任意实数 x 恒成立。判别式须小于 0。当 m=2 时判别式是多少？",
+   "explain": "判别式 4−8=−4，小于 0，开口向上，此时确实恒正。",
+   "answer": -4
+  },
+  {
+   "id": "cnm_h026_q1",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "每件利润 3 元，固定成本已收回。卖出件数 x 满足 3x>21 时才有超过 21 元的利润。x 的最小正整数是多少？",
+   "explain": "3x>21，x>7，最小正整数是 8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h026_q2",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长方形长比宽多 2，宽为 x，面积小于 15，且 x 是正整数。x=2 时面积是多少？",
+   "explain": "宽 2、长 4，面积 8，确实小于 15。本题先求这个具体面积。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h016_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 a=b，则 a+3 与 b+3 的差是多少？",
+   "explain": "等式两边加同一个数仍相等，差是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h016_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面哪个是不等式？",
+   "explain": "含有大于、小于等不等号、并且表示大小关系的才是不等式。",
+   "options": [
+    "x+1>0",
+    "x+1=0",
+    "x+1",
+    "{x | x>0}"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h017_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "不等式 x≥4 的不大于 7 的整数解有几个？",
+   "explain": "4、5、6、7 共 4 个。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h017_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "不等式 x>1 的解集是？",
+   "explain": "没有写「整数」时，解集是实数范围，而且不含等于 1。",
+   "options": [
+    "只有 2",
+    "所有大于 1 的实数",
+    "所有大于或等于 1 的实数",
+    "所有正整数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h018_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "两边都乘以 −3 时，不等号应该？",
+   "explain": "乘以或除以负数，不等号方向改变。",
+   "options": [
+    "保持方向",
+    "改变方向",
+    "改成等号",
+    "去掉不等号"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h018_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 a−b=5，且 a>b 记为 1，则应回答多少？",
+   "explain": "差是正数，说明 a 大于 b。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h019_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "7² 与 50 的差是多少？",
+   "explain": "49−50=−1，所以 7² 小于 50。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h019_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "两式作差得到 0，说明？",
+   "explain": "差为 0 就是相等；差为正前者大，差为负前者小。",
+   "options": [
+    "前者更大",
+    "后者更大",
+    "无法比较",
+    "两式相等"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h020_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "不等式 −2≤x<2 的整数解有几个？",
+   "explain": "含 −2，不含 2，共 4 个。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h020_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "不等式 x>3 的整数解里，最小的一个是？",
+   "explain": "大于 3 的整数从 4 开始。3 本身不满足大于。",
+   "options": [
+    "4",
+    "3",
+    "5",
+    "不存在"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h021_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "基本不等式 (a+b)/2 ≥ √(ab) 等号成立的条件是？",
+   "explain": "两个正数相等时，算术平均数和几何平均数相等。",
+   "options": [
+    "a=b 且 a、b 为正数",
+    "a、b 只要为正",
+    "a+b=1",
+    "ab=1"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h021_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "正数 1 和 1 的算术平均数减去几何平均数，结果是多少？",
+   "explain": "两者都是 1，差为 0，等号成立。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h022_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "正数 x 满足 x+4/x 能取最小值。最小值是多少？",
+   "explain": "x 与 4/x 的积是 4，和的最小值是 2√4=4，在 x=2 时取到。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h022_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用基本不等式求最值时，如果等号条件达不到，应该？",
+   "explain": "等号取不到时，这个界不是最小值或最大值。",
+   "options": [
+    "仍然写成最值",
+    "把不等号改成等号",
+    "不能把该值当作最值",
+    "改用负数再求"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h023_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "方程 x²−4=0 的正根是多少？",
+   "explain": "x²=4，实根是 −2 和 2，正根是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h023_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "二次函数 y=x²+1 的图象与 x 轴有几个交点？",
+   "explain": "x²+1=0 没有实数根，图象整条都在 x 轴上方。",
+   "options": [
+    "1 个",
+    "2 个",
+    "无数个",
+    "0 个"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h024_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "不等式 x²−4>0 且绝对值小于 4 的整数解有几个？",
+   "explain": "x²>4 得 x<−2 或 x>2，再限制 −4<x<4，整数解只有 −3 和 3，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h024_q4",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "不等式 (x−1)(x−4)<0 的整数解之和是多少？",
+   "explain": "解集是 1<x<4，整数解 2 和 3，和为 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h025_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "y=x²+2x+k 的最小值是 k−1。若最小值等于 3，k 是多少？",
+   "explain": "配方得 (x+1)²+k−1，最小值 k−1=3，k=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h025_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "开口向上的二次函数若要整条图象都在 x 轴上方，判别式应？",
+   "explain": "没有交点才整条在上方，判别式小于 0。等于 0 时会碰到 x 轴。",
+   "options": [
+    "等于 0",
+    "小于 0",
+    "大于 0",
+    "可以是任意实数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h026_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "某商品单价不超过 20 元、不低于 12 元。可能的整数单价有几个？",
+   "explain": "12 到 20 的整数共 9 个。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_h026_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用不等式解决实际问题时，求出的解还要？",
+   "explain": "长度、件数等有实际限制，不合实际的解要舍去。",
+   "options": [
+    "一律保留负数",
+    "只保留方程的根",
+    "检查是否符合实际意义",
+    "不必再看单位"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h027_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下面哪个对应是从实数集到实数集的函数？",
+   "explain": "函数要求每个 x 只对应一个 y。两个平方根、y²=x 和「任意一个」都不唯一。",
+   "options": [
+    "每个 x 对应 x+1",
+    "每个正数对应它的两个平方根",
+    "y²=x",
+    "每个 x 可以对应任意一个不小于它的数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h027_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=2x+1，求 f(3)。",
+   "explain": "把 x=3 代入，2×3+1=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h028_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=1/(x−2)。在 1，2，3 这三个数中，有几个在定义域内？",
+   "explain": "分母不能为 0，x=2 除外，1 和 3 可以，共 2 个。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h028_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=√(x−1) 的定义域中，1 到 5 的整数有几个？",
+   "explain": "被开方数大于或等于 0，x≥1。1 到 5 的整数共 5 个。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h029_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x+1，x∈{0，1，2}。函数值中的最大值是多少？",
+   "explain": "三个函数值是 1、2、3，最大是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h029_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=−x² 的最大值是多少？",
+   "explain": "平方项非负，前面带负号后最大是 0，在 x=0 处取到。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h030_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "表格中 x=1 时 y=4，x=2 时 y=7。这两个函数值的差 y(2)−y(1) 是多少？",
+   "explain": "列表法直接读数，7−4=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h030_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "函数用列表表示：f(1)=2，f(2)=5，f(4)=11。求 f(1)+f(4)。",
+   "explain": "列表法直接读出对应值，f(1)=2，f(4)=11，和是 13。",
+   "answer": 13
+  },
+  {
+   "id": "cnm_h031_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "x<0 时 f(x)=x+1，x≥0 时 f(x)=2x。求 f(−2)。",
+   "explain": "−2 小于 0，用第一段，−2+1=−1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h031_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "x<0 时 f(x)=x+1，x≥0 时 f(x)=2x。求 f(3)。",
+   "explain": "3≥0，用第二段 f(x)=2x，2×3=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h032_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "f(x)=2x+1 在实数集上是？",
+   "explain": "斜率 2 为正，x 增大时 y 增大。",
+   "options": [
+    "减函数",
+    "增函数",
+    "先增后减",
+    "不具有单调性"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h032_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "f(x)=−3x+1 在实数集上是？",
+   "explain": "斜率是负数，x 增大时 y 减小。",
+   "options": [
+    "增函数",
+    "先减后增",
+    "减函数",
+    "常函数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h033_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=3x−1。取 x1=1，x2=4，计算 f(x2)−f(x1)。",
+   "explain": "11−2=9，差为正，这两点符合递增。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_h033_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=−x。x2−x1=2 时，f(x2)−f(x1) 等于多少？",
+   "explain": "f(x2)−f(x1)=−(x2−x1)=−2，差为负，说明递减。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h034_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x²，x∈[−1，2]。最大值是多少？",
+   "explain": "端点 −1 和 2 的函数值是 1 和 4，顶点 0 的值是 0。最大是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h034_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x²，x∈[−1，2]。最小值是多少？",
+   "explain": "顶点 x=0 在区间 [−1，2] 内，f(0)=0；端点值是 1 和 4。最小值是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h035_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "f(x)=x² 是？",
+   "explain": "f(−x)=(−x)²=x²=f(x)，定义域关于原点对称，是偶函数。",
+   "options": [
+    "偶函数",
+    "奇函数",
+    "既奇又偶",
+    "非奇非偶"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h035_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "f(x)=x³ 是？",
+   "explain": "f(−x)=−x³=−f(x)，是奇函数。",
+   "options": [
+    "偶函数",
+    "奇函数",
+    "既奇又偶",
+    "非奇非偶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h036_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "偶函数 f(2)=7。f(−2) 是多少？",
+   "explain": "偶函数关于 y 轴对称，相反自变量的函数值相等。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h036_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "奇函数 f(2)=7。f(−2) 是多少？",
+   "explain": "奇函数关于原点对称，f(−2)=−f(2)=−7。",
+   "answer": -7
+  },
+  {
+   "id": "cnm_h037_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "幂函数 y=x³，求 x=2 时的函数值。",
+   "explain": "2 的立方是 8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h038_q1",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "每本笔记本 4 元，买 x 本的金额 f(x)=4x。买 6 本多少元？",
+   "explain": "4×6=24 元。",
+   "answer": 24
+  },
+  {
+   "id": "cnm_h038_q2",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正方形边长 x，面积 s=x²。边长 5 时面积是多少？",
+   "explain": "面积是边长的平方，等于 25。",
+   "answer": 25
+  },
+  {
+   "id": "cnm_h027_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "g(x)=x²，求 g(−2)。",
+   "explain": "平方后是 4，与 −2 的符号无关。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h027_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "f(x)=x 与 g(t)=t 是否表示同一个函数？",
+   "explain": "函数由定义域和对应关系决定，自变量用哪个字母不影响。",
+   "options": [
+    "不是，字母不同",
+    "不是，一个叫 f 一个叫 g",
+    "只有值域相同才算同一个",
+    "是，对应关系相同且定义域都是实数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h028_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "f(x)=1/x 的定义域是？",
+   "explain": "分母不能为 0，其余实数都可以。",
+   "options": [
+    "全体实数",
+    "全体正数",
+    "只有 1",
+    "全体非零实数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h028_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=√(4−x)+1/(x−1)。x=0 是否在定义域内？在回答 1，不在回答 0。",
+   "explain": "4−0≥0，且 0≠1，两个条件都满足。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h029_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=x²，x∈{−1，2}。两个函数值的和是多少？",
+   "explain": "1+4=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h029_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=2^x（x 为实数，底数 2）的值域是？",
+   "explain": "指数函数值恒正，可以任意接近 0 但取不到 0，也可以任意大。",
+   "options": [
+    "全体实数",
+    "全体正实数",
+    "全体非负实数",
+    "大于或等于 1 的实数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h030_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "图象经过点 (2，5)。当 x=2 时函数值是多少？",
+   "explain": "点的纵坐标就是对应的函数值。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h030_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "只给出四个对应点的表格，能否确定全体实数上的唯一函数？",
+   "explain": "表格只给出已列出的对应。没有声明定义域和全部对应时，不能唯一确定整个函数。",
+   "options": [
+    "能，表格一旦写出就唯一",
+    "能，只要点在一条直线上",
+    "不能",
+    "只有画成曲线才不能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h031_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "出租车：3 公里及以内 10 元，超出部分每公里 2 元。行驶 5 公里的车费是多少元？",
+   "explain": "超出 2 公里，10+4=14 元。",
+   "answer": 14
+  },
+  {
+   "id": "cnm_h031_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "分段函数在分段点处要特别检查什么？",
+   "explain": "分界点只能属于一段，对应的函数值必须唯一。",
+   "options": [
+    "分段点可以对应两个值",
+    "分段点必须没有定义",
+    "两段解析式必须相同",
+    "这一点到底用哪一段，以及函数值是否唯一"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h032_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=2x+1。f(4)−f(1) 是多少？",
+   "explain": "9−3=6，差为正，与递增一致。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h032_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=x² 在 [0，+∞) 上是？",
+   "explain": "顶点在原点，右侧 x 越大，平方越大。",
+   "options": [
+    "增函数",
+    "减函数",
+    "先增后减",
+    "没有单调性"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h033_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "证明 f(x)=x+1 递增时，f(x2)−f(x1) 等于 x2−x1。若 x2−x1=5，这个差是多少？",
+   "explain": "差就是 x2−x1，为正，所以递增。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h033_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用定义说明 f 在区间上递增，需要对 x1<x2 证明？",
+   "explain": "区间上任意的 x1<x2 都要有 f(x1)<f(x2)，不能只看几个点。",
+   "options": [
+    "f(x1)>f(x2)",
+    "f(x1)<f(x2)",
+    "f(x1)=f(x2)",
+    "只对整数成立即可"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h034_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=−(x−1)²+5 的最大值是多少？",
+   "explain": "平方项前是负号，最大值为 5，在 x=1 处取到。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h034_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "闭区间上的连续函数最值可能在哪里取到？",
+   "explain": "二次函数要比较顶点是否落在区间内，再和端点比较。",
+   "options": [
+    "只在端点",
+    "只在区间中点",
+    "端点或区间内的顶点、极值点",
+    "一定在区间外"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h035_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=x²。计算 f(2)+f(−2)。",
+   "explain": "偶函数在相反自变量处的值相同，4+4=8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h035_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=x³。计算 f(2)+f(−2)。",
+   "explain": "8+(−8)=0，这是奇函数的特点。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h036_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "既是奇函数又是偶函数，且 f(3)=0 已经给出。f(0) 应是多少？",
+   "explain": "奇函数若在 0 处有定义，f(0)=0。既奇又偶的函数只能恒为 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h036_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "f(x)=x²+x 的奇偶性是？",
+   "explain": "f(−x)=x²−x，既不等于 f(x)，也不等于 −f(x)。",
+   "options": [
+    "非奇非偶",
+    "奇函数",
+    "偶函数",
+    "既奇又偶"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h037_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在 (0，+∞) 上，下面哪个幂函数是减函数？",
+   "explain": "y=1/x 在正半轴上随 x 增大而减小；另外三个在正半轴上递增。",
+   "options": [
+    "y=1/x",
+    "y=x",
+    "y=x²",
+    "y=x³"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h037_q4",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "y=√x，x=9 时函数值是多少？",
+   "explain": "9 的算术平方根是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h038_q3",
+   "unit": "u3",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "路程 s=60t，t 的单位是小时。2 小时行多少千米？",
+   "explain": "速度 60 千米每小时，2 小时是 120 千米。",
+   "answer": 120
+  },
+  {
+   "id": "cnm_h038_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把实际问题写成函数时，首先要确认？",
+   "explain": "件数、边长等不能随便取全体实数，定义域要符合实际。",
+   "options": [
+    "只用字母、不必管范围",
+    "函数值可以随便重复对应多个",
+    "自变量的实际取值范围",
+    "必须是二次函数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h039_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 8 的 2/3 次方。结果是整数。",
+   "explain": "8=2³，(2³)^(2/3)=2²=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h040_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 2³×2⁴。",
+   "explain": "指数相加，2⁷=128。",
+   "answer": 128
+  },
+  {
+   "id": "cnm_h040_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 3⁵÷3²。",
+   "explain": "指数相减，3³=27。",
+   "answer": 27
+  },
+  {
+   "id": "cnm_h041_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=2^x，求 f(5)。",
+   "explain": "2⁵=32。",
+   "answer": 32
+  },
+  {
+   "id": "cnm_h041_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=3^x，求 f(0)。",
+   "explain": "非零数的 0 次方是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h042_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=2^x 在实数集上是？",
+   "explain": "底数 2 大于 1，指数函数递增。",
+   "options": [
+    "减函数",
+    "先增后减",
+    "不单调",
+    "增函数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h042_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=(1/2)^x 在实数集上是？",
+   "explain": "底数在 0 和 1 之间，指数函数递减。",
+   "options": [
+    "减函数",
+    "增函数",
+    "先减后增",
+    "常函数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h043_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 log₂32。",
+   "explain": "2⁵=32，所以对数是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h043_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 lg1000，即常用对数 log₁₀1000。",
+   "explain": "10³=1000，所以是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h044_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 log₂8+log₂4。",
+   "explain": "3+2=5，也可以写成 log₂32。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h044_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 log₂16−log₂2。",
+   "explain": "4−1=3，即 log₂8。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h045_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 log₄16。",
+   "explain": "16=4²，也可以按换底：log₂16 / log₂4 = 4/2 = 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h046_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=log₂x，求 f(16)。",
+   "explain": "2⁴=16，函数值是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h046_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=log₂x 的定义域是？",
+   "explain": "真数必须大于 0，底数已经是常数 2。",
+   "options": [
+    "全体正实数",
+    "全体实数",
+    "全体非负实数",
+    "大于或等于 1 的实数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h047_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=log₂x 在 (0，+∞) 上是？",
+   "explain": "底数 2 大于 1，对数函数递增。",
+   "options": [
+    "增函数",
+    "减函数",
+    "先增后减",
+    "不单调"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h047_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=log_(1/2) x 在定义域上是？",
+   "explain": "底数在 0 和 1 之间，对数函数递减。",
+   "options": [
+    "增函数",
+    "减函数",
+    "先减后增",
+    "常函数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h048_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 log₂(2⁵)。",
+   "explain": "对数与指数互逆，结果就是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h048_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 2^(log₂16)。",
+   "explain": "先取对数再作指数，回到真数 16。",
+   "answer": 16
+  },
+  {
+   "id": "cnm_h049_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x²−4 的正零点是多少？",
+   "explain": "x²=4，零点是 −2 和 2，正的是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h049_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x−5 的零点是多少？",
+   "explain": "x−5=0，零点是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h050_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "区间 (1，3) 的中点是多少？",
+   "explain": "中点是 (1+3)/2=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h050_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "f(x)=x²−4。计算 f(2)。",
+   "explain": "4−4=0，说明 2 就是零点，不必再分。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h051_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某种细菌每小时数量变为原来的 2 倍，开始有 100 个。3 小时后有多少个？",
+   "explain": "指数模型 100×2³=800。",
+   "answer": 800
+  },
+  {
+   "id": "cnm_h051_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "匀速行驶 s=40t。3 小时的路程是多少？",
+   "explain": "一次模型，40×3=120。",
+   "answer": 120
+  },
+  {
+   "id": "cnm_h052_q1",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "按模型 P=20+3t，t=10 时的值是多少？",
+   "explain": "20+30=50。",
+   "answer": 50
+  },
+  {
+   "id": "cnm_h052_q2",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "按模型 N=5·2^t，t=4 时的值是多少？",
+   "explain": "5×16=80。",
+   "answer": 80
+  },
+  {
+   "id": "cnm_h039_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 16 的 1/2 次方。",
+   "explain": "16 的算术平方根是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h039_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "a^(1/2) 在 a≥0 时等于？",
+   "explain": "分数指数 1/2 就是算术平方根。",
+   "options": [
+    "a²",
+    "1/a",
+    "2a",
+    "√a"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h040_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (2³)²。",
+   "explain": "幂的乘方，指数相乘，2⁶=64。",
+   "answer": 64
+  },
+  {
+   "id": "cnm_h040_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "同底数幂相乘，指数应该？",
+   "explain": "a^m·a^n=a^(m+n)。指数相乘是幂的乘方。",
+   "options": [
+    "相加",
+    "相乘",
+    "相减后再取倒数",
+    "不变"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h041_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面哪个是指数函数？",
+   "explain": "指数函数是底数为常数、指数为自变量，并且没有另外的系数和常数项。y=2^x+1 是指数函数的平移。",
+   "options": [
+    "y=x²",
+    "y=2^x",
+    "y=2·x",
+    "y=2^x+1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h042_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "比较 2⁵ 与 2³，计算 2⁵−2³。",
+   "explain": "32−8=24，差为正，所以 2⁵ 更大，与递增一致。",
+   "answer": 24
+  },
+  {
+   "id": "cnm_h042_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "2^x=8 时，x 是多少？",
+   "explain": "8=2³，所以 x=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h043_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 log₂(1/8)。",
+   "explain": "2⁻³=1/8，对数是 −3。",
+   "answer": -3
+  },
+  {
+   "id": "cnm_h043_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "log₂8=3 的含义是？",
+   "explain": "对数回答的是指数：底数的这个指数次方等于真数。",
+   "options": [
+    "8³=2",
+    "2×3=8",
+    "3²=8",
+    "2³=8"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h044_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 2·log₂8。",
+   "explain": "2×3=6，等于 log₂(8²)=log₂64。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h044_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "log_a(MN) 等于？",
+   "explain": "积的对数等于对数之和。商的对数才是相减。",
+   "options": [
+    "log_a M + log_a N",
+    "log_a M · log_a N",
+    "log_a M − log_a N",
+    "log_a(M+N)"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h045_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 log₄(1/16)。",
+   "explain": "1/16=4⁻²，结果是 −2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h045_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "换底公式 log_a b = ？",
+   "explain": "分子是新底数下的真数，分母是新底数下的原底数。",
+   "options": [
+    "log_c a / log_c b",
+    "log_c b / log_c a",
+    "log_c a · log_c b",
+    "log_c(a·b)"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h046_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "log₂x=5 时，x 是多少？",
+   "explain": "x=2⁵=32。",
+   "answer": 32
+  },
+  {
+   "id": "cnm_h046_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=log₂x 的图象经过哪个点？",
+   "explain": "任何合法底数的对数，真数为 1 时对数是 0，所以过 (1，0)。",
+   "options": [
+    "(0，1)",
+    "(0，0)",
+    "(1，0)",
+    "(2，0)"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h047_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "比较 log₂16 与 log₂4，计算它们的差。",
+   "explain": "4−2=2，差为正，前者更大。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h047_q4",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "log₂x>3 时，x 的一个整数下界可以取 2³ 的下一个整数。2³ 等于多少？",
+   "explain": "因为递增，log₂x>3 就是 x>8。8 本身不满足大于。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h048_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 f(x)=2^x，f⁻¹(8) 是多少？",
+   "explain": "反函数是 log₂x，log₂8=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h048_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=2^x 与 y=log₂x 的图象关于哪条直线对称？",
+   "explain": "互为反函数的图象关于直线 y=x 对称。",
+   "options": [
+    "y=x",
+    "y 轴",
+    "x 轴",
+    "y=−x"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h049_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "f(x)=x²−5x+6 的零点之和是多少？",
+   "explain": "零点是 2 和 3，和为 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h049_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若 f(1)=−3，f(3)=5，且 f 的图象连续，则？",
+   "explain": "两端函数值异号，连续图象至少穿过一次 x 轴。",
+   "options": [
+    "一定没有零点",
+    "在 (1，3) 内至少有一个零点",
+    "零点只能是 1",
+    "零点一定是 3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h050_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "区间 (0，4) 做一次二分后，若零点在左半边，新区间右端点是多少？",
+   "explain": "中点是 2，左半区间是 (0，2)，右端点是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h050_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "二分法每次把含根区间怎样处理？",
+   "explain": "中点函数值与哪个端点异号，零点就落在那一半。",
+   "options": [
+    "只保留长度较长的一半",
+    "随机丢掉一个端点",
+    "用中点分成两半，保留函数值异号的那一半",
+    "同时保留两个半区间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h051_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "正方形边长每增加 1，面积按平方增加。边长从 0 增到 6 时面积是多少？",
+   "explain": "面积模型 s=x²，x=6 时面积 36。",
+   "answer": 36
+  },
+  {
+   "id": "cnm_h051_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数量每经过相同时间就乘同一个大于 1 的常数，更适合？",
+   "explain": "成倍增长是指数变化，不是每次加同一个数。",
+   "options": [
+    "一次函数模型",
+    "反比例函数模型",
+    "常数函数模型",
+    "指数函数模型"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h052_q3",
+   "unit": "u4",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "模型 y=100−8t 在 t=5 时的值是多少？",
+   "explain": "100−40=60。",
+   "answer": 60
+  },
+  {
+   "id": "cnm_h052_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用函数模型预测之后，还应该？",
+   "explain": "模型是近似。预测要接受检验，不合适就修改模型。",
+   "options": [
+    "用新的实际数据检验模型是否合适",
+    "把计算结果当成绝对事实",
+    "改掉所有不符合的数据",
+    "不再收集数据"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h055_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "按逆时针方向旋转形成的角是？",
+   "explain": "本图谱按教材约定：逆时针为正角，顺时针为负角。",
+   "options": [
+    "正角",
+    "负角",
+    "零角",
+    "直角"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h055_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "30° 再逆时针旋转一周，得到的角度数是多少？",
+   "explain": "一周是 360°，30+360=390。",
+   "answer": 390
+  },
+  {
+   "id": "cnm_h056_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "与 400° 终边相同、且在 0° 到 360° 之间的角是多少度？",
+   "explain": "400−360=40，两者相差一整周。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_h056_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "与 60° 终边相同的角 −300°，两者相差多少度？",
+   "explain": "60−(−300)=360，正好相差一周。",
+   "answer": 360
+  },
+  {
+   "id": "cnm_h057_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "π 弧度等于多少度？",
+   "explain": "按照换算，π 弧度是 180°。",
+   "answer": 180
+  },
+  {
+   "id": "cnm_h057_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "半径等于弧长时，圆心角是多少弧度？",
+   "explain": "弧度等于弧长除以半径。两者相等时，圆心角是 1 弧度。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h058_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "π/6 弧度等于多少度？",
+   "explain": "180°/6=30°。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_h059_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "半径为 5、圆心角为 2 弧度，弧长是多少？",
+   "explain": "弧度制下弧长 = 半径 × 圆心角，5×2=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h059_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "半径为 4、弧长为 8，圆心角是多少弧度？",
+   "explain": "圆心角 = 弧长 / 半径 = 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h060_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 sin90°。",
+   "explain": "终边在 y 轴正方向，单位圆交点是 (0，1)，正弦是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h061_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 sin180°。",
+   "explain": "终边在 x 轴负方向，交点 (−1，0)，正弦是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h061_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 cos180°。",
+   "explain": "交点的横坐标是 −1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h062_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 sin²30°+cos²30°。",
+   "explain": "同角的正弦平方与余弦平方之和恒为 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h062_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "sinθ=3/5，求 25cos²θ。",
+   "explain": "cos²θ=1−(3/5)²=1−9/25=16/25，所以 25cos²θ=16。",
+   "answer": 16
+  },
+  {
+   "id": "cnm_h063_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "θ 为锐角，sinθ=1/2。求 2sinθ。",
+   "explain": "2×1/2=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h063_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 tan45°。",
+   "explain": "45° 时正弦和余弦相等，正切是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h064_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "sin(180°−α) 等于？",
+   "explain": "180°−α 与 α 的正弦相等。",
+   "options": [
+    "−sinα",
+    "sinα",
+    "cosα",
+    "−cosα"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h064_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "cos(180°−α) 等于？",
+   "explain": "落到第二象限时，余弦变号。",
+   "options": [
+    "cosα",
+    "sinα",
+    "−cosα",
+    "−sinα"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h066_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "y=sin x 的最大值是多少？",
+   "explain": "正弦的最大值为 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h066_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "y=sin x 的最小值是多少？",
+   "explain": "正弦的最小值为 −1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h067_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "y=sin x 在 [−π/2，π/2] 上是？",
+   "explain": "这一段从最小值 −1 升到最大值 1。",
+   "options": [
+    "增函数",
+    "减函数",
+    "先增后减",
+    "先减后增"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h067_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 sin0°。",
+   "explain": "0° 的终边在 x 轴正方向，纵坐标是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h068_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 cos0°。",
+   "explain": "单位圆交点 (1，0)，余弦是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h069_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 tan0°。",
+   "explain": "sin0°=0，cos0°=1，正切是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h069_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 tan45°。",
+   "explain": "sin45° 与 cos45° 相等，正切是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h070_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "sin(90°−30°) 等于 cos 多少度？只写这个角度数。",
+   "explain": "sin(90°−α)=cosα，这里 α=30°。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_h071_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 sin30°cos60°+cos30°sin60°。已知 sin30°=cos60°=1/2，cos30°=sin60°=√3/2。",
+   "explain": "(1/2)·(1/2)+(√3/2)·(√3/2)=1/4+3/4=1。这就是 sin90°。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h072_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (tan45°−tan0°)/(1+tan45°·tan0°)。",
+   "explain": "tan45°=1，tan0°=0，分子分母都是 1，结果是 1。这就是 tan45°。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h072_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 tan(45°−45°)。",
+   "explain": "0° 的正切是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h074_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 1−cos180°。",
+   "explain": "cos180°=−1，1−(−1)=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h075_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "y=2sin x 的最大值是多少？",
+   "explain": "A=2>0，最大值是振幅 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h075_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "y=sin(2x) 的最小正周期除以 π，结果是多少？",
+   "explain": "周期是 2π/2=π，再除以 π 得 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h076_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "y=2sin(2x+φ) 的振幅是多少？",
+   "explain": "A=2，振幅是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h076_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "ω=2 时，最小正周期除以 π 是多少？",
+   "explain": "T=2π/ω=π，除以 π 得 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h077_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个正弦型函数最大值是 5，最小值是 −1。振幅是多少？",
+   "explain": "最大值与最小值的差的一半是 (5+1)/2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h077_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个正弦型函数最大值是 5，最小值是 −1。平衡位置是多少？",
+   "explain": "平衡位置是最大值与最小值的平均，(5+(−1))/2=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h078_q1",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "温度按 y=10+8sin(ωt) 变化。最高温度是多少？",
+   "explain": "正弦最大是 1，最高温度是 10+8=18。",
+   "answer": 18
+  },
+  {
+   "id": "cnm_h078_q2",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "温度按 y=10+8sin(ωt) 变化。最低温度是多少？",
+   "explain": "正弦的最小值是 −1，最低温度是 10+8×(−1)=10−8=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h055_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "30° 再顺时针旋转一周，得到的角度数是多少？",
+   "explain": "顺时针为负，30−360=−330。",
+   "answer": -330
+  },
+  {
+   "id": "cnm_h055_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "任意角与 0° 到 360° 内的角相比？",
+   "explain": "任意角把旋转继续下去，不限制在一周以内。",
+   "options": [
+    "只能是锐角",
+    "不能超过 180°",
+    "不能是 0°",
+    "还可以是负角或超过一周的角"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h056_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "终边相同的两个角相差？",
+   "explain": "多转或少转若干整周，终边回到同一位置。",
+   "options": [
+    "180° 的整数倍",
+    "90°",
+    "必须相等",
+    "360° 的整数倍"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h056_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "−20° 加上多少度后，落在 0° 到 360° 内并与它终边相同？",
+   "explain": "−20+360=340，加的是一周。",
+   "answer": 360
+  },
+  {
+   "id": "cnm_h057_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "弧度制用什么来度量角？",
+   "explain": "θ=l/r，这个比是不名数，单位记为弧度。",
+   "options": [
+    "弧长与半径的比",
+    "弧长与直径的和",
+    "角度数本身",
+    "扇形面积"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h057_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "2π 弧度等于多少度？",
+   "explain": "两周的一半是一周，2π 弧度等于 360°。",
+   "answer": 360
+  },
+  {
+   "id": "cnm_h058_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "π/2 弧度等于多少度？",
+   "explain": "π/2 弧度是 90°。",
+   "answer": 90
+  },
+  {
+   "id": "cnm_h058_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "30° 等于多少弧度？",
+   "explain": "30° 是 180° 的 1/6，所以是 π/6。",
+   "options": [
+    "π/3",
+    "π/4",
+    "π/6",
+    "π/2"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h059_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "半径为 3、圆心角为 1 弧度，弧长是多少？",
+   "explain": "弧长等于半径 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h059_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "公式 l=|α|r 里的 α 必须用？",
+   "explain": "这个公式只在 α 用弧度时成立。用角度要先换算。",
+   "options": [
+    "角度",
+    "百分数",
+    "弧长本身",
+    "弧度"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h060_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 cos0°。",
+   "explain": "终边在 x 轴正方向，交点是 (1，0)，余弦是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h060_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "单位圆上，正弦对应该点的？",
+   "explain": "余弦是横坐标，正弦是纵坐标。单位圆上这点到原点的距离是 1。",
+   "options": [
+    "纵坐标",
+    "横坐标",
+    "到原点的距离",
+    "圆心角的度数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h061_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 sin270°。",
+   "explain": "终边在 y 轴负方向，纵坐标是 −1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h061_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "第二象限内，正弦和余弦的符号是？",
+   "explain": "第二象限的点横坐标为负、纵坐标为正。",
+   "options": [
+    "都为正",
+    "正弦为正，余弦为负",
+    "正弦为负，余弦为正",
+    "都为负"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h062_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "cosθ=0 时，sin²θ 是多少？",
+   "explain": "由平方和为 1，sin²θ=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h062_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "sin²θ+cos²θ 恒等于？",
+   "explain": "这是同角三角函数的基本关系，对使式子有意义的角都成立。",
+   "options": [
+    "0",
+    "θ",
+    "1",
+    "2"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h063_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "θ 在 0° 到 90° 之间（含端点），且 cosθ=1。求 sinθ。",
+   "explain": "在这个范围内 cosθ=1 只有 θ=0°，正弦是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h063_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "已知 sinθ=1/2，且 θ 在第二象限。cosθ 的符号是？",
+   "explain": "第二象限余弦为负。余弦的绝对值由平方关系决定，符号由象限决定。",
+   "options": [
+    "正",
+    "零",
+    "可正可负",
+    "负"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h064_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "用诱导公式，sin150° 等于 sin 多少度？只写这个锐角的度数。",
+   "explain": "sin(180°−30°)=sin30°，对应的锐角是 30°。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_h064_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "诱导公式的作用主要是？",
+   "explain": "公式把角变到 0° 到 90°，再使用特殊角的值。",
+   "options": [
+    "把任意角的三角函数化为锐角三角函数",
+    "只用来求 90°",
+    "代替弧度制",
+    "只能用于正切"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h065_q4",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 cos360°。",
+   "explain": "与 0° 终边相同，余弦是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h066_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "y=sin x（x 为弧度）的最小正周期除以 π，结果是多少？",
+   "explain": "最小正周期是 2π，除以 π 得 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h066_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=sin x 的定义域是？",
+   "explain": "任意实数都有正弦。正切才在 π/2 等处没有定义。",
+   "options": [
+    "全体正数",
+    "不等于 π/2 的实数",
+    "全体实数",
+    "0 到 π"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h067_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 sin(−90°)，也就是 −π/2 弧度的正弦。",
+   "explain": "正弦是奇函数，sin(−90°)=−sin90°=−1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h067_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=sin x 在 [π/2，3π/2] 上整体是？",
+   "explain": "这一段正弦从 1 减到 −1，余弦不为正，整个区间递减。",
+   "options": [
+    "增函数",
+    "先减后增",
+    "常函数",
+    "减函数"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h068_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 cos180°。",
+   "explain": "交点 (−1，0)，余弦是 −1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h068_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=cos x 的奇偶性是？",
+   "explain": "cos(−x)=cos x，图象关于 y 轴对称。",
+   "options": [
+    "偶函数",
+    "奇函数",
+    "既奇又偶",
+    "非奇非偶"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h069_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "在 0° 到 90° 之间，tan x=1 的角度数是多少？",
+   "explain": "45° 的正切等于 1，这一范围内没有第二个解。",
+   "answer": 45
+  },
+  {
+   "id": "cnm_h069_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=tan x 在 x=90° 处？",
+   "explain": "90° 的余弦是 0，正切的分母为 0，没有定义。",
+   "options": [
+    "等于 0",
+    "没有定义",
+    "等于 1",
+    "等于 −1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h070_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 sin45°cos45°−cos45°sin45°。",
+   "explain": "两项相同，差是 0。这也是 sin0°。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h070_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "sin(α−β) 等于？",
+   "explain": "差角的正弦是正弦余弦交叉相乘再相减。和角才是中间的加号。",
+   "options": [
+    "sinα cosβ + cosα sinβ",
+    "cosα cosβ − sinα sinβ",
+    "sinα cosβ − cosα sinβ",
+    "sinα sinβ − cosα cosβ"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h071_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 sin(45°+45°)。",
+   "explain": "45°+45°=90°，sin90°=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h071_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "sin(α+β) 等于？",
+   "explain": "和角的正弦是两项都带正弦余弦、中间为加号。减号是差角公式。",
+   "options": [
+    "sinα cosβ − cosα sinβ",
+    "cosα cosβ − sinα sinβ",
+    "cosα cosβ + sinα sinβ",
+    "sinα cosβ + cosα sinβ"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h072_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 1+tan45°·tan0°。",
+   "explain": "tan0°=0，所以积是 0，和是 1。分母不为 0，公式可以用。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h072_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "tan(α+β) 的公式在什么时候不能用？",
+   "explain": "分母为 0 时和角的正切没有定义，或公式不能直接除。",
+   "options": [
+    "分母 1−tanα tanβ 等于 0",
+    "分子等于 0",
+    "α 是锐角",
+    "β=0°"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h073_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 cos(2×0°)。",
+   "explain": "0° 的二倍仍是 0°，余弦是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h073_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "cos2α 不可以写成？",
+   "explain": "2sinα cosα 是 sin2α，不是 cos2α。",
+   "options": [
+    "2cos²α−1",
+    "2sinα cosα",
+    "1−2sin²α",
+    "cos²α−sin²α"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h074_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 sin²0°+cos²0°。",
+   "explain": "平方和恒为 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h074_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "求值时如果出现 sin²α+cos²α，应先？",
+   "explain": "同角关系可以直接化简，不必再分别求正弦和余弦。",
+   "options": [
+    "换成 0",
+    "换成 2α",
+    "换成 1",
+    "换成 tanα"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h075_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 sin(0+π/2)。x 用弧度。",
+   "explain": "sin(π/2)=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h075_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=Asin(ωx+φ) 里，振幅是？",
+   "explain": "A 为负时图象上下翻转，振幅仍取绝对值。",
+   "options": [
+    "一定是 A 本身",
+    "ω",
+    "φ",
+    "A 的绝对值"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h076_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "求 sin(π/6−π/6)。",
+   "explain": "括号里是 0，正弦是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h076_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "y=sin(x+φ) 中的 φ 叫做？",
+   "explain": "φ 是 x=0 时相位的起点，称为初相。",
+   "options": [
+    "初相",
+    "振幅",
+    "周期",
+    "频率"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h077_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "只知道最大值和最小值，还不能确定？",
+   "explain": "最大、最小决定振幅和上下位置，周期要另给时间间隔。",
+   "options": [
+    "振幅",
+    "周期和初相",
+    "平衡位置",
+    "函数值的范围"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h078_q3",
+   "unit": "u5",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "摩天轮半径 2 米，中心离地 3 米。最高点离地多少米？",
+   "explain": "最高点比中心再高一个半径，3+2=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h078_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用 y=Asin(ωt+φ)+b 描述周期现象时，b 表示？",
+   "explain": "b 是上下波动的中心。最高是 b+|A|，最低是 b−|A|。",
+   "options": [
+    "最高点",
+    "周期",
+    "平衡位置",
+    "起步的时间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h053_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "数学建模的合理顺序是？",
+   "explain": "建模是一个来回修正的过程，检验之后还可以修改模型。",
+   "options": [
+    "先写结论再找问题",
+    "只收集数据不必建立模型",
+    "提出问题，收集数据，建立模型，求解并检验",
+    "检验失败就停止、不能修改模型"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h053_q2",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某建模小组记录了 4 组数据。若还缺少「检验」这一步，已完成的步骤数按「提问、收集、建模、求解」算是多少？",
+   "explain": "题中列出的四步已经做了，但还没有检验，所以已完成 4 步、并未结束。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h054_q1",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "水位每小时上升 3 厘米，开始时 20 厘米。4 小时后按一次模型是多少厘米？",
+   "explain": "每次加同一个数，用 y=20+3t，t=4 时是 32。",
+   "answer": 32
+  },
+  {
+   "id": "cnm_h054_q2",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "某种藻类每天变为原来的 2 倍，开始 6 单位。3 天后按指数模型是多少？",
+   "explain": "每次乘 2，用 6×2^t，t=3 时是 48。",
+   "answer": 48
+  },
+  {
+   "id": "cnm_h053_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "建立函数模型之后，计算结果和实测差很多，应该？",
+   "explain": "偏差大说明模型或假设不合适，要修改而不是改数据。",
+   "options": [
+    "回到假设或模型，修改后再检验",
+    "改实测数据去迎合模型",
+    "宣布问题无解",
+    "把差忽略不计"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h053_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数学建模活动的结果主要是？",
+   "explain": "模型回答实际问题，要说明假设和适用边界。",
+   "options": [
+    "一个没有单位的算式",
+    "一个经过检验的模型和它的适用范围",
+    "只是一张没有解释的表格",
+    "必须是精确相等的定理"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h054_q3",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "模型 y=20+3t 与实测在 t=2 时的值相同。这个共同值是多少？",
+   "explain": "20+6=26。相符只说明这一点拟合，不代表以后都准确。",
+   "answer": 26
+  },
+  {
+   "id": "cnm_h054_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数据大约每次增加同一个数，应优先尝试？",
+   "explain": "固定增量是线性变化。固定倍数才优先考虑指数模型。",
+   "options": [
+    "指数函数模型",
+    "对数函数模型",
+    "一次函数模型",
+    "常数函数"
+   ],
+   "answer": 3
+  }
+ ]
+}

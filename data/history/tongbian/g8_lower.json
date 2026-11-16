@@ -1,0 +1,1641 @@
+{
+ "schema_version": 1,
+ "subject": "history",
+ "grade": 8,
+ "semester": "lower",
+ "textbook": "统编版（初中历史）",
+ "questions": [
+  {
+   "id": "cnh_j066_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1949年9月中国人民政治协商会议通过的文件是？",
+   "explain": "《共同纲领》起临时宪法的作用。",
+   "options": [
+    "《中华人民共和国宪法》",
+    "《中华人民共和国土地改革法》",
+    "《论十大关系》",
+    "《中国人民政治协商会议共同纲领》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j066_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "开国大典举行于？",
+   "explain": "毛泽东在天安门宣告中华人民共和国中央人民政府成立。",
+   "options": [
+    "1949年10月1日",
+    "1949年9月21日",
+    "1951年5月23日",
+    "1949年4月23日"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j067_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1950年10月中国人民志愿军赴朝作战，司令员是？",
+   "explain": "彭德怀担任中国人民志愿军司令员。",
+   "options": [
+    "彭德怀",
+    "林彪",
+    "刘伯承",
+    "粟裕"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j067_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "抗美援朝战争结束于？",
+   "explain": "1953年7月美国在停战协定上签字。",
+   "options": [
+    "1950年10月",
+    "1953年7月",
+    "1951年",
+    "1949年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j068_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第一个五年计划的时间是？",
+   "explain": "一五计划集中力量发展重工业。",
+   "options": [
+    "1949年到1952年",
+    "1953年到1957年",
+    "1958年到1962年",
+    "1978年到1982年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j068_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "长春第一汽车制造厂是哪个计划的成就？",
+   "explain": "1956年长春一汽生产出第一辆解放牌汽车。",
+   "options": [
+    "土地改革",
+    "大跃进",
+    "第一个五年计划",
+    "改革开放"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j069_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1953年底周恩来首次提出和平共处五项原则，是在接见哪国代表团时？",
+   "explain": "周恩来在接见印度代表团时第一次提出。",
+   "options": [
+    "缅甸是随后共同倡导的国家之一",
+    "印度尼西亚",
+    "印度",
+    "日本"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j069_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "和平共处五项原则中包括？",
+   "explain": "五项原则后来成为处理国与国关系的基本准则。",
+   "options": [
+    "划分势力范围",
+    "输出革命",
+    "建立军事集团",
+    "互相尊重主权和领土完整"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j066_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中华人民共和国的首都定在？",
+   "explain": "政协会议决定定都北京。",
+   "options": [
+    "南京",
+    "北京",
+    "延安",
+    "上海"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j067_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1950年颁布的土地法律是？",
+   "explain": "土地改革废除封建土地所有制。",
+   "options": [
+    "《中国土地法大纲》是1947年的文件",
+    "《共同纲领》",
+    "《中华人民共和国土地改革法》",
+    "《五四宪法》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j068_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "三大改造基本完成、社会主义制度基本建立是在？",
+   "explain": "农业、手工业和资本主义工商业的社会主义改造基本完成。",
+   "options": [
+    "1949年",
+    "1954年",
+    "1978年",
+    "1956年底"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j069_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1955年周恩来在万隆会议上提出的方针是？",
+   "explain": "求同存异推动会议取得成功。",
+   "options": [
+    "求同存异",
+    "远交近攻",
+    "门户开放",
+    "一边倒"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j066_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1951年西藏实现和平解放，依据的是？",
+   "explain": "1951年西藏地方政府代表与中央人民政府签订协议，西藏和平解放。",
+   "options": [
+    "《共同纲领》代替了这份协议",
+    "《南京条约》",
+    "《中央人民政府和西藏地方政府关于和平解放西藏办法的协议》",
+    "《双十协定》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j067_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "土地改革基本完成是在？",
+   "explain": "到1952年底，除部分少数民族地区外，土地改革基本完成。",
+   "options": [
+    "1949年10月",
+    "1956年底",
+    "1978年",
+    "1952年底"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j068_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1954年颁布的《中华人民共和国宪法》是？",
+   "explain": "1954年宪法规定国家的性质和根本政治制度。",
+   "options": [
+    "第一部社会主义类型的宪法",
+    "临时宪法《共同纲领》",
+    "土地改革法",
+    "1982年宪法"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j069_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "万隆会议是？",
+   "explain": "1955年亚非29个国家和地区的政府代表团在万隆召开会议。",
+   "options": [
+    "不结盟运动首脑会议",
+    "亚非会议",
+    "联合国成立大会",
+    "巴黎和会"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j070_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1958年提出的建设口号和运动包括？",
+   "explain": "1958年轻率发动大跃进和人民公社化运动。",
+   "options": [
+    "改革开放",
+    "土地改革",
+    "抗美援朝",
+    "总路线、大跃进、人民公社化运动"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j070_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "文化大革命开始于？",
+   "explain": "1966年文化大革命发动。",
+   "options": [
+    "1966年",
+    "1958年",
+    "1976年",
+    "1978年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j071_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在兰考带领群众治理风沙的县委书记是？",
+   "explain": "焦裕禄被称作党的好干部。",
+   "options": [
+    "焦裕禄",
+    "王进喜",
+    "邓稼先",
+    "雷锋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j071_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "大庆石油工人王进喜被誉为？",
+   "explain": "王进喜用身体搅拌泥浆，压住井喷。",
+   "options": [
+    "两弹元勋",
+    "铁人",
+    "县委书记的榜样",
+    "雷锋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j072_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国第一颗原子弹爆炸成功是在？",
+   "explain": "1964年10月16日第一颗原子弹爆炸成功。",
+   "options": [
+    "1970年",
+    "1964年",
+    "1971年",
+    "1979年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j072_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1970年发射的第一颗人造地球卫星是？",
+   "explain": "东方红一号播送《东方红》乐曲。",
+   "options": [
+    "神舟五号",
+    "嫦娥一号",
+    "东方红一号",
+    "风云一号"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j070_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文化大革命结束于？",
+   "explain": "1976年粉碎江青反革命集团，文化大革命结束。",
+   "options": [
+    "1966年",
+    "1976年",
+    "1971年",
+    "1978年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j071_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "为我国原子弹事业作出重大贡献、被称作两弹元勋的是？",
+   "explain": "邓稼先长期隐姓埋名从事核武器研究。",
+   "options": [
+    "袁隆平",
+    "华罗庚",
+    "邓稼先",
+    "焦裕禄"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j072_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1971年10月，第26届联合国大会恢复的是？",
+   "explain": "中国恢复在联合国的一切合法权利。",
+   "options": [
+    "中日邦交正常化",
+    "中美建交",
+    "中国加入世界贸易组织",
+    "中国在联合国的合法席位"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j070_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1958年的大跃进和1966年到1976年的文化大革命，共同说明的史实是？",
+   "explain": "这些年代是探索中的严重曲折，年代本身可以核对。",
+   "options": [
+    "这些年代没有发生任何事件",
+    "经济建设完全没有成绩",
+    "探索过程中出现过严重曲折",
+    "外交完全中断"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j071_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "雷锋的事迹被概括为？",
+   "explain": "雷锋干一行爱一行，乐于助人。",
+   "options": [
+    "只在岗位上完成定额",
+    "拒绝参加任何集体活动",
+    "离开工作岗位去经商",
+    "全心全意为人民服务"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j072_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "1972年尼克松访华和1979年中美建交，顺序是？",
+   "explain": "1972年签署《联合公报》，1979年1月1日中美正式建交。",
+   "options": [
+    "先是尼克松访华，后是正式建交",
+    "先建交后访华",
+    "两者都在1964年",
+    "两者都在1971年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j073_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "十一届三中全会召开于？",
+   "explain": "会议在北京举行。",
+   "options": [
+    "1976年10月",
+    "1980年",
+    "1978年12月",
+    "1992年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j073_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "十一届三中全会作出的历史性决策是？",
+   "explain": "这次会议是改革开放的开端。",
+   "options": [
+    "继续以阶级斗争为纲",
+    "发动大跃进",
+    "设立经济特区的具体名单",
+    "把党和国家工作中心转移到经济建设上来，实行改革开放"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j074_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "家庭联产承包责任制最早在安徽得到突破的村子是？",
+   "explain": "1978年小岗村农民实行分田包产到户。",
+   "options": [
+    "华西村",
+    "大寨",
+    "深圳渔村",
+    "凤阳小岗村"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j074_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1980年设立的经济特区有？",
+   "explain": "这四个经济特区率先对外开放。",
+   "options": [
+    "深圳、珠海、汕头、厦门",
+    "海南、浦东、大连、青岛",
+    "上海、天津、广州、北京",
+    "香港、澳门、台湾、海南"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j075_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1984年进一步开放的是？",
+   "explain": "大连、秦皇岛、天津、烟台等14个沿海城市开放。",
+   "options": [
+    "14个沿海港口城市",
+    "4个经济特区首次设立",
+    "海南建省",
+    "浦东新区"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j075_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "农村改革推动下，乡镇企业的特点是？",
+   "explain": "乡镇企业为农民致富和工业化开辟了道路。",
+   "options": [
+    "全部属于外资企业",
+    "由农民兴办，容纳农村富余劳动力",
+    "只生产军火",
+    "取代了农业"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j076_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "提出社会主义初级阶段基本路线的会议是？",
+   "explain": "1987年中共十三大系统阐述社会主义初级阶段理论。",
+   "options": [
+    "中共十一届三中全会",
+    "中共十三大",
+    "中共十四大",
+    "中共十五大"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j076_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "基本路线的核心内容被概括为？",
+   "explain": "一个中心是经济建设，两个基本点是四项基本原则和改革开放。",
+   "options": [
+    "三步走的具体产值数字",
+    "四项基本原则单独一项",
+    "一个中心、两个基本点",
+    "改革开放单独一项"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j073_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "十一届三中全会上形成的领导核心是？",
+   "explain": "会议实际上形成了以邓小平为核心的党的第二代中央领导集体。",
+   "options": [
+    "邓小平",
+    "毛泽东",
+    "江泽民",
+    "胡锦涛"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j074_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "家庭联产承包责任制的主要内容是？",
+   "explain": "农民有了生产自主权，积极性大大提高。",
+   "options": [
+    "把土地收归公社统一耕种",
+    "分田包干到户，自负盈亏",
+    "取消农业生产",
+    "只在城市工厂试行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j075_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "城市改革的重点转向？",
+   "explain": "1984年以后改革重点从农村转向城市。",
+   "options": [
+    "只调整农村土地",
+    "取消市场",
+    "国有企业",
+    "恢复票证"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j076_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一个中心是指？",
+   "explain": "基本路线强调集中力量进行社会主义现代化建设。",
+   "options": [
+    "以阶级斗争为中心",
+    "以平均主义为中心",
+    "以闭关自守为中心",
+    "以经济建设为中心"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j073_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "为什么说这次会议是历史转折？",
+   "explain": "会后中国进入改革开放新时期。",
+   "options": [
+    "它恢复了丞相制度",
+    "它结束了徘徊局面，开启改革开放和社会主义现代化建设新时期",
+    "它取消了宪法",
+    "它使中国退出联合国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j074_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "海南成为经济特区是在？",
+   "explain": "1988年海南建省并成为经济特区。",
+   "options": [
+    "1980年",
+    "1984年",
+    "1988年",
+    "1992年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j075_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "全面展开阶段，对外开放的格局开始从经济特区走向？",
+   "explain": "开放由点到线、由线到面推进。",
+   "options": [
+    "内地完全封闭",
+    "只保留一个口岸",
+    "停止引进技术",
+    "沿海港口城市和沿海经济开放区"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j076_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "两个基本点是？",
+   "explain": "两者统一于建设中国特色社会主义的实践。",
+   "options": [
+    "坚持四项基本原则，坚持改革开放",
+    "计划经济和人民公社",
+    "一大二公",
+    "自强和求富"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j077_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1992年邓小平视察南方并发表谈话，强调？",
+   "explain": "南方谈话进一步解放了人们的思想。",
+   "options": [
+    "取消经济特区",
+    "恢复人民公社",
+    "计划和市场都是经济手段",
+    "停止对外开放"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j077_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共十四大确定我国经济体制改革的目标是？",
+   "explain": "1992年十四大提出建立社会主义市场经济体制。",
+   "options": [
+    "建立计划经济体制",
+    "取消商品交换",
+    "只发展农村经济",
+    "建立社会主义市场经济体制"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j078_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1997年中共十五大把什么确立为党的指导思想？",
+   "explain": "十五大把邓小平理论写入党章。",
+   "options": [
+    "毛泽东思想首次写入",
+    "三个代表",
+    "科学发展观",
+    "邓小平理论"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j078_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "香港回归祖国是在？",
+   "explain": "1997年7月1日，中国政府对香港恢复行使主权。1984年12月19日是中英联合声明签署日。",
+   "options": [
+    "1997年7月1日",
+    "1999年12月20日",
+    "1984年12月19日",
+    "1997年6月30日"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j079_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1997年7月1日进驻香港的是？",
+   "explain": "解放军进驻香港，是中国对香港恢复行使主权的重要标志。",
+   "options": [
+    "中国人民解放军驻香港部队",
+    "英国驻港军队继续独立指挥",
+    "联合国维和部队",
+    "志愿军"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j079_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "20世纪90年代中国与俄罗斯建立的关系是？",
+   "explain": "中俄建立战略协作伙伴关系，成为大国关系的重要内容。",
+   "options": [
+    "军事同盟",
+    "战略协作伙伴关系",
+    "宗藩关系",
+    "冷战对峙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j077_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "1990年国家决定开发开放的地区是？",
+   "explain": "浦东开发开放成为国家经济发展的重大战略步骤。深圳、海南的开放早于1990年。",
+   "options": [
+    "上海浦东",
+    "深圳",
+    "海南",
+    "青岛"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j078_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "澳门回归祖国是在？",
+   "explain": "1999年12月20日中国对澳门恢复行使主权。",
+   "options": [
+    "1997年7月1日",
+    "1999年12月20日",
+    "1999年12月19日中葡举行政权交接仪式的时刻教材常写20日",
+    "2000年1月1日"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j079_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "新时期军队建设强调？",
+   "explain": "军队走科技强军、精兵之路。",
+   "options": [
+    "恢复百万亩屯田",
+    "取消海军",
+    "走中国特色精兵之路",
+    "只保留民兵"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j077_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "南方谈话和十四大的先后顺序是？",
+   "explain": "谈话推动了十四大的决策。",
+   "options": [
+    "十四大在南方谈话之前十年",
+    "1992年初南方谈话，同年十四大召开",
+    "两者都在1978年",
+    "两者都在2001年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j078_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "香港、澳门回归的前提是？",
+   "explain": "一国两制保证回归后原有的资本主义制度长期不变。",
+   "options": [
+    "一国一制",
+    "联邦制",
+    "一国两制",
+    "托管"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j079_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "香港、澳门回归后，当地的防务由？",
+   "explain": "驻军法规定中央负责防务。",
+   "options": [
+    "原殖民军队继续负责",
+    "当地公司负责",
+    "联合国负责",
+    "中央人民政府负责"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j080_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中国加入世界贸易组织是在？",
+   "explain": "2001年12月11日中国成为世界贸易组织成员。",
+   "options": [
+    "1997年",
+    "2001年",
+    "1992年",
+    "2008年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j080_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2002年中共十六大提出的奋斗目标是？",
+   "explain": "十六大把全面建设小康社会定为新世纪最初二十年的目标。",
+   "options": [
+    "解决温饱",
+    "建立经济特区",
+    "全面建设小康社会",
+    "完成三大改造"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j081_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2007年中共十七大把什么写入党章？",
+   "explain": "科学发展观被确立为党的指导思想之一。",
+   "options": [
+    "三个代表首次提出",
+    "邓小平理论首次提出",
+    "科学发展观",
+    "人民公社章程"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j081_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2003年10月杨利伟乘坐的飞船是？",
+   "explain": "神舟五号任务使中国成为世界上第三个独立掌握载人航天技术的国家。",
+   "options": [
+    "东方红一号",
+    "神舟一号",
+    "嫦娥五号",
+    "神舟五号"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j082_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2008年12月起，中国海军在哪一海域护航？",
+   "explain": "海军舰艇编队赴亚丁湾、索马里海域执行护航任务。",
+   "options": [
+    "渤海",
+    "琼州海峡",
+    "台湾海峡",
+    "亚丁湾、索马里海域"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j082_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "新世纪国防和军队建设的方向是？",
+   "explain": "军队建设推进机械化信息化融合。",
+   "options": [
+    "机械化和信息化复合发展",
+    "取消常备军",
+    "只发展骑兵",
+    "把军队改为地方企业"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j080_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中共十六大把什么确立为党的指导思想？",
+   "explain": "三个代表重要思想被写入党章。",
+   "options": [
+    "邓小平理论首次提出",
+    "科学发展观",
+    "习近平新时代中国特色社会主义思想",
+    "三个代表重要思想"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j081_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "2006年全线通车的铁路是？",
+   "explain": "青藏铁路克服高寒缺氧等困难，贯通青海与西藏。",
+   "options": [
+    "青藏铁路",
+    "京张铁路",
+    "京沪高铁",
+    "宝成铁路"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j082_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中国在联合国维和行动中的角色是？",
+   "explain": "中国是联合国维和行动的重要出兵国。",
+   "options": [
+    "拒绝参加任何国际行动",
+    "派出维和人员参与维和",
+    "只接受他国军队进驻",
+    "退出联合国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j080_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "加入世贸组织对中国经济的直接影响是？",
+   "explain": "入世使中国市场与世界市场的联系更加紧密。",
+   "options": [
+    "更深地参与经济全球化",
+    "退出联合国",
+    "取消所有关税且不再有任何规则",
+    "关闭沿海城市"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j081_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "2008年北京举办的国际体育盛会是？",
+   "explain": "2008年北京奥运会成功举办。",
+   "options": [
+    "亚运会首次在中国举办的1990年北京亚运会",
+    "第二十九届夏季奥运会",
+    "冬奥会",
+    "世博会"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j082_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "这一课和前一课的分工是？",
+   "explain": "八下第五单元把建设成就和国防外交分成不同的课。",
+   "options": [
+    "两课都只写土地改革",
+    "两课都只写鸦片战争",
+    "前一课写小康社会建设成就，这一课写国防和外交",
+    "这一课写唐朝"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j083_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共十八大召开于？",
+   "explain": "十八大在北京召开。",
+   "options": [
+    "2012年",
+    "2007年",
+    "2017年",
+    "2022年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j083_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2012年提出中国梦的是？",
+   "explain": "中国梦的基本内涵是实现国家富强、民族振兴、人民幸福。",
+   "options": [
+    "邓小平",
+    "习近平",
+    "江泽民",
+    "胡锦涛"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j084_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共十九大召开于？",
+   "explain": "十九大把习近平新时代中国特色社会主义思想确立为党的指导思想。",
+   "options": [
+    "2012年",
+    "2017年",
+    "2002年",
+    "2022年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j084_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "精准扶贫针对的是？",
+   "explain": "精准扶贫要求扶持对象、项目、资金、措施、派人和成效都精准。",
+   "options": [
+    "全体城市居民的工资",
+    "海外留学生",
+    "建档立卡的贫困人口",
+    "上市公司"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j085_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2005年全国人民代表大会通过的相关法律是？",
+   "explain": "《反分裂国家法》把反对和遏制分裂国家的立场写成法律。香港基本法通过于1990年。",
+   "options": [
+    "《香港特别行政区基本法》",
+    "《澳门特别行政区基本法》",
+    "《反分裂国家法》",
+    "《土地改革法》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j085_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1992年海协会与海基会达成的共识被称为？",
+   "explain": "九二共识的核心是坚持一个中国原则。",
+   "options": [
+    "一国两制首次提出",
+    "和平共处五项原则",
+    "万隆精神",
+    "九二共识"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j086_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "2013年提出的国际合作设想是？",
+   "explain": "两者合称一带一路。",
+   "options": [
+    "马歇尔计划",
+    "门户开放",
+    "大东亚共荣圈",
+    "丝绸之路经济带和21世纪海上丝绸之路"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j086_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "人类命运共同体强调各国应当？",
+   "explain": "这一理念主张建设持久和平、普遍安全、共同繁荣的世界。",
+   "options": [
+    "相互尊重、合作共赢",
+    "划分势力范围",
+    "零和对抗",
+    "殖民扩张"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j083_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "两个一百年奋斗目标中，第一个一百年对应？",
+   "explain": "第二个一百年是到本世纪中叶建成社会主义现代化强国。",
+   "options": [
+    "新中国成立100年时建成社会主义现代化强国",
+    "清朝灭亡100年",
+    "中国共产党成立100年时全面建成小康社会",
+    "鸦片战争100年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j084_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我国宣告脱贫攻坚战取得全面胜利是在？",
+   "explain": "现行标准下农村贫困人口全部脱贫，区域性整体贫困得到解决。",
+   "options": [
+    "2012年",
+    "2000年",
+    "1978年",
+    "2021年"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j085_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "总体国家安全观强调？",
+   "explain": "总体国家安全观是新时代维护国家安全的指导思想。",
+   "options": [
+    "以人民安全为宗旨",
+    "只顾某一种安全",
+    "放弃主权",
+    "把安全交给外国"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j086_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中国倡议成立的多边金融机构是？",
+   "explain": "亚投行总部设在北京，为亚洲基础设施建设提供资金。",
+   "options": [
+    "国际货币基金组织是1945年成立的",
+    "亚洲基础设施投资银行",
+    "世界银行",
+    "世界贸易组织"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j083_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "十八大以后，党中央强调的主题是？",
+   "explain": "坚持和发展中国特色社会主义是改革开放新时期的主线，也是十八大后的主题。",
+   "options": [
+    "回到计划经济",
+    "取消改革开放",
+    "恢复人民公社",
+    "坚持和发展中国特色社会主义"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j084_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "脱贫攻坚和全面建成小康社会的关系是？",
+   "explain": "没有农村贫困人口脱贫，就谈不上全面小康。",
+   "options": [
+    "脱贫攻坚是全面建成小康社会的底线任务",
+    "两者没有关系",
+    "脱贫攻坚发生在1956年",
+    "小康社会只统计城市"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j085_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "推进祖国统一的基本方针仍然是？",
+   "explain": "一国两制是实现祖国统一的基本方针。",
+   "options": [
+    "一国一制",
+    "一国两制",
+    "武力是唯一办法",
+    "托管"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j086_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "中国特色大国外交的一项实践是？",
+   "explain": "高峰论坛推动政策沟通和设施联通等合作。",
+   "options": [
+    "加入八国联军",
+    "签订《南京条约》",
+    "举办一带一路国际合作高峰论坛",
+    "退出联合国"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j087_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "第一个百年奋斗目标实现的时间节点是？",
+   "explain": "到2021年，全面建成小康社会的目标实现。",
+   "options": [
+    "2021年中国共产党成立100年",
+    "1949年",
+    "1978年",
+    "2049年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j087_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "全面建成小康社会覆盖的范围是？",
+   "explain": "小康是惠及全体人民的小康。",
+   "options": [
+    "只包括沿海城市",
+    "城乡全体人民",
+    "只包括经济特区",
+    "只统计工业产值"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j088_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中共二十大提出以什么全面推进中华民族伟大复兴？",
+   "explain": "中国式现代化是人口规模巨大的现代化，也是全体人民共同富裕的现代化。",
+   "options": [
+    "计划经济",
+    "中国式现代化",
+    "封闭式现代化",
+    "殖民化"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j088_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "新征程上到2035年的目标包括？",
+   "explain": "二十大对未来五年和2035年作出部署。",
+   "options": [
+    "完成三大改造",
+    "恢复科举",
+    "基本实现社会主义现代化",
+    "取消市场经济"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j089_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "观察新时代社会生活，可以从哪些方面入手？",
+   "explain": "高铁、移动支付、住房条件都是可以核对的变化。",
+   "options": [
+    "只看一个口号",
+    "只比较古代帝王",
+    "交通、通信、居住和消费方式",
+    "忽略身边变化"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j089_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一项属于新时代交通生活的变化？",
+   "explain": "高铁缩短了城市之间的旅行时间。",
+   "options": [
+    "全国只有马车",
+    "电报是唯一通信工具",
+    "轮船尚未出现",
+    "高速铁路网覆盖主要城市"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j087_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "中共二十大召开于？",
+   "explain": "二十大总结了新时代十年的变革。",
+   "options": [
+    "2017年",
+    "2012年",
+    "2022年",
+    "2002年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j088_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "本世纪中叶的奋斗目标是？",
+   "explain": "这是第二个百年奋斗目标。",
+   "options": [
+    "解决温饱",
+    "建立四个经济特区",
+    "完成土地改革",
+    "建成富强民主文明和谐美丽的社会主义现代化强国"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j089_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把生活变化写成历史材料时，应当？",
+   "explain": "活动课要求用具体变化说明时代。",
+   "options": [
+    "注明时间、地点和具体事例",
+    "只写感觉好或不好",
+    "不写任何数字",
+    "把不同年代混在一起"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j087_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "第一个百年和第二个百年的区别是？",
+   "explain": "第二个百年指向本世纪中叶。",
+   "options": [
+    "两者是同一年",
+    "前者在2049年",
+    "后者在2021年",
+    "前者是全面建成小康社会，后者是建成社会主义现代化强国"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j088_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "这一课与上一课的衔接是？",
+   "explain": "全面建成小康社会之后，进入全面建设社会主义现代化国家的阶段。",
+   "options": [
+    "第一个百年目标实现后，开启新的赶考之路",
+    "两课都停在1949年",
+    "新征程从鸦片战争算起",
+    "二十大取消了改革开放"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j089_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "这项活动的目的是？",
+   "explain": "衣食住行的变化可以反映国家发展。",
+   "options": [
+    "背诵全部年代",
+    "从身边的社会生活理解时代变迁",
+    "评价每一个人的私生活",
+    "代替所有课文"
+   ],
+   "answer": 2
+  }
+ ]
+}

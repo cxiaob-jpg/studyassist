@@ -1,0 +1,1165 @@
+{
+ "schema_version": 1,
+ "subject": "geography",
+ "grade": 7,
+ "semester": "upper",
+ "textbook": "人教版（初中地理）",
+ "questions": [
+  {
+   "id": "cng_j001_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地球在太阳系中属于哪一类天体？",
+   "explain": "地球围绕太阳公转，是太阳系中的一颗行星。",
+   "options": [
+    "恒星",
+    "卫星",
+    "行星",
+    "彗星"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j001_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "月球属于哪一类天体？",
+   "explain": "月球围绕地球运转，是地球的天然卫星。",
+   "options": [
+    "恒星",
+    "行星",
+    "星云",
+    "卫星"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j002_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地球的平均半径大约是？",
+   "explain": "教材给出地球平均半径约6371千米。",
+   "options": [
+    "40000千米",
+    "5.1亿千米",
+    "384000千米",
+    "6371千米"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j002_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "0°经线又称为？",
+   "explain": "0°经线穿过英国格林尼治，称为本初子午线。",
+   "options": [
+    "本初子午线",
+    "赤道",
+    "国际日期变更线",
+    "北回归线"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j003_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地球自转的方向是？",
+   "explain": "从北极上空看，地球自转呈逆时针，即自西向东。",
+   "options": [
+    "自西向东",
+    "自东向西",
+    "自北向南",
+    "自南向北"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j003_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "昼夜交替主要是由哪一种运动引起的？",
+   "explain": "地球不停自转，朝向太阳的一面是白天，背向太阳的一面是黑夜。",
+   "options": [
+    "地球公转",
+    "地球自转",
+    "月球绕地球运动",
+    "太阳黑子活动"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j001_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "太阳系八大行星按距太阳由近及远，地球排在第几位？",
+   "explain": "顺序是水星、金星、地球、火星、木星、土星、天王星、海王星。",
+   "options": [
+    "第三位",
+    "第一位",
+    "第五位",
+    "第八位"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j002_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "纬线指示的方向是？",
+   "explain": "纬线与经线垂直，指示东西方向；经线指示南北方向。",
+   "options": [
+    "南北方向",
+    "东西方向",
+    "上下方向",
+    "西北—东南方向"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j003_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "北半球夏至日，太阳直射的纬线是？",
+   "explain": "夏至日太阳直射北回归线（约23.5°N），北半球昼最长。",
+   "options": [
+    "赤道",
+    "南回归线",
+    "北回归线",
+    "北极圈"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j001_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "可观测宇宙中，地球所在的天体系统由小到大依次是？",
+   "explain": "地球和月球组成地月系，地月系属于太阳系，太阳系属于银河系。",
+   "options": [
+    "太阳系、地月系、银河系、可观测宇宙",
+    "地月系、太阳系、银河系、可观测宇宙",
+    "银河系、太阳系、地月系、可观测宇宙",
+    "地月系、银河系、太阳系、可观测宇宙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j002_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "北纬40°、东经116°大致对应的城市是？",
+   "explain": "北京大约位于40°N、116°E附近。",
+   "options": [
+    "新加坡",
+    "开普敦",
+    "北京",
+    "纽约"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j003_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "地球公转产生的地理现象是？",
+   "explain": "公转使太阳直射点在南北回归线之间移动，从而形成四季和五带。",
+   "options": [
+    "昼夜更替",
+    "地方时差异",
+    "物体水平运动方向偏转",
+    "四季更替和五带划分"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j004_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地图的三要素是？",
+   "explain": "比例尺、方向和图例是阅读地图必须掌握的三项基本要素。",
+   "options": [
+    "经线、纬线、赤道",
+    "比例尺、方向、图例",
+    "海拔、相对高度、等高线",
+    "图名、页码、附录"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j004_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在没有指向标的一般地图上，默认方向是？",
+   "explain": "普通地图通常按上北下南、左西右东定向。",
+   "options": [
+    "上南下北，左东右西",
+    "上东下西，左北右南",
+    "上北下南，左西右东",
+    "上西下东，左南右北"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j005_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "等高线地形图上，等高线越密集，表示？",
+   "explain": "相邻等高线水平距离越小，坡度越陡。",
+   "options": [
+    "坡度越缓",
+    "海拔越低",
+    "坡度越陡",
+    "一定是山谷"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j005_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "海拔一般在 200 米以下、地面平坦广阔的地形是？",
+   "explain": "平原海拔较低，地势平坦。",
+   "options": [
+    "高原",
+    "山地",
+    "丘陵",
+    "平原"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j006_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "查找北京到上海的铁路路线，最合适的是？",
+   "explain": "交通图专门表示铁路、公路等线路。",
+   "options": [
+    "世界气候图",
+    "北京市区旅游图",
+    "等高线地形图",
+    "中国交通图"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j006_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "去公园徒步，要判断哪条路更陡，应优先看？",
+   "explain": "等高线可以反映坡度陡缓，适合选择登山或徒步路线。",
+   "options": [
+    "等高线地形图",
+    "世界政区图",
+    "人口分布图",
+    "语言分布图"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j004_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "相同图幅下，比例尺越大，表示的实地范围？",
+   "explain": "比例尺大则同一图幅覆盖的实地范围小，地理事物可以画得更详细。",
+   "options": [
+    "越大，内容越简略",
+    "不变，内容一样详细",
+    "越大，内容越详细",
+    "越小，内容越详细"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j005_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "等高线向海拔高处凸出的部位通常是？",
+   "explain": "“凸高为谷，凸低为脊”，等高线向高处凸是山谷。",
+   "options": [
+    "山谷",
+    "山脊",
+    "鞍部",
+    "陡崖"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j006_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "比例尺很小的世界地图，适合用来？",
+   "explain": "小比例尺地图表示范围大、内容简略，适合看大区域位置。",
+   "options": [
+    "查找某条胡同的门牌",
+    "了解大洲大洋的相对位置",
+    "量算校园操场长度",
+    "辨别小区内部道路"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j004_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "数字式比例尺 1:100000 表示图上 1 厘米代表实地？",
+   "explain": "1:100000 即图上 1 厘米代表实地 100000 厘米，也就是 1 千米。",
+   "options": [
+    "1千米",
+    "100千米",
+    "10米",
+    "1米"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j005_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "分层设色地形图上，绿色通常表示？",
+   "explain": "陆地上绿色多表示海拔较低的平原，黄色、褐色表示更高的高原山地。",
+   "options": [
+    "高山冰雪",
+    "平原或低地",
+    "海洋最深处",
+    "沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j006_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "既要看清某省各市位置，又要大致了解地形起伏，较合适的组合是？",
+   "explain": "政区图给出行政区位置，地形图给出地势起伏，二者配合使用。",
+   "options": [
+    "只有世界气候类型图",
+    "只有太阳系示意图",
+    "省级政区图和地形图",
+    "只有城市公交线路图"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j007_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地球表面海洋与陆地面积大约是？",
+   "explain": "全球约十分之七是海洋，十分之三是陆地。",
+   "options": [
+    "海洋约 71%，陆地约 29%",
+    "各占一半",
+    "陆地约 71%，海洋约 29%",
+    "海洋约 90%，陆地约 10%"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j007_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "面积最大的大洲是？",
+   "explain": "亚洲是世界第一大洲，面积约 4400 万平方千米。",
+   "options": [
+    "非洲",
+    "亚洲",
+    "南极洲",
+    "欧洲"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j008_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "陆地五种基本地形是？",
+   "explain": "教材把陆地地形分为平原、高原、山地、丘陵和盆地。",
+   "options": [
+    "平原、沙漠、绿洲、峡谷、岛屿",
+    "平原、高原、山地、丘陵、盆地",
+    "海洋、湖泊、河流、冰川、沼泽",
+    "半岛、群岛、海峡、海湾、海岸"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j008_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "世界最高大的山脉是？",
+   "explain": "喜马拉雅山脉位于亚洲中部，主峰珠穆朗玛峰是世界最高峰。",
+   "options": [
+    "安第斯山脉",
+    "阿尔卑斯山脉",
+    "喜马拉雅山脉",
+    "落基山脉"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j009_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "海陆变迁的重要证据之一是？",
+   "explain": "高山上的海相化石说明那里曾经是海洋。",
+   "options": [
+    "四季更替",
+    "昼夜长短变化",
+    "有的高山上发现海洋生物化石",
+    "地图上的比例尺大小"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j009_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "魏格纳提出的学说是？",
+   "explain": "魏格纳根据南美洲和非洲轮廓吻合等现象提出大陆漂移说。",
+   "options": [
+    "日心说",
+    "地心说",
+    "宇宙大爆炸说",
+    "大陆漂移说"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j007_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "亚洲与非洲的分界线是？",
+   "explain": "苏伊士运河沟通地中海和红海，是亚非分界。",
+   "options": [
+    "巴拿马运河",
+    "白令海峡",
+    "苏伊士运河",
+    "乌拉尔山脉"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j008_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "安第斯山脉主要位于哪个大洲？",
+   "explain": "安第斯山脉纵贯南美洲西部，是世界上最长的山脉。",
+   "options": [
+    "非洲",
+    "欧洲",
+    "大洋洲",
+    "南美洲"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j009_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "世界火山、地震主要集中在？",
+   "explain": "板块交界地壳活跃，多火山地震。",
+   "options": [
+    "板块交界地带",
+    "大陆内部的平原中心",
+    "大洋中部远离海沟处",
+    "所有赤道地区"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j007_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "七大洲按面积从大到小，正确的一组口诀是？",
+   "explain": "口诀“亚非北南美，南极欧大洋”对应亚洲、非洲、北美洲、南美洲、南极洲、欧洲、大洋洲。",
+   "options": [
+    "亚欧非北美，南美南极大洋",
+    "非亚北美欧，南美南极大洋",
+    "亚非欧北美，南美南极大洋",
+    "亚非北南美，南极欧大洋"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j008_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "亚马孙平原成为世界最大平原，主要因为它位于？",
+   "explain": "亚马孙河流域地势低平，形成广阔的冲积平原。",
+   "options": [
+    "南美洲赤道附近的亚马孙河流域",
+    "非洲北部的撒哈拉沙漠",
+    "亚洲中部的青藏高原",
+    "北美洲中部的落基山麓"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j009_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "红海面积在不断扩大，主要是因为两侧板块在？",
+   "explain": "红海位于非洲板块与印度洋板块张裂地带，海域逐渐扩大。",
+   "options": [
+    "碰撞挤压",
+    "张裂拉伸",
+    "水平错动但完全静止",
+    "整体向地心沉降"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j010_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "“今天多云，明天有中雨”描述的是？",
+   "explain": "天气是短时间的大气状况，气候是长时间的平均状况。",
+   "options": [
+    "气候",
+    "地形",
+    "洋流",
+    "天气"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j010_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "天气预报里，带雨点的云朵符号通常表示？",
+   "explain": "云加雨点是降雨天气符号。",
+   "options": [
+    "降雨",
+    "沙尘暴",
+    "大雾",
+    "霜冻"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j011_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一天中，陆地最高气温通常出现在？",
+   "explain": "地面热量积累到午后达到最高，陆地最高气温多在 14 时左右。",
+   "options": [
+    "午后 2 时左右",
+    "正午 12 时整",
+    "日出前后",
+    "午夜 0 时"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j011_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "世界气温分布的基本规律是？",
+   "explain": "太阳辐射由赤道向两极递减，气温大致由低纬向高纬降低。",
+   "options": [
+    "由高纬向低纬递减",
+    "由低纬向高纬递减",
+    "只随经度变化",
+    "全球各地完全相同"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j012_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "赤道附近地区年降水量通常？",
+   "explain": "赤道地区空气对流旺盛，多对流雨，是世界多雨带。",
+   "options": [
+    "非常稀少",
+    "很丰富",
+    "全年为零",
+    "只在冬季较多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j012_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "副热带地区的大陆西岸和内陆，降水往往？",
+   "explain": "副热带高气压控制下气流下沉，加上大陆内部水汽少，降水稀少。",
+   "options": [
+    "非常丰富",
+    "全年阴雨",
+    "较少",
+    "只在夜间下雨"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j013_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "热带雨林气候主要分布在？",
+   "explain": "赤道附近终年高温多雨，形成热带雨林气候。",
+   "options": [
+    "南北极圈以内",
+    "青藏高原",
+    "赤道附近",
+    "回归线穿过的大陆西岸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j013_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "地中海气候的特征是？",
+   "explain": "地中海气候受副高和西风交替控制，雨热不同期。",
+   "options": [
+    "全年高温多雨",
+    "冬季严寒漫长",
+    "全年寒冷干燥",
+    "夏季炎热干燥，冬季温和多雨"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j010_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "空气质量指数（AQI）数值越大，通常表示？",
+   "explain": "AQI 用来表示空气质量，数值越大污染越重。",
+   "options": [
+    "气温越高",
+    "空气污染越重",
+    "风力越大",
+    "空气越清洁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j011_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "同纬度地区，海拔每升高 1000 米，气温大约？",
+   "explain": "对流层气温随海拔升高而降低，大约每千米下降 6℃。",
+   "options": [
+    "上升 6℃",
+    "下降 1℃",
+    "下降 6℃",
+    "不变"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j012_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "温带海洋性气候的降水特点是？",
+   "explain": "西风常年影响，降水季节分配较均匀。",
+   "options": [
+    "夏季暴雨、冬季滴雨没有",
+    "全年干旱",
+    "只有春季下雨",
+    "全年湿润，各月比较均匀"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j013_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "亚洲东部季风气候显著，其降水主要集中在？",
+   "explain": "夏季风从海洋带来大量水汽，雨热同期。",
+   "options": [
+    "夏季",
+    "冬季",
+    "春秋两季平均且极少",
+    "全年各月都几乎无雨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j010_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "下列叙述属于气候的是？",
+   "explain": "“四季如春”是长期大气状况，属于气候；其余都是短时天气。",
+   "options": [
+    "今晚有雷阵雨",
+    "明天最低气温 8℃",
+    "昆明四季如春",
+    "刚才刮起了大风"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j011_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "等温线在北半球陆地 1 月向南凸出，主要说明？",
+   "explain": "1 月是北半球冬季，陆地降温快，同纬度陆地气温低于海洋，等温线向低纬（南）凸出。",
+   "options": [
+    "同纬度陆地比海洋更热",
+    "海拔越高气温越高",
+    "该地一定位于南半球",
+    "同纬度陆地比海洋更冷"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j012_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "迎风坡降水往往多于背风坡，主要是因为？",
+   "explain": "地形雨：湿润气流沿山坡上升冷却凝结，背风坡气流下沉增温，降水减少。",
+   "options": [
+    "湿润气流被迫抬升冷却致雨",
+    "背风坡一定没有河流",
+    "迎风坡海拔一定更低",
+    "地球自转在迎风坡停止"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j013_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "温带海洋性气候主要分布在？",
+   "explain": "这里常年受西风和暖流影响，冬暖夏凉、降水均匀。",
+   "options": [
+    "赤道两侧",
+    "南北纬 40°–60°的大陆西岸",
+    "中亚内陆",
+    "南极大陆内部"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j014_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "目前世界人口最多的大洲是？",
+   "explain": "亚洲人口占世界一半以上。",
+   "options": [
+    "欧洲",
+    "大洋洲",
+    "南极洲",
+    "亚洲"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j014_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "世界人口分布稠密区多位于？",
+   "explain": "自然条件较好、开发较早的沿海平原人口密集。",
+   "options": [
+    "中低纬度的近海平原",
+    "高山高原内部",
+    "热带沙漠腹地",
+    "南极大陆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j015_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "聚落通常分为？",
+   "explain": "人类集中居住的地方称为聚落，主要分为乡村和城镇。",
+   "options": [
+    "乡村和城镇",
+    "只有首都和港口",
+    "只有工厂和农田",
+    "只有高原和盆地"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j015_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "乡村聚落的居民一般主要从事？",
+   "explain": "乡村以农业活动为主，城镇以非农业活动为主。",
+   "options": [
+    "国际贸易结算",
+    "农业生产",
+    "航天发射",
+    "深海钻探"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j016_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "使用人数最多的语言是？",
+   "explain": "汉语是世界上使用人数最多的语言；英语是使用最广泛的语言之一。",
+   "options": [
+    "英语",
+    "汉语",
+    "阿拉伯语",
+    "西班牙语"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j016_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "基督教、伊斯兰教、佛教通常并称为？",
+   "explain": "这三大宗教信徒多、分布广，是世界主要宗教。",
+   "options": [
+    "亚洲仅有的方言",
+    "四大洋的别称",
+    "世界三大宗教",
+    "七大洲的别称"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j014_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "黄色人种主要分布在？",
+   "explain": "东亚、东南亚以黄色人种为主。",
+   "options": [
+    "欧洲西部",
+    "亚洲东部和东南部",
+    "非洲中部",
+    "澳大利亚中部沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j015_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "沿河或沿交通线呈条带状分布的聚落，形态上属于？",
+   "explain": "受河流、山谷或交通线限制，聚落常沿线延伸。",
+   "options": [
+    "团块状聚落",
+    "完全没有形态",
+    "带状聚落",
+    "只出现在沙漠腹地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j016_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "佛教发源于？",
+   "explain": "佛教起源于南亚的古代印度，后传到东亚、东南亚等地。",
+   "options": [
+    "古代希腊",
+    "古代埃及",
+    "古代罗马",
+    "古代印度"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j014_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "人口自然增长率最高的大洲通常是？",
+   "explain": "非洲许多国家出生率高，人口增长快。",
+   "options": [
+    "欧洲",
+    "北美洲",
+    "非洲",
+    "大洋洲"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j015_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "早期城市多出现在河流中下游平原，主要是因为？",
+   "explain": "平原土壤肥沃、用水方便、便于运输，有利于城市形成。",
+   "options": [
+    "完全没有水患风险",
+    "这里一定没有农业",
+    "海拔越高越适合建城",
+    "水源充足、交通便利、农业基础好"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j016_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "语言和宗教的分布差异，说明世界文化具有？",
+   "explain": "不同地区的语言、宗教、建筑和习俗不同，体现文化多样性。",
+   "options": [
+    "多样性",
+    "完全同一性",
+    "只存在于城市",
+    "与地理位置无关"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j017_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "目前世界上大多数国家属于？",
+   "explain": "发达国家数量较少，发展中国家占大多数。",
+   "options": [
+    "发达国家",
+    "没有常住人口的国家",
+    "发展中国家",
+    "极地科学考察站"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j017_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "发达国家主要分布在？",
+   "explain": "欧洲西部、美国、加拿大、澳大利亚、日本等属于发达国家。",
+   "options": [
+    "非洲中部和西亚沙漠",
+    "南极大陆内部",
+    "全部位于赤道",
+    "欧洲西部、北美洲、大洋洲等地"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j017_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "南南合作指的是？",
+   "explain": "发展中国家多在南半球及北半球南部，它们之间的合作称南南合作。",
+   "options": [
+    "发展中国家之间的合作",
+    "发达国家与南极之间的合作",
+    "只发生在南半球的贸易",
+    "南北半球必须中断往来"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j017_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "国际合作日益重要，主要是因为？",
+   "explain": "经济全球化使国家之间在贸易、资源和环境问题上需要合作。",
+   "options": [
+    "每个国家都可以完全自给自足",
+    "各国在资源、资金、技术上相互依存",
+    "交通和通信已经停止发展",
+    "只有发达国家需要进口"
+   ],
+   "answer": 2
+  }
+ ]
+}

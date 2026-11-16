@@ -1,0 +1,1437 @@
+{
+ "schema_version": 1,
+ "subject": "history",
+ "grade": 7,
+ "semester": "upper",
+ "textbook": "统编版（初中历史）",
+ "questions": [
+  {
+   "id": "cnh_j001_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国境内目前已知最早的古人类是？",
+   "explain": "元谋人距今约170万年，发现于云南元谋。",
+   "options": [
+    "北京人",
+    "山顶洞人",
+    "元谋人",
+    "半坡居民"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j001_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北京人遗址位于今天的哪里？",
+   "explain": "北京人遗址在北京西南周口店。",
+   "options": [
+    "云南元谋",
+    "陕西西安",
+    "浙江余姚",
+    "北京周口店"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j002_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "河姆渡人生活的大致地点是？",
+   "explain": "河姆渡遗址在今天的浙江余姚。",
+   "options": [
+    "陕西西安",
+    "北京周口店",
+    "云南元谋",
+    "浙江余姚"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j002_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "半坡居民主要种植的农作物是？",
+   "explain": "半坡居民种粟，河姆渡人种水稻。",
+   "options": [
+    "粟",
+    "水稻",
+    "小麦",
+    "玉米"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j003_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "教材用来说明中华文明起源的重要考古文化是？",
+   "explain": "良渚古城、水利系统和玉器是早期文明的重要证据。",
+   "options": [
+    "良渚文化",
+    "仰韶文化里的半坡彩陶只代表农耕",
+    "元谋人化石",
+    "北京人用火遗迹"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j003_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "良渚遗址的主要发现地在今天的？",
+   "explain": "良渚遗址位于长江下游的浙江。",
+   "options": [
+    "云南",
+    "浙江",
+    "陕西",
+    "河南安阳"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j001_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "北京人已经能够做到的是？",
+   "explain": "北京人使用打制石器，会使用天然火并保存火种。",
+   "options": [
+    "打制石器并使用火",
+    "种植水稻",
+    "建造干栏式房屋",
+    "冶炼青铜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j002_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "河姆渡人居住的房屋样式是？",
+   "explain": "河姆渡人住干栏式房屋，使用骨耜。",
+   "options": [
+    "半地穴式圆形房屋",
+    "干栏式建筑",
+    "砖木楼阁",
+    "窑洞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j003_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "私有制、阶级和早期国家出现的重要标志之一是？",
+   "explain": "城址、水利和玉礼器说明社会分化和公共权力已经出现。",
+   "options": [
+    "人人平均分配所有猎物",
+    "还没有人会种地",
+    "出现城址、大型工程和礼器",
+    "青铜器完全消失"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j001_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "山顶洞人比北京人更进步的一项表现是？",
+   "explain": "山顶洞人掌握磨光、钻孔技术，并会人工取火。",
+   "options": [
+    "还不会制造任何工具",
+    "掌握磨光和钻孔技术",
+    "已经实行郡县制",
+    "已经使用曲辕犁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j002_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "原始农业出现后，人们生活的重要变化是？",
+   "explain": "原始农业使人们可以比较稳定地定居下来。",
+   "options": [
+    "仍然只会采集和渔猎",
+    "马上建立起皇帝制度",
+    "开始定居并形成村落",
+    "开始使用铁制农具"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j003_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "考古发现对认识中华文明起源的作用是？",
+   "explain": "考古材料是了解文字记载以前历史的重要依据。",
+   "options": [
+    "只能用来讲神话故事",
+    "可以代替全部文献且不必核对",
+    "只能证明近代历史",
+    "用遗址和遗物印证早期文明"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j004_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国历史上第一个奴隶制王朝是？",
+   "explain": "约公元前2070年禹建立夏朝。",
+   "options": [
+    "商朝",
+    "夏朝",
+    "西周",
+    "秦朝"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j004_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "世袭制代替禅让制，开始于？",
+   "explain": "禹死后启继承王位，世袭制代替禅让制。",
+   "options": [
+    "尧把位置让给舜",
+    "商汤灭夏",
+    "启继承禹的位置",
+    "周武王伐纣"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j005_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "公元前770年，周平王东迁洛邑，历史进入？",
+   "explain": "平王东迁后，东周开始，前期称为春秋。",
+   "options": [
+    "战国时期",
+    "西周时期",
+    "春秋时期",
+    "秦汉时期"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j005_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "春秋时期第一位霸主是？",
+   "explain": "齐桓公任用管仲改革，打出尊王攘夷的旗号，成为第一位霸主。",
+   "options": [
+    "晋文公",
+    "楚庄王",
+    "秦穆公",
+    "齐桓公"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j006_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "战国初期，三家分晋后形成的诸侯国包括？",
+   "explain": "韩、赵、魏三家分晋，加上田氏代齐等，形成战国七雄。",
+   "options": [
+    "齐、楚、燕",
+    "秦、宋、鲁",
+    "吴、越、巴",
+    "韩、赵、魏"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j006_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "支持商鞅在秦国变法的国君是？",
+   "explain": "商鞅在秦孝公支持下变法。",
+   "options": [
+    "秦孝公",
+    "秦始皇",
+    "齐桓公",
+    "周平王"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j007_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "孔子的核心思想是？",
+   "explain": "孔子是儒家学派创始人，核心思想是仁。",
+   "options": [
+    "仁",
+    "兼爱非攻",
+    "依法治国",
+    "无为而治"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j007_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "主张兼爱、非攻的学派是？",
+   "explain": "墨子创立墨家，主张兼爱、非攻。",
+   "options": [
+    "儒家",
+    "墨家",
+    "道家",
+    "法家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j008_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我国已发现的古代文字中，年代最早、体系较完整的是？",
+   "explain": "甲骨文主要刻在商朝龟甲和兽骨上。",
+   "options": [
+    "小篆",
+    "甲骨文",
+    "隶书",
+    "楷书"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j008_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "司母戊鼎属于？",
+   "explain": "司母戊鼎是商朝青铜器的代表。",
+   "options": [
+    "河姆渡骨器",
+    "秦朝铁器",
+    "商朝青铜器",
+    "唐代瓷器"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j004_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "牧野之战的结果是？",
+   "explain": "约公元前1046年牧野之战，周武王灭商，定都镐京。",
+   "options": [
+    "商汤灭夏",
+    "秦王嬴政统一六国",
+    "曹操打败袁绍",
+    "周武王灭商，建立西周"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j005_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "春秋时期周王室的地位是？",
+   "explain": "王室衰微，诸侯争霸是春秋政治的特点。",
+   "options": [
+    "势力衰微，诸侯争霸",
+    "仍然直接控制全国郡县",
+    "已经被秦朝取代",
+    "变成了民主共和国"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j006_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "商鞅变法中有利于加强中央集权的措施是？",
+   "explain": "县制使国君更能直接控制地方。",
+   "options": [
+    "恢复世卿世禄，贵族世代做官",
+    "确立县制，由国君直接派官吏治理",
+    "允许贵族私自铸币",
+    "把都城迁到洛邑"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j007_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "韩非的主张属于哪个学派？",
+   "explain": "韩非是法家集大成者，强调以法治国。",
+   "options": [
+    "儒家",
+    "道家",
+    "法家",
+    "兵家"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j008_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "都江堰之外，夏商周科技文化课还强调的一项成就是？",
+   "explain": "甲骨文是汉字发展的重要源头。",
+   "options": [
+    "活字印刷术已经发明",
+    "指南针用于航海",
+    "《红楼梦》写成",
+    "甲骨文已经具备汉字结构的基本形式"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j004_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "盘庚迁殷发生在哪个王朝？",
+   "explain": "商王盘庚把都城迁到殷，商朝因此又称殷朝。",
+   "options": [
+    "商朝",
+    "夏朝",
+    "西周",
+    "春秋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j005_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "提出尊王攘夷并帮助齐桓公称霸的人是？",
+   "explain": "管仲改革齐国，辅助齐桓公称霸。",
+   "options": [
+    "商鞅",
+    "管仲",
+    "李冰",
+    "韩非"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j006_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "李冰主持修建的都江堰位于？",
+   "explain": "都江堰修在成都平原的岷江上，使当地成为天府之国。",
+   "options": [
+    "黄河下游",
+    "长江下游良渚",
+    "岷江流域",
+    "珠江口"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j007_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "百家争鸣出现的主要背景是？",
+   "explain": "旧秩序动摇，各家为统治者出谋划策，形成百家争鸣。",
+   "options": [
+    "秦朝已经统一文字",
+    "汉武帝已经独尊儒术",
+    "隋朝开始科举",
+    "春秋战国社会大变革，士人提出不同治国主张"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j008_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "战国时期写成的著名兵书是？",
+   "explain": "《孙子兵法》由春秋晚期兵家孙武所著，历代兵书中地位重要。",
+   "options": [
+    "《孙子兵法》",
+    "《道德经》",
+    "《伤寒杂病论》",
+    "《齐民要术》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j009_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "秦统一六国是在公元前哪一年？",
+   "explain": "公元前221年，秦王嬴政完成统一。",
+   "options": [
+    "公元前209年",
+    "公元前202年",
+    "公元前221年",
+    "公元25年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j009_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "嬴政统一后自称？",
+   "explain": "嬴政把三皇五帝的称号合起来，称始皇帝。",
+   "options": [
+    "天子",
+    "可汗",
+    "大总统",
+    "始皇帝"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j010_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "陈胜、吴广起义爆发的地点是？",
+   "explain": "公元前209年，陈胜、吴广在大泽乡发动起义。",
+   "options": [
+    "巨鹿",
+    "咸阳",
+    "垓下",
+    "大泽乡"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j010_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "巨鹿之战中打败秦军主力的是？",
+   "explain": "公元前207年，项羽在巨鹿大败秦军主力。",
+   "options": [
+    "项羽",
+    "刘邦",
+    "陈胜",
+    "嬴政"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j011_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "西汉的建立者是？",
+   "explain": "公元前202年，刘邦建立西汉，定都长安。",
+   "options": [
+    "刘邦",
+    "项羽",
+    "刘秀",
+    "刘备"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j011_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "楚汉之争中，项羽失败的最后一战是？",
+   "explain": "垓下之战项羽兵败，后在乌江自刎。",
+   "options": [
+    "巨鹿之战",
+    "垓下之战",
+    "牧野之战",
+    "官渡之战"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j012_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "汉武帝接受主父偃的建议，实行？",
+   "explain": "推恩令使诸侯王封地越分越小，无力对抗中央。",
+   "options": [
+    "郡县制",
+    "推恩令",
+    "行省制",
+    "摊丁入亩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j012_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "汉武帝在思想方面的措施是？",
+   "explain": "儒术成为正统思想，儒家思想成为封建社会的主流思想。",
+   "options": [
+    "焚书坑儒",
+    "推崇法家为唯一学说",
+    "罢黜百家，尊崇儒术",
+    "提倡百家争鸣"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j013_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "东汉的建立者是？",
+   "explain": "公元25年刘秀称帝，定都洛阳，史称东汉。",
+   "options": [
+    "刘邦",
+    "刘备",
+    "刘秀",
+    "刘裕"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j013_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "光武中兴出现在？",
+   "explain": "刘秀统治时期社会安定，经济恢复，史称光武中兴。",
+   "options": [
+    "西汉初期",
+    "秦朝末年",
+    "三国时期",
+    "东汉初期"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j014_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "两次出使西域的是？",
+   "explain": "汉武帝派张骞出使西域。",
+   "options": [
+    "班超",
+    "玄奘",
+    "鉴真",
+    "张骞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j014_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "丝绸之路从长安出发，最远可以到达？",
+   "explain": "丝绸之路沟通欧亚，中国的丝织品可以运到欧洲。",
+   "options": [
+    "欧洲",
+    "日本",
+    "美洲",
+    "澳洲"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j015_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "改进造纸术、使纸的使用更普遍的是？",
+   "explain": "东汉蔡伦改进造纸工艺。",
+   "options": [
+    "蔡伦",
+    "毕昇",
+    "张仲景",
+    "华佗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j015_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "张仲景的医学著作是？",
+   "explain": "张仲景写成《伤寒杂病论》，被后世称为医圣。",
+   "options": [
+    "《本草纲目》",
+    "《伤寒杂病论》",
+    "《齐民要术》",
+    "《天工开物》"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j009_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "秦朝统一文字，把小篆作为规范文字，相关大臣是？",
+   "explain": "李斯主持统一文字，以小篆为标准。",
+   "options": [
+    "李斯",
+    "商鞅",
+    "李冰",
+    "王羲之"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j010_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "秦朝灭亡是在？",
+   "explain": "公元前206年，秦朝统治者在咸阳向刘邦投降，秦朝灭亡。",
+   "options": [
+    "公元前221年",
+    "公元前206年",
+    "公元前202年",
+    "公元8年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j011_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "文景之治的主要做法是？",
+   "explain": "汉文帝、汉景帝继续休养生息，出现文景之治。",
+   "options": [
+    "大量兴建宫殿和对外战争",
+    "废除丞相并设立内阁",
+    "轻徭薄赋，注重农业生产",
+    "推行闭关锁国"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j012_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "汉武帝把盐铁经营权收归国家，主要是为了？",
+   "explain": "盐铁官营增强了朝廷的经济实力。",
+   "options": [
+    "让地方诸侯自行铸币",
+    "废除农业税",
+    "开放所有口岸通商",
+    "增加中央财政收入，加强经济控制"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j013_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "东汉后期政治腐败的突出表现是？",
+   "explain": "外戚、宦官轮流专权，朝政腐朽。",
+   "options": [
+    "外戚和宦官交替专权",
+    "推行推恩令",
+    "设立军机处",
+    "实行科举制"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j014_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "西域都护的设立是在？",
+   "explain": "公元前60年西汉设西域都护，标志着西域正式归属中央政权。",
+   "options": [
+    "公元前221年",
+    "公元前60年",
+    "公元25年",
+    "公元589年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j015_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "《史记》的作者是？",
+   "explain": "司马迁的《史记》是我国第一部纪传体通史。",
+   "options": [
+    "司马光",
+    "班固",
+    "司马迁",
+    "王充"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j009_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "秦朝为加强中央对地方的控制，推行的制度是？",
+   "explain": "秦朝在全国推行郡县制，官吏由皇帝任免。",
+   "options": [
+    "分封制",
+    "郡县制",
+    "行省制",
+    "内阁制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j010_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "陈胜、吴广起义的直接起因是？",
+   "explain": "他们去渔阳戍边，遇雨误期，按秦律要被处死，于是起义。",
+   "options": [
+    "商鞅开始变法",
+    "汉武帝推行推恩令",
+    "戍边遇雨误期，按秦法当斩",
+    "黄巾起义失败"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j011_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "文景时期注重农业生产，反复强调的是？",
+   "explain": "汉初统治者重视农业，减轻赋税和徭役。",
+   "options": [
+    "工商皆本、放弃农业",
+    "只发展海外贸易",
+    "立即推行科举",
+    "以农为本"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j012_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "卫青、霍去病大败匈奴发生在？",
+   "explain": "汉武帝派卫青、霍去病北击匈奴，匈奴势力受到沉重打击。",
+   "options": [
+    "汉武帝时期",
+    "汉高祖时期",
+    "光武帝时期",
+    "明成祖时期"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j013_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "黄巾起义爆发于？",
+   "explain": "184年张角领导黄巾起义，沉重打击了东汉统治。",
+   "options": [
+    "25年",
+    "184年",
+    "220年",
+    "755年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j014_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "张骞通西域的直接作用是？",
+   "explain": "张骞的出使开辟了通往西域的道路，丝绸之路随之开通。",
+   "options": [
+    "使秦朝统一六国",
+    "导致安史之乱",
+    "促进汉朝与西域的相互了解和丝绸之路的开通",
+    "开辟了海上新航路"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j015_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "《九章算术》主要记载的是？",
+   "explain": "《九章算术》总结了战国到东汉初年的数学成就。",
+   "options": [
+    "农耕时令和作物栽培",
+    "书法理论",
+    "佛教经典",
+    "秦汉时期的数学问题和解法"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j016_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "200年官渡之战的结果是？",
+   "explain": "官渡之战为曹操统一北方奠定基础。",
+   "options": [
+    "孙刘联军打败曹操",
+    "曹操以少胜多，打败袁绍",
+    "西晋统一全国",
+    "北魏统一北方"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j016_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "208年赤壁之战中，孙刘联军打败的是？",
+   "explain": "赤壁之战曹操大败，退回北方。",
+   "options": [
+    "袁绍",
+    "苻坚",
+    "曹操",
+    "窦建德"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j017_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "西晋统一全国是在？",
+   "explain": "280年西晋灭吴，结束三国分立。",
+   "options": [
+    "220年",
+    "316年",
+    "280年",
+    "420年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j017_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "西晋灭亡是在？",
+   "explain": "316年匈奴等势力攻占长安，西晋灭亡。",
+   "options": [
+    "280年",
+    "383年",
+    "494年",
+    "316年"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j018_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "东晋的建立者是？",
+   "explain": "317年司马睿在建康建立东晋。",
+   "options": [
+    "司马炎",
+    "刘裕",
+    "萧道成",
+    "司马睿"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j018_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "东晋和南朝的都城是？",
+   "explain": "东晋和宋、齐、梁、陈都以建康为都城。",
+   "options": [
+    "建康",
+    "长安",
+    "洛阳",
+    "成都"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j019_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "439年统一北方的政权是？",
+   "explain": "鲜卑族建立的北魏统一北方。",
+   "options": [
+    "北魏",
+    "东晋",
+    "西晋",
+    "前秦"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j019_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "北魏孝文帝改革的一项措施是？",
+   "explain": "孝文帝把都城从平城迁到洛阳。",
+   "options": [
+    "定都建康",
+    "迁都洛阳",
+    "设立行省",
+    "开通大运河"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j020_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "把圆周率计算到小数点后第七位的是？",
+   "explain": "祖冲之的圆周率成果领先世界很长时间。",
+   "options": [
+    "张仲景",
+    "祖冲之",
+    "蔡伦",
+    "王羲之"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j020_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "《齐民要术》的作者是？",
+   "explain": "贾思勰的《齐民要术》是重要农书。",
+   "options": [
+    "郦道元",
+    "王羲之",
+    "贾思勰",
+    "顾恺之"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j021_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "活动课强调认识早期文明，应当主要依据？",
+   "explain": "考古材料可以印证文明起源与形成。",
+   "options": [
+    "只听神话传说",
+    "只看后代小说",
+    "考古发现的遗址、遗物和相关研究",
+    "只记朝代歌诀"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j021_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪一项属于说明中华文明起源的考古材料？",
+   "explain": "良渚古城、水利和玉器是早期文明的实证。",
+   "options": [
+    "唐朝长安城平面图",
+    "《南京条约》文本",
+    "北宋交子",
+    "良渚古城和玉器"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j016_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "三国的建立顺序，哪一项正确？",
+   "explain": "曹丕建魏，刘备建蜀，孙权建吴。",
+   "options": [
+    "221年魏，220年吴，229年蜀",
+    "229年蜀，220年魏，221年吴",
+    "200年魏，208年蜀，220年吴",
+    "220年魏，221年蜀，229年吴"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j017_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "西晋末年内迁的北方各族主要包括？",
+   "explain": "匈奴、鲜卑、羯、氐、羌在北方内迁。",
+   "options": [
+    "匈奴、鲜卑、羯、氐、羌",
+    "汉族、越族、蛮族",
+    "女真、蒙古、党项",
+    "回纥、吐蕃、南诏"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j018_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "江南地区得到开发的重要条件是？",
+   "explain": "北人南迁促进了江南农业和手工业发展。",
+   "options": [
+    "江南完全不种水稻",
+    "北方人口南迁，带来劳动力和先进技术",
+    "朝廷禁止开垦",
+    "只有少数民族留在北方"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j019_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "孝文帝改革中促进民族交融的措施是？",
+   "explain": "这些措施推动了北方民族交融。",
+   "options": [
+    "恢复本族旧俗并禁止通婚",
+    "废除农业",
+    "说汉语、穿汉服、改汉姓",
+    "只使用鲜卑语"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j020_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "被后人称为书圣的是？",
+   "explain": "王羲之的代表作有《兰亭集序》。",
+   "options": [
+    "顾恺之",
+    "祖冲之",
+    "陶渊明",
+    "王羲之"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j021_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把传说和考古放在一起时，正确的做法是？",
+   "explain": "史前历史尤其要依靠考古，并和文献、传说相互对照。",
+   "options": [
+    "用考古材料检验传说里的历史信息",
+    "用传说否定一切遗址",
+    "认为考古不能研究史前",
+    "只选择好听的故事"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j016_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "赤壁之战之后形成的局面是？",
+   "explain": "赤壁之战奠定了三国鼎立的基础。",
+   "options": [
+    "三国鼎立",
+    "秦统一六国",
+    "南北朝对峙",
+    "安史之乱"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j017_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "西晋能够短时间统一，直接原因是？",
+   "explain": "280年灭吴后，全国重归统一，但统一时间很短。",
+   "options": [
+    "赤壁之战曹操获胜",
+    "灭掉孙吴",
+    "孝文帝迁都洛阳",
+    "隋朝开通大运河"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j018_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "南朝是指依次统治南方的？",
+   "explain": "420年东晋灭亡后，南方经历宋、齐、梁、陈四个王朝。",
+   "options": [
+    "魏、蜀、吴",
+    "北魏、东魏、西魏、北齐",
+    "宋、齐、梁、陈",
+    "辽、宋、夏、金"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j019_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "孝文帝改革的主要历史作用是？",
+   "explain": "改革增强了北魏实力，也加快了民族交融。",
+   "options": [
+    "使西晋立刻灭亡",
+    "导致秦朝统一",
+    "开始了海上丝绸之路",
+    "促进北方民族交融和北魏社会发展"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j020_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "郦道元的《水经注》是一部？",
+   "explain": "《水经注》详细记载了河流流经地区的地理和历史。",
+   "options": [
+    "综合性地理著作",
+    "数学专著",
+    "农书",
+    "兵书"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j021_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 3,
+   "answer_mode": "choice",
+   "stem": "这项活动最后要形成的认识是？",
+   "explain": "从元谋人、原始农业到良渚等发现，可以看出文明的起源和形成。",
+   "options": [
+    "中华文明开始于秦汉",
+    "中华文明起源有考古材料可以证明",
+    "史前没有人类活动",
+    "文明只能从海外传来"
+   ],
+   "answer": 2
+  }
+ ]
+}

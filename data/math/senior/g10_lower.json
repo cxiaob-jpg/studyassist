@@ -1,0 +1,3251 @@
+{
+ "schema_version": 1,
+ "subject": "math",
+ "grade": 10,
+ "semester": "lower",
+ "textbook": "人教A版（高中新教材）",
+ "questions": [
+  {
+   "id": "cnm_h079_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "向量和数量的差别是？",
+   "explain": "向量用有向线段表示，大小是模，另外还要方向。",
+   "options": [
+    "向量有方向，数量没有方向",
+    "向量没有大小",
+    "数量必须带方向",
+    "两者完全相同"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h079_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个向量的模是 5。它的长度是多少？",
+   "explain": "模就是向量的长度，这里是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h080_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "两个向量相等，是指？",
+   "explain": "相等与起点无关。平行移动后仍然可以相等。",
+   "options": [
+    "只要模相等",
+    "模相等并且方向相同",
+    "只要方向相同",
+    "起点必须相同"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h080_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "方向相反、模相等的两个向量？",
+   "explain": "共线包括同向和反向。反向就不相等。",
+   "options": [
+    "相等",
+    "既不相等也不共线",
+    "共线但不相等",
+    "一定是零向量"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h081_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (1，2) 与 (3，4) 的和的横坐标是多少？",
+   "explain": "坐标分别相加，横坐标 1+3=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h081_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (1，2) 与 (3，4) 的和的纵坐标是多少？",
+   "explain": "坐标分别相加，纵坐标 2+4=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h082_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (5，1) 减去 (2，3)，差的横坐标是多少？",
+   "explain": "坐标分别相减，5−2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h082_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "上一问里差的纵坐标是多少？",
+   "explain": "1−3=−2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h083_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "3 乘以向量 (1，−2)，纵坐标是多少？",
+   "explain": "每个坐标都乘 3，纵坐标是 −6。",
+   "answer": -6
+  },
+  {
+   "id": "cnm_h083_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (3，4) 的模是 5。2 倍这个向量的模是多少？",
+   "explain": "正数倍之后，模乘这个正数，2×5=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h084_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (2，4) 是 (1，2) 的多少倍？",
+   "explain": "2×(1，2)=(2，4)，倍数是 2，所以共线。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h084_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "若 (k，6) 与 (2，3) 共线，且由第二坐标得 k/2=6/3。k 是多少？",
+   "explain": "对应坐标成比例，k/2=2，k=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h085_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "作为平面向量基底的两个向量必须？",
+   "explain": "共线的两个向量张不成整个平面。垂直和单位长度都不是必须的。",
+   "options": [
+    "模都是 1",
+    "互相垂直",
+    "不共线",
+    "起点不同"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h085_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "e1=(1，0)，e2=(0，1)。向量 (3，5)=3 e1+5 e2。e1 前面的系数是多少？",
+   "explain": "按基本定理，系数就是在这组基底下的坐标，这里是 3 和 5。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h086_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "起点 (1，2)，终点 (4，6)。这个向量的横坐标是多少？",
+   "explain": "横坐标等于终点的 x 减去起点的 x，4−1=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h086_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "上一问里向量的纵坐标是多少？",
+   "explain": "6−2=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h087_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "a=(2，−1)，b=(1，4)。2a+b 的横坐标是多少？",
+   "explain": "2×2+1=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h087_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "a=(2，−1)，b=(1，4)。2a+b 的纵坐标是多少？",
+   "explain": "纵坐标是 2×(−1)+4=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h088_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 (1，2)·(3，4)。",
+   "explain": "1×3+2×4=11。",
+   "answer": 11
+  },
+  {
+   "id": "cnm_h088_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求 (1，0)·(0，1)。",
+   "explain": "坐标基向量互相垂直，数量积是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h089_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "a=(3，4)。|a|²=a·a，|a| 是多少？",
+   "explain": "3²+4²=25，模是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h089_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "a=(1，2)，b=(3，0)，c=(1，1)。先算 a·c 与 b·c 再相加，结果是多少？",
+   "explain": "(a+b)·c=a·c+b·c，1+2+3=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h090_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求向量 (3，4) 的模。",
+   "explain": "√(9+16)=√25=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h090_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "求向量 (5，12) 的模。",
+   "explain": "√(25+144)=√169=13。",
+   "answer": 13
+  },
+  {
+   "id": "cnm_h091_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "两边为 2 和 3，夹角的余弦是 1/2。第三边的平方是多少？",
+   "explain": "c²=a²+b²−2ab cosC=4+9−6=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h091_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "两边为 3 和 4，夹角为 90°，余弦是 0。第三边的平方是多少？",
+   "explain": "直角时余弦项为 0，3²+4²=25。",
+   "answer": 25
+  },
+  {
+   "id": "cnm_h092_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "a=2，A=30°，sin30°=1/2。a/sinA 等于多少？",
+   "explain": "2÷(1/2)=4。这个值等于外接圆直径 2R。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h092_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "在直角三角形中，斜边对 90°，sin90°=1。若斜边 c=6，则 c/sinC 是多少？",
+   "explain": "6/1=6，也就是斜边本身，因为斜边是外接圆直径。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h093_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "三角形两边为 6 和 8，夹角 90°。第三边是多少？",
+   "explain": "直角，第三边 √(36+64)=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h093_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "等边三角形边长为 2，每个内角是多少度？",
+   "explain": "三边相等则三角相等，每个角是 60°。",
+   "answer": 60
+  },
+  {
+   "id": "cnm_h094_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "船从岸边垂直驶出 12 千米，再沿垂直方向驶 5 千米。离出发点的直线距离是多少千米？",
+   "explain": "两段互相垂直，距离 √(144+25)=13。",
+   "answer": 13
+  },
+  {
+   "id": "cnm_h094_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "斜坡的垂直高度是 3 米，水平距离是 4 米。坡面长度是多少米？",
+   "explain": "直角三角形的斜边是 5 米。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h095_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "平行四边形邻边向量为 (2，1) 和 (1，−2)。它们的数量积是多少？",
+   "explain": "2−2=0，所以这两条邻边垂直。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h095_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "向量 (6，8) 的模是多少？",
+   "explain": "√(36+64)=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h079_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "零向量的模是？",
+   "explain": "零向量的长度是 0。它的方向不定，不拿来和别的向量比方向。",
+   "options": [
+    "1",
+    "不能确定",
+    "0",
+    "等于单位向量"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h079_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "有向线段表示向量时，必须指出？",
+   "explain": "没有方向就只剩下长度，不再是确定的向量。",
+   "options": [
+    "只写长度",
+    "只写起点",
+    "只写所在直线",
+    "起点、终点和方向"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h080_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "向量 a 的模是 4，与 a 相等的向量模是多少？",
+   "explain": "相等向量的模必须相同。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h080_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "单位向量是指？",
+   "explain": "单位向量只限制长度为 1，方向可以不同。",
+   "options": [
+    "模为 1 的向量",
+    "模为 0 的向量",
+    "与坐标轴平行的向量",
+    "任意非零向量"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h081_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "向量 (5，−1) 与 (−2，1) 的和的横坐标是多少？",
+   "explain": "5−2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h081_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "向量加法可以用？",
+   "explain": "首尾相接是三角形法则，共起点作平行四边形也可以。",
+   "options": [
+    "只把长度相加、不管方向",
+    "三角形法则或平行四边形法则",
+    "只能用坐标、不能作图",
+    "必须先取数量积"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h082_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "a=(4，4)，求 a−a 的模。",
+   "explain": "任何向量减自身都是零向量，模是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h082_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "a−b 等于？",
+   "explain": "减法定义为加上相反向量，不是长度直接相减。",
+   "options": [
+    "a 的模减去 b 的模",
+    "只改变 a 的方向",
+    "a 加上 b 的相反向量",
+    "a 与 b 的数量积"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h083_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "−1 乘以向量 (2，−5) 的横坐标是多少？",
+   "explain": "相反向量的横坐标是 −2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h083_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "实数 k<0 时，k 倍非零向量的方向？",
+   "explain": "负数倍把方向改成相反方向，模乘 |k|。",
+   "options": [
+    "与原向量相同",
+    "变成零向量",
+    "与原向量垂直",
+    "与原向量相反"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h084_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "(1，0) 与 (0，1) 是否共线？",
+   "explain": "不存在实数 λ 使 (0，1)=λ(1，0)，因为第一坐标会迫使 λ=0，第二坐标却是 1。",
+   "options": [
+    "共线",
+    "只有在起点相同时共线",
+    "方向相反所以共线",
+    "不共线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h084_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "零向量与任意向量的位置关系按共线定义？",
+   "explain": "取 λ=0 就有 0=λa。教材把零向量看作与任意向量共线。",
+   "options": [
+    "零向量与任意向量共线",
+    "只与零向量共线",
+    "与任意向量垂直",
+    "不能讨论"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h085_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "上一问里 e2 前面的系数是多少？",
+   "explain": "纵坐标 5 就是 e2 的系数。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h085_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在基底 e1=(1，0)、e2=(0，1) 下，向量 (3，5) 的分解？",
+   "explain": "e1、e2 不共线，可作基底。基本定理保证 (3，5)=3 e1+5 e2 这种分解存在并且唯一。",
+   "options": [
+    "可以有无数种系数",
+    "是唯一的",
+    "只有正交基底才唯一",
+    "系数必须为正"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h086_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "起点和终点都是 (2，−1) 时，向量的模是多少？",
+   "explain": "坐标是 (0，0)，这是零向量。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h086_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "向量坐标与起点是否有关？",
+   "explain": "相等向量坐标相同，但计算某一个有向线段的坐标时要用它自己的起终点。",
+   "options": [
+    "无关，只看方向",
+    "只与长度有关",
+    "有关，坐标等于终点减起点",
+    "必须把起点放在原点"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h087_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "a=(3，1)，b=(3，1)。a−b 的模是多少？",
+   "explain": "差是零向量。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h088_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "a=(2，−1)，求 a·a。",
+   "explain": "4+1=5，等于模的平方。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h088_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数量积的结果是？",
+   "explain": "数量积又叫点积，结果是数，不是向量。",
+   "options": [
+    "一个实数",
+    "一个向量",
+    "一条直线",
+    "一个点"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h089_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 a·b=4，则 (2a)·b 是多少？",
+   "explain": "数可以提到数量积外面，2×4=8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h089_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一般地，a·b 是否等于 b·a？",
+   "explain": "数量积满足交换律，坐标相乘的顺序不影响和。",
+   "options": [
+    "不等于",
+    "等于",
+    "只有垂直时等于",
+    "只有平行时等于"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h090_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "a=(1，2)，b=(2，−1)。a·b 是多少？由此判断是否垂直。",
+   "explain": "2−2=0，数量积为 0，两个向量垂直。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h090_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "两个非零向量垂直的充要条件是？",
+   "explain": "a·b=|a||b|cosθ=0，模都不为 0，所以 cosθ=0。",
+   "options": [
+    "模相等",
+    "和是零向量",
+    "数量积等于 0",
+    "坐标分别相等"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h091_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "上一问中第三边的长是多少？",
+   "explain": "√25=5，这就是勾股定理。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h091_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "余弦定理在夹角为锐角时，−2ab cosC 这一项？",
+   "explain": "锐角余弦为正，减去正数，所以比两平方和更小。",
+   "options": [
+    "一定是正数",
+    "一定是 0",
+    "与夹角无关",
+    "是负数，第三边平方小于两平方和"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h092_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A=90°，a=10。外接圆半径 R 满足 2R=a/sinA。R 是多少？",
+   "explain": "sin90°=1，2R=10，R=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h092_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "正弦定理适合用来？",
+   "explain": "正弦定理把边和它所对的角的正弦联系起来。",
+   "options": [
+    "已知两角和一边，或已知两边及其中一边的对角",
+    "只用来求向量的模",
+    "代替所有余弦定理",
+    "只在等边三角形中成立"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h093_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三角形内角和是多少度？",
+   "explain": "解三角形时，已知两角就可以用内角和求第三角。",
+   "answer": 180
+  },
+  {
+   "id": "cnm_h093_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "已知三边求角，优先用？",
+   "explain": "三边都知道时，余弦定理可以直接求出一个角的余弦。",
+   "options": [
+    "正弦定理",
+    "余弦定理",
+    "只量一次量角器",
+    "向量加法"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h094_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "直角三角形的斜边为 2，一个锐角为 30°。这个角的对边是多少？",
+   "explain": "对边等于斜边乘正弦，2×1/2=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h094_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把实际测量化成解三角形时，首先要？",
+   "explain": "先看清已知元素是边还是角，再选择定理。",
+   "options": [
+    "直接套正弦定理、不看是哪条边",
+    "只测量一次长度",
+    "画示意图并标出已知的边和角",
+    "忽略直角"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h095_q3",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "A(0，0)，B(3，4)。线段 AB 的长是多少？",
+   "explain": "向量 AB=(3，4)，模是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h095_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用向量证明两线垂直，只要证明对应向量？",
+   "explain": "非零向量数量积为 0 就是垂直。",
+   "options": [
+    "模相等",
+    "和为零向量",
+    "坐标都是正数",
+    "数量积为 0"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h097_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "复数 3−2i 的实部是多少？",
+   "explain": "实部是不含 i 的那一项，这里是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h097_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "复数 3−2i 的虚部是多少？",
+   "explain": "虚部是 i 前面的实数，这里是 −2，不是 −2i。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h098_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "复数 3+4i 的模是多少？",
+   "explain": "对应点 (3，4)，到原点的距离是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h098_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "复数 −6 的模是多少？",
+   "explain": "对应点 (−6，0)，到原点的距离是 6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h099_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "若 x+2i=3+yi，且 x、y 为实数，则 x 是多少？",
+   "explain": "实部相等，x=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h099_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "上一问中 y 是多少？",
+   "explain": "虚部相等，y=2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h100_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "(1+2i)+(3+4i) 的实部是多少？",
+   "explain": "实部 1+3=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h100_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "(1+2i)+(3+4i) 的虚部是多少？",
+   "explain": "虚部与虚部相加，2+4=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h101_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "复数 3 与 4i 的模分别是 3 和 4。它们的和 3+4i 的模是多少？",
+   "explain": "两个向量垂直，和的模是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h101_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "上一问中，两个模的和是多少？",
+   "explain": "3+4=7，大于和的模 5。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h102_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (1+i)(1−i) 的结果。",
+   "explain": "(1+i)(1−i)=1−(i)²=1−(−1)=2。虚部为 0。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h102_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 i²。",
+   "explain": "按定义，i²=−1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h103_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "(4+6i)/2 的实部是多少？",
+   "explain": "实部和虚部同时除以 2，实部是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h103_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "(4+6i)/2 的虚部是多少？",
+   "explain": "虚部 6/2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h104_q1",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "i³=−i。它的虚部是多少？",
+   "explain": "i³=i²·i=−i，虚部是 −1，实部是 0。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h104_q2",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "计算 (1+2i)(1−2i)。",
+   "explain": "1−(2i)²=1−4i²=1+4=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h097_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "i² 等于多少？",
+   "explain": "虚数单位的平方规定为 −1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h097_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "实数 5 写成复数时，虚部是？",
+   "explain": "5=5+0i，虚部是 0。",
+   "options": [
+    "5",
+    "0",
+    "1",
+    "i"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h098_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "复数 a+bi 对应复平面上的点是？",
+   "explain": "实部作横坐标，虚部作纵坐标。",
+   "options": [
+    "(b，a)",
+    "(a，b)",
+    "(a，bi)",
+    "(i，a)"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h098_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "纯虚数 2i 对应的点在？",
+   "explain": "实部是 0，点是 (0，2)，在虚轴上。",
+   "options": [
+    "实轴上",
+    "原点",
+    "虚轴上",
+    "直线 y=x 上"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h099_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若 (m+1)+(n−1)i=0，则 m 是多少？",
+   "explain": "0=0+0i，实部 m+1=0，m=−1。",
+   "answer": -1
+  },
+  {
+   "id": "cnm_h099_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "两个复数相等，必须？",
+   "explain": "代数形式的实部、虚部是唯一的，所以两边都要相等。",
+   "options": [
+    "只看模相等",
+    "只看实部",
+    "虚部的绝对值相等即可",
+    "实部相等并且虚部相等"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h100_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "(5+i)−(2+3i) 的实部是多少？",
+   "explain": "实部 5−2=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h100_q4",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "(5+i)−(2+3i) 的虚部是多少？",
+   "explain": "虚部 1−3=−2。",
+   "answer": -2
+  },
+  {
+   "id": "cnm_h101_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "复数 2 与 5 都在实轴上。和的模是多少？",
+   "explain": "同方向时，模可以直接相加，和是 7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h101_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "|z1+z2| 与 |z1|+|z2| 的关系是？",
+   "explain": "这是三角不等式。方向相同时等号成立。",
+   "options": [
+    "总是严格大于",
+    "|z1+z2| 小于或等于 |z1|+|z2|",
+    "总是相等",
+    "没有确定关系"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h102_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 i⁴。",
+   "explain": "i⁴=(i²)²=(−1)²=1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h102_q4",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "(2+i)(1+0i) 的实部是多少？",
+   "explain": "乘以 1 后复数不变，实部仍是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h103_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "1+i 的共轭是 1−i。两者的积是多少？",
+   "explain": "z 与共轭的积等于模的平方，这里是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h103_q4",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "(1+i)/(1+i) 等于多少？",
+   "explain": "非零复数除以自己等于 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h104_q3",
+   "unit": "u7",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "计算 (3+i)(3−i)。",
+   "explain": "模的平方是 9+1=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h104_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "i 的正整数次幂从 i¹ 起循环的是？",
+   "explain": "每 4 次循环一次：i、−1、−i、1。",
+   "options": [
+    "i，−1，−i，1",
+    "1，−1 两种",
+    "只有 i",
+    "1，i，−1 三种"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h105_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长方体有多少个顶点？",
+   "explain": "上下底各 4 个顶点，共 8 个。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h105_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长方体有多少条棱？",
+   "explain": "每个底面 4 条，再加 4 条侧棱，共 12 条。",
+   "answer": 12
+  },
+  {
+   "id": "cnm_h106_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "圆柱可以看成？",
+   "explain": "矩形绕一边旋转得到圆柱。直角三角形旋转得到圆锥，半圆旋转得到球。",
+   "options": [
+    "直角三角形绕一条直角边旋转一周",
+    "半圆绕直径旋转一周",
+    "平行四边形平移",
+    "矩形绕它的一条边旋转一周"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h106_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个圆柱有 2 个底面。若再算上侧面，计算「底面个数 + 1」是多少？",
+   "explain": "底面 2 个，侧面是一个曲面，按题意 2+1=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h107_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个几何体由 1 个圆柱和 1 个圆锥拼成。基本几何体的个数是多少？",
+   "explain": "拆开后是两个基本几何体。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h107_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "若圆柱底面半径与圆锥底面半径相同，都是 3。这个共同半径是多少？",
+   "explain": "题目已经给出共同半径 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h108_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "水平放置的图形中，平行于横轴的线段长 6。直观图上这条线段画成多长？",
+   "explain": "平行于横轴的线段长度不变。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h108_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "平行于纵轴的线段长 8。按斜二测，直观图上画成多长？",
+   "explain": "平行于纵轴的线段长度画成原来的一半，是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h109_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正方形边长为 4，放在水平面上，一条边平行于横轴。这条边在直观图上的长度是多少？",
+   "explain": "平行于横轴，长度仍是 4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h109_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "这个正方形中垂直于它的另一条边，在直观图上的长度是多少？",
+   "explain": "平行于纵轴的边画成一半，是 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h110_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "棱长为 3 的正方体，表面积是多少？",
+   "explain": "6 个面，每个面面积 9，表面积 54。",
+   "answer": 54
+  },
+  {
+   "id": "cnm_h110_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长、宽、高分别为 2、3、4 的长方体，表面积是多少？",
+   "explain": "2×(6+12+8)=52。",
+   "answer": 52
+  },
+  {
+   "id": "cnm_h111_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "底面积为 20、高为 4 的棱柱，体积是多少？",
+   "explain": "柱体体积等于底面积乘高，80。",
+   "answer": 80
+  },
+  {
+   "id": "cnm_h111_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "底面积为 10、高为 6 的圆柱，体积是多少？",
+   "explain": "圆柱也是柱体，体积等于底面积乘高。底面积已经给出。",
+   "answer": 60
+  },
+  {
+   "id": "cnm_h112_q1",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "半径变为原来的 2 倍时，球的体积变为原来的多少倍？",
+   "explain": "体积与半径立方成正比，2³=8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h112_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "半径变为原来的 3 倍时，球的表面积变为原来的多少倍？",
+   "explain": "表面积与半径平方成正比，3²=9。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_h113_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "经过不在同一条直线上的三点，可以确定几个平面？",
+   "explain": "不共线的三点确定唯一的平面。共线的三点则不能确定。",
+   "options": [
+    "一个也没有",
+    "恰好两个",
+    "有且只有一个",
+    "无数个"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h113_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "如果两个不重合的平面有一个公共点，那么？",
+   "explain": "两个平面相交，交线是一条直线。",
+   "options": [
+    "只有这一个公共点",
+    "必定重合",
+    "没有公共直线",
+    "它们有且只有一条过该点的公共直线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h114_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "异面直线是指？",
+   "explain": "平行直线是共面的。异面直线既不相交也不平行。",
+   "options": [
+    "相交但不垂直的直线",
+    "平行的直线",
+    "在同一平面内但不相交的直线",
+    "不同在任何一个平面内的两条直线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h114_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "长方体中，上底面的一条棱和下底面一条与它不平行、也不在同一侧面的棱？",
+   "explain": "不在同一平面、也不平行的棱是异面直线。",
+   "options": [
+    "可能异面",
+    "一定相交",
+    "一定平行",
+    "一定重合"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h115_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直线与平面的位置关系有几种？",
+   "explain": "直线要么在平面内，要么和平面平行，要么和平面相交。异面是直线与直线的关系。",
+   "options": [
+    "在平面内、平行、相交，共三种",
+    "只有平行和垂直",
+    "只有相交",
+    "有四种，包括异面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h115_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "两个不重合的平面？",
+   "explain": "不重合的两个平面若不相交，就是平行。",
+   "options": [
+    "可以异面",
+    "平行或相交",
+    "一定垂直",
+    "一定重合"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h116_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直线 a 不在平面内，且 a 平行于平面内的直线 b。则？",
+   "explain": "这是线面平行的判定定理。a 必须在平面外。",
+   "options": [
+    "a 与平面相交",
+    "a 与这个平面平行",
+    "a 也在平面内",
+    "a 与平面垂直"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h116_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "如果 a 平行于平面内的 b，但 a 自己也在这个平面内，结论是？",
+   "explain": "在平面内的直线不是「与平面平行」。平行要求没有公共点。",
+   "options": [
+    "仍然平行",
+    "一定垂直",
+    "不能说 a 与平面平行",
+    "a 是异面直线"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h117_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直线 a 平行于平面 α。过 a 的平面与 α 交于 b。则？",
+   "explain": "这是线面平行的性质：交线和原来的直线平行。",
+   "options": [
+    "a 垂直于 b",
+    "a 与 b 相交",
+    "a 平行于 b",
+    "a 与 b 异面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h117_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "判定定理和性质定理的差别是？",
+   "explain": "先有平行再用它推出别的平行，是性质；用别的平行推出线面平行，是判定。",
+   "options": [
+    "两者完全一样",
+    "性质用来画直观图",
+    "判定只用于垂直",
+    "判定是条件推出平行，性质是已经平行推出新的平行"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h118_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "平面 α 内两条相交直线都平行于平面 β。则？",
+   "explain": "两条相交直线都与另一平面平行，才能保证两个平面平行。",
+   "options": [
+    "α 与 β 相交",
+    "α 与 β 垂直",
+    "只能得到线面平行",
+    "α 平行于 β"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h118_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "如果只用平面内的一条直线平行于另一平面，能否判定面面平行？",
+   "explain": "一条直线只能得到线面平行。平面还可以绕它倾斜。",
+   "options": [
+    "不能",
+    "能",
+    "只有这条直线是侧棱时能",
+    "只有在长方体里能"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h119_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "两个平行平面被第三个平面所截，得到的两条交线？",
+   "explain": "这是面面平行的性质定理。",
+   "options": [
+    "互相平行",
+    "互相垂直",
+    "一定相交",
+    "一定异面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h119_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长方体上下底面平行。一个侧面与这两个底面各有一条交线。这两条交线是否平行？平行回答 1，不平行回答 0。",
+   "explain": "侧面截一对平行平面，交线就是上下底面的两条对应棱，它们平行。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h120_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直线 l 垂直于平面内两条相交直线。则？",
+   "explain": "这是线面垂直的判定定理。两条直线必须相交。",
+   "options": [
+    "l 只平行于平面",
+    "l 垂直于这个平面",
+    "l 在平面内",
+    "还不能判断"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h120_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "只垂直于平面内的一条直线，能否判定线面垂直？",
+   "explain": "一条不够，还可能只是和某一个方向垂直。",
+   "options": [
+    "能",
+    "这条直线过圆心就能",
+    "不能",
+    "在直观图里能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h121_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "垂直于同一个平面的两条直线？",
+   "explain": "这是线面垂直的性质。",
+   "options": [
+    "一定相交",
+    "一定异面",
+    "互相平行",
+    "一定垂直"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h121_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "长方体有 4 条侧棱，都垂直于底面。相邻两条侧棱是否平行？平行回答 1，不平行回答 0。",
+   "explain": "都垂直于底面，所以侧棱互相平行。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h122_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一个平面经过另一个平面的一条垂线，则这两个平面？",
+   "explain": "这是面面垂直的判定。垂线落在其中一个平面内。",
+   "options": [
+    "互相平行",
+    "一定重合",
+    "不能确定",
+    "互相垂直"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h122_q2",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "正方体中指定一个面为底面后，与这个底面垂直的面有几个？",
+   "explain": "四个侧面都经过底面的垂线（侧棱）。由面面垂直的判定，它们都与底面垂直；对面与底面平行。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h105_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三棱柱有多少个面？",
+   "explain": "2 个底面加 3 个侧面，共 5 个面。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h105_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "棱柱的两个底面？",
+   "explain": "棱柱的侧棱把两个全等的底面平行地连起来。直棱柱的侧棱还垂直于底面。",
+   "options": [
+    "一定垂直",
+    "互相平行并且全等",
+    "一定是矩形",
+    "可以不平行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h106_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "球面上任意一点到球心的距离？",
+   "explain": "球是到定点距离等于半径的点的集合。",
+   "options": [
+    "有的等于直径",
+    "都等于半径",
+    "可以是任意正数",
+    "等于圆周长"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h106_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "圆锥的母线是？",
+   "explain": "母线在侧面上，长度一般不等于高。",
+   "options": [
+    "底面直径",
+    "高所在的线段且一定等于半径",
+    "顶点与底面圆周上点的连线",
+    "侧面展开图的宽"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h107_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "求组合体的体积时，通常？",
+   "explain": "组合体没有统一的新公式，要按组成部分计算。",
+   "options": [
+    "一定用一个公式一次算完",
+    "只算最大的那一块",
+    "分成几个基本几何体再相加或相减",
+    "忽略凹进去的部分"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h107_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "挖去一个小球的大球，体积应？",
+   "explain": "挖去是作差，不是相加。",
+   "options": [
+    "两体积相加",
+    "只算小球",
+    "等于表面积之差",
+    "大球体积减去小球体积"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h108_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "原图形里平行于纵轴的线段在直观图上长 3。它原来的长度是多少？",
+   "explain": "画出来是一半，原来是 6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h108_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "斜二测画法中，横轴与纵轴的夹角通常画成？",
+   "explain": "直观图里原来垂直的两条轴不再画成直角，常用 45°。",
+   "options": [
+    "45° 或 135°",
+    "必须是 90°",
+    "必须是 30°",
+    "可以是 0°"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h109_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "原来互相平行的线段，在斜二测直观图中？",
+   "explain": "斜二测保持平行关系，但纵方向的长度减半。",
+   "options": [
+    "仍然平行",
+    "变成垂直",
+    "一定等长",
+    "不能再画"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h109_q4",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "直观图上两条都平行于横轴的线段，原来长 5 和 5。它们在直观图上的长度之和是多少？",
+   "explain": "两条长度都不变，和是 10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h110_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "圆柱侧面展开是长方形。若底面周长为 10、高为 4，侧面积是多少？",
+   "explain": "侧面积等于底面周长乘高，这里直接给出周长，不必再算 π。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_h110_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "圆锥的侧面积展开后是？",
+   "explain": "沿母线剪开，侧面展开成扇形。底面另是一个圆。",
+   "options": [
+    "矩形",
+    "两个圆",
+    "扇形",
+    "三角形"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h111_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "底面积为 9、高为 3 的圆锥，体积是多少？",
+   "explain": "锥体体积是同底等高柱体的三分之一，9×3/3=9。",
+   "answer": 9
+  },
+  {
+   "id": "cnm_h111_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "同底等高的圆锥体积与圆柱体积的比是？",
+   "explain": "圆锥体积公式带有 1/3，圆柱没有。",
+   "options": [
+    "1:2",
+    "1:1",
+    "2:3",
+    "1:3"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h112_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "半径为 1 的球与半径为 2 的球，体积比是多少？用较大体积除以较小体积。",
+   "explain": "8/1=8。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_h112_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "球的体积公式中，半径使用？",
+   "explain": "V=4/3 π r³。本题只考次数，不要求背出带 π 的小数。",
+   "options": [
+    "三次方",
+    "二次方",
+    "一次方",
+    "不出现半径"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h113_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "长方体 8 个顶点里，选出一条棱上的 2 个端点。这两个点和棱的中点是否共线？共线回答 1，不共线回答 0。",
+   "explain": "端点和中点都在同一条棱上，三点共线。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h113_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "经过一条直线和直线外一点，可以确定？",
+   "explain": "直线外一点和直线上两点构成不共线三点，确定一个平面。",
+   "options": [
+    "唯一的直线",
+    "唯一的平面",
+    "两个平面",
+    "不能确定平面"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h114_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "空间中两条相交直线的交点个数是多少？",
+   "explain": "相交就是有且只有一个公共点。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h114_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "平行直线在空间中？",
+   "explain": "平行的定义要求在同一平面内并且没有公共点。",
+   "options": [
+    "一定异面",
+    "一定垂直",
+    "共面且没有公共点",
+    "一定相交"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h115_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "直线与平面相交时，公共点有几个？",
+   "explain": "相交于一个点。若有两个公共点，直线就落在平面内。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h115_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若一条直线上有两个点在平面内，则？",
+   "explain": "这是平面基本事实的直接推论。",
+   "options": [
+    "直线与平面平行",
+    "直线与平面只有一个交点",
+    "直线与平面垂直",
+    "整条直线都在这个平面内"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h116_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "判定定理要用到平面内的几条直线作为参照？",
+   "explain": "只要平面内有一条与它平行的直线即可。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h116_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "线面平行时，直线与平面的公共点有几个？",
+   "explain": "平行就是没有公共点。",
+   "options": [
+    "0 个",
+    "1 个",
+    "无数个",
+    "2 个"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h117_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "性质定理里，交线有几条？",
+   "explain": "两个平面相交得到一条交线。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h117_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若直线与平面平行，它的方向？",
+   "explain": "性质定理正是找出平面内与它平行的直线。",
+   "options": [
+    "一定垂直于平面",
+    "与平面内一组平行的交线方向一致",
+    "一定穿过平面",
+    "不能与任何平面内直线平行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h118_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "判定定理要求平面内用来参照的相交直线有几条？",
+   "explain": "需要两条，并且它们相交。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h118_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这两条直线若互相平行而不是相交，则？",
+   "explain": "平行的两条直线确定的方向不够，定理要求相交。",
+   "options": [
+    "仍然可以判定面面平行",
+    "两个平面一定垂直",
+    "不能直接用这个判定",
+    "两条直线异面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h119_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若两个平面平行，则其中一个平面内的直线与另一个平面？",
+   "explain": "否则直线会把两个平面连到一个公共点，平面就相交了。",
+   "options": [
+    "相交",
+    "在另一个平面内",
+    "平行",
+    "垂直"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h119_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "面面平行时，两平面的公共点有几个？",
+   "explain": "平行的平面没有公共点。",
+   "options": [
+    "1 个",
+    "一条直线上的无数个",
+    "全部点",
+    "0 个"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h120_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "判定定理中，平面内的相交直线需要几条？",
+   "explain": "两条相交直线。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h120_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "长方体的侧棱与底面？",
+   "explain": "侧棱垂直于底面的两条相交边，所以垂直于底面。",
+   "options": [
+    "垂直",
+    "平行",
+    "异面",
+    "在底面内"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h121_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若一条直线垂直于一个平面，则它垂直于？",
+   "explain": "线面垂直的定义就是与平面内每一条直线都垂直。",
+   "options": [
+    "这个平面内的所有直线",
+    "只垂直于两条",
+    "平面外的所有直线",
+    "只垂直于侧棱"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h121_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "性质定理的结论是两条直线的什么关系？",
+   "explain": "由共同的垂面推出这两条直线平行。",
+   "options": [
+    "垂直",
+    "平行",
+    "相交",
+    "异面"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h122_q3",
+   "unit": "u8",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "长方体相邻的两个侧面都垂直于底面。其中一个侧面内有几条与底面垂直的侧棱（只数这个侧面自己的侧棱）？",
+   "explain": "一个侧面是矩形，左右两条侧棱都垂直于底面。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h122_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "墙面与地面通常抽象成？",
+   "explain": "墙面和地面的交线是墙脚，墙面过地面的垂线。",
+   "options": [
+    "两个平行平面",
+    "两条异面直线",
+    "两个互相垂直的平面",
+    "一个球面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h123_q1",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想知道一批灯泡的使用寿命，又不能把灯泡全部用坏。更合适的是？",
+   "explain": "寿命试验是破坏性的，适合抽样，而不是把全部产品试完。",
+   "options": [
+    "抽样试验",
+    "对所有灯泡做普查",
+    "只问一个人的感觉",
+    "不收集数据"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h123_q2",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "查看统计局已经公布的人口数据，属于？",
+   "explain": "资料已经存在，直接查阅即可。",
+   "options": [
+    "随机试验",
+    "查阅资料",
+    "面对面问卷调查",
+    "设计新的实验"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h124_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "总体 10 件，简单随机抽取 2 件。不同的抽法有多少种？",
+   "explain": "组合数 C(10,2)=45。",
+   "answer": 45
+  },
+  {
+   "id": "cnm_h125_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。甲层应抽多少人？",
+   "explain": "40×1/10=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h125_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。乙层应抽多少人？",
+   "explain": "按各层人数的 1/10 分配，乙层 60×1/10=6。",
+   "answer": 6
+  },
+  {
+   "id": "cnm_h126_q1",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "学校三个年级人数差很多，要了解全校每天的作业时间。更合适的是？",
+   "explain": "年级之间可能不同，应按人数比例分层。",
+   "options": [
+    "只抽一个年级",
+    "把三个年级混在一起却不看人数",
+    "只调查老师",
+    "分层随机抽样"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h126_q2",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "20 支钢笔放在同一个盒子里，除了外观没有其他分层信息。抽 4 支检查，用？",
+   "explain": "没有明显的层，简单随机抽样即可。",
+   "options": [
+    "简单随机抽样",
+    "必须分层",
+    "普查",
+    "只抽第一支"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h127_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "组距为 5，频率除以组距等于 0.04，样本容量为 50。这一组的频数是多少？",
+   "explain": "频率=0.04×5=0.2，频数=0.2×50=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h127_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "两组的频率分别是 0.3 和 0.7。频率之和是多少？",
+   "explain": "全部小长方形的面积之和是 1。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h128_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "样本容量 40，某组频率 0.25。这一组的频数是多少？",
+   "explain": "0.25×40=10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h129_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数据 2，4，6，8，10 已排好，n=5。求第 20 百分位数。i=n×20% 若是整数，取第 i 个和第 i+1 个的平均数。",
+   "explain": "i=1，取第 1 个和第 2 个，即 2 和 4，平均数是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h130_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "样本 2，4，6，8 的平均数是多少？",
+   "explain": "(2+4+6+8)/4=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h130_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "样本 1，3，3，7 的中位数是多少？",
+   "explain": "排序后中间两个数都是 3，中位数是 3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h131_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数据 2，4，4，6 的极差是多少？",
+   "explain": "最大减最小，6−2=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h131_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "数据 2，4，4，6 的方差是多少？按除以 n 计算。",
+   "explain": "平均数是 4，偏差平方和是 8，除以 4 得 2。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h132_q1",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要看各部分占总体的百分比，更合适的是？",
+   "explain": "扇形图用扇形的大小表示比例。",
+   "options": [
+    "折线图",
+    "扇形图",
+    "茎叶图不必、这里用扇形",
+    "只写方差"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h132_q2",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要看一个月内每天气温的变化，更合适的是？",
+   "explain": "折线图能看出随时间的升降。",
+   "options": [
+    "扇形图",
+    "一个只画总数的条形",
+    "折线图",
+    "只写众数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h133_q1",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "甲组 4 人的体重数据 60，62，64，66。平均数是多少？",
+   "explain": "(60+62+64+66)/4=63。",
+   "answer": 63
+  },
+  {
+   "id": "cnm_h133_q2",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "乙组 70，70，70 的平均数是多少？",
+   "explain": "三个数都是 70。",
+   "answer": 70
+  },
+  {
+   "id": "cnm_h123_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "一个班 40 人，如果做普查，要收集多少人的数据？",
+   "explain": "普查是全体都收集，这里是 40。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_h123_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "获取数据之前首先要明确？",
+   "explain": "问题决定收集什么、向谁收集。",
+   "options": [
+    "先画直方图",
+    "先计算方差",
+    "先写结论",
+    "要研究的问题"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h124_q3",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "简单随机抽样要求？",
+   "explain": "机会均等是简单随机抽样的要点。按比例是分层抽样。",
+   "options": [
+    "只抽成绩好的",
+    "按班级比例抽",
+    "样本必须等于总体",
+    "每个个体被抽到的可能性相同"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h124_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "抽签法要把号码？",
+   "explain": "不混合就会让后面的号码几乎抽不到。",
+   "options": [
+    "充分混合后抽取",
+    "按从小到大的顺序只取前面的",
+    "只取偶数",
+    "重复抽取同一个人直到满意"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h125_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "两层合起来的样本量是多少？",
+   "explain": "4+6=10，也等于总人数 100 的 1/10。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h125_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "分层抽样适用于？",
+   "explain": "层内比较整齐、层间差异大时，按比例抽更能代表总体。",
+   "options": [
+    "总体只有 2 个个体",
+    "总体由差异明显的几层组成",
+    "每个个体都完全相同",
+    "不能分组的连续生产"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h126_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "抽样推断的结果？",
+   "explain": "样本提供估计，带有随机误差。",
+   "options": [
+    "一定等于总体参数",
+    "不能用来做任何判断",
+    "是估计，不一定等于总体的精确值",
+    "只对样本里的人有效、与总体无关"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h127_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "直方图中小长方形的高表示？",
+   "explain": "用面积表示频率，所以高必须是频率/组距。组距不同时不能直接比高度当频率。",
+   "options": [
+    "频数本身",
+    "样本容量",
+    "组距",
+    "频率除以组距"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h128_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "样本容量 80，频率 1/5 的组有多少个数据？",
+   "explain": "80/5=16。",
+   "answer": 16
+  },
+  {
+   "id": "cnm_h128_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "组距相同的直方图里，更高的小长方形表示？",
+   "explain": "组距相同，高度与频率成正比。",
+   "options": [
+    "这一组的频率更大",
+    "这一组的数据更小",
+    "样本容量更大",
+    "平均数更大"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h129_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "数据 1，3，5，7，9 已排好，n=5。求第 50 百分位数。i=2.5 不是整数，取它后的第一个整数位置，也就是第 3 个。",
+   "explain": "第 3 个是 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h129_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "百分位数描述的是？",
+   "explain": "它看的是排序后的位置，不是把所有数加起来平均。",
+   "options": [
+    "一定是平均数",
+    "样本中处于某个百分比位置的数值",
+    "一定是众数",
+    "样本容量"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h130_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "样本 1，2，9 的平均数是多少？",
+   "explain": "(1+2+9)/3=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h130_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "数据里有一个特别大的数时，估计总体中心更稳健的常常是？",
+   "explain": "中位数不受两端极端值的拉动，平均数会被拉开。",
+   "options": [
+    "一定改用极差",
+    "只看最大数",
+    "中位数",
+    "样本容量"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h131_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "数据 5，5，5 的方差是多少？按除以 n 计算。",
+   "explain": "每个数都等于平均数，方差是 0。",
+   "answer": 0
+  },
+  {
+   "id": "cnm_h131_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "方差越大，表示？",
+   "explain": "方差衡量离开平均数的程度，不直接等于平均数。",
+   "options": [
+    "平均数越大",
+    "数据个数越多",
+    "中位数越大",
+    "数据波动越大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h132_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "扇形图中三类的百分比是 20、30、50。它们的和是多少？",
+   "explain": "全部类别应占 100%。",
+   "answer": 100
+  },
+  {
+   "id": "cnm_h132_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "比较几个连续区间上的数据分布，用？",
+   "explain": "直方图专门表示分组后的频率分布。",
+   "options": [
+    "频率分布直方图",
+    "只画一个扇形",
+    "只算一个平均数",
+    "不分组"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h133_q3",
+   "unit": "u9",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "乙组平均数减去甲组平均数是多少？",
+   "explain": "70−63=7。只能说明这两组样本的差异，还要看抽样是否合适。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h133_q4",
+   "unit": "u9",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "由样本得到的案例结论应该怎样使用？",
+   "explain": "统计案例要同时报告数据来源和结论的局限。",
+   "options": [
+    "当成全体的精确值",
+    "作为估计，并说明样本是怎么抽的",
+    "不再需要样本容量",
+    "可以改数据让结论更好看"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h134_q1",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "抛一枚均匀硬币 2 次，样本点有多少个？",
+   "explain": "每次正反两种，两次共 4 个：正正、正反、反正、反反。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h134_q2",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一个袋子有 3 个不同的球，摸出 1 个。样本点有多少个？",
+   "explain": "每个球是一个样本点。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h135_q1",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "必然事件的概率是？",
+   "explain": "每次都发生，概率是 1。",
+   "options": [
+    "1",
+    "0",
+    "1/2",
+    "可以大于 1"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h135_q2",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "不可能事件对应的集合是？",
+   "explain": "没有样本点能使它发生。",
+   "options": [
+    "样本空间",
+    "空集",
+    "只含一个样本点的集合",
+    "全体实数"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h136_q1",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "样本空间有 8 个样本点，事件 A 有 3 个。A 的对立事件有几个样本点？",
+   "explain": "对立事件是补集，8−3=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h136_q2",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "A 有 4 个样本点，B 有 5 个，A∩B 有 2 个。A∪B 有几个样本点？",
+   "explain": "并集个数是 4+5−2=7。",
+   "answer": 7
+  },
+  {
+   "id": "cnm_h139_q1",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "对立一定互斥吗？",
+   "explain": "对立事件不能同时发生，所以互斥，并且还要盖住整个样本空间。",
+   "options": [
+    "一定",
+    "一定不",
+    "只有概率为 1/2 时才",
+    "无法判断"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h139_q2",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "互斥是否一定对立？",
+   "explain": "两个事件可以都不发生。例如掷骰子「1 点」和「2 点」互斥，但不是对立。",
+   "options": [
+    "一定",
+    "不一定",
+    "在古典概型里一定",
+    "只有两个样本点时才不一定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h134_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "样本空间是？",
+   "explain": "样本空间在做试验之前就列好，包含每一个可能结果。",
+   "options": [
+    "只含最可能的那个结果",
+    "所有样本点组成的集合",
+    "概率等于 1 的事件",
+    "已经发生的结果"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h134_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用集合表示样本空间，依靠的是？",
+   "explain": "高中概率用集合语言，结果就是元素。",
+   "options": [
+    "把概率看成元素",
+    "只能用列举法且不能用描述法",
+    "把结果看成元素",
+    "不能有空集"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h135_q3",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "样本空间有 5 个样本点，某事件含其中 5 个。这个事件的概率若按古典概型计算是多少？",
+   "explain": "全部样本点都在事件里，概率是 1，这是必然事件。",
+   "answer": 1
+  },
+  {
+   "id": "cnm_h135_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "随机事件是指？",
+   "explain": "概率严格在 0 和 1 之间的是随机事件。必然和不可能是两种极端。",
+   "options": [
+    "一定发生的事件",
+    "一定不发生的事件",
+    "样本空间外面的对象",
+    "可能发生也可能不发生的事件"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h136_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "A∩B 表示？",
+   "explain": "交是公共部分，两个事件都发生。",
+   "options": [
+    "A 或 B 至少一个发生",
+    "A 不发生",
+    "样本空间",
+    "A 和 B 同时发生"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h136_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "对立事件除了互斥，还要满足？",
+   "explain": "互斥只是不能同时发生。对立还要求两者必有一个发生。",
+   "options": [
+    "并起来是整个样本空间",
+    "交集不是空集",
+    "概率都是 1/2",
+    "只能各含一个样本点"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h137_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "古典概型要求样本点？",
+   "explain": "不等可能时不能用「个数除以个数」。",
+   "options": [
+    "可以无限个",
+    "有限个并且每个等可能",
+    "概率可以不相等",
+    "必须是连续区间"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h138_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "互斥事件的概率可以直接相加，因为？",
+   "explain": "互斥和独立不是一回事。这里用的是交集为空。",
+   "options": [
+    "它们互相独立",
+    "它们的概率都是 1",
+    "它们不能同时发生，交集为空",
+    "样本点个数无限"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h139_q4",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "样本空间 6 个等可能结果。事件「点数为 1」和「点数为 2」一起含几个结果？",
+   "explain": "两个互斥事件的结果数相加，1+1=2。它们的并不是必然事件。",
+   "answer": 2
+  },
+  {
+   "id": "cnm_h140_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "若 A、B 都不是不可能事件，并且互斥，则它们？",
+   "explain": "互斥时 P(A∩B)=0，而 P(A)P(B)>0，两者不相等。",
+   "options": [
+    "一定相互独立",
+    "概率都是 0",
+    "不能求交",
+    "不相互独立"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnm_h140_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "相互独立是指？",
+   "explain": "独立看的是概率相乘，不是交集为空。",
+   "options": [
+    "一个事件发生与否不改变另一个的概率",
+    "两个事件不能同时发生",
+    "两个事件必然同时发生",
+    "概率之和为 1"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnm_h141_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这里用「至少一次」的对立来算，有没有用到条件概率？",
+   "explain": "对立事件和独立性就够了。条件概率是选择性必修的内容。",
+   "options": [
+    "用了",
+    "没有",
+    "必须先知道第一次已经命中",
+    "只有古典概型才不用"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h142_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "频率稳定在 1/5 附近，说明？",
+   "explain": "频率是估计。下一次仍是随机的。",
+   "options": [
+    "概率已经变成频率的下一个值",
+    "可以把概率估计为 1/5",
+    "下一次一定发生",
+    "试验可以停止且结果不再变化"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnm_h142_q4",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "频率和概率的差别是？",
+   "explain": "概率是确定的模型值，频率会波动并逐渐稳定。",
+   "options": [
+    "两者永远相等",
+    "频率可以大于 1",
+    "频率来自已做的试验，概率是事件本身的规律",
+    "概率会随试验次数改变"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h143_q3",
+   "unit": "u10",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "同样的试验，哪一次估计通常更可信？",
+   "explain": "次数越多，频率越稳定。",
+   "options": [
+    "频率更大的那一次",
+    "次数更少的那一次",
+    "试验次数更多的那一次",
+    "最先做的那一次"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnm_h143_q4",
+   "unit": "u10",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "若估计的概率是 1/4，在 40 次试验中大约期望出现多少次？",
+   "explain": "期望次数是 40×1/4=10。实际次数仍会有波动。",
+   "answer": 10
+  },
+  {
+   "id": "cnm_h096_q1",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 BC 的长是多少？",
+   "explain": "向量 BC=(4，−3)，模 √(16+9)=5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_h096_q2",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AB 的长是多少？",
+   "explain": "向量 AB=(4，0)，模 √(16+0)=4。",
+   "answer": 4
+  },
+  {
+   "id": "cnm_h096_q3",
+   "unit": "u99",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AC 的长是多少？",
+   "explain": "向量 AC=(0，3)，模 √(0+9)=3。",
+   "answer": 3
+  },
+  {
+   "id": "cnm_h096_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这项探究主要想说明？",
+   "explain": "用一个直角三角形就能看到 AB²+AC²=BC²，和余弦定理一致。",
+   "options": [
+    "向量可以把三角形的边角关系变成坐标运算",
+    "向量不能用于三角形",
+    "只能用量角器研究三角形",
+    "探究不需要具体例子"
+   ],
+   "answer": 1
+  }
+ ]
+}

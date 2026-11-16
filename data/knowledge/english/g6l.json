@@ -1,0 +1,2754 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "english",
+  "grade": 6,
+  "semester": "lower",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第1单元 How tall are you"
+    },
+    {
+      "id": "u2",
+      "name": "第2单元 Last weekend"
+    },
+    {
+      "id": "u3",
+      "name": "第3单元 Where did you go"
+    },
+    {
+      "id": "u4",
+      "name": "第4单元 Then and now"
+    },
+    {
+      "id": "u5",
+      "name": "复习 Mike's happy days"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cne_p179",
+      "name": "陈述句和疑问句的语调",
+      "domain": "语音",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "一般疑问句通常用升调，陈述句、祈使句和特殊疑问句通常用降调。",
+      "mastery_criteria": [
+        "能根据字母或读音选出正确的一项",
+        "能把字母、发音和例词对上"
+      ],
+      "example": {
+        "question": "一般疑问句通常用什么语调？",
+        "answer": "升调"
+      }
+    },
+    {
+      "id": "cne_p180",
+      "name": "身高和体重",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "认读 metre、kilogram、size 和 heavy。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「米」？",
+        "answer": "metre"
+      }
+    },
+    {
+      "id": "cne_p181",
+      "name": "形容词比较级",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "能写出 tall、long、heavy 的比较级 taller、longer、heavier。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "tall 的比较级是哪一个？",
+        "answer": "taller"
+      }
+    },
+    {
+      "id": "cne_p182",
+      "name": "用 than 比较",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "用比较级加 than 对两者进行比较。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "哪一句是正确的比较？",
+        "answer": "I am taller than you."
+      }
+    },
+    {
+      "id": "cne_p183",
+      "name": "询问身高",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "用 How tall are you? 和 How heavy are you? 询问身高、体重。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想问对方多高，应说哪一句？",
+        "answer": "How tall are you?"
+      }
+    },
+    {
+      "id": "cne_p184",
+      "name": "读懂比较短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 How tall are you",
+      "description": "读比较短文，按数字判断谁更高或更重。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Amy is 1.5 metres. John is 1.6 metres. John is taller than Amy. 谁更高？",
+        "answer": "John"
+      }
+    },
+    {
+      "id": "cne_p241",
+      "name": "周末活动词汇",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "认读 cleaned my room、washed my clothes、stayed at home、had a cold、slept、read a book 等周末活动（Unit2 Part A/B）。",
+      "mastery_criteria": [
+        "能选出周末活动短语的意思",
+        "能根据中文选出英文短语"
+      ],
+      "example": {
+        "question": "「打扫房间」的过去式短语是？",
+        "answer": "cleaned my room"
+      }
+    },
+    {
+      "id": "cne_p242",
+      "name": "Did you 问周末活动",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "用 Did you …? / Yes, I did. / No, I didn't. 询问和回答上周末是否做某事。",
+      "mastery_criteria": [
+        "能选出正确的 Did 问句",
+        "能用 did / didn't 简短回答"
+      ],
+      "example": {
+        "question": "想问「你上周末打扫房间了吗？」，应选哪一句？",
+        "answer": "Did you clean your room last weekend?"
+      }
+    },
+    {
+      "id": "cne_p243",
+      "name": "How was your weekend",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "用 How was your weekend? / It was good/fine/OK. / It wasn't good. 评价上周末。",
+      "mastery_criteria": [
+        "能选出正确的评价问句和答句",
+        "能读懂简短周末评价"
+      ],
+      "example": {
+        "question": "想问「你周末过得怎么样？」，应选哪一句？",
+        "answer": "How was your weekend?"
+      }
+    },
+    {
+      "id": "cne_p187",
+      "name": "谈论上周末",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "用 What did you do last weekend? 谈论已经发生的周末。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想问上周末做了什么，应说哪一句？",
+        "answer": "What did you do last weekend?"
+      }
+    },
+    {
+      "id": "cne_p244",
+      "name": "用过去式说周末安排",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "综合用过去式说出上周末做了什么、没做什么，并简单评价。",
+      "mastery_criteria": [
+        "能选出完整的周末经历句子",
+        "能读懂简短周末对话"
+      ],
+      "example": {
+        "question": "想说「我上周末洗衣服了，很忙」，应选哪一句？",
+        "answer": "I washed my clothes last weekend. It was busy."
+      }
+    },
+    {
+      "id": "cne_p188",
+      "name": "读懂上周末日记",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Last weekend",
+      "description": "读过去时日记，找出做了什么。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Last weekend I cleaned my room. I did not watch TV. 这个人看电视了吗？",
+        "answer": "没有"
+      }
+    },
+    {
+      "id": "cne_p223",
+      "name": "假期活动词汇",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "认读 rode a horse、went camping、went fishing、hurt my foot、took pictures、bought gifts 等假期活动（Unit3 Part A/B）。",
+      "mastery_criteria": [
+        "能选出假期活动短语的意思",
+        "能根据中文选出英文短语"
+      ],
+      "example": {
+        "question": "「骑马」的过去式短语是？",
+        "answer": "rode a horse"
+      }
+    },
+    {
+      "id": "cne_p224",
+      "name": "Where did you go 问去向",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "用 Where did you go …? / I went to … 询问和回答过去去过的地方。",
+      "mastery_criteria": [
+        "能选出正确的过去去向问句",
+        "能用 went to 回答"
+      ],
+      "example": {
+        "question": "想问「你去了哪里？」，应选哪一句？",
+        "answer": "Where did you go?"
+      }
+    },
+    {
+      "id": "cne_p225",
+      "name": "What did you do 问活动",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "用 What did you do …? / I rode … / I went … 询问和回答过去做的事。",
+      "mastery_criteria": [
+        "能选出正确的过去活动问句",
+        "能用过去式短语回答"
+      ],
+      "example": {
+        "question": "想问「你在那里做了什么？」，应选哪一句？",
+        "answer": "What did you do there?"
+      }
+    },
+    {
+      "id": "cne_p226",
+      "name": "怎么去的与和谁去的",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "用 How did you go …? / Who did you go with? 询问出行方式和同伴。",
+      "mastery_criteria": [
+        "能选出正确的问句",
+        "能用 by plane / with my parents 等回答"
+      ],
+      "example": {
+        "question": "想问「你怎么去的？」，应选哪一句？",
+        "answer": "How did you go there?"
+      }
+    },
+    {
+      "id": "cne_p227",
+      "name": "谈论假期旅行",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "综合用 Where / What / How / Who 谈论一次假期旅行经历。",
+      "mastery_criteria": [
+        "能选出完整的旅行对话答句",
+        "能读懂简短旅行对话"
+      ],
+      "example": {
+        "question": "对话：—Where did you go over the holiday? —____.",
+        "answer": "I went to Hangzhou."
+      }
+    },
+    {
+      "id": "cne_p228",
+      "name": "读懂假期旅行短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 Where did you go",
+      "description": "读假期旅行短文或日记，找出地点、同伴、交通方式和活动。",
+      "mastery_criteria": [
+        "能根据短文选出旅行信息",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Last holiday I went to Sanya with my parents by plane. I went swimming. 我去了哪里？",
+        "answer": "三亚"
+      }
+    },
+    {
+      "id": "cne_p192",
+      "name": "过去和现在",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "认读 ago、different、active 和 Internet。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「以前」？",
+        "answer": "ago"
+      }
+    },
+    {
+      "id": "cne_p193",
+      "name": "was 与 were",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "用 was 和 were 表示过去的状态，用 There was 表示过去有。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能在句子里用对这个句型"
+      ],
+      "example": {
+        "question": "There ____ no library in my school ten years ago. 横线上应填哪个词？",
+        "answer": "was"
+      }
+    },
+    {
+      "id": "cne_p194",
+      "name": "比较过去和现在",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "用 Before, I was ... Now, I am ... 比较过去和现在。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说以前很安静，现在很活跃，应说哪一句？",
+        "answer": "Before, I was quiet. Now, I am active."
+      }
+    },
+    {
+      "id": "cne_p195",
+      "name": "读懂今昔对比",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "读今昔短文，分清过去和现在。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Before, there was no library. Now, there is a big library. 现在有图书馆吗？",
+        "answer": "有"
+      }
+    },
+    {
+      "id": "cne_p196",
+      "name": "易混词 there、its、too",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "在句子里区分 there 与 their、its 与 it's、too 与 two。挂在本册是便于复习，册次待核。",
+      "mastery_criteria": [
+        "能选出单词的中文意思",
+        "能根据中文选出英文单词"
+      ],
+      "example": {
+        "question": "____ is a book on the desk. 横线上应填哪个词？",
+        "answer": "There"
+      }
+    },
+    {
+      "id": "cne_p197",
+      "name": "读懂一封短信",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 Then and now",
+      "description": "读一封写明时间、地点和事件的短信，抓住这三项。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和短文意思一致的句子"
+      ],
+      "example": {
+        "question": "读短信：Dear Amy, I went to the park last Sunday. I saw a lake. Love, Mike. Mike 上星期日去了哪里？",
+        "answer": "公园"
+      }
+    },
+    {
+      "id": "cne_p245",
+      "name": "复习：Mike 的快乐日子",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "复习 Mike's happy days",
+      "description": "综合复习比较级、上周末和假期旅行：读 Mike's happy days 类短文，找出身高比较、周末活动和旅行经历。",
+      "mastery_criteria": [
+        "能根据短文选出比较或过去经历信息",
+        "能选出和短文一致的句子"
+      ],
+      "example": {
+        "question": "读一读：Mike is taller than before. Last weekend he cleaned his room. 迈克上周末做什么？",
+        "answer": "打扫房间"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cne_p179_q1",
+      "topic": "cne_p179",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "陈述句和疑问句的语调",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "一般疑问句通常用什么语调？",
+      "explain": "Do you like apples? 这一类一般疑问句通常用升调。",
+      "answer_mode": "choice",
+      "options": [
+        "升调",
+        "降调",
+        "先降后升再降",
+        "没有语调"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p179_q2",
+      "topic": "cne_p179",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "陈述句和疑问句的语调",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "陈述句 I am ten. 朗读时通常用什么语调？",
+      "explain": "陈述句通常用降调。",
+      "answer_mode": "choice",
+      "options": [
+        "升调",
+        "降调",
+        "一直升到最高",
+        "不读语调"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p179_q3",
+      "topic": "cne_p179",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "陈述句和疑问句的语调",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "祈使句 Open the door. 朗读时通常用什么语调？",
+      "explain": "祈使句通常用降调。",
+      "answer_mode": "choice",
+      "options": [
+        "升调",
+        "先升后降再升",
+        "降调",
+        "不读语调"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p179_q4",
+      "topic": "cne_p179",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "陈述句和疑问句的语调",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "Where is the cat? 这一句通常用什么语调？",
+      "explain": "以 Where 开头的特殊疑问句通常用降调。",
+      "answer_mode": "choice",
+      "options": [
+        "升调",
+        "只升不降",
+        "没有语调",
+        "降调"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p180_q1",
+      "topic": "cne_p180",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "身高和体重",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「米」？",
+      "explain": "metre 的意思是米。",
+      "answer_mode": "choice",
+      "options": [
+        "kilogram",
+        "metre",
+        "size",
+        "heavy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p180_q2",
+      "topic": "cne_p180",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "身高和体重",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「kilogram」的中文意思是哪一个？",
+      "explain": "kilogram 的意思是千克。",
+      "answer_mode": "choice",
+      "options": [
+        "米",
+        "尺码",
+        "千克",
+        "重的"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p180_q3",
+      "topic": "cne_p180",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "身高和体重",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「尺码」的单词。",
+      "explain": "表示尺码的单词是 size。",
+      "answer_mode": "choice",
+      "options": [
+        "metre",
+        "kilogram",
+        "heavy",
+        "size"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p180_q4",
+      "topic": "cne_p180",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "身高和体重",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「重的」？",
+      "explain": "heavy 的意思是重的。",
+      "answer_mode": "choice",
+      "options": [
+        "heavy",
+        "metre",
+        "kilogram",
+        "size"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p181_q1",
+      "topic": "cne_p181",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "形容词比较级",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "tall 的比较级是哪一个？",
+      "explain": "tall 的比较级是 taller。",
+      "answer_mode": "choice",
+      "options": [
+        "more tall",
+        "tallest",
+        "taller",
+        "tallier"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p181_q2",
+      "topic": "cne_p181",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "形容词比较级",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是正确的？",
+      "explain": "taller 前面不要再加 more。",
+      "answer_mode": "choice",
+      "options": [
+        "He is more taller.",
+        "He is tallier.",
+        "He is more tall.",
+        "He is taller."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p181_q3",
+      "topic": "cne_p181",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "形容词比较级",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "long 的比较级是哪一个？",
+      "explain": "long 的比较级是 longer。",
+      "answer_mode": "choice",
+      "options": [
+        "longer",
+        "more long",
+        "longest",
+        "longger"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p181_q4",
+      "topic": "cne_p181",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "形容词比较级",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "heavy 的比较级是哪一个？",
+      "explain": "heavy 的比较级是 heavier。",
+      "answer_mode": "choice",
+      "options": [
+        "more heavy",
+        "heavier",
+        "heaviest",
+        "heavyer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p182_q1",
+      "topic": "cne_p182",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "用 than 比较",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是正确的比较？",
+      "explain": "比较两者说 taller than。",
+      "answer_mode": "choice",
+      "options": [
+        "I am more taller than you.",
+        "I am taller then you.",
+        "I am tall than you.",
+        "I am taller than you."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p182_q2",
+      "topic": "cne_p182",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "用 than 比较",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "Amy is 1.5 metres tall. John is 1.6 metres tall. 谁更高？",
+      "explain": "1.6 大于 1.5，所以 John 更高。",
+      "answer_mode": "choice",
+      "options": [
+        "John",
+        "Amy",
+        "一样高",
+        "无法从这两句知道"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p182_q3",
+      "topic": "cne_p182",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "用 than 比较",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "Zhang Peng is 48 kilograms. Sarah is 42 kilograms. 更重的那个人是多少千克？",
+      "explain": "48 大于 42，所以更重的体重是 48 千克。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 48
+    },
+    {
+      "id": "cne_p182_q4",
+      "topic": "cne_p182",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "用 than 比较",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "This dinosaur is bigger than that one. 这句在比较什么？",
+      "explain": "bigger 是更大。",
+      "answer_mode": "choice",
+      "options": [
+        "谁更高",
+        "谁更重",
+        "谁更大",
+        "谁更老"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p183_q1",
+      "topic": "cne_p183",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "询问身高",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问对方多高，应说哪一句？",
+      "explain": "问身高说 How tall are you?",
+      "answer_mode": "choice",
+      "options": [
+        "How tall are you?",
+        "How old are you?",
+        "How heavy are you?",
+        "How much is it?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p183_q2",
+      "topic": "cne_p183",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "询问身高",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I am 1.6 metres tall. 这句话在说什么？",
+      "explain": "metres 说的是身高。",
+      "answer_mode": "choice",
+      "options": [
+        "体重是 1.6 千克",
+        "身高是 1.6 米",
+        "年龄是 16 岁",
+        "鞋子是 36 码"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p183_q3",
+      "topic": "cne_p183",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "询问身高",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "How heavy are you? 若是 40 千克，应回答哪一句？",
+      "explain": "体重用 kilograms。",
+      "answer_mode": "choice",
+      "options": [
+        "I am 1.5 metres.",
+        "I am 12 years old.",
+        "I am 40 kilograms.",
+        "I am size 36."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p183_q4",
+      "topic": "cne_p183",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "询问身高",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Your feet are bigger than mine. 这句在比较什么？",
+      "explain": "feet 和 bigger 是在比脚。",
+      "answer_mode": "choice",
+      "options": [
+        "身高",
+        "体重",
+        "年龄",
+        "脚的大小"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p184_q1",
+      "topic": "cne_p184",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂比较短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Amy is 1.5 metres. John is 1.6 metres. John is taller than Amy. 谁更高？",
+      "explain": "1.6 大于 1.5，而且句子写 John is taller。",
+      "answer_mode": "choice",
+      "options": [
+        "Amy",
+        "John",
+        "一样高",
+        "短文没比较"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p184_q2",
+      "topic": "cne_p184",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂比较短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：The dinosaur is 4 metres tall. The boy is 1 metre tall. 恐龙高几米？",
+      "explain": "4 metres。",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 4
+    },
+    {
+      "id": "cne_p184_q3",
+      "topic": "cne_p184",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂比较短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Sarah is 42 kilograms. Zhang Peng is 48 kilograms. 谁更重？",
+      "explain": "48 大于 42。",
+      "answer_mode": "choice",
+      "options": [
+        "Sarah",
+        "一样重",
+        "无法知道",
+        "Zhang Peng"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p184_q4",
+      "topic": "cne_p184",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读懂比较短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：My shoes are size 37. Yours are size 35. 哪一句和短文一致？",
+      "explain": "size 37 和 size 35。",
+      "answer_mode": "choice",
+      "options": [
+        "我的鞋是 37 码，你的是 35 码。",
+        "我的鞋是 35 码。",
+        "两个人的鞋一样大。",
+        "没有写尺码。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p187_q1",
+      "topic": "cne_p187",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "谈论上周末",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问上周末做了什么，应说哪一句？",
+      "explain": "问过去用 What did you do last weekend?",
+      "answer_mode": "choice",
+      "options": [
+        "What did you do last weekend?",
+        "What do you do on the weekend?",
+        "What are you going to do?",
+        "What are you doing?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p187_q2",
+      "topic": "cne_p187",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "谈论上周末",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I cleaned my room and watched TV. 做了哪两件事？",
+      "explain": "cleaned my room and watched TV。",
+      "answer_mode": "choice",
+      "options": [
+        "洗衣服和睡觉",
+        "打扫房间和看电视",
+        "只打扫房间",
+        "只看电视"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p187_q3",
+      "topic": "cne_p187",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "谈论上周末",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Did you wash your clothes? 若洗了，应回答哪一句？",
+      "explain": "Did 的肯定回答是 Yes, I did。",
+      "answer_mode": "choice",
+      "options": [
+        "Yes, I do.",
+        "Yes, I was.",
+        "Yes, I did.",
+        "No, I did not wash do."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p187_q4",
+      "topic": "cne_p187",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "谈论上周末",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "I stayed at home all weekend. 这个人周末在哪里？",
+      "explain": "stayed at home。",
+      "answer_mode": "choice",
+      "options": [
+        "去了公园",
+        "去了医院",
+        "去旅行了",
+        "待在家里"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p188_q1",
+      "topic": "cne_p188",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂上周末日记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Last weekend I cleaned my room. I did not watch TV. 这个人看电视了吗？",
+      "explain": "did not watch TV。",
+      "answer_mode": "choice",
+      "options": [
+        "看了",
+        "没有",
+        "只看了一会儿",
+        "短文没写"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p188_q2",
+      "topic": "cne_p188",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂上周末日记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Amy washed her clothes on Saturday. 哪一句和日记一致？",
+      "explain": "washed her clothes on Saturday。",
+      "answer_mode": "choice",
+      "options": [
+        "Amy 星期六看了电视。",
+        "Amy 没有洗衣服。",
+        "Amy 星期六洗了衣服。",
+        "Amy 星期日洗了衣服。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p188_q3",
+      "topic": "cne_p188",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂上周末日记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Did you stay at home? Yes, I did. 这个人待在家里了吗？",
+      "explain": "Yes, I did。",
+      "answer_mode": "choice",
+      "options": [
+        "没有",
+        "去了公园",
+        "没回答",
+        "待了"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p188_q4",
+      "topic": "cne_p188",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读懂上周末日记",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：I watched a film on Sunday. 星期日做了什么？",
+      "explain": "watched a film。",
+      "answer_mode": "choice",
+      "options": [
+        "看了一部电影",
+        "打扫了房间",
+        "洗了衣服",
+        "去旅行了"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p192_q1",
+      "topic": "cne_p192",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去和现在",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「以前」？",
+      "explain": "ago 的意思是以前。",
+      "answer_mode": "choice",
+      "options": [
+        "different",
+        "ago",
+        "active",
+        "Internet"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p192_q2",
+      "topic": "cne_p192",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去和现在",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「different」的中文意思是哪一个？",
+      "explain": "different 的意思是不同的。",
+      "answer_mode": "choice",
+      "options": [
+        "以前",
+        "活跃的",
+        "不同的",
+        "互联网"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p192_q3",
+      "topic": "cne_p192",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去和现在",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「活跃的」的单词。",
+      "explain": "表示活跃的的单词是 active。",
+      "answer_mode": "choice",
+      "options": [
+        "ago",
+        "different",
+        "Internet",
+        "active"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p192_q4",
+      "topic": "cne_p192",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去和现在",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「互联网」？",
+      "explain": "Internet 的意思是互联网。",
+      "answer_mode": "choice",
+      "options": [
+        "Internet",
+        "ago",
+        "different",
+        "active"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p193_q1",
+      "topic": "cne_p193",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "was 与 were",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "There ____ no library in my school ten years ago. 横线上应填哪个词？",
+      "explain": "单数 library 的过去式用 There was。",
+      "answer_mode": "choice",
+      "options": [
+        "is",
+        "were",
+        "was",
+        "are"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p193_q2",
+      "topic": "cne_p193",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "was 与 were",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句表示「以前我很矮」？",
+      "explain": "I 的过去式用 was。",
+      "answer_mode": "choice",
+      "options": [
+        "I were short.",
+        "I was shorted.",
+        "I am short yesterday.",
+        "I was short."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p193_q3",
+      "topic": "cne_p193",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "was 与 were",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "They ____ young then. 横线上应填哪个词？",
+      "explain": "They 的过去式用 were。",
+      "answer_mode": "choice",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p193_q4",
+      "topic": "cne_p193",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "was 与 were",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "There were no computers in the old school. 这句的意思是？",
+      "explain": "There were no 表示过去没有。",
+      "answer_mode": "choice",
+      "options": [
+        "以前学校里有电脑",
+        "以前学校里没有电脑",
+        "现在学校里没有电脑",
+        "电脑在图书馆里"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p194_q1",
+      "topic": "cne_p194",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "比较过去和现在",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说以前很安静，现在很活跃，应说哪一句？",
+      "explain": "过去用 was，现在用 am。",
+      "answer_mode": "choice",
+      "options": [
+        "Before, I am quiet. Now, I was active.",
+        "Before, I were quiet. Now, I am active.",
+        "Now, I was quiet. Before, I am active.",
+        "Before, I was quiet. Now, I am active."
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p194_q2",
+      "topic": "cne_p194",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "比较过去和现在",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "There was no Internet ten years ago. 这句的意思是？",
+      "explain": "was no Internet ten years ago。",
+      "answer_mode": "choice",
+      "options": [
+        "十年前没有互联网",
+        "现在没有互联网",
+        "十年前就有互联网",
+        "互联网在图书馆里"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p194_q3",
+      "topic": "cne_p194",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "比较过去和现在",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "How did you change? 这句是在问什么？",
+      "explain": "change 是变化。",
+      "answer_mode": "choice",
+      "options": [
+        "你现在多高",
+        "你有什么变化",
+        "你上周末做了什么",
+        "你怎么去学校"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p194_q4",
+      "topic": "cne_p194",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "比较过去和现在",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "Now there is a gym. 现在有什么？",
+      "explain": "a gym 是体育馆。",
+      "answer_mode": "choice",
+      "options": [
+        "一个图书馆",
+        "互联网",
+        "一个体育馆",
+        "一台电脑"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p195_q1",
+      "topic": "cne_p195",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂今昔对比",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Before, there was no library. Now, there is a big library. 现在有图书馆吗？",
+      "explain": "Now, there is a big library。",
+      "answer_mode": "choice",
+      "options": [
+        "有",
+        "没有",
+        "只有体育馆",
+        "短文没写现在"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p195_q2",
+      "topic": "cne_p195",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂今昔对比",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：I was short before. Now I am tall. 哪一句和短文一致？",
+      "explain": "was short before，Now I am tall。",
+      "answer_mode": "choice",
+      "options": [
+        "我以前高，现在矮。",
+        "我以前矮，现在高。",
+        "我一直很矮。",
+        "我以前就很高。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p195_q3",
+      "topic": "cne_p195",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂今昔对比",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：There were no computers in my old school. 以前的学校有电脑吗？",
+      "explain": "were no computers。",
+      "answer_mode": "choice",
+      "options": [
+        "有",
+        "只有一台",
+        "没有",
+        "短文说现在没有"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p195_q4",
+      "topic": "cne_p195",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂今昔对比",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：People did not use the Internet then. Now we use it every day. 现在人们用互联网吗？",
+      "explain": "Now we use it every day。",
+      "answer_mode": "choice",
+      "options": [
+        "不用",
+        "只用电话",
+        "短文没写现在",
+        "用"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p196_q1",
+      "topic": "cne_p196",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "易混词 there、its、too",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "____ is a book on the desk. 横线上应填哪个词？",
+      "explain": "表示「有」用 There is。",
+      "answer_mode": "choice",
+      "options": [
+        "Their",
+        "There",
+        "They are",
+        "Theirs"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p196_q2",
+      "topic": "cne_p196",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "易混词 there、its、too",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "The dog wagged ____ tail. 横线上应填哪个词？",
+      "explain": "「它的」用 its，没有撇号。",
+      "answer_mode": "choice",
+      "options": [
+        "it's",
+        "it is",
+        "its",
+        "its is"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p196_q3",
+      "topic": "cne_p196",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "易混词 there、its、too",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "I have two pens. I want one, ____. 横线上应填哪个词？",
+      "explain": "表示「也」用 too。",
+      "answer_mode": "choice",
+      "options": [
+        "two",
+        "to",
+        "and",
+        "too"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p196_q4",
+      "topic": "cne_p196",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "易混词 there、its、too",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "____ books are on the desk. 意思是「他们的书」。横线上应填哪个词？",
+      "explain": "「他们的」用 Their。",
+      "answer_mode": "choice",
+      "options": [
+        "Their",
+        "There",
+        "They are",
+        "Theirs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p197_q1",
+      "topic": "cne_p197",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂一封短信",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读短信：Dear Amy, I went to the park last Sunday. I saw a lake. Love, Mike. Mike 上星期日去了哪里？",
+      "explain": "went to the park。",
+      "answer_mode": "choice",
+      "options": [
+        "湖边的学校",
+        "医院",
+        "公园",
+        "超市"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p197_q2",
+      "topic": "cne_p197",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂一封短信",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读短信：I am going to visit you in June. 写信人打算几月去看望对方？",
+      "explain": "in June。",
+      "answer_mode": "choice",
+      "options": [
+        "五月",
+        "三月",
+        "十月",
+        "六月"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p197_q3",
+      "topic": "cne_p197",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂一封短信",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合写在信的开头？",
+      "explain": "称呼常用 Dear 加上名字。",
+      "answer_mode": "choice",
+      "options": [
+        "Dear Sarah,",
+        "Love, Sarah,",
+        "Yours, Sarah,",
+        "How tall are you, Sarah,"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p197_q4",
+      "topic": "cne_p197",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读懂一封短信",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读短信：Before, I could not swim. Now I can. 哪一句和短信一致？",
+      "explain": "could not swim before，Now I can。",
+      "answer_mode": "choice",
+      "options": [
+        "我以前会游泳。",
+        "我以前不会游泳，现在会了。",
+        "我现在不会游泳。",
+        "我打算去游泳。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p223_q1",
+      "topic": "cne_p223",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "假期活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「骑马」的过去式短语是？",
+      "explain": "ride 的过去式是 rode。",
+      "answer_mode": "choice",
+      "options": [
+        "rode a horse",
+        "ride a horse",
+        "rided a horse",
+        "went a horse"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p223_q2",
+      "topic": "cne_p223",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "假期活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "went camping 的意思是？",
+      "explain": "went camping 是去野营。",
+      "answer_mode": "choice",
+      "options": [
+        "去钓鱼了",
+        "受伤了",
+        "买礼物了",
+        "去野营了"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p223_q3",
+      "topic": "cne_p223",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "假期活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「拍了很多照片」用哪一组？",
+      "explain": "take 的过去式是 took。",
+      "answer_mode": "choice",
+      "options": [
+        "taked pictures",
+        "bought pictures",
+        "took pictures",
+        "take pictures"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p223_q4",
+      "topic": "cne_p223",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "假期活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "hurt my foot 是在说什么？",
+      "explain": "hurt 可作过去式「伤了」。",
+      "answer_mode": "choice",
+      "options": [
+        "买了鞋",
+        "伤了脚",
+        "洗了脚",
+        "看了脚"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p224_q1",
+      "topic": "cne_p224",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "Where did you go 问去向",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想问「你去了哪里？」，应选哪一句？",
+      "explain": "Did 后用动词原形 go。",
+      "answer_mode": "choice",
+      "options": [
+        "Where did you go?",
+        "Where do you go?",
+        "Where did you went?",
+        "Where are you go?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p224_q2",
+      "topic": "cne_p224",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "Where did you go 问去向",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I ____ to the park last Sunday.",
+      "explain": "过去式用 went。",
+      "answer_mode": "choice",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p224_q3",
+      "topic": "cne_p224",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "Where did you go 问去向",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句正确？",
+      "explain": "did + 主语 + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "Where do they went?",
+        "Where they did go?",
+        "Where did they go over the holiday?",
+        "Where did they went over the holiday?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p224_q4",
+      "topic": "cne_p224",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "Where did you go 问去向",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "—Where did you go? —I went to Sanya. 答句去了哪里？",
+      "explain": "Sanya 是三亚。",
+      "answer_mode": "choice",
+      "options": [
+        "医院",
+        "三亚",
+        "公园",
+        "学校"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p225_q1",
+      "topic": "cne_p225",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What did you do 问活动",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问「你在那里做了什么？」，应选哪一句？",
+      "explain": "What did you do …",
+      "answer_mode": "choice",
+      "options": [
+        "What did you do there?",
+        "What did you did there?",
+        "What do you did there?",
+        "What you did there?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p225_q2",
+      "topic": "cne_p225",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What did you do 问活动",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I rode a bike in the forest park. 我做了什么？",
+      "explain": "rode a bike。",
+      "answer_mode": "choice",
+      "options": [
+        "骑马",
+        "钓鱼",
+        "野营",
+        "骑自行车"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p225_q3",
+      "topic": "cne_p225",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What did you do 问活动",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句回答「做了什么」？",
+      "explain": "went fishing。",
+      "answer_mode": "choice",
+      "options": [
+        "I going fishing.",
+        "I goed fishing.",
+        "I went fishing.",
+        "I go fishing yesterday."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p225_q4",
+      "topic": "cne_p225",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "What did you do 问活动",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—What did you do? —I ____ gifts.",
+      "explain": "过去式 bought。",
+      "answer_mode": "choice",
+      "options": [
+        "buying",
+        "bought",
+        "buy",
+        "buys"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p226_q1",
+      "topic": "cne_p226",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "怎么去的与和谁去的",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问「你怎么去的？」，应选哪一句？",
+      "explain": "How did you go …",
+      "answer_mode": "choice",
+      "options": [
+        "How did you go there?",
+        "How did you went there?",
+        "How do you went there?",
+        "How you go there yesterday?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p226_q2",
+      "topic": "cne_p226",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "怎么去的与和谁去的",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "We went there by plane. 我们怎么去的？",
+      "explain": "by plane。",
+      "answer_mode": "choice",
+      "options": [
+        "坐火车步行",
+        "骑自行车",
+        "没写方式",
+        "坐飞机"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p226_q3",
+      "topic": "cne_p226",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "怎么去的与和谁去的",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想问「你和谁一起去的？」应选？",
+      "explain": "Who did you go with?",
+      "answer_mode": "choice",
+      "options": [
+        "Who do you go with yesterday?",
+        "With who you go?",
+        "Who did you go with?",
+        "Who did you went with?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p226_q4",
+      "topic": "cne_p226",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "怎么去的与和谁去的",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—Who did you go with? —____.",
+      "explain": "问同伴用人物回答。",
+      "answer_mode": "choice",
+      "options": [
+        "I took pictures",
+        "My parents",
+        "By plane",
+        "It was warm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p227_q1",
+      "topic": "cne_p227",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论假期旅行",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "对话：—Where did you go over the holiday? —____.",
+      "explain": "用 went to 回答。",
+      "answer_mode": "choice",
+      "options": [
+        "I went to Hangzhou.",
+        "I go to Hangzhou.",
+        "I goes to Hangzhou.",
+        "I going to Hangzhou."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p227_q2",
+      "topic": "cne_p227",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论假期旅行",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "It was so warm in Sanya. 三亚怎么样？",
+      "explain": "so warm。",
+      "answer_mode": "choice",
+      "options": [
+        "很冷",
+        "在下雪",
+        "没有天气信息",
+        "很暖和"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p227_q3",
+      "topic": "cne_p227",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论假期旅行",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一组句子能完整谈一次旅行？",
+      "explain": "过去式 went / rode。",
+      "answer_mode": "choice",
+      "options": [
+        "I going Xinjiang.",
+        "Xinjiang go I.",
+        "I went to Xinjiang. I rode a horse.",
+        "I go to Xinjiang. I ride a horse yesterday."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p227_q4",
+      "topic": "cne_p227",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论假期旅行",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—How was your holiday? —____.",
+      "explain": "用 It was … 评价过去假期。",
+      "answer_mode": "choice",
+      "options": [
+        "Yes, I do every day.",
+        "It was good.",
+        "It is tomorrow.",
+        "I am a holiday."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p228_q1",
+      "topic": "cne_p228",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂假期旅行短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Last holiday I went to Sanya with my parents by plane. I went swimming. 我去了哪里？",
+      "explain": "went to Sanya。",
+      "answer_mode": "choice",
+      "options": [
+        "三亚",
+        "杭州",
+        "新疆",
+        "公园"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p228_q2",
+      "topic": "cne_p228",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂假期旅行短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：We saw lots of grapes in Turpan, but we couldn't eat them. 在吐鲁番看到了什么？",
+      "explain": "lots of grapes。",
+      "answer_mode": "choice",
+      "options": [
+        "很多马",
+        "很多礼物",
+        "很多雪",
+        "很多葡萄"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p228_q3",
+      "topic": "cne_p228",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂假期旅行短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：John hurt his foot and couldn't come to school. 约翰怎么了？",
+      "explain": "hurt his foot。",
+      "answer_mode": "choice",
+      "options": [
+        "他买了礼物",
+        "他骑马了",
+        "脚受伤了",
+        "他去游泳了"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p228_q4",
+      "topic": "cne_p228",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读懂假期旅行短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：I took lots of pictures and bought gifts for my friends. 哪一句一致？",
+      "explain": "took pictures … bought gifts。",
+      "answer_mode": "choice",
+      "options": [
+        "我只待在家里。",
+        "我拍了很多照片，还买了礼物。",
+        "我什么都没买。",
+        "我没有拍照。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p241_q1",
+      "topic": "cne_p241",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "周末活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「打扫房间」的过去式短语是？",
+      "explain": "clean 的过去式是 cleaned。",
+      "answer_mode": "choice",
+      "options": [
+        "cleaned my room",
+        "clean my room",
+        "cleaning my room",
+        "cleans my room"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p241_q2",
+      "topic": "cne_p241",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "周末活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "stayed at home 的意思是？",
+      "explain": "stayed at home 是待在家里。",
+      "answer_mode": "choice",
+      "options": [
+        "去了公园",
+        "看了电影",
+        "洗了衣服",
+        "待在家里"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p241_q3",
+      "topic": "cne_p241",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "周末活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "「洗衣服」用哪一组？",
+      "explain": "washed my clothes。",
+      "answer_mode": "choice",
+      "options": [
+        "washing clothes",
+        "washes clothes",
+        "washed my clothes",
+        "wash my clothes yesterday"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p241_q4",
+      "topic": "cne_p241",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "周末活动词汇",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "had a cold 是在说什么？",
+      "explain": "had a cold 是感冒了。",
+      "answer_mode": "choice",
+      "options": [
+        "去滑雪了",
+        "感冒了",
+        "很冷",
+        "喝了冷饮"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p242_q1",
+      "topic": "cne_p242",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "Did you 问周末活动",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "想问「你上周末打扫房间了吗？」，应选哪一句？",
+      "explain": "Did + 主语 + 动词原形。",
+      "answer_mode": "choice",
+      "options": [
+        "Did you clean your room last weekend?",
+        "Did you cleaned your room last weekend?",
+        "Do you cleaned your room?",
+        "Did you cleaning your room?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p242_q2",
+      "topic": "cne_p242",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "Did you 问周末活动",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "—Did you stay at home? —Yes, I ____.",
+      "explain": "肯定简答用 did。",
+      "answer_mode": "choice",
+      "options": [
+        "do",
+        "does",
+        "didn't stay",
+        "did"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p242_q3",
+      "topic": "cne_p242",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "Did you 问周末活动",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句正确？",
+      "explain": "Did 后用原形 wash。",
+      "answer_mode": "choice",
+      "options": [
+        "Did they washing?",
+        "Do they washed?",
+        "Did they wash their clothes?",
+        "Did they washed their clothes?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p242_q4",
+      "topic": "cne_p242",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "Did you 问周末活动",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "—Did you see a film? —No, I ____.",
+      "explain": "否定简答用 didn't。",
+      "answer_mode": "choice",
+      "options": [
+        "wasn't",
+        "didn't",
+        "did",
+        "don't"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p243_q1",
+      "topic": "cne_p243",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "How was your weekend",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想问「你周末过得怎么样？」，应选哪一句？",
+      "explain": "How was your weekend?",
+      "answer_mode": "choice",
+      "options": [
+        "How was your weekend?",
+        "How is your weekend yesterday?",
+        "How were you weekend?",
+        "How did your weekend?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p243_q2",
+      "topic": "cne_p243",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "How was your weekend",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "—How was your weekend? —It was good. 周末怎么样？",
+      "explain": "It was good。",
+      "answer_mode": "choice",
+      "options": [
+        "不好",
+        "还没过",
+        "不知道",
+        "很好"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p243_q3",
+      "topic": "cne_p243",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "How was your weekend",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一句评价上周末不好？",
+      "explain": "wasn't good 表示不好。",
+      "answer_mode": "choice",
+      "options": [
+        "It was a book.",
+        "Yes, I do every day.",
+        "It wasn't good.",
+        "It is tomorrow."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p243_q4",
+      "topic": "cne_p243",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "How was your weekend",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—How was your weekend? —____. I stayed at home and slept.",
+      "explain": "用 It was … 评价。",
+      "answer_mode": "choice",
+      "options": [
+        "Yes, I clean",
+        "It was OK",
+        "It is Monday",
+        "I am a weekend"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p244_q1",
+      "topic": "cne_p244",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用过去式说周末安排",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说「我上周末洗衣服了，很忙」，应选哪一句？",
+      "explain": "过去式 washed；评价 It was busy。",
+      "answer_mode": "choice",
+      "options": [
+        "I washed my clothes last weekend. It was busy.",
+        "I wash my clothes last weekend.",
+        "I washing clothes yesterday.",
+        "I washes my clothes."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p244_q2",
+      "topic": "cne_p244",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用过去式说周末安排",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "I didn't go out. I had a cold. 我怎么了？",
+      "explain": "had a cold; didn't go out。",
+      "answer_mode": "choice",
+      "options": [
+        "去看电影了",
+        "去公园了",
+        "很开心出门",
+        "感冒了，没出门"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p244_q3",
+      "topic": "cne_p244",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用过去式说周末安排",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "哪一组能完整谈上周末？",
+      "explain": "过去式 + 评价。",
+      "answer_mode": "choice",
+      "options": [
+        "I cleaning now only.",
+        "Clean room I yesterday.",
+        "I cleaned my room. It was good.",
+        "I clean my room tomorrow."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p244_q4",
+      "topic": "cne_p244",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "用过去式说周末安排",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "—What did you do last weekend? —____.",
+      "explain": "用过去式回答。",
+      "answer_mode": "choice",
+      "options": [
+        "I reads a book.",
+        "I read a book at home.",
+        "I read a book tomorrow.",
+        "I reading a book now every day."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_p245_q1",
+      "topic": "cne_p245",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "复习：Mike 的快乐日子",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：Mike is taller than before. Last weekend he cleaned his room. 迈克上周末做什么？",
+      "explain": "cleaned his room。",
+      "answer_mode": "choice",
+      "options": [
+        "打扫房间",
+        "去旅行",
+        "洗衣服",
+        "看电影"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_p245_q2",
+      "topic": "cne_p245",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "复习：Mike 的快乐日子",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "读一读：He went to the park and rode a bike. 他去了哪里？",
+      "explain": "went to the park。",
+      "answer_mode": "choice",
+      "options": [
+        "学校",
+        "医院",
+        "商店",
+        "公园"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_p245_q3",
+      "topic": "cne_p245",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "复习：Mike 的快乐日子",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Mike was short then. Now he is taller than his friend. 哪一句一致？",
+      "explain": "taller than his friend。",
+      "answer_mode": "choice",
+      "options": [
+        "迈克没有朋友。",
+        "迈克从不长高。",
+        "迈克现在比朋友高。",
+        "迈克现在更矮。"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_p245_q4",
+      "topic": "cne_p245",
+      "subject": "english",
+      "grade": 6,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "复习：Mike 的快乐日子",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "读一读：Over the holiday Mike went to Sanya with his parents. 假期他和谁去的？",
+      "explain": "with his parents。",
+      "answer_mode": "choice",
+      "options": [
+        "独自一人",
+        "父母",
+        "老师",
+        "同学"
+      ],
+      "answer": 2
+    }
+  ]
+}

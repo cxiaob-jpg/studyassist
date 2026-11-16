@@ -1,0 +1,2458 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "history",
+  "grade": 9,
+  "semester": "lower",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第1单元 殖民地人民的反抗与资本主义制度的扩展"
+    },
+    {
+      "id": "u2",
+      "name": "第2单元 第二次工业革命和近代科学文化"
+    },
+    {
+      "id": "u3",
+      "name": "第3单元 第一次世界大战和战后初期的世界"
+    },
+    {
+      "id": "u4",
+      "name": "第4单元 经济大危机和第二次世界大战"
+    },
+    {
+      "id": "u5",
+      "name": "第5单元 二战后的世界变化"
+    },
+    {
+      "id": "u6",
+      "name": "第6单元 走向和平发展的世界"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cnh_j112",
+      "name": "殖民地人民的反抗斗争",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "description": "知道拉丁美洲独立运动和印度民族大起义。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "19世纪初领导西属拉丁美洲独立的北部领导人是？",
+        "answer": "玻利瓦尔"
+      }
+    },
+    {
+      "id": "cnh_j113",
+      "name": "俄国的改革",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "description": "知道1861年俄国农奴制改革。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "1861年签署废除农奴制法令的沙皇是？",
+        "answer": "亚历山大二世"
+      }
+    },
+    {
+      "id": "cnh_j114",
+      "name": "美国内战",
+      "domain": "世界近代史",
+      "kp_type": "reasoning",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "description": "知道南北战争和林肯的两项法令。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "美国内战爆发于？",
+        "answer": "1861年"
+      }
+    },
+    {
+      "id": "cnh_j115",
+      "name": "日本明治维新",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 殖民地人民的反抗与资本主义制度的扩展",
+      "description": "知道明治维新的时间和主要措施。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "明治维新开始于？",
+        "answer": "1868年"
+      }
+    },
+    {
+      "id": "cnh_j116",
+      "name": "第二次工业革命",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "description": "知道电力、内燃机、汽车和飞机。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "第二次工业革命开始于？",
+        "answer": "19世纪六七十年代"
+      }
+    },
+    {
+      "id": "cnh_j117",
+      "name": "工业化国家的社会变化",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "description": "知道工业化带来的社会变化。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "第二次工业革命后，主要资本主义国家出现了？",
+        "answer": "垄断组织"
+      }
+    },
+    {
+      "id": "cnh_j118",
+      "name": "近代科学与文化",
+      "domain": "世界近代史",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 第二次工业革命和近代科学文化",
+      "description": "知道达尔文进化论和爱因斯坦相对论。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "1859年出版《物种起源》的是？",
+        "answer": "达尔文"
+      }
+    },
+    {
+      "id": "cnh_j119",
+      "name": "第一次世界大战",
+      "domain": "世界现代史",
+      "kp_type": "reasoning",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "description": "知道萨拉热窝事件和第一次世界大战的双方。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1914年6月萨拉热窝事件中被刺杀的是？",
+        "answer": "奥匈帝国皇储斐迪南大公"
+      }
+    },
+    {
+      "id": "cnh_j120",
+      "name": "列宁与十月革命",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "description": "知道二月革命和十月革命。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1917年3月俄国二月革命推翻的是？",
+        "answer": "沙皇专制"
+      }
+    },
+    {
+      "id": "cnh_j121",
+      "name": "《凡尔赛条约》和《九国公约》",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "description": "知道巴黎和会、华盛顿会议和战后秩序。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1919年巴黎和会与德国签订的条约是？",
+        "answer": "《凡尔赛条约》"
+      }
+    },
+    {
+      "id": "cnh_j122",
+      "name": "苏联的社会主义建设",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "description": "知道新经济政策、苏联成立和五年计划。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1921年苏俄开始实行？",
+        "answer": "新经济政策"
+      }
+    },
+    {
+      "id": "cnh_j123",
+      "name": "亚非拉民族民主运动的高涨",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 第一次世界大战和战后初期的世界",
+      "description": "知道甘地的非暴力不合作和这一时期的民族运动。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "印度非暴力不合作运动的领导人是？",
+        "answer": "甘地"
+      }
+    },
+    {
+      "id": "cnh_j124",
+      "name": "罗斯福新政",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "description": "知道1929年经济大危机和新政的内容。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "资本主义世界经济大危机开始于？",
+        "answer": "1929年"
+      }
+    },
+    {
+      "id": "cnh_j125",
+      "name": "法西斯国家的侵略扩张",
+      "domain": "世界现代史",
+      "kp_type": "reasoning",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "description": "知道德意日法西斯化和慕尼黑协定。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1922年在意大利建立法西斯政权的是？",
+        "answer": "墨索里尼"
+      }
+    },
+    {
+      "id": "cnh_j126",
+      "name": "第二次世界大战",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 经济大危机和第二次世界大战",
+      "description": "知道二战的爆发、转折和结束。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1939年9月1日德国突袭波兰，标志？",
+        "answer": "第二次世界大战全面爆发"
+      }
+    },
+    {
+      "id": "cnh_j127",
+      "name": "冷战",
+      "domain": "世界现代史",
+      "kp_type": "reasoning",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "description": "知道杜鲁门主义、北约和华约。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1947年杜鲁门主义出台，通常被看作？",
+        "answer": "冷战开始的标志"
+      }
+    },
+    {
+      "id": "cnh_j128",
+      "name": "二战后资本主义的新变化",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "description": "知道欧洲联合和福利国家。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1967年成立的欧洲共同体，后来发展为？",
+        "answer": "欧洲联盟"
+      }
+    },
+    {
+      "id": "cnh_j129",
+      "name": "社会主义的发展与挫折",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "description": "知道东欧剧变和苏联解体的时间。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1991年发生的事情是？",
+        "answer": "苏联解体"
+      }
+    },
+    {
+      "id": "cnh_j130",
+      "name": "亚非拉国家的新发展",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 二战后的世界变化",
+      "description": "知道印度独立、南非种族隔离制度的结束和拉美国家维护主权。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "1947年印度和巴基斯坦分治，印度领导人是？",
+        "answer": "尼赫鲁"
+      }
+    },
+    {
+      "id": "cnh_j131",
+      "name": "联合国与世界贸易组织",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "description": "知道联合国和世界贸易组织的成立时间与职能。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "联合国成立于？",
+        "answer": "1945年"
+      }
+    },
+    {
+      "id": "cnh_j132",
+      "name": "冷战后的世界格局",
+      "domain": "世界现代史",
+      "kp_type": "reasoning",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "description": "知道两极格局结束后的多极化趋势。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "冷战后世界格局的趋势是？",
+        "answer": "多极化"
+      }
+    },
+    {
+      "id": "cnh_j133",
+      "name": "不断发展的现代社会",
+      "domain": "世界现代史",
+      "kp_type": "conceptual",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "description": "知道现代社会在科技、全球化和生态方面的变化。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "20世纪90年代以来加快的经济现象是？",
+        "answer": "经济全球化"
+      }
+    },
+    {
+      "id": "cnh_j134",
+      "name": "时事溯源",
+      "domain": "世界现代史",
+      "kp_type": "application",
+      "unit": "u6",
+      "unit_name": "第6单元 走向和平发展的世界",
+      "description": "知道把时事放回历史背景中理解的方法。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、组织或事件",
+        "能判断与教材表述相符的史实"
+      ],
+      "example": {
+        "question": "时事溯源要求先做的是？",
+        "answer": "查清事件发生的时间和相关各方"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnh_j112_q1",
+      "topic": "cnh_j112",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "殖民地人民的反抗斗争",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "19世纪初领导西属拉丁美洲独立的北部领导人是？",
+      "explain": "玻利瓦尔被誉为南美的解放者。",
+      "answer_mode": "choice",
+      "options": [
+        "圣马丁是南部的领导人",
+        "玻利瓦尔",
+        "章西女王",
+        "林肯"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j112_q2",
+      "topic": "cnh_j112",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "殖民地人民的反抗斗争",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "圣马丁主要活动在西属拉丁美洲的？",
+      "explain": "他率军翻越安第斯山，解放智利等地。",
+      "answer_mode": "choice",
+      "options": [
+        "北部",
+        "印度",
+        "南部",
+        "埃及"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j112_q3",
+      "topic": "cnh_j112",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "殖民地人民的反抗斗争",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "1857年印度民族大起义中的著名女性领袖是？",
+      "explain": "章西女王领导军民抗击英国殖民者。",
+      "answer_mode": "choice",
+      "options": [
+        "伊丽莎白",
+        "维多利亚",
+        "居里夫人",
+        "章西女王"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j112_q4",
+      "topic": "cnh_j112",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "殖民地人民的反抗斗争",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "穆罕默德·阿里改革发生在？",
+      "explain": "改革使埃及一度成为地中海东部的强国，后来仍遭欧洲列强控制。",
+      "answer_mode": "choice",
+      "options": [
+        "埃及",
+        "印度",
+        "墨西哥",
+        "日本"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j113_q1",
+      "topic": "cnh_j113",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "俄国的改革",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "1861年签署废除农奴制法令的沙皇是？",
+      "explain": "法令规定农奴在法律上成为自由人。",
+      "answer_mode": "choice",
+      "options": [
+        "亚历山大一世",
+        "尼古拉二世",
+        "亚历山大二世",
+        "彼得一世"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j113_q2",
+      "topic": "cnh_j113",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "俄国的改革",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "1861年改革前，俄国大量农民的身份是？",
+      "explain": "农奴被束缚在贵族土地上，可以买卖。",
+      "answer_mode": "choice",
+      "options": [
+        "公民",
+        "工人",
+        "骑士",
+        "农奴"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j113_q3",
+      "topic": "cnh_j113",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "俄国的改革",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "农奴获得自由时，份地的取得方式是？",
+      "explain": "赎金很高，农民仍然受到剥削。",
+      "answer_mode": "choice",
+      "options": [
+        "出钱赎买",
+        "无偿分配全部地主土地",
+        "由国家直接赠送",
+        "通过殖民获得"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j113_q4",
+      "topic": "cnh_j113",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "俄国的改革",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "1861年改革的客观作用是？",
+      "explain": "改革是一次自上而下的资产阶级性质改革。",
+      "answer_mode": "choice",
+      "options": [
+        "恢复了农奴制",
+        "使俄国走上发展资本主义的道路",
+        "建立了社会主义制度",
+        "引发了美国内战"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j114_q1",
+      "topic": "cnh_j114",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "美国内战",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "美国内战爆发于？",
+      "explain": "南方军队挑起内战，1865年北方获胜。",
+      "answer_mode": "choice",
+      "options": [
+        "1775年",
+        "1776年",
+        "1865年",
+        "1861年"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j114_q2",
+      "topic": "cnh_j114",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "美国内战",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "内战期间颁布《宅地法》和《解放黑人奴隶宣言》的总统是？",
+      "explain": "两个法令调动了农民和黑人的积极性。",
+      "answer_mode": "choice",
+      "options": [
+        "林肯",
+        "华盛顿",
+        "杰斐逊",
+        "罗斯福"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j114_q3",
+      "topic": "cnh_j114",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "美国内战",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "《宅地法》规定？",
+      "explain": "该法满足了广大农民的土地要求。",
+      "answer_mode": "choice",
+      "options": [
+        "解放全部黑奴并给予土地是另一项法令的内容",
+        "美国公民缴付少量手续费即可在西部获得土地",
+        "南方可以继续扩张奴隶制到全部新领土",
+        "取消联邦"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j114_q4",
+      "topic": "cnh_j114",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "美国内战",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "美国内战的结果是？",
+      "explain": "内战扫除了资本主义发展的又一大障碍，种族歧视仍然存在。",
+      "answer_mode": "choice",
+      "options": [
+        "南方获胜并分裂",
+        "英国重新统治北美",
+        "维护了国家统一，废除了奴隶制",
+        "立即实现种族完全平等"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j115_q1",
+      "topic": "cnh_j115",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "日本明治维新",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "明治维新开始于？",
+      "explain": "1868年明治政府开始实行一系列改革。1853年是佩里来航，1889年颁布宪法。",
+      "answer_mode": "choice",
+      "options": [
+        "1868年",
+        "1853年",
+        "1861年",
+        "1889年"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j115_q3",
+      "topic": "cnh_j115",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "日本明治维新",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "明治维新的经济措施被称为？",
+      "explain": "政府引进西方技术，发展近代工业。",
+      "answer_mode": "choice",
+      "options": [
+        "文明开化是社会生活方面",
+        "大化改新",
+        "殖产兴业",
+        "洋务运动"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j115_q4",
+      "topic": "cnh_j115",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u1",
+      "unit_name": "日本明治维新",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "明治维新使日本？",
+      "explain": "改革后日本迅速强大，随后走上对外扩张道路。",
+      "answer_mode": "choice",
+      "options": [
+        "沦为殖民地",
+        "恢复武士幕府",
+        "加入八国联军并统治中国",
+        "走上发展资本主义的道路"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j116_q1",
+      "topic": "cnh_j116",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "第二次工业革命",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "第二次工业革命开始于？",
+      "explain": "它在几个先进资本主义国家同时发生。",
+      "answer_mode": "choice",
+      "options": [
+        "18世纪六十年代",
+        "19世纪六七十年代",
+        "20世纪四十年代",
+        "17世纪"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j116_q2",
+      "topic": "cnh_j116",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "第二次工业革命",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "第二次工业革命的主要标志是？",
+      "explain": "人类社会进入电气时代。",
+      "answer_mode": "choice",
+      "options": [
+        "蒸汽机的改良",
+        "珍妮机",
+        "电力的广泛应用",
+        "指南针用于航海"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j116_q3",
+      "topic": "cnh_j116",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "第二次工业革命",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "19世纪八十年代制造出内燃机汽车的是？",
+      "explain": "本茨制造出由内燃机驱动的汽车。",
+      "answer_mode": "choice",
+      "options": [
+        "莱特兄弟",
+        "爱迪生",
+        "瓦特",
+        "卡尔·本茨"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j116_q4",
+      "topic": "cnh_j116",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "第二次工业革命",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "1903年莱特兄弟试飞成功，标志？",
+      "explain": "飞机后来成为交通和军事工具。",
+      "answer_mode": "choice",
+      "options": [
+        "飞机时代开始",
+        "铁路时代开始",
+        "蒸汽时代开始",
+        "人类进入太空"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j117_q1",
+      "topic": "cnh_j117",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "工业化国家的社会变化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "第二次工业革命后，主要资本主义国家出现了？",
+      "explain": "生产和资本高度集中，形成垄断。",
+      "answer_mode": "choice",
+      "options": [
+        "手工行会重新统治",
+        "庄园制",
+        "垄断组织",
+        "种姓制度"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j117_q2",
+      "topic": "cnh_j117",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "工业化国家的社会变化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "工业化推动人口向城市集中，这一现象称为？",
+      "explain": "城市规模扩大，城市人口比例上升。",
+      "answer_mode": "choice",
+      "options": [
+        "殖民化",
+        "农奴化",
+        "封建化",
+        "城市化"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j117_q3",
+      "topic": "cnh_j117",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "工业化国家的社会变化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "工业化国家工人队伍的变化是？",
+      "explain": "社会矛盾依然存在，工人争取政治权利。",
+      "answer_mode": "choice",
+      "options": [
+        "人数增加，并出现工运",
+        "完全消失",
+        "都成为农场主",
+        "不再有罢工"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j117_q4",
+      "topic": "cnh_j117",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "工业化国家的社会变化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "工业化带来的环境问题包括？",
+      "explain": "工厂排放烟尘和污水，环境问题开始突出。",
+      "answer_mode": "choice",
+      "options": [
+        "空气和河水自动变干净",
+        "污染加重",
+        "森林面积必然增加",
+        "城市消失"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j118_q1",
+      "topic": "cnh_j118",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "近代科学与文化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "1859年出版《物种起源》的是？",
+      "explain": "达尔文提出进化论，认为生物是进化来的。",
+      "answer_mode": "choice",
+      "options": [
+        "爱因斯坦",
+        "牛顿",
+        "巴斯德",
+        "达尔文"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j118_q2",
+      "topic": "cnh_j118",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "近代科学与文化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "20世纪初提出相对论的是？",
+      "explain": "相对论推动了物理学的发展。",
+      "answer_mode": "choice",
+      "options": [
+        "爱因斯坦",
+        "达尔文",
+        "牛顿",
+        "居里夫人"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j118_q3",
+      "topic": "cnh_j118",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "近代科学与文化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "牛顿的主要贡献是？",
+      "explain": "牛顿奠定了经典力学的基础，是近代科学的重要代表。",
+      "answer_mode": "choice",
+      "options": [
+        "生物进化论",
+        "力学体系",
+        "相对论",
+        "元素周期表"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j118_q4",
+      "topic": "cnh_j118",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u2",
+      "unit_name": "近代科学与文化",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 3,
+      "stem": "批判现实主义文学的代表作家巴尔扎克，其作品集是？",
+      "explain": "《人间喜剧》再现了法国社会的图景。",
+      "answer_mode": "choice",
+      "options": [
+        "《战争与和平》",
+        "《物种起源》",
+        "《人间喜剧》",
+        "《哈姆雷特》"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j119_q1",
+      "topic": "cnh_j119",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "第一次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1914年6月萨拉热窝事件中被刺杀的是？",
+      "explain": "这一事件成为第一次世界大战的导火索。",
+      "answer_mode": "choice",
+      "options": [
+        "奥匈帝国皇储斐迪南大公",
+        "德皇威廉二世",
+        "俄国沙皇",
+        "美国总统"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j119_q3",
+      "topic": "cnh_j119",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "第一次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "第一次世界大战结束于？",
+      "explain": "德国投降，大战以同盟国失败告终。",
+      "answer_mode": "choice",
+      "options": [
+        "1914年7月",
+        "1917年11月",
+        "1918年11月",
+        "1919年1月巴黎和会是战后会议"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j119_q4",
+      "topic": "cnh_j119",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "第一次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "一战的性质是？",
+      "explain": "战争给各国人民带来深重灾难。",
+      "answer_mode": "choice",
+      "options": [
+        "民族解放战争",
+        "社会主义革命",
+        "反法西斯战争",
+        "帝国主义争夺殖民地和霸权的战争"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j120_q1",
+      "topic": "cnh_j120",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "列宁与十月革命",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1917年3月俄国二月革命推翻的是？",
+      "explain": "二月革命后出现苏维埃和临时政府两个政权并存。",
+      "answer_mode": "choice",
+      "options": [
+        "临时政府",
+        "沙皇专制",
+        "苏维埃政权",
+        "拿破仑帝国"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j120_q2",
+      "topic": "cnh_j120",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "列宁与十月革命",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1917年11月彼得格勒武装起义的领导者是？",
+      "explain": "列宁领导布尔什维克党发动起义。",
+      "answer_mode": "choice",
+      "options": [
+        "克伦斯基",
+        "尼古拉二世",
+        "列宁",
+        "斯大林"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j120_q3",
+      "topic": "cnh_j120",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "列宁与十月革命",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "十月革命后建立的政权是？",
+      "explain": "俄国退出第一次世界大战的过程由此开始。",
+      "answer_mode": "choice",
+      "options": [
+        "临时政府",
+        "沙皇政府",
+        "君主立宪政府",
+        "苏维埃政权"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j120_q4",
+      "topic": "cnh_j120",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "列宁与十月革命",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "十月革命的历史意义是？",
+      "explain": "它把社会主义从理论变成了现实。",
+      "answer_mode": "choice",
+      "options": [
+        "建立了世界上第一个社会主义国家",
+        "恢复了农奴制",
+        "使俄国加入同盟国并获胜",
+        "结束了第二次世界大战"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j121_q1",
+      "topic": "cnh_j121",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "《凡尔赛条约》和《九国公约》",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1919年巴黎和会与德国签订的条约是？",
+      "explain": "条约对德国的领土、军事和赔款作了规定。",
+      "answer_mode": "choice",
+      "options": [
+        "《九国公约》",
+        "《慕尼黑协定》",
+        "《凡尔赛条约》",
+        "《北大西洋公约》"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j121_q2",
+      "topic": "cnh_j121",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "《凡尔赛条约》和《九国公约》",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1921年到1922年的华盛顿会议主要调整？",
+      "explain": "会议签订《九国公约》等文件。",
+      "answer_mode": "choice",
+      "options": [
+        "只讨论欧洲赔款",
+        "非洲边界",
+        "拉丁美洲独立",
+        "亚太地区的关系"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j121_q3",
+      "topic": "cnh_j121",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "《凡尔赛条约》和《九国公约》",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "《九国公约》名义上尊重中国的？",
+      "explain": "公约声称维持各国在中国的门户开放、机会均等。",
+      "answer_mode": "choice",
+      "options": [
+        "主权、独立和领土完整",
+        "割让山东给日本是巴黎和会的内容",
+        "门户关闭",
+        "殖民特权只给一国"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j121_q4",
+      "topic": "cnh_j121",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "《凡尔赛条约》和《九国公约》",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "凡尔赛—华盛顿体系的实质是？",
+      "explain": "它暂时调整了列强之间的关系，埋下了新的矛盾。",
+      "answer_mode": "choice",
+      "options": [
+        "殖民地获得完全独立",
+        "帝国主义重新瓜分世界",
+        "社会主义阵营形成",
+        "联合国建立"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j122_q1",
+      "topic": "cnh_j122",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "苏联的社会主义建设",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1921年苏俄开始实行？",
+      "explain": "新经济政策用粮食税代替余粮收集制，允许商品交换。",
+      "answer_mode": "choice",
+      "options": [
+        "战时共产主义继续作为长期政策",
+        "罗斯福新政",
+        "农业集体化立刻完成",
+        "新经济政策"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j122_q2",
+      "topic": "cnh_j122",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "苏联的社会主义建设",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1922年成立的联盟是？",
+      "explain": "苏联成立。",
+      "answer_mode": "choice",
+      "options": [
+        "苏维埃社会主义共和国联盟",
+        "独联体",
+        "华沙条约组织",
+        "欧洲联盟"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j122_q3",
+      "topic": "cnh_j122",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "苏联的社会主义建设",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1928年起苏联优先发展？",
+      "explain": "两个五年计划后，苏联由农业国变成工业国。",
+      "answer_mode": "choice",
+      "options": [
+        "消费品和农业放在首位",
+        "重工业",
+        "海外殖民",
+        "轻工业出口"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j122_q4",
+      "topic": "cnh_j122",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "苏联的社会主义建设",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "1936年苏联新宪法宣布？",
+      "explain": "宪法也标志着斯大林模式的确立。",
+      "answer_mode": "choice",
+      "options": [
+        "恢复私有制",
+        "取消加盟共和国",
+        "苏联是工农社会主义国家",
+        "实行多党议会制"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j123_q1",
+      "topic": "cnh_j123",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "亚非拉民族民主运动的高涨",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "印度非暴力不合作运动的领导人是？",
+      "explain": "甘地号召印度人抵制英国的商品、学校和法院。",
+      "answer_mode": "choice",
+      "options": [
+        "甘地",
+        "尼赫鲁",
+        "章西女王",
+        "纳赛尔"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j123_q2",
+      "topic": "cnh_j123",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "亚非拉民族民主运动的高涨",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "埃及华夫脱运动争取的是？",
+      "explain": "华夫脱党领导埃及人民反对英国殖民统治。",
+      "answer_mode": "choice",
+      "options": [
+        "恢复法老统治",
+        "国家独立",
+        "加入英联邦并放弃独立",
+        "建立种姓制度"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j123_q3",
+      "topic": "cnh_j123",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "亚非拉民族民主运动的高涨",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1910年开始的墨西哥革命打击的是？",
+      "explain": "革命后墨西哥颁布了1917年宪法。",
+      "answer_mode": "choice",
+      "options": [
+        "英国东印度公司",
+        "沙皇",
+        "迪亚斯独裁",
+        "幕府"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j123_q4",
+      "topic": "cnh_j123",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u3",
+      "unit_name": "亚非拉民族民主运动的高涨",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "一战后民族民主运动高涨的共同背景是？",
+      "explain": "印度、埃及、墨西哥等地的斗争是这一背景的表现。",
+      "answer_mode": "choice",
+      "options": [
+        "所有殖民地已经独立",
+        "第二次工业革命尚未开始",
+        "联合国已经成立",
+        "大战削弱了殖民国家，民族意识增强"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j124_q1",
+      "topic": "cnh_j124",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "罗斯福新政",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "资本主义世界经济大危机开始于？",
+      "explain": "危机从美国爆发，很快席卷资本主义世界。1933年是罗斯福就任并开始新政的年份。",
+      "answer_mode": "choice",
+      "options": [
+        "1914年",
+        "1929年",
+        "1933年",
+        "1945年"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j124_q2",
+      "topic": "cnh_j124",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "罗斯福新政",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1933年就任美国总统并推行新政的是？",
+      "explain": "罗斯福用国家干预的办法应对危机。",
+      "answer_mode": "choice",
+      "options": [
+        "胡佛",
+        "杜鲁门",
+        "罗斯福",
+        "肯尼迪"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j124_q3",
+      "topic": "cnh_j124",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "罗斯福新政",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "新政中兴办公共工程的做法属于？",
+      "explain": "政府投资修建道路和水利，增加就业。",
+      "answer_mode": "choice",
+      "options": [
+        "自由放任",
+        "关闭所有银行且不再开业",
+        "取消农业",
+        "以工代赈"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j124_q4",
+      "topic": "cnh_j124",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "罗斯福新政",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "新政的特点是？",
+      "explain": "新政使美国渡过危机，资本主义制度得以继续。",
+      "answer_mode": "choice",
+      "options": [
+        "加强国家对经济的干预",
+        "取消资本主义制度",
+        "恢复金本位并什么都不管",
+        "实行计划经济并废除私有制"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j125_q1",
+      "topic": "cnh_j125",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "法西斯国家的侵略扩张",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1922年在意大利建立法西斯政权的是？",
+      "explain": "墨索里尼率领党徒向罗马进军。",
+      "answer_mode": "choice",
+      "options": [
+        "希特勒",
+        "东条英机",
+        "墨索里尼",
+        "弗朗哥"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j125_q2",
+      "topic": "cnh_j125",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "法西斯国家的侵略扩张",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1933年希特勒出任德国总理，建立？",
+      "explain": "纳粹党镇压其他政党，实行恐怖统治。",
+      "answer_mode": "choice",
+      "options": [
+        "君主立宪",
+        "苏维埃",
+        "议会民主长期稳定",
+        "纳粹独裁"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j125_q3",
+      "topic": "cnh_j125",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "法西斯国家的侵略扩张",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1938年慕尼黑协定牺牲的国家是？",
+      "explain": "英、法、德、意把苏台德区割让给德国。",
+      "answer_mode": "choice",
+      "options": [
+        "捷克斯洛伐克",
+        "波兰",
+        "埃塞俄比亚",
+        "西班牙"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j125_q4",
+      "topic": "cnh_j125",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "法西斯国家的侵略扩张",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "1935年意大利入侵的非洲国家是？",
+      "explain": "埃塞俄比亚抗战失败，被意大利吞并。",
+      "answer_mode": "choice",
+      "options": [
+        "埃及",
+        "埃塞俄比亚",
+        "南非",
+        "利比里亚"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j126_q2",
+      "topic": "cnh_j126",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "第二次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1941年12月日本袭击珍珠港，结果是？",
+      "explain": "美国对日宣战，二战规模进一步扩大。",
+      "answer_mode": "choice",
+      "options": [
+        "太平洋战争爆发",
+        "德国投降",
+        "苏联参战立刻发生在同一天",
+        "联合国成立"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j126_q3",
+      "topic": "cnh_j126",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "第二次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1942年到1943年的斯大林格勒战役是？",
+      "explain": "德军在斯大林格勒战败。",
+      "answer_mode": "choice",
+      "options": [
+        "一战的导火索",
+        "第二次世界大战的转折点",
+        "诺曼底登陆",
+        "柏林战役"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j126_q4",
+      "topic": "cnh_j126",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u4",
+      "unit_name": "第二次世界大战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "1945年德国和日本投降的顺序是？",
+      "explain": "1945年5月8日德国签署投降书，8月15日日本宣布投降，9月2日签署投降书。",
+      "answer_mode": "choice",
+      "options": [
+        "日本先于德国",
+        "两国同一天",
+        "5月德国投降，8月日本投降",
+        "德国在1944年投降"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j127_q1",
+      "topic": "cnh_j127",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "冷战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1947年杜鲁门主义出台，通常被看作？",
+      "explain": "美国宣称要遏制苏联和共产主义。",
+      "answer_mode": "choice",
+      "options": [
+        "冷战开始的标志",
+        "第二次世界大战爆发",
+        "马歇尔计划的经济内容本身",
+        "欧盟成立"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j127_q2",
+      "topic": "cnh_j127",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "冷战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1948年开始的欧洲复兴计划又称？",
+      "explain": "美国用援助影响西欧经济和政治。",
+      "answer_mode": "choice",
+      "options": [
+        "杜鲁门主义是政治宣言",
+        "马歇尔计划",
+        "新政",
+        "新经济政策"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j127_q3",
+      "topic": "cnh_j127",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "冷战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1949年成立的军事集团是？",
+      "explain": "1955年苏联和东欧国家成立华沙条约组织。",
+      "answer_mode": "choice",
+      "options": [
+        "华沙条约组织成立于1955年",
+        "欧盟",
+        "北大西洋公约组织",
+        "联合国"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j127_q4",
+      "topic": "cnh_j127",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "冷战",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "1962年几乎把美苏推向核战争的事件是？",
+      "explain": "危机以苏联从古巴撤走导弹告终。",
+      "answer_mode": "choice",
+      "options": [
+        "柏林墙修建是1961年",
+        "朝鲜战争",
+        "苏伊士运河战争",
+        "古巴导弹危机"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j128_q1",
+      "topic": "cnh_j128",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "二战后资本主义的新变化",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1967年成立的欧洲共同体，后来发展为？",
+      "explain": "1993年欧盟正式成立。",
+      "answer_mode": "choice",
+      "options": [
+        "华沙条约组织",
+        "欧洲联盟",
+        "北约",
+        "联合国"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j128_q2",
+      "topic": "cnh_j128",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "二战后资本主义的新变化",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "二战后主要资本主义国家建立福利制度，资金主要来自？",
+      "explain": "福利制度缓和了社会矛盾，也加重了财政负担。",
+      "answer_mode": "choice",
+      "options": [
+        "殖民地贡赋已经是主要来源",
+        "取消所有企业",
+        "税收和社会保险缴费",
+        "印刷纸币而不征税"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j128_q3",
+      "topic": "cnh_j128",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "二战后资本主义的新变化",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "20世纪90年代以后，美国经济的新特点与什么有关？",
+      "explain": "信息化推动了经济持续增长。",
+      "answer_mode": "choice",
+      "options": [
+        "蒸汽机",
+        "庄园制",
+        "殖民贸易站",
+        "信息技术"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j128_q4",
+      "topic": "cnh_j128",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "二战后资本主义的新变化",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "欧洲联合的直接目的包括？",
+      "explain": "从煤钢共同体到欧盟，合作逐步扩大。",
+      "answer_mode": "choice",
+      "options": [
+        "促进成员国经济合作，提高国际地位",
+        "恢复殖民帝国",
+        "对抗联合国",
+        "取消各国边界上的一切法律"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j129_q1",
+      "topic": "cnh_j129",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "社会主义的发展与挫折",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1991年发生的事情是？",
+      "explain": "1991年苏联解体，两极格局中的一极坍塌。东欧剧变从1989年展开。",
+      "answer_mode": "choice",
+      "options": [
+        "东欧剧变开始",
+        "华约成立",
+        "苏联解体",
+        "十月革命"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j129_q2",
+      "topic": "cnh_j129",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "社会主义的发展与挫折",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "20世纪80年代末东欧剧变的表现是？",
+      "explain": "波兰、匈牙利、民主德国等国相继发生变化。",
+      "answer_mode": "choice",
+      "options": [
+        "苏联立即解体于1980年",
+        "欧共体解散",
+        "马歇尔计划开始",
+        "执政的共产党失去政权，社会制度发生变化"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j129_q3",
+      "topic": "cnh_j129",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "社会主义的发展与挫折",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "戈尔巴乔夫改革后期提出的公开性和政治改革，结果是？",
+      "explain": "经济没有好转，民族矛盾加剧。",
+      "answer_mode": "choice",
+      "options": [
+        "局势失控，改革背离社会主义方向",
+        "五年计划提前完成且政权巩固",
+        "新经济政策恢复",
+        "农奴制废除"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j129_q4",
+      "topic": "cnh_j129",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "社会主义的发展与挫折",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "苏联解体和东欧剧变说明的可核对事实是？",
+      "explain": "把年代和政权变化说清楚，不等于对制度作价值裁判。",
+      "answer_mode": "choice",
+      "options": [
+        "社会主义思想从未出现",
+        "这些国家的社会主义政权在这一时期结束",
+        "十月革命发生在1991年",
+        "华约在1949年成立"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j130_q1",
+      "topic": "cnh_j130",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "亚非拉国家的新发展",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1947年印度和巴基斯坦分治，印度领导人是？",
+      "explain": "英国把权力分别交给印度和巴基斯坦。",
+      "answer_mode": "choice",
+      "options": [
+        "甘地是民族运动领袖但首任总理是尼赫鲁",
+        "曼德拉",
+        "纳赛尔",
+        "尼赫鲁"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j130_q2",
+      "topic": "cnh_j130",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "亚非拉国家的新发展",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "1990年取得独立、标志欧洲殖民者在非洲的殖民统治终结的国家是？",
+      "explain": "纳米比亚独立后，非洲不再有欧洲殖民国家的殖民地。",
+      "answer_mode": "choice",
+      "options": [
+        "纳米比亚",
+        "埃及",
+        "印度",
+        "古巴"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j130_q3",
+      "topic": "cnh_j130",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "亚非拉国家的新发展",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1994年当选南非首位黑人总统的是？",
+      "explain": "南非废除种族隔离制度。",
+      "answer_mode": "choice",
+      "options": [
+        "尼赫鲁",
+        "曼德拉",
+        "卡斯特罗",
+        "恩克鲁玛"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j130_q4",
+      "topic": "cnh_j130",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u5",
+      "unit_name": "亚非拉国家的新发展",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "1999年巴拿马收回的是？",
+      "explain": "美国把运河区全部交还巴拿马。",
+      "answer_mode": "choice",
+      "options": [
+        "苏伊士运河",
+        "苏伊士运河公司在1956年被埃及收回",
+        "巴拿马运河区主权",
+        "直布罗陀"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j131_q1",
+      "topic": "cnh_j131",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "联合国与世界贸易组织",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "联合国成立于？",
+      "explain": "《联合国宪章》签署后，联合国正式成立。",
+      "answer_mode": "choice",
+      "options": [
+        "1945年",
+        "1919年",
+        "1995年",
+        "1947年"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j131_q3",
+      "topic": "cnh_j131",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "联合国与世界贸易组织",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "1995年成立、取代关贸总协定的组织是？",
+      "explain": "世界贸易组织制定和监督多边贸易规则。",
+      "answer_mode": "choice",
+      "options": [
+        "国际货币基金组织",
+        "世界银行",
+        "世界贸易组织",
+        "欧盟"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j131_q4",
+      "topic": "cnh_j131",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "联合国与世界贸易组织",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "联合国的宗旨包括？",
+      "explain": "大会和安理会是实现这一宗旨的主要机构。",
+      "answer_mode": "choice",
+      "options": [
+        "指挥各国经济计划",
+        "取消国家主权",
+        "建立殖民体系",
+        "维持国际和平与安全"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j132_q1",
+      "topic": "cnh_j132",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "冷战后的世界格局",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "冷战后世界格局的趋势是？",
+      "explain": "美国是唯一超级大国，欧盟、日本、中国、俄罗斯等力量也在发展。",
+      "answer_mode": "choice",
+      "options": [
+        "重新回到两国独霸且不再有其他力量",
+        "多极化",
+        "殖民体系扩大",
+        "单一帝国永久固定"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j132_q2",
+      "topic": "cnh_j132",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "冷战后的世界格局",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "两极格局结束的标志是？",
+      "explain": "苏联解体后，美苏对峙的两极格局不复存在。",
+      "answer_mode": "choice",
+      "options": [
+        "1947年杜鲁门主义",
+        "1949年北约成立",
+        "1991年苏联解体",
+        "1995年世贸组织成立"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j132_q3",
+      "topic": "cnh_j132",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "冷战后的世界格局",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "冷战后地区冲突仍然存在，说明？",
+      "explain": "霸权主义和强权政治还在，局部冲突不断。",
+      "answer_mode": "choice",
+      "options": [
+        "战争已经永远消失",
+        "联合国被取消",
+        "各国不再交往",
+        "世界并不太平"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j132_q4",
+      "topic": "cnh_j132",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "冷战后的世界格局",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "多极化趋势中的“极”是指？",
+      "explain": "它描述的是力量对比，不是地理上的极点。",
+      "answer_mode": "choice",
+      "options": [
+        "具有重要影响力的力量中心",
+        "地球的南北极",
+        "只有两个军事集团",
+        "殖民地总督"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j133_q1",
+      "topic": "cnh_j133",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "不断发展的现代社会",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "20世纪90年代以来加快的经济现象是？",
+      "explain": "商品、资本、技术和信息在全球流动加快。",
+      "answer_mode": "choice",
+      "options": [
+        "庄园经济",
+        "闭关自守",
+        "经济全球化",
+        "实物交换成为唯一形式"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j133_q2",
+      "topic": "cnh_j133",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "不断发展的现代社会",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "互联网改变现代生活，开始大规模民用是在？",
+      "explain": "计算机网络把世界更紧密地连在一起。",
+      "answer_mode": "choice",
+      "options": [
+        "19世纪",
+        "第二次工业革命期间",
+        "文艺复兴时期",
+        "20世纪90年代"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j133_q3",
+      "topic": "cnh_j133",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "不断发展的现代社会",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "现代社会面临的全球性问题包括？",
+      "explain": "环境、贫困、恐怖主义等问题需要各国共同应对。",
+      "answer_mode": "choice",
+      "options": [
+        "生态环境恶化和资源紧张",
+        "人口停止增长且没有环境问题",
+        "战争已经绝迹",
+        "疾病全部消失"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j133_q4",
+      "topic": "cnh_j133",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "不断发展的现代社会",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "可持续发展要求？",
+      "explain": "1992年联合国环境与发展大会推动了这一观念。",
+      "answer_mode": "choice",
+      "options": [
+        "只开发不保护",
+        "既满足当代人的需要，又不损害后代人的发展",
+        "停止一切生产",
+        "把污染转移到别国"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j134_q1",
+      "topic": "cnh_j134",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "时事溯源",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "时事溯源要求先做的是？",
+      "explain": "没有时间、地点和各方，就无法把新闻放进历史脉络。",
+      "answer_mode": "choice",
+      "options": [
+        "只看标题判断对错",
+        "用传闻代替材料",
+        "避开地点",
+        "查清事件发生的时间和相关各方"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j134_q2",
+      "topic": "cnh_j134",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "时事溯源",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 1,
+      "stem": "分析一条国际新闻时，应当联系？",
+      "explain": "冷战、联合国、世贸组织等已学内容可以成为背景。",
+      "answer_mode": "choice",
+      "options": [
+        "它之前的条约、组织和力量对比",
+        "只联系个人喜好",
+        "只看哪一方声音大",
+        "完全不管过去"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j134_q3",
+      "topic": "cnh_j134",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "时事溯源",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 2,
+      "stem": "哪一种做法符合这项活动？",
+      "explain": "活动课训练的是追根溯源，不是表态。",
+      "answer_mode": "choice",
+      "options": [
+        "给时事贴上没有依据的结论",
+        "用可靠材料说明一件时事的来龙去脉",
+        "把所有冲突都说成同一场战争",
+        "不写任何年代"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j134_q4",
+      "topic": "cnh_j134",
+      "subject": "history",
+      "grade": 9,
+      "semester": "lower",
+      "edition": "tongbian",
+      "unit": "u6",
+      "unit_name": "时事溯源",
+      "type": "knowledge",
+      "skill": "世界现代史",
+      "difficulty": 3,
+      "stem": "把时事写成历史小报告，必须包括？",
+      "explain": "来源清楚，结论才站得住。",
+      "answer_mode": "choice",
+      "options": [
+        "只有观点",
+        "只有图片没有说明",
+        "时间、地点、经过和可以核对的材料来源",
+        "抄一段口号"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,4157 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 9,
+ "semester": "upper",
+ "textbook": "人教版（新目标）（初中新目标目录）",
+ "questions": [
+  {
+   "id": "cne_j200_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「幽默的」？",
+   "explain": "humorous 的意思是幽默的。",
+   "options": [
+    "silent",
+    "humorous",
+    "score",
+    "background"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j200_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「silent」的中文意思是哪一个？",
+   "explain": "silent 的意思是沉默的。",
+   "options": [
+    "幽默的",
+    "分数",
+    "沉默的",
+    "背景"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j202_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说以前怕黑，现在不怕了，哪一句合适？",
+   "explain": "used to be，but I am not now。",
+   "options": [
+    "I used to be afraid of the dark, but I am not now yesterday.",
+    "I use to be afraid of the dark, but now I am not.",
+    "I used to afraid of the dark, but I am not now.",
+    "I used to be afraid of the dark, but I am not now."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j202_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他现在更幽默了。哪一句合适？",
+   "explain": "than he used to be。",
+   "options": [
+    "He is more humorous than he used to be.",
+    "He is more humorous than he used to was.",
+    "He is humorouser than he used to be.",
+    "He is more humorouser than he use to be."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j203_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Andy used to be silent. Now he is humorous and talks a lot. 他以前怎么样？",
+   "explain": "used to be silent。",
+   "options": [
+    "很沉默",
+    "很幽默",
+    "很吵",
+    "分数很高"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j203_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Andy used to be silent. Now he is humorous and talks a lot. 他现在怎么样？",
+   "explain": "Now he is humorous。",
+   "options": [
+    "仍然一言不发",
+    "幽默，话很多",
+    "害怕说话",
+    "短文没说现在"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j252_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "I ____ to Beijing in 2019.",
+   "explain": "in 2019 是过去时间，用一般过去时。",
+   "options": [
+    "have gone",
+    "went",
+    "have been",
+    "go"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j252_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Many new buildings ____ in my town in the last ten years.",
+   "explain": "in the last ten years 表示到现在，用现在完成时。",
+   "options": [
+    "are appearing",
+    "appeared yesterday",
+    "have appeared",
+    "appear"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j200_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「分数」的单词。",
+   "explain": "表示分数的单词是 score。",
+   "options": [
+    "humorous",
+    "silent",
+    "background",
+    "score"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j200_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「背景」？",
+   "explain": "background 的意思是背景。",
+   "options": [
+    "background",
+    "humorous",
+    "silent",
+    "score"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j202_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What did you use to do after school? 这句在问什么？",
+   "explain": "did you use to do 问过去的习惯。",
+   "options": [
+    "你现在正在做什么",
+    "你过去放学后常常做什么",
+    "你明天放学做什么",
+    "你的分数是多少"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j202_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说分数比以前高，哪一句合适？",
+   "explain": "higher than it used to be。",
+   "options": [
+    "My score is higher than it used to was.",
+    "My score is more high than it used to be.",
+    "My score is higher than it used to be.",
+    "My score is highest than it used to be."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j203_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Tina used to hate tests. Her score is higher now. 分数怎样了？",
+   "explain": "score is higher now。",
+   "options": [
+    "比以前低",
+    "没有变化",
+    "比以前高",
+    "短文没写分数"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j203_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Tina used to hate tests. 哪一句和短文一致？",
+   "explain": "used to hate tests。",
+   "options": [
+    "Tina still hates talking and is silent.",
+    "Andy used to be humorous.",
+    "Tina's score is lower now.",
+    "Tina did not like tests before."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j252_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句正确？",
+   "explain": "since 2015 和现在完成时搭配。",
+   "options": [
+    "She lives here since 2015.",
+    "She has lived here in 2015.",
+    "She has lived here since 2015.",
+    "She lived here since 2015 now."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j252_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "— When ____ you get your first phone? — Two years ago.",
+   "explain": "When 问过去具体时间用一般过去时。",
+   "options": [
+    "did",
+    "have",
+    "has",
+    "do"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j253_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is kind ____ you to help me.",
+   "explain": "kind 评价人的品质，用 of。",
+   "options": [
+    "with",
+    "for",
+    "of",
+    "to"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j253_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "It is not easy for me ____ English well.",
+   "explain": "It is ... for sb to do。",
+   "options": [
+    "to speak",
+    "spoke",
+    "speak",
+    "speaking"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j253_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他坚持每天跑步，真了不起」哪一句正确？",
+   "explain": "It is + 形容词 + of sb + to do。",
+   "options": [
+    "It amazing for him to keep running every day.",
+    "He is amazing to keep running every day for.",
+    "It is amazing of him to keep running every day.",
+    "It is amazing of him keep running every day."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j253_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "It was difficult for her ____ the mountain.",
+   "explain": "for sb 后面接 to do。",
+   "options": [
+    "to climb",
+    "climb",
+    "climbed",
+    "climbs"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j187_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「发音」？",
+   "explain": "pronunciation 的意思是发音。",
+   "options": [
+    "pronunciation",
+    "expression",
+    "repeat",
+    "patient"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j187_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「expression」的中文意思是哪一个？",
+   "explain": "expression 的意思是表达方式。",
+   "options": [
+    "发音",
+    "表达方式",
+    "重复",
+    "有耐心的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j189_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方怎样学英语，哪一句合适？",
+   "explain": "How do you study。",
+   "options": [
+    "How do you studies English?",
+    "How are you study English?",
+    "How do you study English?",
+    "How you study English?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j189_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你靠做笔记，应怎么说？",
+   "explain": "by taking notes。",
+   "options": [
+    "I learn by take notes.",
+    "I learn by to take notes.",
+    "I learn with taking notes.",
+    "I learn by taking notes."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j190_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Wei Fen studies English by reading aloud. She also learns new words by making word cards. 她怎样学英语？",
+   "explain": "by reading aloud。",
+   "options": [
+    "只靠看电视",
+    "从不读书",
+    "只在考试前睡觉",
+    "大声朗读"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j190_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Wei Fen studies English by reading aloud. She also learns new words by making word cards. 生词怎么记？",
+   "explain": "by making word cards。",
+   "options": [
+    "做单词卡",
+    "把书扔掉",
+    "只问一次",
+    "不复习"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j192_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我认为月饼很好吃。哪一句正确？",
+   "explain": "that 后面用陈述语序，mooncakes 用 are。",
+   "options": [
+    "I think that mooncakes is delicious.",
+    "I think that mooncakes are delicious.",
+    "I think mooncakes are delicious that.",
+    "I think that are mooncakes delicious."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j192_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她相信故事是真的。哪一句正确？",
+   "explain": "the story is true。",
+   "options": [
+    "She believes that is the story true.",
+    "She believes that the story true.",
+    "She believes that the story is true.",
+    "She believes that the story are true."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j193_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我不知道他会不会来。哪一句正确？",
+   "explain": "if he will come，主语 he 在 will 前面。",
+   "options": [
+    "I don't know if will he come.",
+    "I don't know if he comes will.",
+    "I don't know if he will come.",
+    "I don't know if does he come."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j193_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她在问是否要带灯笼。哪一句正确？",
+   "explain": "whether she should bring。",
+   "options": [
+    "She asks whether should she bring a lantern.",
+    "She asks whether does she bring a lantern.",
+    "She asks whether she should brings a lantern.",
+    "She asks whether she should bring a lantern."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j187_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「重复」的单词。",
+   "explain": "表示重复的单词是 repeat。",
+   "options": [
+    "pronunciation",
+    "expression",
+    "repeat",
+    "patient"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j187_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「有耐心的」？",
+   "explain": "patient 的意思是有耐心的。",
+   "options": [
+    "pronunciation",
+    "expression",
+    "repeat",
+    "patient"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j189_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "What about reading aloud? 这句是在做什么？",
+   "explain": "What about 加动名词，用来提出一种方法。",
+   "options": [
+    "建议大声读",
+    "询问书的价格",
+    "描述昨天的考试分数",
+    "拒绝学习"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j189_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说老师很有耐心，哪一句合适？",
+   "explain": "is patient。",
+   "options": [
+    "The teacher is patiently.",
+    "The teacher is patient.",
+    "The teacher are patient.",
+    "The teacher is a patient to the book."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j190_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Paul was not patient before. Now he studies by listening to tapes every night. 他现在每晚做什么？",
+   "explain": "listening to tapes every night。",
+   "options": [
+    "写小说",
+    "听磁带",
+    "去博物馆",
+    "不学习"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j190_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Paul was not patient before. Now he studies by listening to tapes. 哪一句和建议一致？",
+   "explain": "现在的方法是 listening to tapes。",
+   "options": [
+    "Paul still refuses to study.",
+    "Wei Fen learns words only by sleeping.",
+    "Paul now learns by listening to tapes.",
+    "Paul has never listened to tapes."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j192_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "that 引导的宾语从句用什么语序？",
+   "explain": "从句里主语在谓语前面。",
+   "options": [
+    "疑问语序",
+    "祈使语序",
+    "倒装成 Are they",
+    "陈述语序"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j192_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句可以省略 that 后意思不变？",
+   "explain": "I know he likes lanterns 可以省略 that。",
+   "options": [
+    "I know that he likes lanterns.",
+    "I know that does he like lanterns.",
+    "I know he likes lanterns that the end.",
+    "That he likes lanterns I know are."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j193_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "宾语从句里，if 的意思是哪一个？",
+   "explain": "作宾语从句时，if 表示是否。",
+   "options": [
+    "是否",
+    "如果就一定会",
+    "虽然",
+    "以便"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j193_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句的语序正确？",
+   "explain": "whether the story is true。",
+   "options": [
+    "I wonder whether is the story true.",
+    "I wonder whether the story is true.",
+    "I wonder whether does the story true.",
+    "I wonder whether the story true is it."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j197_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "请问洗手间在哪里。哪一句正确？",
+   "explain": "where the restroom is，be 动词放在主语后面。",
+   "options": [
+    "Could you tell me where is the restroom?",
+    "Could you tell me where the restroom is it?",
+    "Could you tell me where the restroom is?",
+    "Could you tell me where does the restroom?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j197_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我想知道银行在哪里。哪一句正确？",
+   "explain": "where the bank is。",
+   "options": [
+    "I want to know where is the bank.",
+    "I want to know where the bank is there.",
+    "I want to know the bank where is.",
+    "I want to know where the bank is."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j197_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她问我什么时候出发。哪一句正确？",
+   "explain": "when we leave，不用 do we。",
+   "options": [
+    "She asks me when we leave.",
+    "She asks me when do we leave.",
+    "She asks me when we do leave tomorrow the question order.",
+    "She asks me when leave we."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j197_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "宾语从句为什么不用疑问语序？",
+   "explain": "嵌入后主语仍在谓语前面。",
+   "options": [
+    "因为不能用 where",
+    "它是陈述的一部分，不是直接问句",
+    "因为必须省略主语",
+    "因为只能用过去时"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j205_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这件衬衫是棉做的。哪一句正确？",
+   "explain": "is made of cotton。看得见的材料用 of。",
+   "options": [
+    "This shirt is made from cotton as a visible cloth error.",
+    "This shirt is make of cotton.",
+    "This shirt is made of cotton.",
+    "This shirt made of cotton."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j205_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "茶叶种在中国很多地方。哪一句正确？",
+   "explain": "is grown。",
+   "options": [
+    "Tea is grow in many places in China.",
+    "Tea grows by people in many places as a passive form.",
+    "Tea is grown by in China.",
+    "Tea is grown in many places in China."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j208_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「发明家」？",
+   "explain": "inventor 的意思是发明家。",
+   "options": [
+    "mention",
+    "inventor",
+    "website",
+    "daily"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j208_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「mention」的中文意思是哪一个？",
+   "explain": "mention 的意思是提到。",
+   "options": [
+    "发明家",
+    "网站",
+    "提到",
+    "每日的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j209_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "电话是贝尔发明的。哪一句正确？",
+   "explain": "was invented by。",
+   "options": [
+    "The telephone was invent by Bell.",
+    "The telephone is invented by Bell in the past sentence.",
+    "The telephone was invented by Bell.",
+    "The telephone invented by Bell."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j209_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这些发明是什么时候被提到的？哪一句正确？",
+   "explain": "复数 inventions 用 were mentioned。",
+   "options": [
+    "When did the inventions mentioned?",
+    "When were the inventions mention?",
+    "When was the inventions mentioned?",
+    "When were the inventions mentioned?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j210_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问拉链是何时发明的，哪一句合适？",
+   "explain": "When was ... invented。",
+   "options": [
+    "When was the zipper invent?",
+    "When did the zipper invented?",
+    "When was the zipper invented by time?",
+    "When was the zipper invented?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j210_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "它是偶然发明的，应怎么说？",
+   "explain": "was invented by accident。",
+   "options": [
+    "It was invented by accident.",
+    "It was invented by an accident person only.",
+    "It invented by accident.",
+    "It was invent by accident."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j211_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The telephone was invented by Bell. It is used for talking to people far away. 谁发明了电话？",
+   "explain": "invented by Bell。",
+   "options": [
+    "贝尔",
+    "爱迪生",
+    "一位学生",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j211_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The telephone was invented by Bell. It is used for talking to people far away. 电话用来做什么？",
+   "explain": "talking to people far away。",
+   "options": [
+    "煮茶叶",
+    "和远处的人通话",
+    "印书",
+    "搬山"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j205_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一般现在时被动语态的结构是哪一个？",
+   "explain": "be 的现在形式加 done。",
+   "options": [
+    "am、is 或 are 加过去分词",
+    "do 加动词原形",
+    "have 加动词 ing",
+    "will 加过去式"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j205_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这些包是钢做的吗？哪一句正确？",
+   "explain": "Are ... made of。",
+   "options": [
+    "Do these bags made of steel?",
+    "Are these bags made of steel?",
+    "Are these bags make of steel?",
+    "Are these bags made from steel if the steel is still clearly steel?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j208_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「网站」的单词。",
+   "explain": "表示网站的单词是 website。",
+   "options": [
+    "inventor",
+    "mention",
+    "daily",
+    "website"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j208_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「每日的」？",
+   "explain": "daily 的意思是每日的。",
+   "options": [
+    "daily",
+    "inventor",
+    "mention",
+    "website"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j209_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一般过去时被动语态的结构是哪一个？",
+   "explain": "过去的 be 加 done。",
+   "options": [
+    "was 或 were 加过去分词",
+    "is 加动词 ing",
+    "have 加过去分词",
+    "did 加过去分词"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j209_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "网站是去年建立的。哪一句正确？",
+   "explain": "was set up last year。",
+   "options": [
+    "The website was set up next year.",
+    "The website was set up last year.",
+    "The website set up last year by nobody the active error.",
+    "The website was set up last year by it."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j210_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Who was it invented by? 这句在问什么？",
+   "explain": "Who ... by 问发明者。",
+   "options": [
+    "它现在卖多少钱",
+    "它是谁发明的",
+    "它是什么颜色",
+    "它明天会不会坏"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j210_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说人们每天使用它，哪一句合适？",
+   "explain": "use it in daily life。",
+   "options": [
+    "People uses it in daily life.",
+    "People use it in daily life yesterday the tense.",
+    "People use it in daily life.",
+    "People are use it in daily life."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j211_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Potato chips were invented by accident. A cook made them in a restaurant. 怎么发明的？",
+   "explain": "by accident。",
+   "options": [
+    "按计划研究了十年",
+    "在网站上投票",
+    "偶然",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j211_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Potato chips were invented by accident. 哪一句和介绍一致？",
+   "explain": "by accident 就是偶然发明。",
+   "options": [
+    "Bell invented potato chips.",
+    "The telephone was invented by a cook.",
+    "Potato chips were invented on purpose in this text.",
+    "Potato chips were an accidental invention."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j254_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The rocket ____ next year.",
+   "explain": "will be + 过去分词。",
+   "options": [
+    "will be launch",
+    "will launched",
+    "is launched yesterday",
+    "will be launched"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j254_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "More astronauts ____ to space in the future.",
+   "explain": "宇航员被派往太空，用被动。",
+   "options": [
+    "will send",
+    "are sending",
+    "sent",
+    "will be sent"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j255_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「宇宙」？",
+   "explain": "universe 是宇宙。",
+   "options": [
+    "uniform",
+    "unique",
+    "university",
+    "universe"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j255_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The ____ was launched from Wenchang.",
+   "explain": "从文昌发射的是火箭。",
+   "options": [
+    "rocket",
+    "racket",
+    "pocket",
+    "robot"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j254_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪一句是一般将来时的被动语态？",
+   "explain": "will be shown 是将来被动。",
+   "options": [
+    "The results will show on TV.",
+    "The results will be shown on TV.",
+    "The results were shown on TV.",
+    "The results showed on TV."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j254_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The moon base ____ by robots.",
+   "explain": "build 的过去分词是 built。",
+   "options": [
+    "will build",
+    "will be built",
+    "will be build",
+    "will building"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j255_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "explore 的意思是？",
+   "explain": "explore 是探索。",
+   "options": [
+    "解释",
+    "出口",
+    "探索",
+    "爆炸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j255_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "launch 在 launch a spaceship 中的意思是？",
+   "explain": "launch a spaceship 是发射飞船。",
+   "options": [
+    "发射",
+    "吃午饭",
+    "修理",
+    "着陆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j220_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「更喜欢」？",
+   "explain": "prefer 的意思是更喜欢。",
+   "options": [
+    "lyrics",
+    "prefer",
+    "Australian",
+    "electronic"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j220_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「lyrics」的中文意思是哪一个？",
+   "explain": "lyrics 的意思是歌词。",
+   "options": [
+    "更喜欢",
+    "澳大利亚的",
+    "歌词",
+    "电子的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j221_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我喜欢能跟着跳舞的音乐。哪一句正确？",
+   "explain": "music 是物，用 that，dance to 的 to 保留。",
+   "options": [
+    "I like music who I can dance to.",
+    "I like music that I can dance to it.",
+    "I like music that I can dance to.",
+    "I like music which I can dance."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j221_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "正在说话的那个人是我的老师。哪一句正确？",
+   "explain": "人用 who，从句里不再重复 he。",
+   "options": [
+    "The man which is talking is my teacher.",
+    "The man who talking is my teacher.",
+    "The man who is talking he is my teacher.",
+    "The man who is talking is my teacher."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j222_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说你更喜欢歌词清楚的歌，哪一句合适？",
+   "explain": "songs that have。",
+   "options": [
+    "I prefer songs who have clear lyrics.",
+    "I prefer songs that they have clear lyrics.",
+    "I prefer songs which has clear lyrics.",
+    "I prefer songs that have clear lyrics."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j222_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方喜欢哪种音乐，哪一句合适？",
+   "explain": "What kind of music do you like。",
+   "options": [
+    "What kind of music do you like?",
+    "What kind of music do you like it?",
+    "What kind of music you like?",
+    "What kind of music are you like?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j223_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Cindy likes music that she can dance to. She prefers songs with clear lyrics. 她喜欢什么样的音乐？",
+   "explain": "dance to，clear lyrics。",
+   "options": [
+    "可以跟着跳舞、歌词清楚的",
+    "没有歌词的",
+    "只能安静听不能跳舞的古典",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j223_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Tony likes singers who write their own songs. He does not like electronic music. 他喜欢什么样的歌手？",
+   "explain": "who write their own songs。",
+   "options": [
+    "只播放电子音乐的人",
+    "自己写歌的歌手",
+    "不写作的人",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j220_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「澳大利亚的」的单词。",
+   "explain": "表示澳大利亚的的单词是 Australian。",
+   "options": [
+    "prefer",
+    "lyrics",
+    "electronic",
+    "Australian"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j220_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「电子的」？",
+   "explain": "electronic 的意思是电子的。",
+   "options": [
+    "electronic",
+    "prefer",
+    "lyrics",
+    "Australian"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j221_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这是我昨天买的书。哪一句正确？",
+   "explain": "物可用 which，bought 是过去式，不重复 it。",
+   "options": [
+    "This is the book which I bought yesterday.",
+    "This is the book who I bought yesterday.",
+    "This is the book which I bought it yesterday.",
+    "This is the book which I buy yesterday."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j221_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "修饰人时，哪一个关系词最合适？",
+   "explain": "who 指人。",
+   "options": [
+    "what",
+    "who",
+    "how",
+    "which"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j222_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我喜欢能跟着唱的音乐。哪一句合适？",
+   "explain": "sing along with。",
+   "options": [
+    "I like music that I can sing along.",
+    "I like music that I can sing along with.",
+    "I like music who I can sing along with.",
+    "I like music that can I sing along with."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j222_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "He likes Australian singers. 这句说明什么？",
+   "explain": "Australian singers。",
+   "options": [
+    "他是澳大利亚人所以不唱歌",
+    "他不喜欢歌手",
+    "他喜欢澳大利亚歌手",
+    "他只喜欢电子产品"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j223_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Tony does not like electronic music. 他喜欢电子音乐吗？",
+   "explain": "does not like。",
+   "options": [
+    "喜欢",
+    "只在晚会上喜欢",
+    "不喜欢",
+    "比 Cindy 更喜欢"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j223_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Cindy likes music that she can dance to. 哪一句和短文一致？",
+   "explain": "能跟着跳舞的音乐。",
+   "options": [
+    "Tony likes electronic music.",
+    "Cindy hates clear lyrics.",
+    "Tony likes singers who never write songs.",
+    "Cindy likes dance music."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j256_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Tom and Jim ____ on the school team.",
+   "explain": "两个人作主语，用复数 are。",
+   "options": [
+    "am",
+    "are",
+    "is",
+    "be"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j256_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Each of the players ____ a number.",
+   "explain": "each of 作主语，谓语用单数。",
+   "options": [
+    "have",
+    "having",
+    "are having",
+    "has"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j257_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "champion 的意思是？",
+   "explain": "champion 是冠军。",
+   "options": [
+    "裁判",
+    "观众",
+    "冠军",
+    "教练"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j257_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「运动员」？",
+   "explain": "athlete 是运动员。",
+   "options": [
+    "author",
+    "athlete",
+    "actor",
+    "artist"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j256_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Not only the students but also the teacher ____ excited.",
+   "explain": "not only ... but also 就近一致，靠近的是 the teacher。",
+   "options": [
+    "were",
+    "is",
+    "be",
+    "are"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j256_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The number of fans ____ growing.",
+   "explain": "the number of 作主语，谓语用单数。",
+   "options": [
+    "have",
+    "were",
+    "are",
+    "is"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j257_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "She won a gold ____ at the Olympics.",
+   "explain": "gold medal 是金牌。",
+   "options": [
+    "meal",
+    "medal",
+    "model",
+    "metal"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j257_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "competition 的意思是？",
+   "explain": "competition 是比赛、竞赛。",
+   "options": [
+    "计算",
+    "比赛",
+    "完成",
+    "合作"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j188_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我靠读课文学英语。哪一句正确？",
+   "explain": "by 后面用 reading。",
+   "options": [
+    "I study English by read the text.",
+    "I study English by reading the text.",
+    "I study English by to read the text.",
+    "I study English with reading the text for by."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j188_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她靠听磁带提高发音。哪一句正确？",
+   "explain": "by listening。",
+   "options": [
+    "She improves her pronunciation by listen to tapes.",
+    "She improves her pronunciation by to listen to tapes.",
+    "She improves her pronunciation by listening to tapes.",
+    "She improves her pronunciation by listened to tapes."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j191_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「月饼」？",
+   "explain": "mooncake 的意思是月饼。",
+   "options": [
+    "mooncake",
+    "lantern",
+    "stranger",
+    "relative"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j191_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「lantern」的中文意思是哪一个？",
+   "explain": "lantern 的意思是灯笼。",
+   "options": [
+    "月饼",
+    "灯笼",
+    "陌生人",
+    "亲属"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j194_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说中秋节人们赏月，哪一句合适？",
+   "explain": "on Mid-Autumn Festival，谓语用 admire。",
+   "options": [
+    "People admires the moon on Mid-Autumn Festival.",
+    "People admire the moon in Mid-Autumn Festival.",
+    "People admire moon the on festival.",
+    "People admire the moon on Mid-Autumn Festival."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j194_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问对方是否喜欢月饼，哪一句合适？",
+   "explain": "Do you like。",
+   "options": [
+    "Do you like mooncakes?",
+    "Do you like mooncake are?",
+    "Are you like mooncakes?",
+    "Do you likes mooncakes?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j195_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Li Mei thinks that mooncakes are delicious. Her family admires the moon at night. 她觉得月饼怎么样？",
+   "explain": "mooncakes are delicious。",
+   "options": [
+    "很好吃",
+    "很难吃",
+    "太咸",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j195_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Li Mei thinks that mooncakes are delicious. Her family admires the moon at night. 晚上做什么？",
+   "explain": "admires the moon。",
+   "options": [
+    "赛龙舟",
+    "赏月",
+    "打扫卫生",
+    "去医院"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j196_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「洗手间」？",
+   "explain": "restroom 的意思是洗手间。",
+   "options": [
+    "stamp",
+    "restroom",
+    "postcard",
+    "politely"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j196_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「stamp」的中文意思是哪一个？",
+   "explain": "stamp 的意思是邮票。",
+   "options": [
+    "洗手间",
+    "明信片",
+    "邮票",
+    "礼貌地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j198_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想礼貌地问邮局在哪里，哪一句合适？",
+   "explain": "礼貌请求加陈述语序。",
+   "options": [
+    "Could you please tell me where is the post office?",
+    "Tell me where is the post office now.",
+    "Could you please tell me where the post office?",
+    "Could you please tell me where the post office is?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j198_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "直接问句哪一句正确？",
+   "explain": "直接提问时 is 可以放在 where 后面。",
+   "options": [
+    "Where is the restroom?",
+    "Where the restroom is?",
+    "Where is restroom the?",
+    "Where the restroom is it?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j199_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "A: Could you tell me where the restroom is? B: Go along the hall and turn left. 问路人要去哪里？",
+   "explain": "where the restroom is。",
+   "options": [
+    "洗手间",
+    "邮局",
+    "银行",
+    "博物馆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j199_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "A: Could you tell me where the restroom is? B: Go along the hall and turn left. 怎么走？",
+   "explain": "along the hall and turn left。",
+   "options": [
+    "右转上楼",
+    "沿走廊走，然后左转",
+    "往回走",
+    "坐电梯到三楼"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j201_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我以前怕黑。哪一句正确？",
+   "explain": "used to be。",
+   "options": [
+    "I used to was afraid of the dark.",
+    "I use to be afraid of the dark.",
+    "I used to be afraid of the dark.",
+    "I used to being afraid of the dark."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j201_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她以前很沉默。哪一句正确？",
+   "explain": "used to be silent。",
+   "options": [
+    "She used to silent.",
+    "She used to is silent.",
+    "She use to be silent.",
+    "She used to be silent."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j204_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「棉」？",
+   "explain": "cotton 的意思是棉。",
+   "options": [
+    "steel",
+    "cotton",
+    "produce",
+    "widely"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j204_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「steel」的中文意思是哪一个？",
+   "explain": "steel 的意思是钢。",
+   "options": [
+    "棉",
+    "生产",
+    "钢",
+    "广泛地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j206_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问衬衫是什么做的，哪一句合适？",
+   "explain": "What is ... made of。",
+   "options": [
+    "What is the shirt made from of?",
+    "What does the shirt made of?",
+    "What is the shirt make of?",
+    "What is the shirt made of?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j206_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "它产于中国，应怎么说？",
+   "explain": "is produced in China。",
+   "options": [
+    "It is produced in China.",
+    "It is produce in China.",
+    "It produced in China.",
+    "It is produced by China people the word order."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j207_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The shirt is made of cotton. It is produced in China. 衬衫是什么做的？",
+   "explain": "made of cotton。",
+   "options": [
+    "棉",
+    "钢",
+    "玻璃",
+    "纸"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j207_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The shirt is made of cotton. It is produced in China. 在哪里生产？",
+   "explain": "produced in China。",
+   "options": [
+    "法国",
+    "中国",
+    "日本",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j212_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「执照」？",
+   "explain": "license 的意思是执照。",
+   "options": [
+    "safety",
+    "license",
+    "society",
+    "choice"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j212_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「safety」的中文意思是哪一个？",
+   "explain": "safety 的意思是安全。",
+   "options": [
+    "执照",
+    "社会",
+    "安全",
+    "选择"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j213_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "青少年应该被允许选择自己的衣服。哪一句正确？",
+   "explain": "be allowed to choose。",
+   "options": [
+    "Teenagers should be allowed choose their own clothes.",
+    "Teenagers should be allowed to choosing their own clothes.",
+    "Teenagers should be allowed to choose their own clothes.",
+    "Teenagers should allowed to choose their own clothes."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j213_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我不被允许熬夜。哪一句正确？",
+   "explain": "am not allowed to stay。",
+   "options": [
+    "I am not allowed stay up late.",
+    "I am not allowed to staying up late.",
+    "I not allowed to stay up late.",
+    "I am not allowed to stay up late."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j214_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你不同意十六岁开车，哪一句合适？",
+   "explain": "don't think ... should be allowed to drive。",
+   "options": [
+    "I don't think sixteen-year-olds should be allowed drive.",
+    "I am not think they should be allowed to drive.",
+    "I don't think they should allowed to drive.",
+    "I don't think sixteen-year-olds should be allowed to drive."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j214_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "安全重要，哪一句合适？",
+   "explain": "Safety is important。",
+   "options": [
+    "Safety is important.",
+    "Safety are important.",
+    "Safety is importance.",
+    "The safety is important than."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j215_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Students are not allowed to use phones in class. They are allowed to use them after school. 课上可以用手机吗？",
+   "explain": "are not allowed to use phones in class。",
+   "options": [
+    "不可以",
+    "可以",
+    "只可以听歌",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j215_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Students are not allowed to use phones in class. They are allowed to use them after school. 放学后呢？",
+   "explain": "allowed to use them after school。",
+   "options": [
+    "不可以",
+    "可以",
+    "只能看不能碰",
+    "必须上交"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j216_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「谁的」？",
+   "explain": "whose 的意思是谁的。",
+   "options": [
+    "attend",
+    "whose",
+    "valuable",
+    "picnic"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j216_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「attend」的中文意思是哪一个？",
+   "explain": "attend 的意思是参加。",
+   "options": [
+    "谁的",
+    "贵重的",
+    "参加",
+    "野餐"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j217_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "吉他上面有 Carla 的名字，一定是她的。哪一句正确？",
+   "explain": "把握大时用 must be。",
+   "options": [
+    "The guitar must is Carla's.",
+    "The guitar must be Carla.",
+    "The guitar must be Carla's.",
+    "The guitar can be Carla's as a weak guess in this sure case."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j217_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "他不可能在野餐，我看见他在图书馆。哪一句正确？",
+   "explain": "有相反证据时用 can't be。",
+   "options": [
+    "He must be at the picnic although I see him in the library.",
+    "He can't is at the picnic.",
+    "He must not to be at the picnic.",
+    "He can't be at the picnic."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j218_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问这是谁的书包，哪一句合适？",
+   "explain": "Whose backpack is this。",
+   "options": [
+    "Who's backpack is this owner?",
+    "Whose backpack this is?",
+    "Who backpack is this?",
+    "Whose backpack is this?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j218_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你很确定是 Mary 的，应怎么说？",
+   "explain": "must be Mary's。",
+   "options": [
+    "It must be Mary's.",
+    "It must Mary's.",
+    "It can be Mary's if we are completely sure.",
+    "It must is Mary's."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j219_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The notebook has Anna's name on it. It must be hers. 笔记本是谁的？",
+   "explain": "Anna's name，must be hers。",
+   "options": [
+    "Anna 的",
+    "Tom 的",
+    "老师的",
+    "无人认领"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j219_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The toy truck can't be Mary's. She does not like trucks. 玩具卡车是 Mary 的吗？",
+   "explain": "can't be Mary's。",
+   "options": [
+    "一定是",
+    "不是",
+    "可能是因为她喜欢",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j228_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「友谊」？",
+   "explain": "friendship 的意思是友谊。",
+   "options": [
+    "king",
+    "friendship",
+    "pale",
+    "queen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j228_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「king」的中文意思是哪一个？",
+   "explain": "king 的意思是国王。",
+   "options": [
+    "友谊",
+    "苍白的",
+    "国王",
+    "王后"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j229_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "悲伤的电影让我哭。哪一句正确？",
+   "explain": "make me cry，cry 用原形。",
+   "options": [
+    "Sad movies make me to cry.",
+    "Sad movies make me crying.",
+    "Sad movies make me cry.",
+    "Sad movies make me cried."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j229_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "这个消息让他高兴。哪一句正确？",
+   "explain": "made him happy，happy 是形容词。",
+   "options": [
+    "The news made him happily.",
+    "The news made him to happy.",
+    "The news made he happy.",
+    "The news made him happy."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j230_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说这部电影让你想哭，哪一句合适？",
+   "explain": "makes me want to cry。",
+   "options": [
+    "The movie makes me to want to cry.",
+    "The movie makes me wanting to cry.",
+    "The movie makes me want cry.",
+    "The movie makes me want to cry."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j230_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想问这部电影怎么样，哪一句合适？",
+   "explain": "What do you think of。",
+   "options": [
+    "What do you think of the movie?",
+    "What do you think the movie of?",
+    "How do you think of the movie is?",
+    "What are you think of the movie?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j231_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The sad movie made Amy cry. It also made her think about friendship. 电影让 Amy 怎样了？",
+   "explain": "made Amy cry，think about friendship。",
+   "options": [
+    "哭了，并想到友谊",
+    "睡着了",
+    "离开了电影院而且没有哭",
+    "开始笑个不停"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j231_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The sad movie made Amy cry. 她哭是因为什么？",
+   "explain": "sad movie made Amy cry。",
+   "options": [
+    "一个笑话",
+    "这部悲伤的电影",
+    "国王请她吃饭",
+    "短文没说原因"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j232_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「出乎意料的」？",
+   "explain": "unexpected 的意思是出乎意料的。",
+   "options": [
+    "backpack",
+    "unexpected",
+    "block",
+    "burn"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j232_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「backpack」的中文意思是哪一个？",
+   "explain": "backpack 的意思是背包。",
+   "options": [
+    "出乎意料的",
+    "街区",
+    "背包",
+    "燃烧"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j233_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我到达之前，火车已经离开了。哪一句正确？",
+   "explain": "先离开用 had left，后到达用 arrived。",
+   "options": [
+    "The train has left when I arrived.",
+    "The train had left when I arrive.",
+    "The train had left when I arrived.",
+    "The train left when I had arrived as the earlier event."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j233_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "到我起床时，哥哥已经走了。哪一句正确？",
+   "explain": "had left 发生在 got up 之前。",
+   "options": [
+    "By the time I got up, my brother has left.",
+    "By the time I got up, my brother had leave.",
+    "By the time I get up, my brother had left.",
+    "By the time I got up, my brother had left."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j234_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说你迟到是因为闹钟没响，哪一句合适？",
+   "explain": "had not gone off 在迟到之前。",
+   "options": [
+    "I was late because my alarm has not gone off.",
+    "I was late because my alarm had not went off.",
+    "I was late because my alarm did not had gone off.",
+    "I was late because my alarm had not gone off."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j234_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说这完全出乎意料，哪一句合适？",
+   "explain": "was totally unexpected。",
+   "options": [
+    "It was totally unexpected.",
+    "It was totally unexpectedness.",
+    "It were totally unexpected.",
+    "It was total unexpected."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j235_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "By the time Carl woke up, the bus had already left. He had forgotten to set the alarm. 哪件事更早？",
+   "explain": "had forgotten，had already left，然后才 woke up。",
+   "options": [
+    "他忘记设闹钟，公共汽车也先离开了",
+    "他先醒来然后车才离开",
+    "车还在等他",
+    "闹钟先响了"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j235_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "By the time Carl woke up, the bus had already left. 他醒来时车还在吗？",
+   "explain": "had already left。",
+   "options": [
+    "还在门口",
+    "已经离开了",
+    "还没来",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j236_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「垃圾」？",
+   "explain": "litter 的意思是垃圾。",
+   "options": [
+    "bottom",
+    "litter",
+    "coal",
+    "plastic"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j236_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「bottom」的中文意思是哪一个？",
+   "explain": "bottom 的意思是底部。",
+   "options": [
+    "垃圾",
+    "煤",
+    "底部",
+    "塑料"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j237_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我通常步行上学。哪一句正确？",
+   "explain": "usually 说明习惯，用一般现在时 walk。",
+   "options": [
+    "I usually walked to school every present day.",
+    "I am usually walk to school.",
+    "I usually walk to school.",
+    "I have walk to school every day."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j237_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "昨天我步行上学了。哪一句正确？",
+   "explain": "yesterday 用 walked。",
+   "options": [
+    "I walk to school yesterday.",
+    "I have walked to school yesterday.",
+    "I was walk to school yesterday.",
+    "I walked to school yesterday."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j238_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说不该乱扔垃圾，哪一句合适？",
+   "explain": "should not throw。",
+   "options": [
+    "We should not to throw litter on the ground.",
+    "We should not throwing litter on the ground.",
+    "We not should throw litter on the ground.",
+    "We should not throw litter on the ground."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j238_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说塑料对海洋有害，哪一句合适？",
+   "explain": "is bad for。",
+   "options": [
+    "Plastic is bad for the ocean.",
+    "Plastic are bad for the ocean.",
+    "Plastic is badly for the ocean.",
+    "Plastic is bad to the ocean bottom word."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j239_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Last year the river was clean. Now people throw plastic into it. 现在人们把什么扔进河里？",
+   "explain": "throw plastic into it。",
+   "options": [
+    "塑料",
+    "煤块做成的船",
+    "树",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j239_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "Last year the river was clean. Now people throw plastic into it. 去年河怎么样？",
+   "explain": "was clean。",
+   "options": [
+    "充满垃圾",
+    "干净",
+    "干涸",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j240_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "The city ___ dirty ten years ago. People have planted trees since then. 横线处选哪一个？",
+   "explain": "ten years ago 用 was。city 是单数。",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "has"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j240_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "We ___ not supposed to throw plastic into the river. 横线处选哪一个？",
+   "explain": "we 后面用 are supposed。",
+   "options": [
+    "is",
+    "be",
+    "are",
+    "were yesterday now"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j241_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「调查」？",
+   "explain": "survey 的意思是调查。",
+   "options": [
+    "standard",
+    "graduate",
+    "survey",
+    "ceremony"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j241_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「standard」的中文意思是哪一个？",
+   "explain": "standard 的意思是标准。",
+   "options": [
+    "调查",
+    "毕业",
+    "典礼",
+    "标准"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j242_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我记得见过你们。哪一句正确？",
+   "explain": "remember meeting 表示记得做过。",
+   "options": [
+    "I remember to meeting all of you.",
+    "I remember meet all of you.",
+    "I remember meeting to all of you.",
+    "I remember meeting all of you."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j242_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "记得锁门。这是还没做的事。哪一句正确？",
+   "explain": "remember to lock 表示记得要去做。",
+   "options": [
+    "Remember to lock the door.",
+    "Remember locking the door for a future action.",
+    "Remember to locking the door.",
+    "Remember lock the door."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j243_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "她是学生，不是吗？哪一句正确？",
+   "explain": "前面是肯定的 is，后面用 isn't she。",
+   "options": [
+    "She is a student, isn't she?",
+    "She is a student, isn't he?",
+    "She is a student, is she?",
+    "She is a student, doesn't she?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j243_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "你喜欢苹果，不是吗？哪一句正确？",
+   "explain": "like 是实义动词，用 don't you。",
+   "options": [
+    "You like apples, aren't you?",
+    "You like apples, don't you?",
+    "You like apples, do you?",
+    "You like apples, doesn't you?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j244_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "想说你记得第一次见面，哪一句合适？",
+   "explain": "记得已经发生的事用 remember meeting。",
+   "options": [
+    "I remember to meet you on the first day already done.",
+    "I remember meeting you on the first day.",
+    "I remember meet you on the first day.",
+    "I remember meeting you tomorrow."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j244_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "典礼在星期五。想向同学确认，哪一句合适？",
+   "explain": "isn't it。",
+   "options": [
+    "The ceremony is on Friday, isn't he?",
+    "The ceremony is on Friday, is it?",
+    "The ceremony is on Friday, isn't it?",
+    "The ceremony is on Friday, doesn't it?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j245_q1",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要点：你上周末去了公园，和同学放了风筝，天气晴朗。哪一句符合全部要点？",
+   "explain": "过去的时间、同学、放风筝、晴天都要出现。",
+   "options": [
+    "Next weekend I will go to the park alone.",
+    "Last weekend I went to the park. It was rainy, and I did not fly a kite.",
+    "Last weekend I went to the park with my classmates and flew a kite. It was sunny.",
+    "I go to the park every weekend and fly a kite."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j245_q2",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "要点：用现在完成时说明你已经在这所学校学习了三年，并且仍然喜欢英语。哪一句符合？",
+   "explain": "have studied for three years，并且 still like。",
+   "options": [
+    "I studied at this school for three years, but I have left it.",
+    "I have studied at this school since three years, and I liked English only before.",
+    "I study at this school tomorrow for three years.",
+    "I have studied at this school for three years, and I still like English."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j188_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "by doing 表示什么？",
+   "explain": "by 加动名词说明用什么方法。",
+   "options": [
+    "过去的时间",
+    "比较的对象",
+    "被动的执行者一定是人",
+    "方式"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j188_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "你可以靠小组合作来练习。哪一句正确？",
+   "explain": "by working。",
+   "options": [
+    "You can practice by working in a group.",
+    "You can practice by work in a group.",
+    "You can practice by to work in a group.",
+    "You can practice by worked in a group."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j191_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「陌生人」的单词。",
+   "explain": "表示陌生人的单词是 stranger。",
+   "options": [
+    "mooncake",
+    "lantern",
+    "stranger",
+    "relative"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j191_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「亲属」？",
+   "explain": "relative 的意思是亲属。",
+   "options": [
+    "mooncake",
+    "lantern",
+    "stranger",
+    "relative"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j194_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I wonder if they will have a party. 这句在说什么？",
+   "explain": "wonder if 表示想知道是否。",
+   "options": [
+    "我确定他们昨天聚过",
+    "我想知道他们是否会聚会",
+    "如果聚会就一定取消",
+    "我不关心聚会"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j194_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "亲属们聚在一起，哪一句合适？",
+   "explain": "relatives 用 get。",
+   "options": [
+    "The relatives gets together.",
+    "The relative get together as a plural verb error.",
+    "The relatives get together.",
+    "The relatives are get together."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j195_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I don't know whether Tom will come. He is in another city. 确定 Tom 会来吗？",
+   "explain": "don't know whether。",
+   "options": [
+    "确定会来",
+    "他已经到了",
+    "不确定",
+    "他不喜欢灯笼所以不来是写明的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j195_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Her family admires the moon at night. 哪一句和短文一致？",
+   "explain": "晚上赏月。",
+   "options": [
+    "The family eats breakfast at night only.",
+    "Tom has already arrived.",
+    "Li Mei hates mooncakes.",
+    "The family watches the moon at night."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j196_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「明信片」的单词。",
+   "explain": "表示明信片的单词是 postcard。",
+   "options": [
+    "restroom",
+    "stamp",
+    "politely",
+    "postcard"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j196_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「礼貌地」？",
+   "explain": "politely 的意思是礼貌地。",
+   "options": [
+    "politely",
+    "restroom",
+    "stamp",
+    "postcard"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j198_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "买一张邮票，哪一句合适？",
+   "explain": "one stamp。",
+   "options": [
+    "I need one stamps.",
+    "I need one stamp.",
+    "I need a stamps.",
+    "I need an stamp."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j198_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Excuse me, I wonder if you can help me. 说话人的态度是什么？",
+   "explain": "Excuse me 和 wonder if 都比较委婉。",
+   "options": [
+    "生气地命令",
+    "已经结束对话",
+    "礼貌",
+    "在描述过去的错误"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j199_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Mary asks where she can buy a stamp. The clerk says the shop is next to the library. 邮票在哪里买？",
+   "explain": "next to the library。",
+   "options": [
+    "洗手间里",
+    "邮局楼上没有商店",
+    "图书馆旁边的商店",
+    "家里"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j199_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The clerk says the shop is next to the library. 哪一句和对话一致？",
+   "explain": "商店在图书馆旁边。",
+   "options": [
+    "The restroom is next to the library in this second text.",
+    "Mary already has a stamp.",
+    "The clerk tells her to turn right for the restroom.",
+    "The stamp shop is beside the library."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j201_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "used to 表示什么？",
+   "explain": "used to 把过去和现在作对比。",
+   "options": [
+    "过去常常，现在通常已改变",
+    "正在做",
+    "将来一定做",
+    "从未做过"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j201_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "你以前弹钢琴吗？哪一句正确？",
+   "explain": "疑问句里用 Did you use to。",
+   "options": [
+    "Did you used to play the piano?",
+    "Did you use to play the piano?",
+    "Did you use to played the piano?",
+    "Use you to play the piano?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j204_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「生产」的单词。",
+   "explain": "表示生产的单词是 produce。",
+   "options": [
+    "cotton",
+    "steel",
+    "widely",
+    "produce"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j204_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「广泛地」？",
+   "explain": "widely 的意思是广泛地。",
+   "options": [
+    "widely",
+    "cotton",
+    "steel",
+    "produce"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j206_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Where is tea grown? 这句在问什么？",
+   "explain": "Where is ... grown 问产地。",
+   "options": [
+    "谁喜欢喝茶",
+    "茶叶种在哪里",
+    "茶多少钱",
+    "茶是什么颜色"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j206_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这种材料被广泛使用，哪一句合适？",
+   "explain": "is widely used。",
+   "options": [
+    "This material is widely use.",
+    "This material widely is used.",
+    "This material is widely used.",
+    "This material is wide used."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j207_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "These forks are made of steel. They are used widely in restaurants. 叉子是什么做的？",
+   "explain": "made of steel。",
+   "options": [
+    "棉",
+    "木头",
+    "钢",
+    "银子以外的金"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j207_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "These forks are made of steel. 哪一句和介绍一致？",
+   "explain": "forks are made of steel。",
+   "options": [
+    "The forks are made of cotton.",
+    "The shirt is made of steel.",
+    "Tea is grown in the shirt factory.",
+    "The forks are steel products."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j212_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「社会」的单词。",
+   "explain": "表示社会的单词是 society。",
+   "options": [
+    "license",
+    "safety",
+    "choice",
+    "society"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j212_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「选择」？",
+   "explain": "choice 的意思是选择。",
+   "options": [
+    "choice",
+    "license",
+    "safety",
+    "society"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j213_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "be allowed to 的意思是哪一个？",
+   "explain": "allowed 是被动，to 后面接动作。",
+   "options": [
+    "被允许",
+    "不得不拒绝",
+    "过去习惯",
+    "正在允许别人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j213_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "十六岁的学生被允许开车吗？哪一句是正确问句？",
+   "explain": "Are ... allowed to drive。",
+   "options": [
+    "Do sixteen-year-olds allowed to drive?",
+    "Are sixteen-year-olds allowed to drive?",
+    "Are sixteen-year-olds allowed drive?",
+    "Are sixteen-year-olds allow to drive?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j214_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说这是他们自己的选择，哪一句合适？",
+   "explain": "their own choice。",
+   "options": [
+    "It is their own choices one.",
+    "It is their own choice.",
+    "It are their own choice.",
+    "It is they own choice."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j214_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "I agree with the rule. 这句表示什么？",
+   "explain": "agree with 表示同意。",
+   "options": [
+    "这条规则不存在",
+    "我还没读规则",
+    "同意这条规则",
+    "我要求取消所有规则以外的同意"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j215_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Anna thinks sixteen-year-olds should be allowed to choose their clothes. Her father disagrees. 谁不同意？",
+   "explain": "Her father disagrees。",
+   "options": [
+    "Anna",
+    "老师已经同意开车",
+    "她的父亲",
+    "两个人都同意"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j215_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Her father disagrees. 哪一句和短文一致？",
+   "explain": "父亲不同意 Anna。",
+   "options": [
+    "Both of them disagree with choice.",
+    "Students may use phones in class.",
+    "Anna's father agrees with her.",
+    "Anna and her father do not have the same opinion."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j216_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「贵重的」的单词。",
+   "explain": "表示贵重的的单词是 valuable。",
+   "options": [
+    "whose",
+    "attend",
+    "picnic",
+    "valuable"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j216_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「野餐」？",
+   "explain": "picnic 的意思是野餐。",
+   "options": [
+    "picnic",
+    "whose",
+    "attend",
+    "valuable"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j217_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "must 在这里表示什么？",
+   "explain": "must be 表示一定是。",
+   "options": [
+    "很有把握的推测",
+    "过去的义务已经完成",
+    "礼貌的请求",
+    "正在进行的被动"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j217_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "这本贵重的书是谁的？名字是 Tom。哪一句合适？",
+   "explain": "must belong to。",
+   "options": [
+    "It must belongs to Tom.",
+    "It must belong to Tom.",
+    "It must belong Tom.",
+    "It can't belong to Tom because the name is Tom."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j218_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "CD 上是流行乐，Mary 喜欢流行乐。哪一句合适？",
+   "explain": "must belong to Mary。",
+   "options": [
+    "It must belong Mary.",
+    "It must belong to Mary.",
+    "It must belongs to Mary.",
+    "It can't belong to Mary because she likes pop."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j218_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说他在参加野餐，所以不在这里，哪一句合适？",
+   "explain": "must be attending。",
+   "options": [
+    "He must attending the picnic.",
+    "He must be attend the picnic.",
+    "He must be attending the picnic.",
+    "He can be attending the picnic as a certain fact."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j219_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Somebody is attending a picnic. The volleyball must belong to that person. 排球和谁有关？",
+   "explain": "belong to that person。",
+   "options": [
+    "Anna 的笔记本",
+    "Mary 的卡车",
+    "正在参加野餐的那个人",
+    "图书馆"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j219_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The notebook has Anna's name on it. 哪一句和短文一致？",
+   "explain": "名字在笔记本上。",
+   "options": [
+    "Mary owns the toy truck.",
+    "The volleyball is Anna's notebook.",
+    "The notebook has no name.",
+    "Anna owns the notebook."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j228_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「苍白的」的单词。",
+   "explain": "表示苍白的的单词是 pale。",
+   "options": [
+    "friendship",
+    "king",
+    "queen",
+    "pale"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j228_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「王后」？",
+   "explain": "queen 的意思是王后。",
+   "options": [
+    "queen",
+    "friendship",
+    "king",
+    "pale"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j229_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "make somebody do 里的 do 用什么形式？",
+   "explain": "make 后面的动词不带 to。",
+   "options": [
+    "动词原形",
+    "to 加动词",
+    "动词 ing",
+    "过去式"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j229_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "国王的决定让王后很苍白。哪一句正确？",
+   "explain": "made the queen pale。",
+   "options": [
+    "The king's decision made the queen to pale.",
+    "The king's decision made the queen pale.",
+    "The king's decision made the queen palely.",
+    "The king's decision made the queen pales."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j230_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "友谊让她快乐，哪一句合适？",
+   "explain": "makes her happy。",
+   "options": [
+    "Friendship makes her happily.",
+    "Friendship makes her happy.",
+    "Friendship make her happy.",
+    "Friendship makes she happy."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j230_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The king looks pale. 这句说明什么？",
+   "explain": "looks pale。",
+   "options": [
+    "国王很高兴",
+    "王后在笑",
+    "国王看上去脸色苍白",
+    "电影还没开始"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j231_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The story of the king and the queen made Ben sleepy. He did not cry. Ben 哭了吗？",
+   "explain": "did not cry。",
+   "options": [
+    "哭了",
+    "和 Amy 一起哭",
+    "没有",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j231_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The story made Ben sleepy. 哪一句和观后感一致？",
+   "explain": "made Ben sleepy。",
+   "options": [
+    "Ben cried a lot.",
+    "Amy did not think about friendship.",
+    "The queen made Amy sleepy in the first text.",
+    "Ben felt sleepy because of the story."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j232_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「街区」的单词。",
+   "explain": "表示街区的单词是 block。",
+   "options": [
+    "unexpected",
+    "backpack",
+    "burn",
+    "block"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j232_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「燃烧」？",
+   "explain": "burn 的意思是燃烧。",
+   "options": [
+    "burn",
+    "unexpected",
+    "backpack",
+    "block"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j233_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "过去完成时的结构是哪一个？",
+   "explain": "had done。",
+   "options": [
+    "had 加过去分词",
+    "have 加动词 ing",
+    "was 加动词 ing",
+    "would 加动词原形"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j233_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她发现背包烧了，那是在她回来之前发生的。哪一句正确？",
+   "explain": "burned 发生在 found 之前，用 had burned。",
+   "options": [
+    "She found that her backpack has burned.",
+    "She found that her backpack had burned.",
+    "She found that her backpack had burn.",
+    "She had found that her backpack burned first after she found it."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j234_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "By the time I reached the airport, the plane had taken off. 飞机何时起飞？",
+   "explain": "had taken off 早于 reached。",
+   "options": [
+    "在我到达之后",
+    "在我到达机场之前",
+    "和我同时",
+    "第二天"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j234_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "背包忘在家里了，哪一句合适？",
+   "explain": "had left 表示发现之前已经忘了。",
+   "options": [
+    "I have left my backpack at home before I noticed yesterday.",
+    "I had leave my backpack at home.",
+    "I had left my backpack at home.",
+    "I left my backpack at home after I found it missing first."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j235_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "When Nina got home, she found the kitchen had burned. The fire was unexpected. 她到家时发现什么？",
+   "explain": "kitchen had burned。",
+   "options": [
+    "厨房正在新建",
+    "火还没开始",
+    "厨房已经烧过了",
+    "背包在燃烧但厨房没事"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j235_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The fire was unexpected. 哪一句和故事一致？",
+   "explain": "unexpected 说明她没有料到。",
+   "options": [
+    "Carl caught the bus.",
+    "The kitchen burned after Nina arrived.",
+    "Carl had set the alarm.",
+    "Nina did not expect the fire."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j236_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「煤」的单词。",
+   "explain": "表示煤的单词是 coal。",
+   "options": [
+    "litter",
+    "bottom",
+    "plastic",
+    "coal"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j236_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「塑料」？",
+   "explain": "plastic 的意思是塑料。",
+   "options": [
+    "plastic",
+    "litter",
+    "bottom",
+    "coal"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j237_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "现在我正在步行上学。哪一句正确？",
+   "explain": "now 而且动作正在进行，用 am walking。",
+   "options": [
+    "I am walking to school now.",
+    "I walk to school now as a finished past action.",
+    "I have walked to school now in this ongoing sentence.",
+    "I am walk to school now."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j237_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "到上月底，他们已经种了一千棵树。哪一句正确？",
+   "explain": "by the end of last month 是过去的截止时间，用 had planted。",
+   "options": [
+    "They have planted one thousand trees by the end of last month.",
+    "They had planted one thousand trees by the end of last month.",
+    "They planted one thousand trees by the end of next month.",
+    "They had plant one thousand trees by the end of last month."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j238_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我们可以少用煤。哪一句合适？",
+   "explain": "can use less coal。",
+   "options": [
+    "We can use less coals as a countable pile.",
+    "We can use less coal.",
+    "We can to use less coal.",
+    "We can using less coal."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j238_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "The river was clean before. Now there is litter at the bottom. 这句在对比什么？",
+   "explain": "was clean 和 now there is litter。",
+   "options": [
+    "河一直很干净",
+    "垃圾已经全部清除",
+    "以前干净，现在底部有垃圾",
+    "煤变成了塑料"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j239_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We should pick up litter and use less plastic. 倡议要我们做什么？",
+   "explain": "pick up litter and use less plastic。",
+   "options": [
+    "多烧煤",
+    "把垃圾留在底部",
+    "捡垃圾并少用塑料",
+    "关闭所有河流"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j239_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "We should pick up litter. 哪一句和倡议一致？",
+   "explain": "pick up litter。",
+   "options": [
+    "People should throw more plastic.",
+    "The river was dirty last year.",
+    "Coal is the only topic.",
+    "People are asked to collect litter."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j240_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "By the time the students arrived, the volunteers ___ already cleaned the park. 横线处选哪一个？",
+   "explain": "arrived 之前已经打扫，用 had cleaned。",
+   "options": [
+    "have",
+    "has",
+    "did",
+    "had"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j240_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "Music that we can dance ___ makes the trip fun. 横线处选哪一个？",
+   "explain": "dance to music，关系词后保留 to。",
+   "options": [
+    "to",
+    "who",
+    "for to",
+    "which it"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j241_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "选择表示「毕业」的单词。",
+   "explain": "表示毕业的单词是 graduate。",
+   "options": [
+    "graduate",
+    "survey",
+    "standard",
+    "ceremony"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j241_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "哪个单词的意思是「典礼」？",
+   "explain": "ceremony 的意思是典礼。",
+   "options": [
+    "survey",
+    "ceremony",
+    "standard",
+    "graduate"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j242_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "她喜欢唱歌。哪一句正确？",
+   "explain": "enjoy 后面用 singing。",
+   "options": [
+    "She enjoys to sing.",
+    "She enjoys singing.",
+    "She enjoys sing.",
+    "She enjoys to singing."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j242_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他决定离开。哪一句正确？",
+   "explain": "decide 后面用 to leave。",
+   "options": [
+    "He decided leaving.",
+    "He decided leave.",
+    "He decided to leave.",
+    "He decided to leaving."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j243_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "他昨天没来，对吗？哪一句正确？",
+   "explain": "前面是否定，后面用肯定的 did he。",
+   "options": [
+    "He didn't come yesterday, didn't he?",
+    "He didn't come yesterday, was he?",
+    "He didn't come yesterday, did he?",
+    "He didn't come yesterday, does he?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j243_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "反意疑问句的后半部分通常怎样？",
+   "explain": "前肯后否，前否后肯。",
+   "options": [
+    "必须再重复整个句子",
+    "只能用名词作主语",
+    "不能使用 be 动词",
+    "和前半部分肯定否定相反"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j244_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "我们明年毕业。哪一句合适？",
+   "explain": "will graduate next year。",
+   "options": [
+    "We will graduate last year.",
+    "We graduated next year.",
+    "We are graduate next year.",
+    "We will graduate next year."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j244_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "想说调查已经做完，哪一句合适？",
+   "explain": "have already done。",
+   "options": [
+    "We have already done the survey.",
+    "We have yet done the survey.",
+    "We did already the survey tomorrow.",
+    "We have already do the survey."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j245_q3",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "要点：写信建议朋友少扔塑料，并说明河底已经有垃圾。哪一句符合？",
+   "explain": "建议少扔，并提到河底已有垃圾。",
+   "options": [
+    "You should throw less plastic because there is already litter at the bottom of the river.",
+    "You should throw more plastic into the river.",
+    "There was no litter, so do nothing.",
+    "I threw plastic yesterday and I will not give advice."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j245_q4",
+   "unit": "u99",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "要点：毕业典礼在周五，你记得第一次见到老师。用正确的反意疑问句向同学确认日期。哪一句符合？",
+   "explain": "记得做过用 meeting，确认星期五用 isn't it。",
+   "options": [
+    "I remember to meet the teacher next Friday, is it?",
+    "I remember meeting the teacher, and the ceremony is on Friday, isn't it?",
+    "The ceremony was on Friday, wasn't he?",
+    "I remember meeting the teacher, but I do not know any date."
+   ],
+   "answer": 2
+  }
+ ]
+}

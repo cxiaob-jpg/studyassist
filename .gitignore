@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+*.swo
+*~
+*.orig
+*.log
+__pycache__/
+*.pyc
+.venv/
+install/
+studyassist_ai_config.json
+studyassist_ai_bank.json

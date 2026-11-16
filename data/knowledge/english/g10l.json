@@ -1,0 +1,4072 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/studyassist/build_knowledge_all.py",
+  "source": {
+    "repo": "cn-math-taxonomy",
+    "commit": "unknown"
+  },
+  "license": "CC BY-NC 4.0",
+  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+  "subject": "english",
+  "grade": 10,
+  "semester": "lower",
+  "units": [
+    {
+      "id": "u1",
+      "name": "第1单元 Cultural Heritage"
+    },
+    {
+      "id": "u2",
+      "name": "第2单元 Wildlife Protection"
+    },
+    {
+      "id": "u3",
+      "name": "第3单元 The Internet"
+    },
+    {
+      "id": "u4",
+      "name": "第4单元 History and Traditions"
+    },
+    {
+      "id": "u5",
+      "name": "第5单元 Music"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cne_h045",
+      "name": "文化遗产",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "认读 heritage、temple、preserve 和 relic。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「遗产」？",
+        "answer": "heritage"
+      }
+    },
+    {
+      "id": "cne_h046",
+      "name": "保护文物",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "认读 restore、damage、ancient 和 site。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「修复」？",
+        "answer": "restore"
+      }
+    },
+    {
+      "id": "cne_h047",
+      "name": "非限制性定语从句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "能用逗号加上 who 或 which 补充说明，而不用 that。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "My brother, ___ lives in Luoyang, is a guide. 横线处填哪一个？",
+        "answer": "who"
+      }
+    },
+    {
+      "id": "cne_h048",
+      "name": "which 指代整句",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "能用 which 指代前面整个句子，并和限制性定语从句区分。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "He missed the train, ___ made him late. 横线处填哪一个？",
+        "answer": "which"
+      }
+    },
+    {
+      "id": "cne_h049",
+      "name": "讨论保护遗产",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "能就保护文化遗产交换看法并说明理由。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说古庙应该被保护，哪一句合适？",
+        "answer": "I think the ancient temple should be preserved"
+      }
+    },
+    {
+      "id": "cne_h050",
+      "name": "读遗产说明",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "读一段遗产说明，概括作者是在介绍规则还是在反对保护。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 城墙属于什么？",
+        "answer": "当地的遗产"
+      }
+    },
+    {
+      "id": "cne_h051",
+      "name": "写保护建议",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u1",
+      "unit_name": "第1单元 Cultural Heritage",
+      "description": "能按要点选出建议短文中的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：城墙是遗产、雨水造成损坏、游客不要触摸。哪一句三个要点都有？",
+        "answer": "The wall is heritage, rain damaged it, and visitors must not touch the relics"
+      }
+    },
+    {
+      "id": "cne_h052",
+      "name": "野生动物",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "认读 wildlife、species、habitat 和 extinct。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「野生动物」？",
+        "answer": "wildlife"
+      }
+    },
+    {
+      "id": "cne_h053",
+      "name": "保护栖息地",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "认读 reserve、hunter、endangered 和 plain。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「保护区」？",
+        "answer": "reserve"
+      }
+    },
+    {
+      "id": "cne_h054",
+      "name": "现在进行时的被动语态",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "能用 am、is、are 加 being 加过去分词表示进行时被动。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The reserve ___ now. 表示正在被清理，横线处填哪一个？",
+        "answer": "is being cleaned"
+      }
+    },
+    {
+      "id": "cne_h055",
+      "name": "过去分词和动词 -ing",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "能根据主动还是被动选择动词 -ing 或过去分词。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The story is ___ (interest). 表示故事令人感兴趣，填哪一个？",
+        "answer": "interesting"
+      }
+    },
+    {
+      "id": "cne_h056",
+      "name": "讨论动物保护",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "能说明保护野生动物的理由，并回应不同看法。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说藏羚羊正在被保护，哪一句合适？",
+        "answer": "The antelopes are being protected in the reserve"
+      }
+    },
+    {
+      "id": "cne_h057",
+      "name": "读动物保护短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "读一段动物保护短文，找出过去的状况和现在的措施。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 藏羚羊曾经处于什么状态？",
+        "answer": "濒危"
+      }
+    },
+    {
+      "id": "cne_h058",
+      "name": "写保护海报句",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u2",
+      "unit_name": "第2单元 Wildlife Protection",
+      "description": "能按要点选出保护海报上的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：物种曾经濒危、现在正在被保护、不要喂食。哪一句三个要点都有？",
+        "answer": "This species was endangered, it is being protected now, and please do not feed it"
+      }
+    },
+    {
+      "id": "cne_h059",
+      "name": "互联网",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "认读 Internet、blog、comment 和 identity。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「互联网」？",
+        "answer": "Internet"
+      }
+    },
+    {
+      "id": "cne_h060",
+      "name": "在线行为",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "认读 online、privacy、password 和 post。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「在线的」？",
+        "answer": "online"
+      }
+    },
+    {
+      "id": "cne_h061",
+      "name": "现在完成时的被动语态",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "能用 have 或 has 加 been 加过去分词。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "The password ___ . 表示已经被更改，横线处填哪一个？",
+        "answer": "has been changed"
+      }
+    },
+    {
+      "id": "cne_h062",
+      "name": "since 与现在完成时",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "能在 since 引出的时间后使用现在完成时。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "I ___ this blog since 2020. 横线处填哪一个？",
+        "answer": "have kept"
+      }
+    },
+    {
+      "id": "cne_h063",
+      "name": "谈论网络安全",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "能就上网习惯提出建议，并说明隐私的理由。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想提醒同学不要公开密码，哪一句合适？",
+        "answer": "Never post your password online"
+      }
+    },
+    {
+      "id": "cne_h064",
+      "name": "读网络短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "读一段网络使用短文，判断作者是在说明事实还是在赞美粗鲁评论。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 博客从什么时候开始被阅读？",
+        "answer": "三月以来"
+      }
+    },
+    {
+      "id": "cne_h065",
+      "name": "写网络提醒",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u3",
+      "unit_name": "第3单元 The Internet",
+      "description": "能按要点选出网络提醒里的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：不发密码、保护隐私、粗鲁评论已删除。哪一句三个要点都有？",
+        "answer": "Do not post your password, protect your privacy, and the rude comment has been deleted"
+      }
+    },
+    {
+      "id": "cne_h066",
+      "name": "历史传统",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "认读 tradition、castle、battle 和 kingdom。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「传统」？",
+        "answer": "tradition"
+      }
+    },
+    {
+      "id": "cne_h067",
+      "name": "节日习俗",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "认读 ancestor、honour、gathering 和 poem。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「祖先」？",
+        "answer": "ancestor"
+      }
+    },
+    {
+      "id": "cne_h068",
+      "name": "过去分词作定语和表语",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "能用过去分词作定语或表语，表示被动或完成。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "a ___ castle 表示被毁坏的城堡，横线处填哪一个？",
+        "answer": "ruined"
+      }
+    },
+    {
+      "id": "cne_h069",
+      "name": "过去分词作宾补",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "能用过去分词作宾语补足语，表示宾语被怎样。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "I heard my name ___. 表示名字被叫到，横线处填哪一个？",
+        "answer": "called"
+      }
+    },
+    {
+      "id": "cne_h070",
+      "name": "谈论传统",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "能描述一项传统，并说明自己是否赞成保留它。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想介绍清明纪念祖先的习俗，哪一句合适？",
+        "answer": "On Qingming people honour their ancestors"
+      }
+    },
+    {
+      "id": "cne_h071",
+      "name": "读传统短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "读一段传统介绍，找出活动目的和大厅的装饰。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 聚会是为了什么？",
+        "answer": "纪念祖先"
+      }
+    },
+    {
+      "id": "cne_h072",
+      "name": "写传统介绍",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u4",
+      "unit_name": "第4单元 History and Traditions",
+      "description": "能按要点选出介绍传统的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：聚会纪念祖先、朗读当地老师的诗、大厅用纸花装饰。哪一句三个要点都有？",
+        "answer": "Families gather to honour ancestors, read a poem written by a local teacher, and the hall is decorated with paper flowers"
+      }
+    },
+    {
+      "id": "cne_h073",
+      "name": "音乐",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "认读 classical、band、perform 和 audience。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「古典的」？",
+        "answer": "classical"
+      }
+    },
+    {
+      "id": "cne_h074",
+      "name": "演奏",
+      "domain": "词汇",
+      "kp_type": "conceptual",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "认读 instrument、stage、rhythm 和 composer。",
+      "mastery_criteria": [
+        "能选出单词或短语的中文意思",
+        "能根据中文选出英文单词或短语"
+      ],
+      "example": {
+        "question": "哪个单词的意思是「乐器」？",
+        "answer": "instrument"
+      }
+    },
+    {
+      "id": "cne_h075",
+      "name": "动词 -ing 作定语和表语",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能用动词 -ing 作定语或表语，表示主动或事物的性质。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "a ___ band 表示正在表演的乐队，横线处填哪一个？",
+        "answer": "performing"
+      }
+    },
+    {
+      "id": "cne_h076",
+      "name": "动词 -ing 作状语和宾补",
+      "domain": "语法",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能用动词 -ing 作状语或宾语补足语，表示主动。",
+      "mastery_criteria": [
+        "能选出语法正确的词或句子",
+        "能说明这个结构在句中做什么"
+      ],
+      "example": {
+        "question": "___ the violin, she walked onto the stage. 横线处填哪一个？",
+        "answer": "Playing"
+      }
+    },
+    {
+      "id": "cne_h077",
+      "name": "意群中的连读",
+      "domain": "语音",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能识别辅音结尾和元音开头在短语里可以连读。",
+      "mastery_criteria": [
+        "能根据重音、语调或音变选出正确的一项",
+        "能说明这个朗读规则用在什么地方"
+      ],
+      "example": {
+        "question": "an old instrument 里，哪两个词更容易连读？",
+        "answer": "an 和 old"
+      }
+    },
+    {
+      "id": "cne_h078",
+      "name": "不完全爆破",
+      "domain": "语音",
+      "kp_type": "procedural",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能识别相邻爆破音中前一个音只做口型、不完全爆破。",
+      "mastery_criteria": [
+        "能根据重音、语调或音变选出正确的一项",
+        "能说明这个朗读规则用在什么地方"
+      ],
+      "example": {
+        "question": "a big band 里，哪个音常常不完全爆破？",
+        "answer": "big 末尾的 /g/"
+      }
+    },
+    {
+      "id": "cne_h079",
+      "name": "谈论演出",
+      "domain": "日常表达",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能描述一场演出，并提出一起去听的建议。",
+      "mastery_criteria": [
+        "能选出符合情境的英文句子",
+        "能读懂这个功能句在问什么或在说什么"
+      ],
+      "example": {
+        "question": "想说乐队正在舞台上表演，哪一句合适？",
+        "answer": "The band is performing on the stage"
+      }
+    },
+    {
+      "id": "cne_h080",
+      "name": "读演出短文",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "读一段演出短文，概括听众在做什么以及作者是否只是在说明。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 谁在舞台上表演？",
+        "answer": "一支学生乐队"
+      }
+    },
+    {
+      "id": "cne_h081",
+      "name": "写演出通知",
+      "domain": "读写",
+      "kp_type": "application",
+      "unit": "u5",
+      "unit_name": "第5单元 Music",
+      "description": "能按要点选出演出通知里的句子。",
+      "mastery_criteria": [
+        "能根据短文选出与文字一致的信息",
+        "能选出和写作要点一致的句子"
+      ],
+      "example": {
+        "question": "要点：学生乐队、周五舞台演出、听众请准时。哪一句三个要点都有？",
+        "answer": "The student band is performing on the stage on Friday, and the audience should arrive on time"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cne_h045_q1",
+      "topic": "cne_h045",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "文化遗产",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「遗产」？",
+      "explain": "heritage 的意思是遗产。",
+      "answer_mode": "choice",
+      "options": [
+        "preserve",
+        "relic",
+        "heritage",
+        "dynasty"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h045_q2",
+      "topic": "cne_h045",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "文化遗产",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「preserve」的中文意思是哪一个？",
+      "explain": "preserve 的意思是保护。",
+      "answer_mode": "choice",
+      "options": [
+        "遗产",
+        "遗物",
+        "朝代",
+        "保护"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h045_q3",
+      "topic": "cne_h045",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "文化遗产",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「遗物」的单词。",
+      "explain": "表示遗物的单词是 relic。",
+      "answer_mode": "choice",
+      "options": [
+        "relic",
+        "heritage",
+        "preserve",
+        "dynasty"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h045_q4",
+      "topic": "cne_h045",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "文化遗产",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「朝代」？",
+      "explain": "dynasty 的意思是朝代。",
+      "answer_mode": "choice",
+      "options": [
+        "heritage",
+        "dynasty",
+        "preserve",
+        "relic"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h046_q1",
+      "topic": "cne_h046",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "保护文物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「修复」？",
+      "explain": "restore 的意思是修复。",
+      "answer_mode": "choice",
+      "options": [
+        "damage",
+        "ancient",
+        "site",
+        "restore"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h046_q2",
+      "topic": "cne_h046",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "保护文物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「damage」的中文意思是哪一个？",
+      "explain": "damage 的意思是损坏。",
+      "answer_mode": "choice",
+      "options": [
+        "损坏",
+        "修复",
+        "古代的",
+        "遗址"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h046_q3",
+      "topic": "cne_h046",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "保护文物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「古代的」的单词。",
+      "explain": "表示古代的的单词是 ancient。",
+      "answer_mode": "choice",
+      "options": [
+        "restore",
+        "ancient",
+        "damage",
+        "site"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h046_q4",
+      "topic": "cne_h046",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "保护文物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「遗址」？",
+      "explain": "site 的意思是遗址。",
+      "answer_mode": "choice",
+      "options": [
+        "restore",
+        "damage",
+        "site",
+        "ancient"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h047_q1",
+      "topic": "cne_h047",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "非限制性定语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "My brother, ___ lives in Luoyang, is a guide. 横线处填哪一个？",
+      "explain": "非限制性定语从句里，指人作主语用 who，不用 that。",
+      "answer_mode": "choice",
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whom"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h047_q2",
+      "topic": "cne_h047",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "非限制性定语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The temple, ___ was built in the Tang Dynasty, is famous. 横线处填哪一个？",
+      "explain": "非限制性定语从句指物用 which，不用 that。",
+      "answer_mode": "choice",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h047_q3",
+      "topic": "cne_h047",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "非限制性定语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "逗号后面的非限制性从句用 which。",
+      "answer_mode": "choice",
+      "options": [
+        "The site, that we visited, is ancient",
+        "The site which, we visited is ancient",
+        "The site, which we visited, is ancient",
+        "The site, who we visited, is ancient"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h047_q4",
+      "topic": "cne_h047",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "非限制性定语从句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "非限制性定语从句去掉以后，主句还成立吗？",
+      "explain": "非限制性从句是附加说明，去掉后主句意思仍然完整。",
+      "answer_mode": "choice",
+      "options": [
+        "主句不能成立",
+        "从句变成主语",
+        "逗号必须删掉才正确",
+        "主句仍然成立，从句只是补充"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h048_q1",
+      "topic": "cne_h048",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "which 指代整句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "He missed the train, ___ made him late. 横线处填哪一个？",
+      "explain": "which 指代 missed the train 整件事。",
+      "answer_mode": "choice",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "what"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h048_q2",
+      "topic": "cne_h048",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "which 指代整句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句里的 which 指代前面整句？",
+      "explain": "逗号后的 which 指忘记车票这件事。",
+      "answer_mode": "choice",
+      "options": [
+        "The ticket which she forgot was blue",
+        "The boy who forgot it is Tom",
+        "She forgot the ticket, which was a pity",
+        "This is the train which was late"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h048_q3",
+      "topic": "cne_h048",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "which 指代整句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "They restored the site, ___ took three years. 横线处填哪一个？",
+      "explain": "which 指代修复遗址这件事。",
+      "answer_mode": "choice",
+      "options": [
+        "who",
+        "that",
+        "where",
+        "which"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h048_q4",
+      "topic": "cne_h048",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "which 指代整句",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句不能把 that 换成指代整句的 which？",
+      "explain": "The relic that we saw 里的 that 指 relic，不是整句。",
+      "answer_mode": "choice",
+      "options": [
+        "The relic that we saw is small",
+        "Rain came, which stopped the work",
+        "He was late, which annoyed the guide",
+        "The bridge fell, which shocked everyone"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h049_q1",
+      "topic": "cne_h049",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "讨论保护遗产",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说古庙应该被保护，哪一句合适？",
+      "explain": "should be preserved 用来表达应该保护。",
+      "answer_mode": "choice",
+      "options": [
+        "I thinks the ancient temple should be preserved",
+        "I not think the ancient temple should be preserved",
+        "I think the ancient temple should be preserved",
+        "I think the ancient temple should be preserve"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h049_q2",
+      "topic": "cne_h049",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "讨论保护遗产",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说明损坏来自游客乱刻，哪一句合适？",
+      "explain": "comes from 用来说明原因。",
+      "answer_mode": "choice",
+      "options": [
+        "Damage is a coach",
+        "The damage come from visitors cutting the walls",
+        "The damage comes from visitors cut the walls",
+        "The damage comes from visitors cutting the walls"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h049_q3",
+      "topic": "cne_h049",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "讨论保护遗产",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "对方认为修复太贵，你部分同意，应回答什么？",
+      "explain": "部分同意可以说 I see your point, but。",
+      "answer_mode": "choice",
+      "options": [
+        "I see your point, but the site is worth it",
+        "I see your point, but the site are worth it",
+        "I see you point, but the site is worth it",
+        "I see your point, but the site is worthy it"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h049_q4",
+      "topic": "cne_h049",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "讨论保护遗产",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想建议设立参观规则，哪一句合适？",
+      "explain": "提建议用 We could make rules。",
+      "answer_mode": "choice",
+      "options": [
+        "We could maked rules for visitors",
+        "We could make rules for visitors",
+        "We could to make rules for visitors",
+        "We could makes rules for visitors"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h050_q1",
+      "topic": "cne_h050",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读遗产说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 城墙属于什么？",
+      "explain": "短文写 local heritage。",
+      "answer_mode": "choice",
+      "options": [
+        "一座体育场",
+        "一封邮件",
+        "一场马拉松",
+        "当地的遗产"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h050_q2",
+      "topic": "cne_h050",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读遗产说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 大门为什么在修复？",
+      "explain": "短文写 damaged by rain。",
+      "answer_mode": "choice",
+      "options": [
+        "被雨水损坏了",
+        "游客买下了它",
+        "它是新建的",
+        "没有大门"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h050_q3",
+      "topic": "cne_h050",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读遗产说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 游客不能做什么？",
+      "explain": "短文写 must not touch the relics。",
+      "answer_mode": "choice",
+      "options": [
+        "拍照",
+        "触摸遗物",
+        "阅读说明",
+        "站在门外"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h050_q4",
+      "topic": "cne_h050",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "读遗产说明",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 这段文字主要在做什么？",
+      "explain": "短文在介绍修复和规则，没有反对保护。",
+      "answer_mode": "choice",
+      "options": [
+        "反对保护城墙",
+        "招聘教练",
+        "说明遗产现状和参观规则",
+        "报道一场洪水"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h051_q1",
+      "topic": "cne_h051",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写保护建议",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：城墙是遗产、雨水造成损坏、游客不要触摸。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "The wall is heritage, rain damaged it, and visitors must not touch the relics",
+        "The wall is heritage",
+        "Rain is wet",
+        "Visitors like photos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h051_q2",
+      "topic": "cne_h051",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写保护建议",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "想用非限制性定语从句补充城墙的年代，哪一句正确？",
+      "explain": "非限制性从句用 which，不用 that。",
+      "answer_mode": "choice",
+      "options": [
+        "The wall, that dates from the Ming Dynasty, needs care",
+        "The wall, which dates from the Ming Dynasty, needs care",
+        "The wall which, dates from the Ming Dynasty needs care",
+        "The wall, who dates from the Ming Dynasty, needs care"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h051_q3",
+      "topic": "cne_h051",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写保护建议",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为建议的第一句？",
+      "explain": "建议开头可以用 I suggest。",
+      "answer_mode": "choice",
+      "options": [
+        "I suggest we protecting the old city wall",
+        "I suggesting we protect the old city wall",
+        "I suggest we protect the old city wall",
+        "I sugest we protect the old city wall"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h051_q4",
+      "topic": "cne_h051",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u1",
+      "unit_name": "写保护建议",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句正确使用了 which 指代整句？",
+      "explain": "逗号后的 which 指刻字这件事。",
+      "answer_mode": "choice",
+      "options": [
+        "The stone which people carve is soft",
+        "People who carve names are few",
+        "This is the wall which is old",
+        "Some people carve names, which damages the stone"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h052_q1",
+      "topic": "cne_h052",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "野生动物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「野生动物」？",
+      "explain": "wildlife 的意思是野生动物。",
+      "answer_mode": "choice",
+      "options": [
+        "species",
+        "wildlife",
+        "habitat",
+        "extinct"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h052_q2",
+      "topic": "cne_h052",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "野生动物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「species」的中文意思是哪一个？",
+      "explain": "species 的意思是物种。",
+      "answer_mode": "choice",
+      "options": [
+        "野生动物",
+        "栖息地",
+        "物种",
+        "灭绝的"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h052_q3",
+      "topic": "cne_h052",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "野生动物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「栖息地」的单词。",
+      "explain": "表示栖息地的单词是 habitat。",
+      "answer_mode": "choice",
+      "options": [
+        "wildlife",
+        "species",
+        "extinct",
+        "habitat"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h052_q4",
+      "topic": "cne_h052",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "野生动物",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「灭绝的」？",
+      "explain": "extinct 的意思是灭绝的。",
+      "answer_mode": "choice",
+      "options": [
+        "extinct",
+        "wildlife",
+        "species",
+        "habitat"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h053_q1",
+      "topic": "cne_h053",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "保护栖息地",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「保护区」？",
+      "explain": "reserve 的意思是保护区。",
+      "answer_mode": "choice",
+      "options": [
+        "hunter",
+        "endangered",
+        "reserve",
+        "plain"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h053_q2",
+      "topic": "cne_h053",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "保护栖息地",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「hunter」的中文意思是哪一个？",
+      "explain": "hunter 的意思是捕猎者。",
+      "answer_mode": "choice",
+      "options": [
+        "保护区",
+        "濒危的",
+        "平原",
+        "捕猎者"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h053_q3",
+      "topic": "cne_h053",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "保护栖息地",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「濒危的」的单词。",
+      "explain": "表示濒危的的单词是 endangered。",
+      "answer_mode": "choice",
+      "options": [
+        "endangered",
+        "reserve",
+        "hunter",
+        "plain"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h053_q4",
+      "topic": "cne_h053",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "保护栖息地",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「平原」？",
+      "explain": "plain 的意思是平原。",
+      "answer_mode": "choice",
+      "options": [
+        "reserve",
+        "plain",
+        "hunter",
+        "endangered"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h054_q1",
+      "topic": "cne_h054",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "现在进行时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The reserve ___ now. 表示正在被清理，横线处填哪一个？",
+      "explain": "现在进行时被动是 is being 加过去分词。",
+      "answer_mode": "choice",
+      "options": [
+        "is cleaning",
+        "is cleaned",
+        "was being cleaned",
+        "is being cleaned"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h054_q2",
+      "topic": "cne_h054",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "现在进行时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是现在进行时的被动？",
+      "explain": "are being protected 是正在被保护。",
+      "answer_mode": "choice",
+      "options": [
+        "The antelopes are being protected",
+        "The antelopes are protecting",
+        "The antelopes were protected",
+        "The antelopes have protected"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h054_q3",
+      "topic": "cne_h054",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "现在进行时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "A new plain ___ for the birds this week. 横线处填哪一个？",
+      "explain": "主语是物，正在被准备，用 is being prepared。",
+      "answer_mode": "choice",
+      "options": [
+        "is preparing",
+        "is being prepared",
+        "prepares",
+        "is been prepared"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h054_q4",
+      "topic": "cne_h054",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "现在进行时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句的语态用错了？",
+      "explain": "being 后面要用过去分词 destroyed，不能用原形 destroy。",
+      "answer_mode": "choice",
+      "options": [
+        "The habitat is being destroyed",
+        "Workers are destroying the old fence",
+        "The habitat is being destroy",
+        "The fence is being repaired"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h055_q1",
+      "topic": "cne_h055",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "过去分词和动词 -ing",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The story is ___ (interest). 表示故事令人感兴趣，填哪一个？",
+      "explain": "物作主语、说明性质用 interesting。",
+      "answer_mode": "choice",
+      "options": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h055_q2",
+      "topic": "cne_h055",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "过去分词和动词 -ing",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The children are ___ in whales. 横线处填哪一个？",
+      "explain": "人感到有兴趣用 interested。",
+      "answer_mode": "choice",
+      "options": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h055_q3",
+      "topic": "cne_h055",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "过去分词和动词 -ing",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "人作主语用 worried。消息令人担心要用 worrying。",
+      "answer_mode": "choice",
+      "options": [
+        "We are worrying species about the endangered",
+        "The species is worried to us",
+        "We are worried about the endangered species",
+        "The news is worried"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h055_q4",
+      "topic": "cne_h055",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "过去分词和动词 -ing",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "a ___ species 表示令人担心的物种，横线处填哪一个？",
+      "explain": "修饰物种、说明它让人担心，用 worrying。",
+      "answer_mode": "choice",
+      "options": [
+        "worried",
+        "worry",
+        "worries",
+        "worrying"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h056_q1",
+      "topic": "cne_h056",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "讨论动物保护",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说藏羚羊正在被保护，哪一句合适？",
+      "explain": "正在被保护用 are being protected。",
+      "answer_mode": "choice",
+      "options": [
+        "The antelopes are protecting the reserve",
+        "The antelopes are being protected in the reserve",
+        "The antelopes is being protected in the reserve",
+        "The antellopes are being protected in the reserve"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h056_q2",
+      "topic": "cne_h056",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "讨论动物保护",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说明猎人才是危险的来源，哪一句合适？",
+      "explain": "are the main danger 用来说明原因。",
+      "answer_mode": "choice",
+      "options": [
+        "Hunters is the main danger to this species",
+        "Hunter are the main danger to this species",
+        "Hunters are the main danger to this species",
+        "Hunter is the main danger to this species"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h056_q3",
+      "topic": "cne_h056",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "讨论动物保护",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "对方说保护区没有用，你不同意，应回答什么？",
+      "explain": "不同意要加上 because 说明理由。",
+      "answer_mode": "choice",
+      "options": [
+        "I don't agree, because the numbers are rise",
+        "I don't agree, because the numbers is rising",
+        "I don't agree, because the number are rising",
+        "I don't agree, because the numbers are rising"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h056_q4",
+      "topic": "cne_h056",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "讨论动物保护",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想建议人们不要购买野生动物制品，哪一句合适？",
+      "explain": "祈使句 Please do not buy 用来建议。",
+      "answer_mode": "choice",
+      "options": [
+        "Please do not buy products made from wild animals",
+        "Please not buy products made from wild animals",
+        "Please do not buying products made from wild animals",
+        "Please do not buy products make from wild animals"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h057_q1",
+      "topic": "cne_h057",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读动物保护短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 藏羚羊曾经处于什么状态？",
+      "explain": "短文写 was once endangered。",
+      "answer_mode": "choice",
+      "options": [
+        "已经灭绝",
+        "数量过多",
+        "濒危",
+        "生活在城市"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h057_q2",
+      "topic": "cne_h057",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读动物保护短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 它们现在怎么样？",
+      "explain": "短文写 are being protected on the plain。",
+      "answer_mode": "choice",
+      "options": [
+        "正在被猎杀",
+        "已经离开保护区",
+        "在喂食游客",
+        "正在平原上被保护"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h057_q3",
+      "topic": "cne_h057",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读动物保护短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 游客不能做什么？",
+      "explain": "短文写 must not feed the wildlife。",
+      "answer_mode": "choice",
+      "options": [
+        "给野生动物喂食",
+        "对保护区感兴趣",
+        "阅读说明",
+        "站在外面"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h057_q4",
+      "topic": "cne_h057",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "读动物保护短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 哪一句和短文一致？",
+      "explain": "短文说的是游客不能喂食。",
+      "answer_mode": "choice",
+      "options": [
+        "The antelope is extinct",
+        "Visitors must not feed the wildlife",
+        "The animals are protecting the visitors",
+        "The plain has no reserve"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h058_q1",
+      "topic": "cne_h058",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写保护海报句",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：物种曾经濒危、现在正在被保护、不要喂食。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "This species was endangered",
+        "Please do not feed it",
+        "The plain is wide",
+        "This species was endangered, it is being protected now, and please do not feed it"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h058_q2",
+      "topic": "cne_h058",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写保护海报句",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "海报要用进行时被动说明正在进行的工作，哪一句符合？",
+      "explain": "is being built 才是进行时被动。",
+      "answer_mode": "choice",
+      "options": [
+        "A new fence is being built",
+        "A new fence is building",
+        "A new fence built being",
+        "A new fence is been built"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h058_q3",
+      "topic": "cne_h058",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写保护海报句",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为海报标题？",
+      "explain": "标题可以用祈使句 Protect。",
+      "answer_mode": "choice",
+      "options": [
+        "Protect the endangerred antelope",
+        "Protect the endangered antelope",
+        "Protect the endangering antelope",
+        "Protect the danger antelope"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h058_q4",
+      "topic": "cne_h058",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u2",
+      "unit_name": "写保护海报句",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句正确区分了 interested 和 interesting？",
+      "explain": "人用 interested，影片用 interesting。",
+      "answer_mode": "choice",
+      "options": [
+        "Children are interesting in the interested film",
+        "The film is interested in children",
+        "Children are interested in the interesting film",
+        "Children are interest in the film"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h059_q1",
+      "topic": "cne_h059",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "互联网",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「互联网」？",
+      "explain": "Internet 的意思是互联网。",
+      "answer_mode": "choice",
+      "options": [
+        "Internet",
+        "blog",
+        "comment",
+        "identity"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h059_q2",
+      "topic": "cne_h059",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "互联网",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「blog」的中文意思是哪一个？",
+      "explain": "blog 的意思是博客。",
+      "answer_mode": "choice",
+      "options": [
+        "互联网",
+        "博客",
+        "评论",
+        "身份"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h059_q3",
+      "topic": "cne_h059",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "互联网",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「评论」的单词。",
+      "explain": "表示评论的单词是 comment。",
+      "answer_mode": "choice",
+      "options": [
+        "Internet",
+        "blog",
+        "comment",
+        "identity"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h059_q4",
+      "topic": "cne_h059",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "互联网",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「身份」？",
+      "explain": "identity 的意思是身份。",
+      "answer_mode": "choice",
+      "options": [
+        "Internet",
+        "blog",
+        "comment",
+        "identity"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h060_q1",
+      "topic": "cne_h060",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "在线行为",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「在线的」？",
+      "explain": "online 的意思是在线的。",
+      "answer_mode": "choice",
+      "options": [
+        "privacy",
+        "online",
+        "password",
+        "post"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h060_q2",
+      "topic": "cne_h060",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "在线行为",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「privacy」的中文意思是哪一个？",
+      "explain": "privacy 的意思是隐私。",
+      "answer_mode": "choice",
+      "options": [
+        "在线的",
+        "密码",
+        "隐私",
+        "发布"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h060_q3",
+      "topic": "cne_h060",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "在线行为",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「密码」的单词。",
+      "explain": "表示密码的单词是 password。",
+      "answer_mode": "choice",
+      "options": [
+        "online",
+        "privacy",
+        "post",
+        "password"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h060_q4",
+      "topic": "cne_h060",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "在线行为",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「发布」？",
+      "explain": "post 的意思是发布。",
+      "answer_mode": "choice",
+      "options": [
+        "post",
+        "online",
+        "privacy",
+        "password"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h061_q1",
+      "topic": "cne_h061",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "现在完成时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The password ___ . 表示已经被更改，横线处填哪一个？",
+      "explain": "现在完成时被动是 has been 加过去分词。",
+      "answer_mode": "choice",
+      "options": [
+        "has changed",
+        "has being changed",
+        "has been changed",
+        "was being changed"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h061_q2",
+      "topic": "cne_h061",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "现在完成时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是现在完成时的被动？",
+      "explain": "have been deleted 表示已经被删除。",
+      "answer_mode": "choice",
+      "options": [
+        "Two comments have deleted",
+        "Two comments are deleting",
+        "Two comments deleted been",
+        "Two comments have been deleted"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h061_q3",
+      "topic": "cne_h061",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "现在完成时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "My blog ___ by many students since Monday. 横线处填哪一个？",
+      "explain": "blog 是单数，完成时被动用 has been read。",
+      "answer_mode": "choice",
+      "options": [
+        "has been read",
+        "has read",
+        "is being read",
+        "have been read"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h061_q4",
+      "topic": "cne_h061",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "现在完成时的被动语态",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "been 后面用过去分词 shared，单数主语用 has。",
+      "answer_mode": "choice",
+      "options": [
+        "The post has been share online",
+        "The post has been shared online",
+        "The post has being shared online",
+        "The post have been shared online"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h062_q1",
+      "topic": "cne_h062",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "since 与现在完成时",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I ___ this blog since 2020. 横线处填哪一个？",
+      "explain": "since 2020 要和现在完成时 have kept 搭配。",
+      "answer_mode": "choice",
+      "options": [
+        "kept",
+        "keep",
+        "am keeping",
+        "have kept"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h062_q2",
+      "topic": "cne_h062",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "since 与现在完成时",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "哪一句是正确的？",
+      "explain": "since 加时间点用现在完成时。since three days 缺少 ago，不作为正确项。",
+      "answer_mode": "choice",
+      "options": [
+        "She has used the same password since May",
+        "She used the same password since May",
+        "She uses the same password since May",
+        "She has used the same password since three days"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h062_q3",
+      "topic": "cne_h062",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "since 与现在完成时",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "The app ___ many times since it was posted. 横线处填哪一个？",
+      "explain": "since 从句说明起点，主句用完成时被动。",
+      "answer_mode": "choice",
+      "options": [
+        "was updated",
+        "has been updated",
+        "is updated",
+        "updated"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h062_q4",
+      "topic": "cne_h062",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "since 与现在完成时",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "since Monday 更适合和哪一种时态一起用？",
+      "explain": "since 表示从过去持续到现在，用现在完成时。",
+      "answer_mode": "choice",
+      "options": [
+        "一般过去时单独使用",
+        "现在进行时表安排",
+        "现在完成时",
+        "一般现在时表习惯"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h063_q1",
+      "topic": "cne_h063",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论网络安全",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想提醒同学不要公开密码，哪一句合适？",
+      "explain": "提醒用 Never post your password。",
+      "answer_mode": "choice",
+      "options": [
+        "Never post your password online",
+        "Post your password to everyone",
+        "Never post your pasword online",
+        "Never post you password online"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h063_q2",
+      "topic": "cne_h063",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论网络安全",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说评论已经被删除，哪一句合适？",
+      "explain": "已经被删除用 has been deleted。",
+      "answer_mode": "choice",
+      "options": [
+        "The rude comment has deleted the blog",
+        "The rude comment has been deleted",
+        "The rude comment have been deleted",
+        "The rude comment has been delete"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h063_q3",
+      "topic": "cne_h063",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论网络安全",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "对方问为什么要用昵称，你说明理由，哪一句合适？",
+      "explain": "to protect my privacy 说明目的。",
+      "answer_mode": "choice",
+      "options": [
+        "I use a nickname to protecting my privacy",
+        "I use a nickname to protects my privacy",
+        "I use a nickname to protect my privacy",
+        "I use an nickname to protect my privacy"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h063_q4",
+      "topic": "cne_h063",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "谈论网络安全",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想建议对方先核对身份再加好友，哪一句合适？",
+      "explain": "提建议用祈使句 Check。",
+      "answer_mode": "choice",
+      "options": [
+        "Check the person's idantity before you add them",
+        "Check the persons identity before you add them",
+        "Check the person's identify before you add them",
+        "Check the person's identity before you add them"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h064_q1",
+      "topic": "cne_h064",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读网络短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 博客从什么时候开始被阅读？",
+      "explain": "短文写 Since March。",
+      "answer_mode": "choice",
+      "options": [
+        "昨天",
+        "三月以来",
+        "三年前的一天",
+        "没有时间"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h064_q2",
+      "topic": "cne_h064",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读网络短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 不友善的评论怎么样了？",
+      "explain": "短文写 has been deleted。",
+      "answer_mode": "choice",
+      "options": [
+        "被置顶",
+        "还在增加",
+        "已经被删除",
+        "变成了密码"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h064_q3",
+      "topic": "cne_h064",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读网络短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. Lin 不发布什么？",
+      "explain": "短文写 never posts his real name or password。",
+      "answer_mode": "choice",
+      "options": [
+        "班级博客",
+        "学校名称",
+        "所有图片",
+        "真名和密码"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h064_q4",
+      "topic": "cne_h064",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "读网络短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 作者对那条不友善评论的态度是哪一种？",
+      "explain": "评论被删除，说明作者不赞成它。",
+      "answer_mode": "choice",
+      "options": [
+        "把它删掉，而不是赞成它",
+        "认为它很有趣所以保留",
+        "没有提到评论",
+        "鼓励更多这样的评论"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h065_q1",
+      "topic": "cne_h065",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写网络提醒",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：不发密码、保护隐私、粗鲁评论已删除。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "Do not post your password",
+        "Privacy matters",
+        "Do not post your password, protect your privacy, and the rude comment has been deleted",
+        "The blog is new"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h065_q2",
+      "topic": "cne_h065",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写网络提醒",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "提醒要从三月写到现在，哪一句时态合适？",
+      "explain": "since March 用现在完成时，规则是被使用，用 has been used。",
+      "answer_mode": "choice",
+      "options": [
+        "The rule was used since March",
+        "The rule is used since March",
+        "The rule has used since March",
+        "The rule has been used since March"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h065_q3",
+      "topic": "cne_h065",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写网络提醒",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为提醒的标题？",
+      "explain": "标题可以是 Keep your identity safe online。",
+      "answer_mode": "choice",
+      "options": [
+        "Keep your identity safe online",
+        "Keep your idantity safe online",
+        "Keep your identify safe online",
+        "Keep you identity safe online"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h065_q4",
+      "topic": "cne_h065",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u3",
+      "unit_name": "写网络提醒",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句是正确的完成时被动？",
+      "explain": "has been 加过去分词 removed。",
+      "answer_mode": "choice",
+      "options": [
+        "The photo has been remove",
+        "The photo has been removed",
+        "The photo has being removed",
+        "The photo have been removed"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h066_q1",
+      "topic": "cne_h066",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "历史传统",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「传统」？",
+      "explain": "tradition 的意思是传统。",
+      "answer_mode": "choice",
+      "options": [
+        "battle",
+        "kingdom",
+        "custom",
+        "tradition"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h066_q2",
+      "topic": "cne_h066",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "历史传统",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「battle」的中文意思是哪一个？",
+      "explain": "battle 的意思是战役。",
+      "answer_mode": "choice",
+      "options": [
+        "战役",
+        "传统",
+        "王国",
+        "习俗"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h066_q3",
+      "topic": "cne_h066",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "历史传统",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「王国」的单词。",
+      "explain": "表示王国的单词是 kingdom。",
+      "answer_mode": "choice",
+      "options": [
+        "tradition",
+        "kingdom",
+        "battle",
+        "custom"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h066_q4",
+      "topic": "cne_h066",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "历史传统",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「习俗」？",
+      "explain": "custom 的意思是习俗。",
+      "answer_mode": "choice",
+      "options": [
+        "tradition",
+        "battle",
+        "custom",
+        "kingdom"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h067_q1",
+      "topic": "cne_h067",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "节日习俗",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「祖先」？",
+      "explain": "ancestor 的意思是祖先。",
+      "answer_mode": "choice",
+      "options": [
+        "ancestor",
+        "honour",
+        "gathering",
+        "poem"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h067_q2",
+      "topic": "cne_h067",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "节日习俗",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「honour」的中文意思是哪一个？",
+      "explain": "honour 的意思是纪念。",
+      "answer_mode": "choice",
+      "options": [
+        "祖先",
+        "纪念",
+        "聚会",
+        "诗"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h067_q3",
+      "topic": "cne_h067",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "节日习俗",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「聚会」的单词。",
+      "explain": "表示聚会的单词是 gathering。",
+      "answer_mode": "choice",
+      "options": [
+        "ancestor",
+        "honour",
+        "gathering",
+        "poem"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h067_q4",
+      "topic": "cne_h067",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "节日习俗",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「诗」？",
+      "explain": "poem 的意思是诗。",
+      "answer_mode": "choice",
+      "options": [
+        "ancestor",
+        "honour",
+        "gathering",
+        "poem"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h068_q1",
+      "topic": "cne_h068",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "a ___ castle 表示被毁坏的城堡，横线处填哪一个？",
+      "explain": "被毁坏的城堡用过去分词 ruined 作定语。",
+      "answer_mode": "choice",
+      "options": [
+        "ruining",
+        "ruined",
+        "ruin",
+        "ruins"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h068_q2",
+      "topic": "cne_h068",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The gate is ___. 表示大门关着，横线处填哪一个？",
+      "explain": "状态用过去分词 closed 作表语。",
+      "answer_mode": "choice",
+      "options": [
+        "closing",
+        "close",
+        "closed",
+        "closes"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h068_q3",
+      "topic": "cne_h068",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "written by Li Bai 作定语，修饰 poem。",
+      "answer_mode": "choice",
+      "options": [
+        "The poem writing by Li Bai is famous",
+        "The poem wrote by Li Bai is famous",
+        "The poem write by Li Bai is famous",
+        "The poem written by Li Bai is famous"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h068_q4",
+      "topic": "cne_h068",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "The visitors were ___ by the old custom. 横线处填哪一个？",
+      "explain": "人感到惊讶用 surprised 作表语。",
+      "answer_mode": "choice",
+      "options": [
+        "surprised",
+        "surprising",
+        "surprise",
+        "surprises"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h069_q1",
+      "topic": "cne_h069",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I heard my name ___. 表示名字被叫到，横线处填哪一个？",
+      "explain": "name 是被叫的，宾补用 called。",
+      "answer_mode": "choice",
+      "options": [
+        "calling",
+        "call",
+        "called",
+        "to calling"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h069_q2",
+      "topic": "cne_h069",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "She found the window ___. 表示窗户被打破了，横线处填哪一个？",
+      "explain": "window 是被打破的，用 broken。",
+      "answer_mode": "choice",
+      "options": [
+        "breaking",
+        "broke",
+        "break",
+        "broken"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h069_q3",
+      "topic": "cne_h069",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "hall 是被装饰的，宾补用 decorated。",
+      "answer_mode": "choice",
+      "options": [
+        "We saw the hall decorated with poems",
+        "We saw the hall decorating with poems",
+        "We saw the hall decorate with poems",
+        "We saw the hall to decorated with poems"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h069_q4",
+      "topic": "cne_h069",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "过去分词作宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "They kept the tradition ___. 表示传统被保存，横线处填哪一个？",
+      "explain": "tradition 是被保存的对象，用 preserved。",
+      "answer_mode": "choice",
+      "options": [
+        "preserving",
+        "preserved",
+        "preserve",
+        "to preserving"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h070_q1",
+      "topic": "cne_h070",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "谈论传统",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想介绍清明纪念祖先的习俗，哪一句合适？",
+      "explain": "honour their ancestors 用来介绍习俗。",
+      "answer_mode": "choice",
+      "options": [
+        "On Qingming people honours their ancestors",
+        "On Qingming people honour they ancestors",
+        "On Qingming people honour their ancestor's",
+        "On Qingming people honour their ancestors"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h070_q2",
+      "topic": "cne_h070",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "谈论传统",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说这首诗是李白写的，哪一句合适？",
+      "explain": "written by 作定语。",
+      "answer_mode": "choice",
+      "options": [
+        "This is a poem written by Li Bai",
+        "This is a poem writing by Li Bai",
+        "This is a poem wrote by Li Bai",
+        "Poem is written Li Bai by"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h070_q3",
+      "topic": "cne_h070",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "谈论传统",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想表示自己支持保留这项聚会，哪一句合适？",
+      "explain": "I support keeping 用来表态。",
+      "answer_mode": "choice",
+      "options": [
+        "I support eating the tradition",
+        "I support keeping this gathering",
+        "I support keep this gathering",
+        "I support keeping this gatherring"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h070_q4",
+      "topic": "cne_h070",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "谈论传统",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "对方问你有没有看见被装饰的大厅，哪一句回答正确？",
+      "explain": "宾补用 decorated，表示大厅被装饰。",
+      "answer_mode": "choice",
+      "options": [
+        "Yes, I saw the hall decorating with flowers",
+        "Yes, I saw the hall decorate flowers",
+        "Yes, I saw the hall decorated with flowers",
+        "Yes, decorated saw I the hall"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h071_q1",
+      "topic": "cne_h071",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读传统短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 聚会是为了什么？",
+      "explain": "短文写 honour their ancestors。",
+      "answer_mode": "choice",
+      "options": [
+        "纪念祖先",
+        "庆祝比赛",
+        "修复城墙",
+        "发布博客"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h071_q2",
+      "topic": "cne_h071",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读传统短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 诗是谁写的？",
+      "explain": "短文写 written by a local teacher。",
+      "answer_mode": "choice",
+      "options": [
+        "李白",
+        "一位当地老师",
+        "游客",
+        "没有作者"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h071_q3",
+      "topic": "cne_h071",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读传统短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 去年大厅怎么样？",
+      "explain": "短文写 decorated with paper flowers。",
+      "answer_mode": "choice",
+      "options": [
+        "被雨水冲毁",
+        "改成了体育场",
+        "用纸花装饰了",
+        "没有大厅"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h071_q4",
+      "topic": "cne_h071",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "读传统短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 哪一句和短文一致？",
+      "explain": "短文说的是纪念祖先。",
+      "answer_mode": "choice",
+      "options": [
+        "The poem was written by Li Bai",
+        "The hall is a new stadium",
+        "There is no gathering",
+        "Families honour their ancestors"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h072_q1",
+      "topic": "cne_h072",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写传统介绍",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：聚会纪念祖先、朗读当地老师的诗、大厅用纸花装饰。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "Families gather",
+        "Families gather to honour ancestors, read a poem written by a local teacher, and the hall is decorated with paper flowers",
+        "The poem is short",
+        "Paper flowers are red"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h072_q2",
+      "topic": "cne_h072",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写传统介绍",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "想用过去分词作定语，哪一句正确？",
+      "explain": "kept by the village 修饰 custom。",
+      "answer_mode": "choice",
+      "options": [
+        "The custom keeping by the village is old",
+        "The custom keep by the village is old",
+        "The custom kept by the village is old",
+        "The custom to kept by the village is old"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h072_q3",
+      "topic": "cne_h072",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写传统介绍",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为介绍的开头？",
+      "explain": "介绍开头可以用 Let me tell you about。",
+      "answer_mode": "choice",
+      "options": [
+        "Let me tell you about an local tradition",
+        "Let me to tell you about a local tradition",
+        "Let me tell you about a local traditions",
+        "Let me tell you about a local tradition"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h072_q4",
+      "topic": "cne_h072",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u4",
+      "unit_name": "写传统介绍",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句的宾补是正确的？",
+      "explain": "door 是被关上的，宾补用 closed。",
+      "answer_mode": "choice",
+      "options": [
+        "We found the door closed",
+        "We found the door closing by nobody",
+        "We found the door close",
+        "We found closed the door was"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h073_q1",
+      "topic": "cne_h073",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "音乐",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「古典的」？",
+      "explain": "classical 的意思是古典的。",
+      "answer_mode": "choice",
+      "options": [
+        "band",
+        "perform",
+        "classical",
+        "audience"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h073_q2",
+      "topic": "cne_h073",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "音乐",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「band」的中文意思是哪一个？",
+      "explain": "band 的意思是乐队。",
+      "answer_mode": "choice",
+      "options": [
+        "古典的",
+        "表演",
+        "听众",
+        "乐队"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h073_q3",
+      "topic": "cne_h073",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "音乐",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「表演」的单词。",
+      "explain": "表示表演的单词是 perform。",
+      "answer_mode": "choice",
+      "options": [
+        "perform",
+        "classical",
+        "band",
+        "audience"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h073_q4",
+      "topic": "cne_h073",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "音乐",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「听众」？",
+      "explain": "audience 的意思是听众。",
+      "answer_mode": "choice",
+      "options": [
+        "classical",
+        "audience",
+        "band",
+        "perform"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h074_q1",
+      "topic": "cne_h074",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "演奏",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "哪个单词的意思是「乐器」？",
+      "explain": "instrument 的意思是乐器。",
+      "answer_mode": "choice",
+      "options": [
+        "stage",
+        "rhythm",
+        "composer",
+        "instrument"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h074_q2",
+      "topic": "cne_h074",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "演奏",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 1,
+      "stem": "「stage」的中文意思是哪一个？",
+      "explain": "stage 的意思是舞台。",
+      "answer_mode": "choice",
+      "options": [
+        "舞台",
+        "乐器",
+        "节奏",
+        "作曲家"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h074_q3",
+      "topic": "cne_h074",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "演奏",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "选择表示「节奏」的单词。",
+      "explain": "表示节奏的单词是 rhythm。",
+      "answer_mode": "choice",
+      "options": [
+        "instrument",
+        "rhythm",
+        "stage",
+        "composer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h074_q4",
+      "topic": "cne_h074",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "演奏",
+      "type": "knowledge",
+      "skill": "词汇",
+      "difficulty": 2,
+      "stem": "哪个单词的意思是「作曲家」？",
+      "explain": "composer 的意思是作曲家。",
+      "answer_mode": "choice",
+      "options": [
+        "instrument",
+        "stage",
+        "composer",
+        "rhythm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h075_q1",
+      "topic": "cne_h075",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "a ___ band 表示正在表演的乐队，横线处填哪一个？",
+      "explain": "正在表演的乐队用 performing 作定语。",
+      "answer_mode": "choice",
+      "options": [
+        "performing",
+        "performed",
+        "perform",
+        "to performing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h075_q2",
+      "topic": "cne_h075",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "The news is ___. 表示消息令人兴奋，横线处填哪一个？",
+      "explain": "消息的性质用 exciting 作表语。",
+      "answer_mode": "choice",
+      "options": [
+        "excited",
+        "exciting",
+        "excite",
+        "excites"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h075_q3",
+      "topic": "cne_h075",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "smiling 作定语修饰 audience，表示面带微笑。",
+      "answer_mode": "choice",
+      "options": [
+        "The smiled audience loved the song",
+        "The smile audience loved the song",
+        "The smiling audience loved the song",
+        "The audience smiling loved are the song"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h075_q4",
+      "topic": "cne_h075",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作定语和表语",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "Her job is ___ the stage. 表示工作是布置舞台，横线处填哪一个？",
+      "explain": "is 后面说明工作内容，用 designing 作表语。",
+      "answer_mode": "choice",
+      "options": [
+        "designed",
+        "design",
+        "to designed",
+        "designing"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h076_q1",
+      "topic": "cne_h076",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作状语和宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "___ the violin, she walked onto the stage. 横线处填哪一个？",
+      "explain": "她主动拉小提琴，状语用 Playing。",
+      "answer_mode": "choice",
+      "options": [
+        "Played",
+        "Playing",
+        "Play",
+        "To played"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h076_q2",
+      "topic": "cne_h076",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作状语和宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 1,
+      "stem": "I heard someone ___ in the hall. 表示听见某人正在唱歌，横线处填哪一个？",
+      "explain": "someone 主动在唱，宾补用 singing。",
+      "answer_mode": "choice",
+      "options": [
+        "sung",
+        "sang",
+        "singing",
+        "to singing"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h076_q3",
+      "topic": "cne_h076",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作状语和宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "哪一句是正确的？",
+      "explain": "listening 的逻辑主语是 He。歌曲不能作 listening 的主语。",
+      "answer_mode": "choice",
+      "options": [
+        "He sat in the audience, listened carefully",
+        "He sat in the audience, listen carefully",
+        "Listening carefully, the song was beautiful",
+        "He sat in the audience, listening carefully"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h076_q4",
+      "topic": "cne_h076",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "动词 -ing 作状语和宾补",
+      "type": "knowledge",
+      "skill": "语法",
+      "difficulty": 2,
+      "stem": "We watched the band ___. 表示看着乐队演奏，横线处填哪一个？",
+      "explain": "band 主动表演，宾补用 performing。",
+      "answer_mode": "choice",
+      "options": [
+        "performing",
+        "performed",
+        "perform",
+        "to performed"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h077_q1",
+      "topic": "cne_h077",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "意群中的连读",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "an old instrument 里，哪两个词更容易连读？",
+      "explain": "an 以辅音结尾，old 以元音开头，可以连读。",
+      "answer_mode": "choice",
+      "options": [
+        "old 和 instrument 的词尾",
+        "instrument 内部的两个辅音",
+        "an 和 old",
+        "没有任何词"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h077_q2",
+      "topic": "cne_h077",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "意群中的连读",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "look at it 里，哪一处符合辅音连到元音？",
+      "explain": "look 的结尾辅音可以连到 at 的元音。",
+      "answer_mode": "choice",
+      "options": [
+        "at 的 /t/ 后面没有元音所以必须停",
+        "it 的开头是辅音所以连不上",
+        "三个词都要重读且断开",
+        "look 的 /k/ 连到 at"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h077_q3",
+      "topic": "cne_h077",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "意群中的连读",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "哪一个短语最适合练习连读？",
+      "explain": "stand 以辅音结尾，up 以元音开头。其余相邻处多是辅音接辅音。",
+      "answer_mode": "choice",
+      "options": [
+        "stand up",
+        "big drums",
+        "classical music",
+        "six bands"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h077_q4",
+      "topic": "cne_h077",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "意群中的连读",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "连读主要发生在什么位置？",
+      "explain": "连读是把词尾辅音和词首元音连起来。",
+      "answer_mode": "choice",
+      "options": [
+        "每个元音字母上面",
+        "前一个词的辅音和后一个词的元音之间",
+        "句号后面",
+        "两个逗号之间必须停顿"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h078_q1",
+      "topic": "cne_h078",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不完全爆破",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "a big band 里，哪个音常常不完全爆破？",
+      "explain": "big 的 /g/ 和 band 的 /b/ 都是爆破音，前一个常常不完全爆破。",
+      "answer_mode": "choice",
+      "options": [
+        "band 里的元音",
+        "a 的元音",
+        "没有这样的音",
+        "big 末尾的 /g/"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h078_q2",
+      "topic": "cne_h078",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不完全爆破",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 1,
+      "stem": "which 一组含有相邻的爆破音？",
+      "explain": "good 的 /d/ 和 time 的 /t/ 是相邻爆破音。",
+      "answer_mode": "choice",
+      "options": [
+        "good time",
+        "my audience",
+        "high note",
+        "old stage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h078_q3",
+      "topic": "cne_h078",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不完全爆破",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "不完全爆破时，前一个爆破音通常怎样？",
+      "explain": "前一个爆破音往往只成阻，不完全释放。",
+      "answer_mode": "choice",
+      "options": [
+        "必须读得特别长",
+        "口型做到，但气流不完全冲出",
+        "改成元音",
+        "直接删掉整个单词"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h078_q4",
+      "topic": "cne_h078",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "不完全爆破",
+      "type": "knowledge",
+      "skill": "语音",
+      "difficulty": 2,
+      "stem": "sit down 里更容易出现不完全爆破的是哪一个？",
+      "explain": "/t/ 后面紧接 down 的 /d/，/t/ 常常不完全爆破。",
+      "answer_mode": "choice",
+      "options": [
+        "down 的元音",
+        "sit 的元音",
+        "sit 末尾的 /t/",
+        "down 末尾的 /n/"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h079_q1",
+      "topic": "cne_h079",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "谈论演出",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想说乐队正在舞台上表演，哪一句合适？",
+      "explain": "乐队主动表演，用 is performing。",
+      "answer_mode": "choice",
+      "options": [
+        "The band is performing on the stage",
+        "The band is performed on the stage",
+        "The band is perform on the stage",
+        "The band is performing in the stage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h079_q2",
+      "topic": "cne_h079",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "谈论演出",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 1,
+      "stem": "想邀请同学去听古典音乐会，哪一句合适？",
+      "explain": "邀请用 Shall we go。",
+      "answer_mode": "choice",
+      "options": [
+        "Shall we go to the clasical concert",
+        "Shall we go to the classical concert",
+        "Shall we going to the classical concert",
+        "We went tomorrow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h079_q3",
+      "topic": "cne_h079",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "谈论演出",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想描述听众边听边微笑，哪一句合适？",
+      "explain": "smiling 作状语，逻辑主语是 audience。",
+      "answer_mode": "choice",
+      "options": [
+        "The audience sat there, smiled",
+        "The audience sat there, smile",
+        "The audience sat there, smiling",
+        "The audeince sat there, smiling"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h079_q4",
+      "topic": "cne_h079",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "谈论演出",
+      "type": "knowledge",
+      "skill": "日常表达",
+      "difficulty": 2,
+      "stem": "想说明节奏让演出很兴奋，哪一句合适？",
+      "explain": "演出的性质用 exciting，不是人的感受 excited。",
+      "answer_mode": "choice",
+      "options": [
+        "The rhythm made the show excited",
+        "Exciting made the rhythm a person",
+        "Show is exciting made",
+        "The rhythm made the show exciting"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h080_q1",
+      "topic": "cne_h080",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读演出短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 谁在舞台上表演？",
+      "explain": "短文写 A student band is performing。",
+      "answer_mode": "choice",
+      "options": [
+        "作曲家一个人",
+        "一支学生乐队",
+        "听众",
+        "老师的合唱队"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cne_h080_q2",
+      "topic": "cne_h080",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读演出短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 听众在每首歌结束时做什么？",
+      "explain": "短文写 clapping。",
+      "answer_mode": "choice",
+      "options": [
+        "离开",
+        "写诗",
+        "鼓掌",
+        "修理乐器"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h080_q3",
+      "topic": "cne_h080",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读演出短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 最后一首曲子的作曲家是谁？",
+      "explain": "短文写 a teacher at the school。",
+      "answer_mode": "choice",
+      "options": [
+        "一名学生",
+        "没有作曲家",
+        "听众中的游客",
+        "学校里的一位老师"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h080_q4",
+      "topic": "cne_h080",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "读演出短文",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 这段文字主要在做什么？",
+      "explain": "短文只是在描述表演和听众。",
+      "answer_mode": "choice",
+      "options": [
+        "说明演出当时的情形",
+        "批评乐队",
+        "招聘猎人",
+        "反对古典音乐"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h081_q1",
+      "topic": "cne_h081",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写演出通知",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "要点：学生乐队、周五舞台演出、听众请准时。哪一句三个要点都有？",
+      "explain": "三个要点都要出现。",
+      "answer_mode": "choice",
+      "options": [
+        "The student band is performing",
+        "Friday is busy",
+        "The student band is performing on the stage on Friday, and the audience should arrive on time",
+        "Please be quiet"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cne_h081_q2",
+      "topic": "cne_h081",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写演出通知",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 1,
+      "stem": "通知里用 -ing 作状语描述入场，哪一句正确？",
+      "explain": "Entering 的逻辑主语应是听话的人。",
+      "answer_mode": "choice",
+      "options": [
+        "Entered the hall, please keep quiet",
+        "The hall entering, please keep quiet",
+        "Keep quiet, the door entering",
+        "Entering the hall, please keep quiet"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cne_h081_q3",
+      "topic": "cne_h081",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写演出通知",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句适合作为通知标题？",
+      "explain": "标题可以写 Student band on stage this Friday。",
+      "answer_mode": "choice",
+      "options": [
+        "Student band on stage this Friday",
+        "Studant band on stage this Friday",
+        "Student band on stages this Friday",
+        "Student band in stage this Friday"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cne_h081_q4",
+      "topic": "cne_h081",
+      "subject": "english",
+      "grade": 10,
+      "semester": "lower",
+      "edition": "pep",
+      "unit": "u5",
+      "unit_name": "写演出通知",
+      "type": "knowledge",
+      "skill": "读写",
+      "difficulty": 2,
+      "stem": "哪一句的定语是动词 -ing？",
+      "explain": "performing 作定语，表示正在表演的乐队。",
+      "answer_mode": "choice",
+      "options": [
+        "The performed band needs two more players",
+        "The performing band needs two more players",
+        "The band performing needs are players two",
+        "Needs the band performing players"
+      ],
+      "answer": 2
+    }
+  ]
+}

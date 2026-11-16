@@ -1,0 +1,1877 @@
+{
+ "schema_version": 1,
+ "subject": "physics",
+ "grade": 8,
+ "semester": "upper",
+ "textbook": "人教版（初中物理）",
+ "questions": [
+  {
+   "id": "cnp_001_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "长度的国际单位是什么？",
+   "explain": "国际单位制中长度的基本单位是米，符号 m；秒是时间单位。",
+   "options": [
+    "厘米（cm）",
+    "千米（km）",
+    "秒（s）",
+    "米（m）"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_001_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1.5 h 等于多少分钟？",
+   "explain": "1 h = 60 min，1.5 × 60 = 90 min。把 1.5 h 当成 1 h 50 min 是常见错误。",
+   "options": [
+    "150 min",
+    "90 min",
+    "15 min",
+    "1.5 min"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_002_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "坐在行驶的列车里的乘客，以哪个物体为参照物时，他是静止的？",
+   "explain": "乘客相对于车厢位置不变，所以以车厢为参照物他是静止的；相对于铁轨、树、站台他在运动。",
+   "options": [
+    "铁轨",
+    "路边的树",
+    "站台",
+    "他坐的车厢"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_002_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列现象中，不属于机械运动的是哪一个？",
+   "explain": "机械运动是物体位置随时间的变化。花香四溢是分子的热运动，不是物体位置的机械运动。",
+   "options": [
+    "花香四溢",
+    "汽车在公路上行驶",
+    "地球绕太阳公转",
+    "落叶飘下"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_003_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一辆汽车 2 h 行驶了 144 km，它的平均速度是多少？",
+   "explain": "v = s/t = 144 km ÷ 2 h = 72 km/h。",
+   "options": [
+    "288 km/h",
+    "72 km/h",
+    "20 km/h",
+    "146 km/h"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_003_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "72 km/h 等于多少 m/s？",
+   "explain": "1 m/s = 3.6 km/h，所以 72 ÷ 3.6 = 20 m/s。把 72 乘以 3.6 是常见错误。",
+   "options": [
+    "259.2 m/s",
+    "72 m/s",
+    "2 m/s",
+    "20 m/s"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_004_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "测量小车沿斜面下滑的平均速度，实验原理是什么？",
+   "explain": "测出路程 s 和时间 t，用 v = s/t 算出平均速度。",
+   "options": [
+    "v = s/t",
+    "s = vt",
+    "t = s/v",
+    "v = t/s"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_004_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "测小车平均速度时，除了斜面、小车、金属片外，还必须用到哪两种测量工具？",
+   "explain": "要测路程和时间，所以用刻度尺和停表。",
+   "options": [
+    "天平和停表",
+    "刻度尺和温度计",
+    "刻度尺和停表",
+    "弹簧测力计和刻度尺"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_001_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用分度值为 1 mm 的刻度尺测一支铅笔，下列记录中正确的是哪一个？",
+   "explain": "分度值 1 mm = 0.1 cm，读数要估读到分度值的下一位，即 0.01 cm，所以记成 17.52 cm。",
+   "options": [
+    "17.5 cm",
+    "17.520 cm",
+    "175 mm",
+    "17.52 cm"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_001_q4",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "四次测得同一本书的宽度分别为 18.52 cm、18.51 cm、18.53 cm、18.52 cm，取平均值作为结果是多少 cm？（只填数值）",
+   "explain": "(18.52+18.51+18.53+18.52)÷4 = 18.52 cm。多次测量取平均值可以减小误差。",
+   "answer": 18.52
+  },
+  {
+   "id": "cnp_002_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "加油机在空中给战斗机加油时，若说战斗机是静止的，选的参照物是什么？",
+   "explain": "加油时两机速度相同、相对位置不变，以加油机为参照物，战斗机是静止的。",
+   "options": [
+    "地面",
+    "加油机",
+    "白云",
+    "地面上的观众"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_002_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "小明说“月亮在云中穿行”，他选的参照物是什么？",
+   "explain": "说月亮在运动，要选一个与月亮位置在变化的物体作参照物，这里是云。不能选被研究的物体本身作参照物。",
+   "options": [
+    "云",
+    "月亮",
+    "地面",
+    "小明自己"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_003_q3",
+   "unit": "u1",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "声音在空气中以 340 m/s 传播，听到雷声比看到闪电晚 3 s，打雷处离人约多少 m？（只填数值）",
+   "explain": "光速很大，光传播的时间可以忽略。s = vt = 340 m/s × 3 s = 1020 m。",
+   "answer": 1020
+  },
+  {
+   "id": "cnp_003_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "小华前一半路程的速度是 4 m/s，后一半路程的速度是 6 m/s，全程平均速度是多少？",
+   "explain": "设一半路程为 s，总时间 t = s/4 + s/6 = 5s/12，平均速度 = 2s ÷ (5s/12) = 4.8 m/s。直接求速度的平均值 5 m/s 是错的。",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "4.8 m/s",
+    "2.4 m/s"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_004_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "小车从斜面顶端滑到底端，全程 0.8 m 用时 4 s，前半程用时 2.5 s。后半程的平均速度是多少？",
+   "explain": "后半程路程 0.4 m，用时 4 - 2.5 = 1.5 s，v = 0.4 ÷ 1.5 ≈ 0.27 m/s。小车越滑越快，后半程比全程平均速度 0.2 m/s 大。",
+   "options": [
+    "0.2 m/s",
+    "0.27 m/s",
+    "0.16 m/s",
+    "0.32 m/s"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_004_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "为了更准确地测量小车运动的时间，斜面的坡度应该怎样？",
+   "explain": "坡度小，小车运动得慢，所用时间长，计时误差相对更小。",
+   "options": [
+    "较大一些",
+    "较小一些",
+    "越陡越好",
+    "坡度与时间无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_005_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "声音是怎样产生的？",
+   "explain": "一切正在发声的物体都在振动，振动停止，发声也停止。",
+   "options": [
+    "由物体振动产生",
+    "由物体运动产生",
+    "由空气流动产生",
+    "由物体发热产生"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_005_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "宇航员在太空舱外不能直接对话，原因是什么？",
+   "explain": "声音的传播需要介质，太空中接近真空，所以要用无线电交流。",
+   "options": [
+    "太空太冷",
+    "真空不能传声",
+    "声音传得太快",
+    "宇航员发声太小"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_006_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "“闻其声而知其人”，主要是根据声音的哪个特性？",
+   "explain": "不同人的声带结构不同，发出声音的音色不同。",
+   "options": [
+    "音色",
+    "音调",
+    "响度",
+    "频率"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_006_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "“引吭高歌”中的“高”指的是声音的哪个特性？",
+   "explain": "引吭高歌是放开嗓子大声唱，指响度大；“女高音”的高才是音调高。",
+   "options": [
+    "音调高",
+    "音色好",
+    "频率高",
+    "响度大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_007_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "医生用 B 超检查身体，利用了声的什么作用？",
+   "explain": "B 超通过回声获得体内的信息，是声传递信息。",
+   "options": [
+    "传递信息",
+    "传递能量",
+    "改变音调",
+    "减弱噪声"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_007_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列事例中，属于利用声传递能量的是哪一个？",
+   "explain": "超声波清洗利用声能使污垢振落，是传递能量；其余三项都是获得信息。",
+   "options": [
+    "蝙蝠回声定位",
+    "敲西瓜判断生熟",
+    "超声波清洗眼镜",
+    "汽车倒车雷达"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_008_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "声音的强弱等级用什么单位表示？",
+   "explain": "人们用分贝来划分声音强弱的等级；赫兹是频率单位。",
+   "options": [
+    "赫兹（Hz）",
+    "米每秒（m/s）",
+    "焦耳（J）",
+    "分贝（dB）"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_008_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在道路两旁植树，是在哪里减弱噪声？",
+   "explain": "树木能吸收、反射声音，在传播过程中减弱噪声。",
+   "options": [
+    "传播过程中",
+    "声源处",
+    "人耳处",
+    "以上都不是"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_009_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列材料中，做隔音房间模型的内衬隔音效果较好的是哪一种？",
+   "explain": "多孔、松软的材料能吸收声音，隔音效果较好；光滑坚硬的表面容易反射声音。",
+   "options": [
+    "光滑的玻璃板",
+    "薄铁皮",
+    "多孔的泡沫塑料",
+    "硬纸板表面刷油漆"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_009_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "隔音房间主要是在哪里减弱噪声？",
+   "explain": "隔音房间阻挡声音传播，属于在传播过程中减弱噪声。",
+   "options": [
+    "声源处",
+    "人耳处",
+    "频率上",
+    "传播过程中"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_005_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一般情况下，声音在下列哪种介质中传播得最快？",
+   "explain": "一般情况下声速 v固 > v液 > v气，真空不能传声。",
+   "options": [
+    "钢铁",
+    "空气",
+    "水",
+    "真空"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_005_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "敲鼓时在鼓面上放些纸屑，纸屑跳动。这个实验运用了什么方法？",
+   "explain": "鼓面振动不易直接看到，用纸屑跳动把微小振动显示出来，这是转换法。",
+   "options": [
+    "转换法",
+    "控制变量法",
+    "等效替代法",
+    "理想模型法"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_006_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用相同的力拨动钢尺，伸出桌面的部分越短，声音有什么变化？",
+   "explain": "伸出部分越短，振动越快，频率越高，音调越高。",
+   "options": [
+    "音调越高",
+    "响度越大",
+    "音调越低",
+    "音色改变"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_006_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "人耳能听到的声音频率范围大约是多少？",
+   "explain": "人耳听觉范围约 20～20000 Hz；低于 20 Hz 是次声，高于 20000 Hz 是超声。",
+   "options": [
+    "20 Hz～20000 Hz",
+    "0～20 Hz",
+    "20000 Hz 以上",
+    "20 Hz～2000 Hz"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_007_q3",
+   "unit": "u2",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "向海底发出超声波，经 4 s 收到回波。海水中声速取 1500 m/s，海水深多少 m？（只填数值）",
+   "explain": "声波往返一次用 4 s，单程 2 s，深度 = 1500 × 2 = 3000 m。忘记除以 2 会算成 6000 m。",
+   "answer": 3000
+  },
+  {
+   "id": "cnp_007_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列哪种情况不能用超声波测距？",
+   "explain": "地月之间是真空，声音不能传播，所以不能用超声波测地月距离。",
+   "options": [
+    "测量海底深度",
+    "倒车测障碍物距离",
+    "测量鱼群位置",
+    "测量地球到月球的距离"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_008_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "摩托车加装消声器，是在哪里控制噪声？",
+   "explain": "消声器直接减小摩托车排气发出的噪声，属于在声源处减弱。",
+   "options": [
+    "声源处",
+    "传播过程中",
+    "人耳处",
+    "接收处"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_008_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "为保证休息和睡眠，声音不能超过多少分贝？",
+   "explain": "为保证休息和睡眠，声音不能超过 50 dB；为保护听力不能超过 90 dB。0 dB 是人耳刚能听到的声音。",
+   "options": [
+    "90 dB",
+    "50 dB",
+    "120 dB",
+    "0 dB"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_009_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "比较两种材料的隔音效果时，下列哪种做法是对的？",
+   "explain": "用控制变量法：只改变材料，其他条件（声源、音量、距离）保持相同。",
+   "options": [
+    "使用同一声源、相同音量和距离，只换材料",
+    "两种材料用不同的声源",
+    "一次放音乐，一次放闹铃",
+    "测量时离声源的距离随意"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_009_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用手机分贝计测隔音效果，盒外 70 dB，放入甲盒后 52 dB，放入乙盒后 45 dB，哪个盒子隔音效果更好？",
+   "explain": "盒内声音越小，说明隔音效果越好；乙盒外测得 45 dB，比甲盒的 52 dB 小。",
+   "options": [
+    "甲盒",
+    "一样好",
+    "无法判断",
+    "乙盒"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_010_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "常用液体温度计是根据什么原理制成的？",
+   "explain": "液体温度计利用液体（水银、酒精、煤油等）热胀冷缩的性质。",
+   "options": [
+    "液体的热胀冷缩",
+    "固体的热胀冷缩",
+    "气体的热胀冷缩",
+    "液体的沸腾"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_010_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "在 1 个标准大气压下，冰水混合物的温度是多少？",
+   "explain": "摄氏温度规定：标准大气压下冰水混合物为 0 ℃，沸水为 100 ℃。",
+   "options": [
+    "0 ℃",
+    "100 ℃",
+    "4 ℃",
+    "-10 ℃"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_011_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "物质从固态变成液态叫什么？",
+   "explain": "固态→液态是熔化，液态→固态是凝固。",
+   "options": [
+    "凝固",
+    "液化",
+    "升华",
+    "熔化"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_011_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列物质中属于晶体的是哪一个？",
+   "explain": "冰有固定的熔点，是晶体；松香、玻璃、沥青没有固定熔点，是非晶体。",
+   "options": [
+    "松香",
+    "玻璃",
+    "冰",
+    "沥青"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_012_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "夏天从冰箱里拿出的饮料瓶外壁会“出汗”，这是什么物态变化？",
+   "explain": "空气中的水蒸气遇到冷的瓶壁放热，液化成小水珠。",
+   "options": [
+    "汽化",
+    "熔化",
+    "液化",
+    "升华"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_012_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列做法中，能加快蒸发的是哪一个？",
+   "explain": "增大液体表面积、提高温度、加快液面上方空气流动都能加快蒸发。",
+   "options": [
+    "把湿衣服展开晾在通风向阳处",
+    "把湿衣服叠起来放在阴凉处",
+    "给蔬菜套上保鲜袋",
+    "把酒精瓶盖拧紧"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_013_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "冬天窗玻璃内侧出现的冰花，是什么物态变化形成的？",
+   "explain": "室内水蒸气遇冷的玻璃直接变成固态的冰晶，是凝华。",
+   "options": [
+    "凝固",
+    "凝华",
+    "液化",
+    "升华"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_013_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "衣柜里的樟脑丸放久了会变小甚至消失，这是什么现象？",
+   "explain": "樟脑丸由固态直接变为气态，是升华。",
+   "options": [
+    "熔化",
+    "汽化",
+    "凝华",
+    "升华"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_014_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "揭开蒸锅盖时，被锅里出来的水蒸气烫伤往往比被同温度的开水烫伤更严重，原因是什么？",
+   "explain": "100 ℃ 的水蒸气先液化放热，再以 100 ℃ 的水继续放热，所以烫伤更重。",
+   "options": [
+    "水蒸气温度一定更高",
+    "水蒸气液化时还要放出大量热",
+    "水蒸气凝华放热",
+    "开水不会放热"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_014_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "从冰箱冷冻室拿出的冻肉表面有一层白霜，霜是怎么形成的？",
+   "explain": "冷冻室里的水蒸气遇冷直接凝华成小冰晶，形成霜。",
+   "options": [
+    "水凝固",
+    "水蒸气液化",
+    "水蒸气凝华",
+    "冰升华"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_010_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "温度计液柱的上表面在 0 ℃ 下方第 6 小格，分度值为 1 ℃，读数是多少？",
+   "explain": "液面在 0 ℃ 以下，读数为负；向下 6 格，每格 1 ℃，读作 -6 ℃（零下 6 摄氏度）。",
+   "options": [
+    "6 ℃",
+    "-4 ℃",
+    "-6 ℃",
+    "-16 ℃"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_010_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一支体温计示数是 38.5 ℃，没有甩就给一位体温 37 ℃ 的人测体温，示数是多少？",
+   "explain": "体温计有缩口，液柱不会自己退回。被测温度低于原示数时，示数仍是 38.5 ℃。",
+   "options": [
+    "37 ℃",
+    "38.5 ℃",
+    "37.5 ℃",
+    "75.5 ℃"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_011_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "某晶体熔化图像中，温度在 48 ℃ 保持不变共 6 min。这段时间内物质怎样？",
+   "explain": "晶体熔化过程中要持续吸热，但温度保持在熔点不变。",
+   "options": [
+    "不吸热，温度不变",
+    "放出热量",
+    "继续吸热，温度不变",
+    "温度不变，所以没有在熔化"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_011_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "北方冬天在菜窖里放几桶水，可以防止菜冻坏，利用了什么？",
+   "explain": "水结冰（凝固）时放出热量，使菜窖温度不会太低。",
+   "options": [
+    "水凝固时吸热",
+    "水蒸发时吸热",
+    "水汽化时放热",
+    "水凝固时放热"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_012_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "水沸腾后继续加热，水的温度会怎样？",
+   "explain": "液体沸腾时继续吸热，但温度保持在沸点不变。",
+   "options": [
+    "继续升高",
+    "保持不变",
+    "先升高后降低",
+    "降低"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_012_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "高山上用普通锅煮饭不易煮熟，原因是什么？",
+   "explain": "海拔越高气压越低，水的沸点越低，锅内温度达不到 100 ℃。",
+   "options": [
+    "气压高，水的沸点高",
+    "气压低，水的沸点低",
+    "气压低，水的沸点高",
+    "高山上火力小"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_013_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下列物态变化中都放热的一组是哪一组？",
+   "explain": "熔化、汽化、升华吸热；凝固、液化、凝华放热。",
+   "options": [
+    "熔化、汽化、升华",
+    "熔化、液化、凝华",
+    "凝固、汽化、升华",
+    "凝固、液化、凝华"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_013_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "秋天早晨草叶上的露珠是怎样形成的？",
+   "explain": "露是空气中的水蒸气遇冷液化成的小水珠；霜才是凝华。",
+   "options": [
+    "水蒸气凝华",
+    "水蒸气液化",
+    "冰熔化",
+    "水汽化"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_014_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "炖汤时，汤沸腾后把大火改成小火，汤的温度会怎样？",
+   "explain": "只要能继续吸热保持沸腾，温度就保持在沸点；改小火可以节约燃料。",
+   "options": [
+    "明显降低",
+    "继续升高",
+    "基本不变，仍保持沸腾",
+    "马上停止沸腾"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_014_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "冷冻的饮料瓶放在桌上，外壁先出现霜，后来霜变成水珠，后一过程是什么？",
+   "explain": "霜是固态，变成水是固态→液态，属于熔化。",
+   "options": [
+    "液化",
+    "凝华",
+    "熔化",
+    "汽化"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_015_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "下列物体中属于光源的是哪一个？",
+   "explain": "自身能发光的物体才是光源；月亮、钻石、银幕都是反射别的光。",
+   "options": [
+    "月亮",
+    "闪闪发亮的钻石",
+    "正在发光的萤火虫",
+    "电影银幕"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_015_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "光在真空中的传播速度约是多少？",
+   "explain": "真空中光速 c ≈ 3×10⁸ m/s = 3×10⁵ km/s；340 m/s 是空气中的声速。",
+   "options": [
+    "3×10⁸ m/s",
+    "340 m/s",
+    "3×10⁵ m/s",
+    "3×10⁸ km/s"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_016_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "入射光线与法线的夹角是 40°，反射角是多少？",
+   "explain": "反射角等于入射角，入射角是入射光线与法线的夹角，所以反射角是 40°。",
+   "options": [
+    "50°",
+    "80°",
+    "40°",
+    "140°"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_016_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "我们能从各个方向看到黑板上的字，是因为光在字上发生了什么？",
+   "explain": "粗糙表面把光向各个方向反射，是漫反射。",
+   "options": [
+    "镜面反射",
+    "漫反射",
+    "折射",
+    "直线传播"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_017_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "人站在平面镜前 2 m 处，人与镜中像的距离是多少？",
+   "explain": "像到镜面的距离等于人到镜面的距离 2 m，人与像相距 2 + 2 = 4 m。",
+   "options": [
+    "2 m",
+    "1 m",
+    "0 m",
+    "4 m"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_017_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "人走近平面镜时，镜中像的大小会怎样？",
+   "explain": "平面镜所成的像与物体大小相等，与距离无关；看起来变大只是视角变大。",
+   "options": [
+    "变大",
+    "变小",
+    "先变大后变小",
+    "不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_018_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "光从空气斜射入水中时，折射角与入射角相比怎样？",
+   "explain": "光从空气斜射入水或玻璃中，折射光线向法线偏折，折射角小于入射角。",
+   "options": [
+    "折射角大于入射角",
+    "折射角小于入射角",
+    "折射角等于入射角",
+    "折射角为 0"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_018_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "从岸上看清澈的池水，觉得比实际浅，这是什么原因？",
+   "explain": "池底反射的光从水中斜射入空气时发生折射，人看到的是变浅的虚像。",
+   "options": [
+    "光的反射",
+    "光的直线传播",
+    "光的折射",
+    "光的色散"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_019_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "光的三原色是哪三种？",
+   "explain": "色光的三原色是红、绿、蓝；红、黄、蓝是颜料的三原色。",
+   "options": [
+    "红、绿、蓝",
+    "红、黄、蓝",
+    "红、绿、黄",
+    "黄、绿、蓝"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_019_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "雨后天空出现彩虹，属于什么现象？",
+   "explain": "太阳光经过空中的小水珠折射后分解成各种色光，是色散。",
+   "options": [
+    "光的反射",
+    "光的色散",
+    "光的直线传播",
+    "平面镜成像"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_015_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "“光年”是什么物理量的单位？",
+   "explain": "光年是光在一年内传播的距离，是长度单位。",
+   "options": [
+    "长度（距离）",
+    "时间",
+    "速度",
+    "年份"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_015_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "小孔成像中，像的形状由什么决定？",
+   "explain": "小孔成像是光沿直线传播形成的倒立实像，像的形状与物体相同，与小孔形状无关。",
+   "options": [
+    "小孔的形状",
+    "光屏的形状",
+    "小孔的大小",
+    "物体的形状"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_016_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "如图，入射光线 AO 与镜面的夹角是 30°，反射角是多少？",
+   "explain": "入射角是入射光线与法线的夹角：90° - 30° = 60°，反射角也是 60°。直接把 30° 当入射角是常见错误。",
+   "options": [
+    "30°",
+    "120°",
+    "60°",
+    "90°"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_016_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在探究光的反射规律时，把纸板 F 向后折，就看不到反射光，这说明了什么？",
+   "explain": "纸板折转后不在同一平面内，就看不到反射光线，说明三线共面。",
+   "options": [
+    "反射角等于入射角",
+    "光路是可逆的",
+    "反射光线消失了",
+    "反射光线、入射光线和法线在同一平面内"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_017_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "探究平面镜成像特点时，用玻璃板代替平面镜，主要目的是什么？",
+   "explain": "玻璃板既能成像又能透光，可以看到后面的蜡烛，从而确定像的位置。",
+   "options": [
+    "使像更清晰",
+    "便于确定像的位置",
+    "使像变大",
+    "能成实像"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_017_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在像的位置放一块光屏，光屏上能看到像吗？",
+   "explain": "平面镜成的是虚像，不是实际光线会聚而成，光屏承接不到。",
+   "options": [
+    "能，成的是实像",
+    "能，但像是倒立的",
+    "只有在暗室里能",
+    "不能，平面镜成的是虚像"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_018_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "光从空气垂直射入玻璃中时，折射角是多少？",
+   "explain": "垂直入射时入射角是 0°，传播方向不变，折射角也是 0°。",
+   "options": [
+    "90°",
+    "45°",
+    "0°",
+    "大于 0° 的某个角"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_018_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "渔民用鱼叉叉鱼时，应该对准看到的鱼的哪个位置？",
+   "explain": "看到的是鱼变浅的虚像，实际的鱼在像的下方，所以要叉向下方。",
+   "options": [
+    "看到的鱼的上方",
+    "看到的鱼的下方",
+    "正对看到的鱼",
+    "看到的鱼的左方"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_019_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "电视机遥控器发出的是什么光？",
+   "explain": "遥控器利用看不见的红外线传递信号；验钞机用紫外线。",
+   "options": [
+    "紫外线",
+    "红光",
+    "红外线",
+    "X 射线"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_019_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "在暗室里用红光照一件白色衬衫，看到衬衫是什么颜色？",
+   "explain": "白色物体反射所有色光，红光照射时只反射红光，看起来是红色。",
+   "options": [
+    "白色",
+    "黑色",
+    "绿色",
+    "红色"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_020_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "中间厚、边缘薄的透镜叫什么？",
+   "explain": "中间厚边缘薄的是凸透镜，中间薄边缘厚的是凹透镜。",
+   "options": [
+    "凹透镜",
+    "凸透镜",
+    "平面镜",
+    "三棱镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_020_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "平行于主光轴的光经过凸透镜后会怎样？",
+   "explain": "凸透镜对光有会聚作用，平行于主光轴的光经折射后会聚于焦点。",
+   "options": [
+    "发散开",
+    "会聚于焦点",
+    "传播方向不变",
+    "原路返回"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_021_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "照相机成的是什么像？",
+   "explain": "照相机物距大于 2 倍焦距，成倒立、缩小的实像。",
+   "options": [
+    "倒立、放大的实像",
+    "正立、放大的虚像",
+    "倒立、缩小的实像",
+    "正立、缩小的虚像"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_021_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用放大镜看邮票时，看到的是什么像？",
+   "explain": "物体在放大镜焦点以内时，成正立、放大的虚像。",
+   "options": [
+    "倒立、放大的实像",
+    "正立、缩小的虚像",
+    "正立、放大的虚像",
+    "倒立、缩小的实像"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_022_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "凸透镜焦距 10 cm，蜡烛放在离透镜 30 cm 处，成什么像？",
+   "explain": "u = 30 cm > 2f = 20 cm，成倒立、缩小的实像。",
+   "options": [
+    "倒立、放大的实像",
+    "正立、放大的虚像",
+    "不成像",
+    "倒立、缩小的实像"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_022_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "凸透镜焦距 10 cm，物体放在离透镜 15 cm 处，成什么像？",
+   "explain": "f < u = 15 cm < 2f，成倒立、放大的实像。",
+   "options": [
+    "倒立、放大的实像",
+    "倒立、缩小的实像",
+    "正立、放大的虚像",
+    "正立、缩小的实像"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_023_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "近视眼应该配戴什么透镜矫正？",
+   "explain": "近视眼晶状体太厚、折光能力太强，像成在视网膜前方，用发散的凹透镜矫正。",
+   "options": [
+    "凸透镜",
+    "平面镜",
+    "三棱镜",
+    "凹透镜"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_023_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "物体在正常眼睛的视网膜上成什么像？",
+   "explain": "眼睛相当于照相机，在视网膜上成倒立、缩小的实像。",
+   "options": [
+    "倒立、缩小的实像",
+    "正立、缩小的实像",
+    "倒立、放大的实像",
+    "正立、放大的虚像"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_024_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "由两个凸透镜组成的望远镜，靠近眼睛的透镜叫什么？",
+   "explain": "靠近眼睛的是目镜，靠近被观察物体的是物镜。",
+   "options": [
+    "物镜",
+    "目镜",
+    "反光镜",
+    "凹透镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_024_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "望远镜的物镜对远处物体成什么像？",
+   "explain": "远处物体在物镜 2 倍焦距以外，物镜成倒立、缩小的实像。",
+   "options": [
+    "正立、放大的虚像",
+    "倒立、缩小的实像",
+    "倒立、放大的实像",
+    "正立、缩小的虚像"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_020_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "通过凸透镜光心的光线，经过透镜后传播方向怎样？",
+   "explain": "过光心的光线传播方向不改变。",
+   "options": [
+    "向主光轴偏折",
+    "不变",
+    "远离主光轴偏折",
+    "会聚于焦点"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_020_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用一个凸透镜正对太阳光，在离透镜 10 cm 处得到最小最亮的光斑，该透镜的焦距约是多少？",
+   "explain": "最小最亮的光斑就是焦点，焦点到光心的距离是焦距，约 10 cm。",
+   "options": [
+    "10 cm",
+    "20 cm",
+    "5 cm",
+    "无法确定"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_021_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "投影仪在屏幕上成的是什么像？",
+   "explain": "投影仪物距在 1 倍和 2 倍焦距之间，成倒立、放大的实像，所以投影片要倒着放。",
+   "options": [
+    "倒立、放大的实像",
+    "正立、放大的虚像",
+    "倒立、缩小的实像",
+    "正立、放大的实像"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_021_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "实像和虚像最主要的区别是什么？",
+   "explain": "实像由实际光线会聚而成，能在光屏上呈现；虚像不能。",
+   "options": [
+    "实像都是放大的",
+    "虚像都是倒立的",
+    "实像能用光屏承接，虚像不能",
+    "实像只能用眼睛看到"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_022_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "成实像时，把蜡烛向凸透镜靠近，光屏应怎样移动才能再次得到清晰的像？",
+   "explain": "成实像时物近像远像变大。",
+   "options": [
+    "靠近透镜，像变小",
+    "远离透镜，像变小",
+    "远离透镜，像变大",
+    "不用移动"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_022_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "物体离凸透镜 20 cm 时，在光屏上得到倒立、缩小的实像，透镜的焦距可能是多少？",
+   "explain": "成倒立缩小实像要求 u > 2f，即 20 cm > 2f，f < 10 cm，只有 8 cm 满足。f = 10 cm 时成等大的像。",
+   "options": [
+    "10 cm",
+    "15 cm",
+    "8 cm",
+    "25 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_023_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "远视眼看近处物体时，像成在什么位置？",
+   "explain": "远视眼晶状体折光能力太弱，近处物体的像成在视网膜后方，用凸透镜矫正。",
+   "options": [
+    "视网膜前方",
+    "视网膜上",
+    "视网膜后方",
+    "晶状体上"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_023_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "长时间近距离看手机，容易使晶状体怎样变化而形成近视？",
+   "explain": "长时间看近处，睫状体疲劳，晶状体变厚、折光能力变强，远处物体的像成在视网膜前。",
+   "options": [
+    "变厚，折光能力变强",
+    "变薄，折光能力变弱",
+    "变厚，折光能力变弱",
+    "不发生变化"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_024_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "望远镜的目镜起什么作用？",
+   "explain": "物镜所成的像在目镜焦点以内，目镜成正立、放大的虚像。",
+   "options": [
+    "相当于照相机",
+    "相当于投影仪",
+    "把光线发散掉",
+    "相当于放大镜，把物镜成的像放大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_024_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用两个凸透镜做望远镜，手上有焦距 50 cm 和 5 cm 的透镜，物镜应选哪一个？",
+   "explain": "开普勒望远镜的物镜焦距长、目镜焦距短，物镜选 50 cm 的透镜。",
+   "options": [
+    "焦距 5 cm 的透镜",
+    "焦距 50 cm 的透镜",
+    "两个都可以",
+    "必须用凹透镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_025_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一名中学生的质量大约是多少？",
+   "explain": "中学生质量约 50 kg；估测是本节要求之一。",
+   "options": [
+    "50 g",
+    "500 kg",
+    "5 kg",
+    "50 kg"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_025_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一块冰熔化成水后，质量怎样变化？",
+   "explain": "质量是物体的属性，不随状态改变；冰熔化后体积变小，但质量不变。",
+   "options": [
+    "变大",
+    "变小",
+    "不变",
+    "无法确定"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_026_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "水的密度是 1.0×10³ kg/m³，它的物理意义是什么？",
+   "explain": "密度表示单位体积的某种物质的质量。",
+   "options": [
+    "1 kg 的水体积是 1.0×10³ m³",
+    "1 m³ 的水质量是 1.0 kg",
+    "水的质量是 1.0×10³ kg",
+    "1 m³ 的水质量是 1.0×10³ kg"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_026_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "一块金属质量 54 g，体积 20 cm³，它的密度是多少？",
+   "explain": "ρ = m/V = 54 g ÷ 20 cm³ = 2.7 g/cm³（铝）。",
+   "options": [
+    "1080 g/cm³",
+    "2.7 g/cm³",
+    "0.37 g/cm³",
+    "2.7 kg/m³"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_027_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "用量筒测水的体积，读数时视线应怎样？",
+   "explain": "量筒读数时视线要与凹液面最低处相平；俯视读数偏大，仰视读数偏小。",
+   "options": [
+    "与凹液面的顶部相平",
+    "与凹液面的底部相平",
+    "从上往下俯视",
+    "从下往上仰视"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_027_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "1 mL 等于多少 cm³？",
+   "explain": "1 mL = 1 cm³，1 L = 1000 mL = 1 dm³。",
+   "options": [
+    "1 cm³",
+    "1000 cm³",
+    "0.001 cm³",
+    "10 cm³"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_028_q1",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 1,
+   "answer_mode": "number",
+   "stem": "一块冰的体积是 2 m³，冰的密度取 0.9×10³ kg/m³，它的质量是多少 kg？（只填数值）",
+   "explain": "m = ρV = 900 × 2 = 1800 kg。",
+   "answer": 1800
+  },
+  {
+   "id": "cnp_028_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "冬天室外的自来水管容易冻裂，原因是什么？",
+   "explain": "冰的密度比水小，质量不变时体积变大，把水管胀裂。",
+   "options": [
+    "水结冰后质量变大",
+    "水结冰后质量不变、体积变大",
+    "水结冰后密度变大",
+    "水管遇冷变大"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_025_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "用天平称物体，右盘砝码 50 g、20 g、5 g 各一个，游码示数 2.4 g，物体质量是多少？",
+   "explain": "物体质量 = 砝码总质量 + 游码示数 = 75 + 2.4 = 77.4 g。",
+   "options": [
+    "75 g",
+    "72.6 g",
+    "77.4 g",
+    "77 g"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_025_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "调节天平横梁平衡时，指针偏向分度盘左侧，平衡螺母应怎样调？",
+   "explain": "调节横梁平衡时“左偏右调、右偏左调”；称量过程中才通过加减砝码、移动游码来平衡。",
+   "options": [
+    "向右调",
+    "向左调",
+    "移动游码",
+    "在右盘加砝码"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_026_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "把一瓶油用去一半，剩下的油密度怎样？",
+   "explain": "密度是物质的特性，与质量、体积无关；质量和体积都减半，比值不变。",
+   "options": [
+    "变为原来的一半",
+    "变为原来的 2 倍",
+    "无法判断",
+    "不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_026_q4",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "2.7 g/cm³ 等于多少 kg/m³？（只填数值）",
+   "explain": "1 g/cm³ = 1000 kg/m³，所以 2.7 g/cm³ = 2700 kg/m³。",
+   "answer": 2700
+  },
+  {
+   "id": "cnp_027_q2",
+   "unit": "u6",
+   "type": "numeric",
+   "skill": "number",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "量筒中原有水 40 mL，放入一块小石块后水面到 60 mL，石块质量 52 g。石块密度是多少 g/cm³？（只填数值）",
+   "explain": "V = 60 - 40 = 20 mL = 20 cm³，ρ = 52 ÷ 20 = 2.6 g/cm³。",
+   "answer": 2.6
+  },
+  {
+   "id": "cnp_027_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "测盐水密度时，下列步骤顺序误差最小的是哪一个？",
+   "explain": "前两种做法中烧杯或量筒壁会残留盐水，使体积或质量偏小；用剩余法算倒出部分的质量和体积，误差最小。",
+   "options": [
+    "先测空烧杯质量→再测烧杯和盐水总质量→全部倒入量筒读体积",
+    "先用量筒测体积→再倒入空烧杯测质量",
+    "只测烧杯和盐水总质量",
+    "测烧杯和盐水总质量→倒一部分入量筒读体积→测剩余盐水和烧杯质量"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_028_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一个金属块质量 158 g、体积 20 cm³，查表可知它可能是什么？",
+   "explain": "ρ = 158 ÷ 20 = 7.9 g/cm³，与铁的密度相同。",
+   "options": [
+    "铝（2.7 g/cm³）",
+    "铜（8.9 g/cm³）",
+    "铁（7.9 g/cm³）",
+    "铅（11.3 g/cm³）"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_028_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一个瓶子最多装 500 g 水，用它装酒精（0.8 g/cm³），最多能装多少？",
+   "explain": "瓶子容积 V = 500 g ÷ 1 g/cm³ = 500 cm³，装酒精 m = 0.8 × 500 = 400 g。",
+   "options": [
+    "500 g",
+    "625 g",
+    "400 g",
+    "800 g"
+   ],
+   "answer": 3
+  }
+ ]
+}
