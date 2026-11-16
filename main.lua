@@ -21,7 +21,10 @@ function StudyAssist:init()
     math.randomseed(os.time() + math.floor((os.clock() or 0) * 1000))
     self:onDispatcherRegisterActions()
     self.ui.menu:registerToMainMenu(self)
-    if not autostarted and os.getenv("STUDYASSIST_AUTOSTART") == "1" then
+    -- 开机自动进入：环境变量 STUDYASSIST_AUTOSTART=1
+    -- 兼容旧版配置名 KIDLEARN_AUTOSTART=1，避免升级后自动启动失效
+    local autostart_env = os.getenv("STUDYASSIST_AUTOSTART") or os.getenv("KIDLEARN_AUTOSTART")
+    if not autostarted and autostart_env == "1" then
         autostarted = true
         UIManager:scheduleIn(1, function() self:showMainView() end)
     end
