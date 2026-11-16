@@ -5,6 +5,8 @@
 
 > **打开 KOReader 就能练，一轮 10 题，约 5–10 分钟。** 不收集数据，不要求登录，也不需要手机 App 陪跑。
 
+> 本项目基于原作者 **[AvenGeeker](https://github.com/AvenGeeker)** 的开源项目 [KidLearn](https://github.com/AvenGeeker/kidlearn) 二次开发，署名与改动说明见[原项目与致谢](#原项目与致谢)。
+
 ## 目录
 
 - [功能](#功能)
@@ -24,6 +26,7 @@
 - [代码结构](#代码结构)
 - [已知限制与常见问题](#已知限制与常见问题)
 - [参与贡献](#参与贡献)
+- [原项目与致谢](#原项目与致谢)
 - [许可](#许可)
 
 ---
@@ -761,8 +764,31 @@ SSS 是拓展挑战专属：先完成拓展挑战解锁挑战奖章，SSS 才会
 
 ---
 
+## 原项目与致谢
+
+本项目的**原作者是 [AvenGeeker](https://github.com/AvenGeeker)**，原始项目为 **KidLearn（小小学习家）**：
+
+| | 链接 |
+|---|---|
+| 原作者 | <https://github.com/AvenGeeker> |
+| 原项目仓库 | <https://github.com/AvenGeeker/kidlearn> |
+| 原项目 Releases | <https://github.com/AvenGeeker/kidlearn/releases> |
+| 原项目 Issues | <https://github.com/AvenGeeker/kidlearn/issues> |
+
+「学习助理」是在原作者 KidLearn 的基础上二次开发而来，沿用了它的整体架构与大量代码：KOReader 插件框架与主视图状态机、题库/知识点 JSON 结构、奖章、抽卡、错题本、每日总结等机制，以及全部内容构建脚本的基础。没有原项目，就不会有这个版本。本版的主要改动是：
+
+- 更名为「学习助理（StudyAssist）」，内部标识统一为 `studyassist`，更新源改为本仓库
+- 学科从小学语文、数学扩展到小初高 8 科（语文/数学/英语/物理/化学/生物/历史/地理）
+- 新增「今日挑战」（每次 10 题跨学科混合）与「背诵」（古诗接龙/作者/词义/短语，1310 张卡）
+- 新增英语单词默写与自定义词库（`settings/studyassist_words.lua`）
+- 首页与二级菜单布局针对 600×800 墨水屏重排，子页仅保留首页右上角关闭按钮
+
+如果本项目对你有帮助，也请给原项目点一个 **Star**，这是对原作者最直接的支持。
+
+---
+
 ## 许可
 
-插件代码跟随 KOReader 仓库的 **AGPL** 许可。
+插件代码跟随 KOReader 仓库的 **AGPL** 许可（上游 [AvenGeeker/KidLearn](https://github.com/AvenGeeker/kidlearn) 亦为此声明），并保留原作者署名与源码出处（见[原项目与致谢](#原项目与致谢)）；再分发或修改时请同样保留该署名。
 题目内容为原创或使用公版古诗/名句，不复制教材长课文。
 `data/knowledge/` 下的知识图谱与题目改编自 [cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)，采用 **CC BY-NC 4.0**（署名、非商业使用）；商业使用需另行取得源项目授权。
