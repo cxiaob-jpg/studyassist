@@ -174,6 +174,7 @@ local SKILL_LABEL = {
 -- up one level (e.g. knowledge card -> knowledge list -> home).
 local BACK_PARENT = {
     unit_select = "home",
+    challenge_menu = "home",
     kp_subject = "home",
     kp_select = "home",
     kp_learn = "kp_select",
@@ -342,6 +343,11 @@ function MainView:onBack()
     end
     if state == "card_detail" then
         self:leave_card_detail()
+        return
+    end
+    if state == "unit_select" and self.unit_context == "challenge" then
+        self.unit_context = nil
+        self:render_challenge_menu()
         return
     end
     local parent = BACK_PARENT[state] or "home"
@@ -686,7 +692,7 @@ function MainView:render_home()
                 width = challenge_w,
                 height = Screen:scaleBySize(h.row),
                 size = 24,
-                callback = function() self:start_session({ mode = "mixed", count = 10 }) end,
+                callback = function() self:render_challenge_menu() end,
             }),
             Widgets.hspace(Size.span.horizontal_default),
             Widgets.button("背诵", {
@@ -1435,9 +1441,106 @@ function MainView:render_word_done()
     self:set_body(content)
 end
 
-function MainView:render_unit_select(subject)
+--[[--
+今日挑战的二级菜单：按当前年级列出所有真正有内容的学科。
+
+数据源与混合出题（Session.build_mixed）完全一致 —— 都是
+Session.subjects_for() —— 所以这里显示的学科就是“今日挑战涵盖的所有学科”，
+不会再出现点进去提示暂无题库的情况。选完学科进三级菜单挑单元，每轮 10 题；
+第一行的“全部学科混合”则直接开始跨学科 10 题。
+--]]--
+function MainView:render_challenge_menu()
+    self.state = "challenge_menu"
+    self:set_title(_("今日挑战"))
+    local cw = Widgets.width()
+    local settings = self.progress.data.settings
+    local grade = tonumber(settings.grade) or 2
+    local semester = settings.semester
+    local entries = Session.subjects_for(self.plugin_path, grade, semester, settings)
+
+    local available, order = {}, {}
+    for _, entry in ipairs(entries) do
+        available[entry.subject] = entry
+        table.insert(order, entry.subject)
+    end
+
+    local content = VerticalGroup:new{
+        align = "center",
+        Widgets.label(string.format("%s%s · 覆盖 %d 个学科 · 每轮 10 题",
+            self:grade_label(), self:semester_label(), #order), {
+            size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
+        }),
+        Widgets.vspace(Size.span.vertical_default),
+        Widgets.button("全部学科混合（10 题）", {
+            width = cw,
+            height = Screen:scaleBySize(58),
+            size = 22,
+            callback = function() self:start_session({ mode = "mixed", count = 10 }) end,
+        }),
+        Widgets.vspace(Size.span.vertical_default),
+        Widgets.label("按学科出题（每科 10 题）", {
+            size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
+        }),
+        Widgets.vspace(Size.span.vertical_default),
+    }
+
+    local half = math.floor((cw - Size.span.horizontal_default) / 2)
+    local row
+    for i, subject in ipairs(order) do
+        local entry = available[subject]
+        local button = Widgets.button(string.format("%s · %d 单元",
+            self:subject_label(subject), #(entry.units or {})), {
+            width = half,
+            height = Screen:scaleBySize(50),
+            size = 19,
+            callback = function() self:render_unit_select(subject, "challenge") end,
+        })
+        if i % 2 == 1 then
+            row = HorizontalGroup:new{ align = "center", button }
+            table.insert(content, row)
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        else
+            table.insert(row, Widgets.hspace(Size.span.horizontal_default))
+            table.insert(row, button)
+        end
+    end
+
+    local missing = {}
+    for _, subject in ipairs(SUBJECT_ORDER) do
+        if not available[subject] then
+            table.insert(missing, self:subject_label(subject))
+        end
+    end
+    if #missing > 0 then
+        table.insert(content, Widgets.label("本学习阶段暂无：" .. table.concat(missing, "、"), {
+            size = 16, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+
+    table.insert(content, Widgets.button("返回首页", {
+        width = cw,
+        height = Screen:scaleBySize(48),
+        size = 20,
+        callback = function() self:render_home() end,
+    }))
+    self:set_body(ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    })
+end
+
+--[[--
+学科的三级菜单：选单元出题（每轮 10 题）。context == "challenge" 时从今日
+挑战进来，标题与返回目标都指回学科选择页。
+--]]--
+function MainView:render_unit_select(subject, context)
     self.state = "unit_select"
-    self:set_title(self:subject_label(subject) .. "练习")
+    self.unit_context = context
+    local from_challenge = context == "challenge"
+    self:set_title(from_challenge and (_("今日挑战 · ") .. self:subject_label(subject))
+        or (self:subject_label(subject) .. _("练习")))
     local cw = Widgets.width()
     local settings = self.progress.data.settings
     local semester = settings.semester
@@ -1454,7 +1557,7 @@ function MainView:render_unit_select(subject)
                 text = stage_missing_text(self.plugin_path, subject, grade, semester),
                 timeout = 5,
             })
-            self:render_home()
+            if from_challenge then self:render_challenge_menu() else self:render_home() end
             return
         end
         units = Bank.units(self.plugin_path, subject, grade, semester, edition)
@@ -1473,7 +1576,7 @@ function MainView:render_unit_select(subject)
             end
             if not loaded then
                 UIManager:show(InfoMessage:new{ text = "题库加载失败：" .. tostring(err) })
-                self:render_home()
+                if from_challenge then self:render_challenge_menu() else self:render_home() end
                 return
             end
             units = loaded.units
@@ -1482,9 +1585,10 @@ function MainView:render_unit_select(subject)
         units = MathGen.units(grade, edition, semester) or MathGen.units(semester)
     end
 
+    local range_hint = from_challenge and "选择练习范围 · 每轮 10 题" or "选择练习范围"
     local content = VerticalGroup:new{
         align = "center",
-        Widgets.label(string.format("%s%s · %s · 选择练习范围", self:grade_label(), self:semester_label(), self:edition_name(subject)), {
+        Widgets.label(string.format("%s%s · %s · %s", self:grade_label(), self:semester_label(), self:edition_name(subject), range_hint), {
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
@@ -1492,7 +1596,9 @@ function MainView:render_unit_select(subject)
             width = cw,
             height = Screen:scaleBySize(60),
             size = 22,
-            callback = function() self:start_session({ mode = "subject", subject = subject, unit = "all" }) end,
+            callback = function()
+                self:start_session({ mode = "subject", subject = subject, unit = "all", challenge = from_challenge })
+            end,
         }),
         Widgets.vspace(Size.span.vertical_default),
     }
@@ -1515,7 +1621,7 @@ function MainView:render_unit_select(subject)
             height = Screen:scaleBySize(52),
             size = 19,
             callback = function()
-                self:start_session({ mode = "subject", subject = subject, unit = unit.id })
+                self:start_session({ mode = "subject", subject = subject, unit = unit.id, challenge = from_challenge })
             end,
         })
         if i % 2 == 1 then
@@ -1527,11 +1633,13 @@ function MainView:render_unit_select(subject)
             table.insert(row, button)
         end
     end
-    table.insert(content, Widgets.button("返回首页", {
+    table.insert(content, Widgets.button(from_challenge and "返回学科选择" or "返回首页", {
         width = cw,
         height = Screen:scaleBySize(48),
         size = 20,
-        callback = function() self:render_home() end,
+        callback = function()
+            if from_challenge then self:render_challenge_menu() else self:render_home() end
+        end,
     }))
     self:set_body(content)
 end
@@ -1572,6 +1680,9 @@ end
 
 function MainView:quiz_title()
     if self.session.mode == "mixed" or self.session.mode == "daily" then return "今日挑战" end
+    if self.last_session_opts and self.last_session_opts.challenge then
+        return "今日挑战 · " .. self:subject_label(self.session.subject)
+    end
     if self.session.mode == "wrong" then return "错题复习" end
     if self.session.mode == "ai" then return "AI 强化" end
     if self.session.mode == "challenge" then return "数学拓展" end
