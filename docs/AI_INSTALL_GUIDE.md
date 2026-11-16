@@ -5,7 +5,7 @@
 > **耗时**：约 30–60 分钟（大头是等 Kindle 重启）。
 > **费用**：插件本身免费、默认离线；AI 出题是可选功能，用你自己的 API Key，按服务商计费（一轮通常几分钱到几毛钱）。
 >
-> - 插件主页：<https://github.com/cxiaob/studyassist>
+> - 插件主页：<https://github.com/cxiaob-jpg/studyassist>
 > - 教程快照日期：**2026-11-14**（越狱方法与固件范围有时效性，AI 执行时请按附录 D 核对最新数据）
 > - 下载链接使用「最新 Release」稳定地址，长期有效，不绑定某个版本号。
 
@@ -53,7 +53,7 @@
 请一步步问我需要的信息，带我把插件装好。
 ```
 
-> 本文件在线地址：<https://github.com/cxiaob/studyassist/blob/main/docs/AI_INSTALL_GUIDE.md>
+> 本文件在线地址：<https://github.com/cxiaob-jpg/studyassist/blob/main/docs/AI_INSTALL_GUIDE.md>
 
 ### 0.3 你和 AI 的分工
 
@@ -418,20 +418,20 @@ gio mount -li 2>/dev/null | grep -i -B2 -A6 kindle
 稳定链接（永远指向最新 Release，约 4 MB）：
 
 ```text
-https://github.com/cxiaob/studyassist/releases/latest/download/studyassist.koplugin.zip
+https://github.com/cxiaob-jpg/studyassist/releases/latest/download/studyassist.koplugin.zip
 ```
 
 ```bash
 # macOS / Linux
 cd ~/Downloads
-curl -L --retry 3 -o studyassist.koplugin.zip "https://github.com/cxiaob/studyassist/releases/latest/download/studyassist.koplugin.zip"
+curl -L --retry 3 -o studyassist.koplugin.zip "https://github.com/cxiaob-jpg/studyassist/releases/latest/download/studyassist.koplugin.zip"
 unzip -o studyassist.koplugin.zip
 ```
 
 ```powershell
 # Windows PowerShell
 cd $HOME\Downloads
-Invoke-WebRequest -Uri "https://github.com/cxiaob/studyassist/releases/latest/download/studyassist.koplugin.zip" -OutFile studyassist.koplugin.zip
+Invoke-WebRequest -Uri "https://github.com/cxiaob-jpg/studyassist/releases/latest/download/studyassist.koplugin.zip" -OutFile studyassist.koplugin.zip
 Expand-Archive -Path studyassist.koplugin.zip -DestinationPath . -Force
 ```
 
@@ -631,9 +631,9 @@ AI 请逐项确认：
 
 | 用途 | 链接 |
 | --- | --- |
-| StudyAssist 插件仓库 | <https://github.com/cxiaob/studyassist> |
-| StudyAssist 插件包（最新 Release，稳定链接） | <https://github.com/cxiaob/studyassist/releases/latest/download/studyassist.koplugin.zip> |
-| StudyAssist Release 页 | <https://github.com/cxiaob/studyassist/releases> |
+| StudyAssist 插件仓库 | <https://github.com/cxiaob-jpg/studyassist> |
+| StudyAssist 插件包（最新 Release，稳定链接） | <https://github.com/cxiaob-jpg/studyassist/releases/latest/download/studyassist.koplugin.zip> |
+| StudyAssist Release 页 | <https://github.com/cxiaob-jpg/studyassist/releases> |
 | 越狱官方向导 | <https://kindlemodding.org/jailbreak-wizard.html> |
 | 越狱决策数据（机器可读） | <https://kindlemodding.org/jailbreaks.json> |
 | 型号数据（机器可读） | <https://kindlemodding.org/models.json> |
@@ -677,8 +677,8 @@ AI 请逐项确认：
   "guide_snapshot": "2026-11-14",
   "plugin": {
     "name": "studyassist",
-    "repo": "https://github.com/cxiaob/studyassist",
-    "download_url": "https://github.com/cxiaob/studyassist/releases/latest/download/studyassist.koplugin.zip",
+    "repo": "https://github.com/cxiaob-jpg/studyassist",
+    "download_url": "https://github.com/cxiaob-jpg/studyassist/releases/latest/download/studyassist.koplugin.zip",
     "zip_top_level": "studyassist.koplugin/",
     "install_dir": "<kindle_root>/koreader/plugins/studyassist.koplugin/",
     "required_file": "main.lua",
@@ -766,4 +766,4 @@ AI 请逐项确认：
 - 越狱决策数据于 **2026-11-14** 从 kindlemodding.org 抓取核对（`jailbreaks.json` / `models.json` / 各方法页面）。越狱方法与固件范围随时间变化：**AI 执行时若当前日期晚于快照日期，或用户固件不在决策表内，必须重新抓取上述 JSON 或使用官方向导**，不要依赖过期快照。
 - KOReader 安装方式参考 KOReader 官方 wiki《Installation-on-Kindle-devices》（2026-08 版）与 Releases 页。
 - 插件行为（安装路径、配置导入、更新器）以 StudyAssist 仓库 README 与源码为准。
-- 插件问题请到 <https://github.com/cxiaob/studyassist/issues>；越狱问题请到 KindleModding Discord / Reddit r/kindlejailbreak（教程附录 A 的 wiki 首页有入口）。
+- 插件问题请到 <https://github.com/cxiaob-jpg/studyassist/issues>；越狱问题请到 KindleModding Discord / Reddit r/kindlejailbreak（教程附录 A 的 wiki 首页有入口）。

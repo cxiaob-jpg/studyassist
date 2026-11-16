@@ -35,7 +35,7 @@ local Update = {}
 --- Sentinel error string reported when the user cancels a download.
 Update.CANCELLED = UpdateHttp.CANCELLED
 
-local DEFAULT_API_URL = "https://api.github.com/repos/cxiaob/studyassist/releases/latest"
+local DEFAULT_API_URL = "https://api.github.com/repos/cxiaob-jpg/studyassist/releases/latest"
 local ASSET_NAME = "studyassist.koplugin.zip"
 local TOP_DIR = "studyassist.koplugin"
 local STAGING_NAME = ".studyassist_update"

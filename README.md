@@ -115,7 +115,7 @@
 
 - 版本号唯一来源是 `_meta.lua` 的 `version`（如 `1.3.2`）。
 - 在 GitHub 发 Release：tag 用 `vX.Y.Z`，附件名严格为 `studyassist.koplugin.zip`（用 `tools/studyassist/package_plugin.sh` 生成，包内顶层是 `studyassist.koplugin/`）。
-- 插件用 `https://api.github.com/repos/cxiaob/studyassist/releases/latest` 检查，只认稳定版（不含 draft/prerelease）。
+- 插件用 `https://api.github.com/repos/cxiaob-jpg/studyassist/releases/latest` 检查，只认稳定版（不含 draft/prerelease）。
 - 想验证更新流程：发一个比当前更高的 tag（如当前 1.3.2，发 v1.3.3）。
 
 ### 注意
