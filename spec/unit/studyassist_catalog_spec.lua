@@ -23,11 +23,11 @@ describe("StudyAssist textbook catalog", function()
         end
         assert.are.equal(6, #Catalog.grades(plugin_path))
         assert.are.equal(1, #Catalog.editions(plugin_path, "chinese"))
-        assert.are.equal(5, #Catalog.editions(plugin_path, "math"))
+        assert.are.equal(8, #Catalog.editions(plugin_path, "math"))
     end)
 
     it("maps provinces to a recommended math edition", function()
-        assert.are.equal("sujiao", Catalog.recommended_math(plugin_path, "jiangsu"))
+        assert.are.equal("sujiao2024", Catalog.recommended_math(plugin_path, "jiangsu"))
         assert.are.equal("qingdao", Catalog.recommended_math(plugin_path, "shandong"))
         assert.are.equal("hujiao", Catalog.recommended_math(plugin_path, "shanghai"))
         assert.are.equal("renjiao", Catalog.recommended_math(plugin_path, "beijing"))

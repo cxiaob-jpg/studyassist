@@ -222,7 +222,7 @@ function Progress:normalize()
     if settings.grade < 1 then settings.grade = 1 elseif settings.grade > 6 then settings.grade = 6 end
     if type(settings.province) ~= "string" or settings.province == "" then settings.province = "other" end
     local chinese_editions = { tongbian = true }
-    local math_editions = { renjiao = true, beishida = true, sujiao = true, qingdao = true, hujiao = true }
+    local math_editions = { renjiao = true, beishida = true, sujiao = true, sujiao2024 = true, qingdao = true, hujiao = true }
     if type(settings.chinese_edition) ~= "string" or not chinese_editions[settings.chinese_edition] then
         settings.chinese_edition = "tongbian"
     end

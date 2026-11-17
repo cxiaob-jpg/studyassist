@@ -45,7 +45,7 @@ def main():
 
     expected_editions = {
         "chinese": {"tongbian"},
-        "math": {"renjiao", "beishida", "sujiao", "qingdao", "hujiao", "junior", "senior"},
+        "math": {"renjiao", "beishida", "sujiao", "sujiao2024", "qingdao", "hujiao", "junior", "senior"},
         "english": {"pep", "renjiao", "renjiao-senior"},
         "physics": {"renjiao"},
         "chemistry": {"renjiao"},
