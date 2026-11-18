@@ -441,6 +441,14 @@ function MainView:city_label()
     return city and city.name or "不指定（按省份推荐）"
 end
 
+-- 四分格按钮用的短城市名；没选城市时只留占位
+function MainView:city_short_label()
+    local settings = self.progress.data.settings
+    if not settings.city then return "城市" end
+    local city = Catalog.city(self.plugin_path, settings.province, settings.city)
+    return city and city.name or "城市"
+end
+
 -- 省市年级 -> 教材匹配结果（城市为空时返回 nil）。
 local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
 
@@ -3592,32 +3600,28 @@ function MainView:render_settings()
         callback = function() self:render_ai_settings() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("省份：%s", (Catalog.province(self.plugin_path, settings.province) or {}).name or "其他/不指定"), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_province_select() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("城市：%s", self:city_label()), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_city_select() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("年级：%s", self:grade_label()), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_grade_select() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("学期：%s", self:semester_label()), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
+    -- 省份 / 城市 / 年级 / 学期 一行四等份
+    local gap4 = Screen:scaleBySize(8)
+    local tile_w4 = math.floor((cw - 3 * gap4) / 4)
+    local function pick4(text, callback)
+        return Widgets.button(text, {
+            width = tile_w4,
+            height = Screen:scaleBySize(54),
+            align = "center",
+            size = 18,
+            callback = callback,
+        })
+    end
+    table.insert(content, HorizontalGroup:new{
+        align = "center",
+        pick4((Catalog.province(self.plugin_path, settings.province) or {}).name or "省份",
+            function() self:render_province_select() end),
+        Widgets.hspace(gap4),
+        pick4(self:city_short_label(), function() self:render_city_select() end),
+        Widgets.hspace(gap4),
+        pick4(self:grade_label(), function() self:render_grade_select() end),
+        Widgets.hspace(gap4),
+        pick4(self:semester_label(), function()
             settings.semester = settings.semester == "upper" and "lower" or "upper"
             self.progress:flush()
             -- 上下册可能是不同版次（如数学一上 2024秋版 / 一下 2025春版），要重新匹配
@@ -3627,8 +3631,8 @@ function MainView:render_settings()
             else
                 self:render_settings()
             end
-        end,
-    }))
+        end),
+    })
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     -- 教材：八个科目两列排，一行两科
     local gap = Screen:scaleBySize(8)
