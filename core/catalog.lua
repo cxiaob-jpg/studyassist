@@ -60,6 +60,38 @@ function Catalog.recommended_math(plugin_path, province_id)
     return province and province.default_math or "renjiao"
 end
 
+-- City-level textbook mapping (data/cities.json). 每座城市记录各学科实际使用的
+-- 出版社版本，用于在设置里选完城市后自动预选教材版本。
+local city_cache = {}
+
+function Catalog.cities_data(plugin_path)
+    if not plugin_path or plugin_path == "" then return nil end
+    if city_cache[plugin_path] ~= nil then
+        return city_cache[plugin_path] or nil
+    end
+    local data = read_json(plugin_path .. "/data/cities.json")
+    if not data or type(data.provinces) ~= "table" then
+        city_cache[plugin_path] = false
+        return nil
+    end
+    city_cache[plugin_path] = data
+    return data
+end
+
+function Catalog.cities(plugin_path, province_id)
+    local data = Catalog.cities_data(plugin_path)
+    local province = data and data.provinces and data.provinces[province_id]
+    return province and province.cities or {}
+end
+
+function Catalog.city(plugin_path, province_id, city_id)
+    if not city_id then return nil end
+    for _, city in ipairs(Catalog.cities(plugin_path, province_id)) do
+        if city.id == city_id then return city end
+    end
+    return nil
+end
+
 function Catalog.editions(plugin_path, subject)
     local data = Catalog.load(plugin_path)
     if not data then return {} end

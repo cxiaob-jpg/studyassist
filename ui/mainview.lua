@@ -433,6 +433,14 @@ function MainView:edition_name(subject)
     return Catalog.edition_name(self.plugin_path, subject, settings_edition(settings, subject))
 end
 
+-- 当前城市的显示名；未选择时提示按省份推荐。
+function MainView:city_label()
+    local settings = self.progress.data.settings
+    if not settings.city then return "不指定（按省份推荐）" end
+    local city = Catalog.city(self.plugin_path, settings.province, settings.city)
+    return city and city.name or "不指定（按省份推荐）"
+end
+
 function MainView:course_label()
     return string.format("%s%s · %s · %s", self:grade_label(), self:semester_label(),
         self:edition_name("chinese"), self:edition_name("math"))
@@ -3174,15 +3182,76 @@ function MainView:render_province_select()
     end
     self:render_choice_list("选择省份", items, function(item)
         settings.province = item.id
+        settings.city = nil
         settings.math_edition = Catalog.recommended_math(self.plugin_path, item.id)
         self.progress:flush()
         UIManager:show(InfoMessage:new{
-            text = string.format("已选择%s，数学教材推荐为%s，可在设置中修改。",
+            text = string.format("已选择%s，数学教材推荐为%s，可在设置中修改；选城市可自动匹配语文/数学/英语版本。",
                 item.name, Catalog.edition_name(self.plugin_path, "math", settings.math_edition)),
-            timeout = 3,
+            timeout = 4,
         })
         self:render_settings()
     end)
+end
+
+-- 城市 -> 插件学科键（只有这三科支持用户切换版本）
+local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
+
+function MainView:render_city_select()
+    local settings = self.progress.data.settings
+    local cities = Catalog.cities(self.plugin_path, settings.province)
+    if #cities == 0 then
+        UIManager:show(InfoMessage:new{
+            text = "请先在设置里选择省份。", timeout = 3,
+        })
+        self:render_settings()
+        return
+    end
+    local items = {
+        { id = "", name = "不指定（按省份推荐）", selected = not settings.city },
+    }
+    for _, city in ipairs(cities) do
+        table.insert(items, {
+            id = city.id,
+            name = city.name,
+            selected = settings.city == city.id,
+        })
+    end
+    self:render_choice_list("选择城市", items, function(item)
+        if item.id == "" then
+            settings.city = nil
+            self.progress:flush()
+            self:render_settings()
+            return
+        end
+        self:apply_city(item.id)
+    end)
+end
+
+-- 按城市数据自动写入语文/数学/英语版本，并提示插件未收录的版本。
+function MainView:apply_city(city_id)
+    local settings = self.progress.data.settings
+    local city = Catalog.city(self.plugin_path, settings.province, city_id)
+    if not city then return end
+    settings.city = city.id
+    local applied = {}
+    for subject, edition in pairs(city.editions or {}) do
+        local key = CITY_SUBJECTS[subject]
+        if key then
+            settings[key .. "_edition"] = edition
+            table.insert(applied, string.format("%s %s", self:subject_label(key),
+                Catalog.edition_name(self.plugin_path, key, edition)))
+        end
+    end
+    table.sort(applied)
+    self.progress:flush()
+    local text = string.format("已按%s匹配：%s", city.name, table.concat(applied, " · "))
+    local notes = city.notes or {}
+    if #notes > 0 then
+        text = text .. "\n注意：" .. table.concat(notes, "、") .. "（插件暂未收录该版本）"
+    end
+    UIManager:show(InfoMessage:new{ text = text, timeout = 6 })
+    self:render_settings()
 end
 
 function MainView:render_grade_select()
@@ -3370,6 +3439,13 @@ function MainView:render_settings()
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function() self:render_province_select() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button(string.format("城市：%s", self:city_label()), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:render_city_select() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button(string.format("年级：%s", self:grade_label()), {

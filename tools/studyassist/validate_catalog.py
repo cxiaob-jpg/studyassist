@@ -127,6 +127,32 @@ def main():
     if CATALOG.get("grades") != [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]:
         err(f"catalog grades {CATALOG.get('grades')} != 1..12")
 
+    # 城市教材映射：province/city 必须存在，版本 id 必须在该学科里定义。
+    city_file = PLUGIN / "data" / "cities.json"
+    if city_file.exists():
+        cities = json.loads(city_file.read_text(encoding="utf-8"))
+        pids = {p["id"] for p in CATALOG["provinces"]}
+        city_subject = {"yuwen": "chinese", "shuxue": "math", "yingyu": "english",
+                        "wuli": "physics", "huaxue": "chemistry", "shengwu": "biology",
+                        "lishi": "history", "dili": "geography"}
+        n_city = 0
+        for pid, prov in cities.get("provinces", {}).items():
+            if pid not in pids:
+                err(f"cities.json: unknown province {pid}")
+            for city in prov.get("cities", []):
+                n_city += 1
+                if not city.get("name"):
+                    err(f"cities.json: {pid}/{city.get('id')} missing name")
+                for sub, edition in (city.get("editions") or {}).items():
+                    subject = city_subject.get(sub)
+                    if not subject:
+                        err(f"cities.json: {pid}/{city['id']} unknown subject {sub}")
+                        continue
+                    editions = (CATALOG["subjects"].get(subject) or {}).get("editions", {})
+                    if edition not in editions:
+                        err(f"cities.json: {pid}/{city['id']}/{sub} unknown edition {edition}")
+        print(f"cities.json: {n_city} cities checked")
+
     if errors:
         print(f"CATALOG ERRORS ({len(errors)}):")
         for item in errors[:100]:
