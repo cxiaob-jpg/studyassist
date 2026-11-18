@@ -483,16 +483,16 @@ function MainView:recommended_edition(subject)
     return nil
 end
 
--- 设置页教材行文案：显示当前这一册的版次；与推荐不一致时附带推荐值。
-function MainView:edition_row_label(subject)
+-- 两列布局下的教材按钮文案：只放科目 + 当前版本，如「统编版（2026秋）」。
+function MainView:edition_tile_label(subject)
     local current = settings_edition(self.progress.data.settings, subject)
-    local name = self:edition_name(subject) .. self:edition_term_suffix(subject, current)
-    local rec = self:recommended_edition(subject)
-    if rec and rec ~= current then
-        return string.format("%s（%s推荐：%s%s）", name, self:city_label(),
-            self:edition_name_of(subject, rec), self:edition_term_suffix(subject, rec))
+    if current and current ~= "" then
+        return self:edition_name_of(subject, current) .. self:edition_term_suffix(subject, current)
     end
-    return name
+    -- 源站版本插件未收录（如北京版英语），直接显示出版社名
+    local _, rec_pub = self:recommended_edition(subject)
+    if rec_pub and rec_pub ~= "" then return rec_pub end
+    return "未设置"
 end
 
 -- 版本显示名。通用版本（如初中数学 junior）本身没有固定出版社，
@@ -3613,27 +3613,6 @@ function MainView:render_settings()
         callback = function() self:render_grade_select() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("语文教材：%s", self:edition_row_label("chinese")), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_edition_select("chinese") end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("数学教材：%s", self:edition_row_label("math")), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_edition_select("math") end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("英语教材：%s", self:edition_row_label("english")), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_edition_select("english") end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button(string.format("学期：%s", self:semester_label()), {
         width = cw,
         height = Screen:scaleBySize(54),
@@ -3650,6 +3629,30 @@ function MainView:render_settings()
             end
         end,
     }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    -- 教材：八个科目两列排，一行两科
+    local gap = Screen:scaleBySize(8)
+    local tile_w = math.floor((cw - gap) / 2)
+    local function edition_tile(subject)
+        return Widgets.button(
+            string.format("%s %s", SUBJECT_LABEL[subject], self:edition_tile_label(subject)), {
+                width = tile_w,
+                height = Screen:scaleBySize(54),
+                align = "left",
+                size = 18,
+                callback = function() self:render_edition_select(subject) end,
+            })
+    end
+    for _, pair in ipairs({ { "chinese", "math" }, { "english", "physics" },
+                            { "chemistry", "biology" }, { "geography", "history" } }) do
+        table.insert(content, HorizontalGroup:new{
+            align = "center",
+            edition_tile(pair[1]),
+            Widgets.hspace(gap),
+            edition_tile(pair[2]),
+        })
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button(string.format("每日目标：%d 题", settings.daily_goal), {
         width = cw,
