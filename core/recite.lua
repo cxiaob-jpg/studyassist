@@ -26,8 +26,10 @@ end
 Recite.KINDS = {
     { id = "poem", subject = "chinese", label = "古诗接龙", hint = "看上半句，背下半句" },
     { id = "author", subject = "chinese", label = "古诗作者", hint = "看篇名，背作者" },
-    { id = "word", subject = "english", label = "英语单词", hint = "看单词，背中文" },
+    { id = "word", subject = "english", label = "英语单词", hint = "看中文，用键盘拼出英文" },
+    { id = "word_rev", subject = "english", label = "单词背诵", hint = "看中文，背英文" },
     { id = "phrase", subject = "english", label = "英语短语", hint = "看短语，背中文" },
+    { id = "sentence", subject = "english", label = "句型背诵", hint = "看中文，背整句" },
 }
 
 function Recite.deck(plugin_path, subject, grade, semester)
@@ -50,9 +52,28 @@ function Recite.cards(plugin_path, subject, grade, semester, kind)
     local deck = Recite.deck(plugin_path, subject, grade, semester)
     local out = {}
     if not deck then return out end
+    -- "word_rev" reuses the word deck flipped: 看中文，背英文.
+    local source_kind = kind
+    local reverse = false
+    if kind == "word_rev" then
+        source_kind = "word"
+        reverse = true
+    end
     for _, card in ipairs(deck.cards) do
-        if not kind or card.kind == kind then
-            table.insert(out, card)
+        if not source_kind or card.kind == source_kind then
+            if reverse then
+                if card.back and card.back ~= "" and card.front and card.front ~= "" then
+                    table.insert(out, {
+                        id = card.id .. "_rev",
+                        kind = "word_rev",
+                        front = card.back,
+                        back = card.front,
+                        note = card.note,
+                    })
+                end
+            else
+                table.insert(out, card)
+            end
         end
     end
     return out

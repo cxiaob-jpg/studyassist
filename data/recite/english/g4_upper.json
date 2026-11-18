@@ -1,1 +1,2983 @@
-{"subject":"english","grade":4,"semester":"upper","textbook":"人教版PEP（2022课标修订版，三年级起点）","cards":[{"id":"cne_p080_q1","kind":"word","front":"doctor","back":"医生","note":"doctor 的意思是医生。"},{"id":"cne_p080_q2","kind":"word","front":"nurse","back":"护士","note":"nurse 的意思是护士。"},{"id":"cne_p209_q1","kind":"word","front":"clean","back":"打扫","note":"clean 是打扫。"},{"id":"cne_p080_q3","kind":"word","front":"driver","back":"司机","note":"表示司机的单词是 driver。"},{"id":"cne_p080_q4","kind":"word","front":"farmer","back":"农民","note":"farmer 的意思是农民。"},{"id":"cne_p067_q1","kind":"word","front":"friend","back":"朋友","note":"friend 的意思是朋友。"},{"id":"cne_p067_q2","kind":"word","front":"strong","back":"强壮的","note":"strong 的意思是强壮的。"},{"id":"cne_p212_q1","kind":"word","front":"kind","back":"友好善良的","note":"kind 是善良友好的。"},{"id":"cne_p067_q3","kind":"word","front":"quiet","back":"安静的","note":"表示安静的的单词是 quiet。"},{"id":"cne_p067_q4","kind":"word","front":"friendly","back":"友好的","note":"friendly 的意思是友好的。"},{"id":"cne_p072_q1","kind":"word","front":"bedroom","back":"卧室","note":"bedroom 的意思是卧室。"},{"id":"cne_p072_q2","kind":"word","front":"kitchen","back":"厨房","note":"kitchen 的意思是厨房。"},{"id":"cne_p214_q1","kind":"word","front":"hospital","back":"医院","note":"hospital 是医院。"},{"id":"cne_p072_q3","kind":"word","front":"bathroom","back":"卫生间","note":"表示卫生间的单词是 bathroom。"},{"id":"cne_p072_q4","kind":"word","front":"study","back":"书房","note":"study 的意思是书房。"},{"id":"cne_p084_q1","kind":"word","front":"school","back":"学校","note":"school 的意思是学校。"},{"id":"cne_p084_q2","kind":"word","front":"playground","back":"操场","note":"playground 的意思是操场。"},{"id":"cne_p084_q3","kind":"word","front":"library","back":"图书馆","note":"表示图书馆的单词是 library。"},{"id":"cne_p084_q4","kind":"word","front":"computer","back":"计算机","note":"computer 的意思是计算机。"},{"id":"cne_p092_q1","kind":"word","front":"warm","back":"温暖的","note":"warm 的意思是温暖的。"},{"id":"cne_p092_q2","kind":"word","front":"cold","back":"寒冷的","note":"cold 的意思是寒冷的。"},{"id":"cne_p092_q3","kind":"word","front":"cool","back":"凉爽的","note":"表示凉爽的的单词是 cool。"},{"id":"cne_p092_q4","kind":"word","front":"hot","back":"炎热的","note":"hot 的意思是炎热的。"},{"id":"cne_p100_q1","kind":"word","front":"shirt","back":"衬衫","note":"shirt 的意思是衬衫。"},{"id":"cne_p100_q2","kind":"word","front":"dress","back":"连衣裙","note":"dress 的意思是连衣裙。"},{"id":"cne_p100_q3","kind":"word","front":"skirt","back":"裙子","note":"表示裙子的单词是 skirt。"},{"id":"cne_p100_q4","kind":"word","front":"pants","back":"裤子","note":"pants 的意思是裤子。"},{"id":"ph_cne_p082_q2","kind":"phrase","front":"baby brother","back":"小弟弟","note":""},{"id":"ph_cne_p209_q2","kind":"phrase","front":"cook","back":"做饭","note":""},{"id":"ph_cne_p210_q2","kind":"phrase","front":"wash the dishes","back":"洗碗","note":""},{"id":"ph_cne_p083_q4","kind":"phrase","front":"His father","back":"他的爸爸","note":""},{"id":"ph_cne_p209_q4","kind":"phrase","front":"sweep the floor","back":"扫地","note":""},{"id":"ph_cne_p211_q3","kind":"phrase","front":"I sweep","back":"扫地","note":""},{"id":"ph_cne_p212_q2","kind":"phrase","front":"helpful","back":"乐于助人","note":""},{"id":"ph_cne_p068_q4","kind":"phrase","front":"has glasses","back":"有眼镜","note":""},{"id":"ph_cne_p212_q3","kind":"phrase","front":"funny","back":"有趣的","note":""},{"id":"ph_cne_p212_q4","kind":"phrase","front":"honest","back":"诚实","note":""},{"id":"ph_cne_p075_q4","kind":"phrase","front":"They","back":"他们","note":""},{"id":"ph_cne_p214_q3","kind":"phrase","front":"park","back":"公园","note":""},{"id":"ph_cne_p215_q4","kind":"phrase","front":"buy fruit","back":"买水果","note":""},{"id":"ph_cne_p085_q1","kind":"phrase","front":"second","back":"第二，所以是第 2 层","note":""},{"id":"ph_cne_p085_q2","kind":"phrase","front":"first","back":"第一","note":""},{"id":"ph_cne_p086_q2","kind":"phrase","front":"first floor","back":"第一层","note":""},{"id":"ph_cne_p087_q1","kind":"phrase","front":"second floor","back":"第二层","note":""},{"id":"ph_cne_p087_q3","kind":"phrase","front":"next to the library","back":"在图书馆旁边。文字没有写楼层","note":""},{"id":"ph_cne_p094_q2","kind":"phrase","front":"It is warm","back":"天气暖和","note":""},{"id":"ph_cne_p219_q1","kind":"phrase","front":"umbrella","back":"雨伞","note":""},{"id":"ph_cne_p093_q3","kind":"phrase","front":"sunny","back":"晴朗","note":""},{"id":"ph_cne_p094_q3","kind":"phrase","front":"go outside","back":"出去","note":""},{"id":"ph_cne_p094_q4","kind":"phrase","front":"Have some water","back":"喝些水","note":""},{"id":"ph_cne_p218_q4","kind":"phrase","front":"snowy","back":"下雪","note":""},{"id":"ph_cne_p219_q4","kind":"phrase","front":"coat","back":"外套","note":""},{"id":"ph_cne_p220_q1","kind":"phrase","front":"make a snowman","back":"堆雪人","note":""},{"id":"ph_cne_p220_q2","kind":"phrase","front":"fly a kite","back":"放风筝","note":""},{"id":"ph_cne_p221_q1","kind":"phrase","front":"summer","back":"夏天","note":""},{"id":"ph_cne_p102_q4","kind":"phrase","front":"Put on your shirt","back":"穿上衬衫","note":""},{"id":"ph_cne_p221_q4","kind":"phrase","front":"jacket","back":"夹克","note":""}]}
+{
+ "subject": "english",
+ "grade": 4,
+ "semester": "upper",
+ "textbook": "人教版PEP（2022课标修订版，三年级起点）",
+ "cards": [
+  {
+   "id": "ph_cne_p082_q2",
+   "kind": "phrase",
+   "front": "baby brother",
+   "back": "小弟弟",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p209_q2",
+   "kind": "phrase",
+   "front": "cook",
+   "back": "做饭",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p210_q2",
+   "kind": "phrase",
+   "front": "wash the dishes",
+   "back": "洗碗",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p083_q4",
+   "kind": "phrase",
+   "front": "His father",
+   "back": "他的爸爸",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p209_q4",
+   "kind": "phrase",
+   "front": "sweep the floor",
+   "back": "扫地",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p211_q3",
+   "kind": "phrase",
+   "front": "I sweep",
+   "back": "扫地",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p212_q2",
+   "kind": "phrase",
+   "front": "helpful",
+   "back": "乐于助人",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p068_q4",
+   "kind": "phrase",
+   "front": "has glasses",
+   "back": "有眼镜",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p212_q3",
+   "kind": "phrase",
+   "front": "funny",
+   "back": "有趣的",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p212_q4",
+   "kind": "phrase",
+   "front": "honest",
+   "back": "诚实",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p075_q4",
+   "kind": "phrase",
+   "front": "They",
+   "back": "他们",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p214_q3",
+   "kind": "phrase",
+   "front": "park",
+   "back": "公园",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p215_q4",
+   "kind": "phrase",
+   "front": "buy fruit",
+   "back": "买水果",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p085_q1",
+   "kind": "phrase",
+   "front": "second",
+   "back": "第二，所以是第 2 层",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p085_q2",
+   "kind": "phrase",
+   "front": "first",
+   "back": "第一",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p086_q2",
+   "kind": "phrase",
+   "front": "first floor",
+   "back": "第一层",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p087_q1",
+   "kind": "phrase",
+   "front": "second floor",
+   "back": "第二层",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p087_q3",
+   "kind": "phrase",
+   "front": "next to the library",
+   "back": "在图书馆旁边。文字没有写楼层",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p094_q2",
+   "kind": "phrase",
+   "front": "It is warm",
+   "back": "天气暖和",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p219_q1",
+   "kind": "phrase",
+   "front": "umbrella",
+   "back": "雨伞",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p093_q3",
+   "kind": "phrase",
+   "front": "sunny",
+   "back": "晴朗",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p094_q3",
+   "kind": "phrase",
+   "front": "go outside",
+   "back": "出去",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p094_q4",
+   "kind": "phrase",
+   "front": "Have some water",
+   "back": "喝些水",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p218_q4",
+   "kind": "phrase",
+   "front": "snowy",
+   "back": "下雪",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p219_q4",
+   "kind": "phrase",
+   "front": "coat",
+   "back": "外套",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p220_q1",
+   "kind": "phrase",
+   "front": "make a snowman",
+   "back": "堆雪人",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p220_q2",
+   "kind": "phrase",
+   "front": "fly a kite",
+   "back": "放风筝",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p221_q1",
+   "kind": "phrase",
+   "front": "summer",
+   "back": "夏天",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p102_q4",
+   "kind": "phrase",
+   "front": "Put on your shirt",
+   "back": "穿上衬衫",
+   "note": ""
+  },
+  {
+   "id": "ph_cne_p221_q4",
+   "kind": "phrase",
+   "front": "jacket",
+   "back": "夹克",
+   "note": ""
+  },
+  {
+   "id": "yl4a_u1_s001",
+   "kind": "sentence",
+   "front": "你最喜欢什么科目？",
+   "back": "What subject do you like best?",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s002",
+   "kind": "sentence",
+   "front": "我最喜欢科学，它很有趣。",
+   "back": "I like Science best. It's interesting.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s003",
+   "kind": "sentence",
+   "front": "到上信息技术课的时间了。",
+   "back": "It's time for IT.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s004",
+   "kind": "sentence",
+   "front": "我们有语文、数学、英语和科学课。",
+   "back": "We have Chinese, Maths, English and Science.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s005",
+   "kind": "sentence",
+   "front": "我们还有美术、体育和音乐课。",
+   "back": "We also have Art, PE and Music.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s006",
+   "kind": "sentence",
+   "front": "我擅长它。",
+   "back": "I'm good at it.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s007",
+   "kind": "sentence",
+   "front": "我想学习中国文化。",
+   "back": "I want to learn about Chinese culture.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s008",
+   "kind": "sentence",
+   "front": "欢迎回到学校，同学们。",
+   "back": "Welcome back to school, class.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s009",
+   "kind": "sentence",
+   "front": "我们都喜欢体育！",
+   "back": "We all like PE!",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_s010",
+   "kind": "sentence",
+   "front": "让我们去操场吧！",
+   "back": "Let's go to the sports ground!",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u2_s011",
+   "kind": "sentence",
+   "front": "几点了？",
+   "back": "What time is it?",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s012",
+   "kind": "sentence",
+   "front": "七点二十，我们吃早餐吧。",
+   "back": "It's seven twenty. Let's have breakfast.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s013",
+   "kind": "sentence",
+   "front": "上课时间到了！",
+   "back": "It's time for class!",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s014",
+   "kind": "sentence",
+   "front": "我来了。",
+   "back": "I'm coming.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s015",
+   "kind": "sentence",
+   "front": "十一点三十了。",
+   "back": "It's eleven thirty.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s016",
+   "kind": "sentence",
+   "front": "四点半了，到运动的时间了。",
+   "back": "It's four thirty. It's time for sport.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s017",
+   "kind": "sentence",
+   "front": "六点一刻了，该吃晚饭了。",
+   "back": "It's six fifteen. It's time to have dinner.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s018",
+   "kind": "sentence",
+   "front": "九点了，该睡觉了。",
+   "back": "It's nine o'clock. It's time for bed.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s019",
+   "kind": "sentence",
+   "front": "晚安！",
+   "back": "Good night!",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_s020",
+   "kind": "sentence",
+   "front": "赶快，迈克！",
+   "back": "Come on, Mike!",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u3_s021",
+   "kind": "sentence",
+   "front": "今天星期几？",
+   "back": "What day is it today?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s022",
+   "kind": "sentence",
+   "front": "哦，是星期六！",
+   "back": "Oh, it's Saturday!",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s023",
+   "kind": "sentence",
+   "front": "你每天什么时候起床？",
+   "back": "When do you get up every day?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s024",
+   "kind": "sentence",
+   "front": "我五点起床！",
+   "back": "I get up at five!",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s025",
+   "kind": "sentence",
+   "front": "你什么时候上舞蹈课？",
+   "back": "When do you have dancing lessons?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s026",
+   "kind": "sentence",
+   "front": "在周三和周五。",
+   "back": "On Wednesday and Friday.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s027",
+   "kind": "sentence",
+   "front": "我每周上两节舞蹈课。",
+   "back": "I have two dancing lessons every week.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s028",
+   "kind": "sentence",
+   "front": "我在周二和周五遛狗。",
+   "back": "I walk my dog on Tuesday and Friday.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s029",
+   "kind": "sentence",
+   "front": "我周六有空。",
+   "back": "I'm free on Saturday.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s030",
+   "kind": "sentence",
+   "front": "明天见！",
+   "back": "See you tomorrow!",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_s031",
+   "kind": "sentence",
+   "front": "我上学不能再迟到了！",
+   "back": "I can't be late for school again!",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u4_s032",
+   "kind": "sentence",
+   "front": "你喜欢什么运动？",
+   "back": "What sport do you like?",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s033",
+   "kind": "sentence",
+   "front": "我喜欢游泳和打乒乓球。",
+   "back": "I like swimming and playing ping-pong.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s034",
+   "kind": "sentence",
+   "front": "我喜欢运动，它对我们有好处。",
+   "back": "I like sport. It's good for us.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s035",
+   "kind": "sentence",
+   "front": "你喜欢打乒乓球吗？",
+   "back": "Do you like playing ping-pong?",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s036",
+   "kind": "sentence",
+   "front": "是的。乒乓球很有趣，但我打不好。",
+   "back": "Yes, I do. Ping-pong is fun. But I can't play well.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s037",
+   "kind": "sentence",
+   "front": "你打得太好了！",
+   "back": "You play so well!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s038",
+   "kind": "sentence",
+   "front": "试一试！",
+   "back": "Have a go!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s039",
+   "kind": "sentence",
+   "front": "对我来说太难了。",
+   "back": "It's hard for me.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s040",
+   "kind": "sentence",
+   "front": "没关系，再试一次。",
+   "back": "It's OK. Try again.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_s041",
+   "kind": "sentence",
+   "front": "打得好！",
+   "back": "Well played!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u5_s042",
+   "kind": "sentence",
+   "front": "妈妈，你喜欢我们的木偶娃娃吗？",
+   "back": "Mum, do you like our dolls?",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s043",
+   "kind": "sentence",
+   "front": "是的，它们很可爱。",
+   "back": "Yes! They're cute.",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s044",
+   "kind": "sentence",
+   "front": "她的眼睛很大，鼻子和嘴巴很小。",
+   "back": "Her eyes are big. Her nose and mouth are small.",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s045",
+   "kind": "sentence",
+   "front": "她的头发很长。",
+   "back": "Her hair is long.",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s046",
+   "kind": "sentence",
+   "front": "他的手臂和腿很长。",
+   "back": "His arms and legs are long.",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s047",
+   "kind": "sentence",
+   "front": "你的娃娃太棒了，它们给你带来许多快乐！",
+   "back": "Your dolls are great. They bring you lots of fun!",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u5_s048",
+   "kind": "sentence",
+   "front": "我们办一场表演吧！",
+   "back": "Let's have a show!",
+   "note": "译林四上 U5 句型"
+  },
+  {
+   "id": "yl4a_u6_s049",
+   "kind": "sentence",
+   "front": "今天天气怎么样？",
+   "back": "What's the weather like today?",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s050",
+   "kind": "sentence",
+   "front": "天气晴朗温暖。",
+   "back": "It's sunny and warm.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s051",
+   "kind": "sentence",
+   "front": "现在又刮风又多云。",
+   "back": "It's windy and cloudy now.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s052",
+   "kind": "sentence",
+   "front": "我们可以放风筝。",
+   "back": "We can fly a kite.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s053",
+   "kind": "sentence",
+   "front": "下雨了。",
+   "back": "It's raining.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s054",
+   "kind": "sentence",
+   "front": "别担心，我带伞了。",
+   "back": "Don't worry. I have an umbrella with me.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s055",
+   "kind": "sentence",
+   "front": "我们可以共用一把伞。",
+   "back": "We can share it.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s056",
+   "kind": "sentence",
+   "front": "我们十点见面吧。",
+   "back": "Let's meet at ten.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_s057",
+   "kind": "sentence",
+   "front": "我喜欢在外面玩！",
+   "back": "I like playing outside!",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u7_s058",
+   "kind": "sentence",
+   "front": "一年有四个季节。",
+   "back": "We have four seasons in a year.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u7_s059",
+   "kind": "sentence",
+   "front": "春天暖和，我们植树、去划船。",
+   "back": "In spring, it is warm. We plant trees. We go boating.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u7_s060",
+   "kind": "sentence",
+   "front": "夏天炎热，我们吃冰激凌、去游泳。",
+   "back": "In summer, it is hot. We eat ice cream. We go swimming.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u7_s061",
+   "kind": "sentence",
+   "front": "秋天凉爽，我们摘水果、去爬山。",
+   "back": "In autumn, it is cool. We pick fruit. We go climbing.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u7_s062",
+   "kind": "sentence",
+   "front": "冬天寒冷，我们在雪里玩、去滑冰。",
+   "back": "In winter, it is cold. We play in the snow. We go skating.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u7_s063",
+   "kind": "sentence",
+   "front": "我们喜欢春天。",
+   "back": "We like spring.",
+   "note": "译林四上 U7 句型"
+  },
+  {
+   "id": "yl4a_u8_s064",
+   "kind": "sentence",
+   "front": "春节快乐！",
+   "back": "Happy Chinese New Year!",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s065",
+   "kind": "sentence",
+   "front": "春节时我们喜欢穿红色的衣服。",
+   "back": "We like wearing red clothes at Chinese New Year.",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s066",
+   "kind": "sentence",
+   "front": "这是我爸爸的新衬衫。",
+   "back": "This is my father's new shirt.",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s067",
+   "kind": "sentence",
+   "front": "这是我妈妈的外套。",
+   "back": "This is my mother's coat.",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s068",
+   "kind": "sentence",
+   "front": "这是谁的裙子？",
+   "back": "Whose skirt is this?",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s069",
+   "kind": "sentence",
+   "front": "是苏阳的吗？",
+   "back": "Is it Su Yang's?",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s070",
+   "kind": "sentence",
+   "front": "是的，你猜对了！",
+   "back": "Yes, you're right!",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s071",
+   "kind": "sentence",
+   "front": "那些是谁的帽子？",
+   "back": "Whose caps are those?",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s072",
+   "kind": "sentence",
+   "front": "它们是姬蒂的！",
+   "back": "They're Kitty's!",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u8_s073",
+   "kind": "sentence",
+   "front": "多漂亮啊！",
+   "back": "How nice!",
+   "note": "译林四上 U8 句型"
+  },
+  {
+   "id": "yl4a_u1_w001",
+   "kind": "word",
+   "front": "subject",
+   "back": "学科，科目",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w002",
+   "kind": "word",
+   "front": "Chinese",
+   "back": "语文（课）；中国的",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w003",
+   "kind": "word",
+   "front": "English",
+   "back": "英语（课）；英语的",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w004",
+   "kind": "word",
+   "front": "Maths",
+   "back": "数学（课）",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w005",
+   "kind": "word",
+   "front": "PE",
+   "back": "体育（课）",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w006",
+   "kind": "word",
+   "front": "Art",
+   "back": "美术（课）",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w007",
+   "kind": "word",
+   "front": "Science",
+   "back": "科学（课）",
+   "note": "译林四上 U1 p8"
+  },
+  {
+   "id": "yl4a_u1_w008",
+   "kind": "word",
+   "front": "IT",
+   "back": "信息技术（课）",
+   "note": "译林四上 U1 p9 ·拓展词"
+  },
+  {
+   "id": "yl4a_u1_w009",
+   "kind": "word",
+   "front": "Music",
+   "back": "音乐（课）",
+   "note": "译林四上 U1 p9 ·拓展词"
+  },
+  {
+   "id": "yl4a_u1_w010",
+   "kind": "word",
+   "front": "Labour",
+   "back": "劳动（课）",
+   "note": "译林四上 U1 p9 ·拓展词"
+  },
+  {
+   "id": "yl4a_u1_w011",
+   "kind": "word",
+   "front": "best",
+   "back": "最，最高程度地",
+   "note": "译林四上 U1 p10"
+  },
+  {
+   "id": "yl4a_u1_w012",
+   "kind": "word",
+   "front": "also",
+   "back": "也",
+   "note": "译林四上 U1 p10"
+  },
+  {
+   "id": "yl4a_u1_w013_s",
+   "kind": "sentence",
+   "front": "It's time for ...",
+   "back": "是……的时候了。",
+   "note": "译林四上 U1 p10"
+  },
+  {
+   "id": "yl4a_u1_w014",
+   "kind": "word",
+   "front": "mouse",
+   "back": "鼠标；老鼠",
+   "note": "译林四上 U1 p10"
+  },
+  {
+   "id": "yl4a_u1_w015_s",
+   "kind": "sentence",
+   "front": "Welcome back to ...",
+   "back": "欢迎回到……",
+   "note": "译林四上 U1 p12"
+  },
+  {
+   "id": "yl4a_u1_w016",
+   "kind": "word",
+   "front": "be good at",
+   "back": "擅长",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w017",
+   "kind": "word",
+   "front": "interesting",
+   "back": "有趣的，有吸引力的",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w018",
+   "kind": "word",
+   "front": "learn about",
+   "back": "学习",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w019",
+   "kind": "word",
+   "front": "culture",
+   "back": "文化，文明",
+   "note": "译林四上 U1 p13 ·拓展词"
+  },
+  {
+   "id": "yl4a_u1_w020",
+   "kind": "word",
+   "front": "read",
+   "back": "阅读",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w021",
+   "kind": "word",
+   "front": "story",
+   "back": "故事",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w022",
+   "kind": "word",
+   "front": "all",
+   "back": "全部，都",
+   "note": "译林四上 U1 p13"
+  },
+  {
+   "id": "yl4a_u1_w023",
+   "kind": "word",
+   "front": "sports ground",
+   "back": "操场，运动场",
+   "note": "译林四上 U1 p13 ·拓展词"
+  },
+  {
+   "id": "yl4a_u2_w024",
+   "kind": "word",
+   "front": "day",
+   "back": "一天，一日",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w025",
+   "kind": "word",
+   "front": "get up",
+   "back": "起床",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w026",
+   "kind": "word",
+   "front": "wash",
+   "back": "洗",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w027",
+   "kind": "word",
+   "front": "face",
+   "back": "脸，面孔",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w028",
+   "kind": "word",
+   "front": "have lessons",
+   "back": "上课",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w029",
+   "kind": "word",
+   "front": "have",
+   "back": "吃，喝",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w030",
+   "kind": "word",
+   "front": "dinner",
+   "back": "正餐（常指晚餐）",
+   "note": "译林四上 U2 p16"
+  },
+  {
+   "id": "yl4a_u2_w031",
+   "kind": "word",
+   "front": "breakfast",
+   "back": "早餐，早饭",
+   "note": "译林四上 U2 p17"
+  },
+  {
+   "id": "yl4a_u2_w032",
+   "kind": "word",
+   "front": "lunch",
+   "back": "午餐，午饭",
+   "note": "译林四上 U2 p17"
+  },
+  {
+   "id": "yl4a_u2_w033",
+   "kind": "word",
+   "front": "go to bed",
+   "back": "上床睡觉",
+   "note": "译林四上 U2 p17"
+  },
+  {
+   "id": "yl4a_u2_w034",
+   "kind": "word",
+   "front": "o'clock",
+   "back": "（表示整点）……点钟",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w035",
+   "kind": "word",
+   "front": "early",
+   "back": "早的，早",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w036",
+   "kind": "word",
+   "front": "thirty",
+   "back": "三十",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w037",
+   "kind": "word",
+   "front": "first",
+   "back": "首先，第一",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w038",
+   "kind": "word",
+   "front": "hurry up",
+   "back": "快点",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w039_s",
+   "kind": "sentence",
+   "front": "What time is it?",
+   "back": "几点了？",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w040",
+   "kind": "word",
+   "front": "I'm coming!",
+   "back": "我来了！",
+   "note": "译林四上 U2 p18"
+  },
+  {
+   "id": "yl4a_u2_w041",
+   "kind": "word",
+   "front": "twenty",
+   "back": "二十",
+   "note": "译林四上 U2 p20"
+  },
+  {
+   "id": "yl4a_u2_w042",
+   "kind": "word",
+   "front": "Come on!",
+   "back": "赶快！加把劲！",
+   "note": "译林四上 U2 p20"
+  },
+  {
+   "id": "yl4a_u2_w043",
+   "kind": "word",
+   "front": "class",
+   "back": "课，上课",
+   "note": "译林四上 U2 p20"
+  },
+  {
+   "id": "yl4a_u2_w044",
+   "kind": "word",
+   "front": "eleven",
+   "back": "十一",
+   "note": "译林四上 U2 p20"
+  },
+  {
+   "id": "yl4a_u2_w045",
+   "kind": "word",
+   "front": "sport",
+   "back": "体育运动",
+   "note": "译林四上 U2 p21"
+  },
+  {
+   "id": "yl4a_u2_w046",
+   "kind": "word",
+   "front": "fifteen",
+   "back": "十五",
+   "note": "译林四上 U2 p21"
+  },
+  {
+   "id": "yl4a_u2_w047_s",
+   "kind": "sentence",
+   "front": "It's time to ...",
+   "back": "到了……的时间了。",
+   "note": "译林四上 U2 p21"
+  },
+  {
+   "id": "yl4a_u2_w048",
+   "kind": "word",
+   "front": "bed",
+   "back": "床",
+   "note": "译林四上 U2 p21"
+  },
+  {
+   "id": "yl4a_u2_w049",
+   "kind": "word",
+   "front": "Good night!",
+   "back": "晚安！",
+   "note": "译林四上 U2 p21"
+  },
+  {
+   "id": "yl4a_u3_w050",
+   "kind": "word",
+   "front": "week",
+   "back": "周，星期",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w051",
+   "kind": "word",
+   "front": "Monday",
+   "back": "星期一",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w052",
+   "kind": "word",
+   "front": "Tuesday",
+   "back": "星期二",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w053",
+   "kind": "word",
+   "front": "Wednesday",
+   "back": "星期三",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w054",
+   "kind": "word",
+   "front": "Thursday",
+   "back": "星期四",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w055",
+   "kind": "word",
+   "front": "Friday",
+   "back": "星期五",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w056",
+   "kind": "word",
+   "front": "Saturday",
+   "back": "星期六",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w057",
+   "kind": "word",
+   "front": "Sunday",
+   "back": "星期天",
+   "note": "译林四上 U3 p24"
+  },
+  {
+   "id": "yl4a_u3_w058",
+   "kind": "word",
+   "front": "when",
+   "back": "什么时候",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w059",
+   "kind": "word",
+   "front": "every",
+   "back": "每一个，每个",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w060",
+   "kind": "word",
+   "front": "at",
+   "back": "在（某时间）",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w061",
+   "kind": "word",
+   "front": "up",
+   "back": "起床",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w062",
+   "kind": "word",
+   "front": "early",
+   "back": "提早，提前",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w063",
+   "kind": "word",
+   "front": "today",
+   "back": "在今天",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w064_s",
+   "kind": "sentence",
+   "front": "What day is it today?",
+   "back": "今天星期几？",
+   "note": "译林四上 U3 p26"
+  },
+  {
+   "id": "yl4a_u3_w065",
+   "kind": "word",
+   "front": "cinema",
+   "back": "电影院",
+   "note": "译林四上 U3 p28"
+  },
+  {
+   "id": "yl4a_u3_w066",
+   "kind": "word",
+   "front": "after school",
+   "back": "放学后",
+   "note": "译林四上 U3 p28"
+  },
+  {
+   "id": "yl4a_u4_w067",
+   "kind": "word",
+   "front": "dancing",
+   "back": "跳舞，舞蹈",
+   "note": "译林四上 U4 p28"
+  },
+  {
+   "id": "yl4a_u4_w068",
+   "kind": "word",
+   "front": "lesson",
+   "back": "一节课，一课时",
+   "note": "译林四上 U4 p28"
+  },
+  {
+   "id": "yl4a_u4_w069",
+   "kind": "word",
+   "front": "walk",
+   "back": "牵着（动物）走，遛",
+   "note": "译林四上 U4 p29"
+  },
+  {
+   "id": "yl4a_u4_w070",
+   "kind": "word",
+   "front": "dog",
+   "back": "狗",
+   "note": "译林四上 U4 p29"
+  },
+  {
+   "id": "yl4a_u4_w071",
+   "kind": "word",
+   "front": "tomorrow",
+   "back": "明天，在明天",
+   "note": "译林四上 U4 p29"
+  },
+  {
+   "id": "yl4a_u4_w072",
+   "kind": "word",
+   "front": "free",
+   "back": "空闲的",
+   "note": "译林四上 U4 p29"
+  },
+  {
+   "id": "yl4a_u4_w073",
+   "kind": "word",
+   "front": "See you tomorrow!",
+   "back": "明天见！",
+   "note": "译林四上 U4 p29"
+  },
+  {
+   "id": "yl4a_u4_w074",
+   "kind": "word",
+   "front": "play",
+   "back": "打（球），踢（球）",
+   "note": "译林四上 U4 p32"
+  },
+  {
+   "id": "yl4a_u4_w075",
+   "kind": "word",
+   "front": "football",
+   "back": "足球运动；足球",
+   "note": "译林四上 U4 p32"
+  },
+  {
+   "id": "yl4a_u4_w076",
+   "kind": "word",
+   "front": "ping-pong",
+   "back": "乒乓球运动",
+   "note": "译林四上 U4 p32"
+  },
+  {
+   "id": "yl4a_u4_w077",
+   "kind": "word",
+   "front": "basketball",
+   "back": "篮球运动；篮球",
+   "note": "译林四上 U4 p33"
+  },
+  {
+   "id": "yl4a_u4_w078",
+   "kind": "word",
+   "front": "great",
+   "back": "非常的",
+   "note": "译林四上 U4 p34"
+  },
+  {
+   "id": "yl4a_u4_w079",
+   "kind": "word",
+   "front": "swimming",
+   "back": "游泳；游泳运动",
+   "note": "译林四上 U4 p36"
+  },
+  {
+   "id": "yl4a_u4_w080",
+   "kind": "word",
+   "front": "so",
+   "back": "（表示程度）这么，那么",
+   "note": "译林四上 U4 p36"
+  },
+  {
+   "id": "yl4a_u4_w081",
+   "kind": "word",
+   "front": "well",
+   "back": "好",
+   "note": "译林四上 U4 p36"
+  },
+  {
+   "id": "yl4a_u4_w082",
+   "kind": "word",
+   "front": "Have a go!",
+   "back": "试一试！",
+   "note": "译林四上 U4 p36"
+  },
+  {
+   "id": "yl4a_u4_w083",
+   "kind": "word",
+   "front": "hard",
+   "back": "难做的，不易的",
+   "note": "译林四上 U4 p37"
+  },
+  {
+   "id": "yl4a_u4_w084_s",
+   "kind": "sentence",
+   "front": "It's OK.",
+   "back": "没关系。",
+   "note": "译林四上 U4 p37"
+  },
+  {
+   "id": "yl4a_u4_w085",
+   "kind": "word",
+   "front": "try",
+   "back": "试",
+   "note": "译林四上 U4 p37"
+  },
+  {
+   "id": "yl4a_u4_w086",
+   "kind": "word",
+   "front": "Well played!",
+   "back": "好球！",
+   "note": "译林四上 U4 p37"
+  },
+  {
+   "id": "yl4a_u5_w087",
+   "kind": "word",
+   "front": "different",
+   "back": "不同的，有区别的",
+   "note": "译林四上 U5 p42 ·拓展词"
+  },
+  {
+   "id": "yl4a_u5_w088",
+   "kind": "word",
+   "front": "same",
+   "back": "相同的，同一的",
+   "note": "译林四上 U5 p42 ·拓展词"
+  },
+  {
+   "id": "yl4a_u5_w089",
+   "kind": "word",
+   "front": "hair",
+   "back": "头发",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w090",
+   "kind": "word",
+   "front": "eye",
+   "back": "眼睛",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w091",
+   "kind": "word",
+   "front": "ear",
+   "back": "耳朵",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w092",
+   "kind": "word",
+   "front": "nose",
+   "back": "鼻子",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w093",
+   "kind": "word",
+   "front": "mouth",
+   "back": "嘴，口",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w094",
+   "kind": "word",
+   "front": "arm",
+   "back": "手臂",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w095",
+   "kind": "word",
+   "front": "leg",
+   "back": "腿",
+   "note": "译林四上 U5 p42"
+  },
+  {
+   "id": "yl4a_u5_w096",
+   "kind": "word",
+   "front": "robot",
+   "back": "机器人",
+   "note": "译林四上 U5 p44"
+  },
+  {
+   "id": "yl4a_u5_w097",
+   "kind": "word",
+   "front": "his",
+   "back": "他的",
+   "note": "译林四上 U5 p44"
+  },
+  {
+   "id": "yl4a_u5_w098",
+   "kind": "word",
+   "front": "tall",
+   "back": "高的",
+   "note": "译林四上 U5 p44"
+  },
+  {
+   "id": "yl4a_u5_w099",
+   "kind": "word",
+   "front": "short",
+   "back": "矮的",
+   "note": "译林四上 U5 p44"
+  },
+  {
+   "id": "yl4a_u5_w100",
+   "kind": "word",
+   "front": "doll",
+   "back": "玩具娃娃",
+   "note": "译林四上 U5 p46"
+  },
+  {
+   "id": "yl4a_u5_w101",
+   "kind": "word",
+   "front": "her",
+   "back": "她的",
+   "note": "译林四上 U5 p46"
+  },
+  {
+   "id": "yl4a_u5_w102",
+   "kind": "word",
+   "front": "small",
+   "back": "小的",
+   "note": "译林四上 U5 p46"
+  },
+  {
+   "id": "yl4a_u5_w103",
+   "kind": "word",
+   "front": "bring",
+   "back": "带来",
+   "note": "译林四上 U5 p47"
+  },
+  {
+   "id": "yl4a_u5_w104",
+   "kind": "word",
+   "front": "lots of",
+   "back": "大量，许多",
+   "note": "译林四上 U5 p47"
+  },
+  {
+   "id": "yl4a_u5_w105",
+   "kind": "word",
+   "front": "have",
+   "back": "组织，举办",
+   "note": "译林四上 U5 p47"
+  },
+  {
+   "id": "yl4a_u5_w106",
+   "kind": "word",
+   "front": "show",
+   "back": "表演，演出",
+   "note": "译林四上 U5 p47"
+  },
+  {
+   "id": "yl4a_u6_w107",
+   "kind": "word",
+   "front": "weather",
+   "back": "天气，气象",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w108",
+   "kind": "word",
+   "front": "cloudy",
+   "back": "多云的，阴天的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w109",
+   "kind": "word",
+   "front": "sunny",
+   "back": "晴朗的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w110",
+   "kind": "word",
+   "front": "cool",
+   "back": "凉的，凉爽的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w111",
+   "kind": "word",
+   "front": "rainy",
+   "back": "阴雨的，多雨的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w112",
+   "kind": "word",
+   "front": "hot",
+   "back": "温度高的，热的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w113",
+   "kind": "word",
+   "front": "windy",
+   "back": "多风的，风大的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w114",
+   "kind": "word",
+   "front": "warm",
+   "back": "温暖的，暖和的",
+   "note": "译林四上 U6 p50"
+  },
+  {
+   "id": "yl4a_u6_w115_s",
+   "kind": "sentence",
+   "front": "save ... for a rainy day",
+   "back": "未雨绸缪",
+   "note": "译林四上 U6 p52 ·拓展词"
+  },
+  {
+   "id": "yl4a_u6_w116",
+   "kind": "word",
+   "front": "money",
+   "back": "钱",
+   "note": "译林四上 U6 p52"
+  },
+  {
+   "id": "yl4a_u6_w117_s",
+   "kind": "sentence",
+   "front": "What's the weather like today?",
+   "back": "今天天气怎么样？",
+   "note": "译林四上 U6 p52"
+  },
+  {
+   "id": "yl4a_u6_w118",
+   "kind": "word",
+   "front": "park",
+   "back": "公园",
+   "note": "译林四上 U6 p54"
+  },
+  {
+   "id": "yl4a_u6_w119",
+   "kind": "word",
+   "front": "meet",
+   "back": "（与……）会面，集合",
+   "note": "译林四上 U6 p54"
+  },
+  {
+   "id": "yl4a_u6_w120",
+   "kind": "word",
+   "front": "fly a kite",
+   "back": "放风筝",
+   "note": "译林四上 U6 p54"
+  },
+  {
+   "id": "yl4a_u6_w121_s",
+   "kind": "sentence",
+   "front": "It's raining.",
+   "back": "下雨了。",
+   "note": "译林四上 U6 p55"
+  },
+  {
+   "id": "yl4a_u6_w122",
+   "kind": "word",
+   "front": "worry",
+   "back": "担心，担忧",
+   "note": "译林四上 U6 p55"
+  },
+  {
+   "id": "yl4a_u6_w123",
+   "kind": "word",
+   "front": "umbrella",
+   "back": "伞，雨伞",
+   "note": "译林四上 U6 p55"
+  },
+  {
+   "id": "yl4a_u6_w124",
+   "kind": "word",
+   "front": "there",
+   "back": "到那里，在那里",
+   "note": "译林四上 U6 p55"
+  },
+  {
+   "id": "yl4a_u7_w125",
+   "kind": "word",
+   "front": "season",
+   "back": "季节",
+   "note": "译林四上 U7 p58"
+  },
+  {
+   "id": "yl4a_u7_w126",
+   "kind": "word",
+   "front": "spring",
+   "back": "春天，春季",
+   "note": "译林四上 U7 p58"
+  },
+  {
+   "id": "yl4a_u7_w127",
+   "kind": "word",
+   "front": "go boating",
+   "back": "去划船",
+   "note": "译林四上 U7 p58"
+  },
+  {
+   "id": "yl4a_u7_w128",
+   "kind": "word",
+   "front": "winter",
+   "back": "冬天，冬季",
+   "note": "译林四上 U7 p58"
+  },
+  {
+   "id": "yl4a_u7_w129",
+   "kind": "word",
+   "front": "go skating",
+   "back": "去滑冰，去溜冰",
+   "note": "译林四上 U7 p58 ·拓展词"
+  },
+  {
+   "id": "yl4a_u7_w130",
+   "kind": "word",
+   "front": "summer",
+   "back": "夏天，夏季",
+   "note": "译林四上 U7 p59"
+  },
+  {
+   "id": "yl4a_u7_w131",
+   "kind": "word",
+   "front": "ice cream",
+   "back": "冰激凌",
+   "note": "译林四上 U7 p59"
+  },
+  {
+   "id": "yl4a_u7_w132",
+   "kind": "word",
+   "front": "go swimming",
+   "back": "去游泳",
+   "note": "译林四上 U7 p59"
+  },
+  {
+   "id": "yl4a_u7_w133",
+   "kind": "word",
+   "front": "autumn",
+   "back": "秋天，秋季",
+   "note": "译林四上 U7 p59"
+  },
+  {
+   "id": "yl4a_u7_w134",
+   "kind": "word",
+   "front": "go climbing",
+   "back": "去爬山",
+   "note": "译林四上 U7 p59 ·拓展词"
+  },
+  {
+   "id": "yl4a_u7_w135",
+   "kind": "word",
+   "front": "new",
+   "back": "新的",
+   "note": "译林四上 U7 p60"
+  },
+  {
+   "id": "yl4a_u7_w136",
+   "kind": "word",
+   "front": "cold",
+   "back": "寒冷的，冷的",
+   "note": "译林四上 U7 p60"
+  },
+  {
+   "id": "yl4a_u7_w137",
+   "kind": "word",
+   "front": "bird",
+   "back": "鸟",
+   "note": "译林四上 U7 p60"
+  },
+  {
+   "id": "yl4a_u7_w138",
+   "kind": "word",
+   "front": "back",
+   "back": "回原处",
+   "note": "译林四上 U7 p60"
+  },
+  {
+   "id": "yl4a_u7_w139",
+   "kind": "word",
+   "front": "in",
+   "back": "在（某段时间）内",
+   "note": "译林四上 U7 p62"
+  },
+  {
+   "id": "yl4a_u7_w140",
+   "kind": "word",
+   "front": "year",
+   "back": "年",
+   "note": "译林四上 U7 p62"
+  },
+  {
+   "id": "yl4a_u7_w141",
+   "kind": "word",
+   "front": "plant",
+   "back": "栽种，种植",
+   "note": "译林四上 U7 p62"
+  },
+  {
+   "id": "yl4a_u7_w142",
+   "kind": "word",
+   "front": "pick",
+   "back": "采，摘",
+   "note": "译林四上 U7 p63 ·拓展词"
+  },
+  {
+   "id": "yl4a_u7_w143",
+   "kind": "word",
+   "front": "snow",
+   "back": "雪，积雪",
+   "note": "译林四上 U7 p63"
+  },
+  {
+   "id": "yl4a_u8_w144",
+   "kind": "word",
+   "front": "wear",
+   "back": "穿，戴",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w145",
+   "kind": "word",
+   "front": "cap",
+   "back": "（尤指有帽舌的）便帽",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w146",
+   "kind": "word",
+   "front": "coat",
+   "back": "外套，外衣",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w147",
+   "kind": "word",
+   "front": "skirt",
+   "back": "半身裙",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w148",
+   "kind": "word",
+   "front": "trousers",
+   "back": "裤子",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w149",
+   "kind": "word",
+   "front": "dress",
+   "back": "连衣裙",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w150",
+   "kind": "word",
+   "front": "shirt",
+   "back": "（男式）衬衫",
+   "note": "译林四上 U8 p66"
+  },
+  {
+   "id": "yl4a_u8_w151",
+   "kind": "word",
+   "front": "whose",
+   "back": "谁的",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w152",
+   "kind": "word",
+   "front": "shorts",
+   "back": "短裤",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w153",
+   "kind": "word",
+   "front": "look",
+   "back": "看来好像，显得",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w154",
+   "kind": "word",
+   "front": "in",
+   "back": "穿着，戴着",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w155",
+   "kind": "word",
+   "front": "sunglasses",
+   "back": "太阳镜，墨镜",
+   "note": "译林四上 U8 p68 ·拓展词"
+  },
+  {
+   "id": "yl4a_u8_w156",
+   "kind": "word",
+   "front": "why",
+   "back": "为什么",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w157",
+   "kind": "word",
+   "front": "because",
+   "back": "因为",
+   "note": "译林四上 U8 p68"
+  },
+  {
+   "id": "yl4a_u8_w158",
+   "kind": "word",
+   "front": "bright",
+   "back": "聪明的；明亮的",
+   "note": "译林四上 U8 p68 ·拓展词"
+  },
+  {
+   "id": "yl4a_u8_w159",
+   "kind": "word",
+   "front": "clothes",
+   "back": "衣服",
+   "note": "译林四上 U8 p70"
+  },
+  {
+   "id": "yl4a_u1_g001",
+   "kind": "word",
+   "front": "our school subjects",
+   "back": "我们的学校课程",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_pg001",
+   "kind": "phrase",
+   "front": "welcome back to ...",
+   "back": "欢迎回到……",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g002",
+   "kind": "word",
+   "front": "Chinese culture",
+   "back": "中国文化",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g003",
+   "kind": "word",
+   "front": "at school",
+   "back": "在学校",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g004",
+   "kind": "word",
+   "front": "what subject",
+   "back": "什么学科",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g005",
+   "kind": "word",
+   "front": "come to school",
+   "back": "来上学",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g006",
+   "kind": "word",
+   "front": "learn with me",
+   "back": "和我一起学习",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g007",
+   "kind": "word",
+   "front": "all the subjects",
+   "back": "所有学科",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g008",
+   "kind": "word",
+   "front": "work hard",
+   "back": "努力学习",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g009",
+   "kind": "word",
+   "front": "boys and girls",
+   "back": "同学们",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g010",
+   "kind": "word",
+   "front": "like best",
+   "back": "最喜欢",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g011",
+   "kind": "word",
+   "front": "have Chinese",
+   "back": "上语文课",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g012",
+   "kind": "word",
+   "front": "like reading",
+   "back": "喜欢阅读",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g013",
+   "kind": "word",
+   "front": "English stories",
+   "back": "英语故事",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g014",
+   "kind": "word",
+   "front": "go to the sports ground",
+   "back": "去操场",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_g015",
+   "kind": "word",
+   "front": "have many subjects",
+   "back": "有许多课程",
+   "note": "译林四上 U1 词组"
+  },
+  {
+   "id": "yl4a_u1_t001",
+   "kind": "sentence",
+   "front": "我最喜欢音乐课。",
+   "back": "I like Music best.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t002",
+   "kind": "sentence",
+   "front": "我还喜欢信息科技课。",
+   "back": "I also like IT.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t003",
+   "kind": "sentence",
+   "front": "到了上劳动课的时间了。",
+   "back": "It's time for Labour.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t004",
+   "kind": "sentence",
+   "front": "鼠标在哪里？",
+   "back": "Where's the mouse?",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t005",
+   "kind": "sentence",
+   "front": "我擅长绘画。",
+   "back": "I'm good at drawing, and I like painting.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t006",
+   "kind": "sentence",
+   "front": "它很有趣。",
+   "back": "It's interesting.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t007",
+   "kind": "sentence",
+   "front": "我喜欢读英语故事。",
+   "back": "I like reading English stories.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t008",
+   "kind": "sentence",
+   "front": "它们学起来很有趣。",
+   "back": "They are fun to learn.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t009",
+   "kind": "sentence",
+   "front": "我在学校努力学习。",
+   "back": "I work hard at school.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t010",
+   "kind": "sentence",
+   "front": "那是我所热爱的事情！",
+   "back": "That's what I love to do!",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t011",
+   "kind": "sentence",
+   "front": "来学校和我一起学习。",
+   "back": "Come to school and learn with me.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u1_t012",
+   "kind": "sentence",
+   "front": "所有的学科都让我变得聪明。",
+   "back": "All the subjects make me smart.",
+   "note": "译林四上 U1 句型"
+  },
+  {
+   "id": "yl4a_u2_g016",
+   "kind": "word",
+   "front": "my day",
+   "back": "我的一天",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g017",
+   "kind": "word",
+   "front": "wash my face",
+   "back": "洗脸",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g018",
+   "kind": "word",
+   "front": "time for school",
+   "back": "上学时间",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g019",
+   "kind": "word",
+   "front": "seven o'clock",
+   "back": "七点整",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g020",
+   "kind": "word",
+   "front": "seven thirty",
+   "back": "七点半",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g021",
+   "kind": "word",
+   "front": "what time",
+   "back": "几点",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g022",
+   "kind": "word",
+   "front": "go to school",
+   "back": "去上学",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g023",
+   "kind": "word",
+   "front": "eleven thirty",
+   "back": "十一点半",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g024",
+   "kind": "word",
+   "front": "come back home",
+   "back": "回到家",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g025",
+   "kind": "word",
+   "front": "time for class",
+   "back": "上课时间",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g026",
+   "kind": "word",
+   "front": "four thirty",
+   "back": "四点半",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g027",
+   "kind": "word",
+   "front": "have dinner",
+   "back": "吃晚饭",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g028",
+   "kind": "word",
+   "front": "have breakfast",
+   "back": "吃早饭",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g029",
+   "kind": "word",
+   "front": "have lunch",
+   "back": "吃午饭",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g030",
+   "kind": "word",
+   "front": "seven twenty",
+   "back": "七点二十",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_g031",
+   "kind": "word",
+   "front": "six fifteen",
+   "back": "六点十五",
+   "note": "译林四上 U2 词组"
+  },
+  {
+   "id": "yl4a_u2_t001",
+   "kind": "sentence",
+   "front": "该走了。",
+   "back": "It's time to go.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t002",
+   "kind": "sentence",
+   "front": "现在是七点钟。",
+   "back": "It's seven o'clock.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t003",
+   "kind": "sentence",
+   "front": "该吃早餐了。",
+   "back": "It's time for breakfast.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t004",
+   "kind": "sentence",
+   "front": "该吃早餐了。",
+   "back": "It's time to have breakfast.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t005",
+   "kind": "sentence",
+   "front": "先洗脸。",
+   "back": "Wash your face first.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t006",
+   "kind": "sentence",
+   "front": "现在几点了？",
+   "back": "What time is it now?",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t007",
+   "kind": "sentence",
+   "front": "现在八点了！",
+   "back": "It's eight!",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t008",
+   "kind": "sentence",
+   "front": "让我们一起吃早餐吧。",
+   "back": "Let's have breakfast.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t009",
+   "kind": "sentence",
+   "front": "现在是午餐时间。",
+   "back": "It's lunchtime.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t010",
+   "kind": "sentence",
+   "front": "我们去吃午餐吧。",
+   "back": "Let's go and have lunch.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t011",
+   "kind": "sentence",
+   "front": "该做运动了。",
+   "back": "It's time for sport.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t012",
+   "kind": "sentence",
+   "front": "到了吃晚餐的时间了。",
+   "back": "It's time to have dinner.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t013",
+   "kind": "sentence",
+   "front": "到了吃晚餐的时间了。",
+   "back": "It's time for dinner.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t014",
+   "kind": "sentence",
+   "front": "到了去睡觉的时间了。",
+   "back": "It's time for bed.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t015",
+   "kind": "sentence",
+   "front": "到了去睡觉的时间了。",
+   "back": "It's time to go to bed.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t016",
+   "kind": "sentence",
+   "front": "好的。",
+   "back": "All right.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t017",
+   "kind": "sentence",
+   "front": "别慢吞吞的。",
+   "back": "Don't be slow.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t018",
+   "kind": "sentence",
+   "front": "检查一下你的包。",
+   "back": "Check your bag.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t019",
+   "kind": "sentence",
+   "front": "别迟到。",
+   "back": "Don't be late.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t020",
+   "kind": "sentence",
+   "front": "我拿着我的球然后说再见。",
+   "back": "I carry my ball and say bye.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u2_t021",
+   "kind": "sentence",
+   "front": "我回到家，打个招呼。",
+   "back": "I come back home and say hi.",
+   "note": "译林四上 U2 句型"
+  },
+  {
+   "id": "yl4a_u3_g032",
+   "kind": "word",
+   "front": "my week",
+   "back": "我的一周",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g033",
+   "kind": "word",
+   "front": "every day",
+   "back": "每天",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g034",
+   "kind": "word",
+   "front": "your week",
+   "back": "你的一周",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g035",
+   "kind": "word",
+   "front": "can't be late for school",
+   "back": "上学不能迟到",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g036",
+   "kind": "word",
+   "front": "six thirty",
+   "back": "六点半",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g037",
+   "kind": "word",
+   "front": "be up early",
+   "back": "早起",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g038",
+   "kind": "word",
+   "front": "at five",
+   "back": "在五点",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g039",
+   "kind": "word",
+   "front": "want to go to school early",
+   "back": "想早点上学",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g040",
+   "kind": "word",
+   "front": "a good idea",
+   "back": "一个好主意",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g041",
+   "kind": "word",
+   "front": "go to the cinema",
+   "back": "去看电影",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g042",
+   "kind": "word",
+   "front": "a dancing lesson",
+   "back": "一节舞蹈课",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g043",
+   "kind": "word",
+   "front": "have two dancing lessons",
+   "back": "有两节舞蹈课",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g044",
+   "kind": "word",
+   "front": "every week",
+   "back": "每周",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g045",
+   "kind": "word",
+   "front": "on Wednesday",
+   "back": "在星期三",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g046",
+   "kind": "word",
+   "front": "walk my dog",
+   "back": "遛狗",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g047",
+   "kind": "word",
+   "front": "on Tuesday",
+   "back": "在星期二",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g048",
+   "kind": "word",
+   "front": "be free on Saturday",
+   "back": "星期六有空",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g049",
+   "kind": "word",
+   "front": "want to walk",
+   "back": "想要散步",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_g050",
+   "kind": "word",
+   "front": "watch a play",
+   "back": "看一场戏剧",
+   "note": "译林四上 U3 词组"
+  },
+  {
+   "id": "yl4a_u3_t001",
+   "kind": "sentence",
+   "front": "我六点半起床。",
+   "back": "I get up at six thirty.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t002",
+   "kind": "sentence",
+   "front": "你今天起得真早。",
+   "back": "You're up early today.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t003",
+   "kind": "sentence",
+   "front": "今天星期六。",
+   "back": "It's Saturday.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t004",
+   "kind": "sentence",
+   "front": "我想早点去上学。",
+   "back": "I want to go to school early.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t005",
+   "kind": "sentence",
+   "front": "今天是星期五。",
+   "back": "It's Friday today.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t006",
+   "kind": "sentence",
+   "front": "放学后我们去看电影吧。",
+   "back": "Let's go to the cinema after school.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t007",
+   "kind": "sentence",
+   "front": "我今天有一节舞蹈课。",
+   "back": "I have a dancing lesson today.",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t008",
+   "kind": "sentence",
+   "front": "明天怎么样？",
+   "back": "What about tomorrow?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t009",
+   "kind": "sentence",
+   "front": "你星期三想做什么？",
+   "back": "What do you want to do on Wednesday?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t010",
+   "kind": "sentence",
+   "front": "我们想散步，看一场精彩的戏剧！",
+   "back": "We want to walk and watch a wonderful play!",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t011",
+   "kind": "sentence",
+   "front": "你如何规划你的一周？",
+   "back": "How do you plan your week?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u3_t012",
+   "kind": "sentence",
+   "front": "学生们每周做什么？",
+   "back": "What do the students do every week?",
+   "note": "译林四上 U3 句型"
+  },
+  {
+   "id": "yl4a_u4_g051",
+   "kind": "word",
+   "front": "like sport",
+   "back": "喜欢运动",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g052",
+   "kind": "word",
+   "front": "play football",
+   "back": "踢足球",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g053",
+   "kind": "word",
+   "front": "play ping-pong",
+   "back": "打乒乓球",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g054",
+   "kind": "word",
+   "front": "like running",
+   "back": "喜欢跑步",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g055",
+   "kind": "word",
+   "front": "like jumping",
+   "back": "喜欢跳跃",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g056",
+   "kind": "word",
+   "front": "play basketball",
+   "back": "打篮球",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g057",
+   "kind": "word",
+   "front": "like swimming",
+   "back": "喜欢游泳",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g058",
+   "kind": "word",
+   "front": "come and play with us",
+   "back": "来和我们一起玩",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g059",
+   "kind": "word",
+   "front": "be hard for",
+   "back": "对……有困难",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g060",
+   "kind": "word",
+   "front": "great fun",
+   "back": "很有趣",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g061",
+   "kind": "word",
+   "front": "play again",
+   "back": "再玩一次",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g062",
+   "kind": "word",
+   "front": "be good for",
+   "back": "对……有好处",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g063",
+   "kind": "word",
+   "front": "play so well",
+   "back": "玩得这么好",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g064",
+   "kind": "word",
+   "front": "try again",
+   "back": "再试一次",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g065",
+   "kind": "word",
+   "front": "be not good at",
+   "back": "不擅长做……",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_g066",
+   "kind": "word",
+   "front": "like football",
+   "back": "喜欢足球",
+   "note": "译林四上 U4 词组"
+  },
+  {
+   "id": "yl4a_u4_t001",
+   "kind": "sentence",
+   "front": "我喜欢打篮球。",
+   "back": "I like playing basketball.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t002",
+   "kind": "sentence",
+   "front": "你喜欢打篮球吗？",
+   "back": "Do you like playing basketball?",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t003",
+   "kind": "sentence",
+   "front": "是的，我喜欢！",
+   "back": "Yes, I do!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t004",
+   "kind": "sentence",
+   "front": "来和我们一起玩吧！",
+   "back": "Come and play with us!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t005",
+   "kind": "sentence",
+   "front": "这很有趣！",
+   "back": "This is great fun!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t006",
+   "kind": "sentence",
+   "front": "我们明天能再玩吗？",
+   "back": "Can we play again tomorrow?",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t007",
+   "kind": "sentence",
+   "front": "当然！",
+   "back": "Sure!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t008",
+   "kind": "sentence",
+   "front": "它对我们有好处。",
+   "back": "It's good for us.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t009",
+   "kind": "sentence",
+   "front": "你呢？",
+   "back": "What about you?",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t010",
+   "kind": "sentence",
+   "front": "我也喜欢打乒乓球。",
+   "back": "I like playing ping-pong too.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t011",
+   "kind": "sentence",
+   "front": "你打得真好！",
+   "back": "You can play so well!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t012",
+   "kind": "sentence",
+   "front": "乒乓球很有趣。",
+   "back": "Ping-pong is fun.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t013",
+   "kind": "sentence",
+   "front": "我打得不好。",
+   "back": "I can't play well.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t014",
+   "kind": "sentence",
+   "front": "再试一次。",
+   "back": "Try again.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t015",
+   "kind": "sentence",
+   "front": "乒乓球非常有趣！",
+   "back": "Ping-pong is great fun!",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t016",
+   "kind": "sentence",
+   "front": "运动很酷。",
+   "back": "Sport is cool.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t017",
+   "kind": "sentence",
+   "front": "运动很有趣。",
+   "back": "Sport is fun.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t018",
+   "kind": "sentence",
+   "front": "让我们一起保持健康。",
+   "back": "Let's keep fit.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t019",
+   "kind": "sentence",
+   "front": "用球棒击打球。",
+   "back": "Hit the ball with the bat.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t020",
+   "kind": "sentence",
+   "front": "抓住球。",
+   "back": "Catch the ball.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u4_t021",
+   "kind": "sentence",
+   "front": "把它扔回去。",
+   "back": "Throw it back.",
+   "note": "译林四上 U4 句型"
+  },
+  {
+   "id": "yl4a_u6_g067",
+   "kind": "word",
+   "front": "save your money for a rainy day",
+   "back": "存钱以备不时之需",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g068",
+   "kind": "word",
+   "front": "a rainy day",
+   "back": "一个下雨天",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g069",
+   "kind": "word",
+   "front": "want a red toy car",
+   "back": "想要一辆红色的玩具车",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g070",
+   "kind": "word",
+   "front": "sunny and hot",
+   "back": "晴朗且炎热",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g071",
+   "kind": "word",
+   "front": "buy the toy car",
+   "back": "买玩具汽车",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g072",
+   "kind": "word",
+   "front": "go to the park",
+   "back": "去公园",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g073",
+   "kind": "word",
+   "front": "in the park",
+   "back": "在公园里",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g074",
+   "kind": "word",
+   "front": "sunny and warm",
+   "back": "晴朗又温暖",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g075",
+   "kind": "word",
+   "front": "meet at ten",
+   "back": "十点见面",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g076",
+   "kind": "word",
+   "front": "play outside",
+   "back": "在外面玩",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g077",
+   "kind": "word",
+   "front": "windy and cloudy",
+   "back": "刮风且多云",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g078",
+   "kind": "word",
+   "front": "cool and nice",
+   "back": "凉爽且宜人",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g079",
+   "kind": "word",
+   "front": "have an umbrella",
+   "back": "有一把伞",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g080",
+   "kind": "word",
+   "front": "share it",
+   "back": "分享它",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g081",
+   "kind": "word",
+   "front": "draw pictures there",
+   "back": "在那里画画",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_g082",
+   "kind": "word",
+   "front": "save your money",
+   "back": "存钱；省钱",
+   "note": "译林四上 U6 词组"
+  },
+  {
+   "id": "yl4a_u6_t001",
+   "kind": "sentence",
+   "front": "我想要一辆红色的玩具车。",
+   "back": "I want a red toy car.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t002",
+   "kind": "sentence",
+   "front": "天气晴朗且炎热。",
+   "back": "It's sunny and hot.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t003",
+   "kind": "sentence",
+   "front": "是多云天气。",
+   "back": "It's cloudy.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t004",
+   "kind": "sentence",
+   "front": "今天是个下雨天！",
+   "back": "Today is a rainy day!",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t005",
+   "kind": "sentence",
+   "front": "是时候去买玩具汽车了！",
+   "back": "It's time to buy the toy car!",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t006",
+   "kind": "sentence",
+   "front": "今天我们去公园吧。",
+   "back": "Let's go to the park today.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t007",
+   "kind": "sentence",
+   "front": "这里很凉爽且宜人。",
+   "back": "It's cool and nice here.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t008",
+   "kind": "sentence",
+   "front": "我们去吃午饭吧！",
+   "back": "Let's have lunch!",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t009",
+   "kind": "sentence",
+   "front": "别担心。",
+   "back": "Don't worry.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t010",
+   "kind": "sentence",
+   "front": "我带了一把伞。",
+   "back": "I have an umbrella with me.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t011",
+   "kind": "sentence",
+   "front": "我们去那儿画画吧！",
+   "back": "Let's go and draw pictures there!",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t012",
+   "kind": "sentence",
+   "front": "改天再来。",
+   "back": "Come again another day.",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t013",
+   "kind": "sentence",
+   "front": "你在不同的天气做什么？",
+   "back": "What do you do in different weather?",
+   "note": "译林四上 U6 句型"
+  },
+  {
+   "id": "yl4a_u6_t014",
+   "kind": "sentence",
+   "front": "让我们待在室内一起读书吧。",
+   "back": "Let's stay inside and read together.",
+   "note": "译林四上 U6 句型"
+  }
+ ]
+}

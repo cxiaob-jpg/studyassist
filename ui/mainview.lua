@@ -884,6 +884,10 @@ function MainView:render_recite_menu()
     local any = false
     for _, kind in ipairs(Recite.KINDS) do
         local count = counts[kind.id] or 0
+        if kind.id == "word_rev" then
+            -- 单词背诵也并入我的单词库（有中文意思的）
+            count = count + #Words.drill_cards()
+        end
         if kind.id == "word" then
             -- English words are a spelling drill (中文 -> 输入英文), not a flashcard.
             local mine = #Words.drill_cards()
@@ -946,6 +950,17 @@ function MainView:start_recite(kind_id)
     if not info then return end
     local grade, semester = self:recite_stage()
     local cards = Recite.cards(self.plugin_path, info.subject, grade, semester, kind_id)
+    if kind_id == "word_rev" then
+        -- 并入我的单词库：看中文意思，背英文单词
+        for _, card in ipairs(Words.drill_cards()) do
+            table.insert(cards, {
+                id = card.id .. "_rev",
+                kind = "word_rev",
+                front = card.back,
+                back = card.front,
+            })
+        end
+    end
     if #cards == 0 then
         UIManager:show(InfoMessage:new{
             text = "本学习阶段暂无" .. info.label .. "内容，可在设置里切换年级。",
