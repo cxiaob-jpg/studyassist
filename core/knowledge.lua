@@ -32,6 +32,14 @@ local function volume_path(plugin_path, subject, grade, semester)
         plugin_path, subject, grade, semester == "lower" and "l" or "u")
 end
 
+-- 版本专属知识点卷：data/toc/<subject>/<edition>/g<N>{u,l}.json。
+-- 有这个文件的版本，知识点菜单按该版教材的真实目录展示（译林英语试点）。
+local function toc_volume_path(plugin_path, subject, edition, grade, semester)
+    if not edition or edition == "" then return nil end
+    return string.format("%s/data/toc/%s/%s/g%d%s.json",
+        plugin_path, subject, edition, grade, semester == "lower" and "l" or "u")
+end
+
 local function normalize_options(options)
     if type(options) ~= "table" then return nil end
     if #options < 3 or #options > 4 then return nil end
@@ -163,18 +171,30 @@ function Knowledge.graph(plugin_path, subject)
 end
 
 --[[--
-Load one volume (grade + semester) of a subject.
-@treturn table {units, topics, questions, by_topic, skipped} or nil, err
+Load one volume (grade + semester) of a subject.  When the chosen textbook
+edition ships a toc volume (data/toc/...) it takes priority over the default
+volume, so the knowledge menu follows that textbook's own table of contents.
+@treturn table {units, topics, questions, by_topic, skipped, edition} or nil, err
 --]]--
-function Knowledge.load(plugin_path, subject, grade, semester)
+function Knowledge.load(plugin_path, subject, grade, semester, edition)
     if not plugin_path or plugin_path == "" then return nil, "plugin path missing" end
     subject = subject or "math"
     grade = tonumber(grade) or 1
     semester = semester == "lower" and "lower" or "upper"
-    local key = table.concat({ plugin_path, subject, tostring(grade), semester }, "|")
+    local toc_path = toc_volume_path(plugin_path, subject, edition, grade, semester)
+    local key = table.concat({ plugin_path, subject, tostring(grade), semester,
+        toc_path and edition or "" }, "|")
     if volume_cache[key] then return volume_cache[key] end
 
-    local data, err = read_json(volume_path(plugin_path, subject, grade, semester))
+    -- 版本专属卷优先；缺失或损坏时静默退回默认卷。
+    local data, err, from_toc
+    if toc_path then
+        data, err = read_json(toc_path)
+        if data then from_toc = true end
+    end
+    if not data then
+        data, err = read_json(volume_path(plugin_path, subject, grade, semester))
+    end
     if not data then return nil, err end
     if type(data.topics) ~= "table" or type(data.questions) ~= "table" then
         return nil, "volume missing topics/questions"
@@ -215,6 +235,7 @@ function Knowledge.load(plugin_path, subject, grade, semester)
         questions = questions,
         by_topic = by_topic,
         skipped = skipped,
+        edition = from_toc and edition or nil,
     }
     volume_cache[key] = volume
     return volume
@@ -235,7 +256,9 @@ function Knowledge.topic(plugin_path, subject, topic_id)
     if not graph then return nil end
     local node = graph.nodes[topic_id]
     if not node then return nil end
-    local volume = Knowledge.load(plugin_path, subject, node.grade, node.semester)
+    -- 节点带 edition 的属于版本专属卷；不带则查默认卷。
+    local volume = Knowledge.load(plugin_path, subject, node.grade, node.semester,
+        node.edition)
     if not volume then return nil end
     for _, topic in ipairs(volume.topics) do
         if topic.id == topic_id then return topic end
@@ -252,7 +275,8 @@ function Knowledge.questions_for(plugin_path, subject, topic_id)
     if not graph then return {} end
     local node = graph.nodes[topic_id]
     if not node then return {} end
-    local volume = Knowledge.load(plugin_path, subject, node.grade, node.semester)
+    local volume = Knowledge.load(plugin_path, subject, node.grade, node.semester,
+        node.edition)
     if not volume then return {} end
     return volume.by_topic[topic_id] or {}
 end

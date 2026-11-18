@@ -3885,7 +3885,9 @@ function MainView:render_kp_select(subject)
     local settings = self.progress.data.settings
     local grade = tonumber(settings.grade) or 2
     local semester = settings.semester
-    local volume, err = Knowledge.load(self.plugin_path, subject, grade, semester)
+    -- 按当前所选教材版本加载：有 toc 卷的版本（如译林英语）按课本目录展示。
+    local edition = settings_edition(settings, subject)
+    local volume, err = Knowledge.load(self.plugin_path, subject, grade, semester, edition)
     if not volume then
         UIManager:show(InfoMessage:new{
             text = string.format("%s%s暂无知识点内容，可在设置里切换年级后再试。",
@@ -3898,8 +3900,19 @@ function MainView:render_kp_select(subject)
     local topic_ids = {}
     for _, topic in ipairs(volume.topics) do table.insert(topic_ids, topic.id) end
     local counts = self.progress:kp_summary(subject, topic_ids)
-    local reference = (subject == "chinese" or subject == "history")
-        and "课标知识点 · 统编参考" or "课标知识点 · 2022 课标"
+    local reference
+    if volume.edition then
+        local name = self:edition_name_of(subject, edition)
+        if name ~= "" then
+            reference = string.format("课本目录 · %s%s", name,
+                self:edition_term_suffix(subject, edition))
+        else
+            reference = "课本目录"
+        end
+    else
+        reference = (subject == "chinese" or subject == "history")
+            and "课标知识点 · 统编参考" or "课标知识点 · 2022 课标"
+    end
 
     local content = VerticalGroup:new{
         align = "center",
@@ -4097,7 +4110,8 @@ end
 function MainView:start_kp_mixed(subject)
     local settings = self.progress.data.settings
     local grade = tonumber(settings.grade) or 2
-    local volume, err = Knowledge.load(self.plugin_path, subject, grade, settings.semester)
+    local volume, err = Knowledge.load(self.plugin_path, subject, grade,
+        settings.semester, settings_edition(settings, subject))
     if not volume or #volume.units == 0 then
         UIManager:show(InfoMessage:new{ text = "知识点题库加载失败：" .. tostring(err), timeout = 4 })
         return
@@ -4115,7 +4129,9 @@ function MainView:start_kp_mixed(subject)
         end
         if #unit_topics > 0 then
             local topic = unit_topics[rng(#unit_topics)]
-            local pool = volume.by_topic[topic.id] or {}
+            -- 共享知识点（如天气）的题在各自的版本卷里，统一走 questions_for。
+            local pool = Knowledge.questions_for(self.plugin_path, subject, topic.id)
+            if #pool == 0 then pool = volume.by_topic[topic.id] or {} end
             local difficulty = kp_choose_difficulty(rng, level)
             local candidates = {}
             for _, q in ipairs(pool) do
