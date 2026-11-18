@@ -60,8 +60,11 @@ function Catalog.recommended_math(plugin_path, province_id)
     return province and province.default_math or "renjiao"
 end
 
--- City-level textbook mapping (data/cities.json). 每座城市记录各学科实际使用的
--- 出版社版本，用于在设置里选完城市后自动预选教材版本。
+-- City-level textbook mapping (data/cities.json). 城市 -> 学科 -> 年级区间 ->
+-- 教材版本，用于在设置里按「省份 + 城市 + 年级」自动匹配教材版本。
+-- 数据结构（schema 3）：
+--   city.s.shuxue = { { "1-6", "sujiao2024", "苏教版" }, { "7-9", "junior", "苏科版" } }
+--   每项为 { 年级区间, 插件版本 id（空串=插件未收录）, 出版社中文名 }
 local city_cache = {}
 
 function Catalog.cities_data(plugin_path)
@@ -90,6 +93,70 @@ function Catalog.city(plugin_path, province_id, city_id)
         if city.id == city_id then return city end
     end
     return nil
+end
+
+-- 解析 "1-6" / "4" 形式的年级区间。
+local function in_range(range, grade)
+    if type(range) ~= "string" or not grade then return false end
+    local a, b = range:match("^(%d+)%s*%-%s*(%d+)$")
+    if a then
+        a, b = tonumber(a), tonumber(b)
+        return grade >= a and grade <= b
+    end
+    return tonumber(range) == grade
+end
+
+-- 返回某城市某年级的教材匹配结果：
+--   { yuwen = { edition = "tongbian", editions = { "tongbian" },
+--               publisher = "统编版", range = "1-9" }, ...,
+--     other = { wuli = "苏科版" } }
+-- editions 为该年级该科的全部候选版本（数据里 run[2] 可为单个 id 或 id 数组）；
+-- edition 为 nil 表示插件未收录该版本，publisher 仍然给出实际出版社供提示。
+function Catalog.city_grade(plugin_path, province_id, city_id, grade)
+    local city = Catalog.city(plugin_path, province_id, city_id)
+    if not city then return nil end
+    local g = tonumber(grade)
+    local out = { other = city.o or {} }
+    for subject, runs in pairs(city.s or {}) do
+        for _, run in ipairs(runs) do
+            if in_range(run[1], g) then
+                local editions = {}
+                local raw = run[2]
+                if type(raw) == "table" then
+                    for _, id in ipairs(raw) do
+                        if type(id) == "string" and id ~= "" then table.insert(editions, id) end
+                    end
+                elseif type(raw) == "string" and raw ~= "" then
+                    table.insert(editions, raw)
+                end
+                out[subject] = {
+                    edition = editions[1],
+                    editions = editions,
+                    publisher = run[3],
+                    range = run[1],
+                }
+                break
+            end
+        end
+    end
+    return out
+end
+
+-- 该学科该版本是否收录了某个年级的题库（任一学期有单元即算）。
+function Catalog.edition_covers(plugin_path, subject, edition_id, grade)
+    if not edition_id or not grade then return false end
+    local data = Catalog.load(plugin_path)
+    local subject_data = data and data.subjects and data.subjects[subject]
+    local edition = subject_data and subject_data.editions and subject_data.editions[edition_id]
+    if not edition then return false end
+    local by_grade = edition.grades and edition.grades[tostring(grade)]
+    if type(by_grade) ~= "table" then return false end
+    for _, semester in pairs(by_grade) do
+        if type(semester) == "table" and type(semester.units) == "table" and #semester.units > 0 then
+            return true
+        end
+    end
+    return false
 end
 
 function Catalog.editions(plugin_path, subject)

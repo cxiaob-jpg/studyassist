@@ -127,15 +127,27 @@ def main():
     if CATALOG.get("grades") != [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]:
         err(f"catalog grades {CATALOG.get('grades')} != 1..12")
 
-    # 城市教材映射：province/city 必须存在，版本 id 必须在该学科里定义。
+    # 城市教材映射（schema 3）：city.s.<学科> = [[年级区间, 版本id, 出版社], ...]
+    # 区间必须可解析、版本 id 必须在该学科里定义、区间不得重叠。
     city_file = PLUGIN / "data" / "cities.json"
     if city_file.exists():
         cities = json.loads(city_file.read_text(encoding="utf-8"))
+        if cities.get("schema_version") != 3:
+            err(f"cities.json: unexpected schema_version {cities.get('schema_version')}")
         pids = {p["id"] for p in CATALOG["provinces"]}
-        city_subject = {"yuwen": "chinese", "shuxue": "math", "yingyu": "english",
-                        "wuli": "physics", "huaxue": "chemistry", "shengwu": "biology",
-                        "lishi": "history", "dili": "geography"}
+        city_subject = {"yuwen": "chinese", "shuxue": "math", "yingyu": "english"}
+        other_subject = {"wuli", "huaxue", "shengwu", "lishi", "dili"}
         n_city = 0
+
+        def span(text):
+            a, _, b = str(text).partition("-")
+            try:
+                a = int(a)
+                b = int(b) if b else a
+            except ValueError:
+                return None
+            return (a, b) if 1 <= a <= b <= 12 else None
+
         for pid, prov in cities.get("provinces", {}).items():
             if pid not in pids:
                 err(f"cities.json: unknown province {pid}")
@@ -143,14 +155,32 @@ def main():
                 n_city += 1
                 if not city.get("name"):
                     err(f"cities.json: {pid}/{city.get('id')} missing name")
-                for sub, edition in (city.get("editions") or {}).items():
+                for sub, runs in (city.get("s") or {}).items():
                     subject = city_subject.get(sub)
                     if not subject:
                         err(f"cities.json: {pid}/{city['id']} unknown subject {sub}")
                         continue
                     editions = (CATALOG["subjects"].get(subject) or {}).get("editions", {})
-                    if edition not in editions:
-                        err(f"cities.json: {pid}/{city['id']}/{sub} unknown edition {edition}")
+                    taken = set()
+                    for run in runs:
+                        if not isinstance(run, list) or len(run) != 3:
+                            err(f"cities.json: {pid}/{city['id']}/{sub} bad run {run}")
+                            continue
+                        rng, edition, publisher = run
+                        sp = span(rng)
+                        if not sp:
+                            err(f"cities.json: {pid}/{city['id']}/{sub} bad range {rng}")
+                            continue
+                        if taken & set(range(sp[0], sp[1] + 1)):
+                            err(f"cities.json: {pid}/{city['id']}/{sub} overlapping range {rng}")
+                        taken |= set(range(sp[0], sp[1] + 1))
+                        if edition and edition not in editions:
+                            err(f"cities.json: {pid}/{city['id']}/{sub} unknown edition {edition}")
+                        if not publisher:
+                            err(f"cities.json: {pid}/{city['id']}/{sub}/{rng} missing publisher")
+                for sub in (city.get("o") or {}):
+                    if sub not in other_subject:
+                        err(f"cities.json: {pid}/{city['id']} unknown other subject {sub}")
         print(f"cities.json: {n_city} cities checked")
 
     if errors:

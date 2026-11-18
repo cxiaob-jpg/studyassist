@@ -441,6 +441,40 @@ function MainView:city_label()
     return city and city.name or "不指定（按省份推荐）"
 end
 
+-- 省市年级 -> 教材匹配结果（城市为空时返回 nil）。
+local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
+
+function MainView:city_match()
+    local settings = self.progress.data.settings
+    if not settings.city then return nil end
+    return Catalog.city_grade(self.plugin_path, settings.province, settings.city, settings.grade)
+end
+
+-- 该科在当前城市/年级下的推荐版本；无匹配或插件未收录时返回 nil。
+function MainView:recommended_edition(subject)
+    local match = self:city_match()
+    for key, plugin_subject in pairs(CITY_SUBJECTS) do
+        if plugin_subject == subject and match and match[key] then
+            return match[key].edition, match[key].publisher
+        end
+    end
+    return nil
+end
+
+-- 设置页教材行文案：与推荐不一致时附带推荐值。
+function MainView:edition_row_label(subject)
+    local name = self:edition_name(subject)
+    local rec = self:recommended_edition(subject)
+    if rec and rec ~= settings_edition(self.progress.data.settings, subject) then
+        return string.format("%s（%s推荐：%s）", name, self:city_label(), self:edition_name_of(subject, rec))
+    end
+    return name
+end
+
+function MainView:edition_name_of(subject, edition)
+    return Catalog.edition_name(self.plugin_path, subject, edition)
+end
+
 function MainView:course_label()
     return string.format("%s%s · %s · %s", self:grade_label(), self:semester_label(),
         self:edition_name("chinese"), self:edition_name("math"))
@@ -3185,17 +3219,15 @@ function MainView:render_province_select()
         settings.city = nil
         settings.math_edition = Catalog.recommended_math(self.plugin_path, item.id)
         self.progress:flush()
+        local count = #Catalog.cities(self.plugin_path, item.id)
         UIManager:show(InfoMessage:new{
-            text = string.format("已选择%s，数学教材推荐为%s，可在设置中修改；选城市可自动匹配语文/数学/英语版本。",
-                item.name, Catalog.edition_name(self.plugin_path, "math", settings.math_edition)),
+            text = string.format("已选择%s（%d 个城市可选）。接着选城市和年级，会自动匹配语文/数学/英语教材版本。",
+                item.name, count),
             timeout = 4,
         })
         self:render_settings()
     end)
 end
-
--- 城市 -> 插件学科键（只有这三科支持用户切换版本）
-local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
 
 function MainView:render_city_select()
     local settings = self.progress.data.settings
@@ -3217,40 +3249,93 @@ function MainView:render_city_select()
             selected = settings.city == city.id,
         })
     end
-    self:render_choice_list("选择城市", items, function(item)
+    self:render_choice_list("选择城市（" .. #cities .. "）", items, function(item)
         if item.id == "" then
             settings.city = nil
             self.progress:flush()
             self:render_settings()
             return
         end
-        self:apply_city(item.id)
+        settings.city = item.id
+        self:apply_city_match(item.name, true)
     end)
 end
 
--- 按城市数据自动写入语文/数学/英语版本，并提示插件未收录的版本。
-function MainView:apply_city(city_id)
+-- 所选版本缺本年级题库时的提示后缀（练习会自动回退到有数据的版本）。
+function MainView:coverage_hint(subject, edition)
     local settings = self.progress.data.settings
-    local city = Catalog.city(self.plugin_path, settings.province, city_id)
-    if not city then return end
-    settings.city = city.id
-    local applied = {}
-    for subject, edition in pairs(city.editions or {}) do
-        local key = CITY_SUBJECTS[subject]
-        if key then
-            settings[key .. "_edition"] = edition
-            table.insert(applied, string.format("%s %s", self:subject_label(key),
-                Catalog.edition_name(self.plugin_path, key, edition)))
+    if Catalog.edition_covers(self.plugin_path, subject, edition, settings.grade) then
+        return ""
+    end
+    return "（暂无本年级题库，练习自动回退）"
+end
+
+-- 按「省份 + 城市 + 年级」匹配语文/数学/英语版本：命中就写入，多版本时列出候选，
+-- 插件未收录的版本给出提示但保留原设置。
+-- @param city_name 提示用的城市名
+-- @param from_city 是否由「选城市」触发（触发时额外提示其他学科差异）
+function MainView:apply_city_match(city_name, from_city)
+    local settings = self.progress.data.settings
+    local match = self:city_match()
+    if not match then return end
+    local grade_label = self:grade_label()
+    local applied, missing, absent = {}, {}, {}
+
+    for _, key in ipairs({ "yuwen", "shuxue", "yingyu" }) do
+        local subject = CITY_SUBJECTS[key]
+        local item = match[key]
+        if not item then
+            table.insert(absent, self:subject_label(subject))
+        elseif item.edition then
+            local editions = item.editions or { item.edition }
+            if #editions > 1 then
+                -- 该年级有多个版本：当前选择命中就保留，否则取第一个
+                local current = settings_edition(settings, subject)
+                local keep = nil
+                for _, id in ipairs(editions) do
+                    if id == current then keep = id end
+                end
+                settings[subject .. "_edition"] = keep or editions[1]
+                local chosen = settings[subject .. "_edition"]
+                table.insert(applied, string.format("%s %s%s（可选 %d 个版本）", self:subject_label(subject),
+                    self:edition_name_of(subject, chosen), self:coverage_hint(subject, chosen), #editions))
+            else
+                settings[subject .. "_edition"] = item.edition
+                table.insert(applied, string.format("%s %s%s", self:subject_label(subject),
+                    self:edition_name_of(subject, item.edition),
+                    self:coverage_hint(subject, item.edition)))
+            end
+        else
+            table.insert(missing, string.format("%s%s", self:subject_label(subject), item.publisher or ""))
         end
     end
-    table.sort(applied)
+
     self.progress:flush()
-    local text = string.format("已按%s匹配：%s", city.name, table.concat(applied, " · "))
-    local notes = city.notes or {}
-    if #notes > 0 then
-        text = text .. "\n注意：" .. table.concat(notes, "、") .. "（插件暂未收录该版本）"
+    local lines = {}
+    if #applied > 0 then
+        table.insert(lines, string.format("已按%s%s匹配：%s", city_name or "", grade_label,
+            table.concat(applied, " · ")))
     end
-    UIManager:show(InfoMessage:new{ text = text, timeout = 6 })
+    if #missing > 0 then
+        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. "（插件暂无该版本，练习沿用当前设置）")
+    end
+    if #absent > 0 then
+        table.insert(lines, "无书目：" .. table.concat(absent, "、") .. "（源站该年级无数据，保持原设置）")
+    end
+    if from_city and match.other and next(match.other) then
+        local other = {}
+        local other_label = { wuli = "物理", huaxue = "化学", shengwu = "生物",
+                              lishi = "历史", dili = "地理" }
+        for key, publisher in pairs(match.other) do
+            table.insert(other, (other_label[key] or key) .. publisher)
+        end
+        table.sort(other)
+        table.insert(lines, "其他学科：" .. table.concat(other, "、"))
+    end
+    if #lines == 0 then
+        table.insert(lines, "该城市该年级暂无教材数据。")
+    end
+    UIManager:show(InfoMessage:new{ text = table.concat(lines, "\n"), timeout = 6 })
     self:render_settings()
 end
 
@@ -3265,21 +3350,53 @@ function MainView:render_grade_select()
         })
     end
     self:render_choice_list("选择年级", items, function(item)
+        local changed = tonumber(settings.grade) ~= tonumber(item.id)
         settings.grade = item.id
         self.progress:flush()
-        self:render_settings()
+        -- 已选城市时，年级变了就重新按城市对应版本
+        if changed and settings.city then
+            local city = Catalog.city(self.plugin_path, settings.province, settings.city)
+            self:apply_city_match(city and city.name or nil, false)
+        else
+            self:render_settings()
+        end
     end)
 end
 
 function MainView:render_edition_select(subject)
     local settings = self.progress.data.settings
     local current = settings_edition(settings, subject)
+    local match = self:city_match()
+    local rec_key = nil
+    for key, plugin_subject in pairs(CITY_SUBJECTS) do
+        if plugin_subject == subject then rec_key = key end
+    end
+    local rec = self:recommended_edition(subject)
+    local rec_pub = nil
+    if rec_key and match and match[rec_key] then rec_pub = match[rec_key].publisher end
     local items = {}
-    for _, edition in ipairs(Catalog.editions(self.plugin_path, subject)) do
+    if rec then
         table.insert(items, {
-            id = edition.id,
-            name = edition.name,
-            selected = current == edition.id,
+            id = rec,
+            name = string.format("%s（%s%s使用%s）", self:edition_name_of(subject, rec),
+                self:city_label(), self:grade_label(), rec_pub or ""),
+            selected = current == rec,
+        })
+    end
+    for _, edition in ipairs(Catalog.editions(self.plugin_path, subject)) do
+        if edition.id ~= rec then
+            table.insert(items, {
+                id = edition.id,
+                name = edition.name,
+                selected = current == edition.id,
+            })
+        end
+    end
+    if rec_pub and not rec then
+        UIManager:show(InfoMessage:new{
+            text = string.format("%s%s使用%s，插件暂未收录该版本，下列版本仅供手动选择。",
+                self:city_label(), self:grade_label(), rec_pub),
+            timeout = 5,
         })
     end
     self:render_choice_list(self:subject_label(subject) .. "教材", items, function(item)
@@ -3455,21 +3572,21 @@ function MainView:render_settings()
         callback = function() self:render_grade_select() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("语文教材：%s", self:edition_name("chinese")), {
+    table.insert(content, Widgets.button(string.format("语文教材：%s", self:edition_row_label("chinese")), {
         width = cw,
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function() self:render_edition_select("chinese") end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("数学教材：%s", self:edition_name("math")), {
+    table.insert(content, Widgets.button(string.format("数学教材：%s", self:edition_row_label("math")), {
         width = cw,
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function() self:render_edition_select("math") end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("英语教材：%s", self:edition_name("english")), {
+    table.insert(content, Widgets.button(string.format("英语教材：%s", self:edition_row_label("english")), {
         width = cw,
         height = Screen:scaleBySize(54),
         align = "left",
