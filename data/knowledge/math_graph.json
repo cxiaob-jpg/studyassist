@@ -7789,6 +7789,96 @@
    "unit_name": null,
    "domain": "综合与实践",
    "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p405",
+   "name": "一天的时间（24 时记时法）",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": null,
+   "domain": "综合与实践",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p406",
+   "name": "两、三位数除以一位数的笔算",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p407",
+   "name": "商中间或末尾有 0 的除法",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p408",
+   "name": "数量关系的分析（一）",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u7",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p409",
+   "name": "混合运算和数量关系（三）",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p410",
+   "name": "生活中的分段计费",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": null,
+   "domain": "综合与实践",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p411",
+   "name": "数与运算的再认识",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p412",
+   "name": "二进制的秘密（综合实践）",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": null,
+   "domain": "综合与实践",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p413",
+   "name": "按比例分配",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
   }
  ],
  "edges": [

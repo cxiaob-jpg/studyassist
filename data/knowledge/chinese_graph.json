@@ -6335,6 +6335,36 @@
    "unit_name": null,
    "domain": "习作基础",
    "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p513",
+   "name": "口语交际：演讲",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": null,
+   "domain": "口语交际",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p514",
+   "name": "口语交际：请你支持我",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": null,
+   "domain": "口语交际",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p515",
+   "name": "口语交际：意见不同怎么办",
+   "grade": 6,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": null,
+   "domain": "口语交际",
+   "edition": "tongbian"
   }
  ],
  "edges": [
