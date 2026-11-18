@@ -6235,6 +6235,106 @@
    "unit_name": null,
    "domain": "习作基础",
    "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p503",
+   "name": "口语交际：我的暑假生活",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p504",
+   "name": "习作：猜猜他是谁",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": null,
+   "domain": "习作基础",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p505",
+   "name": "口语交际：名字里的故事",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p506",
+   "name": "口语交际：身边的“小事”",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u7",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p507",
+   "name": "口语交际：请教",
+   "grade": 3,
+   "semester": "upper",
+   "unit": "u8",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p508",
+   "name": "口语交际：制定班级公约",
+   "grade": 5,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p509",
+   "name": "口语交际：讲民间故事",
+   "grade": 5,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p510",
+   "name": "习作：二十年后的家乡",
+   "grade": 5,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": null,
+   "domain": "习作基础",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p511",
+   "name": "口语交际：父母之爱",
+   "grade": 5,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": null,
+   "domain": "口语表达",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_p512",
+   "name": "习作：我最喜爱的季节",
+   "grade": 5,
+   "semester": "upper",
+   "unit": "u7",
+   "unit_name": null,
+   "domain": "习作基础",
+   "edition": "tongbian"
   }
  ],
  "edges": [
