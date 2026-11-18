@@ -524,6 +524,18 @@ function MainView:render_exit_pin_settings()
     })
 end
 
+function MainView:confirm_reset_progress()
+    UIManager:show(ConfirmBox:new{
+        text = "确定清空所有星星、打卡、奖章和错题吗？\n\nAI 服务配置和 AI 题库会保留；这个操作不能撤销。",
+        ok_text = "确定清空",
+        cancel_text = "取消",
+        ok_callback = function()
+            self.progress:reset_progress()
+            self:render_settings()
+        end,
+    })
+end
+
 function MainView:onCloseWidget()
     self.closed = true
     self.progress:flush()
@@ -3980,15 +3992,20 @@ function MainView:render_settings()
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function()
-            UIManager:show(ConfirmBox:new{
-                text = "确定清空所有星星、打卡、奖章和错题吗？\n\nAI 服务配置和 AI 题库会保留；这个操作不能撤销。",
-                ok_text = "确定清空",
-                cancel_text = "取消",
-                ok_callback = function()
-                    self.progress:reset_progress()
-                    self:render_settings()
-                end,
-            })
+            -- 设置了密码时先验证，防止孩子自行清空进度
+            local pin = settings.exit_pin
+            if pin and #tostring(pin) == 4 then
+                self:ask_pin_input("重置学习进度 · 请输入 4 位密码", function(text)
+                    if text == nil then return end
+                    if text ~= tostring(pin) then
+                        UIManager:show(InfoMessage:new{ text = "密码不对，未重置。", timeout = 3 })
+                        return
+                    end
+                    self:confirm_reset_progress()
+                end)
+                return
+            end
+            self:confirm_reset_progress()
         end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
