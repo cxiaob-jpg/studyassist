@@ -396,6 +396,12 @@ function MainView:close_view()
 end
 
 function MainView:onClose()
+    -- 设置了退出密码时，退出前先验密码，防止孩子误退
+    local pin = self.progress.data.settings.exit_pin
+    if pin and #tostring(pin) == 4 then
+        self:verify_exit_pin()
+        return true
+    end
     if self.state == "quiz" or self.state == "feedback"
         or self.state == "diagnose_quiz" or self.state == "diagnose_feedback" then
         UIManager:show(ConfirmBox:new{
@@ -408,6 +414,114 @@ function MainView:onClose()
     end
     self:close_view()
     return true
+end
+
+function MainView:ask_pin_input(title, on_done)
+    local dialog
+    dialog = InputDialog:new{
+        title = title,
+        input = "",
+        input_type = "number",
+        text_type = "password",
+        buttons = {
+            {
+                {
+                    text = "取消",
+                    id = "close",
+                    callback = function()
+                        UIManager:close(dialog)
+                        on_done(nil)
+                    end,
+                },
+                {
+                    text = "确定",
+                    callback = function()
+                        local text = dialog:getInputText() or ""
+                        UIManager:close(dialog)
+                        on_done(text)
+                    end,
+                },
+            },
+        },
+    }
+    UIManager:show(dialog)
+    dialog:onShowKeyboard()
+end
+
+function MainView:verify_exit_pin()
+    if self._pin_dialog_open then return end
+    self._pin_dialog_open = true
+    self:ask_pin_input("退出插件 · 请输入 4 位密码", function(text)
+        self._pin_dialog_open = false
+        if text == nil then return end -- 取消：留在插件
+        local settings = self.progress.data.settings
+        if text ~= tostring(settings.exit_pin) then
+            UIManager:show(InfoMessage:new{ text = "密码不对，已留在插件。", timeout = 3 })
+            return
+        end
+        -- 密码正确：继续原退出流程（做题中途仍再确认一次，避免丢进度）
+        if self.state == "quiz" or self.state == "feedback"
+            or self.state == "diagnose_quiz" or self.state == "diagnose_feedback" then
+            UIManager:show(ConfirmBox:new{
+                text = _("本轮练习还没有完成，确定退出吗？\n\n已经答过的题目和星星会保存。"),
+                ok_text = _("退出"),
+                cancel_text = _("继续练习"),
+                ok_callback = function() self:close_view() end,
+            })
+        else
+            self:close_view()
+        end
+    end)
+end
+
+function MainView:render_exit_pin_settings()
+    local settings = self.progress.data.settings
+    if not settings.exit_pin then
+        self:ask_pin_input("设置退出密码（4 位数字）", function(pin)
+            if pin == nil then self:render_settings() return end
+            if not pin:match("^%d%d%d%d$") then
+                UIManager:show(InfoMessage:new{ text = "请输入 4 位数字。", timeout = 3 })
+                return
+            end
+            self:ask_pin_input("再输入一次确认", function(pin2)
+                if pin2 == nil then self:render_settings() return end
+                if pin2 ~= pin then
+                    UIManager:show(InfoMessage:new{ text = "两次输入不一致，未设置。", timeout = 4 })
+                else
+                    settings.exit_pin = pin
+                    self.progress:flush()
+                    UIManager:show(InfoMessage:new{
+                        text = "退出密码已设置：以后退出插件时需要输入这 4 位密码。",
+                        timeout = 4 })
+                end
+                self:render_settings()
+            end)
+        end)
+        return
+    end
+    UIManager:show(ConfirmBox:new{
+        text = "退出密码已设置，退出插件时需要输入。\n\n要清除还是修改？",
+        ok_text = "清除密码",
+        cancel_text = "修改密码",
+        ok_callback = function()
+            settings.exit_pin = nil
+            self.progress:flush()
+            UIManager:show(InfoMessage:new{ text = "退出密码已清除。", timeout = 3 })
+            self:render_settings()
+        end,
+        cancel_callback = function()
+            -- 修改密码：先验旧密码，防止孩子自行改掉
+            self:ask_pin_input("输入当前密码", function(old)
+                if old == nil then return end
+                if old ~= tostring(settings.exit_pin) then
+                    UIManager:show(InfoMessage:new{ text = "当前密码不对。", timeout = 3 })
+                    return
+                end
+                settings.exit_pin = nil
+                self:render_exit_pin_settings()
+            end)
+        end,
+    })
 end
 
 function MainView:onCloseWidget()
@@ -3831,6 +3945,14 @@ function MainView:render_settings()
             self.progress:flush()
             self:render_settings()
         end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button(string.format("退出密码：%s",
+        settings.exit_pin and "已设置" or "未设置"), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:render_exit_pin_settings() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.textbox(string.format("当前版本：v%s", Update.local_version(self.plugin_path)), cw, { size = 18 }))
