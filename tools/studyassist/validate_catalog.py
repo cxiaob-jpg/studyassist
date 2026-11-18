@@ -183,6 +183,31 @@ def main():
                         err(f"cities.json: {pid}/{city['id']} unknown other subject {sub}")
         print(f"cities.json: {n_city} cities checked")
 
+    term_file = PLUGIN / "data" / "edition_terms.json"
+    if term_file.exists():
+        terms = json.loads(term_file.read_text(encoding="utf-8"))
+        if terms.get("schema_version") != 1:
+            err(f"edition_terms.json: unexpected schema_version {terms.get('schema_version')}")
+        subjects = terms.get("terms") or {}
+        n_terms = 0
+        for sub, by_pub in subjects.items():
+            if sub not in ("yuwen", "shuxue", "yingyu"):
+                err(f"edition_terms.json: unknown subject {sub}")
+                continue
+            for pub, by_grade in by_pub.items():
+                if not pub:
+                    err(f"edition_terms.json: {sub} empty publisher")
+                for grade, by_term in by_grade.items():
+                    if not grade.isdigit() or not (1 <= int(grade) <= 12):
+                        err(f"edition_terms.json: {sub}/{pub} bad grade {grade}")
+                    for term, year in by_term.items():
+                        if term not in ("u", "l"):
+                            err(f"edition_terms.json: {sub}/{pub}/{grade} bad term {term}")
+                        if not isinstance(year, int) or year < 0 or (0 < year < 1990) or year > 2100:
+                            err(f"edition_terms.json: {sub}/{pub}/{grade}/{term} bad year {year}")
+                        n_terms += 1
+        print(f"edition_terms.json: {n_terms} volumes checked")
+
     if errors:
         print(f"CATALOG ERRORS ({len(errors)}):")
         for item in errors[:100]:

@@ -184,7 +184,10 @@
    ],
    "editions": {
     "tongbian": {
-     "name": "统编版（2022课标初中目录）",
+     "name": "统编版",
+     "publisher": "统编版",
+     "edition_year": 2024,
+     "legacy_id": "tongbian-legacy",
      "grades": {
       "1": {
        "upper": {
@@ -924,6 +927,8 @@
    "editions": {
     "renjiao": {
      "name": "人教版",
+     "publisher": "人教版",
+     "edition_year": 2024,
      "grades": {
       "1": {
        "upper": {
@@ -1661,6 +1666,8 @@
     },
     "beishida": {
      "name": "北师大版",
+     "publisher": "北师大版",
+     "edition_year": 2024,
      "grades": {
       "1": {
        "upper": {
@@ -2402,6 +2409,8 @@
     },
     "sujiao": {
      "name": "苏教版",
+     "publisher": "苏教版",
+     "edition_year": 2015,
      "grades": {
       "1": {
        "upper": {
@@ -3143,6 +3152,8 @@
     },
     "qingdao": {
      "name": "青岛版",
+     "publisher": "青岛版",
+     "edition_year": 2024,
      "grades": {
       "1": {
        "upper": {
@@ -3884,6 +3895,8 @@
     },
     "hujiao": {
      "name": "沪教版",
+     "publisher": "沪教版",
+     "edition_year": 2024,
      "grades": {
       "1": {
        "upper": {
@@ -4625,6 +4638,7 @@
     },
     "junior": {
      "name": "初中通用版（2022课标初中目录）",
+     "publisher": "",
      "grades": {
       "7": {
        "lower": {
@@ -4802,6 +4816,7 @@
     },
     "senior": {
      "name": "人教A版（高中新教材）",
+     "publisher": "人教版",
      "grades": {
       "10": {
        "lower": {
@@ -4922,6 +4937,9 @@
     },
     "sujiao2024": {
      "name": "苏教版（2024新教材）",
+     "publisher": "苏教版",
+     "edition_year": 2024,
+     "legacy_id": "sujiao",
      "grades": {
       "1": {
        "upper": {
@@ -5720,6 +5738,8 @@
    "editions": {
     "pep": {
      "name": "人教版PEP（2022课标修订版，三年级起点）",
+     "publisher": "人教版",
+     "edition_year": 2024,
      "grades": {
       "3": {
        "lower": {
@@ -5969,6 +5989,8 @@
     },
     "renjiao": {
      "name": "人教版（新目标）（初中新目标目录）",
+     "publisher": "人教版",
+     "edition_year": 2024,
      "grades": {
       "7": {
        "lower": {
@@ -6185,6 +6207,7 @@
     },
     "renjiao-senior": {
      "name": "人教版（高中）（高中新教材）",
+     "publisher": "人教版",
      "grades": {
       "10": {
        "lower": {
@@ -6370,6 +6393,8 @@
     },
     "yilin": {
      "name": "译林版（2024新教材，三年级起点）",
+     "publisher": "译林版",
+     "edition_year": 2024,
      "grades": {
       "4": {
        "upper": {

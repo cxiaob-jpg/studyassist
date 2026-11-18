@@ -142,6 +142,106 @@ function Catalog.city_grade(plugin_path, province_id, city_id, grade)
     return out
 end
 
+-- 册级版次（data/edition_terms.json）。版次是出版社按「册」推进的，全国一致；
+-- 城市只决定用哪家出版社，所以两层要分开看：
+--   城市 -> 出版社      见 cities.json
+--   出版社 + 年级 + 册 -> 版次年份   见 edition_terms.json
+-- 数据结构（schema 1）：
+--   terms.shuxue["苏教版"]["1"] = { u = 2024, l = 2025 }
+-- year = 0 或缺失表示源站未标注（旧版）；>= 2024 为 2022 课标修订新教材。
+local term_cache = {}
+
+function Catalog.terms_data(plugin_path)
+    if not plugin_path or plugin_path == "" then return nil end
+    if term_cache[plugin_path] ~= nil then
+        return term_cache[plugin_path] or nil
+    end
+    local data = read_json(plugin_path .. "/data/edition_terms.json")
+    if not data or type(data.terms) ~= "table" then
+        term_cache[plugin_path] = false
+        return nil
+    end
+    term_cache[plugin_path] = data
+    return data
+end
+
+-- edition_terms.json 用抓取时的学科键（yuwen/shuxue/yingyu），catalog 用
+-- chinese/math/english，这里统一一下，两个名字都能查。
+local TERM_SUBJECT = {
+    chinese = "yuwen", yuwen = "yuwen",
+    math = "shuxue", shuxue = "shuxue",
+    english = "yingyu", yingyu = "yingyu",
+}
+
+-- 某出版社某册的版次年份。返回 nil 表示没有该册的记录；
+-- 返回 0 表示源站有这个册但没标年份（旧版）。
+function Catalog.term_year(plugin_path, subject, publisher, grade, semester)
+    local data = Catalog.terms_data(plugin_path)
+    if not data or not publisher or not grade then return nil end
+    local key = TERM_SUBJECT[subject] or subject
+    local by_publisher = data.terms[key] and data.terms[key][publisher]
+    local by_grade = by_publisher and by_publisher[tostring(tonumber(grade))]
+    if not by_grade then return nil end
+    return by_grade[semester == "lower" and "l" or "u"]
+end
+
+-- 版次文案：2024秋版 / 2025春版 / 2019版（旧）/ 旧版；nil 表示无数据。
+function Catalog.term_label(year, semester)
+    if year == nil then return nil end
+    if year >= 2024 then
+        return string.format("%d%s版", year, semester == "lower" and "春" or "秋")
+    end
+    if year > 0 then
+        return string.format("%d版（旧）", year)
+    end
+    return "旧版"
+end
+
+-- 该册是否已经换成 2022 课标修订版新教材。
+function Catalog.term_is_new(year)
+    return (year or 0) >= 2024
+end
+
+function Catalog.edition_meta(plugin_path, subject, edition_id)
+    local data = Catalog.load(plugin_path)
+    local subject_data = data and data.subjects and data.subjects[subject]
+    local editions = subject_data and subject_data.editions
+    return editions and edition_id and editions[edition_id] or nil
+end
+
+function Catalog.edition_publisher(plugin_path, subject, edition_id)
+    local meta = Catalog.edition_meta(plugin_path, subject, edition_id)
+    return meta and meta.publisher or nil
+end
+
+-- 按册的版次决定该用新版还是旧版：新版还没铺到的册，自动退到 legacy_id。
+function Catalog.resolve_term_edition(plugin_path, subject, edition_id, year)
+    if not edition_id or year == nil or year >= 2024 then return edition_id end
+    local meta = Catalog.edition_meta(plugin_path, subject, edition_id)
+    local legacy = meta and meta.legacy_id
+    if not legacy then return edition_id end
+    if not Catalog.edition_meta(plugin_path, subject, legacy) then return edition_id end
+    return legacy
+end
+
+-- 在 city_grade 的结果上叠加册级版次：每科补 year / label / is_new，
+-- 并把 edition 换成该册实际在用的版本（新旧教材过渡期上下册可能不同）。
+function Catalog.city_term(plugin_path, province_id, city_id, grade, semester)
+    local match = Catalog.city_grade(plugin_path, province_id, city_id, grade)
+    if not match then return nil end
+    local sem = semester == "lower" and "lower" or "upper"
+    for subject, item in pairs(match) do
+        if type(item) == "table" and item.publisher then
+            local year = Catalog.term_year(plugin_path, subject, item.publisher, grade, sem)
+            item.year = year
+            item.label = Catalog.term_label(year, sem)
+            item.is_new = Catalog.term_is_new(year)
+            item.edition = Catalog.resolve_term_edition(plugin_path, subject, item.edition, year)
+        end
+    end
+    return match
+end
+
 -- 该学科该版本是否收录了某个年级的题库（任一学期有单元即算）。
 function Catalog.edition_covers(plugin_path, subject, edition_id, grade)
     if not edition_id or not grade then return false end
