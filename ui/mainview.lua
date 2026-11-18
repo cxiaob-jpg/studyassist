@@ -3637,7 +3637,24 @@ function MainView:render_settings()
     -- 教材：八个科目两列排，一行两科
     local gap = Screen:scaleBySize(8)
     local tile_w = math.floor((cw - gap) / 2)
+    local function subject_available(subject, grade)
+        for _, g in ipairs(subject_grades(self.plugin_path, subject)) do
+            if g == grade then return true end
+        end
+        return false
+    end
     local function edition_tile(subject)
+        local grade = tonumber(settings.grade) or 2
+        -- 这个年级还没开这门课（如小学物理、一二年级英语）：格子写「暂无」且不可点
+        if not subject_available(subject, grade) then
+            return Widgets.button(string.format("%s 暂无", SUBJECT_LABEL[subject]), {
+                width = tile_w,
+                height = Screen:scaleBySize(54),
+                align = "center",
+                size = 18,
+                enabled = false,
+            })
+        end
         return Widgets.button(
             string.format("%s %s", SUBJECT_LABEL[subject], self:edition_tile_label(subject)), {
                 width = tile_w,
