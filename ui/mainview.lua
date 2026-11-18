@@ -2246,27 +2246,51 @@ function MainView:render_wrongbook()
     self.state = "wrongbook"
     self:set_title("错题本")
     local cw = Widgets.width()
-    local half = math.floor((cw - Size.span.horizontal_default) / 2)
+    local gap = Screen:scaleBySize(8)
+    local half = math.floor((cw - gap) / 2)
     local items = self.progress:wrong_items()
     local content = VerticalGroup:new{ align = "center" }
     if #items == 0 then
         table.insert(content, Widgets.label("还没有错题，真棒！", { size = 24, bold = true }))
         table.insert(content, Widgets.vspace(Size.span.vertical_large))
+        table.insert(content, Widgets.button("AI 题库", {
+            width = cw,
+            size = 20,
+            callback = function() self:render_ai_bank(nil, function() self:render_wrongbook() end) end,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
     else
-        table.insert(content, Widgets.label(string.format("共 %d 道错题，先复习最久没有看的。", #items), {
+        -- 按学科分组，二级菜单进学科看错题和知识点
+        local by_subject = {}
+        for _, item in ipairs(items) do
+            by_subject[item.subject] = (by_subject[item.subject] or 0) + 1
+        end
+        table.insert(content, Widgets.label(string.format("共 %d 道错题，选择学科查看详情。", #items), {
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        local shown = math.min(#items, 8)
-        for i = #items, math.max(1, #items - shown + 1), -1 do
-            local item = items[i]
-            table.insert(content, Widgets.button(string.format("[%s] %s", SUBJECT_LABEL[item.subject] or "题", truncate(item.stem, 22)), {
-                width = cw,
-                height = Screen:scaleBySize(50),
-                size = 18,
-                align = "left",
-                callback = function() self:render_wrong_detail(item) end,
-            }))
+        local row, rows = {}, {}
+        for _, subject in ipairs(SUBJECT_ORDER) do
+            if by_subject[subject] then
+                table.insert(row, Widgets.button(string.format("%s（%d）", SUBJECT_LABEL[subject], by_subject[subject]), {
+                    width = half,
+                    height = Screen:scaleBySize(54),
+                    size = 19,
+                    callback = function() self:render_wrongbook_subject(subject) end,
+                }))
+                if #row == 2 then
+                    table.insert(rows, HorizontalGroup:new{ align = "center", row[1],
+                        Widgets.hspace(gap), row[2] })
+                    row = {}
+                end
+            end
+        end
+        if #row == 1 then
+            table.insert(rows, HorizontalGroup:new{ align = "center", row[1],
+                Widgets.hspace(gap), Widgets.vspace(0) })
+        end
+        for _, r in ipairs(rows) do
+            table.insert(content, r)
             table.insert(content, Widgets.vspace(Size.span.vertical_default))
         end
         table.insert(content, Widgets.button("复习全部错题", {
@@ -2296,18 +2320,113 @@ function MainView:render_wrongbook()
         })
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
-    if #items == 0 then
-        table.insert(content, Widgets.button("AI 题库", {
-            width = cw,
-            size = 20,
-            callback = function() self:render_ai_bank(nil, function() self:render_wrongbook() end) end,
-        }))
-        table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    end
     table.insert(content, Widgets.button("回首页", {
         width = cw,
         size = 20,
         callback = function() self:render_home() end,
+    }))
+    self:set_body(content)
+end
+
+-- 错题本二级页：某学科的错题列表 + 错题涉及的知识点（理科含前置知识点）
+function MainView:render_wrongbook_subject(subject)
+    self.state = "wrongbook"
+    self:set_title("错题本 · " .. (SUBJECT_LABEL[subject] or subject))
+    local cw = Widgets.width()
+    local content = VerticalGroup:new{ align = "center" }
+    local subject_items = {}
+    for _, item in ipairs(self.progress:wrong_items()) do
+        if item.subject == subject then table.insert(subject_items, item) end
+    end
+    if #subject_items == 0 then
+        table.insert(content, Widgets.label("该学科暂无错题。", { size = 20, bold = true }))
+    else
+        table.insert(content, Widgets.label(string.format("%s 共 %d 道错题。", SUBJECT_LABEL[subject], #subject_items), {
+            size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        local shown = math.min(#subject_items, 10)
+        for i = #subject_items, math.max(1, #subject_items - shown + 1), -1 do
+            local item = subject_items[i]
+            table.insert(content, Widgets.button(truncate(item.stem, 26), {
+                width = cw,
+                height = Screen:scaleBySize(50),
+                size = 18,
+                align = "left",
+                callback = function() self:render_wrong_detail(item) end,
+            }))
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        end
+        table.insert(content, Widgets.button(string.format("复习%s错题（%d 题）", SUBJECT_LABEL[subject], #subject_items), {
+            width = cw,
+            height = Screen:scaleBySize(56),
+            size = 20,
+            callback = function() self:start_session({ mode = "wrong", subject = subject, wrong_items = subject_items }) end,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+
+        -- 知识点：错题涉及的知识点及其掌握状态；理科再列前置知识点
+        local science = subject == "math" or subject == "physics"
+            or subject == "chemistry" or subject == "biology"
+        local graph = Knowledge.graph(self.plugin_path, subject)
+        local seen_topics = {}
+        for _, item in ipairs(subject_items) do
+            if item.topic then seen_topics[item.topic] = true end
+        end
+        local kp_rows = {}
+        for topic_id in pairs(seen_topics) do
+            local node = graph and graph.nodes[topic_id]
+            if node then
+                local status = self.progress:kp_status(subject, topic_id)
+                table.insert(kp_rows, { id = topic_id, name = node.name,
+                    status = status, grade = node.grade })
+            end
+        end
+        if #kp_rows > 0 then
+            table.insert(content, Widgets.card(VerticalGroup:new{
+                align = "left",
+                Widgets.label("错题涉及的知识点", { size = 18, bold = true }),
+                Widgets.vspace(Size.span.vertical_default),
+            }))
+            for _, kp in ipairs(kp_rows) do
+                table.insert(content, Widgets.button(
+                    string.format("%s · %s", kp.name, KP_STATUS_LABEL[kp.status] or "未学"), {
+                    width = cw,
+                    height = Screen:scaleBySize(46),
+                    size = 17,
+                    align = "left",
+                    callback = function() self:render_kp_learn(subject, kp.id) end,
+                }))
+                table.insert(content, Widgets.vspace(Size.span.vertical_default))
+                if science then
+                    -- 前置知识点（理科承上启下）：列掌握状态，薄弱的优先补
+                    for _, edge in ipairs(Knowledge.prereqs(self.plugin_path, subject, kp.id)) do
+                        local pre = graph.nodes[edge.id]
+                        if pre then
+                            local pre_status = self.progress:kp_status(subject, edge.id)
+                            if pre_status ~= "mastered" then
+                                table.insert(content, Widgets.button(
+                                    string.format("└ 前置：%s · %s", pre.name,
+                                        KP_STATUS_LABEL[pre_status] or "未学"), {
+                                    width = cw,
+                                    height = Screen:scaleBySize(42),
+                                    size = 15,
+                                    align = "left",
+                                    callback = function() self:render_kp_learn(subject, edge.id) end,
+                                }))
+                                table.insert(content, Widgets.vspace(Size.span.vertical_default))
+                            end
+                        end
+                    end
+                end
+            end
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        end
+    end
+    table.insert(content, Widgets.button("回错题本", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_wrongbook() end,
     }))
     self:set_body(content)
 end
@@ -3267,6 +3386,19 @@ function MainView:render_province_select()
         settings.math_edition = Catalog.recommended_math(self.plugin_path, item.id)
         self.progress:flush()
         local count = #Catalog.cities(self.plugin_path, item.id)
+        if count == 1 then
+            -- 直辖市：唯一城市自动同步选中，并按城市匹配教材版本，避免再选城市
+            local only = Catalog.cities(self.plugin_path, item.id)[1]
+            settings.city = only.id
+            self.progress:flush()
+            self:apply_city_match(only.name, false, true)
+            UIManager:show(InfoMessage:new{
+                text = string.format("已选择%s，城市自动匹配为%s，教材版本已按城市同步。",
+                    item.name, only.name),
+                timeout = 4,
+            })
+            return
+        end
         UIManager:show(InfoMessage:new{
             text = string.format("已选择%s（%d 个城市可选）。接着选城市和年级，会自动匹配语文/数学/英语教材版本。",
                 item.name, count),
