@@ -1837,6 +1837,7 @@ function MainView:render_question_card(question)
         tag = string.format("%s · %s", self:subject_label(question.subject), tag)
     end
     if question.ai_generated then tag = "AI 变种 · " .. tag end
+    if question.remedial_hint then tag = question.remedial_hint .. " · " .. tag end
     local inner_width = cw - 2 * Size.padding.large
     local parts = VerticalGroup:new{
         align = "left",

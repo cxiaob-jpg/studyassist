@@ -381,13 +381,53 @@ local function build_challenge(opts)
     return questions
 end
 
+--[[--
+Wrong-book session with prerequisite diagnosis.
+
+Wrong items whose knowledge point keeps failing (wrong_count >= 2, or the
+point's status is "weak") trigger a prerequisite check: up to two remedial
+questions from the weakest unmastered prerequisite topic are inserted before
+the wrong questions, until the prerequisite shows mastery.  A single-item
+redo (wrong_items passed by the caller) is diagnosed the same way.
+
+@treturn table questions, nil error, table remedial_meta
+--]]--
 local function build_wrong(opts)
     local items = opts.wrong_items or opts.progress:wrong_items()
+    local progress = opts.progress
+    local plugin_path = opts.plugin_path
+    local remedial, remedial_meta, seen = {}, {}, {}
+    for _, item in ipairs(items) do
+        if #remedial >= 4 then break end
+        local t, sub = item.topic, item.subject
+        if t and sub and plugin_path and not seen[sub .. "|" .. t]
+            and ((item.wrong_count or 0) >= 2 or progress:kp_status(sub, t) == "weak") then
+            seen[sub .. "|" .. t] = true
+            local cands = Knowledge.remedial_candidates(plugin_path, sub, t, progress)
+            local pick = cands[1]
+            if pick and #pick.questions > 0 then
+                table.insert(remedial_meta, {
+                    subject = sub,
+                    topic = t,
+                    prereq_topic = pick.id,
+                    prereq_name = pick.name,
+                })
+                for i = 1, math.min(2, #pick.questions) do
+                    local q = pick.questions[i]
+                    q.remedial_hint = "先修补练 · " .. pick.name
+                    table.insert(remedial, q)
+                end
+            end
+        end
+    end
     local questions = {}
+    for _, q in ipairs(remedial) do
+        table.insert(questions, q)
+    end
     for i = 1, math.min(#items, 10) do
         table.insert(questions, items[i])
     end
-    return questions
+    return questions, nil, remedial_meta
 end
 
 function Session.new(opts)
@@ -398,7 +438,7 @@ function Session.new(opts)
         opts.count = tonumber(opts.progress and opts.progress.data.settings.daily_goal) or 10
     end
     local mode = opts.mode or "subject"
-    local questions, err
+    local questions, err, remedial_meta
     if mode == "daily" then
         questions, err = build_daily(opts)
     elseif mode == "mixed" then
@@ -406,7 +446,7 @@ function Session.new(opts)
     elseif mode == "challenge" then
         questions = build_challenge(opts)
     elseif mode == "wrong" then
-        questions = build_wrong(opts)
+        questions, err, remedial_meta = build_wrong(opts)
     elseif mode == "ai" then
         questions = opts.ai_questions or {}
         if #questions == 0 then questions = nil; err = "没有 AI 变种题" end
@@ -425,6 +465,8 @@ function Session.new(opts)
         unit = opts.unit,
         kp_topic = opts.kp_topic,
         kp_subject = opts.subject,
+        remedial = remedial_meta,
+        remedial_count = remedial_meta and #remedial_meta or 0,
         grade = resolved.grade,
         semester = resolved.semester,
         questions = questions,
@@ -546,6 +588,29 @@ function Session:finish()
             self.first_try_results,
             self.kp_topic ~= nil,
             self.now_fn())
+    elseif self.mode == "wrong" then
+        -- 错题会话里的知识点题（含先修补练）也回写掌握状态，
+        -- 这样反复错的前置知识点会随练习逐步收敛到 mastered。
+        local by_subject, subject_order = {}, {}
+        for _, r in ipairs(self.first_try_results) do
+            if r.topic and r.subject then
+                local bucket = by_subject[r.subject]
+                if not bucket then
+                    bucket = {}
+                    by_subject[r.subject] = bucket
+                    table.insert(subject_order, r.subject)
+                end
+                table.insert(bucket, { topic = r.topic, correct = r.correct })
+            end
+        end
+        kp_statuses = {}
+        for _, sub in ipairs(subject_order) do
+            local statuses = self.progress:finalize_kp_session(
+                sub, by_subject[sub], false, self.now_fn())
+            for tid, st in pairs(statuses) do
+                kp_statuses[sub .. "|" .. tid] = st
+            end
+        end
     end
     return {
         mode = self.mode,

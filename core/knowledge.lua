@@ -294,6 +294,52 @@ function Knowledge.dependents(plugin_path, subject, topic_id)
 end
 
 --[[--
+Remedial diagnosis for one knowledge point: find prerequisite topics that
+look unmastered, ordered weakest / most foundational first.  A prerequisite
+whose progress status is "mastered" is skipped; weak ones rank first, then
+never-studied ones, then "learning" ones.
+
+@tparam string plugin_path
+@tparam string subject
+@tparam string topic_id knowledge point to diagnose
+@tparam table progress Progress instance (nil-safe)
+@treturn table list of {id, name, score, grade, questions}; empty when the
+  prerequisites are all mastered or have no questions to practice.
+--]]--
+function Knowledge.remedial_candidates(plugin_path, subject, topic_id, progress)
+    local graph = Knowledge.graph(plugin_path, subject)
+    if not graph then return {} end
+    local list = {}
+    for _, edge in ipairs(graph.prereqs[topic_id] or {}) do
+        local node = graph.nodes[edge.id]
+        if node then
+            local status = progress and progress:kp_status(subject, edge.id) or nil
+            local score = status == "weak" and 0
+                or status == nil and 1
+                or status == "learning" and 2
+                or 3
+            if score < 3 then
+                local questions = Knowledge.questions_for(plugin_path, subject, edge.id)
+                if #questions > 0 then
+                    table.insert(list, {
+                        id = edge.id,
+                        name = node.name,
+                        score = score,
+                        grade = node.grade or 99,
+                        questions = questions,
+                    })
+                end
+            end
+        end
+    end
+    table.sort(list, function(a, b)
+        if a.score ~= b.score then return a.score < b.score end
+        return a.grade < b.grade
+    end)
+    return list
+end
+
+--[[--
 Judge an answer for a knowledge question.
 
 Choice answers compare the 1-based option index.  Numeric answers use
