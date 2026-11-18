@@ -144,6 +144,7 @@ end
 
 local function build_subject(opts)
     local resolved = resolved_settings(opts)
+    local count = tonumber(opts.count) or 10
     local subject = opts.subject or "chinese"
     local semester = resolved.semester
     local grade = resolved.grade
@@ -164,7 +165,7 @@ local function build_subject(opts)
         if #units == 0 then return nil, "题库为空" end
         local unit = opts.unit
         if not unit or unit == "all" then
-            for i = 1, 10 do
+            for i = 1, count do
                 local u = units[((i - 1) % #units) + 1]
                 local q = pick_bank(bank, u.id, choose_difficulty(rng, level), recent, rng)
                 if q then
@@ -173,7 +174,7 @@ local function build_subject(opts)
                 end
             end
         else
-            for i = 1, 10 do
+            for i = 1, count do
                 local q = pick_bank(bank, unit, choose_difficulty(rng, level), recent, rng)
                 if q then
                     table.insert(questions, q)
@@ -185,7 +186,7 @@ local function build_subject(opts)
         local units = unit_list("math", semester, grade, resolved.math_edition)
         if #units == 0 then return nil, "数学题库为空" end
         local unit = opts.unit
-        for i = 1, 10 do
+        for i = 1, count do
             local q
             if (not unit or unit == "all") and i == 6 then
                 q = MathGen.generate_word_problem({
@@ -362,7 +363,7 @@ local function build_challenge(opts)
     local plan = MathGen.challenge_plan({
         semester = semester,
         unit = opts.unit,
-        count = 10,
+        count = tonumber(opts.count) or 10,
         grade = grade,
     }, rng)
     for _, id in ipairs(plan) do
@@ -392,6 +393,10 @@ end
 function Session.new(opts)
     opts = opts or {}
     local resolved = resolved_settings(opts)
+    -- 会话题数默认跟「每日目标」走；显式传入 opts.count 时以传入值为准
+    if not opts.count then
+        opts.count = tonumber(opts.progress and opts.progress.data.settings.daily_goal) or 10
+    end
     local mode = opts.mode or "subject"
     local questions, err
     if mode == "daily" then

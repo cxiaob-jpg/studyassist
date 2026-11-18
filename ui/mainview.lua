@@ -772,7 +772,8 @@ function MainView:render_home()
     local function build(h)
         local challenge_row = HorizontalGroup:new{
             align = "center",
-            Widgets.button("今日挑战·10题", {
+            Widgets.button(string.format("今日挑战·%d题",
+                tonumber(self.progress.data.settings.daily_goal) or 10), {
                 width = challenge_w,
                 height = Screen:scaleBySize(h.row),
                 size = 24,
@@ -1545,8 +1546,8 @@ end
 
 数据源与混合出题（Session.build_mixed）完全一致 —— 都是
 Session.subjects_for() —— 所以这里显示的学科就是“今日挑战涵盖的所有学科”，
-不会再出现点进去提示暂无题库的情况。选完学科进三级菜单挑单元，每轮 10 题；
-第一行的“全部学科混合”则直接开始跨学科 10 题。
+不会再出现点进去提示暂无题库的情况。选完学科进三级菜单挑单元，每轮题数跟设置里的每日目标走；
+第一行的“全部学科混合”则直接开始跨学科混合出题。
 --]]--
 function MainView:render_challenge_menu()
     self.state = "challenge_menu"
@@ -1565,19 +1566,21 @@ function MainView:render_challenge_menu()
 
     local content = VerticalGroup:new{
         align = "center",
-        Widgets.label(string.format("%s%s · 覆盖 %d 个学科 · 每轮 10 题",
-            self:grade_label(), self:semester_label(), #order), {
+        Widgets.label(string.format("%s%s · 覆盖 %d 个学科 · 每轮 %d 题",
+            self:grade_label(), self:semester_label(), #order,
+            tonumber(settings.daily_goal) or 10), {
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
-        Widgets.button("全部学科混合（10 题）", {
+        Widgets.button(string.format("全部学科混合（%d 题）", tonumber(settings.daily_goal) or 10), {
             width = cw,
             height = Screen:scaleBySize(58),
             size = 22,
-            callback = function() self:start_session({ mode = "mixed", count = 10 }) end,
+            callback = function() self:start_session({ mode = "mixed",
+                count = tonumber(settings.daily_goal) or 10 }) end,
         }),
         Widgets.vspace(Size.span.vertical_default),
-        Widgets.label("按学科出题（每科 10 题）", {
+        Widgets.label(string.format("按学科出题（每科 %d 题）", tonumber(settings.daily_goal) or 10), {
             size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
@@ -1631,7 +1634,7 @@ function MainView:render_challenge_menu()
 end
 
 --[[--
-学科的三级菜单：选单元出题（每轮 10 题）。context == "challenge" 时从今日
+学科的三级菜单：选单元出题（每轮题数 = 每日目标）。context == "challenge" 时从今日
 挑战进来，标题与返回目标都指回学科选择页。
 --]]--
 function MainView:render_unit_select(subject, context)
@@ -1691,7 +1694,9 @@ function MainView:render_unit_select(subject, context)
         units = MathGen.units(grade, edition, semester) or MathGen.units(semester)
     end
 
-    local range_hint = from_challenge and "选择练习范围 · 每轮 10 题" or "选择练习范围"
+    local goal = tonumber(self.progress.data.settings.daily_goal) or 10
+    local range_hint = from_challenge
+        and string.format("选择练习范围 · 每轮 %d 题", goal) or "选择练习范围"
     local edition_label = used_edition ~= edition
         and Catalog.edition_name(self.plugin_path, subject, used_edition)
         or self:edition_name(subject)
