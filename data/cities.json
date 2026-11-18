@@ -11,7 +11,7 @@
    "cities": [
     {
      "id": "beijingshi",
-     "name": "北京北京市",
+     "name": "北京市",
      "editions": {
       "shuxue": "renjiao",
       "yuwen": "tongbian",
@@ -68,7 +68,7 @@
    "cities": [
     {
      "id": "tianjinshi",
-     "name": "天津天津市",
+     "name": "天津市",
      "editions": {
       "shuxue": "renjiao",
       "yuwen": "tongbian",
@@ -4371,7 +4371,7 @@
    "cities": [
     {
      "id": "shanghaishi",
-     "name": "上海上海市",
+     "name": "上海市",
      "editions": {
       "yuwen": "tongbian",
       "shuxue": "hujiao",
