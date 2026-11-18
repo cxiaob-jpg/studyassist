@@ -46,7 +46,7 @@ def main():
     expected_editions = {
         "chinese": {"tongbian"},
         "math": {"renjiao", "beishida", "sujiao", "sujiao2024", "qingdao", "hujiao", "junior", "senior"},
-        "english": {"pep", "renjiao", "renjiao-senior"},
+        "english": {"pep", "yilin", "renjiao", "renjiao-senior"},
         "physics": {"renjiao"},
         "chemistry": {"renjiao"},
         "biology": {"renjiao"},
@@ -70,6 +70,7 @@ def main():
         ("math", "senior"): {"10", "11", "12"},
         ("english", "renjiao"): {"7", "8", "9"},
         ("english", "renjiao-senior"): {"10", "11", "12"},
+        ("english", "yilin"): {"4"},
     }
     known_skills = lua_skill_keys()
     if not known_skills:

@@ -29,7 +29,8 @@ local DEFAULT_EDITIONS = {
 -- grade (e.g. math "renjiao" covers 1-6, "junior" 7-9, "senior" 10-12).
 local FALLBACK_EDITIONS = {
     math = { "junior", "senior" },
-    english = { "renjiao", "renjiao-senior" },
+    -- 译林 currently ships grade 4 only; PEP covers 3-6, 人教 covers 7-12.
+    english = { "pep", "yilin", "renjiao", "renjiao-senior" },
 }
 
 local function edition_for(resolved, subject)

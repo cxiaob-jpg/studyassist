@@ -5713,6 +5713,7 @@
   "english": {
    "order": [
     "pep",
+    "yilin",
     "renjiao",
     "renjiao-senior"
    ],
@@ -6361,6 +6362,50 @@
          {
           "id": "u5",
           "name": "第5单元·First Aid"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "yilin": {
+     "name": "译林版（2024新教材，三年级起点）",
+     "grades": {
+      "4": {
+       "upper": {
+        "file": "english/yilin/g4_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·Our school subjects"
+         },
+         {
+          "id": "u2",
+          "name": "U2·My day"
+         },
+         {
+          "id": "u3",
+          "name": "U3·My week"
+         },
+         {
+          "id": "u4",
+          "name": "U4·I like sport"
+         },
+         {
+          "id": "u5",
+          "name": "U5·Different toys, same fun"
+         },
+         {
+          "id": "u6",
+          "name": "U6·Weather"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Seasons"
+         },
+         {
+          "id": "u8",
+          "name": "U8·What we wear"
          }
         ]
        }

@@ -1563,6 +1563,7 @@ function MainView:render_unit_select(subject, context)
     local edition = settings_edition(settings, subject)
     MathGen.set_plugin_path(self.plugin_path)
     local units
+    local used_edition = edition
     local is_bank_subject = subject ~= "math" or (tonumber(grade) or 2) >= 7
     if is_bank_subject then
         -- No textbook at this grade/semester at all: say so plainly instead of
@@ -1579,13 +1580,19 @@ function MainView:render_unit_select(subject, context)
         if not units then
             local loaded, err = Bank.load(self.plugin_path, subject, grade, semester, edition)
             if not loaded then
-                -- Retry fallback editions (grade bands per edition).
-                local fallbacks = subject == "math" and { "junior", "senior" }
-                    or subject == "english" and { "renjiao", "renjiao-senior" } or {}
+                -- Retry fallback editions: an edition may be grade-band bound
+                -- (译林 4A only ships grade 4, PEP only 3-6, etc.).
+                local fallbacks = {}
+                for _, ed in ipairs(Catalog.editions(self.plugin_path, subject)) do
+                    if ed.id ~= edition then table.insert(fallbacks, ed.id) end
+                end
                 for _, fb in ipairs(fallbacks) do
                     if fb ~= edition then
                         loaded, err = Bank.load(self.plugin_path, subject, grade, semester, fb)
-                        if loaded then break end
+                        if loaded then
+                            used_edition = fb
+                            break
+                        end
                     end
                 end
             end
@@ -1601,9 +1608,12 @@ function MainView:render_unit_select(subject, context)
     end
 
     local range_hint = from_challenge and "选择练习范围 · 每轮 10 题" or "选择练习范围"
+    local edition_label = used_edition ~= edition
+        and Catalog.edition_name(self.plugin_path, subject, used_edition)
+        or self:edition_name(subject)
     local content = VerticalGroup:new{
         align = "center",
-        Widgets.label(string.format("%s%s · %s · %s", self:grade_label(), self:semester_label(), self:edition_name(subject), range_hint), {
+        Widgets.label(string.format("%s%s · %s · %s", self:grade_label(), self:semester_label(), edition_label, range_hint), {
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
@@ -3381,6 +3391,13 @@ function MainView:render_settings()
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function() self:render_edition_select("math") end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button(string.format("英语教材：%s", self:edition_name("english")), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:render_edition_select("english") end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button(string.format("学期：%s", self:semester_label()), {
