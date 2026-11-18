@@ -185,16 +185,11 @@ function Catalog.term_year(plugin_path, subject, publisher, grade, semester)
     return by_grade[semester == "lower" and "l" or "u"]
 end
 
--- 版次文案：2024秋版 / 2025春版 / 2019版（旧）/ 旧版；nil 表示无数据。
+-- 版次文案，按课本封面写法：2026秋 / 2026春。
+-- 只有 2022 课标修订后的新教材才带版次；老教材返回 nil（界面上就只显示出版社名）。
 function Catalog.term_label(year, semester)
-    if year == nil then return nil end
-    if year >= 2024 then
-        return string.format("%d%s版", year, semester == "lower" and "春" or "秋")
-    end
-    if year > 0 then
-        return string.format("%d版（旧）", year)
-    end
-    return "旧版"
+    if not year or year < 2024 then return nil end
+    return string.format("%d%s", year, semester == "lower" and "春" or "秋")
 end
 
 -- 该册是否已经换成 2022 课标修订版新教材。
@@ -222,6 +217,48 @@ function Catalog.resolve_term_edition(plugin_path, subject, edition_id, year)
     if not legacy then return edition_id end
     if not Catalog.edition_meta(plugin_path, subject, legacy) then return edition_id end
     return legacy
+end
+
+-- 该册实际在用的版本列表。同一出版社有新老两套时（如苏教版 2015 / 2024），
+-- 按这一册的版次只留一个：新版铺到了留新版，没铺到就留老版。
+-- 只有一套版本的出版社（人教版 PEP、译林版等）一律保留。
+function Catalog.editions_for_term(plugin_path, subject, grade, semester)
+    local all = Catalog.editions(plugin_path, subject)
+    local groups, order = {}, {}
+    for _, e in ipairs(all) do
+        local meta = Catalog.edition_meta(plugin_path, subject, e.id)
+        local pub = meta and meta.publisher
+        if pub and pub ~= "" then
+            if not groups[pub] then
+                groups[pub] = {}
+                table.insert(order, pub)
+            end
+            table.insert(groups[pub], { id = e.id, year = meta.edition_year or 0 })
+        end
+    end
+    local drop = {}
+    for _, pub in ipairs(order) do
+        local list = groups[pub]
+        local has_new, has_old = false, false
+        for _, it in ipairs(list) do
+            if it.year >= 2024 then has_new = true else has_old = true end
+        end
+        -- 只有同一出版社确实存在新旧两套时才需要按册取舍
+        if has_new and has_old then
+            local year = Catalog.term_year(plugin_path, subject, pub, grade, semester)
+            if year ~= nil then
+                local want_new = year >= 2024
+                for _, it in ipairs(list) do
+                    if (it.year >= 2024) ~= want_new then drop[it.id] = true end
+                end
+            end
+        end
+    end
+    local out = {}
+    for _, e in ipairs(all) do
+        if not drop[e.id] then table.insert(out, e) end
+    end
+    return out
 end
 
 -- 在 city_grade 的结果上叠加册级版次：每科补 year / label / is_new，

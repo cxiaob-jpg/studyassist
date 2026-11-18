@@ -4637,7 +4637,7 @@
      }
     },
     "junior": {
-     "name": "初中通用版（2022课标初中目录）",
+     "name": "初中通用",
      "publisher": "",
      "grades": {
       "7": {
@@ -4815,7 +4815,7 @@
      }
     },
     "senior": {
-     "name": "人教A版（高中新教材）",
+     "name": "人教A版",
      "publisher": "人教版",
      "grades": {
       "10": {
@@ -4936,7 +4936,7 @@
      }
     },
     "sujiao2024": {
-     "name": "苏教版（2024新教材）",
+     "name": "苏教版",
      "publisher": "苏教版",
      "edition_year": 2024,
      "legacy_id": "sujiao",
@@ -5737,7 +5737,7 @@
    ],
    "editions": {
     "pep": {
-     "name": "人教版PEP（2022课标修订版，三年级起点）",
+     "name": "人教版PEP",
      "publisher": "人教版",
      "edition_year": 2024,
      "grades": {
@@ -5988,7 +5988,7 @@
      }
     },
     "renjiao": {
-     "name": "人教版（新目标）（初中新目标目录）",
+     "name": "人教新目标",
      "publisher": "人教版",
      "edition_year": 2024,
      "grades": {
@@ -6206,7 +6206,7 @@
      }
     },
     "renjiao-senior": {
-     "name": "人教版（高中）（高中新教材）",
+     "name": "人教版高中",
      "publisher": "人教版",
      "grades": {
       "10": {
@@ -6392,7 +6392,7 @@
      }
     },
     "yilin": {
-     "name": "译林版（2024新教材，三年级起点）",
+     "name": "译林版",
      "publisher": "译林版",
      "edition_year": 2024,
      "grades": {
@@ -6445,7 +6445,7 @@
    ],
    "editions": {
     "renjiao": {
-     "name": "人教版（初中物理）",
+     "name": "人教版",
      "grades": {
       "8": {
        "lower": {
@@ -6753,7 +6753,7 @@
    ],
    "editions": {
     "renjiao": {
-     "name": "人教版（九年级化学）",
+     "name": "人教版",
      "grades": {
       "9": {
        "lower": {
@@ -6948,7 +6948,7 @@
    ],
    "editions": {
     "renjiao": {
-     "name": "人教版（初中生物）",
+     "name": "人教版",
      "grades": {
       "7": {
        "lower": {
@@ -7012,7 +7012,7 @@
    ],
    "editions": {
     "tongbian": {
-     "name": "统编版（初中历史）",
+     "name": "统编版",
      "grades": {
       "7": {
        "lower": {
@@ -7196,7 +7196,7 @@
    ],
    "editions": {
     "renjiao": {
-     "name": "人教版（初中地理）",
+     "name": "人教版",
      "grades": {
       "7": {
        "lower": {

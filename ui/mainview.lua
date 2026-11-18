@@ -430,7 +430,7 @@ end
 
 function MainView:edition_name(subject)
     local settings = self.progress.data.settings
-    return Catalog.edition_name(self.plugin_path, subject, settings_edition(settings, subject))
+    return self:edition_name_of(subject, settings_edition(settings, subject))
 end
 
 -- 当前城市的显示名；未选择时提示按省份推荐。
@@ -451,20 +451,11 @@ function MainView:city_match()
         settings.grade, settings.semester)
 end
 
--- 某出版社在当前年级/学期这一册的版次文案，如「2024秋版」。无数据返回 nil。
-function MainView:publisher_term_label(subject, publisher)
-    local settings = self.progress.data.settings
-    local year = Catalog.term_year(self.plugin_path, subject, publisher,
-        settings.grade, settings.semester)
-    return Catalog.term_label(year, settings.semester)
-end
-
--- 某版本在当前这一册的版次后缀，如「 · 2024秋版」；旧教材标「 · 旧版」。
+-- 某版本在当前这一册的版次，按课本封面写法加括号，如「（2026秋）」。
+-- 这一册还没换新版时返回空串，界面上就只显示出版社名。
 function MainView:edition_term_suffix(subject, edition)
     local meta = Catalog.edition_meta(self.plugin_path, subject, edition)
     if not meta then return "" end
-    -- 本身就是旧教材版本（edition_year 早于 2024 课标修订）
-    if meta.edition_year and meta.edition_year < 2024 then return " · 旧版" end
     local publisher = meta.publisher
     if not publisher or publisher == "" then
         -- 通用版本（如初中数学 junior）本身不带出版社，取城市匹配到的出版社
@@ -475,12 +466,9 @@ function MainView:edition_term_suffix(subject, edition)
     local settings = self.progress.data.settings
     local year = Catalog.term_year(self.plugin_path, subject, publisher,
         settings.grade, settings.semester)
-    if year == nil then return "" end
-    if year >= 2024 then
-        return " · " .. (Catalog.term_label(year, settings.semester) or "")
-    end
-    -- 新教材版本，但这一册还没铺到
-    return " · 旧版"
+    local label = Catalog.term_label(year, settings.semester)
+    if not label then return "" end
+    return string.format("（%s）", label)
 end
 
 
@@ -507,8 +495,18 @@ function MainView:edition_row_label(subject)
     return name
 end
 
+-- 版本显示名。通用版本（如初中数学 junior）本身没有固定出版社，
+-- 按城市匹配到的出版社显示，例如苏州七年级数学显示「苏科版」。
 function MainView:edition_name_of(subject, edition)
-    return Catalog.edition_name(self.plugin_path, subject, edition)
+    local name = Catalog.edition_name(self.plugin_path, subject, edition)
+    local meta = Catalog.edition_meta(self.plugin_path, subject, edition)
+    if meta and (not meta.publisher or meta.publisher == "") then
+        local rec, rec_pub = self:recommended_edition(subject)
+        if rec_pub and rec_pub ~= "" and (not rec or rec == edition) then
+            return rec_pub
+        end
+    end
+    return name
 end
 
 function MainView:course_label()
@@ -3323,7 +3321,7 @@ function MainView:apply_city_match(city_name, from_city, silent)
         local item = match[key]
         if not item then
             table.insert(absent, self:subject_label(subject))
-        elseif item.edition then
+        elseif item.edition and item.edition ~= "" then
             local editions = item.editions or { item.edition }
             if #editions > 1 then
                 -- 该年级有多个版本：当前选择命中就保留，否则取第一个
@@ -3334,17 +3332,17 @@ function MainView:apply_city_match(city_name, from_city, silent)
                 end
                 settings[subject .. "_edition"] = keep or item.edition or editions[1]
                 local chosen = settings[subject .. "_edition"]
-                table.insert(applied, string.format("%s %s · %s%s（可选 %d 个版本）", self:subject_label(subject),
-                    self:edition_name_of(subject, chosen), item.label or "未标注版次",
+                table.insert(applied, string.format("%s %s%s%s（可选 %d 个版本）", self:subject_label(subject),
+                    self:edition_name_of(subject, chosen), self:edition_term_suffix(subject, chosen),
                     self:coverage_hint(subject, chosen), #editions))
             else
                 settings[subject .. "_edition"] = item.edition
-                table.insert(applied, string.format("%s %s · %s%s", self:subject_label(subject),
-                    self:edition_name_of(subject, item.edition), item.label or "未标注版次",
+                table.insert(applied, string.format("%s %s%s%s", self:subject_label(subject),
+                    self:edition_name_of(subject, item.edition), self:edition_term_suffix(subject, item.edition),
                     self:coverage_hint(subject, item.edition)))
             end
         else
-            table.insert(missing, string.format("%s%s", self:subject_label(subject), item.publisher or ""))
+            table.insert(missing, string.format("%s（%s）", self:subject_label(subject), item.publisher or ""))
         end
     end
 
@@ -3355,7 +3353,7 @@ function MainView:apply_city_match(city_name, from_city, silent)
             table.concat(applied, " · ")))
     end
     if #missing > 0 then
-        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. "（插件暂无该版本，练习沿用当前设置）")
+        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. " —— 插件暂无该版本，练习沿用当前设置")
     end
     if #absent > 0 then
         table.insert(lines, "无书目：" .. table.concat(absent, "、") .. "（源站该年级无数据，保持原设置）")
@@ -3418,13 +3416,15 @@ function MainView:render_edition_select(subject)
     if rec then
         table.insert(items, {
             id = rec,
-            name = string.format("%s%s｜%s%s使用%s", self:edition_name_of(subject, rec),
+            name = string.format("%s%s｜%s%s使用", self:edition_name_of(subject, rec),
                 self:edition_term_suffix(subject, rec),
-                self:city_label(), self:grade_label() .. self:semester_label(), rec_pub or ""),
+                self:city_label(), self:grade_label() .. self:semester_label()),
             selected = current == rec,
         })
     end
-    for _, edition in ipairs(Catalog.editions(self.plugin_path, subject)) do
+    -- 同一出版社有新老两套时，按这一册的版次只列适用的那个
+    for _, edition in ipairs(Catalog.editions_for_term(self.plugin_path, subject,
+            settings.grade, settings.semester)) do
         if edition.id ~= rec then
             table.insert(items, {
                 id = edition.id,
