@@ -772,8 +772,7 @@ function MainView:render_home()
     local function build(h)
         local challenge_row = HorizontalGroup:new{
             align = "center",
-            Widgets.button(string.format("今日挑战·%d题",
-                tonumber(self.progress.data.settings.daily_goal) or 10), {
+            Widgets.button("今日挑战", {
                 width = challenge_w,
                 height = Screen:scaleBySize(h.row),
                 size = 24,
