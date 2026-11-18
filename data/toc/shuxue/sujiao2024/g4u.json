@@ -1,0 +1,682 @@
+{
+ "schema_version": 1,
+ "generated_by": "manual pilot: sujiao2024 g4u toc mapping",
+ "source": {
+  "site": "dzkbw.com/books/sjb/shuxue/xs4s",
+  "fetched": "2026-11-19"
+ },
+ "subject": "math",
+ "grade": 4,
+ "semester": "upper",
+ "edition": "sujiao2024",
+ "edition_label": "苏教版（2026秋）",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第一单元 升和毫升"
+  },
+  {
+   "id": "u2",
+   "name": "第二单元 两、三位数除以两位数"
+  },
+  {
+   "id": "u3",
+   "name": "第三单元 观察物体"
+  },
+  {
+   "id": "u4",
+   "name": "第四单元 统计表和条形统计图（一）"
+  },
+  {
+   "id": "u5",
+   "name": "第五单元 解决问题的策略"
+  },
+  {
+   "id": "u6",
+   "name": "第六单元 可能性"
+  },
+  {
+   "id": "u7",
+   "name": "第七单元 整数四则混合运算"
+  },
+  {
+   "id": "u8",
+   "name": "第八单元 垂线与平行线"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnm_p400",
+   "name": "升和毫升",
+   "domain": "数与代数",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": null,
+   "description": "认识容量单位升（L）和毫升（mL），知道 1 升 = 1000 毫升，能选择合适的容量单位并简单换算。",
+   "mastery_criteria": [
+    "能选择合适的容量单位描述容器的容量",
+    "能进行升与毫升的简单换算"
+   ]
+  },
+  {
+   "id": "cnm_p401",
+   "name": "简单的周期（找规律）",
+   "domain": "数与代数",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": null,
+   "description": "发现按一定周期重复排列的规律，用除法算出第若干个是什么，体会余数在周期问题中的作用。",
+   "mastery_criteria": [
+    "能发现排列的周期规律",
+    "能用除法算出第 n 个图形或字符是什么"
+   ]
+  },
+  {
+   "id": "cnm_p402",
+   "name": "解决问题的策略（从条件想起）",
+   "domain": "数与代数",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": null,
+   "description": "学会从已知条件出发，列表整理信息，一步步推出要求的答案。",
+   "mastery_criteria": [
+    "能列表整理题目中的条件和问题",
+    "能从条件出发说出解题的思路"
+   ]
+  },
+  {
+   "id": "cnm_p403",
+   "name": "运动与身体变化（综合实践）",
+   "domain": "综合与实践",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": null,
+   "description": "通过测量运动前后的脉搏，经历收集、记录、比较数据的完整过程，发现运动与身体变化的联系。",
+   "mastery_criteria": [
+    "会测量并记录自己的脉搏",
+    "能通过比较数据发现运动带来的变化"
+   ]
+  },
+  {
+   "id": "cnm_p404",
+   "name": "怎样滚得远（综合实践）",
+   "domain": "综合与实践",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": null,
+   "description": "用斜坡滚圆柱体的实验，探索斜坡与地面成多大角度时物体滚得最远，经历实验、记录、比较的探究过程。",
+   "mastery_criteria": [
+    "能按要求做实验并记录数据",
+    "能比较数据得出结论"
+   ]
+  },
+  {
+   "id": "cnm_p106",
+   "name": "除数是两位数的除法",
+   "domain": "数与代数",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第二单元 两、三位数除以两位数",
+   "description": "会计算除数是两位数的除法，先用整十数试商。",
+   "mastery_criteria": [
+    "能试商并调商",
+    "能计算三位数除以两位数"
+   ],
+   "example": {
+    "question": "96÷12 的商是多少？",
+    "answer": "8"
+   }
+  },
+  {
+   "id": "cnm_p107",
+   "name": "商不变的规律",
+   "domain": "数与代数",
+   "kp_type": "reasoning",
+   "unit": "u2",
+   "unit_name": "第二单元 两、三位数除以两位数",
+   "description": "知道被除数和除数同时乘或除以相同的数（0 除外），商不变。",
+   "mastery_criteria": [
+    "能说出商不变规律",
+    "能用它把除法化简单"
+   ],
+   "example": {
+    "question": "80÷20 的商是多少？",
+    "answer": "4"
+   }
+  },
+  {
+   "id": "cnm_p113",
+   "name": "从不同方向观察物体",
+   "domain": "图形与几何",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第三单元 观察物体",
+   "description": "能辨认从前面、侧面、上面看到的简单物体形状。",
+   "mastery_criteria": [
+    "能说出从不同方向看到的形状可能不同",
+    "能根据视图指出是哪个方向"
+   ],
+   "example": {
+    "question": "从正面、侧面、上面看同一个物体，看到的形状怎样？",
+    "answer": "看到的形状可能不一样"
+   }
+  },
+  {
+   "id": "cnm_p108",
+   "name": "条形统计图",
+   "domain": "统计与概率",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第四单元 统计表和条形统计图（一）",
+   "description": "认识条形统计图，会根据统计表画出简单的条形统计图并比较多少。",
+   "mastery_criteria": [
+    "能读出每根直条表示的数量",
+    "能说出直条越高数量越多"
+   ],
+   "example": {
+    "question": "条形统计图适合看什么？",
+    "answer": "数量的多少"
+   }
+  },
+  {
+   "id": "cnm_p140",
+   "name": "可能性",
+   "domain": "统计与概率",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第六单元 可能性",
+   "description": "能用一定、可能、不可能描述事件，感受随机现象的结果。",
+   "mastery_criteria": [
+    "能区分一定、可能和不可能",
+    "能举出一个可能发生的例子"
+   ],
+   "example": {
+    "question": "一定发生的事情，可能性怎样？",
+    "answer": "一定会发生"
+   }
+  },
+  {
+   "id": "cnm_p112",
+   "name": "整数四则混合运算",
+   "domain": "数与代数",
+   "kp_type": "procedural",
+   "unit": "u7",
+   "unit_name": "第七单元 整数四则混合运算",
+   "description": "会计算含小括号的整数四则混合运算，先括号，再乘除，再加减。",
+   "mastery_criteria": [
+    "能说出先括号、再乘除、后加减",
+    "能计算三步以内的混合运算"
+   ],
+   "example": {
+    "question": "运算顺序是先算小括号里面的，再算乘除，最后算加减。50－（8＋12）×2 的得数是多少？",
+    "answer": "10"
+   }
+  },
+  {
+   "id": "cnm_p103",
+   "name": "垂直",
+   "domain": "图形与几何",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第八单元 垂线与平行线",
+   "description": "知道两条直线相交成直角时互相垂直，垂足是交点。",
+   "mastery_criteria": [
+    "能说出垂直就是相交成直角",
+    "能在生活中指出垂线"
+   ],
+   "example": {
+    "question": "两条直线相交成直角，它们的位置关系是什么？",
+    "answer": "互相垂直"
+   }
+  },
+  {
+   "id": "cnm_p104",
+   "name": "平行",
+   "domain": "图形与几何",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第八单元 垂线与平行线",
+   "description": "知道同一平面内不相交的两条直线互相平行。",
+   "mastery_criteria": [
+    "能说出平行线不相交",
+    "能区分平行和垂直"
+   ],
+   "example": {
+    "question": "同一平面内，不相交的两条直线怎样？",
+    "answer": "互相平行"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnm_p400_q1",
+   "topic": "cnm_p400",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u1",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "4 升 =（ ）毫升，只填数值。",
+   "explain": "1 升 = 1000 毫升，4 × 1000 = 4000。",
+   "answer": 4000
+  },
+  {
+   "id": "cnm_p400_q2",
+   "topic": "cnm_p400",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u1",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "5000 毫升 =（ ）升，只填数值。",
+   "explain": "1000 毫升 = 1 升，5000 ÷ 1000 = 5。",
+   "answer": 5
+  },
+  {
+   "id": "cnm_p400_q3",
+   "topic": "cnm_p400",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u1",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面的容器中，容量最接近 1 升的是？",
+   "explain": "4 盒 250 毫升的牛奶正好是 1000 毫升 = 1 升；眼药水只有几毫升，浴缸远大于 1 升。",
+   "answer": 2,
+   "options": [
+    "一瓶眼药水",
+    "一盒纯牛奶（250 毫升）×4 盒的总量",
+    "一个浴缸",
+    "一瓶矿泉水盖"
+   ]
+  },
+  {
+   "id": "cnm_p400_q4",
+   "topic": "cnm_p400",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u1",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "计量一杯水的多少，用哪个单位最合适？",
+   "explain": "计量液体的多少用升或毫升，一杯水大约 200~300 毫升，用「毫升」最合适。",
+   "answer": 2,
+   "options": [
+    "米",
+    "毫升",
+    "千米",
+    "千克"
+   ]
+  },
+  {
+   "id": "cnm_p401_q1",
+   "topic": "cnm_p401",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u2",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "彩灯按「红、黄、蓝、红、黄、蓝、…」的顺序排列，第 16 个彩灯是什么颜色？",
+   "explain": "每 3 个为一组，16 ÷ 3 = 5 组余 1，余数是 1，所以第 16 个和每组第 1 个一样，是红色。",
+   "answer": 2,
+   "options": [
+    "红",
+    "黄",
+    "蓝",
+    "不能确定"
+   ]
+  },
+  {
+   "id": "cnm_p401_q2",
+   "topic": "cnm_p401",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u2",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「爱数学爱数学爱数学…」依次排列，第 21 个字是什么？",
+   "explain": "每 3 个字一组，21 ÷ 3 = 7 组正好除尽（余 0），说明第 21 个是每组最后一个，是「学」。",
+   "answer": 3,
+   "options": [
+    "爱",
+    "数",
+    "学",
+    "不能确定"
+   ]
+  },
+  {
+   "id": "cnm_p401_q3",
+   "topic": "cnm_p401",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u2",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "解决周期问题时，判断「第 n 个是什么」的关键是看什么？",
+   "explain": "余数是几，第 n 个就和每组中第几个相同；正好除尽时就是每组的最后一个。",
+   "answer": 2,
+   "options": [
+    "看 n 是奇数还是偶数",
+    "用 n 除以周期个数，看余数是几",
+    "看 n 的大小",
+    "随便猜一个"
+   ]
+  },
+  {
+   "id": "cnm_p401_q4",
+   "topic": "cnm_p401",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u2",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "按「●▲▲○●▲▲○…」排列，第 30 个图形前面（含它自己）● 一共出现了多少个？只填数值。",
+   "explain": "周期是「●▲▲○」共 4 个，30 ÷ 4 = 7 组余 2（●▲），每组有 1 个 ●，共 7 个，余下的 2 个里又有 1 个 ●，共 8 个。",
+   "answer": 8
+  },
+  {
+   "id": "cnm_p402_q1",
+   "topic": "cnm_p402",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u5",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「从条件想起」的策略是指？",
+   "explain": "从条件想起，就是把有关系的两个条件结合起来，先求出一个新条件，再逐步推向问题。",
+   "answer": 2,
+   "options": [
+    "从问题出发倒着想",
+    "根据已知条件，一步一步求出可以求的结果，直到解决要求的问题",
+    "把答案直接写出来",
+    "列竖式计算"
+   ]
+  },
+  {
+   "id": "cnm_p402_q2",
+   "topic": "cnm_p402",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u5",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "小华买了 3 支钢笔用了 24 元。照这样计算，5 支钢笔要多少元？先要求出什么？",
+   "explain": "「照这样计算」说明每支价钱相同，先用条件求出单价，再求 5 支的总价。",
+   "answer": 2,
+   "options": [
+    "一共买了多少种笔",
+    "1 支钢笔多少元（24 ÷ 3 = 8 元）",
+    "5 - 3 = 2 支",
+    "24 + 5"
+   ]
+  },
+  {
+   "id": "cnm_p402_q3",
+   "topic": "cnm_p402",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u5",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "小华买了 3 支钢笔用了 24 元，照这样计算，5 支钢笔要（ ）元，只填数值。",
+   "explain": "先求单价：24 ÷ 3 = 8（元），再求总价：8 × 5 = 40（元）。",
+   "answer": 40
+  },
+  {
+   "id": "cnm_p402_q4",
+   "topic": "cnm_p402",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u5",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "数与代数",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "列表整理信息的好处是？",
+   "explain": "列表能把条件和问题对应起来，数量关系一目了然，是解决问题的好帮手。",
+   "answer": 2,
+   "options": [
+    "让作业本看起来更满",
+    "把杂乱的条件和问题整理清楚，方便发现数量之间的关系",
+    "可以少写答案",
+    "没什么用处"
+   ]
+  },
+  {
+   "id": "cnm_p403_q1",
+   "topic": "cnm_p403",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u4",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "要研究「运动与身体变化」，下面哪种做法最科学？",
+   "explain": "控制「同一个人」，分别测量运动前、后、休息后的脉搏，比较数据才能得出可靠结论。",
+   "answer": 2,
+   "options": [
+    "凭感觉说运动后心跳快",
+    "测量同一人运动前、运动后、休息后的脉搏并记录比较",
+    "只测一次就下结论",
+    "测不同人的运动后脉搏直接比较"
+   ]
+  },
+  {
+   "id": "cnm_p403_q2",
+   "topic": "cnm_p403",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u4",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "一般情况下，运动后脉搏的变化是？",
+   "explain": "运动时身体需要更多氧气，心跳（脉搏）会加快来输送更多的血液。",
+   "answer": 3,
+   "options": [
+    "变慢",
+    "不变",
+    "加快",
+    "消失"
+   ]
+  },
+  {
+   "id": "cnm_p403_q3",
+   "topic": "cnm_p403",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u4",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "记录脉搏数据时，下面哪种记录方式最方便比较？",
+   "explain": "统计表能把几组数据放在一起，方便比较变化。",
+   "answer": 2,
+   "options": [
+    "用文字长篇描述",
+    "用统计表记录运动前、后、休息后的每分钟次数",
+    "只记在心里",
+    "写成作文"
+   ]
+  },
+  {
+   "id": "cnm_p403_q4",
+   "topic": "cnm_p403",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u4",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "number",
+   "stem": "小明运动前脉搏 80 次/分，运动后 110 次/分，运动后每分钟比运动前多（ ）次，只填数值。",
+   "explain": "110 - 80 = 30（次）。",
+   "answer": 30
+  },
+  {
+   "id": "cnm_p404_q1",
+   "topic": "cnm_p404",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u8",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「怎样滚得远」实验中，需要改变的条件是？",
+   "explain": "实验研究的是斜坡角度和滚动距离的关系，所以要改变斜坡与地面的夹角。",
+   "answer": 2,
+   "options": [
+    "圆柱体的颜色",
+    "斜坡与地面的夹角",
+    "教室的温度",
+    "圆柱体的数量"
+   ]
+  },
+  {
+   "id": "cnm_p404_q2",
+   "topic": "cnm_p404",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u8",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "做实验时，每组角度最好滚动几次并求平均距离？",
+   "explain": "多次实验取平均值可以减少偶然误差，让结论更可靠。",
+   "answer": 2,
+   "options": [
+    "只滚 1 次",
+    "滚 3 次左右取平均值",
+    "滚 100 次",
+    "不用滚动"
+   ]
+  },
+  {
+   "id": "cnm_p404_q3",
+   "topic": "cnm_p404",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u8",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "下面是同一圆柱在不同角度斜坡上滚动的平均距离，滚得最远的是？",
+   "explain": "比较数据：45° 时平均距离 120 厘米最远；90° 时圆柱原地下落，滚不远。",
+   "answer": 2,
+   "options": [
+    "30°，滚 85 厘米",
+    "45°，滚 120 厘米",
+    "60°，滚 96 厘米",
+    "90°，滚 0 厘米"
+   ]
+  },
+  {
+   "id": "cnm_p404_q4",
+   "topic": "cnm_p404",
+   "subject": "math",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "sujiao2024",
+   "unit": "u8",
+   "unit_name": null,
+   "type": "knowledge",
+   "skill": "综合与实践",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "斜坡与地面成 90° 时圆柱几乎滚不远，这是因为？",
+   "explain": "夹角太大时圆柱接近垂直下落，水平方向速度很小，所以滚不远。",
+   "answer": 2,
+   "options": [
+    "圆柱太重",
+    "圆柱是直落下来的，几乎没有水平方向的运动",
+    "地面太滑",
+    "角度太小"
+   ]
+  }
+ ]
+}
