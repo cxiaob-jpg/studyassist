@@ -214,6 +214,7 @@ local BACK_PARENT = {
     badges = "home",
     shop = "home",
     wallet = "home",
+    study_settings = "settings",
     shop_settings = "settings",
     daily_report = "home",
     settings = "home",
@@ -421,7 +422,7 @@ function MainView:close_view()
 end
 
 function MainView:onClose()
-    -- 设置了退出密码时，退出前先验密码，防止孩子误退
+    -- 设置了密码时，退出前先验密码，防止孩子误退
     local pin = self.progress.data.settings.exit_pin
     if pin and #tostring(pin) == 4 then
         self:verify_exit_pin()
@@ -478,40 +479,42 @@ function MainView:verify_exit_pin()
     end)
 end
 
-function MainView:render_exit_pin_settings()
+function MainView:render_exit_pin_settings(after)
     local settings = self.progress.data.settings
+    -- 从哪个家长区进来的，设完密码还回哪去（默认回设置主页）
+    local back = after or function() self:render_settings() end
     if not settings.exit_pin then
-        self:ask_pin_input("设置退出密码（4 位数字）", function(pin)
-            if pin == nil then self:render_settings() return end
+        self:ask_pin_input("设置密码（4 位数字）", function(pin)
+            if pin == nil then back() return end
             if not pin:match("^%d%d%d%d$") then
                 UIManager:show(InfoMessage:new{ text = "请输入 4 位数字。", timeout = 3 })
                 return
             end
             self:ask_pin_input("再输入一次确认", function(pin2)
-                if pin2 == nil then self:render_settings() return end
+                if pin2 == nil then back() return end
                 if pin2 ~= pin then
                     UIManager:show(InfoMessage:new{ text = "两次输入不一致，未设置。", timeout = 4 })
                 else
                     settings.exit_pin = pin
                     self.progress:flush()
                     UIManager:show(InfoMessage:new{
-                        text = "退出密码已设置：以后退出插件时需要输入这 4 位密码。",
+                        text = "密码已设置：退出插件、进入家长设置区时都要输入这 4 位数字。",
                         timeout = 4 })
                 end
-                self:render_settings()
+                back()
             end)
         end)
         return
     end
     UIManager:show(ConfirmBox:new{
-        text = "退出密码已设置，退出插件时需要输入。\n\n要清除还是修改？",
+        text = "密码已设置：退出插件、进入家长设置区（学习设置 / 商城后台）时都要输入。\n\n要清除还是修改？",
         ok_text = "清除密码",
         cancel_text = "修改密码",
         ok_callback = function()
             settings.exit_pin = nil
             self.progress:flush()
-            UIManager:show(InfoMessage:new{ text = "退出密码已清除。", timeout = 3 })
-            self:render_settings()
+            UIManager:show(InfoMessage:new{ text = "密码已清除。", timeout = 3 })
+            back()
         end,
         cancel_callback = function()
             -- 修改密码：先验旧密码，防止孩子自行改掉
@@ -522,7 +525,7 @@ function MainView:render_exit_pin_settings()
                     return
                 end
                 settings.exit_pin = nil
-                self:render_exit_pin_settings()
+                self:render_exit_pin_settings(after)
             end)
         end,
     })
@@ -3355,7 +3358,7 @@ end
 
 --[[--
 星星商城：家长在设置里准备的愿望卡券，孩子用答题赚来的星星兑换。换到的卡券进
-钱包，兑现要给家长看，并输入退出密码，孩子没法自己把奖励「花掉」。
+钱包，兑现要给家长看，并输入密码，孩子没法自己把奖励「花掉」。
 --]]--
 function MainView:render_shop()
     self.state = "shop"
@@ -3379,7 +3382,7 @@ function MainView:render_shop()
 
     if #items == 0 then
         table.insert(content, Widgets.textbox(
-            "商城还空着。\n家长可以在「设置 → 商城商品」里把愿望做成卡券（需要退出密码）。", cw, {
+            "商城还空着。\n家长可以在「设置 → 商城后台」里把愿望做成卡券（需要密码）。", cw, {
                 size = 18, alignment = "center",
             }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
@@ -3456,7 +3459,7 @@ function MainView:redeem_shop_item(item_id)
     end
     self:render_shop()
     UIManager:show(ConfirmBox:new{
-        text = string.format("兑换成功！\n\n「%s」已放进钱包，花掉 ★%d。\n找家长兑现时，家长要输入退出密码。",
+        text = string.format("兑换成功！\n\n「%s」已放进钱包，花掉 ★%d。\n找家长兑现时，家长要输入密码。",
             record.name, record.cost),
         ok_text = "去钱包看看",
         cancel_text = "继续逛",
@@ -3465,7 +3468,7 @@ function MainView:redeem_shop_item(item_id)
 end
 
 --[[--
-钱包：星星余额 + 已兑换的卡券。待兑现的卡券要点「找家长兑现」，输入 4 位退出密码
+钱包：星星余额 + 已兑换的卡券。待兑现的卡券要点「找家长兑现」，输入 4 位密码
 才算用掉；没有设置密码时不让兑现，先引导家长去设置。
 --]]--
 function MainView:render_wallet()
@@ -3535,7 +3538,7 @@ function MainView:render_wallet()
             table.insert(content, Widgets.vspace(Size.span.vertical_default))
         end
 
-        table.insert(content, Widgets.label("兑现就是家长把这份奖励真的给孩子：点「找家长兑现」，由家长输入退出密码。", {
+        table.insert(content, Widgets.label("兑现就是家长把这份奖励真的给孩子：点「找家长兑现」，由家长输入密码。", {
             size = 14, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw, alignment = "center",
         }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
@@ -3579,14 +3582,14 @@ function MainView:cash_coupon(record_id)
     local pin = self.progress.data.settings.exit_pin
     if not pin or #tostring(pin) ~= 4 then
         UIManager:show(ConfirmBox:new{
-            text = "兑现卡券需要退出密码。\n\n现在还没有设置密码，先去设置一个吧——这样孩子就不能自己点兑现了。",
+            text = "兑现卡券需要密码。\n\n现在还没有设置密码，先去设置一个吧——这样孩子就不能自己点兑现了。",
             ok_text = "去设置密码",
             cancel_text = "稍后",
             ok_callback = function() self:render_exit_pin_settings() end,
         })
         return
     end
-    self:ask_pin_input(string.format("兑现「%s」· 请输入退出密码", record.name), function(text)
+    self:ask_pin_input(string.format("兑现「%s」· 请输入密码", record.name), function(text)
         if text == nil then return end
         if tostring(text) ~= tostring(pin) then
             UIManager:show(InfoMessage:new{ text = "密码不对，未兑现。", timeout = 3 })
@@ -3620,7 +3623,7 @@ end
 
 function MainView:render_choice_list(title, items, on_select, back)
     self.state = "choice_list"
-    self.choice_list_back = back or function() self:render_settings() end
+    self.choice_list_back = back or function() self:return_to_settings() end
     self:set_title(title)
     local cw = Widgets.width()
     local content = VerticalGroup:new{ align = "center" }
@@ -3684,7 +3687,7 @@ function MainView:render_province_select()
                 item.name, count),
             timeout = 4,
         })
-        self:render_settings()
+        self:return_to_settings()
     end)
 end
 
@@ -3693,9 +3696,9 @@ function MainView:render_city_select()
     local cities = Catalog.cities(self.plugin_path, settings.province)
     if #cities == 0 then
         UIManager:show(InfoMessage:new{
-            text = "请先在设置里选择省份。", timeout = 3,
+            text = "请先在学习设置里选择省份。", timeout = 3,
         })
-        self:render_settings()
+        self:return_to_settings()
         return
     end
     local items = {
@@ -3712,7 +3715,7 @@ function MainView:render_city_select()
         if item.id == "" then
             settings.city = nil
             self.progress:flush()
-            self:render_settings()
+            self:return_to_settings()
             return
         end
         settings.city = item.id
@@ -3799,7 +3802,7 @@ function MainView:apply_city_match(city_name, from_city, silent)
     if not silent then
         UIManager:show(InfoMessage:new{ text = table.concat(lines, "\n"), timeout = 6 })
     end
-    self:render_settings()
+    self:return_to_settings()
 end
 
 function MainView:render_grade_select()
@@ -3821,7 +3824,7 @@ function MainView:render_grade_select()
             local city = Catalog.city(self.plugin_path, settings.province, settings.city)
             self:apply_city_match(city and city.name or nil, false)
         else
-            self:render_settings()
+            self:return_to_settings()
         end
     end)
 end
@@ -3868,7 +3871,7 @@ function MainView:render_edition_select(subject)
     self:render_choice_list(self:subject_label(subject) .. "教材", items, function(item)
         settings[subject .. "_edition"] = item.id
         self.progress:flush()
-        self:render_settings()
+        self:return_to_settings()
     end)
 end
 
@@ -4010,20 +4013,22 @@ end
 删掉换成自己家的愿望。Kindle 没有中文输入法时，名称可以打拼音或英文。
 --]]--
 --[[--
-商城商品是家长区：先验退出密码再进。没设密码时引导去设置，避免孩子自己定价。
+商城后台是家长区：先验密码再进。没设密码时引导去设置，避免孩子自己定价。
 --]]--
 function MainView:open_shop_settings_gated()
     local pin = self.progress.data.settings.exit_pin
     if not pin or #tostring(pin) ~= 4 then
         UIManager:show(ConfirmBox:new{
-            text = "「商城商品」是家长设置区，需要退出密码才能进入。\n\n现在还没有设置密码，先去设置一个吧。",
+            text = "「商城后台」是家长设置区，需要密码才能进入。\n\n现在还没有设置密码，先去设置一个吧。",
             ok_text = "去设置密码",
             cancel_text = "稍后",
-            ok_callback = function() self:render_exit_pin_settings() end,
+            ok_callback = function()
+                self:render_exit_pin_settings(function() self:render_shop_settings() end)
+            end,
         })
         return
     end
-    self:ask_pin_input("商城商品 · 请输入退出密码", function(text)
+    self:ask_pin_input("商城后台 · 请输入密码", function(text)
         if text == nil then return end
         if tostring(text) ~= tostring(pin) then
             UIManager:show(InfoMessage:new{ text = "密码不对，未进入。", timeout = 3 })
@@ -4035,7 +4040,7 @@ end
 
 function MainView:render_shop_settings()
     self.state = "shop_settings"
-    self:set_title("商城商品")
+    self:set_title("商城后台")
     local cw = Widgets.width()
     local items = Shop.all_items(self.progress)
     local on_sale = 0
@@ -4045,7 +4050,7 @@ function MainView:render_shop_settings()
     local content = VerticalGroup:new{
         align = "center",
         Widgets.textbox(string.format(
-            "这些卡券会出现在孩子的星星商城里，用星星兑换。现在有 %d 件在售。\n点商品可以上架或下架，下架只是孩子看不到，已兑换的卡券不受影响。",
+            "这些卡券会出现在孩子的星星商城里，用星星兑换。现在有 %d 件在售。\n点卡券可以改星星数（1~9999 随便定）；下架只是孩子看不到，已兑换的卡券不受影响。",
             on_sale), cw, {
             size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
         }),
@@ -4059,28 +4064,35 @@ function MainView:render_shop_settings()
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
 
-    local del_w = math.min(Screen:scaleBySize(90), math.floor(cw * 0.22))
-    local name_w = cw - del_w - Size.span.horizontal_default
+    local gap2 = Screen:scaleBySize(8)
+    local ctrl_w = math.floor((cw - gap2) / 2)
     for _, item in ipairs(items) do
         local captured = item
+        table.insert(content, Widgets.button(string.format("%s　★%d%s", item.name, item.cost,
+            item.enabled and "" or "（已下架）"), {
+            width = cw,
+            height = Screen:scaleBySize(54),
+            align = "left",
+            size = 17,
+            callback = function() self:edit_shop_cost(captured) end,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default))
         table.insert(content, HorizontalGroup:new{
             align = "center",
-            Widgets.button(string.format("%s　★%d%s", item.name, item.cost,
-                item.enabled and "" or "（已下架）"), {
-                width = name_w,
-                height = Screen:scaleBySize(54),
-                align = "left",
-                size = 17,
+            Widgets.button(item.enabled and "下架" or "重新上架", {
+                width = ctrl_w,
+                height = Screen:scaleBySize(48),
+                size = 16,
                 callback = function()
                     Shop.set_enabled(self.progress, captured.id, not captured.enabled)
                     self:render_shop_settings()
                 end,
             }),
-            Widgets.hspace(Size.span.horizontal_default),
+            Widgets.hspace(gap2),
             Widgets.button("删除", {
-                width = del_w,
-                height = Screen:scaleBySize(54),
-                size = 17,
+                width = ctrl_w,
+                height = Screen:scaleBySize(48),
+                size = 16,
                 callback = function()
                     UIManager:show(ConfirmBox:new{
                         text = string.format("从商城删除「%s」？\n已兑换的卡券还在钱包里。", captured.name),
@@ -4117,6 +4129,22 @@ function MainView:render_shop_settings()
     })
 end
 
+-- 改一件卡券的星星数。换价只影响之后的兑换，钱包里已有的记录不动。
+function MainView:edit_shop_cost(item)
+    self:open_ai_text_input(string.format("「%s」要多少颗星星？（填数字，1~9999）", item.name),
+        tostring(item.cost), false, function(value)
+            local updated, err = Shop.set_cost(self.progress, item.id, value)
+            if not updated then
+                UIManager:show(InfoMessage:new{ text = tostring(err), timeout = 4 })
+                return
+            end
+            UIManager:show(InfoMessage:new{
+                text = string.format("%s　★%d", updated.name, updated.cost), timeout = 3,
+            })
+            self:render_shop_settings()
+        end)
+end
+
 function MainView:add_shop_item_dialog()
     self:open_ai_text_input("商品名称（没有中文输入法可打拼音）", "", false, function(text)
         local name = tostring(text or "")
@@ -4139,9 +4167,228 @@ function MainView:add_shop_item_dialog()
     end)
 end
 
+-- 学习设置 / 省市教材选择页的「返回」：从学习设置进来的仍回学习设置，
+-- 从设置主页直接进来的回设置主页。
+function MainView:return_to_settings()
+    if self.settings_sub == "study" then
+        self:render_study_settings()
+    else
+        self:render_settings()
+    end
+end
+
+-- 设置主页那行灰字：当前地区 + 年级学期 + 各科教材，一眼看清孩子在用哪套书。
+function MainView:study_summary()
+    local settings = self.progress.data.settings
+    local place = {}
+    local province = Catalog.province(self.plugin_path, settings.province)
+    if province then table.insert(place, province.name) end
+    local city = settings.city
+        and Catalog.city(self.plugin_path, settings.province, settings.city)
+    if city then table.insert(place, city.name) end
+    if #place == 0 then table.insert(place, "未选择地区") end
+    local lines = { table.concat(place, " · ") .. "　"
+        .. self:grade_label() .. self:semester_label() }
+    local grade = tonumber(settings.grade) or 2
+    local books = {}
+    for _, subject in ipairs(SUBJECT_ORDER) do
+        if has_volume(self.plugin_path, subject, grade, settings.semester) then
+            local name = self:edition_name(subject)
+            if name and name ~= "" then
+                table.insert(books, string.format("%s %s", SUBJECT_LABEL[subject], name))
+            end
+        end
+    end
+    if #books > 0 then table.insert(lines, table.concat(books, "　")) end
+    return table.concat(lines, "\n")
+end
+
 function MainView:render_settings()
     self.state = "settings"
+    self.settings_sub = nil
     self:set_title("设置")
+    local cw = Widgets.width()
+    local settings = self.progress.data.settings
+    local content = VerticalGroup:new{ align = "center" }
+
+    -- 学习设置（省份 / 城市 / 年级 / 学期 + 教材版本）整块收进密码后面：
+    -- 把年级调低，题就跟着变简单，星星来得更快，这是孩子最容易钻的空子。
+    table.insert(content, Widgets.button("学习设置（需密码）", {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:open_study_settings_gated() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default))
+    table.insert(content, Widgets.textbox(self:study_summary(), cw, {
+        size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+
+    -- AI 出题
+    table.insert(content, Widgets.button(string.format("AI 出题设置：%s", self:ai_status_label()), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:render_ai_settings() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+
+    -- 每日目标 / 答错重试 / 密码 / 重置：一行两个
+    local gap2 = Screen:scaleBySize(8)
+    local tile_w2 = math.floor((cw - gap2) / 2)
+    local function pick2(label, callback)
+        return Widgets.button(label, {
+            width = tile_w2,
+            height = Screen:scaleBySize(54),
+            align = "center",
+            size = 18,
+            callback = callback,
+        })
+    end
+    table.insert(content, HorizontalGroup:new{
+        align = "center",
+        pick2(string.format("每日目标：%d 题", settings.daily_goal), function()
+            self:cycle_goal()
+            self:render_settings()
+        end),
+        Widgets.hspace(gap2),
+        pick2(string.format("答错可重试：%s", settings.retry ~= false and "开" or "关"), function()
+            settings.retry = settings.retry == false
+            self.progress:flush()
+            self:render_settings()
+        end),
+    })
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, HorizontalGroup:new{
+        align = "center",
+        pick2(string.format("密码：%s", settings.exit_pin and "已设置" or "未设置"), function()
+            self:render_exit_pin_settings()
+        end),
+        Widgets.hspace(gap2),
+        pick2("重置学习进度", function()
+            -- 设置了密码时先验证，防止孩子自行清空进度
+            local pin = settings.exit_pin
+            if pin and #tostring(pin) == 4 then
+                self:ask_pin_input("重置学习进度 · 请输入 4 位密码", function(text)
+                    if text == nil then return end
+                    if text ~= tostring(pin) then
+                        UIManager:show(InfoMessage:new{ text = "密码不对，未重置。", timeout = 3 })
+                        return
+                    end
+                    self:confirm_reset_progress()
+                end)
+                return
+            end
+            self:confirm_reset_progress()
+        end),
+    })
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+    table.insert(content, Widgets.textbox(string.format("当前版本：v%s", Update.local_version(self.plugin_path)), cw, { size = 18 }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button(string.format("启动时自动检查更新：%s", settings.update_auto_check and "开" or "关"), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function()
+            settings.update_auto_check = not settings.update_auto_check
+            self.progress:flush()
+            self:render_settings()
+        end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("检查更新", {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:check_update() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    -- 商城后台：家长把愿望做成卡券，孩子用星星兑换；改价/上下架都属于家长操作，
+    -- 进去前要密码，孩子不能自己把愿望改便宜或加一张。
+    table.insert(content, Widgets.button(string.format("商城后台（需密码）：%d 件在售",
+            #Shop.items(self.progress)), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:open_shop_settings_gated() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("关于学习助理", {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function()
+            local grade = tonumber(settings.grade) or 2
+            local counts = {}
+            for _, s in ipairs({ "chinese", "english", "physics", "chemistry",
+                                 "biology", "history", "geography" }) do
+                local b = Bank.load(self.plugin_path, s, grade, settings.semester,
+                    settings_edition(settings, s))
+                counts[s] = b and #b.questions or 0
+            end
+            local math_note = grade >= 7 and "数学题库：初高中静态题库"
+                or "数学题库：程序生成，无限题"
+            UIManager:show(InfoMessage:new{
+                text = string.format(
+                    "学习助理 v%s\n%s · %s · %s\n\n语文题库：%d 题\n英语题库：%d 题\n物理题库：%d 题\n化学题库：%d 题\n生物题库：%d 题\n历史题库：%d 题\n地理题库：%d 题\n%s\n\n学习记录和 AI 题库只保存在本机；只有你主动使用 AI 出题或检查更新时才会联网，更新只替换插件程序，不影响学习记录。",
+                    Update.local_version(self.plugin_path),
+                    self:grade_label(), self:semester_label(), self:edition_name("math"),
+                    counts.chinese, counts.english, counts.physics, counts.chemistry,
+                    counts.biology, counts.history, counts.geography,
+                    math_note
+                ),
+                timeout = 6,
+            })
+        end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+    table.insert(content, Widgets.button("回首页", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_home() end,
+    }))
+    local scroll = ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    }
+    self:set_body(scroll)
+end
+
+--[[--
+学习设置是家长区：省市、年级、学期和教材版本都在这儿。
+
+年级直接决定题目难度（一年级的口算和四年级的不是一个量级），改低年级等于
+把星星变便宜，所以整页要密码才能进。
+--]]--
+function MainView:open_study_settings_gated()
+    local pin = self.progress.data.settings.exit_pin
+    if not pin or #tostring(pin) ~= 4 then
+        UIManager:show(ConfirmBox:new{
+            text = "「学习设置」是家长区，需要密码才能进入。\n\n把年级改低，题目就变简单，星星也会来得更容易，所以这里不让小朋友自己改。\n\n现在还没有设置密码，先去设置一个吧。",
+            ok_text = "去设置密码",
+            cancel_text = "稍后",
+            ok_callback = function()
+                self:render_exit_pin_settings(function() self:render_study_settings() end)
+            end,
+        })
+        return
+    end
+    self:ask_pin_input("学习设置 · 请输入密码", function(text)
+        if text == nil then return end
+        if tostring(text) ~= tostring(pin) then
+            UIManager:show(InfoMessage:new{ text = "密码不对，未进入。", timeout = 3 })
+            return
+        end
+        self:render_study_settings()
+    end)
+end
+
+function MainView:render_study_settings()
+    self.state = "study_settings"
+    self.settings_sub = "study"
+    self:set_title("学习设置")
     local cw = Widgets.width()
     local settings = self.progress.data.settings
     local content = VerticalGroup:new{ align = "center" }
@@ -4180,7 +4427,7 @@ function MainView:render_settings()
                 local city = Catalog.city(self.plugin_path, settings.province, settings.city)
                 self:apply_city_match(city and city.name or nil, false, true)
             else
-                self:render_settings()
+                self:render_study_settings()
             end
         end),
     })
@@ -4229,128 +4476,15 @@ function MainView:render_settings()
             idx = idx + count
         end
     end
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- AI 出题：紧贴每日目标上方
-    table.insert(content, Widgets.button(string.format("AI 出题设置：%s", self:ai_status_label()), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_ai_settings() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- 商城商品：家长把愿望做成卡券，孩子用星星兑换；改价格/上下架都属于家长操作，
-    -- 进去前要退出密码，孩子不能自己把愿望改便宜或加一张。
-    table.insert(content, Widgets.button(string.format("商城商品（需密码）：%d 件在售",
-            #Shop.items(self.progress)), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:open_shop_settings_gated() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- 每日目标 / 答错重试 / 退出密码 / 重置：一行两个
-    local gap2 = Screen:scaleBySize(8)
-    local tile_w2 = math.floor((cw - gap2) / 2)
-    local function pick2(label, callback)
-        return Widgets.button(label, {
-            width = tile_w2,
-            height = Screen:scaleBySize(54),
-            align = "center",
-            size = 18,
-            callback = callback,
-        })
-    end
-    table.insert(content, HorizontalGroup:new{
-        align = "center",
-        pick2(string.format("每日目标：%d 题", settings.daily_goal), function()
-            self:cycle_goal()
-            self:render_settings()
-        end),
-        Widgets.hspace(gap2),
-        pick2(string.format("答错可重试：%s", settings.retry ~= false and "开" or "关"), function()
-            settings.retry = settings.retry == false
-            self.progress:flush()
-            self:render_settings()
-        end),
-    })
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, HorizontalGroup:new{
-        align = "center",
-        pick2(string.format("退出密码：%s", settings.exit_pin and "已设置" or "未设置"), function()
-            self:render_exit_pin_settings()
-        end),
-        Widgets.hspace(gap2),
-        pick2("重置学习进度", function()
-            -- 设置了密码时先验证，防止孩子自行清空进度
-            local pin = settings.exit_pin
-            if pin and #tostring(pin) == 4 then
-                self:ask_pin_input("重置学习进度 · 请输入 4 位密码", function(text)
-                    if text == nil then return end
-                    if text ~= tostring(pin) then
-                        UIManager:show(InfoMessage:new{ text = "密码不对，未重置。", timeout = 3 })
-                        return
-                    end
-                    self:confirm_reset_progress()
-                end)
-                return
-            end
-            self:confirm_reset_progress()
-        end),
-    })
+    table.insert(content, Widgets.textbox(
+        "点科目可以自己换版本。换完回这里核对一下，星星商城和练习都按这里的设置走。", cw, {
+            size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
+        }))
     table.insert(content, Widgets.vspace(Size.span.vertical_large))
-    table.insert(content, Widgets.textbox(string.format("当前版本：v%s", Update.local_version(self.plugin_path)), cw, { size = 18 }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("启动时自动检查更新：%s", settings.update_auto_check and "开" or "关"), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
-            settings.update_auto_check = not settings.update_auto_check
-            self.progress:flush()
-            self:render_settings()
-        end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button("检查更新", {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:check_update() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button("关于学习助理", {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
-            local grade = tonumber(settings.grade) or 2
-            local counts = {}
-            for _, s in ipairs({ "chinese", "english", "physics", "chemistry",
-                                 "biology", "history", "geography" }) do
-                local b = Bank.load(self.plugin_path, s, grade, settings.semester,
-                    settings_edition(settings, s))
-                counts[s] = b and #b.questions or 0
-            end
-            local math_note = grade >= 7 and "数学题库：初高中静态题库"
-                or "数学题库：程序生成，无限题"
-            UIManager:show(InfoMessage:new{
-                text = string.format(
-                    "学习助理 v%s\n%s · %s · %s\n\n语文题库：%d 题\n英语题库：%d 题\n物理题库：%d 题\n化学题库：%d 题\n生物题库：%d 题\n历史题库：%d 题\n地理题库：%d 题\n%s\n\n学习记录和 AI 题库只保存在本机；只有你主动使用 AI 出题或检查更新时才会联网，更新只替换插件程序，不影响学习记录。",
-                    Update.local_version(self.plugin_path),
-                    self:grade_label(), self:semester_label(), self:edition_name("math"),
-                    counts.chinese, counts.english, counts.physics, counts.chemistry,
-                    counts.biology, counts.history, counts.geography,
-                    math_note
-                ),
-                timeout = 6,
-            })
-        end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_large))
-    table.insert(content, Widgets.button("回首页", {
+    table.insert(content, Widgets.button("返回设置", {
         width = cw,
         size = 20,
-        callback = function() self:render_home() end,
+        callback = function() self:render_settings() end,
     }))
     local scroll = ScrollableContainer:new{
         dimen = self:scroll_viewport(),

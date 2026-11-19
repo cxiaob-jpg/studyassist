@@ -500,6 +500,30 @@ describe("StudyAssist title-bar back navigation", function()
         assert.are.equal("home", view.state)
     end)
 
+    it("keeps region and textbook setup on its own password-protected page", function()
+        view:render_settings()
+        assert.are.equal("settings", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        -- 学习设置是独立一页，省市 / 年级 / 学期 / 教材都在这儿
+        view:render_study_settings()
+        assert.are.equal("study_settings", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        -- 选完省市、年级或教材都回学习设置，不跳回设置主页
+        view:return_to_settings()
+        assert.are.equal("study_settings", view.state)
+        view:render_settings()
+        assert.are.equal("settings", view.state)
+        view:return_to_settings()
+        assert.are.equal("settings", view.state)
+        -- 没设密码时进门只会弹提示，不会直接进页面
+        view.progress.data.settings.exit_pin = nil
+        view:open_study_settings_gated()
+        assert.are.equal("settings", view.state)
+        view.progress.data.settings.exit_pin = "1234"
+        view:open_shop_settings_gated()
+        assert.are.equal("settings", view.state)
+    end)
+
     it("paginates the badge wall", function()
         view:render_badges(2)
         assert.are.equal("badges", view.state)

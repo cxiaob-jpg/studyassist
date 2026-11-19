@@ -108,6 +108,27 @@ describe("StudyAssist star shop", function()
         assert.are.equal(1, #Shop.redeemed(p))
     end)
 
+    it("lets a parent reprice a coupon without rewriting old wallet records", function()
+        local p = progress(100)
+        local item = Shop.items(p)[1]
+        local old_cost = item.cost
+        local record = Shop.redeem(p, item.id)
+        assert.are.equal(old_cost, record.cost)
+
+        local updated, err = Shop.set_cost(p, item.id, "45")
+        assert.is_nil(err)
+        assert.are.equal(45, updated.cost)
+        -- 改价只对未来生效：钱包里那条记录的花费不动
+        assert.are.equal(old_cost, record.cost)
+        assert.are.equal(old_cost, Shop.spent(p))
+
+        assert.is_nil(Shop.set_cost(p, "nope", 10))
+        assert.is_nil(Shop.set_cost(p, item.id, 0))
+        assert.is_nil(Shop.set_cost(p, item.id, "abc"))
+        assert.is_nil(Shop.set_cost(p, item.id, 10000))
+        assert.are.equal(45, item.cost)
+    end)
+
     it("repairs hand-edited saves without dropping valid rows", function()
         local p = progress(40, {
             seeded = true,

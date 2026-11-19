@@ -197,7 +197,7 @@ function Shop.pending_count(progress)
     return count
 end
 
--- 家长兑现：把卡券标记成已兑现（调用方必须先校验退出密码）
+-- 家长兑现：把卡券标记成已兑现（调用方必须先校验家长密码）
 function Shop.cash(progress, record_id)
     local record = Shop.find_record(progress, record_id)
     if not record then return nil, "找不到这张卡券" end
@@ -243,6 +243,21 @@ function Shop.remove_item(progress, item_id)
         end
     end
     return false
+end
+
+-- 改价：家长在商城后台点一下卡片就能重设星星数。只动这一件商品；
+-- 钱包里的兑换记录存的是当时的名称与花费，不会被改价回溯。
+function Shop.set_cost(progress, item_id, cost)
+    local item = Shop.find(progress, item_id)
+    if not item then return nil, "商品已经不在了" end
+    local price = tonumber(cost)
+    if not price or price ~= price then return nil, "星星数请填数字" end
+    price = math.floor(price)
+    if price < 1 then return nil, "星星数要大于 0" end
+    if price > MAX_COST then return nil, string.format("星星数最多 %d", MAX_COST) end
+    item.cost = price
+    progress:flush()
+    return item
 end
 
 -- 上架 / 下架。下架只是从孩子那端隐藏，已兑换的卡券不受影响。

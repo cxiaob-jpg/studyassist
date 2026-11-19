@@ -137,7 +137,7 @@ submit_answer(value)
 
 ### 状态机
 
-`MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`shop`、`wallet`、`shop_settings`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
+`MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`shop`、`wallet`、`study_settings`、`shop_settings`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
 新增页面时：设置 `state` → 改标题 → 用 `set_body(widget)` 换内容，不要新开 `UIManager:show` 的全屏窗口。
 
 ---
@@ -379,6 +379,7 @@ tools/studyassist/test_plugin.sh
 | 2026-11-19 | 设置页顶部提示改为一句「根据学生城市，年级，学期选择，教材自动匹配。」（原两行长说明删除）；教材区仍保留「教材版本（可自定义选择）」小标题 | 顶部两行字太占屏，一句话把规则说清即可 |
 | 2026-11-19 | 今日挑战二级菜单删掉「按学科出题」学科列表（与首页学科按钮完全重复，进的是同一个单元页），只留「全部学科混合（N 题）」+ 一句「单科练习回首页点科目」；知识点「全册综合（10 题）」改名「全册知识点综合（N 题）」并跟随每日目标 | 首页两条路通向同一页面，孩子要点两次才开题；「全册综合」两字在学科页和知识点页各有一个，容易混 |
 | 2026-11-19 | 抽卡退役、改为星星商城：首页第三行「商城 / 钱包」；商品由家长在设置「商城商品」里维护（预置 8 张愿望卡券，可改价/上下架/删除/新增）；兑换扣星星进钱包，兑现要输退出密码；集卡册与卡片详情页、抽卡入口一起删除；日报不再抽卡（评分把原「收藏 10 分」并入每日目标 40 分），结算页与钱包提供「看今日总结」；cards 类徽章改为商城类（兑换 1 张 / 兑换 5 张 / 兑现 3 张） | 抽卡奖励是虚拟卡片，家长兑现不了；星星直接换真实愿望，孩子更有动力，家长也能自己定价；卡片没有获取途径后徽章会永久卡死 |
+| 2026-11-19 | 设置页拆出「学习设置」（v1.24.4）：省份 / 城市 / 年级 / 学期 + 教材版本整块搬进独立页 `render_study_settings`，入口在主设置顶部且要验密码（`open_study_settings_gated`），未设密码引导去设置；新增 `MainView:return_to_settings()` 让省市/年级/教材选择页选完回学习设置而不是主页；「商城商品」改名「商城后台」并移到检查更新下方，点某张卡券即可改星星数（`Shop.set_cost`），下面一行是上架/下架 + 删除；原「退出密码」统一改称「密码」 | 年级一改题目难度就变，低年级题更简单、星星更好赚，孩子自己改年级等于刷星星；旧入口把省市年级摊在主设置最上面，孩子随手就能改 |
 | 2026-11-19 | 修 v1.24.2 打开星星商城崩溃：`Widgets.square_card` 曾在实例上整体替换 `FrameContainer:getSize`，把它顺带写入的 `_padding_*` 一起丢了，`paintTo` 里 `nil + number` 直接抛错；改为不覆写任何方法（内容包进 `inner × inner` 的 CenterContainer，FrameContainer 自己算出的就是正方形）；卡券名加 `max_lines = 2` 防长名字撑破卡片 | 一进商城就崩，属于必须立刻修的问题；容器组合比改内部方法更安全 |
 | 2026-11-19 | 设置页教材区改为按年级 + 学期动态列出（`has_volume`，跨版本判断），一年级没有英语、小学没有理化、九年级下册没有英语/生物地理时格子不出现，一行两科均衡分行；「商城商品」入口加退出密码（未设密码引导去设置）；星星商城卡券改正方形卡片（新增 `Widgets.square_card`，覆写 `getSize` 让排版认固定边长），一行两张 | 教材格子写成「暂无」既不能点又占半屏；商品改价能改孩子看到的价格，必须挡住；竖长条卡片一屏看不到两张，方形更像卡券 |
 | 2026-11-19 | 抽卡/集卡册残留清零（v1.24.1）：删 `core/cards.lua`、`data/cards/`（1.2MB 卡面）、`tools/studyassist/build_card_art.py`、`spec/unit/studyassist_cards_spec.lua`；`Progress` 去掉 `add_cards`/`draw_status`/`spend_draw` 与抽卡记账，`normalize` 读取存档时直接清空 `cards`/`draw`；`Report` 去掉 `cards`/`card_words`/`revealed` 字段与祝福语校验；UI 测试改为「日报无卡片」+「商城/钱包」两条，截图脚本改拍商城与钱包 | 上一版只是不显示，306 行死代码和 1.2MB 图片还压在包里；存档里的旧字段也一直躺着占空间 |
