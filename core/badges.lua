@@ -4,7 +4,28 @@ Badge definitions and unlock checks for StudyAssist.
 
 local Badges = {}
 
-local Cards = require("core.cards")
+-- 商城退出后，原来的集卡类徽章改成「愿望」类：兑换、兑现卡券。
+local function redeemed_count(p)
+    local shop = p.data.shop
+    local list = type(shop) == "table" and shop.redeemed or nil
+    if type(list) ~= "table" then return 0 end
+    local n = 0
+    for _, record in ipairs(list) do
+        if type(record) == "table" then n = n + 1 end
+    end
+    return n
+end
+
+local function cashed_count(p)
+    local shop = p.data.shop
+    local list = type(shop) == "table" and shop.redeemed or nil
+    if type(list) ~= "table" then return 0 end
+    local n = 0
+    for _, record in ipairs(list) do
+        if type(record) == "table" and record.cashed then n = n + 1 end
+    end
+    return n
+end
 
 local function mastered_count(p)
     local n = 0
@@ -407,28 +428,28 @@ local definitions = {
         value = function(p) return mastered_count(p) end,
     },
     {
-        id = "card_s_1",
-        name = "稀有卡新手",
-        desc = "收集 1 张 S 级及以上卡片",
+        id = "shop_first",
+        name = "第一次兑换",
+        desc = "在星星商城兑换第一张卡券",
         target = 1,
-        category = "cards",
-        value = function(p) return Cards.owned_at_least(p, "S") end,
+        category = "shop",
+        value = function(p) return redeemed_count(p) end,
     },
     {
-        id = "card_types_15",
-        name = "集卡小行家",
-        desc = "收集 15 种不同的卡片",
-        target = 15,
-        category = "cards",
-        value = function(p) return Cards.owned_types(p) end,
+        id = "shop_5",
+        name = "愿望收集者",
+        desc = "累计兑换 5 张卡券",
+        target = 5,
+        category = "shop",
+        value = function(p) return redeemed_count(p) end,
     },
     {
-        id = "card_sss_1",
-        name = "传说收藏家",
-        desc = "收集 1 张 SSS 级卡片",
-        target = 1,
-        category = "cards",
-        value = function(p) return Cards.owned_at_least(p, "SSS") end,
+        id = "shop_cash_3",
+        name = "说到做到",
+        desc = "兑现 3 张卡券",
+        target = 3,
+        category = "shop",
+        value = function(p) return cashed_count(p) end,
     },
 }
 

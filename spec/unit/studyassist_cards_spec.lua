@@ -189,7 +189,7 @@ describe("StudyAssist cards and daily report", function()
         p.data.streak.current = 7
         local info = Report.score(p, day(10))
         assert.are.equal(100, info.score)
-        assert.are.equal(30, info.parts.goal)
+        assert.are.equal(40, info.parts.goal)
         assert.are.equal(30, info.parts.accuracy)
         assert.are.equal(15, info.parts.sessions)
         assert.are.equal(10, info.parts.challenge)
@@ -203,8 +203,8 @@ describe("StudyAssist cards and daily report", function()
         daily.answered = 5
         daily.correct = 5
         daily.sessions = 1
-        -- goal 10: 15 + accuracy 30 + rounds 5 = 50
-        assert.are.equal(50, Report.score(p, day(10)).score)
+        -- goal 10: 目标 40*0.5=20 + accuracy 30 + rounds 5 = 55
+        assert.are.equal(55, Report.score(p, day(10)).score)
     end)
 
     it("parses a valid AI report and strips code fences", function()
@@ -215,9 +215,14 @@ describe("StudyAssist cards and daily report", function()
         assert.are.equal("好", fenced.summary)
     end)
 
-    it("defaults the AI word count to the single-card draw", function()
-        assert.is_not_nil(Report.parse('{"summary":"好","card_words":["一"]}', nil))
-        assert.is_nil(Report.parse('{"summary":"好","card_words":["一","二","三"]}', nil))
+    it("parses a summary without card blessings", function()
+        local parsed = Report.parse('{"summary":"好"}', 0)
+        assert.are.equal("好", parsed.summary)
+        assert.are.same({}, parsed.card_words)
+        -- 没有卡片时，AI 就算多返回了 card_words 也直接忽略
+        local extra = Report.parse('{"summary":"好","card_words":["一","二"]}', nil)
+        assert.is_not_nil(extra)
+        assert.are.same({}, extra.card_words)
     end)
 
     it("rejects bad JSON, wrong word counts and overlong text", function()
@@ -388,44 +393,19 @@ describe("StudyAssist cards and daily report", function()
         end
     end)
 
-    it("keeps the collection bonus at zero for a tiny collection", function()
+    it("no longer feeds the card collection into the daily score", function()
         local p = Progress.open(path)
         local card = Cards.get("r01")
         p:add_cards({ { id = card.id, tier = card.tier, name = card.name, desc = card.desc } }, day(10))
-        assert.are.equal(0, Report.score(p, day(10)).parts.collection)
-    end)
-
-    it("adds a capped collection bonus to the daily score", function()
-        local p = Progress.open(path)
-        local drawn, power = {}, 0
-        for _, card in ipairs(Cards.all()) do
-            if card.tier == "SSS" or card.tier == "SS" or card.tier == "S" then
-                table.insert(drawn, { id = card.id, tier = card.tier, name = card.name, desc = card.desc })
-                power = power + card.atk + card.def
-            end
-        end
-        p:add_cards(drawn, day(10))
-        local expected = math.min(10, math.floor(power / 200))
-        assert.is_true(expected > 0)
         local info = Report.score(p, day(10))
-        assert.are.equal(expected, info.parts.collection)
-        -- Empty day: the score is the collection bonus alone.
-        assert.are.equal(expected, info.score)
-        -- A full day stays capped at 100 even with the bonus.
-        local daily = p:ensure_daily(day(10))
-        daily.answered = 10
-        daily.correct = 10
-        daily.sessions = 3
-        daily.challenge.sessions = 2
-        daily.kp_answered = 5
-        p.data.streak.current = 7
-        assert.are.equal(100, Report.score(p, day(10)).score)
-        -- The offline template mentions the bonus.
+        assert.is_nil(info.parts.collection)
+        -- 空的一天不再有收藏加分
+        assert.are.equal(0, info.score)
         local stats = Report.stats(p, day(10))
-        assert.are.equal(power, stats.collection_power)
-        assert.are.equal(expected, stats.collection_bonus)
-        local offline = Report.offline(stats, {})
-        assert.is_truthy(offline.summary:find("收藏力量", 1, true))
+        assert.is_nil(stats.collection_power)
+        assert.is_nil(stats.collection_bonus)
+        -- 离线总结改成引导去星星商城
+        assert.is_truthy(Report.offline(stats, {}).summary:find("星星", 1, true))
     end)
 
     it("earns one draw per 20 practice answers and spends credits on demand", function()

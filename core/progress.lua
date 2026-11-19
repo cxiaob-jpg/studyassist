@@ -7,6 +7,7 @@ never removes a child's stars, streak, badges or wrong-question book.
 
 local AIConfig = require("core.ai_config")
 local Cards = require("core.cards")
+local Shop = require("core.shop")
 local DataStorage = require("datastorage")
 local LuaSettings = require("luasettings")
 local logger = require("logger")
@@ -204,6 +205,8 @@ function Progress:normalize()
             entry.last_at = number_or(entry.last_at, 0)
         end
     end
+    -- 星星商城与钱包：预置愿望清单只在第一次铺上，之后完全由家长维护
+    Shop.ensure(d)
     local adaptive = ensure_table(d, "adaptive")
     for _, subject in ipairs(SUBJECTS) do
         local a = ensure_table(adaptive, subject)
@@ -790,7 +793,14 @@ end
 
 function Progress:reset_progress()
     local settings = self.data.settings
+    -- 商城的商品清单是家长配好的，重置学习进度时保留；星星和已兑换的卡券归零
+    local shop = self.data.shop
+    local kept_shop
+    if type(shop) == "table" then
+        kept_shop = { items = shop.items, seeded = true, next_id = shop.next_id }
+    end
     local new_data = { settings = settings }
+    if kept_shop then new_data.shop = kept_shop end
     self.data = new_data
     self.settings.data = new_data
     self:normalize()

@@ -1,16 +1,14 @@
 --[[--
 Daily learning report for StudyAssist.
 
-Scoring and the card draw are fully local and reproducible; the AI subsystem
-only polishes the summary text and card blessings. The report is committed to
-the daily save entry (offline template first) before any network request, so a
-failed or absent AI call never loses the draw. Model output is untrusted and
+Scoring is fully local and reproducible; the AI subsystem only polishes the
+summary text. The report is committed to the daily save entry (offline template
+first) before any network request, so a failed or absent AI call never loses
+the report. Model output is untrusted and
 validated strictly, mirroring core/ai_variant.lua.
 --]]--
 
 local JSON = require("json")
-local Badges = require("core.badges")
-local Cards = require("core.cards")
 local Knowledge = require("core.knowledge")
 
 local Report = {}
@@ -50,10 +48,11 @@ end
 --[[--
 Local daily score, 0..100.
 
-30 goal completion + 30 first-try accuracy + 15 rounds (max 3)
+40 goal completion + 30 first-try accuracy + 15 rounds (max 3)
 + 10 challenge rounds (max 2) + 5 knowledge answers (max 5)
-+ 10 streak (max 7 days) + up to 10 collection power (1 point per 200
-attack+defense of owned card types). The sum is rounded once and capped.
++ 10 streak (max 7 days). The sum is rounded once and capped.
+
+卡片抽卡退出后，原来那 10 分「收藏加成」并进了每日目标完成度（30 → 40）。
 --]]--
 function Report.score(progress, now)
     local daily = progress:ensure_daily(now)
@@ -66,16 +65,13 @@ function Report.score(progress, now)
     local kp_answered = daily.kp_answered or 0
     local streak = progress.data.streak.current or 0
 
-    local goal_part = goal > 0 and 30 * math.min(answered / goal, 1) or 0
+    local goal_part = goal > 0 and 40 * math.min(answered / goal, 1) or 0
     local accuracy_part = answered > 0 and 30 * correct / answered or 0
-    local collection_atk, collection_def = Cards.collection_power(progress)
-    local collection_part = math.min(10, math.floor((collection_atk + collection_def) / 200))
     local raw = goal_part + accuracy_part
         + 5 * math.min(sessions, 3)
         + 5 * math.min(challenge_sessions, 2)
         + math.min(kp_answered, 5)
         + 10 * math.min(streak, 7) / 7
-        + collection_part
     local score = math.floor(raw + 0.5)
     if score < 0 then score = 0 elseif score > 100 then score = 100 end
     return {
@@ -87,7 +83,6 @@ function Report.score(progress, now)
             challenge = 5 * math.min(challenge_sessions, 2),
             kp = math.min(kp_answered, 5),
             streak = math.floor(10 * math.min(streak, 7) / 7 + 0.5),
-            collection = collection_part,
         },
     }
 end
@@ -116,7 +111,6 @@ function Report.stats(progress, now, plugin_path)
         end
         table.insert(topics, { subject = item.subject, name = name })
     end
-    local collection_atk, collection_def = Cards.collection_power(progress)
     return {
         date = os.date("%Y-%m-%d", now or os.time()),
         grade = settings.grade,
@@ -135,8 +129,6 @@ function Report.stats(progress, now, plugin_path)
         kp_answered = daily.kp_answered or 0,
         topics = topics,
         streak = progress.data.streak.current or 0,
-        collection_power = collection_atk + collection_def,
-        collection_bonus = math.min(10, math.floor((collection_atk + collection_def) / 200)),
     }
 end
 
@@ -166,14 +158,8 @@ function Report.offline(stats, cards)
     if stats.streak > 0 then
         table.insert(lines, string.format("已经连续学习 %d 天，坚持就是进步！", stats.streak))
     end
-    if (stats.collection_bonus or 0) > 0 then
-        table.insert(lines, string.format("卡片收藏力量 %d，为今日评分加成 %d 分！",
-            stats.collection_power or 0, stats.collection_bonus))
-    end
-    table.insert(lines, "明天继续加油，小卡片们都在等你！")
-    local words = {}
-    for _, card in ipairs(cards or {}) do table.insert(words, card.desc or "") end
-    return { summary = table.concat(lines, ""), card_words = words }
+    table.insert(lines, "明天继续加油，攒够星星就能去商城换愿望啦！")
+    return { summary = table.concat(lines, ""), card_words = {} }
 end
 
 function Report.build_prompt(stats, score, cards)
@@ -188,10 +174,6 @@ function Report.build_prompt(stats, score, cards)
         string.format("答题：共 %d 道，首次答对 %d 道；完成 %d 轮练习；获得 %d 颗星星；每日目标 %s 题。",
             stats.answered, stats.correct, stats.sessions, stats.points, tostring(stats.goal)),
     }
-    if (stats.collection_bonus or 0) > 0 then
-        table.insert(lines, string.format("卡片收藏力量 %d，已为今日评分加成 %d 分。",
-            stats.collection_power or 0, stats.collection_bonus))
-    end
     for _, subject in ipairs(SUBJECT_ORDER) do
         local s = stats.subjects[subject]
         if s.answered > 0 then
@@ -219,19 +201,10 @@ function Report.build_prompt(stats, score, cards)
     if stats.streak > 0 then
         table.insert(lines, string.format("已连续学习 %d 天。", stats.streak))
     end
-    table.insert(lines, "今天抽到的卡片（按顺序）：")
-    for index, card in ipairs(cards or {}) do
-        table.insert(lines, string.format("%d. 【%s】%s", index, card.tier, card.name))
-    end
     table.insert(lines, "")
     table.insert(lines, "请写一段 80 到 200 字的总结（summary）：夸夸孩子今天的努力和进步，再给一句明天的鼓励。")
-    table.insert(lines, "再为每张卡片写一句不超过 40 字的祝福语（card_words），按卡片顺序，结合今天的表现。")
     table.insert(lines, "只输出这个 JSON 结构：")
-    local example_words = {}
-    for i = 1, math.max(1, #cards) do
-        example_words[i] = string.format('"卡片%d祝福"', i)
-    end
-    table.insert(lines, '{"summary":"总结","card_words":[' .. table.concat(example_words, ",") .. ']}')
+    table.insert(lines, '{"summary":"总结"}')
     return system, table.concat(lines, "\n")
 end
 
@@ -253,7 +226,8 @@ Validate the AI report payload. Returns nil, err on any violation so the
 caller can fall back to the offline template.
 --]]--
 function Report.parse(text, card_count)
-    card_count = tonumber(card_count) or Cards.DRAW_COUNT
+    -- 卡片祝福语是抽卡时代的产物，现在没有卡片时传 0，只校验总结本身
+    card_count = tonumber(card_count) or 0
     local payload = extract_json(text)
     if not payload then return nil, "AI 返回内容不是 JSON" end
     local ok, decoded = pcall(JSON.decode, payload)
@@ -261,45 +235,40 @@ function Report.parse(text, card_count)
     local summary = trim(decoded.summary)
     if summary == "" then return nil, "AI 没有返回总结" end
     if char_len(summary) > MAX_SUMMARY_CHARS then return nil, "AI 总结过长" end
-    local words = decoded.card_words
-    if type(words) ~= "table" or #words ~= card_count then return nil, "AI 祝福语数量不对" end
     local cleaned = {}
-    for i = 1, card_count do
-        local word = trim(words[i])
-        if word == "" then return nil, "AI 祝福语为空" end
-        if char_len(word) > MAX_WORD_CHARS then return nil, "AI 祝福语过长" end
-        cleaned[i] = word
+    if card_count > 0 then
+        local words = decoded.card_words
+        if type(words) ~= "table" or #words ~= card_count then return nil, "AI 祝福语数量不对" end
+        for i = 1, card_count do
+            local word = trim(words[i])
+            if word == "" then return nil, "AI 祝福语为空" end
+            if char_len(word) > MAX_WORD_CHARS then return nil, "AI 祝福语过长" end
+            cleaned[i] = word
+        end
     end
     return { summary = summary, card_words = cleaned }
 end
 
 --[[--
-Create today's report: score locally, draw cards, commit the offline version
-to the save first, then return it for optional AI polishing.
+Create today's report: score locally, commit the offline version to the save
+first, then return it for optional AI polishing.
 @tparam table opts { now, rng, plugin_path }
 --]]--
 function Report.create(progress, opts)
     opts = opts or {}
     local now = opts.now or os.time()
     local score_info = Report.score(progress, now)
-    local challenge_badges = Badges.challenge_unlocked(progress)
-    local total = progress.data.total
-    local cards = Cards.draw(score_info.score, challenge_badges, opts.rng, {
-        total_answered = total.answered,
-        challenge_answered = total.challenge_answered,
-        owned = progress.data.cards,
-    })
-    progress:add_cards(cards, now)
     local stats = Report.stats(progress, now, opts.plugin_path)
-    local offline = Report.offline(stats, cards)
+    -- 抽卡退出后日报只做总结，不再发卡片
+    local offline = Report.offline(stats, {})
     local report = {
         score = score_info.score,
         parts = score_info.parts,
-        cards = cards,
+        cards = {},
         summary = offline.summary,
-        card_words = offline.card_words,
+        card_words = {},
         ai = false,
-        revealed = false,
+        revealed = true,
         created_at = now,
     }
     progress:save_daily_report(report, now)

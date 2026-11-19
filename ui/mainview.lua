@@ -31,7 +31,6 @@ local AIConfig = require("core.ai_config")
 local AIVariant = require("core.ai_variant")
 local Badges = require("core.badges")
 local Bank = require("core.bank")
-local Cards = require("core.cards")
 local Catalog = require("core.catalog")
 local Diagnose = require("core.diagnose")
 local Knowledge = require("core.knowledge")
@@ -40,6 +39,7 @@ local Progress = require("core.progress")
 local Recite = require("core.recite")
 local Report = require("core.report")
 local Session = require("core.session")
+local Shop = require("core.shop")
 local Update = require("core.update")
 local UpdateDialog = require("ui/update_dialog")
 local PinPadDialog = require("ui/pinpad")
@@ -212,8 +212,10 @@ local BACK_PARENT = {
     wrongbook = "home",
     wrong_detail = "wrongbook",
     badges = "home",
+    shop = "home",
+    wallet = "home",
+    shop_settings = "settings",
     daily_report = "home",
-    card_detail = "cards",
     settings = "home",
     ai_settings = "settings",
     ai_service_edit = "ai_settings",
@@ -366,14 +368,6 @@ function MainView:onBack()
         local back = self.choice_list_back
         self.choice_list_back = nil
         if back then back() else self:render_settings() end
-        return
-    end
-    if state == "cards" then
-        self:leave_cards()
-        return
-    end
-    if state == "card_detail" then
-        self:leave_card_detail()
         return
     end
     if state == "unit_select" and self.unit_context == "challenge" then
@@ -863,16 +857,18 @@ function MainView:render_home()
     self.state = "home"
     self:set_title(_("学习助理"))
     local cw = Widgets.width()
-    local total = self.progress:total()
     local today = self.progress:today()
     local streak = self.progress.data.streak.current
     local wrong_count = #self.progress:wrong_items()
     local badge_count = Badges.count(self.progress)
+    -- 星星是商城的钱：累计获得减去已兑换花掉的
+    local star_balance = Shop.balance(self.progress)
+    local pending_coupons = Shop.pending_count(self.progress)
 
     local stat_width = math.floor(cw / 3)
     local stats = HorizontalGroup:new{
         align = "center",
-        Widgets.stat(string.format("★ %d", total.points), "星星", stat_width),
+        Widgets.stat(string.format("★ %d", star_balance), "星星", stat_width),
         Widgets.stat(string.format("%d 天", streak), "连续学习", stat_width),
         Widgets.stat(string.format("%d/%d", today.answered, today.goal), "今日", stat_width),
     }
@@ -890,16 +886,6 @@ function MainView:render_home()
     local half = math.floor((cw - Size.span.horizontal_default) / 2)
     local challenge_w = half
     local recite_w = cw - Size.span.horizontal_default - challenge_w
-
-    local draw_status = self.progress:draw_status()
-    local report_label
-    if draw_status.credits > 0 then
-        report_label = string.format("抽卡（可抽 %d 次）", draw_status.credits)
-    elseif self.progress:daily_report() then
-        report_label = "今日总结 ✓"
-    else
-        report_label = string.format("抽卡（%d/%d）", draw_status.progress, draw_status.need)
-    end
 
     -- 首页学科按钮跟设置联动：只留当前年级/学期/教材真有题库的科目
     -- （一年级没有英语课本、小学没有物理化学，就不显示，也不再点进去才提示暂无）
@@ -966,15 +952,17 @@ function MainView:render_home()
         }
         local tool_row_3 = HorizontalGroup:new{
             align = "center",
-            Widgets.button(report_label, {
+            Widgets.button("星星商城", {
                 width = half,
-                callback = function() self:open_daily_report() end,
+                callback = function() self:render_shop() end,
             }),
             Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("集卡册", {
-                width = half,
-                callback = function() self:render_cards() end,
-            }),
+            Widgets.button(pending_coupons > 0
+                    and string.format("钱包（%d 待兑现）", pending_coupons) or "钱包",
+                {
+                    width = half,
+                    callback = function() self:render_wallet() end,
+                }),
         }
         local children = {
             align = "center",
@@ -2472,6 +2460,12 @@ function MainView:render_summary()
             callback = function() self:render_home() end,
         }),
     })
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("看今日总结", {
+        width = cw,
+        size = 20,
+        callback = function() self:open_daily_report() end,
+    }))
     if s.mode == "kp" and self.last_kp_subject then
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
         table.insert(content, Widgets.button("返回知识点", {
@@ -2494,7 +2488,11 @@ function MainView:render_summary()
             callback = function() self:render_wrongbook() end,
         }))
     end
-    self:set_body(content)
+    self:set_body(ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    })
 end
 
 function MainView:render_wrongbook()
@@ -3207,47 +3205,26 @@ end
 
 function MainView:report_parts_text(report)
     local parts = report.parts or {}
-    return string.format("目标 %d/30 · 正确率 %d/30 · 轮次 %d/15 · 挑战 %d/10 · 知识点 %d/5 · 连续 %d/10 · 收藏 %d/10",
+    return string.format("目标 %d/40 · 正确率 %d/30 · 轮次 %d/15 · 挑战 %d/10 · 知识点 %d/5 · 连续 %d/10",
         parts.goal or 0, parts.accuracy or 0, parts.sessions or 0,
-        parts.challenge or 0, parts.kp or 0, parts.streak or 0, parts.collection or 0)
+        parts.challenge or 0, parts.kp or 0, parts.streak or 0)
 end
 
+-- 今日总结：第一次看时按当天数据生成一份，之后每次打开都是同一份（不再消耗任何额度）
 function MainView:open_daily_report(now)
     now = now or os.time()
-    -- Viewing an existing report never spends a draw; drawing is explicit.
-    if self.progress:daily_report(now) then
-        self:render_daily_report()
-        return
+    local report = self.progress:daily_report(now)
+    if not report then
+        report = Report.create(self.progress, { now = now, plugin_path = self.plugin_path })
+        local new_badges = Badges.evaluate(self.progress)
+        if #new_badges > 0 then
+            local names = {}
+            for _, badge in ipairs(new_badges) do table.insert(names, badge.name) end
+            UIManager:show(InfoMessage:new{ text = "新奖章：" .. table.concat(names, "、"), timeout = 4 })
+        end
     end
-    self:draw_cards(now)
-end
-
--- Show how many answers are accumulated toward the next draw.
-function MainView:show_draw_progress()
-    local status = self.progress:draw_status()
-    UIManager:show(InfoMessage:new{
-        text = string.format("已积累 %d/%d 题，再做 %d 题就能抽卡！\n每次智能抽 %d 张，优先抽没收集过的卡。\n累计答题和拓展题越多，越容易抽到 SS、SSS 卡。",
-            status.progress, status.need, status.remaining, Cards.DRAW_COUNT),
-        timeout = 5,
-    })
-end
-
--- Spend one earned credit and draw a fresh hand of cards plus today's report.
-function MainView:draw_cards(now)
-    now = now or os.time()
-    if not self.progress:spend_draw() then
-        self:show_draw_progress()
-        return
-    end
-    Report.create(self.progress, { now = now, plugin_path = self.plugin_path })
-    local new_badges = Badges.evaluate(self.progress)
     self:render_daily_report()
-    if #new_badges > 0 then
-        local names = {}
-        for _, badge in ipairs(new_badges) do table.insert(names, badge.name) end
-        UIManager:show(InfoMessage:new{ text = "新奖章：" .. table.concat(names, "、"), timeout = 4 })
-    end
-    if self:ai_ready() then
+    if report and not report.ai and self:ai_ready() then
         self:polish_daily_report()
     end
 end
@@ -3280,63 +3257,17 @@ function MainView:render_daily_report()
     table.insert(content, Widgets.textbox(string.format("答题 %d · 答对 %d · 星星 %d · 轮次 %d",
         stats.answered, stats.correct, stats.points, stats.sessions), cw, { size = 16, alignment = "center" }))
     local total = self.progress.data.total
-    local luck = Cards.luck_level(total.answered, total.challenge_answered)
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.label(string.format("累计答题 %d 道 · 拓展题 %d 道 · 抽卡幸运 +%d",
-        total.answered, total.challenge_answered, luck), {
+    table.insert(content, Widgets.label(string.format("累计答题 %d 道 · 拓展题 %d 道 · 可用星星 ★%d",
+        total.answered, total.challenge_answered, Shop.balance(self.progress)), {
         size = 14, color = Blitbuffer.COLOR_DARK_GRAY,
     }))
-    local draw_status = self.progress:draw_status()
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.label(string.format("抽卡进度 %d/%d · 可抽 %d 次",
-        draw_status.progress, draw_status.need, draw_status.credits), {
-        size = 14, color = Blitbuffer.COLOR_DARK_GRAY,
-    }))
-    if draw_status.credits > 0 then
-        table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        table.insert(content, Widgets.button(string.format("再抽 %d 张卡（可抽 %d 次）", Cards.DRAW_COUNT, draw_status.credits), {
-            width = cw,
-            height = Screen:scaleBySize(64),
-            size = 22,
-            callback = function() self:draw_cards() end,
-        }))
-    end
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.label(report.ai and "AI 总结" or "离线总结", {
         size = 15, color = Blitbuffer.COLOR_DARK_GRAY,
     }))
     table.insert(content, Widgets.textbox(report.summary or "", cw, { size = 18 }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    if not report.revealed then
-        table.insert(content, Widgets.button(string.format("翻开今日卡片（%d 张）", #(report.cards or {})), {
-            width = cw,
-            height = Screen:scaleBySize(64),
-            size = 22,
-            callback = function()
-                report.revealed = true
-                self.progress:save_daily_report(report)
-                self:render_daily_report()
-            end,
-        }))
-    else
-        for index, card in ipairs(report.cards or {}) do
-            local word = (report.card_words or {})[index] or card.desc or ""
-            local items = { align = "center" }
-            local img = Widgets.image(self:card_art_path(card.id), Screen:scaleBySize(96))
-            if img then
-                table.insert(items, img)
-                table.insert(items, Widgets.vspace(Size.span.vertical_default))
-            end
-            table.insert(items, Widgets.label(string.format("【%s】%s", card.tier or "?", card.name or ""), { size = 20, bold = true }))
-            table.insert(items, Widgets.textbox(word, cw - 4 * Size.padding.default, { size = 15, alignment = "center" }))
-            local cell = Widgets.card(VerticalGroup:new(items), { width = cw })
-            local captured = card
-            table.insert(content, Widgets.tappable(cell, function()
-                self:render_card_detail(captured.id, "daily_report")
-            end))
-            table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        end
-    end
     if not report.ai and self:ai_ready() then
         table.insert(content, Widgets.button("AI 润色总结", {
             width = cw, size = 20,
@@ -3344,9 +3275,9 @@ function MainView:render_daily_report()
         }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
-    table.insert(content, Widgets.button("查看集卡册", {
+    table.insert(content, Widgets.button("去星星商城", {
         width = cw, size = 20,
-        callback = function() self:render_cards(true) end,
+        callback = function() self:render_shop() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button("回首页", {
@@ -3423,156 +3354,242 @@ function MainView:polish_daily_report()
     end)
 end
 
-function MainView:render_cards(from_report)
-    self.state = "cards"
-    self.cards_back = from_report and "daily_report" or "home"
-    self:set_title("集卡册")
+--[[--
+星星商城：家长在设置里准备的愿望卡券，孩子用答题赚来的星星兑换。换到的卡券进
+钱包，兑现要给家长看，并输入退出密码，孩子没法自己把奖励「花掉」。
+--]]--
+function MainView:render_shop()
+    self.state = "shop"
+    self:set_title("星星商城")
     local cw = Widgets.width()
-    local gap = Size.span.horizontal_default
-    local card_width = math.floor((cw - gap) / 2)
-    local state, owned = Cards.collection_state(self.progress)
+    local balance = Shop.balance(self.progress)
+    local items = Shop.items(self.progress)
     local content = VerticalGroup:new{ align = "center" }
-    table.insert(content, Widgets.label(string.format("已收集 %d/%d", owned, #state), { size = 18, bold = true }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    for _, tier in ipairs({ "SSS", "SS", "S", "RR", "R" }) do
-        local group = {}
-        for _, card in ipairs(state) do
-            if card.tier == tier then table.insert(group, card) end
-        end
-        if #group > 0 then
-            local owned_in_tier = 0
-            for _, card in ipairs(group) do
-                if card.owned then owned_in_tier = owned_in_tier + 1 end
-            end
-            table.insert(content, Widgets.label(string.format("%s 级（%d/%d）", tier, owned_in_tier, #group), {
-                size = 17, bold = true,
-            }))
-            table.insert(content, Widgets.vspace(Size.span.vertical_default))
-            local row
-            for i, card in ipairs(group) do
-                local thumb = math.min(card_width - 2 * Size.padding.default - 2 * Size.border.thin,
-                    Screen:scaleBySize(160))
-                local art = card.owned and self:card_art_path(card.id)
-                    or (self.plugin_path .. "/data/cards/back.png")
-                local items = { align = "center" }
-                local img = Widgets.image(art, thumb)
-                if img then
-                    table.insert(items, img)
-                    table.insert(items, Widgets.vspace(Size.span.vertical_default))
-                end
-                table.insert(items, Widgets.label(card.owned and card.name or "？？？", { size = 17, bold = card.owned }))
-                table.insert(items, Widgets.label(card.owned and string.format("×%d", card.count) or "未收集", {
-                    size = 13, color = Blitbuffer.COLOR_DARK_GRAY,
-                }))
-                local cell = Widgets.card(VerticalGroup:new(items), { width = card_width, padding = Size.padding.default })
-                if card.owned then
-                    local captured = card
-                    cell = Widgets.tappable(cell, function()
-                        self:render_card_detail(captured.id, "cards")
-                    end)
-                end
-                if i % 2 == 1 then
-                    row = HorizontalGroup:new{ align = "center", cell }
-                    table.insert(content, row)
-                    table.insert(content, Widgets.vspace(gap))
-                else
-                    table.insert(row, Widgets.hspace(gap))
-                    table.insert(row, cell)
-                end
-            end
-            table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        end
-    end
-    table.insert(content, Widgets.button("返回", {
-        width = cw, size = 20,
-        callback = function() self:leave_cards() end,
-    }))
-    local scroll = ScrollableContainer:new{
-        dimen = self:scroll_viewport(),
-        show_parent = self,
-        content,
-    }
-    self:set_body(scroll)
-end
 
-function MainView:leave_cards()
-    local back = self.cards_back
-    self.cards_back = nil
-    if back == "daily_report" then
-        self:render_daily_report()
-    else
-        self:render_home()
-    end
-end
-
-function MainView:card_art_path(id)
-    return self.plugin_path .. "/data/cards/" .. tostring(id) .. ".png"
-end
-
-function MainView:render_card_detail(card_id, back)
-    self.state = "card_detail"
-    self.card_detail_back = back or "cards"
-    self:set_title("卡片详情")
-    local cw = Widgets.width()
-    local entry = (self.progress.data.cards or {})[card_id]
-    local owned = type(entry) == "table" and (entry.count or 0) > 0
-    local pool_card = Cards.get(card_id)
-    local name = (owned and entry.name) or (pool_card and pool_card.name) or card_id
-    local tier = (pool_card and pool_card.tier) or (owned and entry.tier) or "R"
-    local atk, def, ability = Cards.stats(card_id)
-    local desc = (pool_card and pool_card.desc) or ""
-    local content = VerticalGroup:new{ align = "center" }
-    local art = owned and self:card_art_path(card_id)
-        or (self.plugin_path .. "/data/cards/back.png")
-    local img = Widgets.image(art, math.min(cw, Screen:scaleBySize(300)))
-    if img then
-        table.insert(content, img)
-        table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    end
-    table.insert(content, Widgets.label(string.format("【%s】%s", tier, name), { size = 24, bold = true }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, HorizontalGroup:new{
+    table.insert(content, Widgets.card(VerticalGroup:new{
         align = "center",
-        Widgets.stat(tostring(atk), "攻击力", math.floor(cw / 2)),
-        Widgets.stat(tostring(def), "防守力", math.floor(cw / 2)),
-    })
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.label("能力特点", { size = 17, bold = true }))
-    table.insert(content, Widgets.textbox(ability, cw, { size = 17, alignment = "center" }))
-    if desc ~= "" then
+        Widgets.label(string.format("★ %d", balance), { size = 40, bold = true }),
+        Widgets.label("可用星星", { size = 16, color = Blitbuffer.COLOR_DARK_GRAY }),
+        Widgets.vspace(Size.span.vertical_default),
+        Widgets.textbox("答对题目就能赚星星，攒够了换一张卡券；换到的卡券放在钱包里，找家长兑现。",
+            cw - 4 * Size.padding.default, {
+                size = 15, alignment = "center", color = Blitbuffer.COLOR_DARK_GRAY,
+            }),
+    }, { width = cw, padding = Size.padding.large }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+
+    if #items == 0 then
+        table.insert(content, Widgets.textbox("商城还空着。\n家长可以在「设置 → 商城商品」里把愿望做成卡券。", cw, {
+            size = 18, alignment = "center",
+        }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        table.insert(content, Widgets.textbox(desc, cw, { size = 15, alignment = "center" }))
-    end
-    if owned then
-        local count_text = string.format("已收集 ×%d", entry.count or 0)
-        if (entry.first_at or 0) > 0 then
-            count_text = count_text .. " · 首次获得 " .. os.date("%Y-%m-%d", entry.first_at)
+    else
+        table.insert(content, Widgets.label(string.format("在售卡券（%d）", #items), {
+            size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        local btn_w = math.min(Screen:scaleBySize(132), math.floor(cw * 0.32))
+        local left_w = cw - btn_w - Size.span.horizontal_default - 2 * Size.padding.default
+        for _, item in ipairs(items) do
+            local affordable = balance >= item.cost
+            local info = VerticalGroup:new{
+                align = "left",
+                Widgets.label(item.name, { size = 19, bold = true, max_width = left_w }),
+                Widgets.label(string.format("★ %d", item.cost), {
+                    size = 16, color = affordable and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
+                }),
+            }
+            local action = Widgets.button(affordable and "兑换"
+                    or string.format("差 %d 星", item.cost - balance), {
+                width = btn_w,
+                size = 18,
+                callback = function() self:redeem_shop_item(item.id) end,
+            })
+            table.insert(content, Widgets.card(HorizontalGroup:new{
+                align = "center",
+                info,
+                Widgets.hspace(Size.span.horizontal_default),
+                action,
+            }, { width = cw, padding = Size.padding.default }))
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
         end
-        table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        table.insert(content, Widgets.label(count_text, { size = 14, color = Blitbuffer.COLOR_DARK_GRAY }))
     end
+
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button("返回", {
-        width = cw, size = 20,
-        callback = function() self:leave_card_detail() end,
+    table.insert(content, Widgets.button("我的钱包", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_wallet() end,
     }))
-    local scroll = ScrollableContainer:new{
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("返回首页", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_home() end,
+    }))
+    self:set_body(ScrollableContainer:new{
         dimen = self:scroll_viewport(),
         show_parent = self,
         content,
-    }
-    self:set_body(scroll)
+    })
 end
 
-function MainView:leave_card_detail()
-    local back = self.card_detail_back
-    self.card_detail_back = nil
-    if back == "daily_report" then
-        self:render_daily_report()
-    else
-        -- Preserve the card book's own back target (home or daily report).
-        self:render_cards(self.cards_back == "daily_report")
+function MainView:redeem_shop_item(item_id)
+    local record, err = Shop.redeem(self.progress, item_id)
+    if not record then
+        UIManager:show(InfoMessage:new{ text = tostring(err), timeout = 3 })
+        self:render_shop()
+        return
     end
+    self:render_shop()
+    UIManager:show(ConfirmBox:new{
+        text = string.format("兑换成功！\n\n「%s」已放进钱包，花掉 ★%d。\n找家长兑现时，家长要输入退出密码。",
+            record.name, record.cost),
+        ok_text = "去钱包看看",
+        cancel_text = "继续逛",
+        ok_callback = function() self:render_wallet() end,
+    })
+end
+
+--[[--
+钱包：星星余额 + 已兑换的卡券。待兑现的卡券要点「找家长兑现」，输入 4 位退出密码
+才算用掉；没有设置密码时不让兑现，先引导家长去设置。
+--]]--
+function MainView:render_wallet()
+    self.state = "wallet"
+    self:set_title("钱包")
+    local cw = Widgets.width()
+    local balance = Shop.balance(self.progress)
+    local spent = Shop.spent(self.progress)
+    local earned = self.progress.data.total.points or 0
+    local records = Shop.redeemed(self.progress)
+    local pending = Shop.pending_count(self.progress)
+    local content = VerticalGroup:new{ align = "center" }
+
+    table.insert(content, Widgets.card(VerticalGroup:new{
+        align = "center",
+        Widgets.label(string.format("★ %d", balance), { size = 40, bold = true }),
+        Widgets.label("可用星星", { size = 16, color = Blitbuffer.COLOR_DARK_GRAY }),
+        Widgets.vspace(Size.span.vertical_default),
+        Widgets.label(string.format("累计获得 ★%d · 已兑换花掉 ★%d", earned, spent), {
+            size = 15, color = Blitbuffer.COLOR_DARK_GRAY,
+        }),
+    }, { width = cw, padding = Size.padding.large }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+
+    if #records == 0 then
+        table.insert(content, Widgets.textbox("钱包里还没有卡券。\n去星星商城用星星换一张愿望卡券吧。", cw, {
+            size = 18, alignment = "center",
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    else
+        local title = string.format("我的卡券（%d 张", #records)
+        if pending > 0 then title = title .. string.format("，%d 张待兑现", pending) end
+        title = title .. "）"
+        table.insert(content, Widgets.label(title, { size = 17, color = Blitbuffer.COLOR_DARK_GRAY }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+
+        local right_w = math.min(Screen:scaleBySize(140), math.floor(cw * 0.34))
+        local left_w = cw - right_w - Size.span.horizontal_default - 2 * Size.padding.default
+        for _, record in ipairs(records) do
+            local info = VerticalGroup:new{
+                align = "left",
+                Widgets.label(record.name, { size = 19, bold = true, max_width = left_w }),
+                Widgets.label(string.format("★ %d · %s", record.cost,
+                    os.date("%m月%d日", record.at or os.time())), {
+                    size = 14, color = Blitbuffer.COLOR_DARK_GRAY,
+                }),
+            }
+            local right
+            if record.cashed then
+                right = Widgets.textbox(string.format("已兑现\n%s", os.date("%m月%d日",
+                    record.cashed_at or record.at or os.time())), right_w, {
+                    size = 14, color = Blitbuffer.COLOR_DARK_GRAY, alignment = "center",
+                })
+            else
+                right = Widgets.button("找家长兑现", {
+                    width = right_w,
+                    size = 17,
+                    callback = function() self:cash_coupon(record.id) end,
+                })
+            end
+            table.insert(content, Widgets.card(HorizontalGroup:new{
+                align = "center",
+                info,
+                Widgets.hspace(Size.span.horizontal_default),
+                right,
+            }, { width = cw, padding = Size.padding.default }))
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        end
+
+        table.insert(content, Widgets.label("兑现就是家长把这份奖励真的给孩子：点「找家长兑现」，由家长输入退出密码。", {
+            size = 14, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw, alignment = "center",
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+
+    table.insert(content, Widgets.button("看今日总结", {
+        width = cw,
+        size = 20,
+        callback = function() self:open_daily_report() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("去星星商城", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_shop() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("返回首页", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_home() end,
+    }))
+    self:set_body(ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    })
+end
+
+function MainView:cash_coupon(record_id)
+    local record = Shop.find_record(self.progress, record_id)
+    if not record then
+        UIManager:show(InfoMessage:new{ text = "找不到这张卡券。", timeout = 3 })
+        self:render_wallet()
+        return
+    end
+    if record.cashed then
+        UIManager:show(InfoMessage:new{ text = "这张卡券已经兑现过了。", timeout = 3 })
+        return
+    end
+    local pin = self.progress.data.settings.exit_pin
+    if not pin or #tostring(pin) ~= 4 then
+        UIManager:show(ConfirmBox:new{
+            text = "兑现卡券需要退出密码。\n\n现在还没有设置密码，先去设置一个吧——这样孩子就不能自己点兑现了。",
+            ok_text = "去设置密码",
+            cancel_text = "稍后",
+            ok_callback = function() self:render_exit_pin_settings() end,
+        })
+        return
+    end
+    self:ask_pin_input(string.format("兑现「%s」· 请输入退出密码", record.name), function(text)
+        if text == nil then return end
+        if tostring(text) ~= tostring(pin) then
+            UIManager:show(InfoMessage:new{ text = "密码不对，未兑现。", timeout = 3 })
+            return
+        end
+        local done, err = Shop.cash(self.progress, record_id)
+        if not done then
+            UIManager:show(InfoMessage:new{ text = tostring(err), timeout = 3 })
+            return
+        end
+        UIManager:show(InfoMessage:new{
+            text = string.format("「%s」已兑现 ✓\n记得把这份奖励给孩子。", done.name),
+            timeout = 4,
+        })
+        self:render_wallet()
+    end)
 end
 
 function MainView:cycle_goal()
@@ -3975,6 +3992,116 @@ function MainView:_maybe_auto_check_update()
     end)
 end
 
+--[[--
+家长端：维护星星商城的商品。预置了 8 张常见愿望卡券，点一下可以上架/下架，也可以
+删掉换成自己家的愿望。Kindle 没有中文输入法时，名称可以打拼音或英文。
+--]]--
+function MainView:render_shop_settings()
+    self.state = "shop_settings"
+    self:set_title("商城商品")
+    local cw = Widgets.width()
+    local items = Shop.all_items(self.progress)
+    local on_sale = 0
+    for _, item in ipairs(items) do
+        if item.enabled then on_sale = on_sale + 1 end
+    end
+    local content = VerticalGroup:new{
+        align = "center",
+        Widgets.textbox(string.format(
+            "这些卡券会出现在孩子的星星商城里，用星星兑换。现在有 %d 件在售。\n点商品可以上架或下架，下架只是孩子看不到，已兑换的卡券不受影响。",
+            on_sale), cw, {
+            size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
+        }),
+        Widgets.vspace(Size.span.vertical_default),
+    }
+
+    if #items == 0 then
+        table.insert(content, Widgets.textbox("还没有商品，点下面的「添加商品」加一个。", cw, {
+            size = 17, alignment = "center",
+        }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+
+    local del_w = math.min(Screen:scaleBySize(90), math.floor(cw * 0.22))
+    local name_w = cw - del_w - Size.span.horizontal_default
+    for _, item in ipairs(items) do
+        local captured = item
+        table.insert(content, HorizontalGroup:new{
+            align = "center",
+            Widgets.button(string.format("%s　★%d%s", item.name, item.cost,
+                item.enabled and "" or "（已下架）"), {
+                width = name_w,
+                height = Screen:scaleBySize(54),
+                align = "left",
+                size = 17,
+                callback = function()
+                    Shop.set_enabled(self.progress, captured.id, not captured.enabled)
+                    self:render_shop_settings()
+                end,
+            }),
+            Widgets.hspace(Size.span.horizontal_default),
+            Widgets.button("删除", {
+                width = del_w,
+                height = Screen:scaleBySize(54),
+                size = 17,
+                callback = function()
+                    UIManager:show(ConfirmBox:new{
+                        text = string.format("从商城删除「%s」？\n已兑换的卡券还在钱包里。", captured.name),
+                        ok_text = "删除",
+                        cancel_text = "保留",
+                        ok_callback = function()
+                            Shop.remove_item(self.progress, captured.id)
+                            self:render_shop_settings()
+                        end,
+                    })
+                end,
+            }),
+        })
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("＋ 添加商品", {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        size = 19,
+        callback = function() self:add_shop_item_dialog() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("返回设置", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_settings() end,
+    }))
+    self:set_body(ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    })
+end
+
+function MainView:add_shop_item_dialog()
+    self:open_ai_text_input("商品名称（没有中文输入法可打拼音）", "", false, function(text)
+        local name = tostring(text or "")
+        if name:gsub("%s", "") == "" then
+            UIManager:show(InfoMessage:new{ text = "没有输入商品名称", timeout = 3 })
+            return
+        end
+        self:open_ai_text_input("需要多少颗星星？（填数字）", "", false, function(value)
+            local item, err, existed = Shop.add_item(self.progress, name, value)
+            if not item then
+                UIManager:show(InfoMessage:new{ text = tostring(err), timeout = 4 })
+                return
+            end
+            UIManager:show(InfoMessage:new{
+                text = string.format("%s：%s　★%d", existed and "已更新" or "已添加", item.name, item.cost),
+                timeout = 3,
+            })
+            self:render_shop_settings()
+        end)
+    end)
+end
+
 function MainView:render_settings()
     self.state = "settings"
     self:set_title("设置")
@@ -4072,6 +4199,14 @@ function MainView:render_settings()
         height = Screen:scaleBySize(54),
         align = "left",
         callback = function() self:render_ai_settings() end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    -- 商城商品：家长把愿望做成卡券，孩子用星星兑换
+    table.insert(content, Widgets.button(string.format("商城商品：%d 件在售", #Shop.items(self.progress)), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:render_shop_settings() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     -- 每日目标 / 答错重试 / 退出密码 / 重置：一行两个
