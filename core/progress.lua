@@ -209,6 +209,19 @@ function Progress:normalize()
     -- updater never writes user data; these only control check behaviour.
     if settings.update_auto_check == nil then settings.update_auto_check = false end
     if type(settings.update_api_url) ~= "string" then settings.update_api_url = "" end
+    -- 两个密码：parent_pin 管家长区（学习设置 / 商城后台 / 兑现 / 重置），
+    -- exit_pin 只管退出插件。非 4 位数字一律当作没设。
+    for _, field in ipairs({ "parent_pin", "exit_pin" }) do
+        local value = settings[field]
+        if type(value) ~= "string" or not value:match("^%d%d%d%d$") then
+            settings[field] = nil
+        end
+    end
+    -- 老存档只有一个密码（原来叫「退出密码」），升级时复制给家长密码，
+    -- 免得家长设过的防护突然失效；之后两个密码各改各的，互不影响。
+    if not settings.parent_pin and settings.exit_pin then
+        settings.parent_pin = settings.exit_pin
+    end
 
     local adaptive_by_grade = ensure_table(d, "adaptive_by_grade")
     for _, subject in ipairs(SUBJECTS) do

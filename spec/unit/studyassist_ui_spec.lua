@@ -515,13 +515,18 @@ describe("StudyAssist title-bar back navigation", function()
         assert.are.equal("settings", view.state)
         view:return_to_settings()
         assert.are.equal("settings", view.state)
-        -- 没设密码时进门只会弹提示，不会直接进页面
-        view.progress.data.settings.exit_pin = nil
+        -- 没设家长密码时进门只会弹提示，不会直接进页面
+        view.progress.data.settings.parent_pin = nil
+        view.progress.data.settings.exit_pin = "9999"
         view:open_study_settings_gated()
         assert.are.equal("settings", view.state)
-        view.progress.data.settings.exit_pin = "1234"
         view:open_shop_settings_gated()
         assert.are.equal("settings", view.state)
+        -- 两个密码互不影响：只设退出插件密码进不了家长区，反之亦然
+        view.progress.data.settings.parent_pin = "1234"
+        view:render_settings()
+        assert.are.equal("settings", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
     end)
 
     it("paginates the badge wall", function()

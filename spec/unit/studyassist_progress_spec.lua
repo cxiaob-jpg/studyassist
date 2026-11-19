@@ -564,4 +564,27 @@ describe("StudyAssist v5 migration safety", function()
         assert.are.equal(66, report.score)
         assert.are.equal("今天很努力。", report.summary)
     end)
+
+    it("keeps the parent and exit passwords separate, migrating a single old one", function()
+        -- 老存档只有一个密码（原「退出密码」）：读出来时复制给家长密码
+        local p = Progress.open(path)
+        p.data.settings.exit_pin = "1234"
+        p:flush()
+        local reopened = Progress.open(path)
+        assert.are.equal("1234", reopened.data.settings.exit_pin)
+        assert.are.equal("1234", reopened.data.settings.parent_pin)
+
+        -- 两个都设了以后各改各的：改家长密码不动退出密码
+        reopened.data.settings.parent_pin = "5678"
+        reopened:flush()
+        local again = Progress.open(path)
+        assert.are.equal("5678", again.data.settings.parent_pin)
+        assert.are.equal("1234", again.data.settings.exit_pin)
+
+        -- 非 4 位数字一律当作没设
+        again.data.settings.exit_pin = "12"
+        again:flush()
+        assert.is_nil(Progress.open(path).data.settings.exit_pin)
+        assert.are.equal("5678", Progress.open(path).data.settings.parent_pin)
+    end)
 end)
