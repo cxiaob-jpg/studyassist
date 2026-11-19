@@ -1830,84 +1830,66 @@ function MainView:render_challenge_menu()
     local grade = tonumber(settings.grade) or 2
     local semester = settings.semester
     local entries = Session.subjects_for(self.plugin_path, grade, semester, settings)
+    local goal = tonumber(settings.daily_goal) or 10
 
-    local available, order = {}, {}
-    for _, entry in ipairs(entries) do
-        available[entry.subject] = entry
-        table.insert(order, entry.subject)
-    end
+    -- 单科练习统一走首页的学科按钮（那边才有单元细分），这里只留跨学科混合题，
+    -- 免得同一套「选学科 → 选单元」在首页出现两份。
+    local available = {}
+    for _, entry in ipairs(entries) do available[entry.subject] = true end
 
-    local content = VerticalGroup:new{
+    local children = {
         align = "center",
         Widgets.label(string.format("%s%s · 覆盖 %d 个学科 · 每轮 %d 题",
-            self:grade_label(), self:semester_label(), #order,
-            tonumber(settings.daily_goal) or 10), {
+            self:grade_label(), self:semester_label(), #entries, goal), {
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
-        Widgets.button(string.format("全部学科混合（%d 题）", tonumber(settings.daily_goal) or 10), {
+    }
+    if #entries == 0 then
+        table.insert(children, Widgets.label("本学习阶段暂无练习题库，可在设置里换年级或教材版本", {
+            size = 17, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+        }))
+    else
+        table.insert(children, Widgets.button(string.format("全部学科混合（%d 题）", goal), {
             width = cw,
             height = Screen:scaleBySize(58),
             size = 22,
-            callback = function() self:start_session({ mode = "mixed",
-                count = tonumber(settings.daily_goal) or 10 }) end,
-        }),
-        Widgets.vspace(Size.span.vertical_default),
-        Widgets.label(string.format("按学科出题（每科 %d 题）", tonumber(settings.daily_goal) or 10), {
-            size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
-        }),
-        Widgets.vspace(Size.span.vertical_default),
-    }
-
-    local half = math.floor((cw - Size.span.horizontal_default) / 2)
-    local row
-    for i, subject in ipairs(order) do
-        local entry = available[subject]
-        local button = Widgets.button(self:subject_label(subject), {
-            width = half,
-            height = Screen:scaleBySize(50),
-            size = 19,
-            callback = function() self:render_unit_select(subject, "challenge") end,
-        })
-        if i % 2 == 1 then
-            row = HorizontalGroup:new{ align = "center", button }
-            table.insert(content, row)
-            table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        else
-            table.insert(row, Widgets.hspace(Size.span.horizontal_default))
-            table.insert(row, button)
-        end
-    end
-
-    local missing = {}
-    for _, subject in ipairs(SUBJECT_ORDER) do
-        if not available[subject] then
-            table.insert(missing, self:subject_label(subject))
-        end
-    end
-    if #missing > 0 then
-        table.insert(content, Widgets.label("本学习阶段暂无：" .. table.concat(missing, "、"), {
-            size = 16, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+            callback = function() self:start_session({ mode = "mixed", count = goal }) end,
         }))
-        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+        table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        table.insert(children, Widgets.textbox(
+            "想练单一科目：回首页点语文 / 数学 / 英语，里面能选单元。", cw, {
+                size = 16, alignment = "center", color = Blitbuffer.COLOR_DARK_GRAY,
+            }))
+        local missing = {}
+        for _, subject in ipairs(SUBJECT_ORDER) do
+            if not available[subject] then
+                table.insert(missing, self:subject_label(subject))
+            end
+        end
+        if #missing > 0 then
+            table.insert(children, Widgets.vspace(Size.span.vertical_default))
+            table.insert(children, Widgets.label("本学习阶段暂无：" .. table.concat(missing, "、"), {
+                size = 16, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+            }))
+        end
     end
-
-    table.insert(content, Widgets.button("返回首页", {
+    table.insert(children, Widgets.vspace(Size.span.vertical_large))
+    table.insert(children, Widgets.button("返回首页", {
         width = cw,
         height = Screen:scaleBySize(48),
         size = 20,
         callback = function() self:render_home() end,
     }))
-    self:set_body(ScrollableContainer:new{
-        dimen = self:scroll_viewport(),
-        show_parent = self,
-        content,
+    self:set_body(CenterContainer:new{
+        dimen = Geom:new{ w = cw, h = self:scroll_viewport().h },
+        VerticalGroup:new(children),
     })
 end
 
 --[[--
-学科的三级菜单：选单元出题（每轮题数 = 每日目标）。context == "challenge" 时从今日
-挑战进来，标题与返回目标都指回学科选择页。
+学科的三级菜单：选单元出题（每轮题数 = 每日目标）。目前只从首页学科按钮进入；
+早先「今日挑战里列学科」的入口已删（与首页学科按钮完全重复），context 参数保留兼容。
 --]]--
 function MainView:render_unit_select(subject, context)
     self.state = "unit_select"
@@ -4345,7 +4327,8 @@ function MainView:render_kp_select(subject)
             size = 16, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_default),
-        Widgets.button("全册综合（10 题）", {
+        Widgets.button(string.format("全册知识点综合（%d 题）",
+            tonumber(settings.daily_goal) or 10), {
             width = cw,
             height = Screen:scaleBySize(56),
             size = 21,
@@ -4539,10 +4522,12 @@ function MainView:start_kp_mixed(subject)
     end
     local rng = math.random
     local level = self.progress:adaptive_level(subject, grade)
+    -- 题数跟设置里的「每日目标」走，不再写死 10 题
+    local goal = tonumber(settings.daily_goal) or 10
     local recent = {}
     for _, id in ipairs(self.progress.data.recent_ids) do recent[id] = true end
     local questions = {}
-    for i = 1, 10 do
+    for i = 1, goal do
         local unit = volume.units[((i - 1) % #volume.units) + 1]
         local unit_topics = {}
         for _, topic in ipairs(volume.topics) do
