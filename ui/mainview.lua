@@ -72,6 +72,36 @@ local function settings_edition(settings, subject)
     return settings[subject .. "_edition"] or DEFAULT_EDITIONS[subject]
 end
 
+-- 每行放几个：尽量均衡（7 个 → 3/2/2，5 个 → 3/2，4 个 → 2/2）
+local function balanced_row_counts(n, max_cols)
+    if n <= 0 then return {} end
+    local cols = math.min(max_cols or 3, n)
+    if n == 4 then cols = 2 end
+    local rows = math.ceil(n / cols)
+    local base, rem = math.floor(n / rows), n % rows
+    local out = {}
+    for r = 1, rows do
+        out[r] = base + (r <= rem and 1 or 0)
+    end
+    return out
+end
+
+-- 学科按钮网格：按均衡行数铺开，每行按钮均分整行宽度
+local function subject_grid(list, cw, make_button)
+    local rows, idx = {}, 1
+    for _, k in ipairs(balanced_row_counts(#list, 3)) do
+        local w = math.floor((cw - (k - 1) * Size.span.horizontal_default) / k)
+        local row = HorizontalGroup:new{ align = "center" }
+        for i = idx, idx + k - 1 do
+            if i > idx then table.insert(row, Widgets.hspace(Size.span.horizontal_default)) end
+            table.insert(row, make_button(list[i], w))
+        end
+        table.insert(rows, row)
+        idx = idx + k
+    end
+    return rows
+end
+
 -- Grades that actually carry a textbook volume for this subject, across every
 -- bundled edition. Used to tell "this subject does not start until grade N"
 -- apart from a genuine load failure.
@@ -901,29 +931,15 @@ function MainView:render_home()
                 callback = function() self:render_recite_menu() end,
             }),
         }
-        -- 学科按钮：按当前年级/教材实际有题库的科目动态生成（2 个就两个大半宽，
-        -- 4 个两行两列，其余一行三个），每行按钮均分整行宽度
-        local subject_rows = {}
-        local cols = math.min(3, #home_subjects)
-        if #home_subjects == 4 then cols = 2 end
-        if cols < 1 then cols = 1 end
-        for start = 1, #home_subjects, cols do
-            local last = math.min(start + cols - 1, #home_subjects)
-            local k = last - start + 1
-            local w = math.floor((cw - (k - 1) * Size.span.horizontal_default) / k)
-            local row = HorizontalGroup:new{ align = "center" }
-            for i = start, last do
-                local subject = home_subjects[i]
-                if i > start then table.insert(row, Widgets.hspace(Size.span.horizontal_default)) end
-                table.insert(row, Widgets.button(SUBJECT_LABEL[subject] or subject, {
-                    width = w,
-                    height = Screen:scaleBySize(h.subj),
-                    size = 22,
-                    callback = function() self:render_unit_select(subject) end,
-                }))
-            end
-            table.insert(subject_rows, row)
-        end
+        -- 学科按钮：按当前年级/教材实际有题库的科目动态生成，行内均分宽度
+        local subject_rows = subject_grid(home_subjects, cw, function(subject, w)
+            return Widgets.button(SUBJECT_LABEL[subject] or subject, {
+                width = w,
+                height = Screen:scaleBySize(h.subj),
+                size = 22,
+                callback = function() self:render_unit_select(subject) end,
+            })
+        end)
         local tool_row_1 = HorizontalGroup:new{
             align = "center",
             Widgets.button(string.format("错题本（%d）", wrong_count), {
@@ -4225,15 +4241,17 @@ function MainView:render_kp_subject()
     self.number_input = ""
     self.feedback = nil
     local cw = Widgets.width()
-    local third = math.floor((cw - 2 * Size.span.horizontal_default) / 3)
-    local half = math.floor((cw - Size.span.horizontal_default) / 2)
-    local function kp_button(subject, label, width)
-        return Widgets.button(label, {
-            width = width,
-            height = Screen:scaleBySize(64),
-            size = 22,
-            callback = function() self:render_kp_select(subject) end,
-        })
+    local settings = self.progress.data.settings
+    local grade = tonumber(settings.grade) or 2
+    local semester = settings.semester
+    -- 跟首页学科按钮同一套规则：只列出当前年级/学期真有知识点内容的学科
+    local kp_subjects = {}
+    for _, subject in ipairs(SUBJECT_ORDER) do
+        local volume = Knowledge.load(self.plugin_path, subject, grade, semester,
+            settings_edition(settings, subject))
+        if volume and #volume.topics > 0 then
+            table.insert(kp_subjects, subject)
+        end
     end
     local content = VerticalGroup:new{
         align = "center",
@@ -4241,37 +4259,31 @@ function MainView:render_kp_subject()
             size = 18, color = Blitbuffer.COLOR_DARK_GRAY,
         }),
         Widgets.vspace(Size.span.vertical_large),
-        HorizontalGroup:new{
-            align = "center",
-            kp_button("chinese", "语文", third),
-            Widgets.hspace(Size.span.horizontal_default),
-            kp_button("math", "数学", third),
-            Widgets.hspace(Size.span.horizontal_default),
-            kp_button("english", "英语", third),
-        },
-        Widgets.vspace(Size.span.vertical_default),
-        HorizontalGroup:new{
-            align = "center",
-            kp_button("physics", "物理", third),
-            Widgets.hspace(Size.span.horizontal_default),
-            kp_button("chemistry", "化学", third),
-            Widgets.hspace(Size.span.horizontal_default),
-            kp_button("biology", "生物", third),
-        },
-        Widgets.vspace(Size.span.vertical_default),
-        HorizontalGroup:new{
-            align = "center",
-            kp_button("history", "历史", half),
-            Widgets.hspace(Size.span.horizontal_default),
-            kp_button("geography", "地理", half),
-        },
-        Widgets.vspace(Size.span.vertical_large),
-        Widgets.button("返回首页", {
-            width = cw,
-            size = 20,
-            callback = function() self:render_home() end,
-        }),
     }
+    if #kp_subjects == 0 then
+        table.insert(content, Widgets.textbox(
+            "本学习阶段暂无知识点内容，可在设置里换年级或教材版本。", cw, {
+                size = 20,
+            }))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+    for _, row in ipairs(subject_grid(kp_subjects, cw, function(subject, w)
+        return Widgets.button(SUBJECT_LABEL[subject] or subject, {
+            width = w,
+            height = Screen:scaleBySize(64),
+            size = 22,
+            callback = function() self:render_kp_select(subject) end,
+        })
+    end)) do
+        table.insert(content, row)
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+    table.insert(content, Widgets.button("返回首页", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_home() end,
+    }))
     -- Short page: center it in the free area instead of hugging the title bar.
     self:set_body(CenterContainer:new{
         dimen = Geom:new{ w = cw, h = self:scroll_viewport().h },
