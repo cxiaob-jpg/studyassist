@@ -3493,16 +3493,11 @@ function MainView:render_province_select()
         self.progress:flush()
         local count = #Catalog.cities(self.plugin_path, item.id)
         if count == 1 then
-            -- 直辖市：唯一城市自动同步选中，并按城市匹配教材版本，避免再选城市
+            -- 直辖市：唯一城市自动同步选中，并按城市匹配教材版本，避免再选城市（静默处理，不弹提醒）
             local only = Catalog.cities(self.plugin_path, item.id)[1]
             settings.city = only.id
             self.progress:flush()
             self:apply_city_match(only.name, false, true)
-            UIManager:show(InfoMessage:new{
-                text = string.format("已选择%s，城市自动匹配为%s，教材版本已按城市同步。",
-                    item.name, only.name),
-                timeout = 4,
-            })
             return
         end
         UIManager:show(InfoMessage:new{
