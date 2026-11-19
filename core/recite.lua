@@ -22,14 +22,13 @@ local function read_json(path)
     return data
 end
 
--- Deck categories shown in the 背诵 menu. `subject` picks the data folder.
+-- Deck categories shown in the 背诵·练习 menu. `subject` picks the data folder.
+-- 数学栏目（乘法表/纯数字运算）不走题库文件，由 mainview 按年级课本范围现生成。
 Recite.KINDS = {
-    { id = "poem", subject = "chinese", label = "古诗接龙", hint = "看上半句，背下半句" },
-    { id = "author", subject = "chinese", label = "古诗作者", hint = "看篇名，背作者" },
-    { id = "word", subject = "english", label = "英语单词", hint = "看中文，用键盘拼出英文" },
-    { id = "word_rev", subject = "english", label = "单词背诵", hint = "看中文，背英文" },
-    { id = "phrase", subject = "english", label = "英语短语", hint = "看短语，背中文" },
-    { id = "sentence", subject = "english", label = "句型背诵", hint = "看中文，背整句" },
+    { id = "poem_full", subject = "chinese", label = "语文背诵", hint = "看诗名，背全文" },
+    { id = "word_rev", subject = "english", label = "英语单词背诵", hint = "看中文，背英文" },
+    { id = "phrase", subject = "english", label = "英语短语背诵", hint = "看短语，背中文" },
+    { id = "sentence", subject = "english", label = "英语课文背诵", hint = "看中文，背整句" },
 }
 
 function Recite.deck(plugin_path, subject, grade, semester)
@@ -93,6 +92,20 @@ function Recite.kind_info(kind_id)
         if kind.id == kind_id then return kind end
     end
     return nil
+end
+
+-- 语文默写词表：data/dictation/chinese/g<grade>_<semester>.json
+-- 格式 { words = { { w = "词语", py = "cí yǔ" }, ... } }
+function Recite.dictation(plugin_path, grade, semester)
+    if not plugin_path or plugin_path == "" then return {} end
+    local key = "dict|" .. plugin_path .. "|" .. tostring(grade) .. "|" .. (semester or "upper")
+    if cache[key] ~= nil then return cache[key] or {} end
+    local path = string.format("%s/data/dictation/chinese/g%d_%s.json",
+        plugin_path, grade, semester or "upper")
+    local data = read_json(path)
+    local words = (data and type(data.words) == "table") and data.words or {}
+    cache[key] = words
+    return words
 end
 
 function Recite.clear_cache()
