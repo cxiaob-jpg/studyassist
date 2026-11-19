@@ -419,10 +419,13 @@ end
 
 function MainView:ask_pin_input(title, on_done)
     -- 九宫格数字键盘，输满 4 位自动提交；取消/删除见 ui/pinpad.lua
+    -- show 必须显式带 "partial"：不带刷新参数时 UIManager 不入队任何刷新，
+    -- 若队列里恰好有待刷新的区域（如触发按钮的局部 fast 刷新），屏幕就只刷
+    -- 那一小块，弹窗其余部分不显示，要点一下数字才会整屏重绘。
     UIManager:show(PinPadDialog:new{
         title = title,
         on_done = on_done,
-    })
+    }, "partial")
 end
 
 function MainView:verify_exit_pin()
