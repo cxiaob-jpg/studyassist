@@ -37,7 +37,6 @@
 | 网络 | **默认离线**；只有可选的 AI 出题与用户显式触发的在线更新器会联网，没有账号、同步、统计上报 |
 | 入口 | `main.lua` → 主菜单「更多工具 → 学习助理」；Dispatcher 动作 `studyassist_open` / 事件 `StudyAssistOpen` |
 | 核心依赖 | 仅 KOReader 自带模块（`ui/widget/*`、`luasettings`、`datastorage`、`dispatcher`、`json`、`logger`、`gettext`；AI 另用 `socket.http`/`ssl.https`/`turbo`）；构建期 Python 另用 pypinyin、Pillow |
-| 卡面 | `data/cards/` 49 张灰度 PNG（48 卡面 + 通用卡背；AI 生成，`build_card_art.py` 后处理，勿手改） |
 | 存档 | `koreader/settings/studyassist.lua`（`LuaSettings`） |
 | 题目 | 语文读 12 册 JSON；数学按 5 个教材版本、1–6 年级由 `core/mathgen.lua` 实时生成；知识点模式读 `data/knowledge/`（cn-math-taxonomy 同步，CC BY-NC 4.0） |
 | 测试 | busted，`spec/unit/studyassist_*.lua`；用 `tools/studyassist/test_plugin.sh` 链接到 KOReader 后运行 |
@@ -50,7 +49,7 @@
 3. **默认离线**：除 `core/ai_*` 的 AI 出题与 `core/update.lua` 的在线更新器外，任何路径都不得发起网络请求；两者都必须由用户显式配置/触发，不做后台调用（更新器默认手动检查）。
 4. **儿童内容**：题目和文案要适合对应年级，不能出现超纲、歧义、负面或吓唬孩子的内容。
 5. **存档兼容**：老版本 `studyassist.lua` 必须能平滑升级，不能因为加字段导致孩子丢星星。
-6. **卡面资源例外**：`data/cards/` 允许 AI 生成灰度 PNG（480×480，单张 ≤80KB、总量 ≤3MB），由 `build_card_art.py` 生成与校验；除此之外仍禁止新增二进制资源。
+6. **不新增二进制资源**：插件目录内不放图片、字体等二进制文件（抽卡退役后 `data/cards/` 已删除）。
 
 ---
 
@@ -96,7 +95,7 @@ core/diagnose.lua        自适应诊断引擎（先修回溯、掌握/不稳/�
 core/mathgen.lua         数学题与拓展题生成器（保留二年级人教老生成器 + 通用知识点引擎）
 core/progress.lua        存档、每日统计、连续天数、分年级自适应等级、错题本
 core/badges.lua          奖章定义与解锁判断（50 枚）
-core/cards.lua           固定卡池（48 张，含攻防/能力）、智能单抽权重、收藏力量
+core/shop.lua            星星商城：愿望卡券清单、余额、兑换与兑现记录
 core/report.lua          每日评分公式、总结提示词/严格校验、离线兜底
 core/ai_config.lua       AI 厂商预设、服务配置、Key 掩码与校验
 core/ai_http.lua         LuaSocket/LuaSec + Turbo 的 HTTPS POST
@@ -108,7 +107,6 @@ core/update_http.lua     更新下载引擎（非阻塞分片 GET：进度回调
 data/catalog.json        省份/年级/教材/单元目录（生成产物，勿手改）
 data/chinese/tongbian/   1–6 年级语文题库（生成产物，勿手改）
 data/knowledge/          课标知识点分册题库 + 先修图谱（sync_taxonomy.py 生成，勿手改）
-data/cards/              卡面插画（AI 生成灰度 PNG，build_card_art.py 后处理，勿手改）
 ```
 
 ### 启动与答题链路
@@ -139,7 +137,7 @@ submit_answer(value)
 
 ### 状态机
 
-`MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`cards`、`card_detail`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
+`MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`shop`、`wallet`、`shop_settings`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
 新增页面时：设置 `state` → 改标题 → 用 `set_body(widget)` 换内容，不要新开 `UIManager:show` 的全屏窗口。
 
 ---
@@ -157,8 +155,8 @@ submit_answer(value)
 | 新增拓展题 | `core/mathgen.lua`（生成函数 + `challenge_generators` + `challenge_units` 上下册） | `studyassist_mathgen_spec`、README |
 | 改星星 / 连对 / 首轮奖励 | `core/progress.lua`（`record_answer` / `record_session`）+ `core/session.lua`（`combo_bonus`） | README 积分表、`studyassist_progress_spec`、`studyassist_session_spec` |
 | 新增奖章 | `core/badges.lua` | README 奖章表、`studyassist_progress_spec`（注意「奖章墙 x/50」文案与翻页） |
-| 改每日总结 / 抽卡 | `core/report.lua` / `core/cards.lua`、`ui/mainview.lua` | README 每日总结章节、`studyassist_cards_spec`、`studyassist_ui_spec` |
-| 改卡面插画 / 卡片属性 | `core/cards.lua`（属性）、`tools/studyassist/build_card_art.py` → `data/cards/` | `build_card_art.py --check`、`studyassist_cards_spec`、README 抽卡章节 |
+| 改每日总结 | `core/report.lua`、`ui/mainview.lua` | README 每日总结章节、`studyassist_ui_spec` |
+| 改星星商城 / 钱包 | `core/shop.lua`、`ui/mainview.lua`（`render_shop` / `render_wallet` / `render_shop_settings`） | `studyassist_shop_spec`、`studyassist_ui_spec`、README 商城章节 |
 | 改首页 / 设置 / 页面布局 | `ui/mainview.lua` | `studyassist_ui_spec`、README 使用说明 |
 | 改存档字段 | `core/progress.lua`（`SCHEMA_VERSION` + `normalize`） | 迁移逻辑、README 字段表、`studyassist_progress_spec` |
 | 改错题规则 | `core/progress.lua`（`record_wrong` / `record_mastery` / `trim_wrong`） | README 错题本说明、测试 |
@@ -246,7 +244,7 @@ tools/studyassist/test_plugin.sh
 | `core/update.lua` | `studyassist_update_spec.lua` |
 | `core/knowledge.lua` / `data/knowledge/` | `studyassist_knowledge_spec.lua` |
 | `core/diagnose.lua` | `studyassist_diagnose_spec.lua` |
-| `core/cards.lua` / `core/report.lua` | `studyassist_cards_spec.lua` |
+| `core/shop.lua` / `core/report.lua` | `studyassist_shop_spec.lua` |
 | `ui/mainview.lua` | `studyassist_ui_spec.lua` |
 
 测试规则：
@@ -260,7 +258,7 @@ tools/studyassist/test_plugin.sh
 
 ## 8. 存档与兼容性
 
-- 存档结构版本在 `core/progress.lua` 的 `SCHEMA_VERSION`（当前 5；v4 新增 `knowledge` 知识点掌握度；v5 新增挑战计数、daily 学科/玩法/知识点细分、`cards` 永久收藏、daily `report`）。
+- 存档结构版本在 `core/progress.lua` 的 `SCHEMA_VERSION`（当前 5；v4 新增 `knowledge` 知识点掌握度；v5 新增挑战计数、daily 学科/玩法/知识点细分、daily `report`；v1.24.1 起读取存档时清除已下线的 `cards`/`draw`）。
 - 任何字段变更都必须在 `Progress:normalize()` 里补齐默认值，保证旧存档可读；破坏性变更要写迁移。**迁移只增不删**：不得删除、改名或改变既有字段含义，`badges` 已解锁条目（含未知 ID）原样保留。
 - **升级快照**：`Progress.open` 在读入版本 <5 且存档文件存在时，先把原始字节一次性复制到 `studyassist.lua.pre-v5.bak`（已存在则跳过、永不覆盖），再 normalize；失败仅 `logger.warn`。
 - `Progress:reset_progress()` 只清空学习数据（含知识点掌握度、卡片收藏、挑战计数），**保留 `settings`**（省份、年级、学期、教材、目标、重试开关）。
@@ -280,8 +278,7 @@ tools/studyassist/test_plugin.sh
 - [ ] `validate_catalog.py` 通过（如果动了目录/教材/知识点）。
 - [ ] 用户可见行为变化已同步到 `README.md`。
 - [ ] 存档字段变化已考虑旧存档兼容。
-- [ ] 没有新增依赖、字体或大文件（`data/cards/` 卡面除外，总量 ≤3MB）；AI 子系统之外没有网络请求。
-- [ ] `build_card_art.py --check` 通过（如果动了卡面）。
+- [ ] 没有新增依赖、字体或大文件（插件内不放二进制资源）；AI 子系统之外没有网络请求。
 - [ ] 回复中说明：改了什么、为什么、怎么验证、还有什么没做。
 
 ---
@@ -329,15 +326,15 @@ tools/studyassist/test_plugin.sh
 18. **诊断是测评不是练习**：`core/diagnose.lua` 不给星星、不进错题本、不影响自适应与连续天数，只回写知识点掌握度；参数 confirm=2、题量上限 12、回溯深度 ≤3，改这些要同步 README 与 `studyassist_diagnose_spec`。
 19. **kp 会话判题走 `Knowledge.judge`**：带 `topic` 的题（含错题快照）支持分数/小数答案；`MainView:start_session` 是白名单传参，新增会话字段记得同时加到 `Session.new` 调用里。
 20. **`MainView` 必须整屏绘制**：它是全屏页面而不是对话框；`paintTo` 先铺满白色背景，否则底层 ReaderUI 会透出来，看起来像浮层。
-21. **每日报告随 daily 清理，卡片永久**：`daily[date].report` 跟每日统计一起只保留 90 天；`cards` 收藏与 `badges` 永久保留，任何清理逻辑不得删除。卡片条目带 name/tier 快照，卡池未来调整不影响已集卡片。
-22. **抽卡先落盘再联网**：`Report.create` 先本地评分、抽卡并写入离线版报告，之后才可选请求 AI 润色；AI 失败只影响文案，不影响分数与卡片。同日重进不重抽。
+21. **每日报告随 daily 清理，奖章与卡券永久**：`daily[date].report` 跟每日统计一起只保留 90 天；`badges` 与 `shop.redeemed` 永久保留，任何清理逻辑不得删除（`reset_progress` 除外，它按用户意图清空）。
+22. **日报先落盘再联网**：`Report.create` 先本地评分并写入离线版总结，之后才可选请求 AI 润色；AI 失败只影响文案，不影响分数。同日重进不重写。抽卡已下线，报告只有 `score/parts/summary/ai/created_at` 五个字段。
 23. **挑战计数不追溯**：`total.challenge_sessions/challenge_correct` 从 v5 起累积，旧存档没有挑战历史；SSS 权重 = 已解锁挑战奖章数 × (1 + ⌊score/50⌋)，无挑战奖章时 SSS 不进卡池。
 24. **奖章墙翻页**：每页 10 枚共 5 页，`render_badges(page)` 会钳制页码；首页按钮文案是动态 `x/50`，新增奖章不用改 UI。
 25. **更新器是第二个联网子系统**：`core/update.lua` 默认手动检查；自动检查开关默认关，且仅在已联网时静默运行，不后台轮询、不埋点。改触发策略要同步 README 与 `studyassist_update_spec`。
 26. **升级必须重启**：Lua 模块缓存在 `package.loaded`，替换插件目录后需 `UIManager:restartKOReader()`（quit 85）才生效，不做热重载。
 27. **更新器数据隔离**：用户数据全在 settings 目录（插件目录之外）；`core/update.lua` 写集合仅限插件目录 + `.studyassist_update`/`.studyassist_backup` 两个临时目录，绝不引用 `getSettingsDir`。解压用 `extractToMemory` + 自写文件（libarchive 磁盘写入会丢读权限），路径经 `sanitize_entry_path` 净化；失败回滚。`studyassist_update_spec` 逐字节验证数据不变。
 28. **开发版/符号链接安装拒绝自更新**：`test_plugin.sh` 链接的安装会被 `lfs.symlinkattributes` 识别并拒绝。Release 附件必须名 `studyassist.koplugin.zip`、顶层 `studyassist.koplugin/`；国内直连 GitHub 可能不稳定，失败可重试。
-29. **卡面插画是生成产物**：`data/cards/*.png` 由 AI 生图 + `tools/studyassist/build_card_art.py` 后处理（灰度 480×480），禁止手改；缺图时 UI 自动降级为纯文字格。生图只在构建期用开发者凭证，插件运行时不联网生图。统一后处理标准为 `--colors 8 --smooth 3`（8 级灰度 + 3×3 中值滤波，全套约 1.1MB）；重生成时沿用同一标准，避免风格与体积漂移。
+29. **抽卡/集卡册已彻底移除**：`core/cards.lua`、`data/cards/`、`build_card_art.py`、`cards/draw` 存档字段、`Report` 的 `cards/card_words/revealed` 字段全部删除；`normalize()` 每次读取存档都会把旧 `cards`/`draw` 置空。新增「收集类」玩法请直接做在 `core/shop.lua` 上，不要再复活卡池。
 30. **总结确认门**：`Report.needs_time_confirm(now)` 按设备本地时间 <19 点判定；`open_daily_report(now)` 可注入时间戳，单测与走查脚本必须注入（早于 19 点会弹 ConfirmBox 阻塞流程）。
 31. **可点击卡片格**：`Widgets.tappable` 用 InputContainer + GestureRange（同 Button 写法），`ges_events` 在分发时动态读取；`paintTo` 会写入 dimen.x/y，整格可点。
 32. **更新下载无超时、可取消**：`core/update_http.lua` 用非阻塞 socket + `UIManager:scheduleIn` 短 tick 驱动（仿上游 `httpasync`，但上游没有字节进度与中途取消），**刻意不设任何超时**——网络卡住只停进度，由用户点「取消下载」终止；不要"顺手"加回 block/total 超时。调度器与 socket/TLS 工厂可注入，单测用假 socket + 手动调度器跑完整引擎。`download_and_install` 返回 `{ cancel() }` 句柄；staging 目录在下载完成后才创建，取消不留临时文件。`transport` 参数是旧同步路径，仅单测用。检查更新（`Update.check`）仍是带超时的同步小请求，与下载是两条路径。
@@ -382,4 +379,5 @@ tools/studyassist/test_plugin.sh
 | 2026-11-19 | 设置页顶部提示改为一句「根据学生城市，年级，学期选择，教材自动匹配。」（原两行长说明删除）；教材区仍保留「教材版本（可自定义选择）」小标题 | 顶部两行字太占屏，一句话把规则说清即可 |
 | 2026-11-19 | 今日挑战二级菜单删掉「按学科出题」学科列表（与首页学科按钮完全重复，进的是同一个单元页），只留「全部学科混合（N 题）」+ 一句「单科练习回首页点科目」；知识点「全册综合（10 题）」改名「全册知识点综合（N 题）」并跟随每日目标 | 首页两条路通向同一页面，孩子要点两次才开题；「全册综合」两字在学科页和知识点页各有一个，容易混 |
 | 2026-11-19 | 抽卡退役、改为星星商城：首页第三行「商城 / 钱包」；商品由家长在设置「商城商品」里维护（预置 8 张愿望卡券，可改价/上下架/删除/新增）；兑换扣星星进钱包，兑现要输退出密码；集卡册与卡片详情页、抽卡入口一起删除；日报不再抽卡（评分把原「收藏 10 分」并入每日目标 40 分），结算页与钱包提供「看今日总结」；cards 类徽章改为商城类（兑换 1 张 / 兑换 5 张 / 兑现 3 张） | 抽卡奖励是虚拟卡片，家长兑现不了；星星直接换真实愿望，孩子更有动力，家长也能自己定价；卡片没有获取途径后徽章会永久卡死 |
+| 2026-11-19 | 抽卡/集卡册残留清零（v1.24.1）：删 `core/cards.lua`、`data/cards/`（1.2MB 卡面）、`tools/studyassist/build_card_art.py`、`spec/unit/studyassist_cards_spec.lua`；`Progress` 去掉 `add_cards`/`draw_status`/`spend_draw` 与抽卡记账，`normalize` 读取存档时直接清空 `cards`/`draw`；`Report` 去掉 `cards`/`card_words`/`revealed` 字段与祝福语校验；UI 测试改为「日报无卡片」+「商城/钱包」两条，截图脚本改拍商城与钱包 | 上一版只是不显示，306 行死代码和 1.2MB 图片还压在包里；存档里的旧字段也一直躺着占空间 |
 | 2026-11-19 | 新增 `core/shop.lua`：`data.shop = { items, redeemed, spent }`，余额 = `total.points - spent`（累计数只增不减，奖章看累计）；`Progress:normalize` 调 `Shop.ensure` 铺默认清单（一次性，不覆盖家长编辑）；重置进度保留商品清单、清空兑换记录 | 星星既是货币又是成就数值，拆成「累计」与「可用」两个口径才能既发奖章又花钱 |

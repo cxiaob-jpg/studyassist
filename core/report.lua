@@ -24,7 +24,6 @@ local MODE_LABEL = {
     wrong = "错题复习", ai = "AI 变种练习", kp = "知识点学习",
 }
 local MAX_SUMMARY_CHARS = 400
-local MAX_WORD_CHARS = 80
 
 local function trim(value)
     if type(value) ~= "string" then return "" end
@@ -132,7 +131,7 @@ function Report.stats(progress, now, plugin_path)
     }
 end
 
-function Report.offline(stats, cards)
+function Report.offline(stats)
     local lines = {}
     table.insert(lines, string.format("今天完成了 %d 轮练习，回答 %d 道题，首次答对 %d 道，收获 %d 颗星星。",
         stats.sessions, stats.answered, stats.correct, stats.points))
@@ -159,10 +158,10 @@ function Report.offline(stats, cards)
         table.insert(lines, string.format("已经连续学习 %d 天，坚持就是进步！", stats.streak))
     end
     table.insert(lines, "明天继续加油，攒够星星就能去商城换愿望啦！")
-    return { summary = table.concat(lines, ""), card_words = {} }
+    return { summary = table.concat(lines, "") }
 end
 
-function Report.build_prompt(stats, score, cards)
+function Report.build_prompt(stats, score)
     local system = table.concat({
         "你是小学学习助手，负责为孩子总结一天的学习情况。",
         "你只输出严格 JSON，不输出 Markdown、代码围栏、解释或额外文字。",
@@ -225,9 +224,7 @@ end
 Validate the AI report payload. Returns nil, err on any violation so the
 caller can fall back to the offline template.
 --]]--
-function Report.parse(text, card_count)
-    -- 卡片祝福语是抽卡时代的产物，现在没有卡片时传 0，只校验总结本身
-    card_count = tonumber(card_count) or 0
+function Report.parse(text)
     local payload = extract_json(text)
     if not payload then return nil, "AI 返回内容不是 JSON" end
     local ok, decoded = pcall(JSON.decode, payload)
@@ -235,18 +232,7 @@ function Report.parse(text, card_count)
     local summary = trim(decoded.summary)
     if summary == "" then return nil, "AI 没有返回总结" end
     if char_len(summary) > MAX_SUMMARY_CHARS then return nil, "AI 总结过长" end
-    local cleaned = {}
-    if card_count > 0 then
-        local words = decoded.card_words
-        if type(words) ~= "table" or #words ~= card_count then return nil, "AI 祝福语数量不对" end
-        for i = 1, card_count do
-            local word = trim(words[i])
-            if word == "" then return nil, "AI 祝福语为空" end
-            if char_len(word) > MAX_WORD_CHARS then return nil, "AI 祝福语过长" end
-            cleaned[i] = word
-        end
-    end
-    return { summary = summary, card_words = cleaned }
+    return { summary = summary }
 end
 
 --[[--
@@ -259,16 +245,12 @@ function Report.create(progress, opts)
     local now = opts.now or os.time()
     local score_info = Report.score(progress, now)
     local stats = Report.stats(progress, now, opts.plugin_path)
-    -- 抽卡退出后日报只做总结，不再发卡片
-    local offline = Report.offline(stats, {})
+    local offline = Report.offline(stats)
     local report = {
         score = score_info.score,
         parts = score_info.parts,
-        cards = {},
         summary = offline.summary,
-        card_words = {},
         ai = false,
-        revealed = true,
         created_at = now,
     }
     progress:save_daily_report(report, now)

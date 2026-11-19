@@ -518,8 +518,8 @@ Kindle 上通常对应 `/mnt/us/koreader/settings/`。`studyassist.lua` 是 KORe
 | `recent_ids` | 最近 30 道题 ID |
 | `knowledge` | 各学科知识点掌握度（learning/mastered/weak）、首答计数、最近学习时间 |
 | `shop` | 商城商品清单（`items`）、已兑换卡券记录（`redeemed`，含名称/花费/时间/是否已兑现）、已花星星（`spent`） |
-| `cards` | 旧版卡片收藏，只为兼容保留；新版界面不再展示，也不会再新增 |
-| `draw` | 旧版抽卡账本（进度/机会/次数），只为兼容保留；新版界面不再使用 |
+
+> 抽卡与集卡册已整体下线：旧存档里的 `cards`（收藏）和 `draw`（抽卡账本）会在下次启动读取存档时被直接清除，不占用存档空间。
 
 - **备份 / 换机**：复制 `studyassist.lua`；如需保留自定义单词，再复制 `studyassist_words.lua`；如需保留 AI 变种题，再复制 `studyassist_ai_bank.json`。
 - **升级快照（v5）**：从旧版本升级后第一次写入前，插件会把原始存档完整复制为 `studyassist.lua.pre-v5.bak`（一次性、永不覆盖）。迁移只新增字段，不改动既有星星、奖章、错题、知识点等任何数据。KOReader 自身还会滚动保留 `studyassist.lua.old` 作为日常写入备份。
@@ -670,7 +670,7 @@ KODEV_REUSE_BUILD=1 tools/studyassist/test_plugin.sh studyassist_session
 | `studyassist_ai` | 厂商协议、请求构建、响应解析、变种校验、AI 题库 |
 | `studyassist_knowledge` | 知识点分册/图谱加载、选项与分数判分、缓存 |
 | `studyassist_diagnose` | 掌握/不稳/薄弱判定、先修回溯顺序、题量与深度上限 |
-| `studyassist_cards` | 卡池完整性、收藏力量与评分加成、等级权重、智能单抽、离线兜底 |
+| `studyassist_shop` | 商品清单清洗、星星余额、兑换校验、卡券兑现、家长自定义商品 |
 | `studyassist_update` | 版本比较、Release 解析、路径净化、增量下载、升级回滚与数据零影响 |
 
 ### 打包
@@ -700,7 +700,6 @@ tools/studyassist/package_plugin.sh
 │   ├── session.lua        # 会话构建（今日挑战/学科/错题/AI）、判题、连对、结算
 │   ├── progress.lua       # 本地存档、每日统计、连续天数、分年级自适应、错题本
 │   ├── badges.lua         # 50 枚奖章的定义与解锁判断
-│   ├── cards.lua          # 旧版 48 张卡池（抽卡已退役，仅存档兼容保留）
 │   ├── shop.lua           # 星星商城：商品清单、星星余额、兑换与兑现记录
 │   ├── report.lua         # 每日评分公式、总结提示词与校验、离线兜底
 │   ├── mathgen.lua        # 小学数学题与拓展题的程序生成器
@@ -721,8 +720,7 @@ tools/studyassist/package_plugin.sh
 │   │                      # 各科静态题库（生成产物）
 │   ├── knowledge/         # 8 学科知识点题库 + 先修图谱（sync_taxonomy.py 生成）
 │   ├── recite/            # 背诵卡（build_recite.py / build_poem_full.py 生成）
-│   ├── dictation/         # 语文默写词表（build_dictation.py 生成，含拼音）
-│   └── cards/             # 旧版卡面插画（抽卡退役后已不再使用）
+│   └── dictation/         # 语文默写词表（build_dictation.py 生成，含拼音）
 ├── tools/studyassist/     # 题库构建、校验、抽查导出、打包、测试、模拟器启动
 ├── spec/unit/studyassist_*.lua  # 插件单元测试
 ├── AGENTS.md              # 开发协作规范
@@ -743,7 +741,7 @@ main.lua → ui/mainview.lua（状态机）
               ├── core/progress.lua 记分、存档、错题、自适应
               ├── core/ai_*.lua     可选 AI 配置、请求、变种校验与题库
               ├── core/badges.lua   轮次结束时结算奖章
-              └── core/report.lua + core/cards.lua  每日总结与评分
+              └── core/report.lua + core/shop.lua  每日总结、评分与星星商城
 ```
 
 ---

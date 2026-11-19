@@ -452,120 +452,52 @@ describe("StudyAssist title-bar back navigation", function()
         assert.are.equal("wrongbook", view.state)
     end)
 
-    it("builds daily report and card book pages", function()
-        -- Earlier tests may have answered questions today; start from a clean
-        -- day and a clean draw ledger.
+    it("builds the daily report without any card draw", function()
         view.progress.data.daily[os.date("%Y-%m-%d")] = nil
-        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
         view.progress:flush()
-        local Cards = require("core.cards")
-        view:open_daily_report(today_at(20))
-        assert.are.equal("home", view.state) -- no answers yet: only progress shown
-        -- One short of a draw: still no report and no cards.
-        record_answers(view.progress, Cards.DRAW_ANSWERS - 1, "ui-report")
-        view:open_daily_report(today_at(20))
-        assert.are.equal("home", view.state)
-        assert.is_nil(view.progress:daily_report())
-        -- The 20th answer earns a draw; opening draws the first hand.
-        record_answers(view.progress, 1, "ui-report-last")
+        record_answers(view.progress, 1, "ui-report")
         view:open_daily_report(today_at(20))
         assert.are.equal("daily_report", view.state)
         local report = view.progress:daily_report()
         assert.is_not_nil(report)
-        assert.are.equal(1, #report.cards)
         assert.is_false(report.ai)
-        assert.is_false(report.revealed)
-        report.revealed = true
-        view.progress:save_daily_report(report)
-        view:render_daily_report()
-        assert.are.equal("daily_report", view.state)
-        view:render_cards(true)
-        assert.are.equal("cards", view.state)
-        view:leave_cards()
-        assert.are.equal("daily_report", view.state)
-        view:render_cards()
-        view:onBack()
-        assert.are.equal("home", view.state)
-        -- re-entering the same day shows the stored report, no redraw
+        assert.is_nil(report.cards)
+        assert.is_nil(report.card_words)
+        assert.are.equal("string", type(report.summary))
+        assert.is_true(#report.summary > 0)
+        assert.is_true((report.score or 0) >= 0)
+        view:paintTo(Device.screen.bb, 0, 0)
+        -- re-entering the same day shows the stored report, no regeneration
         view:open_daily_report(today_at(20))
         assert.are.equal("daily_report", view.state)
         assert.are.equal(report.created_at, view.progress:daily_report().created_at)
-        view:paintTo(Device.screen.bb, 0, 0)
     end)
 
-    it("shows accumulated draw progress and allows repeated draws", function()
-        view.progress.data.daily[os.date("%Y-%m-%d")] = nil
-        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
-        view.progress:flush()
-        local Cards = require("core.cards")
-        local UIManager = require("ui/uimanager")
-        local shown = {}
-        local orig_show = UIManager.show
-        UIManager.show = function(_, widget) table.insert(shown, widget) end
-        finally(function() UIManager.show = orig_show end)
-        -- No answers: opening shows the accumulated progress, no report.
-        view:open_daily_report(today_at(20))
-        assert.are.equal("home", view.state)
-        assert.is_nil(view.progress:daily_report())
-        assert.is_not_nil(shown[#shown])
-        -- 19 answers: still no draw credit.
-        record_answers(view.progress, Cards.DRAW_ANSWERS - 1, "ui-draw")
-        view:open_daily_report(today_at(20))
-        assert.is_nil(view.progress:daily_report())
-        -- The 20th answer earns a draw; opening draws 1 card.
-        record_answers(view.progress, 1, "ui-draw-last")
-        view:open_daily_report(today_at(20))
-        assert.are.equal("daily_report", view.state)
-        local first = view.progress:daily_report()
-        assert.are.equal(1, #first.cards)
-        assert.are.equal(0, view.progress:draw_status().credits)
-        -- Viewing again does not redraw or spend a credit.
-        view:open_daily_report(today_at(20))
-        assert.are.equal(first.created_at, view.progress:daily_report().created_at)
-        -- Earn another credit and draw again: a fresh hand, no daily limit.
-        local owned_before = Cards.owned_types(view.progress)
-        record_answers(view.progress, Cards.DRAW_ANSWERS, "ui-draw-2")
-        assert.are.equal(1, view.progress:draw_status().credits)
-        view:draw_cards(today_at(20))
-        assert.are.equal("daily_report", view.state)
-        local second = view.progress:daily_report()
-        assert.are.equal(1, #second.cards)
-        assert.are.equal(2, view.progress:draw_status().draws)
-        -- Smart draw: the second hand is always a brand-new card type.
-        assert.are.equal(owned_before + 1, Cards.owned_types(view.progress))
-    end)
-
-    it("opens a card detail page from the book and the report", function()
-        local Cards = require("core.cards")
-        local card = Cards.get("r01")
-        view.progress:add_cards({ { id = card.id, tier = card.tier, name = card.name, desc = card.desc } })
-        view:render_cards()
-        assert.are.equal("cards", view.state)
-        view:render_card_detail(card.id, "cards")
-        assert.are.equal("card_detail", view.state)
+    it("opens the star shop and the wallet", function()
+        local Shop = require("core.shop")
+        view.progress.data.total.points = 100
+        view:render_shop()
+        assert.are.equal("shop", view.state)
         view:paintTo(Device.screen.bb, 0, 0)
-        view:onBack()
-        assert.are.equal("cards", view.state)
-        view:onBack()
+        view:render_wallet()
+        assert.are.equal("wallet", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        -- Redeem the cheapest wish, then the wallet lists it as pending.
+        local items = Shop.items(view.progress)
+        assert.is_true(#items > 0)
+        local cheapest = items[1]
+        for _, item in ipairs(items) do
+            if item.cost < cheapest.cost then cheapest = item end
+        end
+        local record, err = Shop.redeem(view.progress, cheapest.id)
+        assert.is_not_nil(record, err)
+        assert.are.equal(1, Shop.pending_count(view.progress))
+        view:render_wallet()
+        assert.are.equal("wallet", view.state)
+        view:paintTo(Device.screen.bb, 0, 0)
+        -- Wallet back to home is a single step.
+        view:render_home()
         assert.are.equal("home", view.state)
-        -- Build a report so report-side navigation has a target.
-        view.progress.data.daily[os.date("%Y-%m-%d")] = nil
-        view.progress.data.draw = { progress = 0, credits = 0, draws = 0 }
-        view.progress:flush()
-        record_answers(view.progress, require("core.cards").DRAW_ANSWERS, "ui-detail")
-        view:open_daily_report(today_at(20))
-        assert.are.equal("daily_report", view.state)
-        -- Book entered from the report keeps its back target through detail.
-        view:render_cards(true)
-        view:render_card_detail(card.id, "cards")
-        view:onBack()
-        assert.are.equal("cards", view.state)
-        view:onBack()
-        assert.are.equal("daily_report", view.state)
-        -- Directly from a revealed report card.
-        view:render_card_detail(card.id, "daily_report")
-        view:leave_card_detail()
-        assert.are.equal("daily_report", view.state)
     end)
 
     it("paginates the badge wall", function()

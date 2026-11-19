@@ -3294,7 +3294,7 @@ end
 
 function MainView:show_report_ai_error(message)
     UIManager:show(ConfirmBox:new{
-        text = "AI 总结失败：" .. tostring(message) .. "\n\n离线总结和卡片不受影响。",
+        text = "AI 总结失败：" .. tostring(message) .. "\n\n离线总结不受影响。",
         ok_text = "重试",
         cancel_text = "看离线版",
         ok_callback = function() self:polish_daily_report() end,
@@ -3317,7 +3317,7 @@ function MainView:polish_daily_report()
         return
     end
     local stats = Report.stats(self.progress, nil, self.plugin_path)
-    local system, user = Report.build_prompt(stats, report.score, report.cards)
+    local system, user = Report.build_prompt(stats, report.score)
     NetworkMgr:runWhenOnline(function()
         if self.ai_polishing then return end
         self.ai_polishing = true
@@ -3334,13 +3334,12 @@ function MainView:polish_daily_report()
                 self:show_report_ai_error(request_err)
                 return
             end
-            local parsed, parse_err = Report.parse(text, #(report.cards or {}))
+            local parsed, parse_err = Report.parse(text)
             if not parsed then
                 self:show_report_ai_error(parse_err)
                 return
             end
             report.summary = parsed.summary
-            report.card_words = parsed.card_words
             report.ai = true
             self.progress:save_daily_report(report)
             if self.state == "daily_report" then

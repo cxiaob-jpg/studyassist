@@ -4,9 +4,8 @@ UI walkthrough + screenshot generator (run via tools/studyassist/take_screenshot
 Renders every StudyAssist page in the real KOReader rendering pipeline
 (600x800 dummy framebuffer, same as the emulator) and writes PNGs into
 docs/screenshots/.  Uses a fresh demo save: one perfect daily round, one
-perfect challenge round, a seeded card collection, the daily report draw,
-the card book and card detail page, then learns/practices/diagnoses
-认识几分之一 (cnm_p079).
+perfect challenge round, the daily report, the star shop and the wallet,
+then learns/practices/diagnoses 认识几分之一 (cnm_p079).
 --]]--
 
 describe("StudyAssist screenshot walkthrough", function()
@@ -14,7 +13,6 @@ describe("StudyAssist screenshot walkthrough", function()
     local Device
     local MainView
     local Knowledge
-    local Cards
     local view
     local out_dir = "./plugins/studyassist.koplugin/docs/screenshots/"
 
@@ -25,7 +23,6 @@ describe("StudyAssist screenshot walkthrough", function()
         Device = require("device")
         MainView = require("ui/mainview")
         Knowledge = require("core.knowledge")
-        Cards = require("core.cards")
     end)
 
     local function shot(name)
@@ -87,40 +84,27 @@ describe("StudyAssist screenshot walkthrough", function()
         view:start_session({ mode = "challenge", subject = "math", unit = "all" })
         finish_round()
 
-        -- Seed a demo collection so the card book shows lit and unlit cards.
-        local seed = {
-            Cards.get("r01"), Cards.get("r01"), Cards.get("r01"),
-            Cards.get("r02"), Cards.get("r04"), Cards.get("r09"),
-            Cards.get("rr01"), Cards.get("rr01"), Cards.get("rr03"), Cards.get("rr07"),
-            Cards.get("s02"), Cards.get("s05"),
-            Cards.get("ss01"),
-            Cards.get("sss01"),
-        }
-        view.progress:add_cards(seed)
-
-        -- Daily report: the demo save has exactly 20 first-try answers
-        -- (daily 10 + challenge 10), which earns one draw. Opening draws the
-        -- first hand; there is no time-of-day gate any more.
+        -- Daily report: the demo save has 20 first-try answers (daily 10 +
+        -- challenge 10), enough for a meaningful summary.
         view:open_daily_report()
         assert.are.equal("daily_report", view.state)
         shot("daily-report")
-        local report = view.progress:daily_report()
-        report.revealed = true
-        view.progress:save_daily_report(report)
-        view:render_daily_report()
-        shot("daily-report-cards")
+        -- Star shop and wallet: give the demo save enough stars to redeem.
+        view.progress.data.total.points = 120
+        view.progress:flush()
+        view:render_shop()
+        assert.are.equal("shop", view.state)
+        shot("shop")
+        local Shop = require("core.shop")
+        local items = Shop.items(view.progress)
+        if #items > 0 then
+            Shop.redeem(view.progress, items[1].id)
+        end
+        view:render_wallet()
+        assert.are.equal("wallet", view.state)
+        shot("wallet")
 
-        view:render_cards(true)
-        assert.are.equal("cards", view.state)
-        shot("card-book")
-        view:render_card_detail("sss01", "cards")
-        assert.are.equal("card_detail", view.state)
-        shot("card-detail")
-        view:onBack()
-        assert.are.equal("cards", view.state)
-        view:leave_cards()
-
-        -- Home page with the new entry row and the "today drawn" marker.
+        -- Home page with the shop / wallet entry row.
         view:render_home()
         shot("home")
 

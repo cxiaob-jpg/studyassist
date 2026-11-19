@@ -6,7 +6,6 @@ never removes a child's stars, streak, badges or wrong-question book.
 --]]--
 
 local AIConfig = require("core.ai_config")
-local Cards = require("core.cards")
 local Shop = require("core.shop")
 local DataStorage = require("datastorage")
 local LuaSettings = require("luasettings")
@@ -174,37 +173,10 @@ function Progress:normalize()
     ensure_table(d, "daily")
     ensure_table(d, "wrong")
     ensure_table(d, "badges")
-    -- Repeatable card draws: progress counts answers toward the next draw,
-    -- credits are earned draws not yet spent, draws is the lifetime count.
-    local draw = ensure_table(d, "draw")
-    ensure_counter(draw, "progress")
-    ensure_counter(draw, "credits")
-    ensure_counter(draw, "draws")
-    -- One-time migration: an upgrade (or first install over an existing save)
-    -- must not reset a child's accumulated practice to zero. When the draw
-    -- ledger is still empty, convert lifetime first-try answers into credits.
-    -- The seeded flag makes this idempotent; a ledger that already recorded
-    -- draws/credits/progress is left untouched so nothing is double-counted.
-    if not draw.seeded then
-        if draw.draws == 0 and draw.credits == 0 and draw.progress == 0 then
-            local answered = total.answered
-            draw.credits = math.floor(answered / Cards.DRAW_ANSWERS)
-            draw.progress = answered % Cards.DRAW_ANSWERS
-        end
-        draw.seeded = true
-    end
-    -- Card collection is permanent: keep every entry (including ids unknown to
-    -- the current pool) so future pool changes never erase collected cards.
-    local cards = ensure_table(d, "cards")
-    for id, entry in pairs(cards) do
-        if type(entry) ~= "table" then
-            cards[id] = nil
-        else
-            entry.count = number_or(entry.count, 0)
-            entry.first_at = number_or(entry.first_at, 0)
-            entry.last_at = number_or(entry.last_at, 0)
-        end
-    end
+    -- 抽卡与集卡册已下线：旧存档里的 draw 账本和 cards 收藏直接丢掉，
+    -- 免得每次启动都白读一遍几 KB 的死数据，也避免残留字段被误读。
+    d.draw = nil
+    d.cards = nil
     -- 星星商城与钱包：预置愿望清单只在第一次铺上，之后完全由家长维护
     Shop.ensure(d)
     local adaptive = ensure_table(d, "adaptive")
@@ -578,16 +550,6 @@ function Progress:record_answer(question, opts)
         self.data.total.answered = self.data.total.answered + 1
         by_subject.answered = by_subject.answered + 1
         daily.answered = daily.answered + 1
-        -- Earn draw credits from real practice (not wrong-book review), so
-        -- repeated draws cannot be farmed by re-answering the same questions.
-        if mode ~= "review" then
-            local draw = self.data.draw
-            draw.progress = draw.progress + 1
-            if draw.progress >= Cards.DRAW_ANSWERS then
-                draw.progress = draw.progress - Cards.DRAW_ANSWERS
-                draw.credits = draw.credits + 1
-            end
-        end
         if correct then
             self.data.total.correct = self.data.total.correct + 1
             by_subject.correct = by_subject.correct + 1
@@ -696,56 +658,6 @@ function Progress:today(now)
         goal = goal,
         done = daily.answered >= goal,
     }
-end
-
---[[--
-Add drawn cards to the permanent collection.
-
-Entries keep a name/tier snapshot from the first acquisition so later pool
-changes never alter already-collected cards. Duplicates only bump the count.
---]]--
-function Progress:add_cards(cards, now)
-    now = now or os.time()
-    local collection = ensure_table(self.data, "cards")
-    for _, card in ipairs(cards or {}) do
-        if card.id then
-            local entry = collection[card.id]
-            if type(entry) ~= "table" then
-                entry = { count = 0, first_at = now, name = card.name, tier = card.tier }
-                collection[card.id] = entry
-            end
-            entry.count = number_or(entry.count, 0) + 1
-            entry.last_at = now
-        end
-    end
-    self:flush()
-end
-
---[[--
-Current draw state: answers accumulated toward the next draw, available draw
-credits and the lifetime draw count.
---]]--
-function Progress:draw_status()
-    local draw = self.data.draw
-    return {
-        progress = draw.progress,
-        credits = draw.credits,
-        draws = draw.draws,
-        need = Cards.DRAW_ANSWERS,
-        remaining = Cards.DRAW_ANSWERS - draw.progress,
-    }
-end
-
---[[--
-Spend one earned draw credit. Returns true when a credit was consumed.
---]]--
-function Progress:spend_draw()
-    local draw = self.data.draw
-    if draw.credits <= 0 then return false end
-    draw.credits = draw.credits - 1
-    draw.draws = draw.draws + 1
-    self:flush()
-    return true
 end
 
 function Progress:daily_report(now)

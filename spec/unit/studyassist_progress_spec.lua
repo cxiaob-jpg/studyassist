@@ -337,7 +337,6 @@ describe("StudyAssist v5 migration safety", function()
     local DataStorage
     local Progress
     local Badges
-    local Cards
     local dump
     local path
 
@@ -347,7 +346,6 @@ describe("StudyAssist v5 migration safety", function()
         DataStorage = require("datastorage")
         Progress = require("core.progress")
         Badges = require("core.badges")
-        Cards = require("core.cards")
         dump = require("dump")
     end)
 
@@ -445,8 +443,9 @@ describe("StudyAssist v5 migration safety", function()
         -- new fields arrive as defaults only
         assert.are.equal(0, p.data.total.challenge_sessions)
         assert.are.equal(0, p.data.total.challenge_correct)
-        assert.is_table(p.data.cards)
-        assert.is_nil(next(p.data.cards))
+        -- 抽卡下线后旧存档里的 draw 账本与 cards 收藏会被清掉
+        assert.is_nil(p.data.cards)
+        assert.is_nil(p.data.draw)
         local daily = p.data.daily[os.date("%Y-%m-%d", os.time() - 86400)]
         assert.are.equal(0, daily.subjects.math.answered)
         assert.are.equal(0, daily.challenge.sessions)
@@ -498,13 +497,13 @@ describe("StudyAssist v5 migration safety", function()
         assert.are.equal("corrupted {{{", read_bytes(path .. ".pre-v5.bak"))
     end)
 
-    it("reset clears cards and challenge counters but keeps settings", function()
+    it("reset clears stars and challenge counters but keeps settings", function()
         local p = Progress.open(path)
-        p:add_cards({ Cards.get("r01") }, 1000)
+        p.data.total.points = 250
         p.data.total.challenge_sessions = 4
         p.data.settings.daily_goal = 15
         p:reset_progress()
-        assert.is_nil(next(p.data.cards))
+        assert.are.equal(0, p.data.total.points)
         assert.are.equal(0, p.data.total.challenge_sessions)
         assert.are.equal(0, p.data.total.challenge_correct)
         assert.are.equal(15, p.data.settings.daily_goal)
@@ -559,10 +558,10 @@ describe("StudyAssist v5 migration safety", function()
         local p = Progress.open(path)
         local now = os.time({ year = 2026, month = 11, day = 10, hour = 12 })
         assert.is_nil(p:daily_report(now))
-        p:save_daily_report({ score = 66, revealed = false, cards = {} }, now)
+        p:save_daily_report({ score = 66, summary = "今天很努力。" }, now)
         local reopened = Progress.open(path)
         local report = reopened:daily_report(now)
         assert.are.equal(66, report.score)
-        assert.is_false(report.revealed)
+        assert.are.equal("今天很努力。", report.summary)
     end)
 end)
