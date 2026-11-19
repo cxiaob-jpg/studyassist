@@ -3378,39 +3378,53 @@ function MainView:render_shop()
     table.insert(content, Widgets.vspace(Size.span.vertical_large))
 
     if #items == 0 then
-        table.insert(content, Widgets.textbox("商城还空着。\n家长可以在「设置 → 商城商品」里把愿望做成卡券。", cw, {
-            size = 18, alignment = "center",
-        }))
+        table.insert(content, Widgets.textbox(
+            "商城还空着。\n家长可以在「设置 → 商城商品」里把愿望做成卡券（需要退出密码）。", cw, {
+                size = 18, alignment = "center",
+            }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     else
         table.insert(content, Widgets.label(string.format("在售卡券（%d）", #items), {
             size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
         }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        local btn_w = math.min(Screen:scaleBySize(132), math.floor(cw * 0.32))
-        local left_w = cw - btn_w - Size.span.horizontal_default - 2 * Size.padding.default
-        for _, item in ipairs(items) do
+        -- 正方形卡券：一行两张，边长均分整行；名字过长时在卡内自动换行
+        local gap = Size.span.horizontal_default
+        local pad = Size.padding.default
+        local side = math.floor((cw - gap) / 2)
+        local inner = side - 2 * (pad + Size.border.thin)
+        local function coupon_card(item)
             local affordable = balance >= item.cost
-            local info = VerticalGroup:new{
-                align = "left",
-                Widgets.label(item.name, { size = 19, bold = true, max_width = left_w }),
+            local body = VerticalGroup:new{
+                align = "center",
+                Widgets.textbox(item.name, inner, {
+                    size = 18, alignment = "center", line_height = 0.25,
+                }),
+                Widgets.vspace(Size.span.vertical_small or 4),
                 Widgets.label(string.format("★ %d", item.cost), {
-                    size = 16, color = affordable and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
+                    size = 20, bold = true,
+                    color = affordable and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
+                }),
+                Widgets.vspace(Size.span.vertical_default),
+                Widgets.button(affordable and "兑换"
+                        or string.format("差 %d 星", item.cost - balance), {
+                    width = inner,
+                    size = 17,
+                    callback = function() self:redeem_shop_item(item.id) end,
                 }),
             }
-            local action = Widgets.button(affordable and "兑换"
-                    or string.format("差 %d 星", item.cost - balance), {
-                width = btn_w,
-                size = 18,
-                callback = function() self:redeem_shop_item(item.id) end,
-            })
-            table.insert(content, Widgets.card(HorizontalGroup:new{
-                align = "center",
-                info,
-                Widgets.hspace(Size.span.horizontal_default),
-                action,
-            }, { width = cw, padding = Size.padding.default }))
+            return Widgets.square_card(body, { side = side, padding = pad })
+        end
+        local idx = 1
+        for _, count in ipairs(balanced_row_counts(#items, 2)) do
+            local row = HorizontalGroup:new{ align = "center" }
+            for i = idx, idx + count - 1 do
+                if i > idx then table.insert(row, Widgets.hspace(gap)) end
+                table.insert(row, coupon_card(items[i]))
+            end
+            table.insert(content, row)
             table.insert(content, Widgets.vspace(Size.span.vertical_default))
+            idx = idx + count
         end
     end
 
@@ -3995,6 +4009,30 @@ end
 家长端：维护星星商城的商品。预置了 8 张常见愿望卡券，点一下可以上架/下架，也可以
 删掉换成自己家的愿望。Kindle 没有中文输入法时，名称可以打拼音或英文。
 --]]--
+--[[--
+商城商品是家长区：先验退出密码再进。没设密码时引导去设置，避免孩子自己定价。
+--]]--
+function MainView:open_shop_settings_gated()
+    local pin = self.progress.data.settings.exit_pin
+    if not pin or #tostring(pin) ~= 4 then
+        UIManager:show(ConfirmBox:new{
+            text = "「商城商品」是家长设置区，需要退出密码才能进入。\n\n现在还没有设置密码，先去设置一个吧。",
+            ok_text = "去设置密码",
+            cancel_text = "稍后",
+            ok_callback = function() self:render_exit_pin_settings() end,
+        })
+        return
+    end
+    self:ask_pin_input("商城商品 · 请输入退出密码", function(text)
+        if text == nil then return end
+        if tostring(text) ~= tostring(pin) then
+            UIManager:show(InfoMessage:new{ text = "密码不对，未进入。", timeout = 3 })
+            return
+        end
+        self:render_shop_settings()
+    end)
+end
+
 function MainView:render_shop_settings()
     self.state = "shop_settings"
     self:set_title("商城商品")
@@ -4147,49 +4185,49 @@ function MainView:render_settings()
         end),
     })
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- 教材：八个科目两列排，一行两科；每科都能点开换版本
+    -- 教材：只列「这个年级 + 这个学期真有教材」的科目，一行两科；
+    -- 一年级没有英语、小学没有理化、九年级没有生物地理时，对应格子直接不出现。
     table.insert(content, Widgets.textbox("教材版本（可自定义选择）", cw, {
         size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.3,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default))
-    local gap = Screen:scaleBySize(8)
-    local tile_w = math.floor((cw - gap) / 2)
-    local function subject_available(subject, grade)
-        for _, g in ipairs(subject_grades(self.plugin_path, subject)) do
-            if g == grade then return true end
+    local grade = tonumber(settings.grade) or 2
+    local edition_subjects = {}
+    for _, subject in ipairs(SUBJECT_ORDER) do
+        if has_volume(self.plugin_path, subject, grade, settings.semester) then
+            table.insert(edition_subjects, subject)
         end
-        return false
     end
-    local function edition_tile(subject)
-        local grade = tonumber(settings.grade) or 2
-        -- 这个年级还没开这门课（如小学物理、一二年级英语）：格子写「暂无」且不可点
-        if not subject_available(subject, grade) then
-            return Widgets.button(string.format("%s 暂无", SUBJECT_LABEL[subject]), {
-                width = tile_w,
-                height = Screen:scaleBySize(54),
-                align = "center",
-                size = 18,
-                enabled = false,
-            })
-        end
+    local gap = Screen:scaleBySize(8)
+    local function edition_tile(subject, width)
         return Widgets.button(
             string.format("%s %s", SUBJECT_LABEL[subject], self:edition_tile_label(subject)), {
-                width = tile_w,
+                width = width,
                 height = Screen:scaleBySize(54),
                 align = "left",
                 size = 18,
                 callback = function() self:render_edition_select(subject) end,
             })
     end
-    for _, pair in ipairs({ { "chinese", "math" }, { "english", "physics" },
-                            { "chemistry", "biology" }, { "geography", "history" } }) do
-        table.insert(content, HorizontalGroup:new{
-            align = "center",
-            edition_tile(pair[1]),
-            Widgets.hspace(gap),
-            edition_tile(pair[2]),
-        })
+    if #edition_subjects == 0 then
+        table.insert(content, Widgets.textbox(
+            "这个年级、这个学期还没有可选的教材，换个年级或学期看看。", cw, {
+                size = 16, color = Blitbuffer.COLOR_DARK_GRAY, alignment = "center",
+            }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    else
+        local idx = 1
+        for _, count in ipairs(balanced_row_counts(#edition_subjects, 2)) do
+            local w = math.floor((cw - (count - 1) * gap) / count)
+            local row = HorizontalGroup:new{ align = "center" }
+            for i = idx, idx + count - 1 do
+                if i > idx then table.insert(row, Widgets.hspace(gap)) end
+                table.insert(row, edition_tile(edition_subjects[i], w))
+            end
+            table.insert(content, row)
+            table.insert(content, Widgets.vspace(Size.span.vertical_default))
+            idx = idx + count
+        end
     end
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     -- AI 出题：紧贴每日目标上方
@@ -4200,12 +4238,14 @@ function MainView:render_settings()
         callback = function() self:render_ai_settings() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- 商城商品：家长把愿望做成卡券，孩子用星星兑换
-    table.insert(content, Widgets.button(string.format("商城商品：%d 件在售", #Shop.items(self.progress)), {
+    -- 商城商品：家长把愿望做成卡券，孩子用星星兑换；改价格/上下架都属于家长操作，
+    -- 进去前要退出密码，孩子不能自己把愿望改便宜或加一张。
+    table.insert(content, Widgets.button(string.format("商城商品（需密码）：%d 件在售",
+            #Shop.items(self.progress)), {
         width = cw,
         height = Screen:scaleBySize(54),
         align = "left",
-        callback = function() self:render_shop_settings() end,
+        callback = function() self:open_shop_settings_gated() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     -- 每日目标 / 答错重试 / 退出密码 / 重置：一行两个

@@ -113,6 +113,31 @@ function Widgets.card(child, opts)
     }
 end
 
+-- 正方形卡片：内容在卡内居中，卡片外框固定为 side × side。
+-- FrameContainer 的 getSize 只按内容算高、只有 paintTo 认 height，所以这里把
+-- getSize 覆写成正方形，父容器排版时才不会把下一行压上来。
+function Widgets.square_card(child, opts)
+    opts = opts or {}
+    local side = opts.side or 0
+    local padding = opts.padding or Size.padding.default
+    local bordersize = opts.bordersize or Size.border.thin
+    local inner = math.max(side - 2 * (padding + bordersize), 1)
+    local card = FrameContainer:new{
+        width = side,
+        height = side,
+        padding = padding,
+        bordersize = bordersize,
+        radius = Size.radius.window,
+        background = opts.background,
+        CenterContainer:new{
+            dimen = Geom:new{ w = inner, h = inner },
+            child,
+        },
+    }
+    card.getSize = function() return Geom:new{ w = side, h = side } end
+    return card
+end
+
 function Widgets.stat(value, caption, width)
     local group = VerticalGroup:new{
         align = "center",
