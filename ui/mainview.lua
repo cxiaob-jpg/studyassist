@@ -3473,7 +3473,32 @@ function MainView:render_shop()
     })
 end
 
+-- 兑换要二次确认：先说清楚花多少、还剩多少，避免孩子连点把星星一次花光。
 function MainView:redeem_shop_item(item_id)
+    local item = Shop.find(self.progress, item_id)
+    if not item or not item.enabled then
+        UIManager:show(InfoMessage:new{ text = "这张卡券已经下架或删除。", timeout = 3 })
+        self:render_shop()
+        return
+    end
+    local balance = Shop.balance(self.progress)
+    if balance < item.cost then
+        UIManager:show(InfoMessage:new{
+            text = string.format("还差 %d 颗星星", item.cost - balance), timeout = 3,
+        })
+        self:render_shop()
+        return
+    end
+    UIManager:show(ConfirmBox:new{
+        text = string.format("确定兑换「%s」吗？\n\n要花 ★%d，换完还剩 ★%d。\n卡券会放进钱包，找家长兑现时要输密码。",
+            item.name, item.cost, balance - item.cost),
+        ok_text = "确认兑换",
+        cancel_text = "再想想",
+        ok_callback = function() self:do_redeem_shop_item(item_id) end,
+    })
+end
+
+function MainView:do_redeem_shop_item(item_id)
     local record, err = Shop.redeem(self.progress, item_id)
     if not record then
         UIManager:show(InfoMessage:new{ text = tostring(err), timeout = 3 })
