@@ -4007,12 +4007,11 @@ function MainView:render_settings()
     local cw = Widgets.width()
     local settings = self.progress.data.settings
     local content = VerticalGroup:new{ align = "center" }
-    table.insert(content, Widgets.button(string.format("AI 出题设置：%s", self:ai_status_label()), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_ai_settings() end,
-    }))
+    -- 顶部提示：先选地区，教材跟着城市 + 年级自动匹配
+    table.insert(content, Widgets.textbox(
+        "先选省份和城市，再选年级和学期；语文/数学/英语教材会按城市 + 年级自动匹配，下面也能手动改。", cw, {
+            size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
+        }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     -- 省份 / 城市 / 年级 / 学期 一行四等份
     local gap4 = Screen:scaleBySize(8)
@@ -4089,60 +4088,47 @@ function MainView:render_settings()
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("每日目标：%d 题", settings.daily_goal), {
+    -- AI 出题：紧贴每日目标上方
+    table.insert(content, Widgets.button(string.format("AI 出题设置：%s", self:ai_status_label()), {
         width = cw,
         height = Screen:scaleBySize(54),
         align = "left",
-        callback = function()
-            self:cycle_goal()
-            self:render_settings()
-        end,
+        callback = function() self:render_ai_settings() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("答错可重试：%s", settings.retry ~= false and "开" or "关"), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
+    -- 每日目标 / 答错重试 / 退出密码 / 重置：一行两个
+    local gap2 = Screen:scaleBySize(8)
+    local tile_w2 = math.floor((cw - gap2) / 2)
+    local function pick2(label, callback)
+        return Widgets.button(label, {
+            width = tile_w2,
+            height = Screen:scaleBySize(54),
+            align = "center",
+            size = 18,
+            callback = callback,
+        })
+    end
+    table.insert(content, HorizontalGroup:new{
+        align = "center",
+        pick2(string.format("每日目标：%d 题", settings.daily_goal), function()
+            self:cycle_goal()
+            self:render_settings()
+        end),
+        Widgets.hspace(gap2),
+        pick2(string.format("答错可重试：%s", settings.retry ~= false and "开" or "关"), function()
             settings.retry = settings.retry == false
             self.progress:flush()
             self:render_settings()
-        end,
-    }))
+        end),
+    })
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("退出密码：%s",
-        settings.exit_pin and "已设置" or "未设置"), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:render_exit_pin_settings() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.textbox(string.format("当前版本：v%s", Update.local_version(self.plugin_path)), cw, { size = 18 }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button("检查更新", {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function() self:check_update() end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    table.insert(content, Widgets.button(string.format("启动时自动检查更新：%s", settings.update_auto_check and "开" or "关"), {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
-            settings.update_auto_check = not settings.update_auto_check
-            self.progress:flush()
-            self:render_settings()
-        end,
-    }))
-    table.insert(content, Widgets.vspace(Size.span.vertical_large))
-    table.insert(content, Widgets.button("重置学习进度", {
-        width = cw,
-        height = Screen:scaleBySize(54),
-        align = "left",
-        callback = function()
+    table.insert(content, HorizontalGroup:new{
+        align = "center",
+        pick2(string.format("退出密码：%s", settings.exit_pin and "已设置" or "未设置"), function()
+            self:render_exit_pin_settings()
+        end),
+        Widgets.hspace(gap2),
+        pick2("重置学习进度", function()
             -- 设置了密码时先验证，防止孩子自行清空进度
             local pin = settings.exit_pin
             if pin and #tostring(pin) == 4 then
@@ -4157,7 +4143,27 @@ function MainView:render_settings()
                 return
             end
             self:confirm_reset_progress()
+        end),
+    })
+    table.insert(content, Widgets.vspace(Size.span.vertical_large))
+    table.insert(content, Widgets.textbox(string.format("当前版本：v%s", Update.local_version(self.plugin_path)), cw, { size = 18 }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button(string.format("启动时自动检查更新：%s", settings.update_auto_check and "开" or "关"), {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function()
+            settings.update_auto_check = not settings.update_auto_check
+            self.progress:flush()
+            self:render_settings()
         end,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("检查更新", {
+        width = cw,
+        height = Screen:scaleBySize(54),
+        align = "left",
+        callback = function() self:check_update() end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button("关于学习助理", {
