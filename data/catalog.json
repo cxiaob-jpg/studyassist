@@ -6551,6 +6551,45 @@
      "publisher": "译林版",
      "edition_year": 2024,
      "grades": {
+      "3": {
+       "upper": {
+        "file": "english/yilin/g3_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "Unit 1 Hello!"
+         },
+         {
+          "id": "u2",
+          "name": "Unit 2 What's your name?"
+         },
+         {
+          "id": "u3",
+          "name": "Unit 3 Are you Su Hai?"
+         },
+         {
+          "id": "u4",
+          "name": "Unit 4 This is my friend"
+         },
+         {
+          "id": "u5",
+          "name": "Unit 5 She's my mother"
+         },
+         {
+          "id": "u6",
+          "name": "Unit 6 Is he your grandpa?"
+         },
+         {
+          "id": "u7",
+          "name": "Unit 7 Happy Birthday!"
+         },
+         {
+          "id": "u8",
+          "name": "Unit 8 I can do this for you"
+         }
+        ]
+       }
+      },
       "4": {
        "upper": {
         "file": "english/yilin/g4_upper.json",
