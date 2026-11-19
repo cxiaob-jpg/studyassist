@@ -42,6 +42,7 @@ local Report = require("core.report")
 local Session = require("core.session")
 local Update = require("core.update")
 local UpdateDialog = require("ui/update_dialog")
+local PinPadDialog = require("ui/pinpad")
 local Widgets = require("ui/widgets")
 local Words = require("core.words")
 
@@ -417,35 +418,11 @@ function MainView:onClose()
 end
 
 function MainView:ask_pin_input(title, on_done)
-    local dialog
-    dialog = InputDialog:new{
+    -- 九宫格数字键盘，输满 4 位自动提交；取消/删除见 ui/pinpad.lua
+    UIManager:show(PinPadDialog:new{
         title = title,
-        input = "",
-        input_type = "number",
-        text_type = "password",
-        buttons = {
-            {
-                {
-                    text = "取消",
-                    id = "close",
-                    callback = function()
-                        UIManager:close(dialog)
-                        on_done(nil)
-                    end,
-                },
-                {
-                    text = "确定",
-                    callback = function()
-                        local text = dialog:getInputText() or ""
-                        UIManager:close(dialog)
-                        on_done(text)
-                    end,
-                },
-            },
-        },
-    }
-    UIManager:show(dialog)
-    dialog:onShowKeyboard()
+        on_done = on_done,
+    })
 end
 
 function MainView:verify_exit_pin()

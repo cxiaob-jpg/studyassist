@@ -619,3 +619,58 @@ describe("StudyAssist title-bar back navigation", function()
         dialog2:dismiss()
     end)
 end)
+
+describe("StudyAssist pin pad", function()
+    local Device, UIManager, PinPadDialog
+
+    setup(function()
+        require("commonrequire")
+        package.path = "plugins/studyassist.koplugin/?.lua;" .. package.path
+        Device = require("device")
+        UIManager = require("ui/uimanager")
+        PinPadDialog = require("ui/pinpad")
+    end)
+
+    it("collects digits, masks them and auto-submits at 4", function()
+        local result = "unset"
+        local dialog = PinPadDialog:new{
+            title = "退出插件 · 请输入 4 位密码",
+            on_done = function(code) result = code end,
+        }
+        UIManager:show(dialog)
+        assert.are.equal("○ ○ ○ ○", dialog.dots_w.text)
+        dialog:press_digit("1")
+        dialog:press_digit("2")
+        dialog:press_digit("3")
+        assert.are.equal("● ● ● ○", dialog.dots_w.text)
+        assert.are.equal("unset", result) -- 未满 4 位不提交
+        dialog:press_digit("4")
+        assert.are.equal("1234", result)  -- 满 4 位自动提交
+    end)
+
+    it("ignores extra digits after 4 and delete/cancel report nil", function()
+        local result = "unset"
+        local dialog = PinPadDialog:new{
+            title = "设置退出密码（4 位数字）",
+            on_done = function(code) result = code end,
+        }
+        dialog:press_digit("1")
+        dialog:press_digit("2")
+        dialog:press_digit("3")
+        dialog:press_delete()
+        assert.are.equal("● ● ○ ○", dialog.dots_w.text)
+        dialog:press_digit("9")
+        dialog:press_digit("4")
+        assert.are.equal("1294", result)
+
+        local cancelled = "unset"
+        local dialog2 = PinPadDialog:new{
+            title = "再输入一次确认",
+            on_done = function(code) cancelled = code end,
+        }
+        dialog2:press_digit("5")
+        dialog2:press_digit("6")
+        dialog2:cancel()
+        assert.are.equal(nil, cancelled)
+    end)
+end)
