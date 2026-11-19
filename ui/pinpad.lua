@@ -4,6 +4,8 @@ Numeric pin pad dialog (3x4 digit grid, no virtual keyboard).
 Used for the exit PIN and progress reset PIN. Tapping digits fills a masked
 progress line; at 4 digits the entry auto-submits and calls `on_done(code)`.
 Tapping 取消 (or the hardware Back key) calls `on_done(nil)`.
+Renders as a small centered popup (ConfirmBox-style transparent fullscreen
+container); taps outside the keypad are swallowed, not forwarded below.
 Built only from KOReader built-in widgets, consistent with the plugin's
 zero-dependency rule.
 --]]--
@@ -31,7 +33,7 @@ local PinPadDialog = InputContainer:extend{
     title = "请输入 4 位密码",
     on_done = nil, -- function(code_or_nil)
     modal = true,
-    covers_fullscreen = true,
+    covers_fullscreen = false,
 }
 
 function PinPadDialog:init()
@@ -130,18 +132,12 @@ function PinPadDialog:init()
         margin = 0,
         body,
     }
-    local centered = CenterContainer:new{
-        dimen = Geom:new{ w = screen_w, h = screen_h },
+    -- ConfirmBox 同款居中小窗：透明全屏容器只负责居中 + 覆盖手势，
+    -- 不铺全屏白底（整屏白板在 e-ink 上会出现局部漏刷）。
+    self[1] = CenterContainer:new{
+        dimen = Screen:getSize(),
         frame,
     }
-    self[1] = FrameContainer:new{
-        background = Blitbuffer.COLOR_WHITE,
-        bordersize = 0,
-        width = screen_w,
-        height = screen_h,
-        centered,
-    }
-    self.dimen = Geom:new{ w = screen_w, h = screen_h }
 
     -- Back 键取消（有实体键的设备）
     self.key_events.Close = { { Device.input.group.Back } }
