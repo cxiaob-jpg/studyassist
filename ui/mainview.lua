@@ -3999,13 +3999,9 @@ function MainView:render_settings()
     local cw = Widgets.width()
     local settings = self.progress.data.settings
     local content = VerticalGroup:new{ align = "center" }
-    -- 顶部提示：先选地区，教材跟着城市 + 年级自动匹配；匹配不准可以自己改
+    -- 顶部提示：一句话说明教材是按城市 + 年级 + 学期自动匹配的
     table.insert(content, Widgets.textbox(
-        "先选省份和城市，再选年级和学期；语文/数学/英语教材会按城市 + 年级自动匹配。", cw, {
-            size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
-        }))
-    table.insert(content, Widgets.textbox(
-        "教材匹配不准也没关系：下面每一科都能点开，自己选教材版本。", cw, {
+        "根据学生城市，年级，学期选择，教材自动匹配。", cw, {
             size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
         }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
