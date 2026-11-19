@@ -36,6 +36,9 @@ local Update = {}
 Update.CANCELLED = UpdateHttp.CANCELLED
 
 local DEFAULT_API_URL = "https://api.github.com/repos/cxiaob-jpg/studyassist/releases/latest"
+-- 国内镜像（CNB，与 GitHub 仓库同源同步）。匿名可访问时优先走它，
+-- 失败自动回退 GitHub；仓库私有时匿名请求 401，等于自动只用 GitHub。
+local MIRROR_API_URL = "https://api.cnb.cool/byh-mirror/studyassist/-/releases"
 local ASSET_NAME = "studyassist.koplugin.zip"
 local TOP_DIR = "studyassist.koplugin"
 local STAGING_NAME = ".studyassist_update"
@@ -43,6 +46,7 @@ local BACKUP_NAME = ".studyassist_backup"
 local MAX_REDIRECTS = 5
 
 Update.DEFAULT_API_URL = DEFAULT_API_URL
+Update.MIRROR_API_URL = MIRROR_API_URL
 Update.ASSET_NAME = ASSET_NAME
 
 -- ---------------------------------------------------------------------------
@@ -143,15 +147,9 @@ function Update.is_newer(remote_tag, local_version)
     return Update.compare_versions(remote_tag, local_version) > 0
 end
 
---- Parse a GitHub "releases/latest" JSON body and pick the plugin zip asset.
-function Update.parse_release(text)
-    if type(text) ~= "string" or text == "" then
-        return nil, "空的 Release 响应"
-    end
-    local ok, data = pcall(JSON.decode, text)
-    if not ok or type(data) ~= "table" then
-        return nil, "Release 响应不是有效 JSON"
-    end
+--- Parse one release object (GitHub "releases/latest" item or one entry of
+-- the CNB mirror list) and pick the plugin zip asset.
+local function parse_release_item(data)
     local tag = data.tag_name
     if type(tag) ~= "string" or tag == "" then
         return nil, "Release 缺少 tag_name"
@@ -180,6 +178,43 @@ function Update.parse_release(text)
         asset_name = asset.name,
         asset_size = tonumber(asset.size) or 0,
     }
+end
+
+--- Parse a release check response. Accepts either a single release object
+-- (GitHub) or an array of releases (CNB mirror list); for arrays the entry
+-- flagged is_latest wins, otherwise the highest version carries the vote.
+function Update.parse_release(text)
+    if type(text) ~= "string" or text == "" then
+        return nil, "空的 Release 响应"
+    end
+    local ok, data = pcall(JSON.decode, text)
+    if not ok or type(data) ~= "table" then
+        return nil, "Release 响应不是有效 JSON"
+    end
+    if data[1] ~= nil then
+        local flagged, best, best_v
+        for _, rel in ipairs(data) do
+            if type(rel) == "table" and rel.draft ~= true and rel.prerelease ~= true then
+                local item = parse_release_item(rel)
+                if item then
+                    if rel.is_latest == true then
+                        flagged = item
+                        break
+                    end
+                    local v = item.version
+                    if not best_v or Update.compare_versions(v, best_v) > 0 then
+                        best, best_v = item, v
+                    end
+                end
+            end
+        end
+        local chosen = flagged or best
+        if not chosen then
+            return nil, "Release 列表里没有可用的 " .. ASSET_NAME
+        end
+        return chosen
+    end
+    return parse_release_item(data)
 end
 
 --- Validate one zip entry path. Rejects absolute paths, ".." traversal,
@@ -220,26 +255,42 @@ end
 function Update.check(opts, callback)
     opts = opts or {}
     local transport = opts.transport or default_transport
-    local api_url = opts.api_url
-    if type(api_url) ~= "string" or api_url == "" then api_url = DEFAULT_API_URL end
     local current = opts.local_version or "0.0.0"
-    local headers = {
-        ["User-Agent"] = "StudyAssist-Updater/" .. current,
-        ["Accept"] = "application/vnd.github+json",
-    }
-    local body, err = transport.get(api_url, headers, 20, 30)
-    if not body then
-        callback({ error = err or "网络请求失败", current = current })
-        return
+    -- 检查源：显式指定 api_url 时只用它（测试/自定义）；否则镜像优先
+    -- （国内直连快，探测超时短），失败回退 GitHub。
+    local sources
+    local api_url = opts.api_url
+    if type(api_url) == "string" and api_url ~= "" then
+        sources = { { url = api_url, accept = "application/vnd.github+json" } }
+    else
+        sources = {
+            { url = MIRROR_API_URL, accept = "application/vnd.cnb.api+json",
+              block_timeout = 8, total_timeout = 10 },
+            { url = DEFAULT_API_URL, accept = "application/vnd.github+json" },
+        }
     end
-    local release, perr = Update.parse_release(body)
-    if not release then
-        callback({ error = perr, current = current })
-        return
+    local last_err
+    for _, src in ipairs(sources) do
+        local headers = {
+            ["User-Agent"] = "StudyAssist-Updater/" .. current,
+            ["Accept"] = src.accept,
+        }
+        local body, err = transport.get(src.url, headers,
+            src.block_timeout or 20, src.total_timeout or 30)
+        local release
+        if body then
+            release, last_err = Update.parse_release(body)
+        else
+            last_err = err or "网络请求失败"
+        end
+        if release then
+            release.current = current
+            release.available = Update.is_newer(release.tag, current)
+            callback(release)
+            return
+        end
     end
-    release.current = current
-    release.available = Update.is_newer(release.tag, current)
-    callback(release)
+    callback({ error = last_err, current = current })
 end
 
 -- ---------------------------------------------------------------------------

@@ -269,6 +269,71 @@ describe("StudyAssist update", function()
                 function(r) result = r end)
             assert.are.equal("boom", result.error)
         end)
+
+        it("parses a CNB mirror release list (is_latest flag wins)", function()
+            local list = JSON.encode({
+                { tag_name = "v1.17.0", draft = false, prerelease = false,
+                  assets = { { name = "studyassist.koplugin.zip",
+                               browser_download_url = "https://cnb/1.17.zip", size = 100 } } },
+                { tag_name = "v1.18.0", draft = false, prerelease = false, is_latest = true,
+                  assets = { { name = "studyassist.koplugin.zip",
+                               browser_download_url = "https://cnb/1.18.zip", size = 200 } } },
+            })
+            local r = Update.parse_release(list)
+            assert.is_not_nil(r)
+            assert.are.equal("v1.18.0", r.tag)
+            assert.are.equal("https://cnb/1.18.zip", r.asset_url)
+            assert.are.equal(200, r.asset_size)
+        end)
+
+        it("falls back to the newest entry when the list has no is_latest flag", function()
+            local list = JSON.encode({
+                { tag_name = "v1.16.0",
+                  assets = { { name = "studyassist.koplugin.zip",
+                               browser_download_url = "https://cnb/1.16.zip", size = 100 } } },
+                { tag_name = "v1.18.0",
+                  assets = { { name = "studyassist.koplugin.zip",
+                               browser_download_url = "https://cnb/1.18.zip", size = 200 } } },
+                { tag_name = "v1.17.0",
+                  assets = { { name = "studyassist.koplugin.zip",
+                               browser_download_url = "https://cnb/1.17.zip", size = 100 } } },
+            })
+            local r = Update.parse_release(list)
+            assert.is_not_nil(r)
+            assert.are.equal("v1.18.0", r.tag)
+        end)
+
+        it("tries the mirror first and falls back to GitHub", function()
+            local urls = {}
+            local transport = { get = function(url)
+                urls[#urls + 1] = url
+                if url:find("cnb.cool", 1, true) then return nil, "mirror down" end
+                return body("v1.3.1")
+            end }
+            local result
+            Update.check({ local_version = "1.3.0", transport = transport },
+                function(r) result = r end)
+            assert.is_true(result.available)
+            assert.are.equal("v1.3.1", result.tag)
+            assert.are.equal(2, #urls)
+            assert.truthy(urls[1]:find("cnb.cool", 1, true))
+            assert.truthy(urls[2]:find("api.github.com", 1, true))
+        end)
+
+        it("uses only the explicit api_url when one is given", function()
+            local urls = {}
+            local transport = { get = function(url)
+                urls[#urls + 1] = url
+                return body("v1.3.1")
+            end }
+            local result
+            Update.check({ local_version = "1.3.0", transport = transport,
+                           api_url = "https://example.test/releases" },
+                function(r) result = r end)
+            assert.is_true(result.available)
+            assert.are.equal(1, #urls)
+            assert.are.equal("https://example.test/releases", urls[1])
+        end)
     end)
 
     describe("incremental download engine (no timeout, cancellable)", function()
