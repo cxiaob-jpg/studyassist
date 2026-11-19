@@ -1695,8 +1695,7 @@ function MainView:render_challenge_menu()
     local row
     for i, subject in ipairs(order) do
         local entry = available[subject]
-        local button = Widgets.button(string.format("%s · %d 单元",
-            self:subject_label(subject), #(entry.units or {})), {
+        local button = Widgets.button(self:subject_label(subject), {
             width = half,
             height = Screen:scaleBySize(50),
             size = 19,
