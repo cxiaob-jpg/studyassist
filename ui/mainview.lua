@@ -857,7 +857,6 @@ function MainView:render_home()
         Widgets.progress(today.goal > 0 and today.answered / today.goal or 0, cw - 2 * Size.padding.default),
     }, { width = cw })
 
-    local third = math.floor((cw - 2 * Size.span.horizontal_default) / 3)
     local half = math.floor((cw - Size.span.horizontal_default) / 2)
     local challenge_w = half
     local recite_w = cw - Size.span.horizontal_default - challenge_w
@@ -870,6 +869,16 @@ function MainView:render_home()
         report_label = "今日总结 ✓"
     else
         report_label = string.format("抽卡（%d/%d）", draw_status.progress, draw_status.need)
+    end
+
+    -- 首页学科按钮跟设置联动：只留当前年级/学期/教材真有题库的科目
+    -- （一年级没有英语课本、小学没有物理化学，就不显示，也不再点进去才提示暂无）
+    local home_settings = self.progress.data.settings
+    local home_grade = tonumber(home_settings.grade) or 2
+    local home_semester = home_settings.semester
+    local home_subjects = {}
+    for _, entry in ipairs(Session.subjects_for(self.plugin_path, home_grade, home_semester, home_settings)) do
+        table.insert(home_subjects, entry.subject)
     end
 
     -- The home page must fit on one screen: no vertical scrolling, and no
@@ -892,68 +901,29 @@ function MainView:render_home()
                 callback = function() self:render_recite_menu() end,
             }),
         }
-        local subject_row = HorizontalGroup:new{
-            align = "center",
-            Widgets.button("语文", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("chinese") end,
-            }),
-            Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("数学", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("math") end,
-            }),
-            Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("英语", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("english") end,
-            }),
-        }
-        local subject_row_2 = HorizontalGroup:new{
-            align = "center",
-            Widgets.button("物理", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("physics") end,
-            }),
-            Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("化学", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("chemistry") end,
-            }),
-            Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("生物", {
-                width = third,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("biology") end,
-            }),
-        }
-        local subject_row_3 = HorizontalGroup:new{
-            align = "center",
-            Widgets.button("历史", {
-                width = half,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("history") end,
-            }),
-            Widgets.hspace(Size.span.horizontal_default),
-            Widgets.button("地理", {
-                width = half,
-                height = Screen:scaleBySize(h.subj),
-                size = 22,
-                callback = function() self:render_unit_select("geography") end,
-            }),
-        }
+        -- 学科按钮：按当前年级/教材实际有题库的科目动态生成（2 个就两个大半宽，
+        -- 4 个两行两列，其余一行三个），每行按钮均分整行宽度
+        local subject_rows = {}
+        local cols = math.min(3, #home_subjects)
+        if #home_subjects == 4 then cols = 2 end
+        if cols < 1 then cols = 1 end
+        for start = 1, #home_subjects, cols do
+            local last = math.min(start + cols - 1, #home_subjects)
+            local k = last - start + 1
+            local w = math.floor((cw - (k - 1) * Size.span.horizontal_default) / k)
+            local row = HorizontalGroup:new{ align = "center" }
+            for i = start, last do
+                local subject = home_subjects[i]
+                if i > start then table.insert(row, Widgets.hspace(Size.span.horizontal_default)) end
+                table.insert(row, Widgets.button(SUBJECT_LABEL[subject] or subject, {
+                    width = w,
+                    height = Screen:scaleBySize(h.subj),
+                    size = 22,
+                    callback = function() self:render_unit_select(subject) end,
+                }))
+            end
+            table.insert(subject_rows, row)
+        end
         local tool_row_1 = HorizontalGroup:new{
             align = "center",
             Widgets.button(string.format("错题本（%d）", wrong_count), {
@@ -990,31 +960,37 @@ function MainView:render_home()
                 callback = function() self:render_cards() end,
             }),
         }
-        return VerticalGroup:new{
+        local children = {
             align = "center",
             stats_card,
             Widgets.vspace(Size.span.vertical_large),
             challenge_row,
             Widgets.vspace(Size.span.vertical_default),
-            subject_row,
-            Widgets.vspace(Size.span.vertical_default),
-            subject_row_2,
-            Widgets.vspace(Size.span.vertical_default),
-            subject_row_3,
-            Widgets.vspace(Size.span.vertical_default),
-            Widgets.button("知识点学习", {
-                width = cw,
-                height = Screen:scaleBySize(h.kp),
-                size = 22,
-                callback = function() self:render_kp_subject() end,
-            }),
-            Widgets.vspace(Size.span.vertical_default),
-            tool_row_1,
-            Widgets.vspace(Size.span.vertical_default),
-            tool_row_2,
-            Widgets.vspace(Size.span.vertical_default),
-            tool_row_3,
         }
+        if #subject_rows == 0 then
+            table.insert(children, Widgets.label(
+                "本学习阶段暂无练习题库，可在设置里换年级或教材版本", {
+                    size = 17, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+                }))
+            table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        end
+        for _, row in ipairs(subject_rows) do
+            table.insert(children, row)
+            table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        end
+        table.insert(children, Widgets.button("知识点学习", {
+            width = cw,
+            height = Screen:scaleBySize(h.kp),
+            size = 22,
+            callback = function() self:render_kp_subject() end,
+        }))
+        table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        table.insert(children, tool_row_1)
+        table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        table.insert(children, tool_row_2)
+        table.insert(children, Widgets.vspace(Size.span.vertical_default))
+        table.insert(children, tool_row_3)
+        return VerticalGroup:new(children)
     end
 
     local available = Screen:getHeight() - self.title_bar:getSize().h - 2 * Size.padding.fullscreen
