@@ -1,0 +1,3313 @@
+{
+ "schema_version": 1,
+ "generated_by": "toc mapping batch4: tongbian g7l",
+ "source": {
+  "site": "统编版语文下册目录（cn-math-taxonomy）",
+  "fetched": "2026-11-19"
+ },
+ "subject": "chinese",
+ "grade": 7,
+ "semester": "lower",
+ "edition": "tongbian",
+ "edition_label": "统编版（2025春）",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 群星闪耀"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 家国情怀"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 凡人小事"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 修身正己"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元 哲理之思"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元 科学探索"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnc_j030",
+   "name": "阅读《邓稼先》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元 群星闪耀",
+   "description": "读懂杨振宁笔下的邓稼先：小标题、与奥本海默的对比，以及「我不能走」。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《邓稼先》的作者是谁？",
+    "answer": "杨振宁"
+   }
+  },
+  {
+   "id": "cnc_j031",
+   "name": "阅读《说和做》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元 群星闪耀",
+   "description": "分清闻一多作为学者和作为革命家时，「说」与「做」的不同。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《说和做——记闻一多先生言行片段》的作者是谁？",
+    "answer": "臧克家"
+   }
+  },
+  {
+   "id": "cnc_j032",
+   "name": "阅读《列夫·托尔斯泰》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元 群星闪耀",
+   "description": "看出茨威格先写外貌的粗陋，再写目光的锐利，用外貌反衬精神。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "课文《列夫·托尔斯泰》的作者是谁？",
+    "answer": "茨威格"
+   }
+  },
+  {
+   "id": "cnc_j033",
+   "name": "文言文《孙权劝学》",
+   "domain": "文言文阅读",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元 群星闪耀",
+   "description": "读懂司马光《孙权劝学》：孙权为什么劝，吕蒙有什么变化，鲁肃怎样反应。",
+   "mastery_criteria": [
+    "能借助注释说出文章大意",
+    "能指出常见文言虚词、实词在句中的意思"
+   ],
+   "example": {
+    "question": "《孙权劝学》选自哪一部书？",
+    "answer": "《资治通鉴》"
+   }
+  },
+  {
+   "id": "cnc_j034",
+   "name": "写作：写出人物特点",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第1单元 群星闪耀",
+   "description": "用外貌、动作、语言或对比写出特点，让读者看见这个人，而不是只给一个评语。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "「写出人物特点」最怕哪一种写法？",
+    "answer": "只有「他很伟大」这类评语，没有一件具体的事"
+   }
+  },
+  {
+   "id": "cnc_j035",
+   "name": "黄河颂与土地的誓言",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u2",
+   "unit_name": "第2单元 家国情怀",
+   "description": "读懂光未然《黄河颂》里的摇篮和屏障，以及端木蕻良对东北故乡的呼告。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《黄河颂》的歌词作者是谁？",
+    "answer": "光未然"
+   }
+  },
+  {
+   "id": "cnc_j036",
+   "name": "老山界与谁是最可爱的人",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u2",
+   "unit_name": "第2单元 家国情怀",
+   "description": "分清陆定一写的红军翻越老山界，和魏巍写的志愿军三个事例。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《老山界》的作者是谁？",
+    "answer": "陆定一"
+   }
+  },
+  {
+   "id": "cnc_j037",
+   "name": "古诗《木兰诗》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元 家国情怀",
+   "description": "背诵《木兰诗》的关键段落，理解互文和木兰归乡后的选择。",
+   "mastery_criteria": [
+    "能背出本课要求积累的诗句",
+    "能分清作者、诗题和名句，不把字句记错"
+   ],
+   "example": {
+    "question": "「万里赴戎机，关山度若飞」出自哪一首诗？",
+    "answer": "《木兰诗》"
+   }
+  },
+  {
+   "id": "cnc_j038",
+   "name": "写作：学习抒情",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元 家国情怀",
+   "description": "把感情放进具体的景物、事情和称呼里，避免只有口号。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "「学习抒情」更提倡哪一种写法？",
+    "answer": "把感情寄托在具体的景物或事情上"
+   }
+  },
+  {
+   "id": "cnc_j039",
+   "name": "专题：我的语文生活",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元 家国情怀",
+   "description": "能在招牌、对联和短视频脚本里注意语言文字用得是否准确、得体。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "2024 年版「我的语文生活」用哪一项替换了原来的「写广告词」？",
+    "answer": "制作短视频"
+   }
+  },
+  {
+   "id": "cnc_j040",
+   "name": "阅读《阿长与山海经》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "读懂鲁迅对长妈妈的感情变化，以及《山海经》这件事为什么重要。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《阿长与〈山海经〉》的作者是谁？",
+    "answer": "鲁迅"
+   }
+  },
+  {
+   "id": "cnc_j041",
+   "name": "山地回忆与台阶",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "读懂孙犁《山地回忆》里的袜子，和李森祥《台阶》里父亲造屋的心愿。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《山地回忆》的作者是谁？",
+    "answer": "孙犁"
+   }
+  },
+  {
+   "id": "cnc_j042",
+   "name": "文言文《卖油翁》",
+   "domain": "文言文阅读",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "读懂欧阳修《卖油翁》：自矜的射箭和「惟手熟尔」的酌油。",
+   "mastery_criteria": [
+    "能借助注释说出文章大意",
+    "能指出常见文言虚词、实词在句中的意思"
+   ],
+   "example": {
+    "question": "《卖油翁》的作者是谁？",
+    "answer": "欧阳修"
+   }
+  },
+  {
+   "id": "cnc_j043",
+   "name": "写作：抓住细节",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "用动作、语言、神态或物件的细部写人写事，不用抽象评语代替。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "下面哪一句是细节？",
+    "answer": "父亲拇指的裂口又张开了一点，他还是把那块石头抱上了台阶。"
+   }
+  },
+  {
+   "id": "cnc_j044",
+   "name": "整本书《骆驼祥子》",
+   "domain": "名著阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "知道老舍《骆驼祥子》的人物和悲剧，并会用圈点、批注、做笔记来读。",
+   "mastery_criteria": [
+    "能说出这部名著的作者、主要人物或主要内容",
+    "能把情节和人物对应起来，不张冠李戴"
+   ],
+   "example": {
+    "question": "《骆驼祥子》的作者是谁？",
+    "answer": "老舍"
+   }
+  },
+  {
+   "id": "cnc_j045",
+   "name": "课外古诗词四首（上）",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元 凡人小事",
+   "description": "分清《竹里馆》《春夜洛城闻笛》《逢入京使》《晚春》的作者和情感。",
+   "mastery_criteria": [
+    "能背出本课要求积累的诗句",
+    "能分清作者、诗题和名句，不把字句记错"
+   ],
+   "example": {
+    "question": "「独坐幽篁里，弹琴复长啸」的作者是谁？",
+    "answer": "王维"
+   }
+  },
+  {
+   "id": "cnc_j046",
+   "name": "驿路梨花与青春之光",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第4单元 修身正己",
+   "description": "读懂彭荆风《驿路梨花》里小屋的传递，和祝红蕾《青春之光》里黄文秀的担当。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《驿路梨花》的作者是谁？",
+    "answer": "彭荆风"
+   }
+  },
+  {
+   "id": "cnc_j047",
+   "name": "阅读《有为有不为》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第4单元 修身正己",
+   "description": "读懂季羡林的观点：做人要有原则，有的事必须做，有的事坚决不做。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《有为有不为》的作者是谁？",
+    "answer": "季羡林"
+   }
+  },
+  {
+   "id": "cnc_j048",
+   "name": "陋室铭与爱莲说",
+   "domain": "文言文阅读",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第4单元 修身正己",
+   "description": "读懂刘禹锡《陋室铭》的德馨，和周敦颐《爱莲说》里菊、牡丹、莲的对比。",
+   "mastery_criteria": [
+    "能借助注释说出文章大意",
+    "能指出常见文言虚词、实词在句中的意思"
+   ],
+   "example": {
+    "question": "《陋室铭》的作者是谁？",
+    "answer": "刘禹锡"
+   }
+  },
+  {
+   "id": "cnc_j049",
+   "name": "写作：怎样选材",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元 修身正己",
+   "description": "围绕中心选择真实、典型的材料，把和中心无关的内容删去。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "选材首先要看材料跟什么的关系？",
+    "answer": "跟中心的关系"
+   }
+  },
+  {
+   "id": "cnc_j050",
+   "name": "专题：孝亲敬老，传承家风",
+   "domain": "习作基础",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元 修身正己",
+   "description": "能用家里的具体事情说明什么是孝、什么是家风，并说得让别人听得见。",
+   "mastery_criteria": [
+    "能判断哪一段更符合本次写作要求",
+    "能指出材料、中心或顺序上的明显问题"
+   ],
+   "example": {
+    "question": "这个专题学习活动的名称是什么？",
+    "answer": "孝亲敬老，传承家风"
+   }
+  },
+  {
+   "id": "cnc_j051",
+   "name": "托物言志两篇",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第5单元 哲理之思",
+   "description": "比较袁鹰《井冈翠竹》和宗璞《紫藤萝瀑布》：物不同，寄托的感情也不同。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《紫藤萝瀑布》的作者是谁？",
+    "answer": "宗璞"
+   }
+  },
+  {
+   "id": "cnc_j052",
+   "name": "外国诗二首",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第5单元 哲理之思",
+   "description": "读懂普希金《假如生活欺骗了你》和弗罗斯特《未选择的路》各自要说的话。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《假如生活欺骗了你》的作者是谁？",
+    "answer": "普希金"
+   }
+  },
+  {
+   "id": "cnc_j053",
+   "name": "古代诗歌五首",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元 哲理之思",
+   "description": "分清《登幽州台歌》《望岳》《登飞来峰》《游山西村》《己亥杂诗》（其五）的作者、名句和情感。",
+   "mastery_criteria": [
+    "能背出本课要求积累的诗句",
+    "能分清作者、诗题和名句，不把字句记错"
+   ],
+   "example": {
+    "question": "「前不见古人，后不见来者」的作者是谁？",
+    "answer": "陈子昂"
+   }
+  },
+  {
+   "id": "cnc_j054",
+   "name": "句子：语言要简明",
+   "domain": "句子",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第5单元 哲理之思",
+   "description": "删去重复，消除歧义，使句子既简练又明白。",
+   "mastery_criteria": [
+    "能指出句子使用的修辞或层次关系",
+    "能判断哪一句更通顺、更得体"
+   ],
+   "example": {
+    "question": "「语言要简明」里的「简」和「明」分别指什么？",
+    "answer": "简练，明白"
+   }
+  },
+  {
+   "id": "cnc_j055",
+   "name": "整本书《钢铁是怎样炼成的》",
+   "domain": "名著阅读",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元 哲理之思",
+   "description": "知道奥斯特洛夫斯基和保尔·柯察金，并把圈点、批注用到这本自主阅读上。",
+   "mastery_criteria": [
+    "能说出这部名著的作者、主要人物或主要内容",
+    "能把情节和人物对应起来，不张冠李戴"
+   ],
+   "example": {
+    "question": "《钢铁是怎样炼成的》的主人公是谁？",
+    "answer": "保尔·柯察金"
+   }
+  },
+  {
+   "id": "cnc_j056",
+   "name": "太空一日与蛟龙探海",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u6",
+   "unit_name": "第6单元 科学探索",
+   "description": "分清杨利伟的真实航天记述和许晨关于「蛟龙」号的报告文学。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《太空一日》的作者是谁？",
+    "answer": "杨利伟"
+   }
+  },
+  {
+   "id": "cnc_j057",
+   "name": "阅读《带上她的眼睛》",
+   "domain": "阅读理解",
+   "kp_type": "reasoning",
+   "unit": "u6",
+   "unit_name": "第6单元 科学探索",
+   "description": "读懂刘慈欣这篇科幻：被困地心的航天员，借传感设备最后看一眼地面的春天。",
+   "mastery_criteria": [
+    "能根据课文选出和文字一致的信息",
+    "能说出文章的主要内容和思想感情"
+   ],
+   "example": {
+    "question": "《带上她的眼睛》的作者是谁？",
+    "answer": "刘慈欣"
+   }
+  },
+  {
+   "id": "cnc_j058",
+   "name": "文言文《活板》",
+   "domain": "文言文阅读",
+   "kp_type": "reasoning",
+   "unit": "u6",
+   "unit_name": "第6单元 科学探索",
+   "description": "读懂沈括《活板》：毕昇的胶泥活字、两板轮换，以及为什么不用木头。",
+   "mastery_criteria": [
+    "能借助注释说出文章大意",
+    "能指出常见文言虚词、实词在句中的意思"
+   ],
+   "example": {
+    "question": "《活板》的作者是谁？",
+    "answer": "沈括"
+   }
+  },
+  {
+   "id": "cnc_j059",
+   "name": "课外古诗词四首（下）",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元 科学探索",
+   "description": "分清《泊秦淮》《贾生》《过松源晨炊漆公店》（其五）、《约客》的作者、名句和用意。",
+   "mastery_criteria": [
+    "能背出本课要求积累的诗句",
+    "能分清作者、诗题和名句，不把字句记错"
+   ],
+   "example": {
+    "question": "「商女不知亡国恨，隔江犹唱后庭花」的作者是谁？",
+    "answer": "杜牧"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnc_j030_q1",
+   "topic": "cnc_j030",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《邓稼先》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《邓稼先》的作者是谁？",
+   "explain": "文章是杨振宁写同学、朋友邓稼先。邓稼先是被写的人。",
+   "answer_mode": "choice",
+   "options": [
+    "邓稼先",
+    "臧克家",
+    "茨威格",
+    "杨振宁"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j030_q2",
+   "topic": "cnc_j030",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《邓稼先》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "文中用奥本海默来对比，是为了突出邓稼先的哪种品格？",
+   "explain": "奥本海默被写成锋芒毕露。邓稼先最不要引人注目，却担当最危险的事。",
+   "answer_mode": "choice",
+   "options": [
+    "忠厚平实，不爱出风头，把功劳留给集体",
+    "锋芒毕露，处处要压过别人",
+    "只懂理论，不肯进试验场",
+    "和奥本海默是同一种性格"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j030_q3",
+   "topic": "cnc_j030",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《邓稼先》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "「我不能走」发生在什么时候？",
+   "explain": "一句很短的话，写在危险时刻，看出他的责任。",
+   "answer_mode": "choice",
+   "options": [
+    "他拒绝接受研制任务",
+    "核试验出现意外，他让别人留下，自己上前查看",
+    "他在颁奖台上的致辞",
+    "他决定离开祖国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j030_q4",
+   "topic": "cnc_j030",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《邓稼先》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种说法和课文的写法一致？",
+   "explain": "课文是回忆性散文，用板块组织材料。「两弹」指原子弹和氢弹。",
+   "answer_mode": "choice",
+   "options": [
+    "这是一部长篇小说的第一章",
+    "作者把邓稼先写成反面人物",
+    "文章用几个小标题分头写贡献、比较、情感，不是编一个虚构情节",
+    "「两弹」在文中指两支步枪"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j031_q1",
+   "topic": "cnc_j031",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《说和做》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《说和做——记闻一多先生言行片段》的作者是谁？",
+   "explain": "臧克家记老师闻一多。闻一多是文中的人物。",
+   "answer_mode": "choice",
+   "options": [
+    "臧克家",
+    "杨振宁",
+    "闻一多",
+    "魏巍"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j031_q2",
+   "topic": "cnc_j031",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《说和做》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "作为学者的闻一多，课文用哪两句话来概括？",
+   "explain": "前半写他治学：十年艰难，一部《校补》，自己却很少宣扬。",
+   "answer_mode": "choice",
+   "options": [
+    "说了就做，说了也做",
+    "做了再说，做了不说",
+    "只说不做",
+    "先承诺，再拖延"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j031_q3",
+   "topic": "cnc_j031",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《说和做》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "作为革命家的闻一多，和作为学者时最大的不同是什么？",
+   "explain": "后半写起稿、讲演、走出大会场。这时是「说」了就「做」。",
+   "answer_mode": "choice",
+   "options": [
+    "他从此不再说话，也不再做事",
+    "他放弃了学术，也放弃了行动",
+    "他公开说，并且立刻去做，最后一次讲演就是例子",
+    "他只在课堂上默写杜甫"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j031_q4",
+   "topic": "cnc_j031",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《说和做》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "结尾「他，是口的巨人。他，是行的高标」怎样理解才和全文一致？",
+   "explain": "学者阶段做了不说，革命家阶段说了就做。结尾赞的是说与做都站得高，不是批评。",
+   "answer_mode": "choice",
+   "options": [
+    "他只会说话，不会做事",
+    "他是口吃的人，所以叫口的巨人",
+    "这句话在批评他言行不一",
+    "言论和行动都高，而且两者统一"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j032_q1",
+   "topic": "cnc_j032",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《列夫·托尔斯泰》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "课文《列夫·托尔斯泰》的作者是谁？",
+   "explain": "这篇肖像散文是茨威格写的。托尔斯泰是被描写的人。",
+   "answer_mode": "choice",
+   "options": [
+    "托尔斯泰",
+    "茨威格",
+    "杨振宁",
+    "臧克家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j032_q2",
+   "topic": "cnc_j032",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《列夫·托尔斯泰》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "作者先写托尔斯泰的长相，给人的第一印象是什么？",
+   "explain": "多毛的脸、宽鼻子、厚嘴唇先出现。赞美留到后面的眼睛。",
+   "answer_mode": "choice",
+   "options": [
+    "英俊、光滑、没有皱纹",
+    "五官小得几乎看不见",
+    "平庸，甚至粗陋",
+    "和普通少年完全一样的学生脸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j032_q3",
+   "topic": "cnc_j032",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《列夫·托尔斯泰》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "「这道目光就像一把锃亮的钢刀」把什么比成了钢刀？",
+   "explain": "目光又稳又准，所以用钢刀作比。这是课文里的明喻。",
+   "answer_mode": "choice",
+   "options": [
+    "他手里的文具",
+    "他的胡子",
+    "窗外的闪电",
+    "托尔斯泰的目光"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j032_q4",
+   "topic": "cnc_j032",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "阅读《列夫·托尔斯泰》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种说法和课文的写法一致？",
+   "explain": "外貌和眼睛是对照，不是用外貌否定精神。体裁也不是他的自传小说。",
+   "answer_mode": "choice",
+   "options": [
+    "先抑后扬：丑陋的外貌反衬出眼睛里的精神力量",
+    "全文只夸他的衣服",
+    "作者认为外貌丑陋的人精神也低下",
+    "这篇是托尔斯泰写自己童年的小说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j033_q1",
+   "topic": "cnc_j033",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "文言文《孙权劝学》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "《孙权劝学》选自哪一部书？",
+   "explain": "这件事记在司马光主编的《资治通鉴》里。",
+   "answer_mode": "choice",
+   "options": [
+    "《论语》",
+    "《世说新语》",
+    "《资治通鉴》",
+    "《聊斋志异》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j033_q2",
+   "topic": "cnc_j033",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "文言文《孙权劝学》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "孙权劝吕蒙学习，主要理由是什么？",
+   "explain": "「卿今当涂掌事，不可不学」。孙权说自己并非要他当博士，只是要他粗读、了解往事。",
+   "answer_mode": "choice",
+   "options": [
+    "要他立刻去做博士，专治一部经书",
+    "读书会耽误打仗，所以不要学",
+    "鲁肃已经比他强，不必再学",
+    "他现在掌事，不能以军中事务多为借口"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j033_q3",
+   "topic": "cnc_j033",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "文言文《孙权劝学》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 2,
+   "stem": "「卿今者才略，非复吴下阿蒙」是谁对谁说的？",
+   "explain": "鲁肃和吕蒙论议之后大惊，才说出这句。后一句「刮目相待」才是吕蒙说的。",
+   "answer_mode": "choice",
+   "options": [
+    "鲁肃对吕蒙",
+    "孙权对吕蒙",
+    "吕蒙对孙权",
+    "吕蒙对鲁肃"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j033_q4",
+   "topic": "cnc_j033",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "文言文《孙权劝学》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 3,
+   "stem": "「但当涉猎，见往事耳」里的「涉猎」是什么意思？",
+   "explain": "孙权不要吕蒙钻研成博士，只要求他广泛、粗略地读，了解历史。",
+   "answer_mode": "choice",
+   "options": [
+    "到山里打猎",
+    "粗略地阅读",
+    "把书烧掉",
+    "把职务辞掉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j034_q1",
+   "topic": "cnc_j034",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "写作：写出人物特点",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "「写出人物特点」最怕哪一种写法？",
+   "explain": "特点要靠事例看见。空评语还没有写出人。",
+   "answer_mode": "choice",
+   "options": [
+    "用一件事表现他的一个特点",
+    "写他说的一句有个性的话",
+    "写他在危险时做一个别人不肯做的动作",
+    "只有「他很伟大」这类评语，没有一件具体的事"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j034_q2",
+   "topic": "cnc_j034",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "写作：写出人物特点",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "要表现「责任心强」，哪一段更符合？",
+   "explain": "第一段有动作，责任心是做出来的。年龄和籍贯不能代替特点。",
+   "answer_mode": "choice",
+   "options": [
+    "伞降试验出了意外，他把别人拦在后面，自己先走到弹坑边。",
+    "他是一个有责任心的人。",
+    "他今年四十五岁。",
+    "他的家乡在安徽。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j034_q3",
+   "topic": "cnc_j034",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "写作：写出人物特点",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "《列夫·托尔斯泰》对写作的一个直接启发是什么？",
+   "explain": "课文的外貌并不「全面」，但眼睛这一处足以托出人物。",
+   "answer_mode": "choice",
+   "options": [
+    "写人只能写优点，不能写缺点",
+    "可以先写并不漂亮的外貌，再用一处细节托出精神",
+    "外貌必须从头发写到鞋子，一处都不能少",
+    "人物不能说话"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j034_q4",
+   "topic": "cnc_j034",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "写作：写出人物特点",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种对比没有帮助读者认识人物？",
+   "explain": "对比的两边都要有内容。凭空点一个名字，主角的特点仍然没有写出来。",
+   "answer_mode": "choice",
+   "options": [
+    "用奥本海默的锋芒对照邓稼先的平实",
+    "用「说了不做」对照闻一多后来的「说了就做」",
+    "拿一个从未出现、也没有任何事迹的人来比，比完仍不知道主角做了什么",
+    "用粗鲁的长相对照锐利的目光"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j035_q1",
+   "topic": "cnc_j035",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "黄河颂与土地的誓言",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《黄河颂》的歌词作者是谁？",
+   "explain": "光未然写词。冼星海为《黄河大合唱》谱曲，不是这首歌词的作者。",
+   "answer_mode": "choice",
+   "options": [
+    "光未然",
+    "冼星海",
+    "端木蕻良",
+    "魏巍"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j035_q2",
+   "topic": "cnc_j035",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "黄河颂与土地的誓言",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "歌词里，「中华民族的摇篮」指的是什么？",
+   "explain": "「啊！黄河！你是中华民族的摇篮！」文化从这里发源。",
+   "answer_mode": "choice",
+   "options": [
+    "一条无名小溪",
+    "黄河",
+    "东北的黑土地",
+    "老山界"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j035_q3",
+   "topic": "cnc_j035",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "黄河颂与土地的誓言",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "《土地的誓言》的作者用什么方式对土地说话？",
+   "explain": "端木蕻良写的是沦陷后对东北土地的誓言，语气激烈，对着土地呼喊。",
+   "answer_mode": "choice",
+   "options": [
+    "用实验报告列出土壤成分",
+    "请黄河代替自己发言",
+    "用第二人称直接呼告，发誓为故乡战斗到底",
+    "通篇没有感情，只写路程"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j035_q4",
+   "topic": "cnc_j035",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "黄河颂与土地的誓言",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "两篇都有强烈的感情，差别在哪里？",
+   "explain": "作者、对象和具体感情都不同，不能并成一篇。",
+   "answer_mode": "choice",
+   "options": [
+    "两篇都是光未然写的歌词",
+    "《土地的誓言》写的是黄河上船夫",
+    "《黄河颂》是一篇文言文",
+    "《黄河颂》歌颂黄河孕育和保卫民族；《土地的誓言》抒发对沦陷故乡的眷恋和誓言"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j036_q1",
+   "topic": "cnc_j036",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "老山界与谁是最可爱的人",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《老山界》的作者是谁？",
+   "explain": "《老山界》写红军长征。《谁是最可爱的人》是魏巍写志愿军。",
+   "answer_mode": "choice",
+   "options": [
+    "魏巍",
+    "陆定一",
+    "光未然",
+    "端木蕻良"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j036_q2",
+   "topic": "cnc_j036",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "老山界与谁是最可爱的人",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《谁是最可爱的人》里，作者用来回答题目的人是谁？",
+   "explain": "题目问谁最可爱，正文用志愿军的事例来回答。",
+   "answer_mode": "choice",
+   "options": [
+    "红军翻越老山界的队伍",
+    "黄河边的船夫",
+    "中国人民志愿军战士",
+    "东北的流亡学生"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j036_q3",
+   "topic": "cnc_j036",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "老山界与谁是最可爱的人",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "松骨峰战斗、马玉祥火中救儿童、战士在防空洞吃雪，这三件事出自哪一篇？",
+   "explain": "三件事都在魏巍这篇通讯里。老山界写的是夜路、火把和露宿。",
+   "answer_mode": "choice",
+   "options": [
+    "《老山界》",
+    "《土地的誓言》",
+    "《木兰诗》",
+    "《谁是最可爱的人》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j036_q4",
+   "topic": "cnc_j036",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "老山界与谁是最可爱的人",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种说法把两篇的时间弄混了？",
+   "explain": "老山界在长征。志愿军的三件事在抗美援朝。说反了的那一项和课文不符。",
+   "answer_mode": "choice",
+   "options": [
+    "《老山界》写抗美援朝，《谁是最可爱的人》写红军长征",
+    "《老山界》写长征中第一座难走的高山",
+    "《谁是最可爱的人》写抗美援朝中的志愿军",
+    "老山界写到半夜在山腰露宿，看见星星"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j037_q1",
+   "topic": "cnc_j037",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "古诗《木兰诗》",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「万里赴戎机，关山度若飞」出自哪一首诗？",
+   "explain": "这是《木兰诗》里概括征途的句子。",
+   "answer_mode": "choice",
+   "options": [
+    "《黄河颂》",
+    "《观沧海》",
+    "《木兰诗》",
+    "《石壕吏》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j037_q2",
+   "topic": "cnc_j037",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "古诗《木兰诗》",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭」用了什么写法？",
+   "explain": "东西南北是互文。装备是一起置办的。",
+   "answer_mode": "choice",
+   "options": [
+    "说明东市只有马，其他市不卖马",
+    "写木兰一天只买到一根鞭子",
+    "写她在四个城市各住了一年",
+    "互文，是说跑遍各处备齐出征用具，不是每样东西只在一个市买"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j037_q3",
+   "topic": "cnc_j037",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "古诗《木兰诗》",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 2,
+   "stem": "「将军百战死，壮士十年归」怎样理解？",
+   "explain": "互文把「百战」和「十年」、「死」和「归」合在一起说。",
+   "answer_mode": "choice",
+   "options": [
+    "将士们多年征战，有的战死，有的归来，不是将军全死、壮士全归",
+    "将军死了十次",
+    "壮士出门十年只打了一仗",
+    "这句话写的是木兰在家织布"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j037_q4",
+   "topic": "cnc_j037",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "古诗《木兰诗》",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 3,
+   "stem": "木兰得胜回来后的选择是什么？",
+   "explain": "「木兰不用尚书郎，愿驰千里足，送儿还故乡。」回家后换回女儿装，伙伴才大惊。",
+   "answer_mode": "choice",
+   "options": [
+    "留在朝廷指挥下一场战争",
+    "不愿留在朝中做官，请求回到故乡",
+    "隐瞒自己回来了",
+    "从此改名，再也不见家人"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j038_q1",
+   "topic": "cnc_j038",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "写作：学习抒情",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "「学习抒情」更提倡哪一种写法？",
+   "explain": "《黄河颂》的爱是通过黄河的形象唱出来的。空口号还没有抒情。",
+   "answer_mode": "choice",
+   "options": [
+    "连续写十句「我爱」而不写看见了什么",
+    "抄一段议论文的论点",
+    "只写时间、地点，不写感受",
+    "把感情寄托在具体的景物或事情上"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j038_q2",
+   "topic": "cnc_j038",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "写作：学习抒情",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "哪一段更像在抒情？",
+   "explain": "有景物、有自己身体上的反应，感情才落下来。",
+   "answer_mode": "choice",
+   "options": [
+    "风把雨点打在窗上，我想起还没有实现的诺言，喉咙忽然紧了一下。",
+    "我很感动。",
+    "今天多云。",
+    "请把作业本交上来。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j038_q3",
+   "topic": "cnc_j038",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "写作：学习抒情",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "《土地的誓言》对这次写作的启发是什么？",
+   "explain": "课文用「你」呼唤土地。痛苦和誓言也是感情。",
+   "answer_mode": "choice",
+   "options": [
+    "抒情文不能出现「你」",
+    "可以对着一个具体对象说话，让誓言有收信人",
+    "感情越强烈，句子就越不必有内容",
+    "抒情只能写高兴，不能写痛苦"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j038_q4",
+   "topic": "cnc_j038",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "写作：学习抒情",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种修改把空洞的抒情变具体了？",
+   "explain": "具体的河和桥上的感觉，读者才能感到爱。重复和购物清单都没有做到。",
+   "answer_mode": "choice",
+   "options": [
+    "把「我爱家乡」重复五遍",
+    "删掉所有景物，只留标语",
+    "把「我爱家乡」改成家乡一条河在冬天的样子，以及自己站在桥上的感觉",
+    "改成一份没有感情的购物清单"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j039_q1",
+   "topic": "cnc_j039",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "专题：我的语文生活",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "2024 年版「我的语文生活」用哪一项替换了原来的「写广告词」？",
+   "explain": "人教社的修订说明写明：原来的「我来写广告词」换成了「制作短视频」。",
+   "answer_mode": "choice",
+   "options": [
+    "制作短视频",
+    "默写古诗",
+    "做一套数学卷",
+    "观察细胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j039_q2",
+   "topic": "cnc_j039",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "专题：我的语文生活",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "「正眼看招牌」主要看什么？",
+   "explain": "这项活动连着国家通用语言文字的使用，重点是字和意思。",
+   "answer_mode": "choice",
+   "options": [
+    "招牌的价格越贵越好",
+    "招牌上的字是否规范、意思是否明白",
+    "只看招牌的颜色好不好看，不看字",
+    "把招牌全部改成外文"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j039_q3",
+   "topic": "cnc_j039",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "专题：我的语文生活",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "给短视频写解说，哪一句更合格？",
+   "explain": "教材要求解说简洁、清楚、有感染力，而且要和画面一起设计。",
+   "answer_mode": "choice",
+   "options": [
+    "解说越长越好，不必和画面有关。",
+    "画面上写什么，嘴里就重复十遍。",
+    "旁白要短，先说清这件事，再说自己的看法。",
+    "解说可以不用完整的句子，别人猜就行。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j039_q4",
+   "topic": "cnc_j039",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "专题：我的语文生活",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种对联不符合「最美对联」这项活动的要求？",
+   "explain": "对联要字数相等、意思相关。修订说明还鼓励有兴趣的同学自己创作并书写。",
+   "answer_mode": "choice",
+   "options": [
+    "上下联字数相等，词性大体相对",
+    "内容健康，和张贴的场合相称",
+    "有兴趣的同学可以自己写一副，再用毛笔写出来",
+    "上下联意思毫不相关，字数也不相等"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j040_q1",
+   "topic": "cnc_j040",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "阅读《阿长与山海经》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《阿长与〈山海经〉》的作者是谁？",
+   "explain": "这篇收在《朝花夕拾》里，作者是鲁迅。",
+   "answer_mode": "choice",
+   "options": [
+    "孙犁",
+    "鲁迅",
+    "李森祥",
+    "老舍"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j040_q2",
+   "topic": "cnc_j040",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "阅读《阿长与山海经》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "长妈妈把《山海经》叫成什么？",
+   "explain": "「哥儿，有画儿的『三哼经』，我给你买来了。」她叫不出准确的书名。",
+   "answer_mode": "choice",
+   "options": [
+    "山海图",
+    "连环画",
+    "三哼经",
+    "百家姓"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j040_q3",
+   "topic": "cnc_j040",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "阅读《阿长与山海经》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "作者对长妈妈的感情，前后怎样变化？",
+   "explain": "睡相、规矩和隐鼠让他厌烦；买来渴慕已久的书，才让他产生新的敬意。",
+   "answer_mode": "choice",
+   "options": [
+    "从头到尾只有厌烦",
+    "从敬佩开始，以吵架结束",
+    "两人从未见过面",
+    "从厌烦、不大佩服，到因买书而产生敬意，再到怀念"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j040_q4",
+   "topic": "cnc_j040",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "阅读《阿长与山海经》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一句和课文的结尾一致？",
+   "explain": "结尾是祝祷。买书的是长妈妈，不是三味书屋的先生。",
+   "answer_mode": "choice",
+   "options": [
+    "作者愿仁厚的地母安放她的魂灵",
+    "作者决定不再提这个人",
+    "长妈妈自己写下了《山海经》",
+    "这本书是寿镜吾先生买的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j041_q1",
+   "topic": "cnc_j041",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "山地回忆与台阶",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《山地回忆》的作者是谁？",
+   "explain": "《山地回忆》是孙犁的。《台阶》是李森祥的。",
+   "answer_mode": "choice",
+   "options": [
+    "李森祥",
+    "鲁迅",
+    "孙犁",
+    "彭荆风"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j041_q2",
+   "topic": "cnc_j041",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "山地回忆与台阶",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《山地回忆》用来串起「我」和妞儿交往的东西是什么？",
+   "explain": "河边相遇后，妞儿给「我」做袜子。后来的几件事仍绕着这双袜子。",
+   "answer_mode": "choice",
+   "options": [
+    "一座九级台阶",
+    "一本《山海经》",
+    "一间小茅屋",
+    "一双袜子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j041_q3",
+   "topic": "cnc_j041",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "山地回忆与台阶",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "《台阶》里，父亲为什么非要造一座台阶更高的新屋？",
+   "explain": "台阶在文中不只是建筑，它连着父亲对尊严的理解。",
+   "answer_mode": "choice",
+   "options": [
+    "他觉得台阶低就没有地位，造高台阶是一辈子的心愿",
+    "他想把房子卖掉",
+    "他讨厌自己的儿子",
+    "村里规定每家必须盖九层楼"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j041_q4",
+   "topic": "cnc_j041",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "山地回忆与台阶",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种说法把两篇弄混了？",
+   "explain": "袜子和妞儿属于孙犁那篇。九级台阶和父亲属于李森祥那篇。",
+   "answer_mode": "choice",
+   "options": [
+    "《山地回忆》的背景是抗日战争时期的山地",
+    "《台阶》写抗战时期妞儿给战士做袜子；《山地回忆》写父亲砌九级台阶",
+    "《台阶》写父亲造好新屋后反而老了、坐着不自在",
+    "妞儿泼辣，但愿意帮「我」"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j042_q1",
+   "topic": "cnc_j042",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "文言文《卖油翁》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "《卖油翁》的作者是谁？",
+   "explain": "这篇笔记选自欧阳修的《归田录》。",
+   "answer_mode": "choice",
+   "options": [
+    "蒲松龄",
+    "司马光",
+    "诸葛亮",
+    "欧阳修"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j042_q2",
+   "topic": "cnc_j042",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "文言文《卖油翁》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "卖油翁看陈尧咨射箭，给出的评价是什么？",
+   "explain": "「无他，但手熟尔。」他自己酌油时也说「惟手熟尔」。",
+   "answer_mode": "choice",
+   "options": [
+    "没有别的，只是手熟",
+    "这是神力，别人学不会",
+    "箭术很差，不值一看",
+    "只要有名师，不必练习"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j042_q3",
+   "topic": "cnc_j042",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "文言文《卖油翁》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 2,
+   "stem": "「以钱覆其口，徐以杓酌油沥之」的结果是什么？",
+   "explain": "这个表演说明熟练来自反复练习，不是来自自夸。",
+   "answer_mode": "choice",
+   "options": [
+    "油全部洒在钱上",
+    "油从铜钱的孔进入葫芦，钱却没有湿",
+    "钱掉进了葫芦",
+    "陈尧咨亲自把油射进钱孔"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j042_q4",
+   "topic": "cnc_j042",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "文言文《卖油翁》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 3,
+   "stem": "「康肃笑而遣之」的「遣」是什么意思？",
+   "explain": "陈尧咨最后笑着让老人离开，没有惩罚他。自矜在事实面前松动了。",
+   "answer_mode": "choice",
+   "options": [
+    "杀死",
+    "聘请他做老师",
+    "打发他走",
+    "和他比武"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j043_q1",
+   "topic": "cnc_j043",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "写作：抓住细节",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "下面哪一句是细节？",
+   "explain": "裂口和抱石头是看得见的。后三句是判断或说明，没有细节。",
+   "answer_mode": "choice",
+   "options": [
+    "父亲拇指的裂口又张开了一点，他还是把那块石头抱上了台阶。",
+    "父亲很伟大。",
+    "父亲是个农民。",
+    "这篇文章写父亲。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j043_q2",
+   "topic": "cnc_j043",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "写作：抓住细节",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "《阿长与〈山海经〉》里，哪一种内容属于细节？",
+   "explain": "说错的书名和递书的动作，比「好人」这个评语更具体。",
+   "answer_mode": "choice",
+   "options": [
+    "作者说她是一个好人",
+    "她把书名说成「三哼经」，并把书放到「我」面前",
+    "书很厚",
+    "鲁迅是作家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j043_q3",
+   "topic": "cnc_j043",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "写作：抓住细节",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "写「一次误会」，哪一段抓住了细节？",
+   "explain": "眼神、抽回本子、指节变白，都是这一刻才有的。",
+   "answer_mode": "choice",
+   "options": [
+    "我们发生了误会。",
+    "误会是不好的。",
+    "他看了我一眼，把已经递出的本子又抽回去，指节捏白了。",
+    "后来误会解除了，我们很高兴。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j043_q4",
+   "topic": "cnc_j043",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "写作：抓住细节",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种修改没有把细节写出来？",
+   "explain": "只重复原句，细节仍然没有。声音、短句和表情才是改出来的细节。",
+   "answer_mode": "choice",
+   "options": [
+    "写出她把筷子放下的声音",
+    "写出她说的那句短话",
+    "写出她看见袜子被水冲走时的表情",
+    "把「她很生气」改成「她很生气」，一个字也没换"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j044_q1",
+   "topic": "cnc_j044",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "整本书《骆驼祥子》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 1,
+   "stem": "《骆驼祥子》的作者是谁？",
+   "explain": "祥子是老舍长篇小说里的人力车夫。",
+   "answer_mode": "choice",
+   "options": [
+    "鲁迅",
+    "老舍",
+    "奥斯特洛夫斯基",
+    "曹禺"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j044_q2",
+   "topic": "cnc_j044",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "整本书《骆驼祥子》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 1,
+   "stem": "祥子最大的心愿是什么？",
+   "explain": "买车、丢车、再买再丢，是这本书的主要情节线。",
+   "answer_mode": "choice",
+   "options": [
+    "到西天取得真经",
+    "考中状元",
+    "靠自己拉车，买上一辆属于自己的车",
+    "成为说书人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j044_q3",
+   "topic": "cnc_j044",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "整本书《骆驼祥子》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 2,
+   "stem": "教材为这本书安排的阅读方法是什么？",
+   "explain": "2024 年版把重点导读放在圈点、批注和做笔记上。",
+   "answer_mode": "choice",
+   "options": [
+    "只看目录",
+    "把全书缩成一句话后不再翻书",
+    "随机抽一页，不看前后",
+    "圈点、批注、做笔记"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j044_q4",
+   "topic": "cnc_j044",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "整本书《骆驼祥子》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 3,
+   "stem": "下面哪一项不是这本书要讨论的任务？",
+   "explain": "取经小传属于《西游记》。祥子的任务围绕他的命运、悲剧和洋车夫群体。",
+   "answer_mode": "choice",
+   "options": [
+    "给孙悟空写取经小传",
+    "给祥子写小传",
+    "探究祥子悲剧的原因",
+    "说说旧北京的洋车夫"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j045_q1",
+   "topic": "cnc_j045",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "课外古诗词四首（上）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「独坐幽篁里，弹琴复长啸」的作者是谁？",
+   "explain": "这是王维《竹里馆》。幽篁是深竹林。",
+   "answer_mode": "choice",
+   "options": [
+    "李白",
+    "岑参",
+    "王维",
+    "韩愈"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j045_q2",
+   "topic": "cnc_j045",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "课外古诗词四首（上）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「此夜曲中闻折柳，何人不起故园情」写的是什么情景？",
+   "explain": "折柳常和离别连在一起。这是李白《春夜洛城闻笛》。",
+   "answer_mode": "choice",
+   "options": [
+    "在竹林里独自弹琴",
+    "在马上托人给家里捎口信",
+    "杨花榆荚像雪一样飞",
+    "春夜在洛阳听见笛声，勾起思乡"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j045_q3",
+   "topic": "cnc_j045",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "课外古诗词四首（上）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 2,
+   "stem": "「马上相逢无纸笔，凭君传语报平安」出自谁的哪一首？",
+   "explain": "路上遇见进京的人，没有纸笔，就托他口头报平安。",
+   "answer_mode": "choice",
+   "options": [
+    "岑参《逢入京使》",
+    "王维《竹里馆》",
+    "李白《春夜洛城闻笛》",
+    "韩愈《晚春》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j045_q4",
+   "topic": "cnc_j045",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "课外古诗词四首（上）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 3,
+   "stem": "韩愈《晚春》里，「杨花榆荚无才思，惟解漫天作雪飞」是什么意思？",
+   "explain": "草树知道春要走了，百花争艳。杨花榆荚没有那种才思，只化成一片白。诗的语气有调侃，不是写战场。",
+   "answer_mode": "choice",
+   "options": [
+    "杨花写成了真正的雪，春天还没来",
+    "杨花榆荚不会争芳，只懂得像雪一样满天飞",
+    "诗人在责备柳树不该开花",
+    "这首诗写的是冬天的战场"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j046_q1",
+   "topic": "cnc_j046",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "驿路梨花与青春之光",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《驿路梨花》的作者是谁？",
+   "explain": "《驿路梨花》是彭荆风的小说。《青春之光》是祝红蕾写的。",
+   "answer_mode": "choice",
+   "options": [
+    "祝红蕾",
+    "季羡林",
+    "刘禹锡",
+    "彭荆风"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j046_q2",
+   "topic": "cnc_j046",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "驿路梨花与青春之光",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "小茅屋最初是谁建造的？",
+   "explain": "解放军建造并照料，梨花接着照料，后来是她的妹妹和伙伴。过路人也都添过一把力。",
+   "answer_mode": "choice",
+   "options": [
+    "路过的解放军",
+    "瑶族老人",
+    "「我」和老余",
+    "梨花的妹妹"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j046_q3",
+   "topic": "cnc_j046",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "驿路梨花与青春之光",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "课文标题里的「梨花」包含哪几层意思？",
+   "explain": "花、人和雷锋式的精神叠在同一个标题里。陆游的诗句「驿路梨花处处开」也被用在结尾。",
+   "answer_mode": "choice",
+   "options": [
+    "只是一种水果",
+    "开在驿路上的花、哈尼小姑娘的名字，以及助人的精神",
+    "只是作者的笔名",
+    "一座城市的名字"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j046_q4",
+   "topic": "cnc_j046",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "驿路梨花与青春之光",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "《青春之光》写的黄文秀，主要事迹是什么？",
+   "explain": "祝红蕾写的是新时代青年黄文秀。驻村扶贫和牺牲，是这篇要读者看到的担当。",
+   "answer_mode": "choice",
+   "options": [
+    "在朝廷里写了一篇《爱莲说》",
+    "建造了驿路上的小茅屋",
+    "硕士研究生到乡村任第一书记，在扶贫路上遇山洪牺牲",
+    "研制了原子弹"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j047_q1",
+   "topic": "cnc_j047",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "阅读《有为有不为》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《有为有不为》的作者是谁？",
+   "explain": "这是季羡林的议论文。",
+   "answer_mode": "choice",
+   "options": [
+    "季羡林",
+    "彭荆风",
+    "祝红蕾",
+    "周敦颐"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j047_q2",
+   "topic": "cnc_j047",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "阅读《有为有不为》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "题目「有为有不为」的意思是什么？",
+   "explain": "文章讨论的是取舍，不是「来者不拒」或「一律拒绝」。",
+   "answer_mode": "choice",
+   "options": [
+    "什么事都要做",
+    "有的事应当做，有的事不应当做",
+    "什么事都不要做",
+    "先做了再说，不必有原则"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j047_q3",
+   "topic": "cnc_j047",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "阅读《有为有不为》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "这篇文章的体裁更接近哪一种？",
+   "explain": "季羡林在讲处世的原则，主要表达方式是议论。",
+   "answer_mode": "choice",
+   "options": [
+    "童话，靠情节结尾揭示魔法",
+    "文言铭文，通篇押韵",
+    "议论文，用道理说明原则",
+    "科幻小说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j047_q4",
+   "topic": "cnc_j047",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "阅读《有为有不为》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种做法和文章的观点相反？",
+   "explain": "「有不为」正是要在不该做的地方停住。只顾自己、伤害别人，是文章要否定的。",
+   "answer_mode": "choice",
+   "options": [
+    "面对不义的事能够拒绝",
+    "该承担的责任不推给别人",
+    "知道善恶之后再决定做还是不做",
+    "只要对自己有利，伤害别人也去做"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j048_q1",
+   "topic": "cnc_j048",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "陋室铭与爱莲说",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "《陋室铭》的作者是谁？",
+   "explain": "《陋室铭》是刘禹锡的。《爱莲说》是周敦颐的。",
+   "answer_mode": "choice",
+   "options": [
+    "周敦颐",
+    "刘禹锡",
+    "诸葛亮",
+    "韩愈"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j048_q2",
+   "topic": "cnc_j048",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "陋室铭与爱莲说",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "「斯是陋室，惟吾德馨」的意思是什么？",
+   "explain": "「馨」指品德散布的芳香。陋或不陋，看的是住的人。",
+   "answer_mode": "choice",
+   "options": [
+    "屋子因为破旧，所以必须拆掉",
+    "德馨是一种香料的名字",
+    "屋子虽然简陋，只是我的品德好，就不觉得陋",
+    "这句话在夸屋子金碧辉煌"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j048_q3",
+   "topic": "cnc_j048",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "陋室铭与爱莲说",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 2,
+   "stem": "《爱莲说》里，菊、牡丹、莲分别比喻什么？",
+   "explain": "陶渊明爱菊，世人爱牡丹，作者独爱莲。莲「出淤泥而不染」。",
+   "answer_mode": "choice",
+   "options": [
+    "君子、隐士、商人",
+    "三种真实的蔬菜",
+    "三种官职",
+    "隐逸者、富贵者、君子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j048_q4",
+   "topic": "cnc_j048",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "陋室铭与爱莲说",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 3,
+   "stem": "「何陋之有」和「牡丹之爱，宜乎众矣」在语气上有什么不同？",
+   "explain": "「何陋之有」是宾语前置的反问，出自孔子的意思。结尾对爱牡丹的人是「宜乎众矣」，并不把他们当成君子。",
+   "answer_mode": "choice",
+   "options": [
+    "前一句用反问说陋室不陋；后一句感叹爱牡丹的人当然很多，带一点惋惜",
+    "两句都在夸牡丹",
+    "两句都在批评莲花",
+    "两句都是人物对话"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j049_q1",
+   "topic": "cnc_j049",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "写作：怎样选材",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "选材首先要看材料跟什么的关系？",
+   "explain": "再生动的材料，如果不指向中心，也要删。",
+   "answer_mode": "choice",
+   "options": [
+    "跟字数的关系，越长越好",
+    "跟材料是否热闹",
+    "跟中心的关系",
+    "跟能不能把别人的作文搬过来"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j049_q2",
+   "topic": "cnc_j049",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "写作：怎样选材",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "写「父亲的勤劳」，哪一则材料更合适？",
+   "explain": "挑水和白霜能看见勤劳。商店、降雨和别人的得分都不是这个中心。",
+   "answer_mode": "choice",
+   "options": [
+    "他家隔壁新开了一家商店，商品很全。",
+    "村里去年的降雨量是多少。",
+    "一篇写母爱的作文得分很高。",
+    "他天不亮就去挑水，肩上的衣服结了一层白霜。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j049_q3",
+   "topic": "cnc_j049",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "写作：怎样选材",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "两则材料都真实，只能留一则。该怎么选？",
+   "explain": "真实只是底线。还要典型，并且尽量不落俗套。",
+   "answer_mode": "choice",
+   "options": [
+    "留那则最能表现中心、也最新鲜的",
+    "两则都删掉，中心就清楚了",
+    "留下和中心无关但更好笑的那则",
+    "按哪则字多留哪则"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j049_q4",
+   "topic": "cnc_j049",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "写作：怎样选材",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种选材会使文章散掉？",
+   "explain": "菜单和车票如果不用来表现诚信，就只是另一些事。其他三则都扣着各自的中心。",
+   "answer_mode": "choice",
+   "options": [
+    "写诚信时选用一次失约后弥补的经过",
+    "中心是「诚信」，主体却写成郊游时的菜单和车票",
+    "写助人时选用小茅屋里一次添柴、一次送粮",
+    "写担当时选用人物在危险里的一个决定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j050_q1",
+   "topic": "cnc_j050",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "专题：孝亲敬老，传承家风",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "这个专题学习活动的名称是什么？",
+   "explain": "2024 年版把这项活动定为「孝亲敬老，传承家风」。原来的「天下家国」不在本册。",
+   "answer_mode": "choice",
+   "options": [
+    "天下家国",
+    "我的语文生活",
+    "文学部落",
+    "孝亲敬老，传承家风"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j050_q2",
+   "topic": "cnc_j050",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "专题：孝亲敬老，传承家风",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 1,
+   "stem": "哪一种内容最贴近这次活动？",
+   "explain": "家风要落在具体的人和做法上。",
+   "answer_mode": "choice",
+   "options": [
+    "讲家里一位老人的习惯，以及晚辈怎样把这个习惯接下去",
+    "只介绍一种新款手机",
+    "辩论要不要取消家庭",
+    "统计全班的身高"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j050_q3",
+   "topic": "cnc_j050",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "专题：孝亲敬老，传承家风",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 2,
+   "stem": "发言时，哪一种说法更像在谈家风？",
+   "explain": "日期和称呼是做得到的事，尊重才有着落。只有判断，听众不知道家风是什么。",
+   "answer_mode": "choice",
+   "options": [
+    "我们家很幸福，非常幸福。",
+    "爷爷写信必写日期和称呼，父亲也这样要求我，说这是对人的尊重。",
+    "老人都应该被表扬。",
+    "我爱我家四个字。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j050_q4",
+   "topic": "cnc_j050",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "专题：孝亲敬老，传承家风",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "difficulty": 3,
+   "stem": "哪一种做法和「孝亲敬老」相反？",
+   "explain": "孝是照顾和尊重。骗取财物不是孝，也不能叫做家风。",
+   "answer_mode": "choice",
+   "options": [
+    "每周陪老人散步，听他讲一件旧事",
+    "把老人爱吃的菜放在他伸手够得到的地方",
+    "把老人的储蓄账户密码骗来自己用",
+    "和家人商量怎样照顾生病的祖父"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j051_q1",
+   "topic": "cnc_j051",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "托物言志两篇",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《紫藤萝瀑布》的作者是谁？",
+   "explain": "《紫藤萝瀑布》是宗璞的。《井冈翠竹》是袁鹰的。",
+   "answer_mode": "choice",
+   "options": [
+    "宗璞",
+    "袁鹰",
+    "普希金",
+    "弗罗斯特"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j051_q2",
+   "topic": "cnc_j051",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "托物言志两篇",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《井冈翠竹》主要借什么事物来写？",
+   "explain": "毛竹做过扁担、水管和武器，作者用它写井冈山人和革命气节。",
+   "answer_mode": "choice",
+   "options": [
+    "一树紫藤萝",
+    "井冈山的毛竹",
+    "一条未选择的路",
+    "一间陋室"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j051_q3",
+   "topic": "cnc_j051",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "托物言志两篇",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "《紫藤萝瀑布》里，作者由花的盛开想到了什么？",
+   "explain": "「花和人都会遇到各种各样的不幸，但是生命的长河是无止境的。」",
+   "answer_mode": "choice",
+   "options": [
+    "竹子比花更适合打仗",
+    "应当立刻离开家乡",
+    "花和人都会遇到不幸，但生命的长河没有止境",
+    "花开得再好也不该写进文章"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j051_q4",
+   "topic": "cnc_j051",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "托物言志两篇",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "两篇都是托物，寄托有什么不同？",
+   "explain": "物不同，感情的着重点也不同。不能把两篇作者和寓意对调。",
+   "answer_mode": "choice",
+   "options": [
+    "两篇写的是同一种花",
+    "《井冈翠竹》的作者是宗璞",
+    "紫藤萝象征的是一场战争的武器",
+    "翠竹更偏革命气节和建设的力量；紫藤萝更偏个人从焦虑走向生命的宁静"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j052_q1",
+   "topic": "cnc_j052",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "外国诗二首",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《假如生活欺骗了你》的作者是谁？",
+   "explain": "普希金写这首短诗。弗罗斯特写的是《未选择的路》。",
+   "answer_mode": "choice",
+   "options": [
+    "弗罗斯特",
+    "普希金",
+    "袁鹰",
+    "宗璞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j052_q2",
+   "topic": "cnc_j052",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "外国诗二首",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "普希金劝人在忧郁的日子里首先怎样？",
+   "explain": "「不要悲伤，不要心急」「忧郁的日子里须要镇静」。",
+   "answer_mode": "choice",
+   "options": [
+    "立刻报复欺骗自己的人",
+    "放弃未来，只想过去",
+    "镇静，相信快乐的日子将会来临",
+    "什么路都不要选"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j052_q3",
+   "topic": "cnc_j052",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "外国诗二首",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "《未选择的路》里，诗人最终走的是哪一条？",
+   "explain": "「我选择了人迹更少的一条」。他知道很可能不能再回来。",
+   "answer_mode": "choice",
+   "options": [
+    "两条路同时走",
+    "回头走已经走过的那条",
+    "站在岔路口不再前进",
+    "荒草更密、人迹更少的那一条"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j052_q4",
+   "topic": "cnc_j052",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "外国诗二首",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种理解把《未选择的路》读反了？",
+   "explain": "课文要读者想的是选择及其后果。把它读成「不要选择」，就和「那条路从此决定了我的一生」相反。",
+   "answer_mode": "choice",
+   "options": [
+    "诗的主旨是后悔走错了路，所以劝人永远不要做选择",
+    "诗写一次选择会带来不同的以后",
+    "诗人知道两条路不能同时走",
+    "最后的「叹息」含着对选择的回味，不等于简单的悔恨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j053_q1",
+   "topic": "cnc_j053",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "古代诗歌五首",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「前不见古人，后不见来者」的作者是谁？",
+   "explain": "这是陈子昂《登幽州台歌》的前两句，后面是「念天地之悠悠，独怆然而涕下」。",
+   "answer_mode": "choice",
+   "options": [
+    "杜甫",
+    "王安石",
+    "陈子昂",
+    "陆游"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j053_q2",
+   "topic": "cnc_j053",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "古代诗歌五首",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「会当凌绝顶，一览众山小」写的是诗人已经登上泰山了吗？",
+   "explain": "杜甫《望岳》从头到尾是望，不是已经登顶。",
+   "answer_mode": "choice",
+   "options": [
+    "已经站在山顶",
+    "写的是飞来峰",
+    "写的是离开京城",
+    "还没有。会当是「终当」，写的是期望"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j053_q3",
+   "topic": "cnc_j053",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "古代诗歌五首",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 2,
+   "stem": "「不畏浮云遮望眼，自缘身在最高层」出自谁的哪一首？",
+   "explain": "因为站得高，所以不怕浮云遮住视线。这是王安石的诗。",
+   "answer_mode": "choice",
+   "options": [
+    "王安石《登飞来峰》",
+    "杜甫《望岳》",
+    "陈子昂《登幽州台歌》",
+    "龚自珍《己亥杂诗》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j053_q4",
+   "topic": "cnc_j053",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "古代诗歌五首",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 3,
+   "stem": "「山重水复疑无路，柳暗花明又一村」和「落红不是无情物，化作春泥更护花」分别是谁的句子？",
+   "explain": "前一联在《游山西村》，是路转处的豁然开朗。后一联在《己亥杂诗》（其五），落花还要化成春泥护花。",
+   "answer_mode": "choice",
+   "options": [
+    "杜甫；王安石",
+    "陆游；龚自珍",
+    "陈子昂；杜甫",
+    "王安石；陆游"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j054_q1",
+   "topic": "cnc_j054",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "句子：语言要简明",
+   "type": "knowledge",
+   "skill": "句子",
+   "difficulty": 1,
+   "stem": "「语言要简明」里的「简」和「明」分别指什么？",
+   "explain": "太长会重复，太短却看不懂，就只做到了其中一个字。",
+   "answer_mode": "choice",
+   "options": [
+    "简短到别人看不懂也没关系",
+    "只用一个字",
+    "句子越长越明白",
+    "简练，明白"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j054_q2",
+   "topic": "cnc_j054",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "句子：语言要简明",
+   "type": "knowledge",
+   "skill": "句子",
+   "difficulty": 1,
+   "stem": "哪一句更简明？",
+   "explain": "意思都是「昨天来过」。第一句没有重复。",
+   "answer_mode": "choice",
+   "options": [
+    "他昨天来过。",
+    "他在昨天那个已经过去的日子里曾经来过一次。",
+    "他来过，他来过，他昨天来过。",
+    "关于他是否来过，答案是他来过，时间是昨天。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j054_q3",
+   "topic": "cnc_j054",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "句子：语言要简明",
+   "type": "knowledge",
+   "skill": "句子",
+   "difficulty": 2,
+   "stem": "「开刀的是他父亲」让人产生歧义，问题在哪里？",
+   "explain": "「开刀的」可以指主刀的人，也可以指被开刀的人。简明要求别人不会猜错。",
+   "answer_mode": "choice",
+   "options": [
+    "句子太短，必须加到三十个字",
+    "看不出父亲是动手术的医生，还是接受手术的病人",
+    "「父亲」这个词不该出现",
+    "这句话没有动词"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j054_q4",
+   "topic": "cnc_j054",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "句子：语言要简明",
+   "type": "knowledge",
+   "skill": "句子",
+   "difficulty": 3,
+   "stem": "哪一种修改符合「简明」？",
+   "explain": "重复的模糊词会互相打架。留一个准确说法，既短又清楚。",
+   "answer_mode": "choice",
+   "options": [
+    "把同一句话再抄三遍，好让人记住",
+    "为了简，把主语、宾语全删掉，只留一个动词",
+    "删掉「大约」「差不多」「左右」叠在一起的模糊话，留一个准确说法",
+    "用四个意思相近的成语形容同一件事"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j055_q1",
+   "topic": "cnc_j055",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "整本书《钢铁是怎样炼成的》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 1,
+   "stem": "《钢铁是怎样炼成的》的主人公是谁？",
+   "explain": "保尔是这部小说的主人公。祥子是《骆驼祥子》里的人。",
+   "answer_mode": "choice",
+   "options": [
+    "保尔·柯察金",
+    "祥子",
+    "孙悟空",
+    "唐僧"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j055_q2",
+   "topic": "cnc_j055",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "整本书《钢铁是怎样炼成的》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 1,
+   "stem": "这本书的作者是谁？",
+   "explain": "作者是苏联的尼古拉·奥斯特洛夫斯基。",
+   "answer_mode": "choice",
+   "options": [
+    "老舍",
+    "奥斯特洛夫斯基",
+    "鲁迅",
+    "吴承恩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j055_q3",
+   "topic": "cnc_j055",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "整本书《钢铁是怎样炼成的》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 2,
+   "stem": "在2024年版七年级下册里，这本书属于哪一种阅读安排？",
+   "explain": "重点导读是《骆驼祥子》。这本书是自主阅读，方法上互相呼应。",
+   "answer_mode": "choice",
+   "options": [
+    "本册唯一的重点导读，不必做笔记",
+    "已经从教材里删去",
+    "自主阅读，和《骆驼祥子》一样练习圈点、批注、做笔记",
+    "用来代替《西游记》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j055_q4",
+   "topic": "cnc_j055",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "整本书《钢铁是怎样炼成的》",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "difficulty": 3,
+   "stem": "「人最宝贵的是生命」这段话常被用来说明什么？",
+   "explain": "这段是保尔关于生命意义的独白，不是祥子的情节，也不是劝人虚度。",
+   "answer_mode": "choice",
+   "options": [
+    "生命不必珍惜",
+    "保尔希望自己成为人力车夫",
+    "这句话是老舍写祥子的",
+    "生命应当用来做有意义的事，不要因虚度而羞愧"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j056_q1",
+   "topic": "cnc_j056",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "太空一日与蛟龙探海",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《太空一日》的作者是谁？",
+   "explain": "杨利伟写自己乘坐神舟五号的经历。刘慈欣写的是科幻《带上她的眼睛》。",
+   "answer_mode": "choice",
+   "options": [
+    "许晨",
+    "杨利伟",
+    "刘慈欣",
+    "沈括"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j056_q2",
+   "topic": "cnc_j056",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "太空一日与蛟龙探海",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《太空一日》的内容属于哪一类？",
+   "explain": "升空、失重、返回都是他本人经历过的事，不是小说情节。",
+   "answer_mode": "choice",
+   "options": [
+    "地心科幻",
+    "北宋活字印刷的说明",
+    "航天员对真实飞行的记述",
+    "深海潜水器的报告文学"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j056_q3",
+   "topic": "cnc_j056",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "太空一日与蛟龙探海",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "《「蛟龙」探海》写的「蛟龙」是什么？",
+   "explain": "许晨这篇报告文学写深海探索。它和《太空一日》都是真实的科学探索，场景一个在海底，一个在太空。",
+   "answer_mode": "choice",
+   "options": [
+    "一种传说中的动物",
+    "杨利伟的飞船",
+    "毕昇的活字",
+    "中国的载人深潜器"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j056_q4",
+   "topic": "cnc_j056",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "太空一日与蛟龙探海",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "这一活动单元的第一项任务叫什么？",
+   "explain": "第六单元是活动·探究。三项任务依次是阅读与探讨、搜集与整理、表达与呈现。",
+   "answer_mode": "choice",
+   "options": [
+    "阅读与探讨",
+    "写出人物特点",
+    "孝亲敬老",
+    "发挥联想和想象"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j057_q1",
+   "topic": "cnc_j057",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "阅读《带上她的眼睛》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "《带上她的眼睛》的作者是谁？",
+   "explain": "这是刘慈欣的科幻短篇。杨利伟、许晨写的是真实探索。",
+   "answer_mode": "choice",
+   "options": [
+    "杨利伟",
+    "许晨",
+    "刘慈欣",
+    "沈括"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j057_q2",
+   "topic": "cnc_j057",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "阅读《带上她的眼睛》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 1,
+   "stem": "标题里的「眼睛」指什么？",
+   "explain": "「她」人在地心，靠这副「眼睛」看地面。不是人体器官本身。",
+   "answer_mode": "choice",
+   "options": [
+    "把眼珠从身上取下来带走",
+    "望远镜商店里的玻璃珠",
+    "活字印刷用的字模",
+    "一副可以远程看见地面的传感设备"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j057_q3",
+   "topic": "cnc_j057",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "阅读《带上她的眼睛》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 2,
+   "stem": "故事里的「她」为什么特别珍惜地面的春天？",
+   "explain": "科学幻想的前提是：人被留在无法返回的地心航行里。春天对她是最后的地面。",
+   "answer_mode": "choice",
+   "options": [
+    "她被困在地心，很可能再也回不到地面",
+    "她从来没有上过学",
+    "她是杨利伟的战友，正在返回舱里",
+    "她在海底驾驶蛟龙号"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j057_q4",
+   "topic": "cnc_j057",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "阅读《带上她的眼睛》",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "difficulty": 3,
+   "stem": "哪一种说法把课文和同单元的其他篇弄混了？",
+   "explain": "三篇都和探索有关，但只有刘慈欣这篇是科幻。把它说成杨利伟的回忆录，就混了。",
+   "answer_mode": "choice",
+   "options": [
+    "《太空一日》写的是真实的神舟飞行",
+    "《带上她的眼睛》是杨利伟的航天回忆录",
+    "《「蛟龙」探海》写的是真实的深潜",
+    "《带上她的眼睛》用想象写出科学探索中的人和感情"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j058_q1",
+   "topic": "cnc_j058",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "文言文《活板》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "《活板》的作者是谁？",
+   "explain": "沈括在《梦溪笔谈》里记下毕昇的发明。毕昇是文中的布衣，不是作者。",
+   "answer_mode": "choice",
+   "options": [
+    "毕昇",
+    "欧阳修",
+    "司马光",
+    "沈括"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_j058_q2",
+   "topic": "cnc_j058",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "文言文《活板》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 1,
+   "stem": "毕昇用什么做活字？",
+   "explain": "「用胶泥刻字，薄如钱唇，火烧令坚。」",
+   "answer_mode": "choice",
+   "options": [
+    "胶泥，用火烧硬",
+    "整块木板，字不能拆",
+    "铁板直接刻字",
+    "铜钱上铸字"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j058_q3",
+   "topic": "cnc_j058",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "文言文《活板》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 2,
+   "stem": "「若止印三二本，未为简易；若印数十百千本，则极为神速」说明活板的优点在什么情况下才明显？",
+   "explain": "活字排版一次，可以反复印。印得少，优势不大。",
+   "answer_mode": "choice",
+   "options": [
+    "只印一两本",
+    "印的数量很多",
+    "完全不印",
+    "只用来写毛笔字"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j058_q4",
+   "topic": "cnc_j058",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "文言文《活板》",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "difficulty": 3,
+   "stem": "不用木头做字的原因，课文说了哪一点？",
+   "explain": "所以他选用烧硬的胶泥。字不用时按韵收好，下次还能排。",
+   "answer_mode": "choice",
+   "options": [
+    "木头太贵，当时没有",
+    "木头不能刻出笔画",
+    "木纹有疏有密，沾水后高低不平，又会和药粘在一起",
+    "毕昇不会使用木头"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j059_q1",
+   "topic": "cnc_j059",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "课外古诗词四首（下）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "「商女不知亡国恨，隔江犹唱后庭花」的作者是谁？",
+   "explain": "这是杜牧《泊秦淮》的后两句。",
+   "answer_mode": "choice",
+   "options": [
+    "杜牧",
+    "李商隐",
+    "杨万里",
+    "赵师秀"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_j059_q2",
+   "topic": "cnc_j059",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "课外古诗词四首（下）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 1,
+   "stem": "李商隐《贾生》里，「不问苍生问鬼神」批评的是什么？",
+   "explain": "「可怜夜半虚前席」的「可怜」是可惜。问得认真，问的内容却不是苍生。",
+   "answer_mode": "choice",
+   "options": [
+    "贾谊不肯见皇帝",
+    "汉文帝把贾谊请来，却不问百姓，只问鬼神",
+    "诗人自己不想做官",
+    "客人半夜还没有来"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_j059_q3",
+   "topic": "cnc_j059",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "课外古诗词四首（下）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 2,
+   "stem": "「正入万山圈子里，一山放过一山拦」说的是什么道理？",
+   "explain": "这是杨万里《过松源晨炊漆公店》（其五）。「莫言下岭便无难」。",
+   "answer_mode": "choice",
+   "options": [
+    "下山一定比上山容易",
+    "行路只要高兴就不会累",
+    "下了一岭不等于没有困难，前面还有山",
+    "约好的客人一定会准时到"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_j059_q4",
+   "topic": "cnc_j059",
+   "subject": "chinese",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "课外古诗词四首（下）",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "difficulty": 3,
+   "stem": "哪一句是赵师秀《约客》里的？",
+   "explain": "黄梅、蛙声、棋子和灯花组成等人的场面。其余三句分别属于杜牧、李商隐和杨万里。",
+   "answer_mode": "choice",
+   "options": [
+    "烟笼寒水月笼沙",
+    "可怜夜半虚前席",
+    "赚得行人错喜欢",
+    "有约不来过夜半，闲敲棋子落灯花"
+   ],
+   "answer": 4
+  }
+ ]
+}

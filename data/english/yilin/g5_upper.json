@@ -1,0 +1,6146 @@
+{
+ "schema_version": 1,
+ "subject": "english",
+ "grade": 5,
+ "semester": "upper",
+ "textbook": "译林版（2026秋版，三年级起点）五年级上册",
+ "questions": [
+  {
+   "id": "yl5a_u1_q1",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「习惯」的英文是？",
+   "explain": "habit 的意思是「习惯」。",
+   "options": [
+    "skip",
+    "fast",
+    "habit",
+    "jump"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q2",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “habit” 的意思是？",
+   "explain": "habit 的意思是「习惯」。",
+   "options": [
+    "拉，拽，扯",
+    "她",
+    "习惯",
+    "感到疼痛；（使）疼痛，受伤"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q3",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「锻炼」的英文是？",
+   "explain": "do exercise 的意思是「锻炼」。",
+   "options": [
+    "swimming pool",
+    "watch",
+    "join",
+    "do exercise"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q4",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “do exercise” 的意思是？",
+   "explain": "do exercise 的意思是「锻炼」。",
+   "options": [
+    "锻炼",
+    "不再挡路，不再碍事",
+    "弹钢琴",
+    "应该，应当"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q5",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「听」的英文是？",
+   "explain": "listen 的意思是「听」。",
+   "options": [
+    "listen",
+    "play the piano",
+    "walk",
+    "listen to"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q6",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “listen” 的意思是？",
+   "explain": "listen 的意思是「听」。",
+   "options": [
+    "出去",
+    "听",
+    "重的，沉的",
+    "观看"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q7",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「仔细地，小心翼翼地」的英文是？",
+   "explain": "carefully 的意思是「仔细地，小心翼翼地」。",
+   "options": [
+    "carefully",
+    "heavy",
+    "plant",
+    "play Chinese chess"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q8",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “carefully” 的意思是？",
+   "explain": "carefully 的意思是「仔细地，小心翼翼地」。",
+   "options": [
+    "仔细地，小心翼翼地",
+    "花（时间），度过",
+    "紧邻，在……近旁",
+    "特别喜爱的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q9",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「把……整理好」的英文是？",
+   "explain": "put ... in order 的意思是「把……整理好」。",
+   "options": [
+    "between",
+    "put ... in order",
+    "their",
+    "favourite"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q10",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “put ... in order” 的意思是？",
+   "explain": "put ... in order 的意思是「把……整理好」。",
+   "options": [
+    "把……整理好",
+    "友好的，友爱的",
+    "明智的，聪明的",
+    "他们的，她们的，它们的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q11",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「记笔记」的英文是？",
+   "explain": "take notes 的意思是「记笔记」。",
+   "options": [
+    "take notes",
+    "show",
+    "letter",
+    "smart"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q12",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “take notes” 的意思是？",
+   "explain": "take notes 的意思是「记笔记」。",
+   "options": [
+    "二十八",
+    "六十八",
+    "在商店购物",
+    "记笔记"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q13",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「整洁的，井然有序的」的英文是？",
+   "explain": "tidy 的意思是「整洁的，井然有序的」。",
+   "options": [
+    "try on",
+    "sock",
+    "tidy",
+    "January"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q14",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “tidy” 的意思是？",
+   "explain": "tidy 的意思是「整洁的，井然有序的」。",
+   "options": [
+    "清单",
+    "天空",
+    "整洁的，井然有序的",
+    "舞狮"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q15",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「等一会儿，稍等一下」的英文是？",
+   "explain": "wait a minute 的意思是「等一会儿，稍等一下」。",
+   "options": [
+    "wait a minute",
+    "June",
+    "lion dance",
+    "take"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q16",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “wait a minute” 的意思是？",
+   "explain": "wait a minute 的意思是「等一会儿，稍等一下」。",
+   "options": [
+    "等一会儿，稍等一下",
+    "听",
+    "一月",
+    "打开，撕开"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q17",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「从不，绝不」的英文是？",
+   "explain": "never 的意思是「从不，绝不」。",
+   "options": [
+    "listen",
+    "never",
+    "red packet",
+    "October"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q18",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “never” 的意思是？",
+   "explain": "never 的意思是「从不，绝不」。",
+   "options": [
+    "整洁的，井然有序的",
+    "从不，绝不",
+    "九月",
+    "迟，晚"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q19",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在课堂上」的英文是？",
+   "explain": "in class 的意思是「在课堂上」。",
+   "options": [
+    "never",
+    "China",
+    "in class",
+    "health"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q20",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “in class” 的意思是？",
+   "explain": "in class 的意思是「在课堂上」。",
+   "options": [
+    "坏的",
+    "担心的，担忧的",
+    "在课堂上",
+    "从不，绝不"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q21",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「成功」的英文是？",
+   "explain": "do well 的意思是「成功」。",
+   "options": [
+    "excited",
+    "often",
+    "then",
+    "do well"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q22",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “do well” 的意思是？",
+   "explain": "do well 的意思是「成功」。",
+   "options": [
+    "感到愉快（或有信心等）",
+    "成功",
+    "手",
+    "是的，对的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q23",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「非常」的英文是？",
+   "explain": "very much 的意思是「非常」。",
+   "options": [
+    "ouch",
+    "paper-cutting",
+    "very much",
+    "hand"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q24",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “very much” 的意思是？",
+   "explain": "very much 的意思是「非常」。",
+   "options": [
+    "教授，教",
+    "学习",
+    "我不这么认为。",
+    "非常"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q25",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「许多」的英文是？",
+   "explain": "a lot of 的意思是「许多」。",
+   "options": [
+    "hobby",
+    "make",
+    "give up",
+    "a lot of"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q26",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “a lot of” 的意思是？",
+   "explain": "a lot of 的意思是「许多」。",
+   "options": [
+    "许多",
+    "听从",
+    "用颜料画",
+    "舞蹈"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q27",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「时常，常常」的英文是？",
+   "explain": "often 的意思是「时常，常常」。",
+   "options": [
+    "I don't think so.",
+    "warm up",
+    "often",
+    "stairs"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q28",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “often” 的意思是？",
+   "explain": "often 的意思是「时常，常常」。",
+   "options": [
+    "闲聊，聊天",
+    "做准备活动，热身",
+    "时常，常常",
+    "也许，可能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q29",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在床上」的英文是？",
+   "explain": "in bed 的意思是「在床上」。",
+   "options": [
+    "swimming pool",
+    "in bed",
+    "internet",
+    "walk"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q30",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “in bed” 的意思是？",
+   "explain": "in bed 的意思是「在床上」。",
+   "options": [
+    "通常地，一般地",
+    "下象棋",
+    "立即，马上",
+    "在床上"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q31",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「坏的」的英文是？",
+   "explain": "bad 的意思是「坏的」。",
+   "options": [
+    "plant",
+    "bad",
+    "some",
+    "visit"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q32",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “bad” 的意思是？",
+   "explain": "bad 的意思是「坏的」。",
+   "options": [
+    "他们的，她们的，它们的",
+    "出去",
+    "围墙；墙，壁",
+    "坏的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q33",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「健康的，健壮的」的英文是？",
+   "explain": "healthy 的意思是「健康的，健壮的」。",
+   "options": [
+    "healthy",
+    "do your homework",
+    "wonderful",
+    "their"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q34",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “healthy” 的意思是？",
+   "explain": "healthy 的意思是「健康的，健壮的」。",
+   "options": [
+    "鞋",
+    "健康的，健壮的",
+    "在某人回去的路上",
+    "重要的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q35",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「迟，晚」的英文是？",
+   "explain": "late 的意思是「迟，晚」。",
+   "options": [
+    "sweater",
+    "favourite",
+    "late",
+    "close to"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q36",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “late” 的意思是？",
+   "explain": "late 的意思是「迟，晚」。",
+   "options": [
+    "选中，买下",
+    "问题，困难",
+    "迟，晚",
+    "女士（不指明婚否）"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q37",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「健康」的英文是？",
+   "explain": "health 的意思是「健康」。",
+   "options": [
+    "How about ...?",
+    "pair",
+    "shoe",
+    "health"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u1_q38",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “health” 的意思是？",
+   "explain": "health 的意思是「健康」。",
+   "options": [
+    "节日",
+    "健康",
+    "过得愉快",
+    "……怎么样？"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q39",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「卡片」的英文是？",
+   "explain": "card 的意思是「卡片」。",
+   "options": [
+    "June",
+    "card",
+    "try on",
+    "December"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q40",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “card” 的意思是？",
+   "explain": "card 的意思是「卡片」。",
+   "options": [
+    "火鸡肉；火鸡",
+    "关于，对于",
+    "卡片",
+    "红包"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u1_q41",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「轮到你了。」的英文是？",
+   "explain": "It's your turn. 的意思是「轮到你了。」。",
+   "options": [
+    "put ... in order",
+    "It's your turn.",
+    "October",
+    "before"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q42",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “It's your turn.” 的意思是？",
+   "explain": "It's your turn. 的意思是「轮到你了。」。",
+   "options": [
+    "从不，绝不",
+    "轮到你了。",
+    "习惯",
+    "打开，撕开"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q43",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你有什么好习惯？」用英语怎么说？",
+   "explain": "课本句型：What good habits do you have?（你有什么好习惯？）",
+   "options": [
+    "You shouldn't climb too high.",
+    "What good habits do you have?",
+    "He puts his school things in order.",
+    "I feel good now."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q44",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「她认真听老师讲课。」用英语怎么说？",
+   "explain": "课本句型：She listens to her teachers carefully.（她认真听老师讲课。）",
+   "options": [
+    "Does Wang Bing do exercise every day?",
+    "She listens to her teachers carefully.",
+    "Are you OK?",
+    "It's in January or February."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q45",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他把学习用品整理好。」用英语怎么说？",
+   "explain": "课本句型：He puts his school things in order.（他把学习用品整理好。）",
+   "options": [
+    "How about this pair?",
+    "He puts his school things in order.",
+    "Are you OK?",
+    "What good habits do you have?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q46",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「王彬每天锻炼吗？」用英语怎么说？",
+   "explain": "课本句型：Does Wang Bing do exercise every day?（王彬每天锻炼吗？）",
+   "options": [
+    "We should get along with our neighbours.",
+    "Does Wang Bing do exercise every day?",
+    "What good habits do you have?",
+    "I'll take them."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u1_q47",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你不应该晚睡。」用英语怎么说？",
+   "explain": "课本句型：You shouldn't go to bed late.（你不应该晚睡。）",
+   "options": [
+    "You shouldn't go to bed late.",
+    "What good habits do you have?",
+    "What does he do at weekends?",
+    "Can I try it on?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u1_q48",
+   "unit": "u1",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「波比从不保持房间整洁。」用英语怎么说？",
+   "explain": "课本句型：Bobby never keeps his room tidy.（波比从不保持房间整洁。）",
+   "options": [
+    "He never goes out.",
+    "How about this pair?",
+    "Bobby never keeps his room tidy.",
+    "We should warm up first."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q1",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「感到愉快（或有信心等）」的英文是？",
+   "explain": "feel good 的意思是「感到愉快（或有信心等）」。",
+   "options": [
+    "feel good",
+    "play Chinese chess",
+    "plant",
+    "heavy"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q2",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “feel good” 的意思是？",
+   "explain": "feel good 的意思是「感到愉快（或有信心等）」。",
+   "options": [
+    "六十八",
+    "在商店购物",
+    "感到愉快（或有信心等）",
+    "二十八"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q3",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「担心的，担忧的」的英文是？",
+   "explain": "worried 的意思是「担心的，担忧的」。",
+   "options": [
+    "worried",
+    "between",
+    "favourite",
+    "their"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q4",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “worried” 的意思是？",
+   "explain": "worried 的意思是「担心的，担忧的」。",
+   "options": [
+    "担心的，担忧的",
+    "清单",
+    "舞狮",
+    "天空"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q5",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「激动的，兴奋的」的英文是？",
+   "explain": "excited 的意思是「激动的，兴奋的」。",
+   "options": [
+    "excited",
+    "smart",
+    "show",
+    "letter"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q6",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “excited” 的意思是？",
+   "explain": "excited 的意思是「激动的，兴奋的」。",
+   "options": [
+    "激动的，兴奋的",
+    "听",
+    "打开，撕开",
+    "一月"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q7",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「跳高（运动）」的英文是？",
+   "explain": "the high jump 的意思是「跳高（运动）」。",
+   "options": [
+    "sock",
+    "January",
+    "the high jump",
+    "try on"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q8",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “the high jump” 的意思是？",
+   "explain": "the high jump 的意思是「跳高（运动）」。",
+   "options": [
+    "整洁的，井然有序的",
+    "跳高（运动）",
+    "迟，晚",
+    "九月"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q9",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「努力地」的英文是？",
+   "explain": "hard 的意思是「努力地」。",
+   "options": [
+    "take",
+    "June",
+    "lion dance",
+    "hard"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q10",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hard” 的意思是？",
+   "explain": "hard 的意思是「努力地」。",
+   "options": [
+    "坏的",
+    "从不，绝不",
+    "担心的，担忧的",
+    "努力地"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q11",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「哎哟」的英文是？",
+   "explain": "ouch 的意思是「哎哟」。",
+   "options": [
+    "October",
+    "ouch",
+    "listen",
+    "red packet"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q12",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「例如，譬如」的英文是？",
+   "explain": "like 的意思是「例如，譬如」。",
+   "options": [
+    "China",
+    "late",
+    "like",
+    "never"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q13",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “like” 的意思是？",
+   "explain": "like 的意思是「例如，譬如」。",
+   "options": [
+    "教授，教",
+    "学习",
+    "我不这么认为。",
+    "例如，譬如"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q14",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「干得好！」的英文是？",
+   "explain": "Well done! 的意思是「干得好！」。",
+   "options": [
+    "a lot of",
+    "worried",
+    "then",
+    "Well done!"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q15",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “Well done!” 的意思是？",
+   "explain": "Well done! 的意思是「干得好！」。",
+   "options": [
+    "听从",
+    "干得好！",
+    "用颜料画",
+    "舞蹈"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q16",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「是的，对的」的英文是？",
+   "explain": "yeah 的意思是「是的，对的」。",
+   "options": [
+    "paper-cutting",
+    "hard",
+    "hand",
+    "yeah"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q17",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「也不」的英文是？",
+   "explain": "or 的意思是「也不」。",
+   "options": [
+    "or",
+    "give up",
+    "hobby",
+    "make"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q18",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “or” 的意思是？",
+   "explain": "or 的意思是「也不」。",
+   "options": [
+    "立即，马上",
+    "通常地，一般地",
+    "下象棋",
+    "也不"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q19",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「听见，听到」的英文是？",
+   "explain": "hear 的意思是「听见，听到」。",
+   "options": [
+    "stairs",
+    "warm up",
+    "hear",
+    "I don't think so."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q20",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hear” 的意思是？",
+   "explain": "hear 的意思是「听见，听到」。",
+   "options": [
+    "他们的，她们的，它们的",
+    "出去",
+    "围墙；墙，壁",
+    "听见，听到"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q21",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「有时，间或」的英文是？",
+   "explain": "sometimes 的意思是「有时，间或」。",
+   "options": [
+    "sometimes",
+    "swimming pool",
+    "walk",
+    "internet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q22",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “sometimes” 的意思是？",
+   "explain": "sometimes 的意思是「有时，间或」。",
+   "options": [
+    "重要的",
+    "有时，间或",
+    "在某人回去的路上",
+    "鞋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q23",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「然后，后来」的英文是？",
+   "explain": "then 的意思是「然后，后来」。",
+   "options": [
+    "plant",
+    "some",
+    "visit",
+    "then"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q24",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “then” 的意思是？",
+   "explain": "then 的意思是「然后，后来」。",
+   "options": [
+    "女士（不指明婚否）",
+    "然后，后来",
+    "问题，困难",
+    "选中，买下"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q25",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「教授，教」的英文是？",
+   "explain": "teach 的意思是「教授，教」。",
+   "options": [
+    "do your homework",
+    "teach",
+    "their",
+    "wonderful"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q26",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “teach” 的意思是？",
+   "explain": "teach 的意思是「教授，教」。",
+   "options": [
+    "过得愉快",
+    "……怎么样？",
+    "教授，教",
+    "节日"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q27",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「书写，写字」的英文是？",
+   "explain": "write 的意思是「书写，写字」。",
+   "options": [
+    "sweater",
+    "write",
+    "close to",
+    "favourite"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q28",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “write” 的意思是？",
+   "explain": "write 的意思是「书写，写字」。",
+   "options": [
+    "书写，写字",
+    "火鸡肉；火鸡",
+    "关于，对于",
+    "红包"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q29",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「单词，字」的英文是？",
+   "explain": "word 的意思是「单词，字」。",
+   "options": [
+    "word",
+    "shoe",
+    "pair",
+    "How about ...?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q30",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “word” 的意思是？",
+   "explain": "word 的意思是「单词，字」。",
+   "options": [
+    "单词，字",
+    "习惯",
+    "打开，撕开",
+    "从不，绝不"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q31",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「手」的英文是？",
+   "explain": "hand 的意思是「手」。",
+   "options": [
+    "June",
+    "hand",
+    "December",
+    "try on"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q32",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hand” 的意思是？",
+   "explain": "hand 的意思是「手」。",
+   "options": [
+    "记笔记",
+    "在床上",
+    "激动的，兴奋的",
+    "手"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q33",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「懂，理解」的英文是？",
+   "explain": "understand 的意思是「懂，理解」。",
+   "options": [
+    "October",
+    "put ... in order",
+    "before",
+    "understand"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q34",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “understand” 的意思是？",
+   "explain": "understand 的意思是「懂，理解」。",
+   "options": [
+    "干得好！",
+    "剪纸",
+    "懂，理解",
+    "健康"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q35",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「放弃」的英文是？",
+   "explain": "give up 的意思是「放弃」。",
+   "options": [
+    "never",
+    "activity",
+    "card",
+    "give up"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q36",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “give up” 的意思是？",
+   "explain": "give up 的意思是「放弃」。",
+   "options": [
+    "听见，听到",
+    "使变得，使成为",
+    "放弃",
+    "说话"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q37",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「那个，另一个」的英文是？",
+   "explain": "other 的意思是「那个，另一个」。",
+   "options": [
+    "do well",
+    "the high jump",
+    "other",
+    "late"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q38",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “other” 的意思是？",
+   "explain": "other 的意思是「那个，另一个」。",
+   "options": [
+    "那个，另一个",
+    "知道，了解",
+    "跳绳",
+    "拉，拽，扯"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q39",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「快，快速，迅速」的英文是？",
+   "explain": "fast 的意思是「快，快速，迅速」。",
+   "options": [
+    "fast",
+    "excited",
+    "give up",
+    "hear"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q40",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “fast” 的意思是？",
+   "explain": "fast 的意思是「快，快速，迅速」。",
+   "options": [
+    "立即，马上",
+    "用颜料画",
+    "游泳池",
+    "快，快速，迅速"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q41",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「说话」的英文是？",
+   "explain": "speak 的意思是「说话」。",
+   "options": [
+    "word",
+    "hobby",
+    "speak",
+    "over there"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q42",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “speak” 的意思是？",
+   "explain": "speak 的意思是「说话」。",
+   "options": [
+    "从",
+    "植物，花草",
+    "（外）祖父，（外）祖母",
+    "说话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q43",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「学习」的英文是？",
+   "explain": "study 的意思是「学习」。",
+   "options": [
+    "her",
+    "from",
+    "study",
+    "warm up"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q44",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “study” 的意思是？",
+   "explain": "study 的意思是「学习」。",
+   "options": [
+    "在……中间，介于……之间",
+    "互联网",
+    "学习",
+    "太，过于"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q45",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「知道，了解」的英文是？",
+   "explain": "know 的意思是「知道，了解」。",
+   "options": [
+    "know",
+    "walk",
+    "have a picnic",
+    "should"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q46",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “know” 的意思是？",
+   "explain": "know 的意思是「知道，了解」。",
+   "options": [
+    "毛衣，线衣",
+    "重的，沉的",
+    "建议",
+    "知道，了解"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q47",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「当……时」的英文是？",
+   "explain": "when 的意思是「当……时」。",
+   "options": [
+    "internet",
+    "when",
+    "live",
+    "watch"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q48",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “when” 的意思是？",
+   "explain": "when 的意思是「当……时」。",
+   "options": [
+    "二十八",
+    "友好的，友爱的",
+    "明智的，聪明的",
+    "当……时"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q49",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「不要放弃！」用英语怎么说？",
+   "explain": "课本句型：Don't give up!（不要放弃！）",
+   "options": [
+    "Don't give up!",
+    "My hobby is dancing.",
+    "Does Wang Bing do exercise every day?",
+    "Sometimes I go climbing with my parents."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u2_q50",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「干得好！」用英语怎么说？",
+   "explain": "课本句型：Well done!（干得好！）",
+   "options": [
+    "Don't give up!",
+    "Let's join the club over there.",
+    "Well done!",
+    "What do people do at the Dragon Boat Festival?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q51",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「让我来教你。」用英语怎么说？",
+   "explain": "课本句型：Let me teach you.（让我来教你。）",
+   "options": [
+    "They watch dragon boat races.",
+    "They're sixty-eight yuan.",
+    "Let me teach you.",
+    "Bobby never keeps his room tidy."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u2_q52",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你应该像这样跳高。」用英语怎么说？",
+   "explain": "课本句型：You should do the high jump like this.（你应该像这样跳高。）",
+   "options": [
+    "When is the Spring Festival?",
+    "Be friendly to your classmates.",
+    "Bobby never keeps his room tidy.",
+    "You should do the high jump like this."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u2_q53",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你没事吧？」用英语怎么说？",
+   "explain": "课本句型：Are you OK?（你没事吧？）",
+   "options": [
+    "Wang Bing lives next to me.",
+    "Are you OK?",
+    "When is the Spring Festival?",
+    "I usually visit my grandparents."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u2_q54",
+   "unit": "u2",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我现在感觉很好。」用英语怎么说？",
+   "explain": "课本句型：I feel good now.（我现在感觉很好。）",
+   "options": [
+    "I feel good now.",
+    "Don't run on the stairs.",
+    "We should get along with our neighbours.",
+    "When is the Spring Festival?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q1",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「业余爱好」的英文是？",
+   "explain": "hobby 的意思是「业余爱好」。",
+   "options": [
+    "January",
+    "try on",
+    "sock",
+    "hobby"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q2",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hobby” 的意思是？",
+   "explain": "hobby 的意思是「业余爱好」。",
+   "options": [
+    "是的，对的",
+    "业余爱好",
+    "手",
+    "感到愉快（或有信心等）"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q3",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「舞蹈」的英文是？",
+   "explain": "dance 的意思是「舞蹈」。",
+   "options": [
+    "lion dance",
+    "take",
+    "June",
+    "dance"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q4",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “dance” 的意思是？",
+   "explain": "dance 的意思是「舞蹈」。",
+   "options": [
+    "教授，教",
+    "学习",
+    "舞蹈",
+    "我不这么认为。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q5",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「剪纸」的英文是？",
+   "explain": "paper-cutting 的意思是「剪纸」。",
+   "options": [
+    "red packet",
+    "paper-cutting",
+    "October",
+    "listen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q6",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “paper-cutting” 的意思是？",
+   "explain": "paper-cutting 的意思是「剪纸」。",
+   "options": [
+    "舞蹈",
+    "用颜料画",
+    "听从",
+    "剪纸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q7",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「礼物」的英文是？",
+   "explain": "gift 的意思是「礼物」。",
+   "options": [
+    "gift",
+    "late",
+    "never",
+    "China"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q8",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “gift” 的意思是？",
+   "explain": "gift 的意思是「礼物」。",
+   "options": [
+    "闲聊，聊天",
+    "也许，可能",
+    "礼物",
+    "做准备活动，热身"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q9",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「她」的英文是？",
+   "explain": "her 的意思是「她」。",
+   "options": [
+    "sometimes",
+    "her",
+    "worried",
+    "a lot of"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q10",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “her” 的意思是？",
+   "explain": "her 的意思是「她」。",
+   "options": [
+    "通常地，一般地",
+    "她",
+    "立即，马上",
+    "下象棋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q11",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「跳绳」的英文是？",
+   "explain": "skip 的意思是「跳绳」。",
+   "options": [
+    "hard",
+    "skip",
+    "word",
+    "dance"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q12",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “skip” 的意思是？",
+   "explain": "skip 的意思是「跳绳」。",
+   "options": [
+    "跳绳",
+    "他们的，她们的，它们的",
+    "出去",
+    "围墙；墙，壁"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q13",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「我不这么认为。」的英文是？",
+   "explain": "I don't think so. 的意思是「我不这么认为。」。",
+   "options": [
+    "I don't think so.",
+    "when",
+    "understand",
+    "make"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q14",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “I don't think so.” 的意思是？",
+   "explain": "I don't think so. 的意思是「我不这么认为。」。",
+   "options": [
+    "在某人回去的路上",
+    "我不这么认为。",
+    "重要的",
+    "鞋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q15",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「使变得，使成为」的英文是？",
+   "explain": "make 的意思是「使变得，使成为」。",
+   "options": [
+    "skip",
+    "make",
+    "warm up",
+    "stairs"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q16",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “make” 的意思是？",
+   "explain": "make 的意思是「使变得，使成为」。",
+   "options": [
+    "女士（不指明婚否）",
+    "选中，买下",
+    "使变得，使成为",
+    "问题，困难"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q17",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「成为……的一员，参加」的英文是？",
+   "explain": "join 的意思是「成为……的一员，参加」。",
+   "options": [
+    "internet",
+    "join",
+    "swimming pool",
+    "walk"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q18",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “join” 的意思是？",
+   "explain": "join 的意思是「成为……的一员，参加」。",
+   "options": [
+    "节日",
+    "过得愉快",
+    "……怎么样？",
+    "成为……的一员，参加"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q19",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在那里」的英文是？",
+   "explain": "over there 的意思是「在那里」。",
+   "options": [
+    "plant",
+    "visit",
+    "some",
+    "over there"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q20",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “over there” 的意思是？",
+   "explain": "over there 的意思是「在那里」。",
+   "options": [
+    "关于，对于",
+    "红包",
+    "在那里",
+    "火鸡肉；火鸡"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q21",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「大量」的英文是？",
+   "explain": "a lot 的意思是「大量」。",
+   "options": [
+    "do your homework",
+    "their",
+    "wonderful",
+    "a lot"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q22",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “a lot” 的意思是？",
+   "explain": "a lot 的意思是「大量」。",
+   "options": [
+    "大量",
+    "打开，撕开",
+    "习惯",
+    "从不，绝不"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q23",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「用颜料画」的英文是？",
+   "explain": "paint 的意思是「用颜料画」。",
+   "options": [
+    "close to",
+    "sweater",
+    "paint",
+    "favourite"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q24",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “paint” 的意思是？",
+   "explain": "paint 的意思是「用颜料画」。",
+   "options": [
+    "记笔记",
+    "在床上",
+    "激动的，兴奋的",
+    "用颜料画"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q25",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你喜欢做什么？」用英语怎么说？",
+   "explain": "课本句型：What do you like doing?（你喜欢做什么？）",
+   "options": [
+    "What do you like doing?",
+    "You shouldn't go to bed late.",
+    "You shouldn't climb too high.",
+    "Let's have a picnic."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u3_q26",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我喜欢剪纸。」用英语怎么说？",
+   "explain": "课本句型：I like paper-cutting.（我喜欢剪纸。）",
+   "options": [
+    "They watch dragon boat races.",
+    "I like paper-cutting.",
+    "You shouldn't climb too high.",
+    "You should do the high jump like this."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u3_q27",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我的爱好是跳舞。」用英语怎么说？",
+   "explain": "课本句型：My hobby is dancing.（我的爱好是跳舞。）",
+   "options": [
+    "She listens to her teachers carefully.",
+    "Are you OK?",
+    "My hobby is dancing.",
+    "I'll take them."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u3_q28",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我们去参加那边的社团吧。」用英语怎么说？",
+   "explain": "课本句型：Let's join the club over there.（我们去参加那边的社团吧。）",
+   "options": [
+    "What good habits do you have?",
+    "What do you need?",
+    "Here's some advice for you.",
+    "Let's join the club over there."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u3_q29",
+   "unit": "u3",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我不这么认为。」用英语怎么说？",
+   "explain": "课本句型：I don't think so.（我不这么认为。）",
+   "options": [
+    "I don't think so.",
+    "Sometimes I go climbing with my parents.",
+    "How about this pair?",
+    "What good habits do you have?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q1",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「拉，拽，扯」的英文是？",
+   "explain": "pull 的意思是「拉，拽，扯」。",
+   "options": [
+    "late",
+    "never",
+    "pull",
+    "China"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q2",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “pull” 的意思是？",
+   "explain": "pull 的意思是「拉，拽，扯」。",
+   "options": [
+    "围墙；墙，壁",
+    "他们的，她们的，它们的",
+    "出去",
+    "拉，拽，扯"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q3",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「推」的英文是？",
+   "explain": "push 的意思是「推」。",
+   "options": [
+    "a lot of",
+    "push",
+    "worried",
+    "sometimes"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q4",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “push” 的意思是？",
+   "explain": "push 的意思是「推」。",
+   "options": [
+    "鞋",
+    "重要的",
+    "在某人回去的路上",
+    "推"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q5",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「做准备活动，热身」的英文是？",
+   "explain": "warm up 的意思是「做准备活动，热身」。",
+   "options": [
+    "word",
+    "warm up",
+    "dance",
+    "hard"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q6",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “warm up” 的意思是？",
+   "explain": "warm up 的意思是「做准备活动，热身」。",
+   "options": [
+    "女士（不指明婚否）",
+    "问题，困难",
+    "做准备活动，热身",
+    "选中，买下"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q7",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「跳，跳跃」的英文是？",
+   "explain": "jump 的意思是「跳，跳跃」。",
+   "options": [
+    "when",
+    "understand",
+    "jump",
+    "I don't think so."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q8",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “jump” 的意思是？",
+   "explain": "jump 的意思是「跳，跳跃」。",
+   "options": [
+    "节日",
+    "跳，跳跃",
+    "……怎么样？",
+    "过得愉快"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q9",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「攀登，爬」的英文是？",
+   "explain": "climb 的意思是「攀登，爬」。",
+   "options": [
+    "skip",
+    "stairs",
+    "climb",
+    "push"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q10",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “climb” 的意思是？",
+   "explain": "climb 的意思是「攀登，爬」。",
+   "options": [
+    "关于，对于",
+    "火鸡肉；火鸡",
+    "攀登，爬",
+    "红包"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q11",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「应该，应当」的英文是？",
+   "explain": "should 的意思是「应该，应当」。",
+   "options": [
+    "should",
+    "walk",
+    "swimming pool",
+    "internet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q12",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “should” 的意思是？",
+   "explain": "should 的意思是「应该，应当」。",
+   "options": [
+    "应该，应当",
+    "习惯",
+    "从不，绝不",
+    "打开，撕开"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q13",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「游泳」的英文是？",
+   "explain": "swim 的意思是「游泳」。",
+   "options": [
+    "plant",
+    "some",
+    "swim",
+    "visit"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q14",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “swim” 的意思是？",
+   "explain": "swim 的意思是「游泳」。",
+   "options": [
+    "游泳",
+    "在床上",
+    "记笔记",
+    "激动的，兴奋的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q15",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「游泳池」的英文是？",
+   "explain": "swimming pool 的意思是「游泳池」。",
+   "options": [
+    "their",
+    "do your homework",
+    "wonderful",
+    "swimming pool"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q16",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “swimming pool” 的意思是？",
+   "explain": "swimming pool 的意思是「游泳池」。",
+   "options": [
+    "游泳池",
+    "干得好！",
+    "懂，理解",
+    "健康"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q17",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「感到疼痛；（使）疼痛，受伤」的英文是？",
+   "explain": "hurt 的意思是「感到疼痛；（使）疼痛，受伤」。",
+   "options": [
+    "sweater",
+    "close to",
+    "favourite",
+    "hurt"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q18",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hurt” 的意思是？",
+   "explain": "hurt 的意思是「感到疼痛；（使）疼痛，受伤」。",
+   "options": [
+    "感到疼痛；（使）疼痛，受伤",
+    "使变得，使成为",
+    "说话",
+    "听见，听到"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q19",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「听从」的英文是？",
+   "explain": "listen to 的意思是「听从」。",
+   "options": [
+    "shoe",
+    "listen to",
+    "pair",
+    "How about ...?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q20",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “listen to” 的意思是？",
+   "explain": "listen to 的意思是「听从」。",
+   "options": [
+    "拉，拽，扯",
+    "知道，了解",
+    "跳绳",
+    "听从"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q21",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「楼梯」的英文是？",
+   "explain": "stairs 的意思是「楼梯」。",
+   "options": [
+    "stairs",
+    "try on",
+    "December",
+    "June"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q22",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “stairs” 的意思是？",
+   "explain": "stairs 的意思是「楼梯」。",
+   "options": [
+    "立即，马上",
+    "楼梯",
+    "游泳池",
+    "用颜料画"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q23",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「靠右边走」的英文是？",
+   "explain": "keep to the right 的意思是「靠右边走」。",
+   "options": [
+    "October",
+    "before",
+    "put ... in order",
+    "keep to the right"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q24",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “keep to the right” 的意思是？",
+   "explain": "keep to the right 的意思是「靠右边走」。",
+   "options": [
+    "植物，花草",
+    "（外）祖父，（外）祖母",
+    "从",
+    "靠右边走"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q25",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「从」的英文是？",
+   "explain": "from 的意思是「从」。",
+   "options": [
+    "never",
+    "activity",
+    "card",
+    "from"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q26",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “from” 的意思是？",
+   "explain": "from 的意思是「从」。",
+   "options": [
+    "互联网",
+    "从",
+    "在……中间，介于……之间",
+    "太，过于"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q27",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「也许，可能」的英文是？",
+   "explain": "may 的意思是「也许，可能」。",
+   "options": [
+    "late",
+    "may",
+    "the high jump",
+    "do well"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q28",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “may” 的意思是？",
+   "explain": "may 的意思是「也许，可能」。",
+   "options": [
+    "重的，沉的",
+    "毛衣，线衣",
+    "建议",
+    "也许，可能"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q29",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「不再挡路，不再碍事」的英文是？",
+   "explain": "out of the way 的意思是「不再挡路，不再碍事」。",
+   "options": [
+    "excited",
+    "hear",
+    "give up",
+    "out of the way"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q30",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “out of the way” 的意思是？",
+   "explain": "out of the way 的意思是「不再挡路，不再碍事」。",
+   "options": [
+    "二十八",
+    "友好的，友爱的",
+    "不再挡路，不再碍事",
+    "明智的，聪明的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q31",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「立即，马上」的英文是？",
+   "explain": "right now 的意思是「立即，马上」。",
+   "options": [
+    "when",
+    "join",
+    "word",
+    "right now"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q32",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “right now” 的意思是？",
+   "explain": "right now 的意思是「立即，马上」。",
+   "options": [
+    "女士（不指明婚否）",
+    "试穿",
+    "立即，马上",
+    "关于，对于"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q33",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「走，行走」的英文是？",
+   "explain": "walk 的意思是「走，行走」。",
+   "options": [
+    "keep to the right",
+    "push",
+    "gift",
+    "walk"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q34",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “walk” 的意思是？",
+   "explain": "walk 的意思是「走，行走」。",
+   "options": [
+    "门",
+    "二十四",
+    "走，行走",
+    "十月"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u4_q35",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「慢速地，缓慢地」的英文是？",
+   "explain": "slowly 的意思是「慢速地，缓慢地」。",
+   "options": [
+    "climb",
+    "have a picnic",
+    "right now",
+    "slowly"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q36",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “slowly” 的意思是？",
+   "explain": "slowly 的意思是「慢速地，缓慢地」。",
+   "options": [
+    "十二月",
+    "慢速地，缓慢地",
+    "中国",
+    "在课堂上"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u4_q37",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我们应该先热身。」用英语怎么说？",
+   "explain": "课本句型：We should warm up first.（我们应该先热身。）",
+   "options": [
+    "Sometimes I go climbing with my parents.",
+    "Bobby never keeps his room tidy.",
+    "Let's join the club over there.",
+    "We should warm up first."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q38",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「不要在楼梯上奔跑。」用英语怎么说？",
+   "explain": "课本句型：Don't run on the stairs.（不要在楼梯上奔跑。）",
+   "options": [
+    "We always have a good time.",
+    "Let's join the club over there.",
+    "Well done!",
+    "Don't run on the stairs."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u4_q39",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「请靠右边走。」用英语怎么说？",
+   "explain": "课本句型：Keep to the right, please.（请靠右边走。）",
+   "options": [
+    "Keep to the right, please.",
+    "Let's join the club over there.",
+    "You shouldn't go to bed late.",
+    "What do you need?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q40",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你不应该爬得太高。」用英语怎么说？",
+   "explain": "课本句型：You shouldn't climb too high.（你不应该爬得太高。）",
+   "options": [
+    "You shouldn't climb too high.",
+    "Bobby never keeps his room tidy.",
+    "Wang Bing lives next to me.",
+    "It's in January or February."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u4_q41",
+   "unit": "u4",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「别挡路！」用英语怎么说？",
+   "explain": "课本句型：Out of the way!（别挡路！）",
+   "options": [
+    "When is the Spring Festival?",
+    "He never goes out.",
+    "Out of the way!",
+    "That's a good idea."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q1",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「观看」的英文是？",
+   "explain": "watch 的意思是「观看」。",
+   "options": [
+    "I don't think so.",
+    "understand",
+    "when",
+    "watch"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q2",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “watch” 的意思是？",
+   "explain": "watch 的意思是「观看」。",
+   "options": [
+    "习惯",
+    "从不，绝不",
+    "观看",
+    "打开，撕开"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q3",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「电视，电视机」的英文是？",
+   "explain": "TV 的意思是「电视，电视机」。",
+   "options": [
+    "listen to",
+    "push",
+    "TV",
+    "skip"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q4",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “TV” 的意思是？",
+   "explain": "TV 的意思是「电视，电视机」。",
+   "options": [
+    "记笔记",
+    "在床上",
+    "激动的，兴奋的",
+    "电视，电视机"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q5",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「拜访，看望」的英文是？",
+   "explain": "visit 的意思是「拜访，看望」。",
+   "options": [
+    "swim",
+    "visit",
+    "right now",
+    "internet"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q6",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “visit” 的意思是？",
+   "explain": "visit 的意思是「拜访，看望」。",
+   "options": [
+    "拜访，看望",
+    "懂，理解",
+    "干得好！",
+    "健康"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q7",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「（外）祖父，（外）祖母」的英文是？",
+   "explain": "grandparent 的意思是「（外）祖父，（外）祖母」。",
+   "options": [
+    "grandparent",
+    "plant",
+    "some",
+    "TV"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q8",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “grandparent” 的意思是？",
+   "explain": "grandparent 的意思是「（外）祖父，（外）祖母」。",
+   "options": [
+    "听见，听到",
+    "（外）祖父，（外）祖母",
+    "说话",
+    "使变得，使成为"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q9",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「下象棋」的英文是？",
+   "explain": "play Chinese chess 的意思是「下象棋」。",
+   "options": [
+    "their",
+    "do your homework",
+    "wonderful",
+    "play Chinese chess"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q10",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “play Chinese chess” 的意思是？",
+   "explain": "play Chinese chess 的意思是「下象棋」。",
+   "options": [
+    "拉，拽，扯",
+    "跳绳",
+    "下象棋",
+    "知道，了解"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q11",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「弹钢琴」的英文是？",
+   "explain": "play the piano 的意思是「弹钢琴」。",
+   "options": [
+    "play the piano",
+    "favourite",
+    "close to",
+    "sweater"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q12",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “play the piano” 的意思是？",
+   "explain": "play the piano 的意思是「弹钢琴」。",
+   "options": [
+    "用颜料画",
+    "立即，马上",
+    "弹钢琴",
+    "游泳池"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q13",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「闲聊，聊天」的英文是？",
+   "explain": "chat 的意思是「闲聊，聊天」。",
+   "options": [
+    "shoe",
+    "chat",
+    "How about ...?",
+    "pair"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q14",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “chat” 的意思是？",
+   "explain": "chat 的意思是「闲聊，聊天」。",
+   "options": [
+    "植物，花草",
+    "从",
+    "闲聊，聊天",
+    "（外）祖父，（外）祖母"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q15",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「互联网」的英文是？",
+   "explain": "internet 的意思是「互联网」。",
+   "options": [
+    "June",
+    "internet",
+    "try on",
+    "December"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q16",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “internet” 的意思是？",
+   "explain": "internet 的意思是「互联网」。",
+   "options": [
+    "太，过于",
+    "做家庭作业",
+    "互联网",
+    "在……中间，介于……之间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q17",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「总是，每次都是」的英文是？",
+   "explain": "always 的意思是「总是，每次都是」。",
+   "options": [
+    "October",
+    "always",
+    "put ... in order",
+    "before"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q18",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “always” 的意思是？",
+   "explain": "always 的意思是「总是，每次都是」。",
+   "options": [
+    "毛衣，线衣",
+    "建议",
+    "重的，沉的",
+    "总是，每次都是"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q19",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「野餐」的英文是？",
+   "explain": "have a picnic 的意思是「野餐」。",
+   "options": [
+    "activity",
+    "card",
+    "never",
+    "have a picnic"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q20",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “have a picnic” 的意思是？",
+   "explain": "have a picnic 的意思是「野餐」。",
+   "options": [
+    "明智的，聪明的",
+    "友好的，友爱的",
+    "野餐",
+    "二十八"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q21",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「出去」的英文是？",
+   "explain": "get out 的意思是「出去」。",
+   "options": [
+    "late",
+    "the high jump",
+    "get out",
+    "do well"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q22",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “get out” 的意思是？",
+   "explain": "get out 的意思是「出去」。",
+   "options": [
+    "关于，对于",
+    "女士（不指明婚否）",
+    "试穿",
+    "出去"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q23",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「通常地，一般地」的英文是？",
+   "explain": "usually 的意思是「通常地，一般地」。",
+   "options": [
+    "excited",
+    "usually",
+    "hear",
+    "give up"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q24",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “usually” 的意思是？",
+   "explain": "usually 的意思是「通常地，一般地」。",
+   "options": [
+    "十月",
+    "二十四",
+    "通常地，一般地",
+    "门"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q25",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「植物，花草」的英文是？",
+   "explain": "plant 的意思是「植物，花草」。",
+   "options": [
+    "join",
+    "word",
+    "when",
+    "plant"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q26",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “plant” 的意思是？",
+   "explain": "plant 的意思是「植物，花草」。",
+   "options": [
+    "中国",
+    "植物，花草",
+    "十二月",
+    "在课堂上"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q27",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「花（时间），度过」的英文是？",
+   "explain": "spend 的意思是「花（时间），度过」。",
+   "options": [
+    "gift",
+    "push",
+    "spend",
+    "keep to the right"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q28",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “spend” 的意思是？",
+   "explain": "spend 的意思是「花（时间），度过」。",
+   "options": [
+    "跳高（运动）",
+    "时常，常常",
+    "听",
+    "花（时间），度过"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q29",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「住，居住」的英文是？",
+   "explain": "live 的意思是「住，居住」。",
+   "options": [
+    "climb",
+    "always",
+    "live",
+    "right now"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q30",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “live” 的意思是？",
+   "explain": "live 的意思是「住，居住」。",
+   "options": [
+    "担心的，担忧的",
+    "住，居住",
+    "是的，对的",
+    "坏的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q31",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「精彩的，绝妙的」的英文是？",
+   "explain": "wonderful 的意思是「精彩的，绝妙的」。",
+   "options": [
+    "wonderful",
+    "spend",
+    "chat",
+    "slowly"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q32",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “wonderful” 的意思是？",
+   "explain": "wonderful 的意思是「精彩的，绝妙的」。",
+   "options": [
+    "干得好！",
+    "精彩的，绝妙的",
+    "知道，了解",
+    "单词，字"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q33",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你周末做什么？」用英语怎么说？",
+   "explain": "课本句型：What do you do at weekends?（你周末做什么？）",
+   "options": [
+    "You shouldn't climb too high.",
+    "I like paper-cutting.",
+    "What do you do at weekends?",
+    "Don't give up!"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q34",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他周末做什么？」用英语怎么说？",
+   "explain": "课本句型：What does he do at weekends?（他周末做什么？）",
+   "options": [
+    "You shouldn't climb too high.",
+    "Are you OK?",
+    "What does he do at weekends?",
+    "What good habits do you have?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u5_q35",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我通常去看望祖父母。」用英语怎么说？",
+   "explain": "课本句型：I usually visit my grandparents.（我通常去看望祖父母。）",
+   "options": [
+    "He puts his school things in order.",
+    "I usually visit my grandparents.",
+    "Here's the shopping list.",
+    "Are you OK?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u5_q36",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「有时我和父母去爬山。」用英语怎么说？",
+   "explain": "课本句型：Sometimes I go climbing with my parents.（有时我和父母去爬山。）",
+   "options": [
+    "Are you OK?",
+    "We always have a good time.",
+    "That's a good idea.",
+    "Sometimes I go climbing with my parents."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u5_q37",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他从不出去。」用英语怎么说？",
+   "explain": "课本句型：He never goes out.（他从不出去。）",
+   "options": [
+    "He never goes out.",
+    "She always watches TV at weekends.",
+    "What good habits do you have?",
+    "They're sixty-eight yuan."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q38",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「她周末总是看电视。」用英语怎么说？",
+   "explain": "课本句型：She always watches TV at weekends.（她周末总是看电视。）",
+   "options": [
+    "She always watches TV at weekends.",
+    "Out of the way!",
+    "How about this pair?",
+    "Let's have a picnic."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u5_q39",
+   "unit": "u5",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我们去野餐吧。」用英语怎么说？",
+   "explain": "课本句型：Let's have a picnic.（我们去野餐吧。）",
+   "options": [
+    "Let's have a picnic.",
+    "Let's join the club over there.",
+    "How about this pair?",
+    "Sometimes I go climbing with my parents."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q1",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「与……和睦相处」的英文是？",
+   "explain": "get along with 的意思是「与……和睦相处」。",
+   "options": [
+    "TV",
+    "get along with",
+    "usually",
+    "some"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q2",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “get along with” 的意思是？",
+   "explain": "get along with 的意思是「与……和睦相处」。",
+   "options": [
+    "与……和睦相处",
+    "用颜料画",
+    "游泳池",
+    "立即，马上"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q3",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在……中间，介于……之间」的英文是？",
+   "explain": "between 的意思是「在……中间，介于……之间」。",
+   "options": [
+    "between",
+    "do your homework",
+    "live",
+    "their"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q4",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “between” 的意思是？",
+   "explain": "between 的意思是「在……中间，介于……之间」。",
+   "options": [
+    "从",
+    "在……中间，介于……之间",
+    "植物，花草",
+    "（外）祖父，（外）祖母"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q5",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「围墙；墙，壁」的英文是？",
+   "explain": "wall 的意思是「围墙；墙，壁」。",
+   "options": [
+    "close to",
+    "wall",
+    "favourite",
+    "sweater"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q6",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “wall” 的意思是？",
+   "explain": "wall 的意思是「围墙；墙，壁」。",
+   "options": [
+    "围墙；墙，壁",
+    "在……中间，介于……之间",
+    "互联网",
+    "太，过于"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q7",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「邻居，邻人」的英文是？",
+   "explain": "neighbour 的意思是「邻居，邻人」。",
+   "options": [
+    "neighbour",
+    "How about ...?",
+    "pair",
+    "shoe"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q8",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “neighbour” 的意思是？",
+   "explain": "neighbour 的意思是「邻居，邻人」。",
+   "options": [
+    "毛衣，线衣",
+    "邻居，邻人",
+    "重的，沉的",
+    "建议"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q9",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「重的，沉的」的英文是？",
+   "explain": "heavy 的意思是「重的，沉的」。",
+   "options": [
+    "December",
+    "June",
+    "heavy",
+    "try on"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q10",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “heavy” 的意思是？",
+   "explain": "heavy 的意思是「重的，沉的」。",
+   "options": [
+    "二十八",
+    "明智的，聪明的",
+    "友好的，友爱的",
+    "重的，沉的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q11",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「喝，饮」的英文是？",
+   "explain": "drink 的意思是「喝，饮」。",
+   "options": [
+    "put ... in order",
+    "drink",
+    "October",
+    "before"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q12",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “drink” 的意思是？",
+   "explain": "drink 的意思是「喝，饮」。",
+   "options": [
+    "喝，饮",
+    "试穿",
+    "女士（不指明婚否）",
+    "关于，对于"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q13",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「有些事物，有些人」的英文是？",
+   "explain": "some 的意思是「有些事物，有些人」。",
+   "options": [
+    "some",
+    "never",
+    "card",
+    "activity"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q14",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “some” 的意思是？",
+   "explain": "some 的意思是「有些事物，有些人」。",
+   "options": [
+    "有些事物，有些人",
+    "二十四",
+    "门",
+    "十月"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q15",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在某人回去的路上」的英文是？",
+   "explain": "on one's way back 的意思是「在某人回去的路上」。",
+   "options": [
+    "on one's way back",
+    "late",
+    "do well",
+    "the high jump"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q16",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “on one's way back” 的意思是？",
+   "explain": "on one's way back 的意思是「在某人回去的路上」。",
+   "options": [
+    "十二月",
+    "中国",
+    "在课堂上",
+    "在某人回去的路上"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q17",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「紧邻，在……近旁」的英文是？",
+   "explain": "next to 的意思是「紧邻，在……近旁」。",
+   "options": [
+    "next to",
+    "hear",
+    "excited",
+    "give up"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q18",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “next to” 的意思是？",
+   "explain": "next to 的意思是「紧邻，在……近旁」。",
+   "options": [
+    "听",
+    "跳高（运动）",
+    "时常，常常",
+    "紧邻，在……近旁"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q19",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「空地，空间」的英文是？",
+   "explain": "space 的意思是「空地，空间」。",
+   "options": [
+    "space",
+    "word",
+    "join",
+    "when"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q20",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “space” 的意思是？",
+   "explain": "space 的意思是「空地，空间」。",
+   "options": [
+    "坏的",
+    "是的，对的",
+    "担心的，担忧的",
+    "空地，空间"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q21",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「他们的，她们的，它们的」的英文是？",
+   "explain": "their 的意思是「他们的，她们的，它们的」。",
+   "options": [
+    "keep to the right",
+    "their",
+    "gift",
+    "push"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q22",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “their” 的意思是？",
+   "explain": "their 的意思是「他们的，她们的，它们的」。",
+   "options": [
+    "知道，了解",
+    "干得好！",
+    "他们的，她们的，它们的",
+    "单词，字"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q23",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「太，过于」的英文是？",
+   "explain": "too 的意思是「太，过于」。",
+   "options": [
+    "always",
+    "right now",
+    "too",
+    "climb"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q24",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “too” 的意思是？",
+   "explain": "too 的意思是「太，过于」。",
+   "options": [
+    "快，快速，迅速",
+    "她",
+    "太，过于",
+    "推"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q25",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「接近」的英文是？",
+   "explain": "close to 的意思是「接近」。",
+   "options": [
+    "chat",
+    "slowly",
+    "spend",
+    "close to"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q26",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “close to” 的意思是？",
+   "explain": "close to 的意思是「接近」。",
+   "options": [
+    "成为……的一员，参加",
+    "走，行走",
+    "接近",
+    "游泳"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q27",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「使用，利用」的英文是？",
+   "explain": "use 的意思是「使用，利用」。",
+   "options": [
+    "use",
+    "close to",
+    "heavy",
+    "plant"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q28",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “use” 的意思是？",
+   "explain": "use 的意思是「使用，利用」。",
+   "options": [
+    "花（时间），度过",
+    "使用，利用",
+    "听从",
+    "拜访，看望"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q29",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「信，函」的英文是？",
+   "explain": "letter 的意思是「信，函」。",
+   "options": [
+    "favourite",
+    "letter",
+    "bow",
+    "space"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q30",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “letter” 的意思是？",
+   "explain": "letter 的意思是「信，函」。",
+   "options": [
+    "通常地，一般地",
+    "下象棋",
+    "信，函",
+    "围墙；墙，壁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q31",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「建议」的英文是？",
+   "explain": "advice 的意思是「建议」。",
+   "options": [
+    "advice",
+    "twenty-four",
+    "How about ...?",
+    "shop"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q32",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “advice” 的意思是？",
+   "explain": "advice 的意思是「建议」。",
+   "options": [
+    "建议",
+    "空地，空间",
+    "在……中间，介于……之间",
+    "友好的，友爱的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q33",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「重要的」的英文是？",
+   "explain": "important 的意思是「重要的」。",
+   "options": [
+    "stocking",
+    "important",
+    "June",
+    "list"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q34",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “important” 的意思是？",
+   "explain": "important 的意思是「重要的」。",
+   "options": [
+    "元（中国货币单位）",
+    "信，函",
+    "重要的",
+    "在商店购物"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q35",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「友好的，友爱的」的英文是？",
+   "explain": "friendly 的意思是「友好的，友爱的」。",
+   "options": [
+    "mooncake",
+    "December",
+    "January",
+    "friendly"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q36",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “friendly” 的意思是？",
+   "explain": "friendly 的意思是「友好的，友爱的」。",
+   "options": [
+    "六月",
+    "短袜",
+    "零花钱",
+    "友好的，友爱的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q37",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「时候；时间」的英文是？",
+   "explain": "time 的意思是「时候；时间」。",
+   "options": [
+    "very much",
+    "carefully",
+    "time",
+    "September"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q38",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “time” 的意思是？",
+   "explain": "time 的意思是「时候；时间」。",
+   "options": [
+    "九月",
+    "选中，买下",
+    "时候；时间",
+    "在……以前"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q39",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「特别喜爱的」的英文是？",
+   "explain": "favourite 的意思是「特别喜爱的」。",
+   "options": [
+    "favourite",
+    "ouch",
+    "never",
+    "late"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q40",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “favourite” 的意思是？",
+   "explain": "favourite 的意思是「特别喜爱的」。",
+   "options": [
+    "红包",
+    "特别喜爱的",
+    "火鸡肉；火鸡",
+    "习惯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q41",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「问题，困难」的英文是？",
+   "explain": "problem 的意思是「问题，困难」。",
+   "options": [
+    "hear",
+    "fast",
+    "problem",
+    "feel good"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q42",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “problem” 的意思是？",
+   "explain": "problem 的意思是「问题，困难」。",
+   "options": [
+    "坏的",
+    "中国",
+    "等一会儿，稍等一下",
+    "问题，困难"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q43",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「做家庭作业」的英文是？",
+   "explain": "do your homework 的意思是「做家庭作业」。",
+   "options": [
+    "a lot",
+    "when",
+    "do your homework",
+    "teach"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q44",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “do your homework” 的意思是？",
+   "explain": "do your homework 的意思是「做家庭作业」。",
+   "options": [
+    "做家庭作业",
+    "许多",
+    "也不",
+    "感到愉快（或有信心等）"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q45",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「同班同学」的英文是？",
+   "explain": "classmate 的意思是「同班同学」。",
+   "options": [
+    "classmate",
+    "join",
+    "dance",
+    "jump"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u6_q46",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “classmate” 的意思是？",
+   "explain": "classmate 的意思是「同班同学」。",
+   "options": [
+    "努力地",
+    "当……时",
+    "同班同学",
+    "书写，写字"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u6_q47",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我们应该和邻居和睦相处。」用英语怎么说？",
+   "explain": "课本句型：We should get along with our neighbours.（我们应该和邻居和睦相处。）",
+   "options": [
+    "I don't think so.",
+    "We should get along with our neighbours.",
+    "Well done!",
+    "Sometimes I go climbing with my parents."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q48",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「对同学要友好。」用英语怎么说？",
+   "explain": "课本句型：Be friendly to your classmates.（对同学要友好。）",
+   "options": [
+    "Let me teach you.",
+    "Be friendly to your classmates.",
+    "Let's join the club over there.",
+    "She listens to her teachers carefully."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u6_q49",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「这里有一些给你的建议。」用英语怎么说？",
+   "explain": "课本句型：Here's some advice for you.（这里有一些给你的建议。）",
+   "options": [
+    "Bobby never keeps his room tidy.",
+    "Let's join the club over there.",
+    "When is the Spring Festival?",
+    "Here's some advice for you."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q50",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「王彬住在我隔壁。」用英语怎么说？",
+   "explain": "课本句型：Wang Bing lives next to me.（王彬住在我隔壁。）",
+   "options": [
+    "Bobby never keeps his room tidy.",
+    "What do people do at the Dragon Boat Festival?",
+    "Can I try it on?",
+    "Wang Bing lives next to me."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u6_q51",
+   "unit": "u6",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「那是个好主意。」用英语怎么说？",
+   "explain": "课本句型：That's a good idea.（那是个好主意。）",
+   "options": [
+    "Here's the shopping list.",
+    "Bobby never keeps his room tidy.",
+    "That's a good idea.",
+    "Let's have a picnic."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q1",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在商店购物」的英文是？",
+   "explain": "shop 的意思是「在商店购物」。",
+   "options": [
+    "How about ...?",
+    "shop",
+    "shoe",
+    "pair"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q2",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “shop” 的意思是？",
+   "explain": "shop 的意思是「在商店购物」。",
+   "options": [
+    "女士（不指明婚否）",
+    "在商店购物",
+    "关于，对于",
+    "试穿"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q3",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「明智的，聪明的」的英文是？",
+   "explain": "smart 的意思是「明智的，聪明的」。",
+   "options": [
+    "December",
+    "try on",
+    "smart",
+    "June"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q4",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “smart” 的意思是？",
+   "explain": "smart 的意思是「明智的，聪明的」。",
+   "options": [
+    "十月",
+    "二十四",
+    "明智的，聪明的",
+    "门"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q5",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「鞋」的英文是？",
+   "explain": "shoe 的意思是「鞋」。",
+   "options": [
+    "shoe",
+    "before",
+    "put ... in order",
+    "October"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q6",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “shoe” 的意思是？",
+   "explain": "shoe 的意思是「鞋」。",
+   "options": [
+    "在课堂上",
+    "鞋",
+    "中国",
+    "十二月"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q7",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「毛衣，线衣」的英文是？",
+   "explain": "sweater 的意思是「毛衣，线衣」。",
+   "options": [
+    "activity",
+    "never",
+    "sweater",
+    "card"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q8",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “sweater” 的意思是？",
+   "explain": "sweater 的意思是「毛衣，线衣」。",
+   "options": [
+    "跳高（运动）",
+    "时常，常常",
+    "听",
+    "毛衣，线衣"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q9",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「短袜」的英文是？",
+   "explain": "sock 的意思是「短袜」。",
+   "options": [
+    "the high jump",
+    "sock",
+    "late",
+    "do well"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q10",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “sock” 的意思是？",
+   "explain": "sock 的意思是「短袜」。",
+   "options": [
+    "是的，对的",
+    "坏的",
+    "短袜",
+    "担心的，担忧的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q11",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「蝴蝶结」的英文是？",
+   "explain": "bow 的意思是「蝴蝶结」。",
+   "options": [
+    "give up",
+    "bow",
+    "hear",
+    "excited"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q12",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “bow” 的意思是？",
+   "explain": "bow 的意思是「蝴蝶结」。",
+   "options": [
+    "单词，字",
+    "干得好！",
+    "蝴蝶结",
+    "知道，了解"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q13",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「需要，必需」的英文是？",
+   "explain": "need 的意思是「需要，必需」。",
+   "options": [
+    "when",
+    "join",
+    "word",
+    "need"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q14",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “need” 的意思是？",
+   "explain": "need 的意思是「需要，必需」。",
+   "options": [
+    "快，快速，迅速",
+    "推",
+    "她",
+    "需要，必需"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q15",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「女士（不指明婚否）」的英文是？",
+   "explain": "Ms 的意思是「女士（不指明婚否）」。",
+   "options": [
+    "gift",
+    "keep to the right",
+    "Ms",
+    "push"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q16",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “Ms” 的意思是？",
+   "explain": "Ms 的意思是「女士（不指明婚否）」。",
+   "options": [
+    "成为……的一员，参加",
+    "女士（不指明婚否）",
+    "游泳",
+    "走，行走"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q17",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「二十八」的英文是？",
+   "explain": "twenty-eight 的意思是「二十八」。",
+   "options": [
+    "always",
+    "right now",
+    "climb",
+    "twenty-eight"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q18",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “twenty-eight” 的意思是？",
+   "explain": "twenty-eight 的意思是「二十八」。",
+   "options": [
+    "花（时间），度过",
+    "二十八",
+    "听从",
+    "拜访，看望"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q19",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「元（中国货币单位）」的英文是？",
+   "explain": "yuan 的意思是「元（中国货币单位）」。",
+   "options": [
+    "slowly",
+    "yuan",
+    "spend",
+    "chat"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q20",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “yuan” 的意思是？",
+   "explain": "yuan 的意思是「元（中国货币单位）」。",
+   "options": [
+    "下象棋",
+    "元（中国货币单位）",
+    "通常地，一般地",
+    "围墙；墙，壁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q21",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「……怎么样？」的英文是？",
+   "explain": "How about ...? 的意思是「……怎么样？」。",
+   "options": [
+    "How about ...?",
+    "close to",
+    "heavy",
+    "plant"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q22",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “How about ...?” 的意思是？",
+   "explain": "How about ...? 的意思是「……怎么样？」。",
+   "options": [
+    "空地，空间",
+    "……怎么样？",
+    "在……中间，介于……之间",
+    "友好的，友爱的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q23",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「给……看，展示」的英文是？",
+   "explain": "show 的意思是「给……看，展示」。",
+   "options": [
+    "space",
+    "sock",
+    "time",
+    "show"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q24",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “show” 的意思是？",
+   "explain": "show 的意思是「给……看，展示」。",
+   "options": [
+    "在商店购物",
+    "元（中国货币单位）",
+    "给……看，展示",
+    "信，函"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q25",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「尾巴」的英文是？",
+   "explain": "tail 的意思是「尾巴」。",
+   "options": [
+    "tail",
+    "classmate",
+    "yuan",
+    "twenty-four"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q26",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “tail” 的意思是？",
+   "explain": "tail 的意思是「尾巴」。",
+   "options": [
+    "短袜",
+    "六月",
+    "零花钱",
+    "尾巴"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q27",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「清单」的英文是？",
+   "explain": "list 的意思是「清单」。",
+   "options": [
+    "tail",
+    "stocking",
+    "list",
+    "June"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q28",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “list” 的意思是？",
+   "explain": "list 的意思是「清单」。",
+   "options": [
+    "九月",
+    "选中，买下",
+    "清单",
+    "在……以前"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q29",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「零花钱」的英文是？",
+   "explain": "pocket money 的意思是「零花钱」。",
+   "options": [
+    "January",
+    "pocket money",
+    "December",
+    "mooncake"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q30",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “pocket money” 的意思是？",
+   "explain": "pocket money 的意思是「零花钱」。",
+   "options": [
+    "红包",
+    "习惯",
+    "零花钱",
+    "火鸡肉；火鸡"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q31",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「试穿」的英文是？",
+   "explain": "try on 的意思是「试穿」。",
+   "options": [
+    "try on",
+    "September",
+    "very much",
+    "carefully"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q32",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “try on” 的意思是？",
+   "explain": "try on 的意思是「试穿」。",
+   "options": [
+    "中国",
+    "等一会儿，稍等一下",
+    "试穿",
+    "坏的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q33",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「六十八」的英文是？",
+   "explain": "sixty-eight 的意思是「六十八」。",
+   "options": [
+    "sixty-eight",
+    "ouch",
+    "late",
+    "never"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q34",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “sixty-eight” 的意思是？",
+   "explain": "sixty-eight 的意思是「六十八」。",
+   "options": [
+    "也不",
+    "感到愉快（或有信心等）",
+    "许多",
+    "六十八"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q35",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「选中，买下」的英文是？",
+   "explain": "take 的意思是「选中，买下」。",
+   "options": [
+    "fast",
+    "hear",
+    "take",
+    "feel good"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q36",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “take” 的意思是？",
+   "explain": "take 的意思是「选中，买下」。",
+   "options": [
+    "书写，写字",
+    "努力地",
+    "当……时",
+    "选中，买下"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q37",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「一双，一对」的英文是？",
+   "explain": "pair 的意思是「一双，一对」。",
+   "options": [
+    "when",
+    "a lot",
+    "pair",
+    "teach"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q38",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “pair” 的意思是？",
+   "explain": "pair 的意思是「一双，一对」。",
+   "options": [
+    "做准备活动，热身",
+    "礼物",
+    "懂，理解",
+    "一双，一对"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q39",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「四十」的英文是？",
+   "explain": "forty 的意思是「四十」。",
+   "options": [
+    "dance",
+    "forty",
+    "jump",
+    "join"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q40",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “forty” 的意思是？",
+   "explain": "forty 的意思是「四十」。",
+   "options": [
+    "拉，拽，扯",
+    "跳绳",
+    "四十",
+    "游泳池"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q41",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「二十四」的英文是？",
+   "explain": "twenty-four 的意思是「二十四」。",
+   "options": [
+    "warm up",
+    "stairs",
+    "watch",
+    "twenty-four"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q42",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “twenty-four” 的意思是？",
+   "explain": "twenty-four 的意思是「二十四」。",
+   "options": [
+    "二十四",
+    "游泳",
+    "不再挡路，不再碍事",
+    "下象棋"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u7_q43",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我能试穿一下吗？」用英语怎么说？",
+   "explain": "课本句型：Can I try it on?（我能试穿一下吗？）",
+   "options": [
+    "Let me teach you.",
+    "Be friendly to your classmates.",
+    "Can I try it on?",
+    "Keep to the right, please."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q44",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「这双怎么样？」用英语怎么说？",
+   "explain": "课本句型：How about this pair?（这双怎么样？）",
+   "options": [
+    "He puts his school things in order.",
+    "I feel good now.",
+    "How about this pair?",
+    "You shouldn't climb too high."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u7_q45",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「它们六十八元。」用英语怎么说？",
+   "explain": "课本句型：They're sixty-eight yuan.（它们六十八元。）",
+   "options": [
+    "It's in January or February.",
+    "Are you OK?",
+    "Does Wang Bing do exercise every day?",
+    "They're sixty-eight yuan."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q46",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我买下了。」用英语怎么说？",
+   "explain": "课本句型：I'll take them.（我买下了。）",
+   "options": [
+    "Are you OK?",
+    "I'll take them.",
+    "How about this pair?",
+    "What good habits do you have?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u7_q47",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「你需要什么？」用英语怎么说？",
+   "explain": "课本句型：What do you need?（你需要什么？）",
+   "options": [
+    "I'll take them.",
+    "We should get along with our neighbours.",
+    "What good habits do you have?",
+    "What do you need?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u7_q48",
+   "unit": "u7",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「这是购物清单。」用英语怎么说？",
+   "explain": "课本句型：Here's the shopping list.（这是购物清单。）",
+   "options": [
+    "Here's the shopping list.",
+    "What does he do at weekends?",
+    "Can I try it on?",
+    "What good habits do you have?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q1",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「节日」的英文是？",
+   "explain": "festival 的意思是「节日」。",
+   "options": [
+    "card",
+    "never",
+    "activity",
+    "festival"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q2",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “festival” 的意思是？",
+   "explain": "festival 的意思是「节日」。",
+   "options": [
+    "知道，了解",
+    "节日",
+    "单词，字",
+    "干得好！"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q3",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「天空」的英文是？",
+   "explain": "sky 的意思是「天空」。",
+   "options": [
+    "late",
+    "do well",
+    "the high jump",
+    "sky"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q4",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “sky” 的意思是？",
+   "explain": "sky 的意思是「天空」。",
+   "options": [
+    "她",
+    "推",
+    "天空",
+    "快，快速，迅速"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q5",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「关于，对于」的英文是？",
+   "explain": "about 的意思是「关于，对于」。",
+   "options": [
+    "excited",
+    "hear",
+    "about",
+    "give up"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q6",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “about” 的意思是？",
+   "explain": "about 的意思是「关于，对于」。",
+   "options": [
+    "走，行走",
+    "关于，对于",
+    "游泳",
+    "成为……的一员，参加"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q7",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「六月」的英文是？",
+   "explain": "June 的意思是「六月」。",
+   "options": [
+    "word",
+    "join",
+    "June",
+    "when"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q8",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “June” 的意思是？",
+   "explain": "June 的意思是「六月」。",
+   "options": [
+    "六月",
+    "花（时间），度过",
+    "拜访，看望",
+    "听从"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q9",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「龙舟比赛」的英文是？",
+   "explain": "dragon boat race 的意思是「龙舟比赛」。",
+   "options": [
+    "keep to the right",
+    "gift",
+    "dragon boat race",
+    "push"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q10",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “dragon boat race” 的意思是？",
+   "explain": "dragon boat race 的意思是「龙舟比赛」。",
+   "options": [
+    "围墙；墙，壁",
+    "龙舟比赛",
+    "通常地，一般地",
+    "下象棋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q11",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「一月」的英文是？",
+   "explain": "January 的意思是「一月」。",
+   "options": [
+    "right now",
+    "always",
+    "January",
+    "climb"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q12",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “January” 的意思是？",
+   "explain": "January 的意思是「一月」。",
+   "options": [
+    "在……中间，介于……之间",
+    "空地，空间",
+    "一月",
+    "友好的，友爱的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q13",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「二月」的英文是？",
+   "explain": "February 的意思是「二月」。",
+   "options": [
+    "chat",
+    "slowly",
+    "February",
+    "spend"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q14",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “February” 的意思是？",
+   "explain": "February 的意思是「二月」。",
+   "options": [
+    "元（中国货币单位）",
+    "二月",
+    "在商店购物",
+    "信，函"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q15",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「在……以前」的英文是？",
+   "explain": "before 的意思是「在……以前」。",
+   "options": [
+    "close to",
+    "plant",
+    "heavy",
+    "before"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q16",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “before” 的意思是？",
+   "explain": "before 的意思是「在……以前」。",
+   "options": [
+    "短袜",
+    "在……以前",
+    "零花钱",
+    "六月"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q17",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「门」的英文是？",
+   "explain": "door 的意思是「门」。",
+   "options": [
+    "space",
+    "sock",
+    "time",
+    "door"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q18",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “door” 的意思是？",
+   "explain": "door 的意思是「门」。",
+   "options": [
+    "九月",
+    "门",
+    "选中，买下",
+    "在……以前"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q19",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「红包」的英文是？",
+   "explain": "red packet 的意思是「红包」。",
+   "options": [
+    "yuan",
+    "forty",
+    "red packet",
+    "classmate"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q20",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “red packet” 的意思是？",
+   "explain": "red packet 的意思是「红包」。",
+   "options": [
+    "红包",
+    "等一会儿，稍等一下",
+    "习惯",
+    "火鸡肉；火鸡"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q21",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「舞狮」的英文是？",
+   "explain": "lion dance 的意思是「舞狮」。",
+   "options": [
+    "about",
+    "lion dance",
+    "tail",
+    "stocking"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q22",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “lion dance” 的意思是？",
+   "explain": "lion dance 的意思是「舞狮」。",
+   "options": [
+    "舞狮",
+    "中国",
+    "等一会儿，稍等一下",
+    "坏的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q23",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「过得愉快」的英文是？",
+   "explain": "have a good time 的意思是「过得愉快」。",
+   "options": [
+    "dragon boat race",
+    "December",
+    "mooncake",
+    "have a good time"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q24",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “have a good time” 的意思是？",
+   "explain": "have a good time 的意思是「过得愉快」。",
+   "options": [
+    "许多",
+    "感到愉快（或有信心等）",
+    "过得愉快",
+    "也不"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q25",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「十二月」的英文是？",
+   "explain": "December 的意思是「十二月」。",
+   "options": [
+    "very much",
+    "carefully",
+    "September",
+    "December"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q26",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “December” 的意思是？",
+   "explain": "December 的意思是「十二月」。",
+   "options": [
+    "十二月",
+    "当……时",
+    "努力地",
+    "书写，写字"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q27",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「挂」的英文是？",
+   "explain": "hang 的意思是「挂」。",
+   "options": [
+    "never",
+    "hang",
+    "ouch",
+    "late"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q28",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “hang” 的意思是？",
+   "explain": "hang 的意思是「挂」。",
+   "options": [
+    "挂",
+    "礼物",
+    "懂，理解",
+    "做准备活动，热身"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q29",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「圣诞袜」的英文是？",
+   "explain": "stocking 的意思是「圣诞袜」。",
+   "options": [
+    "feel good",
+    "stocking",
+    "hear",
+    "fast"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q30",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “stocking” 的意思是？",
+   "explain": "stocking 的意思是「圣诞袜」。",
+   "options": [
+    "游泳池",
+    "圣诞袜",
+    "拉，拽，扯",
+    "跳绳"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q31",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「打开，撕开」的英文是？",
+   "explain": "open 的意思是「打开，撕开」。",
+   "options": [
+    "a lot",
+    "teach",
+    "open",
+    "when"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q32",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “open” 的意思是？",
+   "explain": "open 的意思是「打开，撕开」。",
+   "options": [
+    "不再挡路，不再碍事",
+    "游泳",
+    "下象棋",
+    "打开，撕开"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q33",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「火鸡肉；火鸡」的英文是？",
+   "explain": "turkey 的意思是「火鸡肉；火鸡」。",
+   "options": [
+    "jump",
+    "turkey",
+    "dance",
+    "join"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q34",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “turkey” 的意思是？",
+   "explain": "turkey 的意思是「火鸡肉；火鸡」。",
+   "options": [
+    "火鸡肉；火鸡",
+    "出去",
+    "邻居，邻人",
+    "电视，电视机"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q35",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「十月」的英文是？",
+   "explain": "October 的意思是「十月」。",
+   "options": [
+    "October",
+    "stairs",
+    "watch",
+    "warm up"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q36",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “October” 的意思是？",
+   "explain": "October 的意思是「十月」。",
+   "options": [
+    "住，居住",
+    "时候；时间",
+    "紧邻，在……近旁",
+    "十月"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q37",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「九月」的英文是？",
+   "explain": "September 的意思是「九月」。",
+   "options": [
+    "September",
+    "wonderful",
+    "chat",
+    "right now"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q38",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “September” 的意思是？",
+   "explain": "September 的意思是「九月」。",
+   "options": [
+    "九月",
+    "同班同学",
+    "太，过于",
+    "……怎么样？"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q39",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「月饼」的英文是？",
+   "explain": "mooncake 的意思是「月饼」。",
+   "options": [
+    "heavy",
+    "letter",
+    "mooncake",
+    "get out"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q40",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “mooncake” 的意思是？",
+   "explain": "mooncake 的意思是「月饼」。",
+   "options": [
+    "二十八",
+    "月饼",
+    "明智的，聪明的",
+    "试穿"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q41",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「活动」的英文是？",
+   "explain": "activity 的意思是「活动」。",
+   "options": [
+    "time",
+    "activity",
+    "need",
+    "on one's way back"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q42",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “activity” 的意思是？",
+   "explain": "activity 的意思是「活动」。",
+   "options": [
+    "零花钱",
+    "红包",
+    "天空",
+    "活动"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q43",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「月亮」的英文是？",
+   "explain": "moon 的意思是「月亮」。",
+   "options": [
+    "sock",
+    "problem",
+    "show",
+    "moon"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "yl5a_u8_q44",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “moon” 的意思是？",
+   "explain": "moon 的意思是「月亮」。",
+   "options": [
+    "二月",
+    "锻炼",
+    "月亮",
+    "打开，撕开"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q45",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "「中国」的英文是？",
+   "explain": "China 的意思是「中国」。",
+   "options": [
+    "pair",
+    "China",
+    "January",
+    "How about ...?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q46",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 1,
+   "answer_mode": "choice",
+   "stem": "单词 “China” 的意思是？",
+   "explain": "China 的意思是「中国」。",
+   "options": [
+    "中国",
+    "健康的，健壮的",
+    "整洁的，井然有序的",
+    "月饼"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q47",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「春节在什么时候？」用英语怎么说？",
+   "explain": "课本句型：When is the Spring Festival?（春节在什么时候？）",
+   "options": [
+    "Sometimes I go climbing with my parents.",
+    "You should do the high jump like this.",
+    "When is the Spring Festival?",
+    "We should warm up first."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q48",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「它在一月或二月。」用英语怎么说？",
+   "explain": "课本句型：It's in January or February.（它在一月或二月。）",
+   "options": [
+    "My hobby is dancing.",
+    "It's in January or February.",
+    "Sometimes I go climbing with my parents.",
+    "Does Wang Bing do exercise every day?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "yl5a_u8_q49",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「人们在端午节做什么？」用英语怎么说？",
+   "explain": "课本句型：What do people do at the Dragon Boat Festival?（人们在端午节做什么？）",
+   "options": [
+    "Let's join the club over there.",
+    "I usually visit my grandparents.",
+    "What do people do at the Dragon Boat Festival?",
+    "Don't give up!"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "yl5a_u8_q50",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「他们看龙舟比赛。」用英语怎么说？",
+   "explain": "课本句型：They watch dragon boat races.（他们看龙舟比赛。）",
+   "options": [
+    "They watch dragon boat races.",
+    "Bobby never keeps his room tidy.",
+    "What do you like doing?",
+    "They're sixty-eight yuan."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "yl5a_u8_q51",
+   "unit": "u8",
+   "type": "choice",
+   "skill": "choice",
+   "difficulty": 2,
+   "answer_mode": "choice",
+   "stem": "「我们总是过得很愉快。」用英语怎么说？",
+   "explain": "课本句型：We always have a good time.（我们总是过得很愉快。）",
+   "options": [
+    "When is the Spring Festival?",
+    "We always have a good time.",
+    "Be friendly to your classmates.",
+    "Bobby never keeps his room tidy."
+   ],
+   "answer": 2
+  }
+ ]
+}

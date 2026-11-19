@@ -7909,6 +7909,66 @@
    "unit_name": null,
    "domain": "数与代数",
    "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p417",
+   "name": "观察物体（一）",
+   "grade": 1,
+   "semester": "lower",
+   "unit": "u7",
+   "unit_name": null,
+   "domain": "图形与几何",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p418",
+   "name": "两位数乘、除以一位数",
+   "grade": 2,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p419",
+   "name": "角的初步认识",
+   "grade": 2,
+   "semester": "lower",
+   "unit": "u7",
+   "unit_name": null,
+   "domain": "图形与几何",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p420",
+   "name": "线段、射线和直线",
+   "grade": 3,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": null,
+   "domain": "图形与几何",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p421",
+   "name": "年、月、日",
+   "grade": 3,
+   "semester": "lower",
+   "unit": "up1",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p422",
+   "name": "分数的初步认识",
+   "grade": 3,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
   }
  ],
  "edges": [

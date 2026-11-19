@@ -920,6 +920,161 @@
        }
       }
      }
+    },
+    "tongbian-legacy": {
+     "name": "统编版（老教材）",
+     "publisher": "统编版",
+     "edition_year": 2019,
+     "grades": {
+      "4": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g4_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1单元 古诗·四时田园杂兴"
+         },
+         {
+          "id": "u2",
+          "name": "第2单元 课文·琥珀"
+         },
+         {
+          "id": "u3",
+          "name": "第3单元 课文·绿"
+         },
+         {
+          "id": "u4",
+          "name": "第4单元 课文·猫"
+         },
+         {
+          "id": "u5",
+          "name": "第5单元 习作·游_____"
+         },
+         {
+          "id": "u6",
+          "name": "第6单元 文言文·囊萤夜读"
+         },
+         {
+          "id": "u7",
+          "name": "第7单元 古诗·芙蓉楼送辛渐"
+         },
+         {
+          "id": "u8",
+          "name": "第8单元 童话·巨人的花园"
+         }
+        ]
+       }
+      },
+      "5": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g5_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1单元 古诗·四时田园杂兴"
+         },
+         {
+          "id": "u2",
+          "name": "第2单元 名著·草船借箭"
+         },
+         {
+          "id": "u3",
+          "name": "第3单元 综合性学习·遨游汉字王国"
+         },
+         {
+          "id": "u4",
+          "name": "第4单元 古诗·从军行"
+         },
+         {
+          "id": "u5",
+          "name": "第5单元 课文·人物描写一组"
+         },
+         {
+          "id": "u6",
+          "name": "第6单元 文言文·自相矛盾"
+         },
+         {
+          "id": "u7",
+          "name": "第7单元 课文·威尼斯的小艇"
+         },
+         {
+          "id": "u8",
+          "name": "第8单元 文言文·杨氏之子"
+         }
+        ]
+       }
+      },
+      "6": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g6_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1单元 课文·北京的春节"
+         },
+         {
+          "id": "u2",
+          "name": "第2单元 名著·鲁滨逊漂流记"
+         },
+         {
+          "id": "u3",
+          "name": "第3单元 散文·匆匆"
+         },
+         {
+          "id": "u4",
+          "name": "第4单元 课文·十六年前的回忆"
+         },
+         {
+          "id": "u5",
+          "name": "第5单元 文言文·学弈"
+         },
+         {
+          "id": "u6",
+          "name": "第6单元 综合性学习·难忘小学生活"
+         },
+         {
+          "id": "u7",
+          "name": "第7单元 古诗词诵读·采薇"
+         },
+         {
+          "id": "u8",
+          "name": "第8单元 古诗词诵读·泊船瓜洲"
+         }
+        ]
+       }
+      },
+      "9": {
+       "lower": {
+        "file": "chinese/tongbian/g9_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1单元·现代诗情"
+         },
+         {
+          "id": "u2",
+          "name": "第2单元·小说人物"
+         },
+         {
+          "id": "u3",
+          "name": "第3单元·取义与求学"
+         },
+         {
+          "id": "u4",
+          "name": "第4单元·读书与鉴赏"
+         },
+         {
+          "id": "u5",
+          "name": "第5单元·舞台人生"
+         },
+         {
+          "id": "u6",
+          "name": "第6单元·创意与余响"
+         }
+        ]
+       }
+      }
+     }
     }
    }
   },
@@ -6431,6 +6586,121 @@
          {
           "id": "u8",
           "name": "U8·What we wear"
+         }
+        ]
+       },
+       "lower": {
+        "file": "english/yilin/g4_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·We're friends"
+         },
+         {
+          "id": "u2",
+          "name": "U2·Helping others at school"
+         },
+         {
+          "id": "u3",
+          "name": "U3·Road safety"
+         },
+         {
+          "id": "u4",
+          "name": "U4·Caring about others"
+         },
+         {
+          "id": "u5",
+          "name": "U5·Eating out"
+         },
+         {
+          "id": "u6",
+          "name": "U6·Jobs"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Doing chores at home"
+         },
+         {
+          "id": "u8",
+          "name": "U8·In the kitchen"
+         }
+        ]
+       }
+      },
+      "5": {
+       "upper": {
+        "file": "english/yilin/g5_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·Good habits"
+         },
+         {
+          "id": "u2",
+          "name": "U2·I feel good"
+         },
+         {
+          "id": "u3",
+          "name": "U3·Hobbies"
+         },
+         {
+          "id": "u4",
+          "name": "U4·Safety first"
+         },
+         {
+          "id": "u5",
+          "name": "U5·At weekends"
+         },
+         {
+          "id": "u6",
+          "name": "U6·Getting along with others"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Shopping smart"
+         },
+         {
+          "id": "u8",
+          "name": "U8·We love festivals"
+         }
+        ]
+       }
+      },
+      "6": {
+       "upper": {
+        "file": "english/yilin/g6_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·Try your best"
+         },
+         {
+          "id": "u2",
+          "name": "U2·Honesty"
+         },
+         {
+          "id": "u3",
+          "name": "U3·Great people"
+         },
+         {
+          "id": "u4",
+          "name": "U4·Getting together"
+         },
+         {
+          "id": "u5",
+          "name": "U5·Keeping our city clean"
+         },
+         {
+          "id": "u6",
+          "name": "U6·Going green"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Old things, new life"
+         },
+         {
+          "id": "u8",
+          "name": "U8·Then and now"
          }
         ]
        }
