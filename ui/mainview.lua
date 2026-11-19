@@ -3411,45 +3411,46 @@ function MainView:render_shop()
             size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
         }))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        -- 一行两张卡：宽度均分整行，高度按比例定死，这样两张卡始终一样高、行也整齐；
+        -- 一行三张卡：宽度均分整行，高度固定成正方形，行与行始终整齐；
         -- 名字过长时卡内自动换行（最多两行）。
         local gap = Size.span.horizontal_default
         local pad = Size.padding.default
-        local colw = math.floor((cw - gap) / 2)
-        local cardh = math.floor(colw * 0.72)
+        local cols = 3
+        local colw = math.floor((cw - (cols - 1) * gap) / cols)
+        local cardh = colw
         local inner = colw - 2 * (pad + Size.border.thin)
         local function coupon_card(item)
             local affordable = balance >= item.cost
             local body = VerticalGroup:new{
                 align = "center",
                 Widgets.textbox(item.name, inner, {
-                    size = 18, alignment = "center", line_height = 0.2, max_lines = 2,
+                    size = 15, alignment = "center", line_height = 0.2, max_lines = 2,
                 }),
-                Widgets.vspace(Size.span.vertical_default),
+                Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default),
                 Widgets.label(string.format("★ %d", item.cost), {
-                    size = 22, bold = true,
+                    size = 17, bold = true,
                     color = affordable and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
                 }),
-                Widgets.vspace(Size.span.vertical_default),
+                Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default),
                 Widgets.button(affordable and "兑换"
                         or string.format("差 %d 星", item.cost - balance), {
                     width = inner,
-                    size = 17,
+                    size = 15,
                     callback = function() self:redeem_shop_item(item.id) end,
                 }),
             }
             return Widgets.card(body, { width = colw, height = cardh, padding = pad })
         end
         local idx = 1
-        for _, count in ipairs(balanced_row_counts(#items, 2)) do
-            local row = HorizontalGroup:new{ align = "center" }
-            for i = idx, idx + count - 1 do
+        while idx <= #items do
+            local row = HorizontalGroup:new{ align = "top" }
+            for i = idx, math.min(idx + cols - 1, #items) do
                 if i > idx then table.insert(row, Widgets.hspace(gap)) end
                 table.insert(row, coupon_card(items[i]))
             end
             table.insert(content, row)
             table.insert(content, Widgets.vspace(Size.span.vertical_default))
-            idx = idx + count
+            idx = idx + cols
         end
     end
 
@@ -4088,79 +4089,68 @@ function MainView:render_shop_settings()
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
 
-    -- 一行三列：每张卡上面是名称 + 星星数（点一下改价），下面是两个窄按钮（下架/删除）
-    local gap = Screen:scaleBySize(8)
-    local cols = 3
-    local colw = math.floor((cw - (cols - 1) * gap) / cols)
+    -- 一行一张卡：左边卡券名 + 星星数（点一下改价），右边「下架/上架」「删除」两个窄按钮
     local pad = Size.padding.default
-    local inner = colw - 2 * (pad + Size.border.thin)
-    local btn_gap = Screen:scaleBySize(6)
-    local btn_w = math.floor((inner - btn_gap) / 2)
+    local inner = cw - 2 * (pad + Size.border.thin)
+    local btn_gap = Screen:scaleBySize(12)
+    local btn_w = Screen:scaleBySize(96)
     local btn_h = Screen:scaleBySize(50)
     local btn_pad = Screen:scaleBySize(4)
+    local info_w = inner - 2 * btn_w - 2 * btn_gap
 
     local function admin_card(item)
         local captured = item
-        local head = Widgets.tappable(VerticalGroup:new{
-            align = "center",
-            Widgets.textbox(item.name, inner, {
-                size = 16, alignment = "center", line_height = 0.2, max_lines = 2,
-            }),
-            Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default),
-            Widgets.label(string.format("★ %d", item.cost), {
-                size = 18, bold = true,
+        local info = Widgets.tappable(VerticalGroup:new{
+            align = "left",
+            Widgets.textbox(item.name, info_w, {
+                size = 17, line_height = 0.15, max_lines = 2,
                 color = item.enabled and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
             }),
+            Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default),
+            Widgets.label(string.format("★ %d%s", item.cost,
+                item.enabled and "" or "（已下架）"), {
+                size = 14, color = Blitbuffer.COLOR_DARK_GRAY, max_width = info_w,
+            }),
         }, function() self:edit_shop_cost(captured) end)
-        local body = VerticalGroup:new{
+        local body = HorizontalGroup:new{
             align = "center",
-            head,
-            Widgets.vspace(Size.span.vertical_default),
-            HorizontalGroup:new{
-                align = "center",
-                Widgets.button(item.enabled and "下架" or "上架", {
-                    width = btn_w,
-                    height = btn_h,
-                    size = 15,
-                    padding = btn_pad,
-                    callback = function()
-                        Shop.set_enabled(self.progress, captured.id, not captured.enabled)
-                        self:render_shop_settings()
-                    end,
-                }),
-                Widgets.hspace(btn_gap),
-                Widgets.button("删除", {
-                    width = btn_w,
-                    height = btn_h,
-                    size = 15,
-                    padding = btn_pad,
-                    callback = function()
-                        UIManager:show(ConfirmBox:new{
-                            text = string.format("从商城删除「%s」？\n已兑换的卡券还在钱包里。", captured.name),
-                            ok_text = "删除",
-                            cancel_text = "保留",
-                            ok_callback = function()
-                                Shop.remove_item(self.progress, captured.id)
-                                self:render_shop_settings()
-                            end,
-                        })
-                    end,
-                }),
-            },
+            info,
+            Widgets.hspace(btn_gap),
+            Widgets.button(item.enabled and "下架" or "上架", {
+                width = btn_w,
+                height = btn_h,
+                size = 15,
+                padding = btn_pad,
+                callback = function()
+                    Shop.set_enabled(self.progress, captured.id, not captured.enabled)
+                    self:render_shop_settings()
+                end,
+            }),
+            Widgets.hspace(btn_gap),
+            Widgets.button("删除", {
+                width = btn_w,
+                height = btn_h,
+                size = 15,
+                padding = btn_pad,
+                callback = function()
+                    UIManager:show(ConfirmBox:new{
+                        text = string.format("从商城删除「%s」？\n已兑换的卡券还在钱包里。", captured.name),
+                        ok_text = "删除",
+                        cancel_text = "保留",
+                        ok_callback = function()
+                            Shop.remove_item(self.progress, captured.id)
+                            self:render_shop_settings()
+                        end,
+                    })
+                end,
+            }),
         }
-        return Widgets.card(body, { width = colw, padding = pad })
+        return Widgets.card(body, { width = cw, padding = pad })
     end
 
-    local idx = 1
-    while idx <= #items do
-        local row = HorizontalGroup:new{ align = "top" }
-        for i = idx, math.min(idx + cols - 1, #items) do
-            if i > idx then table.insert(row, Widgets.hspace(gap)) end
-            table.insert(row, admin_card(items[i]))
-        end
-        table.insert(content, row)
+    for _, item in ipairs(items) do
+        table.insert(content, admin_card(item))
         table.insert(content, Widgets.vspace(Size.span.vertical_default))
-        idx = idx + cols
     end
 
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
