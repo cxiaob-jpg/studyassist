@@ -7879,6 +7879,36 @@
    "unit_name": null,
    "domain": "数与代数",
    "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p414",
+   "name": "10的认识和加减法",
+   "grade": 1,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p415",
+   "name": "两位数加、减两位数的口算",
+   "grade": 2,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_p416",
+   "name": "三位数的认识与算盘",
+   "grade": 2,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": null,
+   "domain": "数与代数",
+   "edition": "sujiao2024"
   }
  ],
  "edges": [
