@@ -73,9 +73,9 @@ function PinPadDialog:init()
         local hg = HorizontalGroup:new{}
         for i, cell in ipairs(cells) do
             if i > 1 then
-                hg:add(HorizontalSpan:new{ width = gap })
+                table.insert(hg, HorizontalSpan:new{ width = gap })
             end
-            hg:add(cell)
+            table.insert(hg, cell)
         end
         return CenterContainer:new{
             dimen = Geom:new{ w = grid_w, h = btn_h },
@@ -84,16 +84,16 @@ function PinPadDialog:init()
     end
 
     local body = VerticalGroup:new{}
-    body:add(CenterContainer:new{
+    table.insert(body, CenterContainer:new{
         dimen = Geom:new{ w = grid_w, h = title_w:getSize().h },
         title_w,
     })
-    body:add(VerticalSpan:new{ width = pad })
-    body:add(CenterContainer:new{
+    table.insert(body, VerticalSpan:new{ width = pad })
+    table.insert(body, CenterContainer:new{
         dimen = Geom:new{ w = grid_w, h = self.dots_w:getSize().h },
         self.dots_w,
     })
-    body:add(VerticalSpan:new{ width = pad * 1.5 })
+    table.insert(body, VerticalSpan:new{ width = pad * 1.5 })
 
     local rows = {
         { "1", "2", "3" },
@@ -118,8 +118,8 @@ function PinPadDialog:init()
                 end)
             end
         end
-        body:add(grid_row(cells))
-        body:add(VerticalSpan:new{ width = gap })
+        table.insert(body, grid_row(cells))
+        table.insert(body, VerticalSpan:new{ width = gap })
     end
 
     local frame = FrameContainer:new{
