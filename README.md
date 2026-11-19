@@ -137,7 +137,7 @@ export KIDLEARN_AUTOSTART=1        # 旧配置名，仍兼容
 ### 怎么用
 
 1. 打开「设置」，可以看到「当前版本：vX.Y.Z」。
-2. 点「检查更新」：插件先请求 CNB 镜像（国内直连快，探测超时 10 秒），失败或不可用自动改走 GitHub 最新 Release，再比对版本号。已是最新会提示「已是最新版本」；有新版本则弹确认框，点「升级」后开始下载 `studyassist.koplugin.zip`。
+2. 点「检查更新」：插件请求 GitHub 最新 Release 比对版本号；**下载升级包优先走 CNB 国内镜像**（`cnb.cool/byh-mirror/studyassist`，匿名可下载），镜像取不到自动回退 GitHub。已是最新会提示「已是最新版本」；有新版本则弹确认框，点「升级」后开始下载 `studyassist.koplugin.zip`。
 3. 下载时会显示**进度条**（已下载 / 总大小和百分比）。下载**不设超时**：网络慢或暂时卡住只会停在当前进度，不会报错，什么时候继续由网络决定；不想等了随时点「取消下载」即可，取消不影响任何学习记录，也不会留下临时文件。下载完成后自动解压并替换插件程序。
 4. 升级完成后提示重启 KOReader 生效（Lua 模块有缓存，必须重启）。点「重启」即可；选「稍后」则下次启动生效。
 
@@ -151,13 +151,13 @@ export KIDLEARN_AUTOSTART=1        # 旧配置名，仍兼容
 
 - 版本号唯一来源是 `_meta.lua` 的 `version`（如 `1.12.2`）。
 - 在 GitHub 发 Release：tag 用 `vX.Y.Z`，附件名严格为 `studyassist.koplugin.zip`（用 `tools/studyassist/package_plugin.sh` 生成，包内顶层是 `studyassist.koplugin/`）。
-- 插件检查更新依次尝试：CNB 镜像（`api.cnb.cool/byh-mirror/studyassist`，需要镜像仓库设为公开）→ GitHub `releases/latest`；只认稳定版（不含 draft/prerelease）。镜像可用时附件也从镜像下载。
+- 插件用 GitHub `releases/latest` 检查版本（CNB OpenAPI 即使公开仓库也要登录，只作下载镜像）；只认稳定版（不含 draft/prerelease）。**发布 Release 时必须在 CNB 镜像同步建 Release 并上传同名附件**（tag 与 GitHub 一致），否则镜像下载 404 会自动回退 GitHub 慢速。
 - 想验证更新流程：发一个比当前更高的 tag（如当前 1.12.2，发 v1.12.3）。
 
 ### 注意
 
 - **开发版安装会被拒绝**：用 `test_plugin.sh` 链接进 KOReader 的符号链接安装属于开发版，更新器会提示手动更新，避免覆盖你的工作区。
-- **网络**：优先走 CNB 国内镜像，镜像不可用时直连 GitHub。直连可能较慢或不稳定：下载不设超时、带进度条，慢就慢慢等，随时可点「取消下载」；检查更新失败可重试。可在存档 `settings.update_api_url` 强制指定检查接口地址（指定后只用这一个源，附件下载地址取自该接口返回）。
+- **网络**：检查更新走 GitHub（小请求，一般可达）；**下载升级包优先走 CNB 国内镜像**，镜像失败自动回退 GitHub 直连。直连可能较慢或不稳定：下载不设超时、带进度条，慢就慢慢等，随时可点「取消下载」；检查更新失败可重试。可在存档 `settings.update_api_url` 强制指定检查接口地址（指定后检查只用这一个源，镜像下载仍按 tag 拼接）。
 - 首次使用前仓库需至少有一个已发布的 Release。
 
 ---

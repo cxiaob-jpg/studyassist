@@ -3765,6 +3765,7 @@ function MainView:install_update(release)
         handle = Update.download_and_install({
             plugin_path = self.plugin_path,
             asset_url = release.asset_url,
+            mirror_asset_url = release.mirror_asset_url,
             expect_version = release.version,
             on_progress = function(received, total)
                 dialog:update_progress(received, total)

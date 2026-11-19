@@ -303,11 +303,10 @@ describe("StudyAssist update", function()
             assert.are.equal("v1.18.0", r.tag)
         end)
 
-        it("tries the mirror first and falls back to GitHub", function()
+        it("checks GitHub first, then the CNB mirror API, and exposes a mirror download URL", function()
             local urls = {}
             local transport = { get = function(url)
                 urls[#urls + 1] = url
-                if url:find("cnb.cool", 1, true) then return nil, "mirror down" end
                 return body("v1.3.1")
             end }
             local result
@@ -315,9 +314,27 @@ describe("StudyAssist update", function()
                 function(r) result = r end)
             assert.is_true(result.available)
             assert.are.equal("v1.3.1", result.tag)
+            assert.are.equal(1, #urls) -- 首个源成功即停止
+            assert.truthy(urls[1]:find("api.github.com", 1, true))
+            -- 附件下载候选：CNB 镜像确定性 URL（匿名可下载）
+            assert.are.equal(
+                "https://cnb.cool/byh-mirror/studyassist/-/releases/download/v1.3.1/studyassist.koplugin.zip",
+                result.mirror_asset_url)
+        end)
+
+        it("falls back to the CNB mirror API check when GitHub is unreachable", function()
+            local urls = {}
+            local transport = { get = function(url)
+                urls[#urls + 1] = url
+                if url:find("api.github.com", 1, true) then return nil, "github down" end
+                return body("v1.3.1")
+            end }
+            local result
+            Update.check({ local_version = "1.3.0", transport = transport },
+                function(r) result = r end)
+            assert.is_true(result.available)
             assert.are.equal(2, #urls)
-            assert.truthy(urls[1]:find("cnb.cool", 1, true))
-            assert.truthy(urls[2]:find("api.github.com", 1, true))
+            assert.truthy(urls[2]:find("cnb.cool", 1, true))
         end)
 
         it("uses only the explicit api_url when one is given", function()
@@ -539,6 +556,32 @@ describe("StudyAssist update", function()
             assert.are.equal("1.3.1", Update.local_version(plugin_dir))
             assert.is_nil(lfs.attributes(plugins_dir .. "/.studyassist_update", "mode"))
             assert.is_nil(lfs.attributes(plugins_dir .. "/.studyassist_backup", "mode"))
+            assert_data_unchanged(snap)
+        end)
+
+        it("downloads from the mirror first and falls back on failure", function()
+            local zip_path = root .. "/release.zip"
+            make_zip(zip_path, "-- NEW main\n", "1.3.1")
+            local zip_bytes = read_file(zip_path)
+            local snap = snapshot()
+            local urls = {}
+            local ok, err
+            Update.download_and_install({
+                plugin_path = plugin_dir,
+                asset_url = "https://github.example/studyassist.koplugin.zip",
+                mirror_asset_url = "https://cnb.cool/byh-mirror/studyassist/-/releases/download/v1.3.1/studyassist.koplugin.zip",
+                expect_version = "1.3.1",
+                transport = { get = function(url)
+                    urls[#urls + 1] = url
+                    if url:find("cnb.cool", 1, true) then return nil, "mirror 404" end
+                    return zip_bytes
+                end },
+            }, function(o, e) ok, err = o, e end)
+            assert.is_true(ok, tostring(err))
+            assert.are.equal(2, #urls)
+            assert.truthy(urls[1]:find("cnb.cool", 1, true))
+            assert.truthy(urls[2]:find("github.example", 1, true))
+            assert.are.equal("1.3.1", Update.local_version(plugin_dir))
             assert_data_unchanged(snap)
         end)
 

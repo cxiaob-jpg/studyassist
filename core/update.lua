@@ -36,9 +36,12 @@ local Update = {}
 Update.CANCELLED = UpdateHttp.CANCELLED
 
 local DEFAULT_API_URL = "https://api.github.com/repos/cxiaob-jpg/studyassist/releases/latest"
--- 国内镜像（CNB，与 GitHub 仓库同源同步）。匿名可访问时优先走它，
--- 失败自动回退 GitHub；仓库私有时匿名请求 401，等于自动只用 GitHub。
+-- 国内镜像（CNB，与 GitHub 仓库同源同步）。CNB 的 OpenAPI 即使仓库公开也
+-- 要求登录（匿名 401），但 Release 附件的 browser_download_url 匿名可用，
+-- 所以流程是：检查更新走 GitHub（小 JSON，快），下载大附件优先走镜像的
+-- 确定性 URL，失败回退 GitHub 附件地址。
 local MIRROR_API_URL = "https://api.cnb.cool/byh-mirror/studyassist/-/releases"
+local MIRROR_DOWNLOAD_BASE = "https://cnb.cool/byh-mirror/studyassist/-/releases/download/"
 local ASSET_NAME = "studyassist.koplugin.zip"
 local TOP_DIR = "studyassist.koplugin"
 local STAGING_NAME = ".studyassist_update"
@@ -47,6 +50,7 @@ local MAX_REDIRECTS = 5
 
 Update.DEFAULT_API_URL = DEFAULT_API_URL
 Update.MIRROR_API_URL = MIRROR_API_URL
+Update.MIRROR_DOWNLOAD_BASE = MIRROR_DOWNLOAD_BASE
 Update.ASSET_NAME = ASSET_NAME
 
 -- ---------------------------------------------------------------------------
@@ -256,17 +260,17 @@ function Update.check(opts, callback)
     opts = opts or {}
     local transport = opts.transport or default_transport
     local current = opts.local_version or "0.0.0"
-    -- 检查源：显式指定 api_url 时只用它（测试/自定义）；否则镜像优先
-    -- （国内直连快，探测超时短），失败回退 GitHub。
+    -- 检查源：显式指定 api_url 时只用它（测试/自定义）；否则 GitHub 检查
+    -- 优先（CNB OpenAPI 匿名也要求登录，只适合做下载镜像），CNB 探测作备选。
     local sources
     local api_url = opts.api_url
     if type(api_url) == "string" and api_url ~= "" then
         sources = { { url = api_url, accept = "application/vnd.github+json" } }
     else
         sources = {
+            { url = DEFAULT_API_URL, accept = "application/vnd.github+json" },
             { url = MIRROR_API_URL, accept = "application/vnd.cnb.api+json",
               block_timeout = 8, total_timeout = 10 },
-            { url = DEFAULT_API_URL, accept = "application/vnd.github+json" },
         }
     end
     local last_err
@@ -286,6 +290,8 @@ function Update.check(opts, callback)
         if release then
             release.current = current
             release.available = Update.is_newer(release.tag, current)
+            -- 附件下载的镜像候选：CNB 按确定性的 tag URL 匿名可下载。
+            release.mirror_asset_url = MIRROR_DOWNLOAD_BASE .. release.tag .. "/" .. ASSET_NAME
             callback(release)
             return
         end
@@ -300,10 +306,12 @@ end
 -- the returned handle. The install phase is fast local I/O. Every write is
 -- confined to the plugin dir and the two named temp dirs; the settings dir is
 -- never touched.
--- opts: { plugin_path, asset_url, expect_version?,
+-- opts: { plugin_path, asset_url, mirror_asset_url?, expect_version?,
 --         on_progress?(received, total), on_install?(),
 --         transport? (legacy synchronous override, used by unit tests),
 --         schedule?/unschedule?/tcp?/ssl_wrap? (test injection) }.
+-- When mirror_asset_url is set, it is tried first and the download silently
+-- falls back to asset_url on failure (user cancel always aborts).
 -- callback(ok, err, info); err == Update.CANCELLED when the user cancels.
 -- Returns a handle { cancel() }.
 -- ---------------------------------------------------------------------------
@@ -451,9 +459,25 @@ function Update.download_and_install(opts, callback)
     end
 
     -- Engine callback contract: (ok, body_or_err).
+    -- 下载源：镜像优先（国内快），失败（非用户取消）自动回退 GitHub 附件地址。
+    local urls = {}
+    if type(opts.mirror_asset_url) == "string" and opts.mirror_asset_url ~= "" then
+        urls[#urls + 1] = opts.mirror_asset_url
+    end
+    urls[#urls + 1] = asset_url
+    local url_index = 0
+
+    local start_download -- forward declaration for the retry path
+
     local function after_download(ok, body_or_err)
         if not ok then
             if body_or_err ~= Update.CANCELLED then
+                url_index = url_index + 1
+                if url_index < #urls then
+                    logger.warn("StudyAssist update: 下载失败，改用备用地址：", body_or_err)
+                    start_download(urls[url_index + 1])
+                    return
+                end
                 logger.warn("StudyAssist update: 下载更新失败：", body_or_err)
             end
             callback(false, body_or_err or "下载更新失败")
@@ -462,9 +486,25 @@ function Update.download_and_install(opts, callback)
         install_body(body_or_err)
     end
 
+    start_download = function(url)
+        return UpdateHttp.get({
+            url = url,
+            headers = { ["User-Agent"] = "StudyAssist-Updater" },
+            on_progress = opts.on_progress,
+            schedule = opts.schedule,
+            unschedule = opts.unschedule,
+            tcp = opts.tcp,
+            ssl_wrap = opts.ssl_wrap,
+        }, after_download)
+    end
+
     if opts.transport then
         -- Legacy synchronous transport (unit tests / fallback only).
-        local body, derr = opts.transport.get(asset_url, { ["User-Agent"] = "StudyAssist-Updater" }, 20, 180)
+        local body, derr
+        for _, url in ipairs(urls) do
+            body, derr = opts.transport.get(url, { ["User-Agent"] = "StudyAssist-Updater" }, 20, 180)
+            if body then break end
+        end
         if body then
             after_download(true, body)
         else
@@ -473,15 +513,7 @@ function Update.download_and_install(opts, callback)
         return NOOP_HANDLE
     end
 
-    return UpdateHttp.get({
-        url = asset_url,
-        headers = { ["User-Agent"] = "StudyAssist-Updater" },
-        on_progress = opts.on_progress,
-        schedule = opts.schedule,
-        unschedule = opts.unschedule,
-        tcp = opts.tcp,
-        ssl_wrap = opts.ssl_wrap,
-    }, after_download)
+    return start_download(urls[1])
 end
 
 return Update
