@@ -53,6 +53,7 @@ function Widgets.textbox(text, width, opts)
         alignment = opts.alignment or "left",
         line_height = opts.line_height or 0.3,
         height = opts.height,
+        max_lines = opts.max_lines,
     }
 end
 
@@ -113,16 +114,18 @@ function Widgets.card(child, opts)
     }
 end
 
--- 正方形卡片：内容在卡内居中，卡片外框固定为 side × side。
--- FrameContainer 的 getSize 只按内容算高、只有 paintTo 认 height，所以这里把
--- getSize 覆写成正方形，父容器排版时才不会把下一行压上来。
+-- 正方形卡片：内容在卡内居中，外框固定 side × side。
+-- 实现上不覆写任何方法：把内容包进一个 inner × inner 的 CenterContainer，
+-- FrameContainer 自己算出的尺寸就正好是 side（inner + 2×padding + 2×border）。
+-- v1.24.2 曾在实例上替换 getSize，把 _padding_* 的初始化弄丢，绘制时崩机，
+-- 所以这里刻意只靠容器组合实现。
 function Widgets.square_card(child, opts)
     opts = opts or {}
     local side = opts.side or 0
     local padding = opts.padding or Size.padding.default
     local bordersize = opts.bordersize or Size.border.thin
     local inner = math.max(side - 2 * (padding + bordersize), 1)
-    local card = FrameContainer:new{
+    return FrameContainer:new{
         width = side,
         height = side,
         padding = padding,
@@ -134,8 +137,6 @@ function Widgets.square_card(child, opts)
             child,
         },
     }
-    card.getSize = function() return Geom:new{ w = side, h = side } end
-    return card
 end
 
 function Widgets.stat(value, caption, width)

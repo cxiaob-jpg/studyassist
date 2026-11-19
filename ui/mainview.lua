@@ -3398,9 +3398,9 @@ function MainView:render_shop()
             local body = VerticalGroup:new{
                 align = "center",
                 Widgets.textbox(item.name, inner, {
-                    size = 18, alignment = "center", line_height = 0.25,
+                    size = 18, alignment = "center", line_height = 0.25, max_lines = 2,
                 }),
-                Widgets.vspace(Size.span.vertical_small or 4),
+                Widgets.vspace(Size.span.vertical_default),
                 Widgets.label(string.format("★ %d", item.cost), {
                     size = 20, bold = true,
                     color = affordable and Blitbuffer.COLOR_BLACK or Blitbuffer.COLOR_DARK_GRAY,
