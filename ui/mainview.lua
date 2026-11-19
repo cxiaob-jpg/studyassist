@@ -3999,9 +3999,13 @@ function MainView:render_settings()
     local cw = Widgets.width()
     local settings = self.progress.data.settings
     local content = VerticalGroup:new{ align = "center" }
-    -- 顶部提示：先选地区，教材跟着城市 + 年级自动匹配
+    -- 顶部提示：先选地区，教材跟着城市 + 年级自动匹配；匹配不准可以自己改
     table.insert(content, Widgets.textbox(
-        "先选省份和城市，再选年级和学期；语文/数学/英语教材会按城市 + 年级自动匹配，下面也能手动改。", cw, {
+        "先选省份和城市，再选年级和学期；语文/数学/英语教材会按城市 + 年级自动匹配。", cw, {
+            size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
+        }))
+    table.insert(content, Widgets.textbox(
+        "教材匹配不准也没关系：下面每一科都能点开，自己选教材版本。", cw, {
             size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
         }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
@@ -4039,7 +4043,11 @@ function MainView:render_settings()
         end),
     })
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
-    -- 教材：八个科目两列排，一行两科
+    -- 教材：八个科目两列排，一行两科；每科都能点开换版本
+    table.insert(content, Widgets.textbox("教材版本（可自定义选择）", cw, {
+        size = 16, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.3,
+    }))
+    table.insert(content, Widgets.vspace(Size.span.vertical_small or Size.span.vertical_default))
     local gap = Screen:scaleBySize(8)
     local tile_w = math.floor((cw - gap) / 2)
     local function subject_available(subject, grade)
