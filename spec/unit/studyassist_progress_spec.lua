@@ -38,6 +38,12 @@ describe("StudyAssist progress", function()
     local function day(day_number, hour)
         return os.time({ year = 2026, month = 11, day = day_number, hour = hour or 12 })
     end
+    local function graded_question(id, grade)
+        local q = question(id)
+        q.grade = grade
+        return q
+    end
+
 
     it("awards points and records daily progress", function()
         local p = Progress.open(path)
@@ -48,6 +54,28 @@ describe("StudyAssist progress", function()
         assert.are.equal(10, p.data.total.points)
         assert.are.equal(1, p.data.daily["2026-11-10"].answered)
         assert.are.equal(1, p.data.daily["2026-11-10"].correct)
+    end)
+
+    it("weights points by question grade", function()
+        local p = Progress.open(path)
+        local r1 = p:record_answer(graded_question("g1", 1), { attempt = 1, correct = true, combo = 1, now = day(10) })
+        assert.are.equal(5, r1.points)
+        local r5 = p:record_answer(graded_question("g5", 5), { attempt = 1, correct = true, combo = 1, now = day(10) })
+        assert.are.equal(12, r5.points)
+        local r9 = p:record_answer(graded_question("g9", 9), { attempt = 1, correct = true, combo = 1, now = day(10) })
+        assert.are.equal(15, r9.points)
+        local retry = p:record_answer(graded_question("g9b", 9), { attempt = 2, correct = true, now = day(10) })
+        assert.are.equal(8, retry.points)
+        local review = p:record_answer(graded_question("g9c", 9), { attempt = 1, correct = true, mode = "review", now = day(10) })
+        assert.are.equal(8, review.points)
+    end)
+
+    it("scales session bonuses by grade", function()
+        local p = Progress.open(path)
+        local junior = p:record_session({ perfect = true, grade = 9 }, day(10))
+        assert.are.equal(60, junior.total)
+        local early = p:record_session({ perfect = true, grade = 1 }, day(11))
+        assert.are.equal(20, early.total)
     end)
 
     it("keeps first-try accuracy separate from a successful retry", function()

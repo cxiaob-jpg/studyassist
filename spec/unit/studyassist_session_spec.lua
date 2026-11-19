@@ -40,7 +40,8 @@ describe("StudyAssist session", function()
         local summary = session:finish()
         assert.are.equal(10, summary.correct)
         assert.is_true(summary.perfect)
-        assert.is_true(summary.points >= 150)
+        -- 二年级基准 5 星/题：50 + 连对 3/5/10（3+5+10）+ 完成奖 5/10/5 = 88
+        assert.is_true(summary.points >= 80)
         assert.are.equal(1, progress.data.total.perfect_sessions)
     end)
 

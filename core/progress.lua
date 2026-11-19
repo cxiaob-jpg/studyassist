@@ -534,6 +534,23 @@ function Progress:finalize_kp_session(subject, results, single_topic, now)
     return statuses
 end
 
+-- 星星分值按年级加权：题目越难（年级越高），单题与整组奖励越多。
+-- 系数 = 年级基准 / 10：1~2 年级 0.5、3~4 年级 0.8、5~6 年级 1.2、
+-- 7~9 年级 1.5、10~12 年级 2.0；题目没带年级时按 10（系数 1.0）处理，
+-- 与 1.24.7 之前的老分值一致。
+local STAR_BASE = { [1] = 5, [2] = 5, [3] = 8, [4] = 8, [5] = 12, [6] = 12,
+                    [7] = 15, [8] = 15, [9] = 15, [10] = 20, [11] = 20, [12] = 20 }
+
+-- 按年级基准取星星数；grade 可为 nil（出题引擎兜底、外部题源没标年级）。
+function Progress.grade_star_base(grade)
+    return STAR_BASE[tonumber(grade)] or 10
+end
+
+-- 把老分值（按 10 星基准定的 10/5/2 等）按年级基准等比缩放。
+local function scale_by_grade(value, base)
+    return math.floor(value * base / 10 + 0.5)
+end
+
 --[[--
 Record one answer attempt.
 
@@ -604,10 +621,12 @@ function Progress:record_answer(question, opts)
     end
 
     if correct then
+        local base = Progress.grade_star_base(question.grade)
         if mode == "review" then
-            points = attempt == 1 and 5 or 2
+            points = attempt == 1 and scale_by_grade(5, base)
+                or scale_by_grade(2, base)
         else
-            points = attempt == 1 and 10 or 5
+            points = attempt == 1 and base or scale_by_grade(5, base)
         end
     end
     if attempt == 1 and opts.combo_bonus and mode ~= "review" then
@@ -640,12 +659,17 @@ function Progress:record_session(summary, now)
         self.data.total.challenge_sessions = self.data.total.challenge_sessions + 1
         daily.challenge.sessions = daily.challenge.sessions + 1
     end
-    local breakdown = { completion = 10, perfect = 0, first_of_day = 0 }
+    local base = Progress.grade_star_base(summary.grade)
+    local breakdown = {
+        completion = scale_by_grade(10, base),
+        perfect = 0,
+        first_of_day = 0,
+    }
     if summary.perfect then
-        breakdown.perfect = 20
+        breakdown.perfect = scale_by_grade(20, base)
     end
     if daily.sessions == 0 then
-        breakdown.first_of_day = 10
+        breakdown.first_of_day = scale_by_grade(10, base)
     end
     local total = breakdown.completion + breakdown.perfect + breakdown.first_of_day
     breakdown.total = total

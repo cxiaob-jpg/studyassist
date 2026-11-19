@@ -515,9 +515,11 @@ function Session:submit(value)
             self.first_try_correct = self.first_try_correct + 1
             if self.mode ~= "review" then
                 self.combo = self.combo + 1
-                if self.combo == 3 then combo_bonus = 5
-                elseif self.combo == 5 then combo_bonus = 10
-                elseif self.combo == 10 then combo_bonus = 20 end
+                -- 连对奖励也按年级系数放大（与 record_answer 的年级加权一致）
+                local base = self.progress.grade_star_base(q.grade)
+                if self.combo == 3 then combo_bonus = math.floor(5 * base / 10 + 0.5)
+                elseif self.combo == 5 then combo_bonus = math.floor(10 * base / 10 + 0.5)
+                elseif self.combo == 10 then combo_bonus = math.floor(20 * base / 10 + 0.5) end
                 if self.combo > self.max_combo then self.max_combo = self.combo end
             end
         else
@@ -579,6 +581,7 @@ function Session:finish()
         perfect = perfect,
         total = #self.questions,
         correct = self.first_try_correct,
+        grade = self.questions[1] and self.questions[1].grade,
     }, self.now_fn())
     self.points = self.points + (breakdown and breakdown.total or 0)
     local kp_statuses
