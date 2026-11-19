@@ -95,17 +95,24 @@ function Widgets.card(child, opts)
     local padding = opts.padding or Size.padding.default
     local bordersize = opts.bordersize or Size.border.thin
     local content = child
-    if opts.width then
-        local inner_width = opts.width - 2 * padding - 2 * bordersize
-        if inner_width > 0 then
+    if opts.width or opts.height then
+        -- 固定宽/高都靠「内容包进定尺寸 CenterContainer」实现：
+        -- FrameContainer 用内容尺寸 + padding + border 反推自己的大小，正好等于要的宽高。
+        local size = child:getSize()
+        local inner_width = size.w
+        local inner_height = size.h
+        if opts.width then inner_width = opts.width - 2 * padding - 2 * bordersize end
+        if opts.height then inner_height = opts.height - 2 * padding - 2 * bordersize end
+        if inner_width > 0 and inner_height > 0 then
             content = CenterContainer:new{
-                dimen = Geom:new{ w = inner_width, h = child:getSize().h },
+                dimen = Geom:new{ w = inner_width, h = inner_height },
                 child,
             }
         end
     end
     return FrameContainer:new{
         width = opts.width,
+        height = opts.height,
         padding = padding,
         bordersize = bordersize,
         radius = Size.radius.window,
@@ -114,30 +121,10 @@ function Widgets.card(child, opts)
     }
 end
 
--- 正方形卡片：内容在卡内居中，外框固定 side × side。
--- 实现上不覆写任何方法：把内容包进一个 inner × inner 的 CenterContainer，
--- FrameContainer 自己算出的尺寸就正好是 side（inner + 2×padding + 2×border）。
--- v1.24.2 曾在实例上替换 getSize，把 _padding_* 的初始化弄丢，绘制时崩机，
--- 所以这里刻意只靠容器组合实现。
-function Widgets.square_card(child, opts)
-    opts = opts or {}
-    local side = opts.side or 0
-    local padding = opts.padding or Size.padding.default
-    local bordersize = opts.bordersize or Size.border.thin
-    local inner = math.max(side - 2 * (padding + bordersize), 1)
-    return FrameContainer:new{
-        width = side,
-        height = side,
-        padding = padding,
-        bordersize = bordersize,
-        radius = Size.radius.window,
-        background = opts.background,
-        CenterContainer:new{
-            dimen = Geom:new{ w = inner, h = inner },
-            child,
-        },
-    }
-end
+-- 注：v1.24.2~v1.24.5 用过的 Widgets.square_card（固定边长正方形）已随 v1.24.6
+-- 商城改成一行两张矩形卡一并删除。定尺寸的活现在是 Widgets.card 的 width/height 干：
+-- 同样靠「内容包进定尺寸 CenterContainer」，不覆写 FrameContainer 的任何方法
+-- （v1.24.2 曾整体替换 getSize，丢掉它写的 _padding_*，绘制时崩机）。
 
 function Widgets.stat(value, caption, width)
     local group = VerticalGroup:new{
