@@ -1,0 +1,1075 @@
+{
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_history_senior.py",
+ "source": {
+  "textbook": "选择性必修2 经济与社会生活",
+  "standard": "普通高中历史课程标准（2017年版2020年修订）"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "教材章节取自统编版高中历史教科书目录；知识点与题目由本项目编写，参考《普通高中历史课程标准（2017年版2020年修订）》。",
+ "subject": "history",
+ "grade": 11,
+ "semester": "lower",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 食物生产与社会生活"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 生产工具与劳作方式"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 商业贸易与日常生活"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 村落、城镇与居住环境"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元 交通与社会变迁"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元 医疗与公共卫生"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnh_s045",
+   "name": "从食物采集到食物生产",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "description": "理解农业起源的意义，了解主要作物的起源中心与传播。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "世界上最早培育水稻的地区之一是？",
+    "answer": "中国长江中下游"
+   }
+  },
+  {
+   "id": "cnh_s046",
+   "name": "食物生产与社会生活的变化",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "description": "理解农业出现对人口、定居、阶级分化和文字产生的影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "农业出现后人类最主要的居住形态是？",
+    "answer": "定居聚落"
+   }
+  },
+  {
+   "id": "cnh_s047",
+   "name": "生产工具与劳作方式的演进",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "description": "掌握铁犁牛耕的推广、水力机械的应用与工厂制度的产生。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "中国古代农业最主要的耕作方式是？",
+    "answer": "铁犁牛耕"
+   }
+  },
+  {
+   "id": "cnh_s048",
+   "name": "工厂制度与生产组织的变化",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "description": "理解工厂制度的特点及其对劳动组织和社会关系的影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "工厂制度最早出现在？",
+    "answer": "工业革命时期的英国"
+   }
+  },
+  {
+   "id": "cnh_s049",
+   "name": "商业贸易的发展与货币信贷",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "description": "了解货币、信贷、商业契约与世界市场的形成。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "世界市场开始形成与哪一事件直接相关？",
+    "answer": "新航路开辟"
+   }
+  },
+  {
+   "id": "cnh_s050",
+   "name": "国际贸易体系与贸易规则",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "description": "理解关贸总协定、世界贸易组织的作用，认识贸易保护主义的危害。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "取代关贸总协定、1995 年成立的国际组织是？",
+    "answer": "世界贸易组织"
+   }
+  },
+  {
+   "id": "cnh_s051",
+   "name": "村落与城镇的发展",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "description": "了解古代村落的特点与近代城市化进程。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "中国古代村落多以什么为纽带组成？",
+    "answer": "宗族血缘"
+   }
+  },
+  {
+   "id": "cnh_s052",
+   "name": "城市化与居住环境的变化",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "description": "理解工业革命后城市化加速及由此产生的城市问题与治理。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "工业革命后城市化加速的主要原因是？",
+    "answer": "工厂集中与人口涌入城市"
+   }
+  },
+  {
+   "id": "cnh_s053",
+   "name": "交通的进步与社会变迁",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "description": "掌握运河、铁路、轮船、汽车与飞机的发展及其影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "世界上第一条铁路出现于？",
+    "answer": "1825 年的英国"
+   }
+  },
+  {
+   "id": "cnh_s054",
+   "name": "交通发展对城市化与经济的影响",
+   "domain": "经济生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "description": "理解交通改善对市场扩大、城市形态和人们生活的影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "隋朝开通的南北水路交通工程是？",
+    "answer": "大运河"
+   }
+  },
+  {
+   "id": "cnh_s055",
+   "name": "中医与西医的发展",
+   "domain": "医疗与卫生",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "description": "了解《黄帝内经》《伤寒杂病论》《本草纲目》与西医的重要突破。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "被誉为“东方医药巨典”的药物学著作是？",
+    "answer": "《本草纲目》"
+   }
+  },
+  {
+   "id": "cnh_s056",
+   "name": "现代医疗卫生体系的建立",
+   "domain": "医疗与卫生",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "description": "理解公共卫生制度、疫苗接种与医疗保障体系的作用。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1928 年发现青霉素的是？",
+    "answer": "弗莱明"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnh_s045_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s045",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 1,
+   "stem": "世界上最早培育水稻的地区之一是",
+   "explain": "中国是世界上最早培育水稻和粟的国家之一，长江中下游是重要起源地。",
+   "answer_mode": "choice",
+   "options": [
+    "西亚两河流域",
+    "中国长江中下游",
+    "美洲中部",
+    "欧洲多瑙河流域"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s045_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s045",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 2,
+   "stem": "小麦和大麦最早被培育的地区是",
+   "explain": "西亚是小麦、大麦的起源中心，两河流域因此较早出现农业文明。",
+   "answer_mode": "choice",
+   "options": [
+    "西亚",
+    "东亚",
+    "美洲",
+    "非洲南部"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s045_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s045",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 2,
+   "stem": "新航路开辟后传入中国、显著提高粮食产量的美洲作物是",
+   "explain": "玉米、甘薯等高产作物传入中国后，在山地丘陵广泛种植，推动人口增长。",
+   "answer_mode": "choice",
+   "options": [
+    "水稻、小麦",
+    "玉米、甘薯",
+    "粟、黍",
+    "大豆、高粱"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s046_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s046",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 1,
+   "stem": "原始农业出现后，人类最主要的居住形态变化是",
+   "explain": "农业需要照料作物，人类由采集狩猎的迁徙生活转向定居，形成聚落。",
+   "answer_mode": "choice",
+   "options": [
+    "由定居转向游牧",
+    "由迁徙转向定居",
+    "由城市转向乡村",
+    "由村落转向城镇"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s046_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s046",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 2,
+   "stem": "农业出现带来的社会影响不包括",
+   "explain": "机器大生产是工业革命的结果，与原始农业的出现无关。",
+   "answer_mode": "choice",
+   "options": [
+    "人口增长",
+    "阶级分化",
+    "文字产生",
+    "机器大生产"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s046_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s046",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·食物生产与社会生活",
+   "difficulty": 3,
+   "stem": "“农业革命”被视为人类历史上的重大转折，主要因为",
+   "explain": "农业使人类从攫取经济转向生产经济，获得较稳定的食物来源，是社会分工和文明产生的基础。",
+   "answer_mode": "choice",
+   "options": [
+    "人类开始改造自然、获得稳定食物来源",
+    "人类学会了使用火",
+    "人类开始使用铁器",
+    "人类开始商品交换"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s047_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s047",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 1,
+   "stem": "中国古代农业最主要的耕作方式是",
+   "explain": "春秋战国出现铁犁牛耕，汉代推广，此后长期成为中国农业的主要耕作方式。",
+   "answer_mode": "choice",
+   "options": [
+    "刀耕火种",
+    "铁犁牛耕",
+    "机器耕作",
+    "集体协作"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s047_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s047",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 2,
+   "stem": "唐朝在农业灌溉工具上的重要发明是",
+   "explain": "筒车利用水力自动提水灌溉；曲辕犁是耕作工具，不是灌溉工具。",
+   "answer_mode": "choice",
+   "options": [
+    "筒车",
+    "翻车",
+    "耧车",
+    "曲辕犁"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s047_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s047",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 2,
+   "stem": "古代中国家庭手工业的主要形态是",
+   "explain": "小农经济下“男耕女织”，家庭手工业与农业紧密结合，产品主要自给。",
+   "answer_mode": "choice",
+   "options": [
+    "手工作坊",
+    "男耕女织的家庭手工业",
+    "机器工厂",
+    "手工工场"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s048_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s048",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 1,
+   "stem": "工厂制度最早出现在",
+   "explain": "18 世纪后期英国工业革命中，机器集中生产催生了工厂制度。",
+   "answer_mode": "choice",
+   "options": [
+    "工业革命时期的英国",
+    "文艺复兴时期的意大利",
+    "南北战争后的美国",
+    "明治维新后的日本"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s048_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s048",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 2,
+   "stem": "工厂制度对劳动组织的主要影响是",
+   "explain": "工厂将工人集中劳动，实行细致分工与严格的作息、纪律管理。",
+   "answer_mode": "choice",
+   "options": [
+    "生产集中、实行严格的时间与纪律管理",
+    "劳动者自主安排生产",
+    "以家庭为生产单位",
+    "取消分工"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s048_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s048",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·生产工具与劳作方式",
+   "difficulty": 3,
+   "stem": "工厂制度带来的社会问题主要是",
+   "explain": "早期工厂工人劳动时间长、工资低、环境恶劣，童工和女工问题突出。",
+   "answer_mode": "choice",
+   "options": [
+    "工人劳动时间长、劳动条件恶劣",
+    "农产品过剩",
+    "城市人口减少",
+    "土地集中"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s049_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s049",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 1,
+   "stem": "世界市场开始形成与下列哪一事件直接相关",
+   "explain": "新航路开辟后，欧洲、亚洲、非洲、美洲之间的贸易联系加强，世界市场开始形成。",
+   "answer_mode": "choice",
+   "options": [
+    "新航路开辟",
+    "工业革命",
+    "第二次世界大战",
+    "文艺复兴"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s049_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s049",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 2,
+   "stem": "中国古代出现较早的信用形式是",
+   "explain": "明清时期晋商票号、钱庄经营存款、放款和汇兑，是中国较早的信用机构。",
+   "answer_mode": "choice",
+   "options": [
+    "票号、钱庄",
+    "证券交易所",
+    "期货交易",
+    "信用卡"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s049_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s049",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 2,
+   "stem": "商业契约在近代商业中的主要作用是",
+   "explain": "契约明确交易双方权利义务，降低交易风险，是市场经济运行的重要保障。",
+   "answer_mode": "choice",
+   "options": [
+    "规范交易行为、保障当事人权利",
+    "增加税收",
+    "限制贸易",
+    "垄断市场"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s050_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s050",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 1,
+   "stem": "1995 年取代关贸总协定、推动贸易自由化的国际组织是",
+   "explain": "1995 年世界贸易组织成立，取代关贸总协定，成为多边贸易体制的组织基础。",
+   "answer_mode": "choice",
+   "options": [
+    "国际货币基金组织",
+    "世界银行",
+    "世界贸易组织",
+    "联合国贸发会议"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_s050_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s050",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 2,
+   "stem": "贸易保护主义的典型做法是",
+   "explain": "贸易保护主义通过提高关税、配额、技术标准等壁垒限制进口，阻碍国际贸易发展。",
+   "answer_mode": "choice",
+   "options": [
+    "降低关税",
+    "提高关税、设置非关税壁垒",
+    "开放市场",
+    "取消补贴"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s050_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s050",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·商业贸易与日常生活",
+   "difficulty": 3,
+   "stem": "近代中国被卷入世界市场的主要途径是",
+   "explain": "鸦片战争后通过一系列不平等条约被迫开放通商口岸，中国逐渐被卷入资本主义世界市场。",
+   "answer_mode": "choice",
+   "options": [
+    "主动开放通商口岸",
+    "不平等条约下的被迫开放",
+    "参加世界贸易组织",
+    "建立自由贸易区"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s051_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s051",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 1,
+   "stem": "中国古代村落多以什么为纽带组成",
+   "explain": "中国古代村落多以宗族血缘为纽带，宗祠、族规在村落治理中作用显著。",
+   "answer_mode": "choice",
+   "options": [
+    "宗族血缘",
+    "商业契约",
+    "行政编制",
+    "军事组织"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s051_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s051",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 2,
+   "stem": "工业革命后城市化加速的直接原因是",
+   "explain": "工厂集中在城市，吸引农村劳动力迁入，城市人口迅速增长。",
+   "answer_mode": "choice",
+   "options": [
+    "工厂集中，农村人口大量涌入城市",
+    "农业机械化完成",
+    "政府强制迁移人口",
+    "殖民地开发"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s051_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s051",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 2,
+   "stem": "城市化过程中出现的突出问题不包括",
+   "explain": "早期城市化带来住房、环境、卫生、治安等问题，同时占用周边耕地而非扩大耕地。",
+   "answer_mode": "choice",
+   "options": [
+    "住房紧张",
+    "环境污染",
+    "公共卫生恶化",
+    "耕地面积迅速扩大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s052_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s052",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 1,
+   "stem": "世界上第一条铁路通车于",
+   "explain": "1825 年英国史蒂芬孙设计的蒸汽机车在 Stockton—Darlington 铁路投入运营。",
+   "answer_mode": "choice",
+   "options": [
+    "1807 年的美国",
+    "1825 年的英国",
+    "1869 年的美国",
+    "1879 年的德国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s052_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s052",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 2,
+   "stem": "隋朝开通大运河的主要目的是",
+   "explain": "大运河贯通南北，便于漕运粮食与物资，加强南北经济文化交流，巩固国家统一。",
+   "answer_mode": "choice",
+   "options": [
+    "加强南北经济联系、巩固统治",
+    "抵御北方游牧民族",
+    "发展海外贸易",
+    "灌溉农田"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s052_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s052",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·村落、城镇与居住环境",
+   "difficulty": 2,
+   "stem": "交通工具的革新中，最早实现机械动力水上航行的是",
+   "explain": "1807 年富尔顿制成汽船并试航成功，开创机械动力水上航行。",
+   "answer_mode": "choice",
+   "options": [
+    "富尔顿的汽船",
+    "史蒂芬孙的火车",
+    "莱特兄弟的飞机",
+    "福特的汽车"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s053_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s053",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 1,
+   "stem": "交通改善对近代城市发展的主要作用是",
+   "explain": "铁路、轮船等交通进步降低了运输成本，扩大市场范围，推动城市与产业集聚。",
+   "answer_mode": "choice",
+   "options": [
+    "扩大城市腹地、促进人口与产业集聚",
+    "使城市规模缩小",
+    "减少商品流通",
+    "取消城乡分工"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s053_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s053",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 2,
+   "stem": "近代中国自建的第一条铁路是",
+   "explain": "1881 年建成的唐胥铁路是近代中国自建的第一条实用铁路。",
+   "answer_mode": "choice",
+   "options": [
+    "京张铁路",
+    "唐胥铁路",
+    "淞沪铁路",
+    "京汉铁路"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s053_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s053",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 3,
+   "stem": "交通发展对社会生活的影响不包括",
+   "explain": "交通进步同时带动物流与信息流通加快，不会使信息传递变慢。",
+   "answer_mode": "choice",
+   "options": [
+    "出行时间缩短",
+    "人口流动加快",
+    "信息传递变慢",
+    "旅游休闲兴起"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_s054_q1",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s054",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 1,
+   "stem": "被誉为“东方医药巨典”的药物学著作是",
+   "explain": "明代李时珍的《本草纲目》系统记载药物 1800 余种，被誉为“东方医药巨典”。",
+   "answer_mode": "choice",
+   "options": [
+    "《黄帝内经》",
+    "《伤寒杂病论》",
+    "《本草纲目》",
+    "《千金方》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_s054_q2",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s054",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 2,
+   "stem": "奠定中医临床学基础的著作是",
+   "explain": "东汉张仲景的《伤寒杂病论》确立辨证论治原则，奠定了中医临床学基础。",
+   "answer_mode": "choice",
+   "options": [
+    "《黄帝内经》",
+    "《伤寒杂病论》",
+    "《本草纲目》",
+    "《神农本草经》"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s054_q3",
+   "type": "knowledge",
+   "skill": "经济生活",
+   "topic": "cnh_s054",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·交通与社会变迁",
+   "difficulty": 2,
+   "stem": "西医学发展中的重要突破不包括",
+   "explain": "《伤寒杂病论》属中医学成就，前三项均为西医学的重要突破。",
+   "answer_mode": "choice",
+   "options": [
+    "哈维发现血液循环",
+    "琴纳发明牛痘接种",
+    "弗莱明发现青霉素",
+    "张仲景著《伤寒杂病论》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s055_q1",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s055",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 1,
+   "stem": "1928 年发现青霉素的科学家是",
+   "explain": "1928 年弗莱明发现青霉素，开创抗生素治疗感染的新时代。",
+   "answer_mode": "choice",
+   "options": [
+    "弗莱明",
+    "巴斯德",
+    "琴纳",
+    "哈维"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s055_q2",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s055",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 2,
+   "stem": "现代医疗卫生体系的核心是",
+   "explain": "现代医疗卫生体系以公共卫生服务、医疗保障和医疗服务体系为核心。",
+   "answer_mode": "choice",
+   "options": [
+    "公共卫生与医疗保障制度",
+    "私人诊所",
+    "传统草药",
+    "慈善救助"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s055_q3",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s055",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 2,
+   "stem": "新中国在医疗卫生领域取得的重大成就是",
+   "explain": "新中国通过爱国卫生运动和计划免疫，基本消灭天花、血吸虫病等严重传染病。",
+   "answer_mode": "choice",
+   "options": [
+    "基本消灭天花、血吸虫病等传染病",
+    "取消所有公立医院",
+    "放弃疫苗接种",
+    "只发展中医"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s056_q1",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s056",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 1,
+   "stem": "世界卫生组织成立于",
+   "explain": "世界卫生组织（WHO）于 1948 年成立，是联合国专门机构，负责全球公共卫生事务。",
+   "answer_mode": "choice",
+   "options": [
+    "1945 年",
+    "1948 年",
+    "1978 年",
+    "2003 年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s056_q2",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s056",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 2,
+   "stem": "新中国在医疗卫生工作中长期坚持的重点是",
+   "explain": "新中国确立“面向工农兵、预防为主、团结中西医”的方针，把医疗卫生重点放在农村。",
+   "answer_mode": "choice",
+   "options": [
+    "面向农村、预防为主",
+    "只发展城市大医院",
+    "以私人诊所为主",
+    "取消公共卫生"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s056_q3",
+   "type": "knowledge",
+   "skill": "医疗与卫生",
+   "topic": "cnh_s056",
+   "subject": "history",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·医疗与公共卫生",
+   "difficulty": 2,
+   "stem": "现代医疗卫生技术进步的重要表现不包括",
+   "explain": "无菌操作是现代医疗的基本原则，其余三项均为现代医疗技术进步的表现。",
+   "answer_mode": "choice",
+   "options": [
+    "抗生素的广泛使用",
+    "疫苗的普及",
+    "影像诊断技术发展",
+    "废除无菌操作"
+   ],
+   "answer": 4
+  }
+ ]
+}

@@ -1,0 +1,1344 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_history_senior.py",
+ "source": {
+  "path": "history/tongbian/g10_lower.json"
+ },
+ "subject": "history",
+ "grade": 10,
+ "semester": "lower",
+ "edition": "tongbian",
+ "edition_label": "统编版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·古代文明的产生与发展"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·中古时期的世界"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·走向整体的世界"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·资本主义制度的确立"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·工业革命与马克思主义的诞生"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元·世界殖民体系与亚非拉民族独立运动"
+  },
+  {
+   "id": "u7",
+   "name": "第7单元·两次世界大战、十月革命与国际秩序的演变"
+  },
+  {
+   "id": "u8",
+   "name": "第8单元·20世纪下半叶世界的新变化"
+  },
+  {
+   "id": "u9",
+   "name": "第9单元·当代世界发展的特点与主要趋势"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnh_s018",
+   "name": "古代文明的多元特点",
+   "domain": "世界古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "description": "了解两河流域、古埃及、古印度、古希腊罗马文明的不同成就，理解文明产生的条件。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "迄今已知世界上第一部较为完整的成文法典是？",
+    "answer": "《汉谟拉比法典》"
+   }
+  },
+  {
+   "id": "cnh_s019",
+   "name": "古代希腊罗马的政治与法律",
+   "domain": "世界古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "description": "理解雅典民主政治的特点与局限，掌握罗马法从公民法到万民法的演变。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "雅典民主政治的最高权力机关是？",
+    "answer": "公民大会"
+   }
+  },
+  {
+   "id": "cnh_s020",
+   "name": "中古时期的西欧",
+   "domain": "世界中古史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "description": "掌握封君封臣制度、庄园与农奴制、城市自治和大学的兴起。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "中古西欧最基本的农业经济组织是？",
+    "answer": "庄园"
+   }
+  },
+  {
+   "id": "cnh_s021",
+   "name": "中古时期的亚洲",
+   "domain": "世界中古史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "description": "了解阿拉伯帝国的文化成就与日本大化改新。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "日本仿效唐制进行的改革是？",
+    "answer": "大化改新"
+   }
+  },
+  {
+   "id": "cnh_s022",
+   "name": "新航路开辟与全球联系的建立",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·走向整体的世界",
+   "description": "掌握迪亚士、哥伦布、达·伽马、麦哲伦的航行，理解新航路开辟的世界影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "首次完成环球航行的船队由谁率领？",
+    "answer": "麦哲伦"
+   }
+  },
+  {
+   "id": "cnh_s023",
+   "name": "文艺复兴与启蒙运动",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "description": "理解文艺复兴的人文主义与启蒙运动的理性主义，掌握主要代表人物主张。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "提出三权分立学说的启蒙思想家是？",
+    "answer": "孟德斯鸠"
+   }
+  },
+  {
+   "id": "cnh_s024",
+   "name": "资本主义制度的确立",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "description": "掌握英国君主立宪制、美国联邦制与法国大革命的主要成果。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "确立英国君主立宪制的文件是？",
+    "answer": "《权利法案》"
+   }
+  },
+  {
+   "id": "cnh_s025",
+   "name": "工业革命的影响",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "description": "理解工业革命的技术突破、生产组织变化与社会结构变动。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "第一次工业革命中改良蒸汽机的是？",
+    "answer": "瓦特"
+   }
+  },
+  {
+   "id": "cnh_s026",
+   "name": "马克思主义的诞生与传播",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "description": "掌握《共产党宣言》的内容与意义，了解巴黎公社的经验教训。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "标志马克思主义诞生的文献是？",
+    "answer": "《共产党宣言》"
+   }
+  },
+  {
+   "id": "cnh_s027",
+   "name": "世界殖民体系与亚非拉民族独立运动",
+   "domain": "世界近代史",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·世界殖民体系与亚非拉民族独立运动",
+   "description": "了解列强瓜分非洲、侵略亚洲的方式，认识亚非拉民族独立运动的兴起。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1884—1885 年列强瓜分非洲的会议是？",
+    "answer": "柏林会议"
+   }
+  },
+  {
+   "id": "cnh_s028",
+   "name": "十月革命与苏联的社会主义建设",
+   "domain": "世界现代史",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "description": "理解十月革命的世界意义，掌握新经济政策与苏联模式的特点。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "俄国十月革命发生于？",
+    "answer": "1917 年"
+   }
+  },
+  {
+   "id": "cnh_s029",
+   "name": "两次世界大战与国际秩序",
+   "domain": "世界现代史",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "description": "掌握凡尔赛—华盛顿体系、雅尔塔体系的内容与影响。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "战后确立美苏两极格局的体系是？",
+    "answer": "雅尔塔体系"
+   }
+  },
+  {
+   "id": "cnh_s030",
+   "name": "冷战与两极格局",
+   "domain": "世界现代史",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "description": "理解冷战的表现与实质，掌握杜鲁门主义、马歇尔计划与两大军事集团。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "冷战开始的标志是？",
+    "answer": "杜鲁门主义的出台"
+   }
+  },
+  {
+   "id": "cnh_s031",
+   "name": "战后资本主义国家的新变化",
+   "domain": "世界现代史",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "description": "了解国家干预经济、福利国家制度与科技革命的作用及局限。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "二战后主要资本主义国家普遍加强对经济的？",
+    "answer": "国家干预"
+   }
+  },
+  {
+   "id": "cnh_s032",
+   "name": "经济全球化与人类命运共同体",
+   "domain": "世界现代史",
+   "kp_type": "conceptual",
+   "unit": "u9",
+   "unit_name": "第9单元·当代世界发展的特点与主要趋势",
+   "description": "理解经济全球化的表现与问题，认识构建人类命运共同体的意义。",
+   "mastery_criteria": [
+    "能说出本课的关键史实、时间与人物",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "世界贸易组织成立于？",
+    "answer": "1995 年"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnh_s018_q1",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s018",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 1,
+   "stem": "迄今已知世界上第一部较为完整的成文法典出自",
+   "explain": "古巴比伦王国颁布的《汉谟拉比法典》是迄今已知世界上第一部较为完整的成文法典。",
+   "answer_mode": "choice",
+   "options": [
+    "古埃及",
+    "古巴比伦",
+    "古印度",
+    "古希腊"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s018_q2",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s018",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 2,
+   "stem": "古印度社会中按职业世袭、内部通婚划分的社会集团制度是",
+   "explain": "雅利安人进入印度后形成婆罗门、刹帝利、吠舍、首陀罗四个等级的种姓制度。",
+   "answer_mode": "choice",
+   "options": [
+    "封君封臣制",
+    "种姓制度",
+    "行会制度",
+    "采邑制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s018_q3",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s018",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 2,
+   "stem": "古代埃及文明依托的河流是",
+   "explain": "古埃及文明依托尼罗河发展，公元前 3100 年左右初步实现统一。",
+   "answer_mode": "choice",
+   "options": [
+    "幼发拉底河",
+    "尼罗河",
+    "印度河",
+    "恒河"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s019_q1",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s019",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 1,
+   "stem": "雅典民主政治中，全体公民组成的最高权力机关是",
+   "explain": "雅典公民大会是最高权力机关，但妇女、外邦人和奴隶被排斥在外。",
+   "answer_mode": "choice",
+   "options": [
+    "公民大会",
+    "元老院",
+    "执政官",
+    "陪审法庭"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s019_q2",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s019",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 2,
+   "stem": "罗马第一部成文法是",
+   "explain": "公元前 450 年左右颁布的《十二铜表法》是罗马第一部成文法。",
+   "answer_mode": "choice",
+   "options": [
+    "《十二铜表法》",
+    "《汉谟拉比法典》",
+    "《查士丁尼法典》",
+    "《权利法案》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s019_q3",
+   "type": "knowledge",
+   "skill": "世界古代史",
+   "topic": "cnh_s019",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·古代文明的产生与发展",
+   "difficulty": 3,
+   "stem": "罗马法从公民法发展为万民法的主要原因是",
+   "explain": "随着罗马对外扩张，公民法难以适用帝国境内各民族间的纠纷，万民法逐步形成。",
+   "answer_mode": "choice",
+   "options": [
+    "帝国扩张后需要处理涉及外邦人的纠纷",
+    "民主政治的需要",
+    "基督教的传播",
+    "商品经济发展停滞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s020_q1",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s020",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 1,
+   "stem": "中古西欧最基本的农业经济组织是",
+   "explain": "庄园是中古西欧基本的农业经济组织，土地分为领主自营地和农民份地。",
+   "answer_mode": "choice",
+   "options": [
+    "庄园",
+    "手工工场",
+    "自治城市",
+    "采邑"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s020_q2",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s020",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 2,
+   "stem": "中古西欧城市争取自治的主要方式是",
+   "explain": "城市居民通过金钱赎买或武装暴动从领主手中获得自治权，形成城市自治。",
+   "answer_mode": "choice",
+   "options": [
+    "武装起义或金钱赎买",
+    "通过议会立法",
+    "由国王直接任命",
+    "依靠教会仲裁"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s020_q3",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s020",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 3,
+   "stem": "中古西欧封君与封臣之间的纽带是",
+   "explain": "封君把土地（采邑）封赐给封臣，封臣宣誓效忠并服兵役，二者形成权利义务关系。",
+   "answer_mode": "choice",
+   "options": [
+    "土地封赐与效忠义务",
+    "血缘关系",
+    "商业契约",
+    "选举"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s021_q1",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s021",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 1,
+   "stem": "7 世纪创立伊斯兰教、推动阿拉伯半岛统一的是",
+   "explain": "7 世纪初穆罕默德创立伊斯兰教，推动阿拉伯半岛基本统一。",
+   "answer_mode": "choice",
+   "options": [
+    "穆罕默德",
+    "哈里发",
+    "萨拉丁",
+    "奥斯曼"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s021_q2",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s021",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 2,
+   "stem": "日本仿效中国隋唐制度进行的改革是",
+   "explain": "646 年日本开始大化改新，仿效唐制建立中央集权国家。",
+   "answer_mode": "choice",
+   "options": [
+    "明治维新",
+    "大化改新",
+    "班田收授",
+    "幕府改革"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s021_q3",
+   "type": "knowledge",
+   "skill": "世界中古史",
+   "topic": "cnh_s021",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·中古时期的世界",
+   "difficulty": 3,
+   "stem": "阿拉伯帝国在文化传播方面的重要作用是",
+   "explain": "阿拉伯学者翻译保存大量古希腊著作，并把印度数字传入欧洲，成为东西方文化交流的桥梁。",
+   "answer_mode": "choice",
+   "options": [
+    "保存翻译古希腊著作、传播印度数字",
+    "创造楔形文字",
+    "发明活字印刷",
+    "建立科举制"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s022_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s022",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·走向整体的世界",
+   "difficulty": 1,
+   "stem": "首次完成环球航行的船队由谁率领",
+   "explain": "1519—1522 年麦哲伦船队完成人类首次环球航行，证明地圆说。",
+   "answer_mode": "choice",
+   "options": [
+    "迪亚士",
+    "哥伦布",
+    "达·伽马",
+    "麦哲伦"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s022_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s022",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·走向整体的世界",
+   "difficulty": 2,
+   "stem": "新航路开辟后，欧洲出现的主要经济变化是",
+   "explain": "新航路开辟引起商业革命和价格革命，加速封建制度解体和资本主义发展。",
+   "answer_mode": "choice",
+   "options": [
+    "商业革命和价格革命",
+    "工业革命",
+    "圈地运动结束",
+    "农奴制复兴"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s022_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s022",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·走向整体的世界",
+   "difficulty": 2,
+   "stem": "哥伦布 1492 年航行到达的是",
+   "explain": "哥伦布在西班牙支持下横渡大西洋，到达美洲，误以为到了印度。",
+   "answer_mode": "choice",
+   "options": [
+    "印度",
+    "美洲",
+    "好望角",
+    "澳大利亚"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s023_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s023",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 1,
+   "stem": "文艺复兴的核心思想是",
+   "explain": "文艺复兴以人文主义为核心，肯定人的价值和尊严，反对神学束缚。",
+   "answer_mode": "choice",
+   "options": [
+    "人文主义",
+    "理性主义",
+    "禁欲主义",
+    "重商主义"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s023_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s023",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 2,
+   "stem": "提出三权分立学说的启蒙思想家是",
+   "explain": "孟德斯鸠在《论法的精神》中系统阐述三权分立学说，被美国 1787 年宪法采纳。",
+   "answer_mode": "choice",
+   "options": [
+    "伏尔泰",
+    "孟德斯鸠",
+    "卢梭",
+    "康德"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s023_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s023",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 3,
+   "stem": "启蒙运动与文艺复兴相比，更强调",
+   "explain": "启蒙运动以理性为旗帜，批判专制与特权，提出天赋人权、社会契约等政治构想。",
+   "answer_mode": "choice",
+   "options": [
+    "复兴古典文化",
+    "批判教会腐败",
+    "构建理性化的政治制度",
+    "追求个人情感解放"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_s024_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s024",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 1,
+   "stem": "确立英国君主立宪制的文件是",
+   "explain": "1689 年《权利法案》限制王权、保障议会权力，确立君主立宪制。",
+   "answer_mode": "choice",
+   "options": [
+    "《大宪章》",
+    "《权利法案》",
+    "《人权宣言》",
+    "《独立宣言》"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s024_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s024",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 2,
+   "stem": "美国 1787 年宪法确立的政治体制是",
+   "explain": "1787 年宪法确立联邦制和三权分立原则，是世界上第一部资产阶级成文宪法。",
+   "answer_mode": "choice",
+   "options": [
+    "君主立宪制",
+    "联邦制、三权分立",
+    "议会制共和制",
+    "君主专制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s024_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s024",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·资本主义制度的确立",
+   "difficulty": 2,
+   "stem": "法国大革命爆发的标志是",
+   "explain": "1789 年 7 月 14 日巴黎人民攻占巴士底狱，法国大革命爆发。",
+   "answer_mode": "choice",
+   "options": [
+    "攻占巴士底狱",
+    "颁布《人权宣言》",
+    "拿破仑称帝",
+    "处死路易十六"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s025_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s025",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 1,
+   "stem": "第一次工业革命中改良蒸汽机、使其成为主要动力的是",
+   "explain": "1785 年瓦特改良的蒸汽机投入使用，人类进入“蒸汽时代”。",
+   "answer_mode": "choice",
+   "options": [
+    "瓦特",
+    "史蒂芬孙",
+    "富尔顿",
+    "哈格里夫斯"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s025_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s025",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 2,
+   "stem": "工业革命带来的社会结构变化主要是",
+   "explain": "工业革命使社会日益分裂为工业资产阶级和工业无产阶级两大对立阶级。",
+   "answer_mode": "choice",
+   "options": [
+    "形成工业资产阶级和工业无产阶级",
+    "农奴制度强化",
+    "贵族力量增强",
+    "行会制度复兴"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s025_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s025",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 2,
+   "stem": "工业革命首先发生在英国的政治前提是",
+   "explain": "1688 年后英国确立君主立宪制，为经济发展提供了稳定的政治环境。",
+   "answer_mode": "choice",
+   "options": [
+    "君主立宪制确立，社会稳定",
+    "拥有广大殖民地",
+    "劳动力充足",
+    "海外市场扩大"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s026_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s026",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 1,
+   "stem": "标志马克思主义诞生的文献是",
+   "explain": "1848 年《共产党宣言》发表，标志马克思主义诞生。",
+   "answer_mode": "choice",
+   "options": [
+    "《共产党宣言》",
+    "《资本论》",
+    "《人权宣言》",
+    "《社会契约论》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s026_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s026",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 2,
+   "stem": "1871 年建立、被誉为无产阶级建立政权第一次伟大尝试的是",
+   "explain": "1871 年巴黎公社是无产阶级建立政权的第一次伟大尝试，最终失败。",
+   "answer_mode": "choice",
+   "options": [
+    "巴黎公社",
+    "苏维埃政权",
+    "第一国际",
+    "共产主义者同盟"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s026_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s026",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·工业革命与马克思主义的诞生",
+   "difficulty": 3,
+   "stem": "巴黎公社失败的根本原因是",
+   "explain": "当时法国资本主义尚处于上升阶段，无产阶级夺取政权的条件不成熟，公社也缺乏统一政党领导。",
+   "answer_mode": "choice",
+   "options": [
+    "缺乏无产阶级政党的领导，资本主义还处于上升时期",
+    "军事指挥失误",
+    "没有颁布法令",
+    "外国干涉过强"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s027_q1",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s027",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·世界殖民体系与亚非拉民族独立运动",
+   "difficulty": 1,
+   "stem": "1884—1885 年列强为瓜分非洲而召开的会议是",
+   "explain": "柏林会议确立了“有效占领”原则，加速了列强对非洲的瓜分。",
+   "answer_mode": "choice",
+   "options": [
+    "维也纳会议",
+    "柏林会议",
+    "巴黎和会",
+    "雅尔塔会议"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s027_q2",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s027",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·世界殖民体系与亚非拉民族独立运动",
+   "difficulty": 2,
+   "stem": "19 世纪中期印度反英民族大起义的著名领导人是",
+   "explain": "1857—1859 年印度民族大起义中，章西女王等率众抗英，起义最终失败。",
+   "answer_mode": "choice",
+   "options": [
+    "章西女王",
+    "甘地",
+    "尼赫鲁",
+    "凯末尔"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s027_q3",
+   "type": "knowledge",
+   "skill": "世界近代史",
+   "topic": "cnh_s027",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·世界殖民体系与亚非拉民族独立运动",
+   "difficulty": 2,
+   "stem": "20 世纪初亚洲觉醒的代表性事件不包括",
+   "explain": "明治维新发生在 19 世纪后期，属于亚洲国家自强改革，不属于 20 世纪初“亚洲觉醒”。",
+   "answer_mode": "choice",
+   "options": [
+    "伊朗立宪革命",
+    "印度民族解放运动",
+    "土耳其革命",
+    "日本明治维新"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s028_q1",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s028",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 1,
+   "stem": "俄国十月革命爆发于",
+   "explain": "1917 年 11 月 7 日（俄历十月）彼得格勒武装起义胜利，十月革命取得胜利。",
+   "answer_mode": "choice",
+   "options": [
+    "1917 年",
+    "1919 年",
+    "1921 年",
+    "1924 年"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s028_q2",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s028",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 2,
+   "stem": "1921 年苏俄开始实行的、利用市场和商品货币关系恢复经济的政策是",
+   "explain": "1921 年苏俄实行新经济政策，以粮食税代替余粮收集制，允许部分私营经济。",
+   "answer_mode": "choice",
+   "options": [
+    "战时共产主义政策",
+    "新经济政策",
+    "农业集体化",
+    "第一个五年计划"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s028_q3",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s028",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 3,
+   "stem": "苏联模式的突出特点是",
+   "explain": "苏联模式表现为单一公有制、高度集中的指令性计划和过度集权的政治体制。",
+   "answer_mode": "choice",
+   "options": [
+    "高度集中的计划经济与过度集权的政治体制",
+    "市场调节为主",
+    "农业优先发展",
+    "实行多党制"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s029_q1",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s029",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 1,
+   "stem": "一战后确立的帝国主义国际秩序是",
+   "explain": "1919 年巴黎和会与 1921—1922 年华盛顿会议确立凡尔赛—华盛顿体系。",
+   "answer_mode": "choice",
+   "options": [
+    "凡尔赛—华盛顿体系",
+    "雅尔塔体系",
+    "维也纳体系",
+    "布雷顿森林体系"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s029_q2",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s029",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 2,
+   "stem": "二战后期确立的、奠定战后两极格局的国际秩序是",
+   "explain": "雅尔塔等会议确立的战后秩序称雅尔塔体系，奠定美苏两极格局的基础。",
+   "answer_mode": "choice",
+   "options": [
+    "凡尔赛—华盛顿体系",
+    "雅尔塔体系",
+    "威斯特伐利亚体系",
+    "日内瓦体系"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s029_q3",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s029",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·两次世界大战、十月革命与国际秩序的演变",
+   "difficulty": 2,
+   "stem": "二战全面爆发的标志是",
+   "explain": "1939 年 9 月 1 日德国突袭波兰，英法对德宣战，二战全面爆发。",
+   "answer_mode": "choice",
+   "options": [
+    "九一八事变",
+    "德国突袭波兰",
+    "珍珠港事件",
+    "苏德战争爆发"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s030_q1",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s030",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 1,
+   "stem": "冷战开始的标志是",
+   "explain": "1947 年杜鲁门主义出台，标志美苏冷战开始；马歇尔计划与北约是其在经济、军事上的表现。",
+   "answer_mode": "choice",
+   "options": [
+    "杜鲁门主义出台",
+    "马歇尔计划实施",
+    "北约成立",
+    "华约成立"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s030_q2",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s030",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 2,
+   "stem": "美国为控制西欧、遏制苏联而推行的经济援助计划是",
+   "explain": "马歇尔计划即欧洲复兴计划，是美国冷战政策在经济上的重要表现。",
+   "answer_mode": "choice",
+   "options": [
+    "马歇尔计划",
+    "杜鲁门主义",
+    "莫洛托夫计划",
+    "租借法案"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s030_q3",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s030",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 3,
+   "stem": "标志美苏两极格局最终形成的事件是",
+   "explain": "1949 年北约成立、1955 年华约成立，两大军事政治集团对峙，两极格局最终形成。",
+   "answer_mode": "choice",
+   "options": [
+    "杜鲁门主义出台",
+    "马歇尔计划实施",
+    "北约与华约相继成立",
+    "柏林墙倒塌"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_s031_q1",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s031",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 1,
+   "stem": "二战后主要资本主义国家普遍加强了对经济的",
+   "explain": "战后主要资本主义国家借鉴凯恩斯主义，加强国家干预，发展福利国家制度。",
+   "answer_mode": "choice",
+   "options": [
+    "自由放任",
+    "国家干预",
+    "完全计划",
+    "殖民掠夺"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s031_q2",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s031",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 2,
+   "stem": "战后资本主义国家“福利国家”制度的实质是",
+   "explain": "福利国家制度通过税收和转移支付进行国民收入再分配，缓和矛盾但未消除阶级差别。",
+   "answer_mode": "choice",
+   "options": [
+    "消除阶级差别",
+    "对国民收入再分配以缓和矛盾",
+    "实行按需分配",
+    "取消私有制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s031_q3",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s031",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·20世纪下半叶世界的新变化",
+   "difficulty": 2,
+   "stem": "20 世纪 70 年代主要资本主义国家经济出现“滞胀”，其应对措施是",
+   "explain": "面对滞胀，英美等国减少国家干预、削减福利、推行私有化和市场化改革。",
+   "answer_mode": "choice",
+   "options": [
+    "加强国家干预",
+    "减少国家干预、转向新自由主义",
+    "扩大福利开支",
+    "实行国有化"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_s032_q1",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s032",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·当代世界发展的特点与主要趋势",
+   "difficulty": 1,
+   "stem": "世界贸易组织成立于",
+   "explain": "1995 年世界贸易组织取代关贸总协定成立，推动贸易自由化。",
+   "answer_mode": "choice",
+   "options": [
+    "1947 年",
+    "1989 年",
+    "1993 年",
+    "1995 年"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_s032_q2",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s032",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·当代世界发展的特点与主要趋势",
+   "difficulty": 2,
+   "stem": "经济全球化在经济领域的主要表现是",
+   "explain": "经济全球化表现为贸易、投资、金融和生产的国际化，跨国公司是主要推动力量。",
+   "answer_mode": "choice",
+   "options": [
+    "国际贸易和跨国投资迅速增长",
+    "各国普遍闭关锁国",
+    "关税壁垒不断提高",
+    "货币体系分散化"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_s032_q3",
+   "type": "knowledge",
+   "skill": "世界现代史",
+   "topic": "cnh_s032",
+   "subject": "history",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·当代世界发展的特点与主要趋势",
+   "difficulty": 3,
+   "stem": "中国倡导构建人类命运共同体，其核心是",
+   "explain": "人类命运共同体倡导合作共赢、共同应对全球性挑战，反对零和博弈。",
+   "answer_mode": "choice",
+   "options": [
+    "各国独自应对全球问题",
+    "建设持久和平、普遍安全、共同繁荣、开放包容、清洁美丽的世界",
+    "建立单一世界政府",
+    "以意识形态划界结盟"
+   ],
+   "answer": 2
+  }
+ ]
+}
