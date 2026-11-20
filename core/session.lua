@@ -3,6 +3,7 @@ Session construction and answer bookkeeping for StudyAssist.
 --]]--
 
 local Bank = require("core.bank")
+local Catalog = require("core.catalog")
 local Knowledge = require("core.knowledge")
 local MathGen = require("core.mathgen")
 
@@ -119,25 +120,38 @@ end
 -- Subjects that actually ship content for a grade/semester, in canonical
 -- order. Entries: { subject=, bank=, units= }. Used by the UI to build the
 -- subject menu and by the mixed "今日挑战" builder.
+--
+-- 还要过一道地区关：该地区这个年级还没开这门课（上海一年级没有沪教版数学、
+-- 多数地区一年级没有英语）时直接跳过，不然只能拿别的出版社的题库顶上，
+-- 孩子看到的就不是自己那本书。
 function Session.subjects_for(plugin_path, grade, semester, settings)
     settings = settings or {}
     local out = {}
     if plugin_path and plugin_path ~= "" then MathGen.set_plugin_path(plugin_path) end
     for _, subject in ipairs(SUBJECTS) do
-        local entry
-        if subject == "math" and grade <= 6 then
-            local units = MathGen.units(grade, edition_for(settings, "math"), semester) or {}
-            if #units > 0 then
-                entry = { subject = subject, units = units }
-            end
+        if Catalog.subject_not_started(plugin_path, settings.province, settings.city, subject, grade) then
+            -- 该地区这门课从这个年级之后才开始，跳过
         else
-            local bank = load_bank(plugin_path, subject, grade, semester,
-                edition_for(settings, subject))
-            if bank and #bank.units > 0 then
-                entry = { subject = subject, bank = bank, units = bank.units }
+            local entry
+            if subject == "math" and grade <= 6 then
+                -- 数学 1~6 年级是现场生成题，教材只决定单元名，所以必须单独确认
+                -- 这一册真的存在（沪教版没有一年级，就不该出现在首页）。
+                local edition = edition_for(settings, "math")
+                if Catalog.edition_has_volume(plugin_path, "math", edition, grade, semester) then
+                    local units = MathGen.units(grade, edition, semester) or {}
+                    if #units > 0 then
+                        entry = { subject = subject, units = units }
+                    end
+                end
+            else
+                local bank = load_bank(plugin_path, subject, grade, semester,
+                    edition_for(settings, subject))
+                if bank and #bank.units > 0 then
+                    entry = { subject = subject, bank = bank, units = bank.units }
+                end
             end
+            if entry then table.insert(out, entry) end
         end
-        if entry then table.insert(out, entry) end
     end
     return out
 end

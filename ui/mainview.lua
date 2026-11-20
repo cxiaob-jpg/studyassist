@@ -689,6 +689,38 @@ function MainView:edition_tile_label(subject)
     return "未设置"
 end
 
+-- 这门课在当前地区/年级/学期该不该出现 —— 首页、今日挑战、知识点、学习设置
+-- 全部走这一个判定，别再各写一套（以前首页看内容、设置看任意版本，才会打架）。
+--   1. 地区这门课还没开（上海一年级数学、一年级英语）→ 不显示
+--   2. 数学 1~6 年级是现场生成题，教材里没有这一册 → 不显示
+-- 映射断档/整科缺失不算「没有」（见 Catalog.city_subject_state），照旧按内容判断。
+function MainView:subject_visible(subject, grade, semester)
+    local settings = self.progress.data.settings
+    if Catalog.subject_not_started(self.plugin_path, settings.province, settings.city, subject, grade) then
+        return false
+    end
+    if subject == "math" and (tonumber(grade) or 0) <= 6 then
+        local edition = settings_edition(settings, "math")
+        if not Catalog.edition_has_volume(self.plugin_path, "math", edition, grade, semester) then
+            return false
+        end
+    end
+    return true
+end
+
+-- 地区用的出版社插件没收录时的标注，例如「冀教版未收录」。
+-- 界面上拼在版本名后面：英语 人教版（冀教版未收录），家长一眼看出不是孩子那本书。
+function MainView:substitute_note(subject, grade)
+    local settings = self.progress.data.settings
+    local state, _, publisher = Catalog.city_subject_state(self.plugin_path,
+        settings.province, settings.city, subject, grade)
+    if state ~= "uncollected" then return nil end
+    local used = settings_edition(settings, subject)
+    local local_name = publisher or "本地教材"
+    if Catalog.edition_name(self.plugin_path, subject, used) == local_name then return nil end
+    return local_name .. "未收录"
+end
+
 -- 版本显示名。通用版本（如初中数学 junior）本身没有固定出版社，
 -- 按城市匹配到的出版社显示，例如苏州七年级数学显示「苏科版」。
 function MainView:edition_name_of(subject, edition)
@@ -1947,6 +1979,22 @@ function MainView:render_unit_select(subject, context)
     local grade = tonumber(settings.grade) or 2
     local edition = settings_edition(settings, subject)
     MathGen.set_plugin_path(self.plugin_path)
+    -- 兜底：正常情况下按钮都不显示了，这里只是防止从旧页面/旧会话点进来。
+    if not self:subject_visible(subject, grade, semester) then
+        local start = Catalog.subject_start_grade(self.plugin_path,
+            settings.province, settings.city, subject)
+        local label = self:subject_label(subject)
+        local text
+        if start and start > grade then
+            text = string.format("%s还没有%s课（本地区从%s开始），可在设置里换年级。",
+                self:grade_label(), label, GRADE_LABEL[start] or (start .. "年级"))
+        else
+            text = string.format("%s%s教材暂缺，可在设置里换个版本。", self:grade_label(), label)
+        end
+        UIManager:show(InfoMessage:new{ text = text, timeout = 5 })
+        if from_challenge then self:render_challenge_menu() else self:render_home() end
+        return
+    end
     local units
     local used_edition = edition
     local is_bank_subject = subject ~= "math" or (tonumber(grade) or 2) >= 7
@@ -3825,13 +3873,23 @@ function MainView:apply_city_match(city_name, from_city, silent)
     local match = self:city_match()
     if not match then return end
     local grade_label = self:grade_label() .. self:semester_label()
-    local applied, missing, absent = {}, {}, {}
+    local applied, missing, absent, not_started = {}, {}, {}, {}
+    local grade = tonumber(settings.grade) or 0
 
     for _, key in ipairs({ "yuwen", "shuxue", "yingyu" }) do
         local subject = CITY_SUBJECTS[key]
         local item = match[key]
         if not item then
-            table.insert(absent, self:subject_label(subject))
+            -- 映射里这一册没有：区分「这门课还没开」和「源站这册没抓到」，
+            -- 前者首页/知识点直接不显示，后者保持原设置不动。
+            local start = Catalog.subject_start_grade(self.plugin_path,
+                settings.province, settings.city, subject)
+            if start and grade < start then
+                table.insert(not_started, string.format("%s（本地区从%s开始）",
+                    self:subject_label(subject), GRADE_LABEL[start] or (start .. "年级")))
+            else
+                table.insert(absent, self:subject_label(subject))
+            end
         elseif item.edition and item.edition ~= "" then
             local editions = item.editions or { item.edition }
             if #editions > 1 then
@@ -3853,12 +3911,15 @@ function MainView:apply_city_match(city_name, from_city, silent)
                     self:coverage_hint(subject, item.edition)))
             end
         else
-            table.insert(missing, string.format("%s（%s）", self:subject_label(subject), item.publisher or ""))
+            -- 出版社插件没收录：首页照常显示，但设置里标出「暂用某版」，别让孩子
+            -- 以为自己在用人教/统编。
+            local used = settings_edition(settings, subject)
+            table.insert(missing, string.format("%s（%s·暂用%s）", self:subject_label(subject),
+                item.publisher or "", Catalog.edition_name(self.plugin_path, subject, used)))
         end
     end
 
     -- 物理等 o 字段学科：出版社名 → 版本 id，按年级下限自动设置
-    local grade = tonumber(settings.grade) or 0
     local other_applied = {}
     if match.other and next(match.other) then
         for okey, publisher in pairs(match.other) do
@@ -3886,7 +3947,10 @@ function MainView:apply_city_match(city_name, from_city, silent)
             table.concat(applied, " · ")))
     end
     if #missing > 0 then
-        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. " —— 插件暂无该版本，练习沿用当前设置")
+        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. " —— 插件暂无该版本，练习暂用替代版本")
+    end
+    if #not_started > 0 then
+        table.insert(lines, "还没开课：" .. table.concat(not_started, "、") .. " —— 首页和知识点里不再显示该科")
     end
     if #absent > 0 then
         table.insert(lines, "无书目：" .. table.concat(absent, "、") .. "（源站该年级无数据，保持原设置）")
@@ -4327,10 +4391,13 @@ function MainView:study_summary()
     local grade = tonumber(settings.grade) or 2
     local books = {}
     for _, subject in ipairs(SUBJECT_ORDER) do
-        if has_volume(self.plugin_path, subject, grade, settings.semester) then
+        if self:subject_visible(subject, grade, settings.semester)
+            and has_volume(self.plugin_path, subject, grade, settings.semester) then
             local name = self:edition_name(subject)
             if name and name ~= "" then
-                table.insert(books, string.format("%s %s", SUBJECT_LABEL[subject], name))
+                local note = self:substitute_note(subject, grade)
+                table.insert(books, string.format("%s %s%s", SUBJECT_LABEL[subject], name,
+                    note and ("（" .. note .. "）") or ""))
             end
         end
     end
@@ -4544,18 +4611,21 @@ function MainView:render_study_settings()
     local grade = tonumber(settings.grade) or 2
     local edition_subjects = {}
     for _, subject in ipairs(SUBJECT_ORDER) do
-        if has_volume(self.plugin_path, subject, grade, settings.semester) then
+        if self:subject_visible(subject, grade, settings.semester)
+            and has_volume(self.plugin_path, subject, grade, settings.semester) then
             table.insert(edition_subjects, subject)
         end
     end
     local gap = Screen:scaleBySize(8)
     local function edition_tile(subject, width)
+        local note = self:substitute_note(subject, grade)
         return Widgets.button(
-            string.format("%s %s", SUBJECT_LABEL[subject], self:edition_tile_label(subject)), {
+            string.format("%s %s%s", SUBJECT_LABEL[subject], self:edition_tile_label(subject),
+                note and ("（" .. note .. "）") or ""), {
                 width = width,
                 height = Screen:scaleBySize(54),
                 align = "left",
-                size = 18,
+                size = note and 16 or 18,
                 callback = function() self:render_edition_select(subject) end,
             })
     end
@@ -4644,10 +4714,12 @@ function MainView:render_kp_subject()
     -- 跟首页学科按钮同一套规则：只列出当前年级/学期真有知识点内容的学科
     local kp_subjects = {}
     for _, subject in ipairs(SUBJECT_ORDER) do
-        local volume = Knowledge.load(self.plugin_path, subject, grade, semester,
-            settings_edition(settings, subject))
-        if volume and #volume.topics > 0 then
-            table.insert(kp_subjects, subject)
+        if self:subject_visible(subject, grade, semester) then
+            local volume = Knowledge.load(self.plugin_path, subject, grade, semester,
+                settings_edition(settings, subject))
+            if volume and #volume.topics > 0 then
+                table.insert(kp_subjects, subject)
+            end
         end
     end
     local content = VerticalGroup:new{

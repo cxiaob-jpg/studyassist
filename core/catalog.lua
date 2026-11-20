@@ -142,6 +142,80 @@ function Catalog.city_grade(plugin_path, province_id, city_id, grade)
     return out
 end
 
+-- 插件学科 -> cities.json 里的学科键。
+local CITY_SUBJECT_KEY = { chinese = "yuwen", math = "shuxue", english = "yingyu" }
+
+-- 该地区这门课最早从几年级开始（映射里的最小年级）。
+-- 例如上海数学从 2 年级起、英语多数地区 3 年级起。
+-- 返回 nil 表示该城市没有这门课的映射，无法判断。
+function Catalog.subject_start_grade(plugin_path, province_id, city_id, subject)
+    local key = CITY_SUBJECT_KEY[subject]
+    if not key then return nil end
+    local city = Catalog.city(plugin_path, province_id, city_id)
+    local runs = city and city.s and city.s[key]
+    if type(runs) ~= "table" then return nil end
+    local first
+    for _, run in ipairs(runs) do
+        local a = tonumber(tostring(run[1] or ""):match("^(%d+)"))
+        if a and (not first or a < first) then first = a end
+    end
+    return first
+end
+
+-- 地区映射在这个年级的教材情况，界面显示与否的唯一判据。
+-- 返回 state, edition_id, publisher：
+--   "ok"          映射正常，这一册用 edition_id
+--   "not_started" 这门课在这个地区还没开（年级早于映射起始年级，如上海一年级数学、
+--                 多数地区一年级英语）→ 全站不显示该科
+--   "uncollected" 地区用的出版社插件没收录（北京版英语、冀教版英语/数学等）
+--                 → 照常显示，但要标注「暂用某版代替」
+--   "unknown"     没有映射可用（整科缺失如上海英语，或中间断档如上海六~九年级数学）
+--                 → 当作数据缺口，按题库有没有内容决定，不做额外隐藏
+function Catalog.city_subject_state(plugin_path, province_id, city_id, subject, grade)
+    local key = CITY_SUBJECT_KEY[subject]
+    if not key then return "unknown" end
+    local city = Catalog.city(plugin_path, province_id, city_id)
+    local runs = city and city.s and city.s[key]
+    if type(runs) ~= "table" or #runs == 0 then return "unknown" end
+    local g = tonumber(grade)
+    local first, matched
+    for _, run in ipairs(runs) do
+        local a = tonumber(tostring(run[1] or ""):match("^(%d+)"))
+        if a and (not first or a < first) then first = a end
+        if g and not matched and in_range(run[1], g) then matched = run end
+    end
+    if matched then
+        local raw = matched[2]
+        local eid = type(raw) == "table" and raw[1] or raw
+        if type(eid) == "string" and eid ~= "" then
+            return "ok", eid, matched[3]
+        end
+        return "uncollected", nil, matched[3]
+    end
+    if first and g and g < first then return "not_started", nil, nil end
+    return "unknown"
+end
+
+-- 该地区这门课是否还没开（见 city_subject_state）。
+function Catalog.subject_not_started(plugin_path, province_id, city_id, subject, grade)
+    local state = Catalog.city_subject_state(plugin_path, province_id, city_id, subject, grade)
+    return state == "not_started"
+end
+
+-- 某学科某版本是否收录了指定的这一册（上下册分开判断）。
+-- 数学 1~6 年级的题由 MathGen 现场生成，不看教材也能出题，所以必须单独查这一册
+-- 存不存在，否则「教材里没有」这件事它永远感知不到。
+function Catalog.edition_has_volume(plugin_path, subject, edition_id, grade, semester)
+    if not edition_id or not grade then return false end
+    local data = Catalog.load(plugin_path)
+    local subject_data = data and data.subjects and data.subjects[subject]
+    local edition = subject_data and subject_data.editions and subject_data.editions[edition_id]
+    if not edition then return false end
+    local by_grade = edition.grades and edition.grades[tostring(grade)]
+    local volume = by_grade and by_grade[semester == "lower" and "lower" or "upper"]
+    return type(volume) == "table" and type(volume.units) == "table" and #volume.units > 0
+end
+
 -- 册级版次（data/edition_terms.json）。版次是出版社按「册」推进的，全国一致；
 -- 城市只决定用哪家出版社，所以两层要分开看：
 --   城市 -> 出版社      见 cities.json
