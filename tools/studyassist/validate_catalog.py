@@ -47,8 +47,8 @@ def main():
     # 地理 4 版等），但基线少了就是错。
     required_editions = {
         "chinese": {"tongbian"},
-        "math": {"renjiao", "beishida", "sujiao", "sujiao2024", "qingdao", "hujiao", "junior", "senior"},
-        "english": {"pep", "yilin", "renjiao", "renjiao-senior"},
+        "math": {"renjiao", "beishida", "sujiao", "sujiao2024", "qingdao", "hujiao", "junior"},
+        "english": {"pep", "yilin", "renjiao"},
         "physics": {"renjiao"},
         "chemistry": {"renjiao"},
         "biology": {"renjiao"},
@@ -57,25 +57,25 @@ def main():
     }
     # 默认版本必须覆盖的「六三制」册次（i.e. 该学科在 6-3 学制下的标准年级）
     canonical_grades = {
-        "chinese": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
-        "math": {"1", "2", "3", "4", "5", "6"},  # renjiao etc.; junior/senior checked separately
+        "chinese": {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+        "math": {"1", "2", "3", "4", "5", "6"},  # renjiao etc.; junior checked separately
         "english": {"3", "4", "5", "6"},  # pep; renjiao editions checked separately
-        "physics": {"8", "9", "10", "11", "12"},
-        "chemistry": {"9", "10", "11", "12"},
-        "biology": {"7", "8", "10", "11", "12"},  # 高中人教版必修1/2 + 选必1~3
-        "history": {"7", "8", "9", "10", "11", "12"},
-        "geography": {"7", "8", "10", "11", "12"},  # 高中人教版必修第一/二册 + 选必1~3
+        "physics": {"8", "9"},
+        "chemistry": {"9"},
+        "biology": {"7", "8"},
+        "history": {"7", "8", "9"},
+        "geography": {"7", "8"},
     }
     # 该学科理论上可能出现的年级（五四制出版社会有 6 年级地理/生物等）
     grade_universe = {
-        "chinese": canonical_grades["chinese"],  # 统编高中五册：必修上下、选必上中下
-        "math": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
-        "english": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
-        "physics": {"8", "9", "10", "11", "12"},
-        "chemistry": {"9", "10", "11", "12"},
-        "biology": {"6", "7", "8", "10", "11", "12"},
-        "history": {"6", "7", "8", "9", "10", "11", "12"},
-        "geography": {"6", "7", "8", "10", "11", "12"},
+        "chinese": canonical_grades["chinese"],
+        "math": {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+        "english": {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+        "physics": {"8", "9"},
+        "chemistry": {"9"},
+        "biology": {"6", "7", "8"},
+        "history": {"6", "7", "8", "9"},
+        "geography": {"6", "7", "8"},
     }
     # 默认版本（order 第一个）：必须整段覆盖 canonical
     default_edition = {
@@ -86,9 +86,7 @@ def main():
     # Editions that are bank-backed (static JSON) rather than mathgen-driven.
     bank_editions = {
         ("math", "junior"): {"7", "8", "9"},
-        ("math", "senior"): {"10", "11", "12"},
         ("english", "renjiao"): {"7", "8", "9"},
-        ("english", "renjiao-senior"): {"10", "11", "12"},
         ("english", "yilin"): {"3", "4", "5", "6"},
     }
     known_skills = lua_skill_keys()
@@ -107,6 +105,9 @@ def main():
         if missing:
             err(f"{subject} missing editions {sorted(missing)}")
         for edition_id, edition in editions.items():
+            if "senior" in edition_id.lower() or "高中" in (
+                    str(edition.get("name") or "") + str(edition.get("publisher") or "")):
+                err(f"{subject}/{edition_id}: senior-high edition is not allowed")
             bank_pair = bank_editions.get((subject, edition_id))
             grades = edition.get("grades", {})
             if bank_pair:
@@ -116,7 +117,7 @@ def main():
                 if set(grades) != canonical_grades[subject]:
                     err(f"{subject}/{edition_id}: grades {sorted(grades)} != {sorted(canonical_grades[subject])}")
             else:
-                # 非默认版本允许按学段部分覆盖（如粤教版仅高中、鲁教版仅 6~7 年级）
+                # 非默认版本允许按学段部分覆盖（如鲁教版仅 6~7 年级）
                 if not grades:
                     err(f"{subject}/{edition_id}: no grades")
                 elif not set(grades) <= grade_universe[subject]:
@@ -152,8 +153,8 @@ def main():
     removed = (set(CATALOG["subjects"]) - seen_subjects) - {"science", "morality"}
     if removed:
         err(f"unexpected extra subjects in catalog: {sorted(removed)}")
-    if CATALOG.get("grades") != [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]:
-        err(f"catalog grades {CATALOG.get('grades')} != 1..12")
+    if CATALOG.get("grades") != [1, 2, 3, 4, 5, 6, 7, 8, 9]:
+        err(f"catalog grades {CATALOG.get('grades')} != 1..9")
 
     # 城市教材映射（schema 3）：city.s.<学科> = [[年级区间, 版本id, 出版社], ...]
     # 区间必须可解析、版本 id 必须在该学科里定义、区间不得重叠。
@@ -174,7 +175,7 @@ def main():
                 b = int(b) if b else a
             except ValueError:
                 return None
-            return (a, b) if 1 <= a <= b <= 12 else None
+            return (a, b) if 1 <= a <= b <= 9 else None
 
         for pid, prov in cities.get("provinces", {}).items():
             if pid not in pids:
@@ -226,7 +227,7 @@ def main():
                 if not pub:
                     err(f"edition_terms.json: {sub} empty publisher")
                 for grade, by_term in by_grade.items():
-                    if not grade.isdigit() or not (1 <= int(grade) <= 12):
+                    if not grade.isdigit() or not (1 <= int(grade) <= 9):
                         err(f"edition_terms.json: {sub}/{pub} bad grade {grade}")
                     for term, year in by_term.items():
                         if term not in ("u", "l"):

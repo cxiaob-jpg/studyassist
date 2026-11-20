@@ -66,8 +66,9 @@ local DEFAULT_EDITIONS = {
     history = "tongbian", geography = "renjiao",
 }
 local GRADE_LABEL = { "一年级", "二年级", "三年级", "四年级", "五年级", "六年级",
-                      "七年级", "八年级", "九年级", nil, nil, nil,
-                      [10] = "高一", [11] = "高二", [12] = "高三" }
+                      "七年级", "八年级", "九年级" }
+-- 插件只支持小学 + 初中；即使 catalog 被误写入高中年级，也不在学习设置里暴露。
+local MAX_SUPPORTED_GRADE = 9
 local function settings_edition(settings, subject)
     return settings[subject .. "_edition"] or DEFAULT_EDITIONS[subject]
 end
@@ -140,7 +141,7 @@ local function has_volume(plugin_path, subject, grade, semester)
 end
 
 -- Friendly text for "no content at this stage", e.g.
--- "本学习阶段暂无物理学科（物理覆盖八年级到高三，可在设置里切换年级）".
+-- "本学习阶段暂无物理学科（物理覆盖八年级到九年级，可在设置里切换年级）".
 local function stage_missing_text(plugin_path, subject, grade, semester)
     local label = SUBJECT_LABEL[subject] or "该科目"
     local grades = subject_grades(plugin_path, subject)
@@ -612,12 +613,11 @@ local OTHER_EDITION_ID = {
         ["北师大版"] = "bsd", ["北京版"] = "bsd_bj",
         ["苏科版"] = "skb", ["教科版"] = "jkb",
         ["沪科版"] = "hkb", ["沪科粤教版"] = "hkb_hy",
-        ["鲁科版"] = "lkb_ws", ["粤教版"] = "yjb", ["沪科教版"] = "hkjb",
+        ["鲁科版"] = "lkb_ws",
     },
     huaxue = {
         ["人教版"] = "renjiao",
-        ["鲁教版"] = "ljb", ["沪教版"] = "hjb",
-        ["鲁科版"] = "lkb", ["科粤版"] = "kyyb", ["苏教版"] = "sjb",
+        ["鲁教版"] = "ljb", ["沪教版"] = "hjb", ["科粤版"] = "kyyb",
     },
     dili = {
         ["人教版"] = "renjiao",
@@ -3920,8 +3920,8 @@ function MainView:apply_city_match()
             if idmap and publisher and (not min_grade or grade >= min_grade) then
                 local eid = idmap[publisher]
                 local subject = OTHER_SUBJECT[okey]
-                -- 只在该版本确实收录当前年级时才应用（如粤教版仅高中，初中不选用）；
-                -- 家长手动指定过的也不覆盖
+                -- 只在该版本确实收录当前年级时才应用；家长手动指定过的也不覆盖
+
                 if eid and subject and not self:edition_manually_set(subject)
                     and Catalog.edition_covers(self.plugin_path, subject, eid, grade) then
                     settings[subject .. "_edition"] = eid
@@ -3938,11 +3938,14 @@ function MainView:render_grade_select()
     local settings = self.progress.data.settings
     local items = {}
     for _, grade in ipairs(Catalog.grades(self.plugin_path)) do
-        table.insert(items, {
-            id = grade,
-            name = GRADE_LABEL[grade] or (grade .. "年级"),
-            selected = tonumber(settings.grade) == grade,
-        })
+        grade = tonumber(grade)
+        if grade and grade >= 1 and grade <= MAX_SUPPORTED_GRADE then
+            table.insert(items, {
+                id = grade,
+                name = GRADE_LABEL[grade] or (grade .. "年级"),
+                selected = tonumber(settings.grade) == grade,
+            })
+        end
     end
     self:render_choice_list("选择年级", items, function(item)
         local changed = tonumber(settings.grade) ~= tonumber(item.id)
@@ -3976,7 +3979,7 @@ function MainView:render_edition_select(subject)
         })
     end
     -- 同一出版社有新老两套时，按这一册的版次只列适用的那个；
-    -- 并且只列该年级确实有内容的版本（避免一年级选到只有高中的出版社）
+    -- 并且只列该年级确实有内容的版本（避免一年级选到不覆盖本年级的出版社）
     local term_list = Catalog.editions_for_term(self.plugin_path, subject,
         settings.grade, settings.semester)
     local covering = {}
@@ -4625,9 +4628,6 @@ end
 local function kp_volume_label(grade, semester)
     grade = tonumber(grade) or 1
     local sem = semester == "lower" and "下" or "上"
-    if grade >= 10 then
-        return string.format("%s·%s学期", GRADE_LABEL[grade] or (grade .. "年级"), sem)
-    end
     return string.format("%s%s册", GRADE_LABEL[grade] or (grade .. "年级"), sem)
 end
 

@@ -51,7 +51,7 @@
    "domain": "数与代数",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "三 两位数乘、除以一位数",
    "description": "能口算两位数乘（除以）一位数（每位乘积不满十、各数位能整除的情形），会用乘法口诀进行简单计算并解决实际问题。",
    "mastery_criteria": [
     "能口算两位数乘一位数",
@@ -65,7 +65,7 @@
    "domain": "图形与几何",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "七 图形的初步认识（三）",
    "description": "初步认识角，知道角有一个顶点和两条边，能在图形和生活物品中找出角，知道角的大小与两边张开的程度有关。",
    "mastery_criteria": [
     "能指出角的顶点和边",

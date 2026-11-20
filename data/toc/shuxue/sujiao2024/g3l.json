@@ -47,7 +47,7 @@
    "domain": "图形与几何",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "一 角",
    "description": "认识线段、射线和直线，知道它们的特征与区别：线段有两个端点、可测量；射线有一个端点、无限长；直线没有端点、无限长。",
    "mastery_criteria": [
     "能区分线段、射线和直线",
@@ -61,7 +61,7 @@
    "domain": "数与代数",
    "kp_type": "conceptual",
    "unit": "up1",
-   "unit_name": null,
+   "unit_name": "综合与实践 年、月、日的秘密",
    "description": "认识时间单位年、月、日，知道一年有 12 个月，大月 31 天、小月 30 天，平年 2 月 28 天、闰年 2 月 29 天，能判断平年闰年。",
    "mastery_criteria": [
     "知道大月、小月和平年闰年 2 月的天数",
@@ -75,7 +75,7 @@
    "domain": "数与代数",
    "kp_type": "conceptual",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "六 分数的初步认识",
    "description": "初步认识几分之一和几分之几，知道把一个物体平均分成几份，每份是它的几分之一，能读写简单分数并比较大小。",
    "mastery_criteria": [
     "能读写几分之一和几分之几",

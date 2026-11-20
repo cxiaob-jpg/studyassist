@@ -4,6 +4,10 @@
 Checks schema fields, question validity (3-4 unique options, valid answers,
 non-negative numeric answers), topic references, graph acyclicity, at least one
 question per topic, and volume/graph consistency.  Standard library only.
+
+版本专属知识点（data/toc/<学科>/<版本>/gXu.json）只挂在该版本卷里、不进通用池，
+所以要额外扫一遍版本卷，否则「译林英语四上」「苏教版2024 四上」「统编语文四上」
+这些节点会被误判成「图谱有节点、卷里没内容」。
 """
 
 import collections
@@ -14,8 +18,11 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, "data", "knowledge")
+TOC = os.path.join(ROOT, "data", "toc")
 SUBJECTS = ("math", "chinese", "english", "physics", "chemistry",
             "biology", "history", "geography")
+# data/toc 的目录名沿用抓取时的学科键（yuwen/shuxue/yingyu），内部学科名不同。
+TOC_SUBJECT = {"chinese": "yuwen", "math": "shuxue", "english": "yingyu"}
 FRACTION_RE = re.compile(r"^(\d+)/(\d+)$")
 VOLUME_RE = re.compile(r"^g(\d+)([ul])\.json$")
 STATUSES = {"learning", "mastered", "weak"}
@@ -124,6 +131,44 @@ def check_question(q, label, topic_ids):
         err("%s: question %s bad answer_mode %r" % (label, qid, mode))
 
 
+def scan_toc_volumes(subject, nodes, seen_topics):
+    """登记只挂在教材版本卷里的知识点，返回 {topic_id: 该版本卷里的题数}。
+
+    版本专属知识点（译林英语、苏教版2024 数学、统编语文六上等）不进 data/knowledge
+    通用池，只出现在 data/toc/<版本>/gXu.json 里。版本卷会按自己的目录把知识点重挂
+    到别的单元，所以这里只登记 id 与题数，不比对 unit。
+    """
+    counts = collections.Counter()
+    base = os.path.join(TOC, TOC_SUBJECT.get(subject, subject))
+    if not os.path.isdir(base):
+        return counts
+    for edition in sorted(os.listdir(base)):
+        edir = os.path.join(base, edition)
+        if not os.path.isdir(edir):
+            continue
+        for filename in sorted(os.listdir(edir)):
+            m = VOLUME_RE.match(filename)
+            if not m:
+                continue
+            grade = int(m.group(1))
+            semester = "upper" if m.group(2) == "u" else "lower"
+            path = os.path.join(edir, filename)
+            data = load(path)
+            for t in data.get("topics", []):
+                tid = t.get("id")
+                if not tid:
+                    continue
+                if tid not in nodes:
+                    err("%s: topic %s missing from graph" % (path, tid))
+                    continue
+                seen_topics.setdefault(tid, (grade, semester))
+            for q in data.get("questions", []):
+                tid = q.get("topic")
+                if tid in nodes:
+                    counts[tid] += 1
+    return counts
+
+
 def check_subject(subject):
     nodes = check_graph(subject)
     folders = sorted(f for f in os.listdir(os.path.join(DATA, subject))
@@ -177,10 +222,11 @@ def check_subject(subject):
                 err("%s: question %s topic not in this volume" % (path, q["id"]))
             check_question(q, path, topic_ids)
             question_count[q.get("topic")] += 1
+    toc_counts = scan_toc_volumes(subject, nodes, seen_topics)
     for tid in nodes:
         if tid not in seen_topics:
             err("%s: graph node %s has no volume topic" % (subject, tid))
-        if question_count[tid] == 0:
+        if question_count[tid] == 0 and toc_counts[tid] == 0:
             err("%s: topic %s has no questions" % (subject, tid))
     print("[%s] nodes=%d topics=%d questions=%d" % (subject, len(nodes), len(seen_topics), len(seen_questions)))
 

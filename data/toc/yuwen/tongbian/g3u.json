@@ -13,35 +13,35 @@
  "units": [
   {
    "id": "u1",
-   "name": "第1单元"
+   "name": "第一单元 学校生活"
   },
   {
    "id": "u2",
-   "name": "第2单元"
+   "name": "第二单元 金秋时节"
   },
   {
    "id": "u3",
-   "name": "第3单元"
+   "name": "第三单元 预测"
   },
   {
    "id": "u4",
-   "name": "第4单元"
+   "name": "第四单元 童话世界"
   },
   {
    "id": "u5",
-   "name": "第5单元"
+   "name": "第五单元 留心观察"
   },
   {
    "id": "u6",
-   "name": "第6单元"
+   "name": "第六单元 祖国河山"
   },
   {
    "id": "u7",
-   "name": "第7单元"
+   "name": "第七单元 珍爱自然"
   },
   {
    "id": "u8",
-   "name": "第8单元"
+   "name": "第八单元 美好品质"
   }
  ],
  "topics": [
@@ -51,7 +51,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "读懂这是一所边疆小学，不同民族的孩子在同一所学校上学。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -68,7 +68,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "读泰戈尔的散文诗：花在地下上学，雨一来就放假，急着回到天上的妈妈身边。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -85,7 +85,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "读懂孙中山小时候不懂就向先生提问，先生称赞他。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -102,7 +102,7 @@
    "domain": "识字写字",
    "kp_type": "procedural",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "已经知道读音时，按音节的第一个字母用音序查字法查字典。口语交际「我的暑假生活」要说清一件暑假里的事；习作「猜猜他是谁」不说出名字，用特点让别人猜。",
    "mastery_criteria": [
     "能分辨形近字和同音字",
@@ -119,7 +119,7 @@
    "domain": "识字写字",
    "kp_type": "procedural",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "不认识的字，先找部首，再数除去部首还有几画。和音序查字法一起用在语文园地一。",
    "mastery_criteria": [
     "能分辨形近字和同音字",
@@ -136,7 +136,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "背诵刘禹锡《望洞庭》，知道白银盘比喻湖面，青螺比喻君山。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -153,7 +153,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "背诵杜牧《山行》，知道「坐」是因为，「红于」是比……更红。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -170,7 +170,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "背诵叶绍翁《夜书所见》，知道促织是蟋蟀，客情是身在异乡的心情。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -187,7 +187,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "读张秋生的课文：一夜风雨之后，梧桐叶像金色的巴掌铺在水泥道上。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -204,7 +204,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "抓住秋天的雨这把钥匙打开的颜色、气味和凉意。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -221,7 +221,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "分清刷刷是黄叶道别，瞿瞿是蟋蟀和阳台告别，秋的声音还在谷粒和汗水里。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -238,7 +238,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "日记先写日期、星期和天气，再写这一天真正看到的、听到的和想到的。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -255,7 +255,7 @@
    "domain": "词语",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 金秋时节",
    "description": "能辨认绿油油、红彤彤和整整齐齐，并知道重叠以后的意思。",
    "mastery_criteria": [
     "能理解词语在句子里的意思",
@@ -272,7 +272,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 预测",
    "description": "一边读一边预测：老屋一次次答应小猫、老母鸡和小蜘蛛的请求。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -289,7 +289,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 预测",
    "description": "读米切尔·恩德的童话：乌龟陶陶要去参加狮王的婚礼，别人怎么劝，她的决定也不改变。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -306,7 +306,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 预测",
    "description": "读贾尼·罗大里的童话：不会叫的小狗先学公鸡叫，再学杜鹃叫，课文留下几种结局让人预测。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -323,7 +323,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 预测",
    "description": "续写要接着前面的情节，人物的脾气不能突然换掉。口语交际「名字里的故事」要说出名字的来历或含义。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -340,7 +340,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 童话世界",
    "description": "读张天翼的童话节选：王葆听奶奶讲过宝葫芦，想要一个想什么就有什么的葫芦。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -357,7 +357,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 童话世界",
    "description": "读懂红头被牛吞进肚子，青头在外面鼓励它，最后红头被喷了出来。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -374,7 +374,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 童话世界",
    "description": "读懂蚂蚁队长不许偷嘴，自己也不吃，后来把掉下的一点奶酪给了最小的蚂蚁。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -391,7 +391,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 童话世界",
    "description": "自己编一个童话：有会想象出来的角色，有麻烦，有后来怎样。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -408,7 +408,7 @@
    "domain": "阅读理解",
    "kp_type": "conceptual",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 童话世界",
    "description": "这次读书吧读童话。安徒生童话、叶圣陶的《稻草人》，都是那个想象出来的王国。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -425,7 +425,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 留心观察",
    "description": "学习作者怎样观察翠鸟的颜色和捕鱼动作。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -442,7 +442,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 留心观察",
    "description": "读普里什文的课文：蒲公英张开时草地是金色的，合拢时又变成绿色。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -459,7 +459,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 留心观察",
    "description": "写一种看到的事物，把颜色、样子和不同时候的变化写出来，不要只写「很美」。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -476,7 +476,7 @@
    "domain": "句子",
    "kp_type": "procedural",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 留心观察",
    "description": "写看到的事物时，按后面是名词、动词还是补语，选用的、地、得。",
    "mastery_criteria": [
     "能把句子写通顺",
@@ -493,7 +493,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 祖国河山",
    "description": "按海水、海底、海滩、海岛的顺序了解西沙群岛的物产。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -510,7 +510,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 祖国河山",
    "description": "先读海滨的沙滩和船，再读小城的庭院、公园和扫得很干净的街道。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -527,7 +527,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 祖国河山",
    "description": "按春夏秋冬读小兴安岭：夏天枝叶封住森林，秋天献出山葡萄、榛子和人参。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -544,7 +544,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 祖国河山",
    "description": "从万国市场、美食天堂和旅游胜地读懂香港为什么被比作明珠。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -561,7 +561,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 祖国河山",
    "description": "围绕一个地方写它美在哪里，可以像课文那样分几个方面，每一方面都要具体。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -578,7 +578,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "背诵王维《鹿柴》，知道空山并非没有声音，返景是夕阳返照的光。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -595,7 +595,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "背诵李白《望天门山》，知道楚江就是长江，碧水在这里回旋。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -612,7 +612,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "背诵苏轼这首写西湖的诗，不把它和杨万里的西湖荷花诗记混。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -629,7 +629,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "读懂风、水和动物都是大自然里的音乐家。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -646,7 +646,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "读朱维之的课文：大自然是一本看不完的大画册，里面有麻雀、老鹰、蚂蚁，也有竹子和棕榈。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -663,7 +663,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "先说出看见的问题，再写出办法和理由。口语交际「身边的小事」要把经过说清楚。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -680,7 +680,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "借助注释读懂司马光砸瓮救友：瓮是水缸，光持石击瓮。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -697,7 +697,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "读懂童第周的两件事：中学时为自己争气，留学时做出剥离青蛙卵外膜的实验，为中国人争气。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -714,7 +714,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "读懂齐会战斗中，白求恩把手术台当成医生的阵地，连续工作了六十九个小时。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -731,7 +731,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "读懂赵一曼和战士用同一只粗瓷大碗吃饭，还把饭让给生病的小通讯员。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -748,7 +748,7 @@
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "写自己经历的一件事，把经过写清楚，并写出为什么难忘。口语交际「请教」要说清哪里不会，再谢谢对方。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -765,7 +765,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "把暑假里的一段经历讲给同学听：说清楚做了什么、怎么做的，讲出有趣的地方。",
    "mastery_criteria": [
     "能按顺序把经历讲清楚",
@@ -778,7 +778,7 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 学校生活",
    "description": "选一位同学，抓住他的特点用具体事例写下来，不写出名字，让大家猜。",
    "mastery_criteria": [
     "能抓住人物的一两个特点",
@@ -791,7 +791,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 预测",
    "description": "说说自己或他人名字的含义和来历，了解名字里寄托的期望和故事。",
    "mastery_criteria": [
     "能说清楚名字的来历和含义",
@@ -804,7 +804,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 珍爱自然",
    "description": "留心身边的小事，说清楚事情的经过，大胆发表自己的看法并说出理由。",
    "mastery_criteria": [
     "能把事情和自己的观点说清楚",
@@ -817,7 +817,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 美好品质",
    "description": "遇到不懂的问题向别人请教：有礼貌地提出问题，认真听讲解，不懂就再问。",
    "mastery_criteria": [
     "请教时有礼貌，能把问题说清楚",

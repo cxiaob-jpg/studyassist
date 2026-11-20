@@ -13,35 +13,35 @@
  "units": [
   {
    "id": "u1",
-   "name": "第一单元"
+   "name": "第一单元 自然之美"
   },
   {
    "id": "u2",
-   "name": "第二单元"
+   "name": "第二单元 提问"
   },
   {
    "id": "u3",
-   "name": "第三单元"
+   "name": "第三单元 连续观察"
   },
   {
    "id": "u4",
-   "name": "第四单元"
+   "name": "第四单元 神话故事"
   },
   {
    "id": "u5",
-   "name": "第五单元"
+   "name": "第五单元 把一件事写清楚"
   },
   {
    "id": "u6",
-   "name": "第六单元"
+   "name": "第六单元 世界遗产"
   },
   {
    "id": "u7",
-   "name": "第七单元"
+   "name": "第七单元 成长故事"
   },
   {
    "id": "u8",
-   "name": "第八单元"
+   "name": "第八单元 家国情怀"
   }
  ],
  "topics": [
@@ -51,7 +51,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "按潮来前、潮来时、潮头过后的顺序说出钱塘江大潮的变化。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -68,7 +68,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "读懂巴金的散文：从前在家乡、三年前在南京、如今在海上，三次看繁星的情景和感受不同。不要和冰心的短诗《繁星》记成同一篇。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -85,7 +85,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "读刘大白《秋晚的江上》和徐志摩《花牛歌》：归巢的鸟把斜阳掉在江上，花牛在草地里坐、眠、走、做梦。两首合为一个 topic。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -102,7 +102,7 @@
    "domain": "识字写字",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "能按词语选定多音字的读音，不拿一个音套所有词。口语交际「我们与环境」要说出身边的环境问题，也可以说说能做的小事。习作「推荐一个好地方」要把那个地方的特点和值得去的理由写清楚。",
    "mastery_criteria": [
     "能分辨形近字和同音字",
@@ -119,7 +119,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "读懂安徒生的童话：五粒豌豆各奔东西，落在窗下青苔缝里的那一粒发了芽，给生病的小女孩带来希望。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -136,7 +136,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "读懂科学家怎样做实验：蝙蝠夜里飞行靠的是嘴里发出超声波、耳朵接收回声，不是靠眼睛。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -153,7 +153,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "读懂这篇童话：店里只卖方帽子，后来圆帽子流行，老板不肯改，最后只剩他自己戴方的。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -170,7 +170,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "读懂孙膑让田忌以下等马对上等马、中等对下等、上等对中等，二胜一负赢了齐威王。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -187,7 +187,7 @@
    "domain": "识字写字",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "能按中间部分选出辨、辩、辫、瓣，不看半边就乱写。习作「我的家人」要把家里一个人的样子和一件事写具体。",
    "mastery_criteria": [
     "能分辨形近字和同音字",
@@ -204,7 +204,7 @@
    "domain": "识字写字",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "能按意思选用在、再、做、作，不因为读音相同就随便写。和形近字一起放在语文园地二。",
    "mastery_criteria": [
     "能分辨形近字和同音字",
@@ -221,7 +221,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "背诵白居易《暮江吟》，分清残阳、瑟瑟和真珠各写什么。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -238,7 +238,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "背诵苏轼《题西林壁》，记住「只缘」和「各不同」，不把字改掉。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -255,7 +255,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "背诵卢梅坡《雪梅》，知道梅和雪各有所长：雪更白，梅有香。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -272,7 +272,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "读懂叶圣陶怎样观察爬山虎的脚：长在茎上，触墙才巴住。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -289,7 +289,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "读懂法布尔怎样观察蟋蟀的住宅：自己挖掘，倾斜的隧道，门口有平台，内部光滑。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -306,7 +306,7 @@
    "domain": "词语",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "能分辨意思接近但不能随便替换的词，如发现和发明、改正和改进。口语交际「爱护眼睛，保护视力」要说出护眼的做法。习作「写观察日记」要把连续几天看到的变化写下来。",
    "mastery_criteria": [
     "能理解词语在句子里的意思",
@@ -323,7 +323,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "读懂盘古把混沌的天地劈开，身体后来化成世间万物。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -340,7 +340,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "读懂精卫是炎帝的女儿淹死后化成的鸟，衔西山木石去填东海。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -357,7 +357,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "读懂普罗米修斯从太阳车上取火给人类，被锁在高加索山上，神鹰啄肝，后来被救。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -374,7 +374,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "读懂女娲炼五色石补天，并分清这和精卫填海不是同一件事。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -387,11 +387,11 @@
   },
   {
    "id": "cnc_p260",
-   "name": "语文园地四·习作：我和____过一天",
+   "name": "习作：我和____过一天",
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "想象自己和一位人物过一天，写出一起做了什么、看见了什么。横线上可以是神话里的人，也可以是身边的人，但一天里的事情要能连起来。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -408,7 +408,7 @@
    "domain": "阅读理解",
    "kp_type": "conceptual",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "第四单元 神话故事",
    "description": "这次读书吧读神话和传说，去看盘古、女娲、精卫这样「很久很久以前」的故事，不要把神话当成科学实验的记录。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -425,7 +425,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 把一件事写清楚",
    "description": "读懂老麻雀飞下来掩护掉在地上的小麻雀，猎狗因此退开。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -442,7 +442,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 把一件事写清楚",
    "description": "读懂「我」和爸爸爬黄山天都峰，遇到一位年纪像爷爷的老爷爷，两个人互相鼓劲，都爬了上去。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -459,7 +459,7 @@
    "domain": "习作基础",
    "kp_type": "application",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "第五单元 把一件事写清楚",
    "description": "写生活里看到的景物或发生的事情，加上颜色、声音、动作或比喻，让句子具体。例文《我家的杏熟了》写杏子的样子和变化，《小木船》写两个朋友为一只小木船闹别扭又和好。两篇都是例子，不单独立成课文。本单元没有语文园地。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -476,7 +476,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 世界遗产",
    "description": "读懂这篇说明文：远看长城像长龙，东起山海关、西到嘉峪关；近看条石筑成，有垛子、瞭望口和射口。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -493,7 +493,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 世界遗产",
    "description": "按长廊、万寿山、昆明湖的顺序读这篇课文，知道这是四年级上册的正式课文，不要和四年级下册习作例文里的《颐和园》混成同一个知识点。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -510,7 +510,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 世界遗产",
    "description": "读懂这篇说明文：秦始皇陵出土的兵马俑规模宏大，有将军俑、武士俑等，神态各异。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -523,12 +523,12 @@
   },
   {
    "id": "cnc_p268",
-   "name": "语文园地六·我是小小讲解员",
+   "name": "口语交际：我是小小讲解员",
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u6",
-   "unit_name": null,
-   "description": "口语交际「我是小小讲解员」要把一处地方的特点讲清楚，让别人听得见重点。习作「中国的世界文化遗产」可以写长城、颐和园或兵马俑，按看到的顺序介绍，不要只剩一个名字。",
+   "unit_name": "第六单元 世界遗产",
+   "description": "口语交际「我是小小讲解员」要把一处地方的特点讲清楚：先说清是哪里，再按看到的顺序说特点，让别人听得见重点。",
    "mastery_criteria": [
     "能按要求把话写完整",
     "能判断哪一句更符合题目"
@@ -544,7 +544,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "读懂「我」原先怕鹅，金奎叔抓住鹅以后，「我」才敢自己看事情。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -561,7 +561,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "读懂叶至善写自己演老虎：同学说不会豁虎跳就不算老虎，老师说不用，演出时台下哄堂大笑，他至今还不明白为什么。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -578,7 +578,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "读懂高洪波写童年抽陀螺：故乡叫冰尜儿，叔叔送的一只其貌不扬的小陀螺，却战胜了大陀螺。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -595,7 +595,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "读懂王戎为什么不摘路边的李子：树在道边却果实累累，一定是苦的。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -612,7 +612,7 @@
    "domain": "句子",
    "kp_type": "procedural",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "能把因为和所以、虽然和但是配成一对，不交叉使用。口语交际「安慰」要听出对方心里难受，再说得让人宽一点。习作「我的心儿怦怦跳」要把那件让心跳加快的事和当时的心情写具体。",
    "mastery_criteria": [
     "能把句子写通顺",
@@ -629,7 +629,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "读懂2019年习近平主席在意大利会见众议长菲科：菲科问当选时的心情，主席以「我将无我，不负人民」作答，并举举重运动员说明能担起建设国家的重担。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -646,7 +646,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "读懂少年周恩来在沈阳东关模范学校立下志向：为中华之崛起而读书。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -663,7 +663,7 @@
    "domain": "阅读理解",
    "kp_type": "reasoning",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "读懂祁念曾的诗：像燕子追寻春光那样追寻延安，要的是信念和脊梁，不是把高楼和电器丢掉。",
    "mastery_criteria": [
     "能根据短文选出和文字一致的信息",
@@ -680,7 +680,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "背诵王翰《凉州词》，分清它和王昌龄《出塞》不是同一首。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -697,7 +697,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "背诵王昌龄《出塞》，分清它和王翰《凉州词》不是同一首。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -714,7 +714,7 @@
    "domain": "古诗文积累",
    "kp_type": "conceptual",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "背诵李清照《夏日绝句》，记住人杰、鬼雄和不肯过江东。",
    "mastery_criteria": [
     "能背出本册要求积累的诗句",
@@ -727,11 +727,11 @@
   },
   {
    "id": "cnc_p280",
-   "name": "语文园地八·习作：写信",
+   "name": "习作：写信",
    "domain": "习作基础",
    "kp_type": "procedural",
    "unit": "u8",
-   "unit_name": null,
+   "unit_name": "第八单元 家国情怀",
    "description": "学写一封信：有称呼、正文、祝福语、署名和日期。正文要把想告诉对方的事说清楚，不能只剩一个「你好」。",
    "mastery_criteria": [
     "能按要求把话写完整",
@@ -748,7 +748,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "围绕身边的环境问题发表看法，说清楚要做什么、为什么这样做，并说服别人一起行动。",
    "mastery_criteria": [
     "能说清一条环境保护建议和理由",
@@ -761,7 +761,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "了解影响视力的生活习惯，用事例和数据支持自己的观点，讨论怎样保护视力。",
    "mastery_criteria": [
     "能说出伤害视力的行为和护眼的方法",
@@ -774,7 +774,7 @@
    "domain": "口语表达",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "在他人不开心时真心安慰：先倾听了解情况，再设身处地想办法，用合适的语言鼓励对方。",
    "mastery_criteria": [
     "能先倾听再安慰，说话语气合适",
@@ -787,7 +787,7 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u1",
-   "unit_name": null,
+   "unit_name": "第一单元 自然之美",
    "description": "把推荐的地方写清楚，说明推荐理由，吸引别人去看看。",
    "mastery_criteria": [
     "能写清楚地方和推荐理由",
@@ -800,7 +800,7 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u2",
-   "unit_name": null,
+   "unit_name": "第二单元 提问",
    "description": "抓住家人的特点，用具体事例写出家人可爱或有趣的地方，表达对家人的爱。",
    "mastery_criteria": [
     "能抓住家人的一两个特点",
@@ -813,7 +813,7 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u3",
-   "unit_name": null,
+   "unit_name": "第三单元 连续观察",
    "description": "进行连续观察，把观察对象的变化按日期记录下来，写成观察日记。",
    "mastery_criteria": [
     "能连续多天观察并记录变化",
@@ -826,7 +826,7 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u6",
-   "unit_name": null,
+   "unit_name": "第六单元 世界遗产",
    "description": "搜集整理资料，把一处中国的世界文化遗产有条理地介绍给别人。",
    "mastery_criteria": [
     "能有目的地搜集并整理资料",
@@ -839,12 +839,102 @@
    "domain": "习作基础",
    "kp_type": "conceptual",
    "unit": "u7",
-   "unit_name": null,
+   "unit_name": "第七单元 成长故事",
    "description": "写一次自己紧张、激动或害怕的经历，把当时的感受写清楚。",
    "mastery_criteria": [
     "能选一次真实的经历来写",
     "能把「心儿怦怦跳」时的身体感受和心理活动写具体"
    ]
+  },
+  {
+   "id": "cnc_p516",
+   "name": "语文园地四·日积月累《嫦娥》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第四单元 神话故事",
+   "description": "《嫦娥》是唐代李商隐的七绝：云母屏风烛影深，长河渐落晓星沉。嫦娥应悔偷灵药，碧海青天夜夜心。前两句写长夜将尽的清冷，后两句借嫦娥奔月的神话写孤寂与悔恨；「长河」指银河，「灵药」指长生不死药。",
+   "mastery_criteria": [
+    "能背写全诗并说出作者与朝代",
+    "能说出「长河」「灵药」各指什么",
+    "能说出诗借哪个神话抒发情感"
+   ],
+   "example": {
+    "question": "「云母屏风烛影深」的下一句是？",
+    "answer": "长河渐落晓星沉"
+   }
+  },
+  {
+   "id": "cnc_p517",
+   "name": "语文园地六·日积月累《黄鹤楼送孟浩然之广陵》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第六单元 世界遗产",
+   "description": "李白在黄鹤楼送孟浩然去扬州：故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流。「故人」指孟浩然，「烟花三月」写柳絮如烟、繁花似锦的春景，后两句借孤帆远去、长江奔流写不舍。",
+   "mastery_criteria": [
+    "能背写全诗并说出作者",
+    "能说出「故人」「烟花」各指什么",
+    "能说出后两句表达的情感"
+   ],
+   "example": {
+    "question": "「故人西辞黄鹤楼」的「故人」指谁？",
+    "answer": "孟浩然"
+   }
+  },
+  {
+   "id": "cnc_p518",
+   "name": "语文园地八·日积月累《别董大》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第八单元 家国情怀",
+   "description": "高适送别琴师董大：千里黄云白日曛，北风吹雁雪纷纷。莫愁前路无知己，天下谁人不识君。「曛」是日光昏暗；前两句写黄云、北风、大雪的壮阔冬景，后两句转为豪迈的劝慰鼓励。",
+   "mastery_criteria": [
+    "能背写全诗并说出作者",
+    "能说出「曛」的意思",
+    "能说出这首诗的情感基调"
+   ],
+   "example": {
+    "question": "「莫愁前路无知己」的下一句是？",
+    "answer": "天下谁人不识君"
+   }
+  },
+  {
+   "id": "cnc_p519",
+   "name": "习作例文《我家的杏熟了》",
+   "domain": "习作表达",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "description": "例文写「我」家的杏熟了，邻居小淘淘偷摘杏从树上摔下来，奶奶没有责备，反而打杏、捡杏、分给孩子们，还说「果子大家吃，才真的香甜」。全文按事情发展顺序把起因、经过、结果写清楚，是把一件事写清楚的范例。",
+   "mastery_criteria": [
+    "能说出例文写了哪件事及起因、经过、结果",
+    "能从奶奶的动作和语言看出她的品质",
+    "能说出例文把事写清楚的方法"
+   ],
+   "example": {
+    "question": "奶奶对偷摘杏的孩子是什么态度？",
+    "answer": "不责备，还打杏分给他们"
+   }
+  },
+  {
+   "id": "cnc_p520",
+   "name": "习作例文《小木船》",
+   "domain": "习作表达",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "description": "例文围绕一只小木船，写「我」和陈明从好朋友到因小木船摔坏而友谊破裂，几个月后陈明搬家前送「我」一只新小木船道歉，两人和好。全文围绕一个线索写，把破裂的经过写具体，较长时间用「转眼几个月过去了」一句带过，详略得当。",
+   "mastery_criteria": [
+    "能说出例文的线索和主要事件",
+    "能说出友谊破裂与和好的经过",
+    "能说出「一句话交代较长时间」的好处"
+   ],
+   "example": {
+    "question": "例文围绕什么线索来写？",
+    "answer": "一只小木船"
+   }
   }
  ],
  "questions": [
@@ -5353,6 +5443,466 @@
     "心理和身体感受的描写",
     "外貌描写",
     "说明方法"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p516_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p516",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第四单元 神话故事",
+   "difficulty": 1,
+   "stem": "《嫦娥》的作者和朝代是",
+   "explain": "《嫦娥》是唐代李商隐的七言绝句。",
+   "answer_mode": "choice",
+   "options": [
+    "李白·唐",
+    "李商隐·唐",
+    "高适·唐",
+    "苏轼·宋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p516_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p516",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第四单元 神话故事",
+   "difficulty": 2,
+   "stem": "「长河渐落晓星沉」中的「长河」指",
+   "explain": "「长河」指银河，句意是银河慢慢西斜、晨星也将隐没。",
+   "answer_mode": "choice",
+   "options": [
+    "长江",
+    "黄河",
+    "银河",
+    "长长的河流"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_p516_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p516",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第四单元 神话故事",
+   "difficulty": 1,
+   "stem": "《嫦娥》借哪个神话故事抒发情感",
+   "explain": "诗写嫦娥偷吃灵药飞入月宫，借嫦娥奔月的神话写孤寂悔恨。",
+   "answer_mode": "choice",
+   "options": [
+    "精卫填海",
+    "嫦娥奔月",
+    "女娲补天",
+    "夸父逐日"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p516_q4",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p516",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第四单元 神话故事",
+   "difficulty": 2,
+   "stem": "「嫦娥应悔偷灵药」中的「灵药」指",
+   "explain": "灵药是传说中长生不死的药，嫦娥吃了才飞升月宫。",
+   "answer_mode": "choice",
+   "options": [
+    "治病的药",
+    "长生不死药",
+    "让人变美的药",
+    "让人变聪明的药"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p517_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p517",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第六单元 世界遗产",
+   "difficulty": 1,
+   "stem": "《黄鹤楼送孟浩然之广陵》的作者是",
+   "explain": "这首诗是唐代李白所作，写他在黄鹤楼送别孟浩然。",
+   "answer_mode": "choice",
+   "options": [
+    "李白",
+    "高适",
+    "王维",
+    "王昌龄"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_p517_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p517",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第六单元 世界遗产",
+   "difficulty": 1,
+   "stem": "「故人西辞黄鹤楼」中的「故人」指",
+   "explain": "「故人」是老朋友，这里指诗人的朋友孟浩然。",
+   "answer_mode": "choice",
+   "options": [
+    "诗人的老朋友孟浩然",
+    "黄鹤楼的主人",
+    "一位路过的老人",
+    "诗人的家人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_p517_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p517",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第六单元 世界遗产",
+   "difficulty": 2,
+   "stem": "「烟花三月下扬州」中的「烟花」意思是",
+   "explain": "「烟花」形容春天柳絮如烟、繁花似锦的艳丽景色，不是燃放的烟花。",
+   "answer_mode": "choice",
+   "options": [
+    "燃放的烟花",
+    "柳絮如烟、繁花似锦的春景",
+    "江面上的雾气",
+    "傍晚的云霞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p517_q4",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p517",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第六单元 世界遗产",
+   "difficulty": 2,
+   "stem": "「孤帆远影碧空尽，唯见长江天际流」主要表达",
+   "explain": "诗人久久站在江边目送友人，帆影消失仍望着江水，把不舍藏在景物里。",
+   "answer_mode": "choice",
+   "options": [
+    "长江水流得很急",
+    "诗人目送友人、依依不舍",
+    "黄鹤楼很高",
+    "扬州离得很近"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p518_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p518",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第八单元 家国情怀",
+   "difficulty": 1,
+   "stem": "《别董大》的作者是",
+   "explain": "《别董大》是唐代边塞诗人高适所作。",
+   "answer_mode": "choice",
+   "options": [
+    "高适",
+    "李白",
+    "王昌龄",
+    "卢梅坡"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_p518_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p518",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第八单元 家国情怀",
+   "difficulty": 2,
+   "stem": "「千里黄云白日曛」中的「曛」意思是",
+   "explain": "「曛」指日光昏暗，写黄云蔽日、天色昏黄。",
+   "answer_mode": "choice",
+   "options": [
+    "明亮",
+    "昏暗",
+    "温暖",
+    "刺眼"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p518_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p518",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第八单元 家国情怀",
+   "difficulty": 2,
+   "stem": "「莫愁前路无知己，天下谁人不识君」是在",
+   "explain": "这两句一改送别诗的伤感，豪迈地劝慰、鼓励朋友。",
+   "answer_mode": "choice",
+   "options": [
+    "抱怨朋友",
+    "劝慰鼓励朋友",
+    "描写天气",
+    "描写路上的景色"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p518_q4",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_p518",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第八单元 家国情怀",
+   "difficulty": 1,
+   "stem": "《别董大》属于哪一类诗",
+   "explain": "诗写送别友人董大，属送别诗，但情感豪迈，一扫悲愁。",
+   "answer_mode": "choice",
+   "options": [
+    "送别诗",
+    "咏物诗",
+    "写景诗",
+    "叙事诗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_p519_q1",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p519",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 1,
+   "stem": "《我家的杏熟了》主要写了一件什么事",
+   "explain": "例文写邻居小淘淘偷摘杏摔下来，奶奶不责备，反而打杏、分杏给孩子们。",
+   "answer_mode": "choice",
+   "options": [
+    "奶奶种了一棵杏树",
+    "奶奶打杏、捡杏，分给邻家的孩子",
+    "「我」一个人数杏子",
+    "邻居把杏全摘光了"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p519_q2",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p519",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 1,
+   "stem": "奶奶对偷摘杏的孩子是什么态度",
+   "explain": "奶奶扶起小淘淘，不但没责备，还打杏分给他们，可见她善良、懂得分享。",
+   "answer_mode": "choice",
+   "options": [
+    "大声责骂他们",
+    "不责备，还打杏分给他们吃",
+    "让他们赔钱",
+    "去告诉他们的家长"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p519_q3",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p519",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 2,
+   "stem": "「果子大家吃，才真的香甜」中的「香甜」还指什么",
+   "explain": "这里一语双关：既指杏又香又甜，也指和大家分享带来的快乐、幸福。",
+   "answer_mode": "choice",
+   "options": [
+    "杏子卖得很贵",
+    "和大家分享带来的快乐",
+    "杏子放久变甜了",
+    "奶奶牙齿好，吃得香"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p519_q4",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p519",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 2,
+   "stem": "这篇例文最值得学的写法是",
+   "explain": "例文按事情发展顺序，把起因、经过、结果交代清楚，还把奶奶打杏分杏的动作、语言写具体。",
+   "answer_mode": "choice",
+   "options": [
+    "多用好词好句",
+    "按事情发展顺序写清起因、经过、结果",
+    "全篇都用对话写",
+    "只把结尾写详细"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p520_q1",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p520",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 1,
+   "stem": "《小木船》围绕什么线索来写",
+   "explain": "全文围绕一只小木船，写出友谊的形成、破裂和恢复。",
+   "answer_mode": "choice",
+   "options": [
+    "一只小木船",
+    "一次搬家",
+    "一场考试",
+    "一本相册"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_p520_q2",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p520",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 2,
+   "stem": "「我」和陈明的友谊为什么破裂",
+   "explain": "「我」不小心摔坏了陈明的小木船，争执中又踩碎了他的船，两人闹翻。",
+   "answer_mode": "choice",
+   "options": [
+    "争抢玩具打了起来",
+    "「我」摔坏了陈明的小木船，争执中又踩碎了他的船",
+    "陈明不肯借作业给「我」",
+    "两人分到了不同班级"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p520_q3",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p520",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 2,
+   "stem": "「转眼几个月过去了」一句话交代较长时间，好处是",
+   "explain": "这段时间不是重点，一笔带过，才能详略得当、突出友谊破裂与和好的过程。",
+   "answer_mode": "choice",
+   "options": [
+    "把文章写得更长",
+    "详略得当，突出重点",
+    "说明时间过得太慢",
+    "为了让字数更多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_p520_q4",
+   "type": "knowledge",
+   "skill": "习作表达",
+   "topic": "cnc_p520",
+   "subject": "chinese",
+   "grade": 4,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第五单元 把一件事写清楚",
+   "difficulty": 2,
+   "stem": "结尾写「我」珍藏着小木船，作用是",
+   "explain": "结尾呼应开头的小木船，写出「我」对这份失而复得的友情的珍惜。",
+   "answer_mode": "choice",
+   "options": [
+    "交代当天的天气",
+    "呼应开头，写出对友情的珍惜",
+    "说明木船很值钱",
+    "介绍陈明搬家去了哪里"
    ],
    "answer": 2
   }

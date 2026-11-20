@@ -4,7 +4,7 @@
 原理：
 - 265 个知识点 + 1063 道题是通用概念数据（来自默认卷），不分出版社。
 - 各版本差异只在"教材章节划分"。本脚本用关键词打分，把知识点归属到
-  目标版本对应学段的章节，题目随知识点走，产出 data/toc/physics/<ed>/gX{u,l}.json。
+  目标版本初中段的章节，题目随知识点走，产出 data/toc/physics/<ed>/gX{u,l}.json。
 
 目录来源：/tmp/phys_toc_group{A,B,C,D}.json（dzkbw 抓取，2026-11-20）。
 用法：python3 tools/studyassist/build_physics_editions.py [--check]
@@ -23,7 +23,7 @@ KNOW = ROOT / "data/knowledge/physics"
 OUT = ROOT / "data/toc/physics"
 GROUPS = [Path(f"/tmp/phys_toc_group{g}.json") for g in "ABCDEF"]
 
-# 版本 id -> 显示名（含高中版本；人教已单独生成，不在此列）
+# 版本 id -> 显示名（仅小学 + 初中；人教已单独生成，不在此列）
 EDITION_LABEL = {
     "bsd": "北师大版（2024）",
     "bsd_bj": "北师大版·北京版",
@@ -33,14 +33,7 @@ EDITION_LABEL = {
     "hkb_hy": "沪科粤教版",
     "hkb_ws": "沪科版（五四制）",
     "lkb_ws": "鲁科版（五四制）",
-    "lkb": "鲁科版",
-    "yjb": "粤教版",
-    "hkjb": "沪科教版",
 }
-
-# 高中册的标准坑位（与人教 catalog 一致）：按册顺序映射到 gX{sem}
-HS_SLOTS = [(10, "upper"), (10, "lower"), (11, "upper"),
-            (11, "lower"), (12, "upper"), (12, "lower")]
 
 
 def kws_of(text):
@@ -100,31 +93,8 @@ def load_books():
     for g in GROUPS:
         if g.exists():
             books += json.loads(g.read_text(encoding="utf-8"))
-    # 高中册按册顺序重映射到标准坑位（必修一/二/三+选必一/二/三 -> g10u/g10l/g11u/g11l/g12u/g12l）
-    # 与人教 catalog 一致，避免"必修三=g10 full"与必修一(g10u)文件冲突
-    from collections import OrderedDict
-    hs_by_ed = OrderedDict()
-    for b in books:
-        if "必修第" in b["book"] or "选择性必修" in b["book"]:
-            hs_by_ed.setdefault(b["edition"], []).append(b)
-    for ed, hs_books in hs_by_ed.items():
-        # 按册名排序：必修第一/二/三 -> 选必第一/二/三
-        def order_key(bk):
-            name = bk["book"]
-            if "选择性必修" in name:
-                base = 10
-            else:
-                base = 0
-            for cn, num in [("一", 1), ("二", 2), ("三", 3)]:
-                if f"第{cn}册" in name:
-                    return base + num
-            return base + 9
-        hs_books.sort(key=order_key)
-        for i, b in enumerate(hs_books):
-            if i < len(HS_SLOTS):
-                b["grade"], b["semester"] = HS_SLOTS[i]
-                b["hs_slot"] = i
-    return books
+    # 只保留初中册；插件不再收录 10~12 年级。
+    return [b for b in books if int(b.get("grade") or 0) <= 9]
 
 
 def base_knowledge():
@@ -143,17 +113,15 @@ def base_knowledge():
 
 
 def assign(nodes, chapters_all):
-    """把知识点分配到章节（按学段限定，不限定具体年级）。
+    """把知识点分配到章节（不限定具体年级）。
 
     物理知识点跨版本的年级分布与人教不同（如人教八下"杠杆"在别版可能在九年级），
-    所以只按学段（初中/高中）分桶，在整个学段的章节里找主题最匹配者。
+    所以在整个初中段的章节里找主题最匹配者。
     返回 {kp_id: (chapter_dict, global_index, score)}。
     """
     result = {}
     for kid, node in nodes.items():
-        grade = node.get("grade") or 0
-        stage = "junior" if grade < 10 else "senior"
-        cand = chapters_all[stage]
+        cand = chapters_all["junior"]
         if not cand:
             continue
         best, best_score, best_i = None, -1, 999
@@ -244,25 +212,10 @@ def main():
                     "name": ch, "book": b, "grade": b["grade"],
                     "idx": j, "semester": b["semester"],
                 })
-        # 按学段分桶（物理知识点跨版本年级不同，只限定学段）
-        chapters_all = {"junior": [], "senior": []}
-        for c in chapter_list:
-            stage = "junior" if c["grade"] < 10 else "senior"
-            chapters_all[stage].append(c)
-
-        # 按该版本收录的学段做归属（初中版本只处理初中，高中版本处理高中）
-        assigned = {}
-        stage_counts = {}
-        for stage in ("junior", "senior"):
-            if not chapters_all[stage]:
-                continue
-            if stage == "junior":
-                cand = {k: v for k, v in nodes.items() if (v.get("grade") or 0) < 10}
-            else:
-                cand = {k: v for k, v in nodes.items() if (v.get("grade") or 0) >= 10}
-            part = assign(cand, chapters_all)
-            assigned.update(part)
-            stage_counts[stage] = (len(part), len(cand))
+        chapters_all = {"junior": chapter_list}
+        cand = {k: v for k, v in nodes.items() if (v.get("grade") or 0) <= 9}
+        assigned = assign(cand, chapters_all)
+        stage_counts = {"junior": (len(assigned), len(cand))}
         low = [(kid, v) for kid, v in assigned.items() if v[2] < 4]
         report[ed] = {"label": label, "books": len(ed_books),
                       "chapters": len(chapter_list), "assigned": len(assigned),

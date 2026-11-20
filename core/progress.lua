@@ -194,9 +194,8 @@ function Progress:normalize()
     settings.daily_goal = number_or(settings.daily_goal, 10)
     if settings.retry == nil then settings.retry = true end
     settings.grade = tonumber(settings.grade) or 2
-    -- 目录里的年级到 12（高中）。这里以前只放到 6，选过初一/高一的人一重进插件
-    -- 就被重置回六年级，初中高中的题永远出不来。
-    if settings.grade < 1 then settings.grade = 1 elseif settings.grade > 12 then settings.grade = 12 end
+    -- 项目只做小学 + 初中，年级上限是九年级。老存档里选过高中的（10~12）在这里收回九年级。
+    if settings.grade < 1 then settings.grade = 1 elseif settings.grade > 9 then settings.grade = 9 end
     if type(settings.province) ~= "string" or settings.province == "" then settings.province = "other" end
     local chinese_editions = { tongbian = true }
     local math_editions = { renjiao = true, beishida = true, sujiao = true, sujiao2024 = true, qingdao = true, hujiao = true }

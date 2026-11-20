@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""给英语三大通用版本（pep / 人教新目标 renjiao / 人教高中 renjiao-senior）
+"""给英语两个通用版本（pep / 人教新目标 renjiao）
 生成按各版真实目录展示的 TOC 知识点卷。
 
 物理方法论的英语落地：
 - knowledge/english/gX{u,l}.json 是通用知识点 + 题目池（题目带 topic 字段），
-  且已按学段对齐：g3~g6=PEP、g7~g9=人教新目标、g10~g12=人教高中。
-  英语与物理不同点：catalog 里三版每册的 units 已是真实教材目录，
+  且已按学段对齐：g3~g6=PEP、g7~g9=人教新目标。
+  英语与物理不同点：catalog 里两版每册的 units 已是真实教材目录，
   不用再抓 dzkbw，直接把知识点按「英文单元名」重挂到 catalog 单元即可。
 - 译林（yilin）用独立专项题库（cne_p292~355），其 TOC 不在本脚本范围，
   由 build_yilin_gaps.py 处理缺口册。
@@ -30,7 +30,6 @@ CATALOG = ROOT / "data/catalog.json"
 EDITIONS = {
     "pep": ("人教版PEP", [3, 4, 5, 6]),
     "renjiao": ("人教新目标", [7, 8, 9]),
-    "renjiao-senior": ("人教版高中", [10, 11, 12]),
 }
 
 # 单元名归一化时剥离的前缀（catalog 与 knowledge 两侧都做同样处理）

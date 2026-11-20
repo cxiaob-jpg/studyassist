@@ -3,7 +3,7 @@
 
 与物理完全同构的做法：
 - knowledge/chemistry/gX{u,l}.json 是课标通用知识点 + 题目池（按人教目录组织）。
-- **按学段统一分配**：初中（9 年级）把所有版本的章合起来做候选池，高中（10~12）
+- **按学段统一分配**：初中（9 年级）把所有版本的章合起来做候选池；
   同理。因为不同版本把"溶液""金属"等主题放在不同册（如鲁教把溶液放九上，
   人教放九下），按册各自映射必然错位。
 - 打分：同章名 1000；同年级 +60（必修/选必进程跨版本稳定）；强关键词 100；
@@ -176,9 +176,8 @@ def main():
 
     for ed, vols in targets.items():
         label = EDITION_LABEL[ed]
-        # 学段分组
-        stages = {"junior": [b for b in vols if b["grade"] <= 9],
-                  "senior": [b for b in vols if b["grade"] >= 10]}
+        # 只处理初中册
+        stages = {"junior": [b for b in vols if b["grade"] <= 9]}
         for stage, sbooks in stages.items():
             if not sbooks:
                 continue

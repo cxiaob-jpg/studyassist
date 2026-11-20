@@ -27,18 +27,22 @@ local DEFAULT_EDITIONS = {
 }
 
 -- Edition to retry when the resolved edition has no bank for the current
--- grade (e.g. math "renjiao" covers 1-6, "junior" 7-9, "senior" 10-12).
+-- grade (e.g. math "renjiao" covers 1-6, "junior" 7-9). 本插件只做小学+初中，
+-- 高中（10~12）已于 v1.25.0 整体下线，所以兜底链里不再有高中版本。
 local FALLBACK_EDITIONS = {
-    math = { "junior", "senior" },
-    -- 译林 currently ships grade 4 only; PEP covers 3-6, 人教 covers 7-12.
-    english = { "pep", "yilin", "renjiao", "renjiao-senior" },
-    -- 统编「老教材」只收了小学 1~6 与初三，高一~高三（以及初中 7~8）没有题库；
+    math = { "junior" },
+    -- 译林只收小学 3~6，人教新目标收 7~9；初中选了译林要能回落到人教。
+    english = { "pep", "renjiao", "yilin" },
+    -- 统编「老教材」只收了小学 1~6 与初三，初中 7~8 没有题库；
     -- 家长在设置里误选老教材时回落到现行统编版，别让语文整科消失。
     chinese = { "tongbian" },
-    -- 高中生物目前只收人教版（必修1/2、选必1~3），选其他版本的高中没有题库，回落人教版。
+    -- 物理/化学/生物/地理各版册次覆盖不同（如地理鲁教版只有 6~7 年级），
+    -- 选到缺册的版本时回落到人教版。
+    physics = { "renjiao" },
+    chemistry = { "renjiao" },
     biology = { "renjiao" },
-    -- 高中地理同样只收人教版，选湘教/鲁教/中图的高中时回落。
     geography = { "renjiao" },
+    history = { "tongbian" },
 }
 
 local function edition_for(resolved, subject)
@@ -265,8 +269,7 @@ local function build_daily(opts)
 
     local chinese_units = chinese_bank
         and unit_list("chinese", semester, grade, resolved.chinese_edition, chinese_bank) or {}
-    -- Junior-high and senior-high math (grade >= 7) come from static banks,
-    -- not MathGen.
+    -- Junior-high math (grades 7-9) comes from static banks, not MathGen.
     local math_bank
     if grade >= 7 then
         math_bank = load_bank(opts.plugin_path, "math", grade, semester,
@@ -275,8 +278,8 @@ local function build_daily(opts)
     local math_units = grade >= 7
         and (math_bank and math_bank.units or {})
         or unit_list("math", semester, grade, resolved.math_edition)
-    -- Daily practice mixes chinese + math; both are optional so a stage that
-    -- only ships one of them still works (e.g. 高一 has no chinese bank).
+    -- Daily practice mixes chinese + math; both are optional so a grade that
+    -- only ships one of them still works.
     if #chinese_units == 0 and #math_units == 0 then
         return nil, "本学习阶段暂无可用题库，可在设置里切换年级"
     end

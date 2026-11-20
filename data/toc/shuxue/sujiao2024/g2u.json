@@ -51,7 +51,7 @@
    "domain": "数与代数",
    "kp_type": "conceptual",
    "unit": "u5",
-   "unit_name": null,
+   "unit_name": "五 两位数加、减两位数",
    "description": "能口算两位数加、减两位数，包括不进位、不退位与进位加、退位减，能解决简单实际问题。",
    "mastery_criteria": [
     "能正确口算不进位加与不退位减",
@@ -64,7 +64,7 @@
    "domain": "数与代数",
    "kp_type": "conceptual",
    "unit": "u4",
-   "unit_name": null,
+   "unit_name": "四 认识三位数",
    "description": "认识 101~999 及数位顺序，知道百位、十位、个位，初步认识算盘，会用算盘表示数。",
    "mastery_criteria": [
     "能认、读、写三位数",

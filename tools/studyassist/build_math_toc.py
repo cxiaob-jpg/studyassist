@@ -6,7 +6,7 @@
   目前按人教版 2024 目录组织（topic.unit_name 是人教单元名）。
 - 各版本差异只在"教材章节划分"：catalog.json 的每版 units 是该版目录
   （也是 MathGen 出题时 unit_name 的数据源，故 TOC 锚定它可与练习保持一致）。
-- 人教 / 初中通用 / 人教高中：topic.unit_name 与 catalog 单元同名度高，直接匹配。
+- 人教 / 初中通用：topic.unit_name 与 catalog 单元同名度高，直接匹配。
 - 北师大 / 苏教(老) / 青岛 / 沪教：目录名不同，用关键词族打分把知识点挂到
   最相近的单元（与 build_physics_editions.py 同一思路）。
 - sujiao2024 已有 dzkbw 抓取的真实 TOC（cnm_p400+ 新点），本脚本不覆盖，直接跳过。
@@ -35,7 +35,6 @@ EDITION_LABEL = {
     "qingdao": "青岛版（2024）",
     "hujiao": "沪教版（2024）",
     "junior": "初中通用",
-    "senior": "人教A版（高中）",
 }
 
 # 概念关键词族：同一族内的词视为同一主题，用于跨版本目录打分。
