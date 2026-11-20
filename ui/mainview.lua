@@ -3839,11 +3839,6 @@ function MainView:render_province_select()
             self:apply_city_match(only.name, false, true)
             return
         end
-        UIManager:show(InfoMessage:new{
-            text = string.format("已选择%s（%d 个城市可选）。接着选城市和年级，会自动匹配语文/数学/英语教材版本。",
-                item.name, count),
-            timeout = 4,
-        })
         self:return_to_settings()
     end)
 end
@@ -3852,9 +3847,7 @@ function MainView:render_city_select()
     local settings = self.progress.data.settings
     local cities = Catalog.cities(self.plugin_path, settings.province)
     if #cities == 0 then
-        UIManager:show(InfoMessage:new{
-            text = "请先在学习设置里选择省份。", timeout = 3,
-        })
+        -- 还没选省份：直接退回设置（城市列表为空，没有可选项）
         self:return_to_settings()
         return
     end
@@ -3881,25 +3874,13 @@ function MainView:render_city_select()
 end
 
 -- 所选版本缺本年级题库时的提示后缀（练习会自动回退到有数据的版本）。
-function MainView:coverage_hint(subject, edition)
-    local settings = self.progress.data.settings
-    if Catalog.edition_covers(self.plugin_path, subject, edition, settings.grade) then
-        return ""
-    end
-    return "（暂无本年级题库，练习自动回退）"
-end
-
--- 按「省份 + 城市 + 年级」匹配语文/数学/英语版本：命中就写入，多版本时列出候选，
--- 插件未收录的版本给出提示但保留原设置。
--- @param city_name 提示用的城市名
--- @param from_city 是否由「选城市」触发（触发时额外提示其他学科差异）
--- @param silent 为 true 时不弹提示，只静默重算（切学期时用）
-function MainView:apply_city_match(city_name, from_city, silent)
+-- 按「省份 + 城市 + 年级」匹配语文/数学/英语版本：命中就写入；插件未收录的
+-- 版本保留原设置（设置页会标「XX版未收录」）。不弹任何提示，结果直接看设置页。
+-- 参数保留是为了兼容老调用方（城市名 / 是否来自选城市 / 静默），都不再使用。
+function MainView:apply_city_match()
     local settings = self.progress.data.settings
     local match = self:city_match()
     if not match then return end
-    local grade_label = self:grade_label() .. self:semester_label()
-    local applied, missing, absent, not_started, kept = {}, {}, {}, {}, {}
     local grade = tonumber(settings.grade) or 0
 
     for _, key in ipairs({ "yuwen", "shuxue", "yingyu" }) do
@@ -3907,19 +3888,13 @@ function MainView:apply_city_match(city_name, from_city, silent)
         local item = match[key]
         if self:edition_manually_set(subject) then
             -- 家长手动指定过教材：自动匹配不覆盖他的选择
-            table.insert(kept, self:subject_label(subject))
         elseif not item then
-            -- 映射里这一册没有：区分「这门课还没开」和「源站这册没抓到」，
-            -- 前者设置里显示「暂无」、首页和知识点不显示该科；后者保持原设置不动。
+            -- 映射里这一册没有：这门课还没开的年级要清掉上一册匹配到的版本，
+            -- 否则它会被当成「已指定」继续显示；源站没抓到的册保持原设置。
             local start = Catalog.subject_start_grade(self.plugin_path,
                 settings.province, settings.city, subject)
             if start and grade < start then
-                -- 清掉上一册/上一年级匹配到的版本，否则它会被当成「已指定」继续显示
                 settings[subject .. "_edition"] = nil
-                table.insert(not_started, string.format("%s（本地区从%s开始）",
-                    self:subject_label(subject), GRADE_LABEL[start] or (start .. "年级")))
-            else
-                table.insert(absent, self:subject_label(subject))
             end
         elseif item.edition and item.edition ~= "" then
             local editions = item.editions or { item.edition }
@@ -3931,27 +3906,13 @@ function MainView:apply_city_match(city_name, from_city, silent)
                     if id == current then keep = id end
                 end
                 settings[subject .. "_edition"] = keep or item.edition or editions[1]
-                local chosen = settings[subject .. "_edition"]
-                table.insert(applied, string.format("%s %s%s%s（可选 %d 个版本）", self:subject_label(subject),
-                    self:edition_name_of(subject, chosen), self:edition_term_suffix(subject, chosen),
-                    self:coverage_hint(subject, chosen), #editions))
             else
                 settings[subject .. "_edition"] = item.edition
-                table.insert(applied, string.format("%s %s%s%s", self:subject_label(subject),
-                    self:edition_name_of(subject, item.edition), self:edition_term_suffix(subject, item.edition),
-                    self:coverage_hint(subject, item.edition)))
             end
-        else
-            -- 出版社插件没收录：首页照常显示，但设置里标出「暂用某版」，别让孩子
-            -- 以为自己在用人教/统编。
-            local used = settings_edition(settings, subject)
-            table.insert(missing, string.format("%s（%s·暂用%s）", self:subject_label(subject),
-                item.publisher or "", Catalog.edition_name(self.plugin_path, subject, used)))
         end
     end
 
     -- 物理等 o 字段学科：出版社名 → 版本 id，按年级下限自动设置
-    local other_applied = {}
     if match.other and next(match.other) then
         for okey, publisher in pairs(match.other) do
             local idmap = OTHER_EDITION_ID[okey]
@@ -3964,51 +3925,12 @@ function MainView:apply_city_match(city_name, from_city, silent)
                 if eid and subject and not self:edition_manually_set(subject)
                     and Catalog.edition_covers(self.plugin_path, subject, eid, grade) then
                     settings[subject .. "_edition"] = eid
-                    other_applied[okey] = true
-                    table.insert(applied, string.format("%s %s", self:subject_label(subject),
-                        self:edition_name_of(subject, eid)))
                 end
             end
         end
     end
 
     self.progress:flush()
-    local lines = {}
-    if #applied > 0 then
-        table.insert(lines, string.format("已按%s%s匹配：%s", city_name or "", grade_label,
-            table.concat(applied, " · ")))
-    end
-    if #missing > 0 then
-        table.insert(lines, "未收录：" .. table.concat(missing, "、") .. " —— 插件暂无该版本，练习暂用替代版本")
-    end
-    if #not_started > 0 then
-        table.insert(lines, "还没开课：" .. table.concat(not_started, "、")
-            .. " —— 教材版本里显示「暂无」，想练可以手动指定一个版本")
-    end
-    if #kept > 0 then
-        table.insert(lines, "手动指定保持不变：" .. table.concat(kept, "、"))
-    end
-    if #absent > 0 then
-        table.insert(lines, "无书目：" .. table.concat(absent, "、") .. "（源站该年级无数据，保持原设置）")
-    end
-    if from_city and match.other and next(match.other) then
-        local other = {}
-        local other_label = { wuli = "物理", huaxue = "化学", shengwu = "生物",
-                              lishi = "历史", dili = "地理" }
-        for key, publisher in pairs(match.other) do
-            if not other_applied[key] then
-                table.insert(other, (other_label[key] or key) .. publisher)
-            end
-        end
-        table.sort(other)
-        table.insert(lines, "其他学科：" .. table.concat(other, "、"))
-    end
-    if #lines == 0 then
-        table.insert(lines, "该城市该年级暂无教材数据。")
-    end
-    if not silent then
-        UIManager:show(InfoMessage:new{ text = table.concat(lines, "\n"), timeout = 6 })
-    end
     self:return_to_settings()
 end
 
@@ -4039,14 +3961,7 @@ end
 function MainView:render_edition_select(subject)
     local settings = self.progress.data.settings
     local current = settings_edition(settings, subject)
-    local match = self:city_match()
-    local rec_key = nil
-    for key, plugin_subject in pairs(CITY_SUBJECTS) do
-        if plugin_subject == subject then rec_key = key end
-    end
     local rec = self:recommended_edition(subject)
-    local rec_pub = nil
-    if rec_key and match and match[rec_key] then rec_pub = match[rec_key].publisher end
     local items = {}
     local manual = self:edition_manually_set(subject)
     if rec then
@@ -4088,24 +4003,11 @@ function MainView:render_edition_select(subject)
         })
     end
     if #covering == 0 then
-        UIManager:show(InfoMessage:new{
-            text = string.format("这个年级、这个学期还没有%s教材，换个年级或学期看看。",
-                self:subject_label(subject)),
-            timeout = 6,
-        })
-    elseif rec_pub and not rec then
-        UIManager:show(InfoMessage:new{
-            text = string.format("%s%s使用%s，插件暂未收录该版本，下列版本仅供手动选择。",
-                self:city_label(), self:grade_label(), rec_pub),
-            timeout = 5,
-        })
-    elseif not rec and self:subject_no_book(subject, tonumber(settings.grade) or 2,
-        settings.semester) then
-        UIManager:show(InfoMessage:new{
-            text = string.format("%s%s没有这门课，下面挑一个版本后首页和知识点里就会出现%s。",
-                self:grade_label(), self:semester_label(), self:subject_label(subject)),
-            timeout = 6,
-        })
+        -- 一册都没有：列表只剩「取消指定」或空列表，不再弹提示说明
+        if #items == 0 then
+            self:return_to_settings()
+            return
+        end
     end
     self:render_choice_list(self:subject_label(subject) .. "教材", items, function(item)
         settings.edition_manual = settings.edition_manual or {}
@@ -4559,29 +4461,6 @@ function MainView:render_settings()
     -- 进去前要家长密码，孩子不能自己把愿望改便宜或加一张。
     add(menu_row(string.format("商城后台（需密码）：%d 件在售", #Shop.items(self.progress)), function()
         self:open_shop_settings_gated()
-    end))
-    add(menu_row("关于学习助理", function()
-        local grade = tonumber(settings.grade) or 2
-        local counts = {}
-        for _, s in ipairs({ "chinese", "english", "physics", "chemistry",
-                             "biology", "history", "geography" }) do
-            local b = Bank.load(self.plugin_path, s, grade, settings.semester,
-                settings_edition(settings, s))
-            counts[s] = b and #b.questions or 0
-        end
-        local math_note = grade >= 7 and "数学题库：初高中静态题库"
-            or "数学题库：程序生成，无限题"
-        UIManager:show(InfoMessage:new{
-            text = string.format(
-                "学习助理 v%s\n%s · %s · %s\n\n语文题库：%d 题\n英语题库：%d 题\n物理题库：%d 题\n化学题库：%d 题\n生物题库：%d 题\n历史题库：%d 题\n地理题库：%d 题\n%s\n\n学习记录和 AI 题库只保存在本机；只有你主动使用 AI 出题或检查更新时才会联网，更新只替换插件程序，不影响学习记录。",
-                Update.local_version(self.plugin_path),
-                self:grade_label(), self:semester_label(), self:edition_name("math"),
-                counts.chinese, counts.english, counts.physics, counts.chemistry,
-                counts.biology, counts.history, counts.geography,
-                math_note
-            ),
-            timeout = 6,
-        })
     end))
 
     table.insert(content, Widgets.vspace(Size.span.vertical_large))
