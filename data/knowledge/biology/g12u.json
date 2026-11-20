@@ -1,0 +1,981 @@
+{
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_biology_senior.py",
+ "source": {
+  "textbook": "选择性必修3 生物技术与工程",
+  "standard": "普通高中生物学课程标准（2017年版2020年修订）"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "教材单元取自人教版高中生物教科书（必修1、必修2、选择性必修1~3）目录；知识点与题目由本项目编写，参考《普通高中生物学课程标准（2017年版2020年修订）》。",
+ "subject": "biology",
+ "grade": 12,
+ "semester": "upper",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 发酵工程"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 细胞工程"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 基因工程"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 生物技术的安全性与伦理问题"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_s058",
+   "name": "传统发酵技术的应用",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "description": "知道果酒、果醋、泡菜、腐乳制作所用的微生物、原理与条件控制。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "果酒制作利用的微生物是？",
+    "answer": "酵母菌"
+   }
+  },
+  {
+   "id": "cnb_s059",
+   "name": "微生物的培养技术及应用",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "description": "掌握培养基的营养组成、灭菌与消毒的区别、纯化菌种的两种方法以及活菌计数方法。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "接种环常用的灭菌方法是？",
+    "answer": "灼烧灭菌"
+   }
+  },
+  {
+   "id": "cnb_s060",
+   "name": "发酵工程及其应用",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "description": "理解发酵工程的基本环节与中心环节，了解其在食品、医药、农牧业中的应用。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "发酵工程的中心环节是？",
+    "answer": "发酵罐内发酵（发酵过程控制）"
+   }
+  },
+  {
+   "id": "cnb_s061",
+   "name": "植物细胞工程",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "description": "理解植物组织培养脱分化与再分化的过程及细胞全能性原理，知道植物体细胞杂交的意义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "植物组织培养依据的原理是？",
+    "answer": "细胞的全能性"
+   }
+  },
+  {
+   "id": "cnb_s062",
+   "name": "动物细胞工程",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "description": "掌握动物细胞培养的条件、细胞融合的方法，理解单克隆抗体制备的流程与优点。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "单克隆抗体制备中，与骨髓瘤细胞融合的细胞是？",
+    "answer": "经免疫的B淋巴细胞（浆细胞）"
+   }
+  },
+  {
+   "id": "cnb_s063",
+   "name": "胚胎工程",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "description": "了解体外受精、胚胎移植、胚胎分割与胚胎干细胞的应用，理解同期发情处理的作用。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "胚胎移植的实质是？",
+    "answer": "早期胚胎在相同生理状态下的母体间转移"
+   }
+  },
+  {
+   "id": "cnb_s064",
+   "name": "重组DNA技术的基本工具",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "description": "掌握限制酶、DNA连接酶、载体三种工具的作用与特点，理解载体的必备条件。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "能识别特定核苷酸序列并在特定位点切割DNA的酶是？",
+    "answer": "限制酶"
+   }
+  },
+  {
+   "id": "cnb_s065",
+   "name": "基因工程的基本操作程序",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "description": "掌握基因工程的四个基本步骤，理解PCR的原理与目的基因检测鉴定的方法。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "基因工程的核心步骤是？",
+    "answer": "基因表达载体的构建"
+   }
+  },
+  {
+   "id": "cnb_s066",
+   "name": "基因工程的应用与蛋白质工程",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "description": "了解基因工程在农业、医药上的应用，理解蛋白质工程的思路及其与基因工程的关系。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "蛋白质工程的基本思路是？",
+    "answer": "从预期蛋白质功能出发设计结构，再改造或合成基因"
+   }
+  },
+  {
+   "id": "cnb_s067",
+   "name": "生物技术的安全性与伦理问题",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·生物技术的安全性与伦理问题",
+   "description": "了解转基因产品的安全性争论与评价原则，明确禁止生殖性克隆人、禁止生物武器的立场。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "我国对生殖性克隆人的态度是？",
+    "answer": "明确禁止"
+   }
+  },
+  {
+   "id": "cnb_s068",
+   "name": "基因工程要点辨析",
+   "domain": "生物技术与工程",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "description": "辨析限制酶与DNA连接酶作用部位、载体与目的基因的关系，能判断操作程序中的常见错误。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "限制酶切割的化学键是？",
+    "answer": "磷酸二酯键"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_s058_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s058",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 1,
+   "stem": "果酒制作利用的微生物是",
+   "explain": "酵母菌兼性厌氧，无氧条件下把葡萄糖分解为酒精和CO2，发酵温度18~25℃。",
+   "answer_mode": "choice",
+   "options": [
+    "醋酸菌",
+    "酵母菌",
+    "乳酸菌",
+    "毛霉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s058_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s058",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "果醋制作利用的微生物及其代谢类型是",
+   "explain": "醋酸菌是好氧细菌，在氧气充足时把酒精（或糖）氧化为醋酸，温度30~35℃。",
+   "answer_mode": "choice",
+   "options": [
+    "酵母菌，兼性厌氧",
+    "醋酸菌，好氧",
+    "乳酸菌，厌氧",
+    "毛霉，好氧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s058_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s058",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "制作泡菜时坛口要用水密封，原因是乳酸菌",
+   "explain": "乳酸菌是严格厌氧菌，无氧条件下把糖分解为乳酸，水封可隔绝空气。",
+   "answer_mode": "choice",
+   "options": [
+    "需要光照",
+    "是厌氧菌，需无氧环境",
+    "需要高温",
+    "需要大量氧气"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s059_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s059",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 1,
+   "stem": "接种环常用的灭菌方法是",
+   "explain": "接种环、接种针用灼烧灭菌；培养基和玻璃器皿一般用高压蒸汽灭菌。",
+   "answer_mode": "choice",
+   "options": [
+    "高压蒸汽灭菌",
+    "灼烧灭菌",
+    "煮沸消毒",
+    "紫外线照射"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s059_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s059",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "培养基中一般都必须含有的营养成分是",
+   "explain": "碳源、氮源、水、无机盐是基本营养成分；琼脂只是凝固剂，并非所有培养基都需要。",
+   "answer_mode": "choice",
+   "options": [
+    "碳源、氮源、水、无机盐",
+    "血清和抗生素",
+    "维生素和激素",
+    "琼脂和蔗糖"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s059_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s059",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "分离纯化微生物常用的两种接种方法是",
+   "explain": "平板划线法通过连续划线使菌体分散；稀释涂布平板法既纯化又可计数活菌。",
+   "answer_mode": "choice",
+   "options": [
+    "平板划线法和稀释涂布平板法",
+    "斜面接种和穿刺接种",
+    "液体培养和固体培养",
+    "煮沸法和过滤法"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s060_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s060",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 1,
+   "stem": "发酵工程的中心环节是",
+   "explain": "发酵工程包括菌种选育、扩大培养、培养基配制、灭菌、接种、发酵、分离提纯，中心环节是发酵过程的控制。",
+   "answer_mode": "choice",
+   "options": [
+    "菌种的选育",
+    "培养基的配制",
+    "发酵罐内发酵过程的控制",
+    "产品的分离提纯"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s060_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s060",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "发酵过程中要不断搅拌，主要目的是",
+   "explain": "搅拌可使微生物与营养物质充分接触，并提高培养液中溶解氧，利于好氧发酵。",
+   "answer_mode": "choice",
+   "options": [
+    "使菌体与营养充分接触、增加溶氧",
+    "降低温度",
+    "杀死杂菌",
+    "使产物沉淀"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s060_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s060",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "difficulty": 2,
+   "stem": "用工程菌生产人胰岛素的优势不包括",
+   "explain": "工程菌生产仍需发酵工程设备与过程控制，其余三项是相较从动物胰脏提取的优势。",
+   "answer_mode": "choice",
+   "options": [
+    "不受原料限制",
+    "产量高、成本低",
+    "产品纯度高",
+    "完全不需要发酵设备"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s061_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s061",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 1,
+   "stem": "植物组织培养所依据的原理是",
+   "explain": "离体的植物细胞经脱分化、再分化可发育成完整植株，体现细胞的全能性。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞的全能性",
+    "基因突变",
+    "细胞膜的流动性",
+    "基因重组"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s061_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s061",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "植物组织培养中，愈伤组织形成后经再分化可形成",
+   "explain": "愈伤组织在适宜激素比例下再分化出芽和根，形成完整植株；生长素与细胞分裂素比例影响分化方向。",
+   "answer_mode": "choice",
+   "options": [
+    "只有根",
+    "只有芽",
+    "根和芽（进而形成完整植株）",
+    "愈伤组织本身"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s061_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s061",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "植物体细胞杂交技术的重要意义在于",
+   "explain": "先去除细胞壁获得原生质体，诱导融合后可获得种间甚至属间杂种，克服远缘杂交不亲和。",
+   "answer_mode": "choice",
+   "options": [
+    "缩短育种年限",
+    "克服远缘杂交不亲和的障碍",
+    "避免基因突变",
+    "提高光合速率"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s062_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s062",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 1,
+   "stem": "单克隆抗体制备中，与骨髓瘤细胞融合的细胞是",
+   "explain": "用经特定抗原免疫的B淋巴细胞与骨髓瘤细胞融合，得到既能无限增殖又能产生特异性抗体的杂交瘤细胞。",
+   "answer_mode": "choice",
+   "options": [
+    "经免疫的B淋巴细胞",
+    "吞噬细胞",
+    "T细胞",
+    "神经细胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s062_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s062",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "动物细胞培养所需的条件不包括",
+   "explain": "动物细胞培养需无菌无毒、营养、温度pH和气体环境（95%空气+5%CO2），不需要光照。",
+   "answer_mode": "choice",
+   "options": [
+    "无菌无毒的环境",
+    "适宜的营养（常需血清）",
+    "适宜的温度和pH",
+    "阳光照射"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s062_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s062",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "单克隆抗体的突出优点是",
+   "explain": "杂交瘤细胞可无限增殖并分泌单一抗体，故单克隆抗体特异性强、纯度高、可大量生产。",
+   "answer_mode": "choice",
+   "options": [
+    "特异性强、灵敏度高，可大量制备",
+    "能治疗所有疾病",
+    "分子量小易分解",
+    "只能用于动物实验"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s063_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s063",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 1,
+   "stem": "胚胎移植的实质是",
+   "explain": "胚胎移植即「借腹怀胎」，将早期胚胎移入同种、生理状态相同的母体继续发育。",
+   "answer_mode": "choice",
+   "options": [
+    "体外受精",
+    "早期胚胎在相同生理状态母体间的转移",
+    "胚胎分割",
+    "核移植"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s063_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s063",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "胚胎移植前对供体、受体母牛进行同期发情处理，目的是",
+   "explain": "同期发情使供受体处于相同的生理状态，为胚胎提供相同的生存环境，提高移植成功率。",
+   "answer_mode": "choice",
+   "options": [
+    "使它们生殖器官处于相同的生理状态，便于胚胎着床",
+    "提高产奶量",
+    "加快排卵",
+    "防止疾病传播"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s063_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s063",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "difficulty": 2,
+   "stem": "胚胎分割技术可得到",
+   "explain": "把早期胚胎分割成多份再移植，可得到遗传组成相同的同卵双胎或多胎，属无性繁殖范畴。",
+   "answer_mode": "choice",
+   "options": [
+    "同卵双胎或多胎",
+    "不同品种的后代",
+    "转基因动物",
+    "单倍体动物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s064_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s064",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 1,
+   "stem": "能识别特定核苷酸序列并在特定位点切割DNA的酶是",
+   "explain": "限制酶（限制性核酸内切酶）识别特定序列并切割磷酸二酯键，产生黏性末端或平末端。",
+   "answer_mode": "choice",
+   "options": [
+    "DNA连接酶",
+    "限制酶",
+    "解旋酶",
+    "DNA聚合酶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s064_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s064",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "作为基因表达载体，必须具备的条件不包括",
+   "explain": "载体需能复制、有标记基因和酶切位点，并具安全性；它本身不合成蛋白质，只携带目的基因。",
+   "answer_mode": "choice",
+   "options": [
+    "能在受体细胞中复制",
+    "具有标记基因",
+    "具有限制酶切割位点",
+    "能自行合成蛋白质"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s064_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s064",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "DNA连接酶的作用是",
+   "explain": "DNA连接酶在两个DNA片段之间形成磷酸二酯键，使目的基因与载体拼接成重组DNA。",
+   "answer_mode": "choice",
+   "options": [
+    "切割磷酸二酯键",
+    "连接磷酸二酯键，把目的基因与载体连接",
+    "解开DNA双螺旋",
+    "催化DNA复制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s065_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s065",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 1,
+   "stem": "基因工程的核心步骤是",
+   "explain": "四步中基因表达载体的构建是核心，只有构建成功才能实现目的基因的表达。",
+   "answer_mode": "choice",
+   "options": [
+    "目的基因的获取",
+    "基因表达载体的构建",
+    "将目的基因导入受体细胞",
+    "目的基因的检测与鉴定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s065_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s065",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "PCR技术扩增目的基因的原理是",
+   "explain": "PCR在体外模拟DNA复制，利用热稳定DNA聚合酶和引物，经变性、复性、延伸循环扩增DNA。",
+   "answer_mode": "choice",
+   "options": [
+    "DNA双链复制",
+    "蛋白质合成",
+    "细胞分裂",
+    "基因重组"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s065_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s065",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "检测目的基因是否插入受体细胞染色体DNA上，常用的方法是",
+   "explain": "用标记的目的基因作探针与受体细胞DNA杂交；检测是否翻译出蛋白质用抗原—抗体杂交。",
+   "answer_mode": "choice",
+   "options": [
+    "DNA分子杂交",
+    "抗原—抗体杂交",
+    "个体水平的性状观察",
+    "显微镜观察"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s066_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s066",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 1,
+   "stem": "蛋白质工程的基本思路是",
+   "explain": "蛋白质工程是「逆向」的：功能→结构→基因，因此又被称为第二代基因工程。",
+   "answer_mode": "choice",
+   "options": [
+    "从基因序列直接推测功能",
+    "从预期蛋白质功能出发，设计预期结构，再改造或合成基因",
+    "只对蛋白质进行化学修饰",
+    "用诱变方法随机筛选"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s066_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s066",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "转基因抗虫棉的抗虫基因来源于",
+   "explain": "Bt基因编码的毒蛋白对棉铃虫等害虫有致死作用，导入棉花后即获得抗虫性。",
+   "answer_mode": "choice",
+   "options": [
+    "苏云金芽孢杆菌（Bt）",
+    "酵母菌",
+    "人",
+    "棉花自身"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s066_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s066",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "基因治疗的基本思路是",
+   "explain": "基因治疗是把正常基因导入靶细胞，使其表达产物补偿缺陷基因的功能，达到治疗目的。",
+   "answer_mode": "choice",
+   "options": [
+    "向患者体内导入正常基因以补偿缺陷基因的功能",
+    "切除患者的全部致病基因",
+    "用抗生素杀死病变细胞",
+    "移植他人器官"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s067_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s067",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·生物技术的安全性与伦理问题",
+   "difficulty": 1,
+   "stem": "我国对生殖性克隆人的态度是",
+   "explain": "生殖性克隆人违反伦理道德，我国明确禁止；治疗性克隆在严格管理下可用于医学研究。",
+   "answer_mode": "choice",
+   "options": [
+    "积极支持",
+    "明确禁止",
+    "部分允许",
+    "没有规定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s067_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s067",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·生物技术的安全性与伦理问题",
+   "difficulty": 2,
+   "stem": "评价转基因产品安全性的「实质性等同」原则是指",
+   "explain": "实质性等同是安全性评价的起点：先比较其与同类传统食品的差异，再针对差异做安全评估。",
+   "answer_mode": "choice",
+   "options": [
+    "转基因产品与传统产品完全一样",
+    "若转基因产品与传统产品在成分、营养等方面无实质差异，则可视为同等安全",
+    "转基因产品必须零风险",
+    "只要增产就是安全的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s067_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s067",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·生物技术的安全性与伦理问题",
+   "difficulty": 2,
+   "stem": "关于生物武器，下列说法正确的是",
+   "explain": "《禁止生物武器公约》禁止研制、生产和储存生物武器，我国明确禁止并反对其扩散。",
+   "answer_mode": "choice",
+   "options": [
+    "可用作常规防御手段",
+    "我国反对生物武器及其技术和设备的扩散，明确禁止",
+    "只禁止使用不禁止研制",
+    "生物武器只伤害动物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s068_q1",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s068",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "限制酶切割DNA时断开的化学键是",
+   "explain": "限制酶和DNA连接酶作用的部位都是磷酸二酯键；解旋酶才断开碱基对间的氢键。",
+   "answer_mode": "choice",
+   "options": [
+    "氢键",
+    "磷酸二酯键",
+    "肽键",
+    "糖苷键"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s068_q2",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s068",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "用同一种限制酶切割目的基因和载体，主要目的是",
+   "explain": "同一种限制酶产生相同的黏性末端，可按碱基互补配对连接，但也会造成自身环化等副产物。",
+   "answer_mode": "choice",
+   "options": [
+    "产生相同的黏性末端，便于二者连接",
+    "提高切割效率",
+    "避免目的基因突变",
+    "使载体失活"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s068_q3",
+   "type": "knowledge",
+   "skill": "生物技术与工程",
+   "topic": "cnb_s068",
+   "subject": "biology",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "difficulty": 2,
+   "stem": "将目的基因导入植物细胞最常用的方法是",
+   "explain": "农杆菌转化法最常用；显微注射法多用于动物细胞，Ca2+处理法用于大肠杆菌等微生物。",
+   "answer_mode": "choice",
+   "options": [
+    "农杆菌转化法",
+    "显微注射法",
+    "Ca2+处理法",
+    "花粉管通道法以外均不可用"
+   ],
+   "answer": 1
+  }
+ ]
+}

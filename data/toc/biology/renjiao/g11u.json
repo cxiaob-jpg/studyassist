@@ -1,0 +1,1328 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_senior.py",
+ "source": {
+  "path": "biology/renjiao/g11_upper.json"
+ },
+ "subject": "biology",
+ "grade": 11,
+ "semester": "upper",
+ "edition": "renjiao",
+ "edition_label": "人教版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·人体的内环境与稳态"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·神经调节"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·体液调节"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·免疫调节"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·植物生命活动的调节"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_s031",
+   "name": "细胞生活的环境",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "description": "理解内环境由血浆、组织液、淋巴液组成，掌握三者之间的物质交换关系与内环境的成分。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "人体内环境主要包括？",
+    "answer": "血浆、组织液和淋巴液"
+   }
+  },
+  {
+   "id": "cnb_s032",
+   "name": "内环境的稳态",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "description": "记住内环境稳态的含义与主要理化指标，理解神经—体液—免疫调节网络的作用。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "正常人体血浆pH约为？",
+    "answer": "7.35~7.45"
+   }
+  },
+  {
+   "id": "cnb_s033",
+   "name": "神经调节的结构基础",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "description": "掌握神经元的结构与反射弧的五个组成部分，理解神经中枢与效应器的含义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "反射弧的五个环节是？",
+    "answer": "感受器、传入神经、神经中枢、传出神经、效应器"
+   }
+  },
+  {
+   "id": "cnb_s034",
+   "name": "神经调节的基本方式",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "description": "区分非条件反射与条件反射，理解条件反射的建立与消退及其对适应环境的意义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "条件反射的神经中枢在？",
+    "answer": "大脑皮层（需大脑皮层参与）"
+   }
+  },
+  {
+   "id": "cnb_s035",
+   "name": "神经冲动的产生和传导",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "description": "理解静息电位与动作电位的离子基础、局部电流的形成，掌握突触处兴奋单向传递的原因。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "静息时神经纤维膜电位表现为？",
+    "answer": "外正内负"
+   }
+  },
+  {
+   "id": "cnb_s036",
+   "name": "神经系统的分级调节与人脑的高级功能",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "description": "理解大脑皮层对低级中枢的分级调控，知道言语区各区的功能与记忆的分类。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "大脑皮层言语区中S区受损会表现为？",
+    "answer": "能听懂但不会讲话（运动性失语症）"
+   }
+  },
+  {
+   "id": "cnb_s037",
+   "name": "激素与内分泌系统",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "description": "知道主要内分泌腺及其激素，了解激素发现史上关键实验的设计思路。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "胰岛素由哪种细胞分泌？",
+    "answer": "胰岛B细胞"
+   }
+  },
+  {
+   "id": "cnb_s038",
+   "name": "激素调节的过程",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "description": "掌握血糖调节中胰岛素与胰高血糖素的拮抗作用、甲状腺激素的分级调节与反馈调节。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "甲状腺激素分泌的分级调节顺序是？",
+    "answer": "下丘脑→垂体→甲状腺"
+   }
+  },
+  {
+   "id": "cnb_s039",
+   "name": "体液调节与神经调节的关系",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "description": "比较神经调节与体液调节的特点，理解体温调节和水盐平衡中两者的协调配合。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "人体散热的主要器官是？",
+    "answer": "皮肤"
+   }
+  },
+  {
+   "id": "cnb_s040",
+   "name": "免疫系统的组成和功能",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "description": "区分非特异性免疫与特异性免疫，记住免疫器官、免疫细胞和免疫活性物质的组成。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "人体第一道防线由什么构成？",
+    "answer": "皮肤和黏膜"
+   }
+  },
+  {
+   "id": "cnb_s041",
+   "name": "特异性免疫",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "description": "掌握体液免疫与细胞免疫的过程，理解记忆细胞在二次免疫中的作用，知道疫苗的原理。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "能产生并分泌抗体的细胞是？",
+    "answer": "浆细胞"
+   }
+  },
+  {
+   "id": "cnb_s042",
+   "name": "免疫失调与免疫学的应用",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "description": "区分过敏反应、自身免疫病和免疫缺陷病，了解疫苗、器官移植中的免疫学原理。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "艾滋病病毒主要攻击的细胞是？",
+    "answer": "辅助性T细胞"
+   }
+  },
+  {
+   "id": "cnb_s043",
+   "name": "植物生长素",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "description": "了解生长素的发现过程与化学本质，掌握极性运输和低浓度促进、高浓度抑制的两重性。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "生长素的化学本质是？",
+    "answer": "吲哚乙酸（IAA）"
+   }
+  },
+  {
+   "id": "cnb_s044",
+   "name": "其他植物激素与植物生长调节剂",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "description": "记住赤霉素、细胞分裂素、脱落酸、乙烯的主要作用，理解植物生长调节剂的应用与风险。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "促进果实成熟的植物激素是？",
+    "answer": "乙烯"
+   }
+  },
+  {
+   "id": "cnb_s045",
+   "name": "环境因素参与调节植物的生命活动",
+   "domain": "稳态与调节",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "description": "理解光、重力、温度等环境因素对植物生命活动的调节，知道光敏色素与根的向地性。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "根向地生长主要与哪种环境因素有关？",
+    "answer": "重力"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_s031_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s031",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 1,
+   "stem": "人体内环境主要包括",
+   "explain": "内环境即细胞外液，主要由血浆、组织液和淋巴液构成，是细胞直接生活的环境。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞内液和细胞外液",
+    "血浆、组织液和淋巴液",
+    "血液和消化液",
+    "细胞液和细胞质基质"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s031_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s031",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 2,
+   "stem": "组织液与血浆之间进行物质交换的结构是",
+   "explain": "毛细血管壁通透性大，血浆与组织液通过毛细血管壁相互渗透交换物质。",
+   "answer_mode": "choice",
+   "options": [
+    "毛细淋巴管壁",
+    "毛细血管壁",
+    "细胞膜",
+    "皮肤"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s031_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s031",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 2,
+   "stem": "下列物质不属于内环境成分的是",
+   "explain": "血红蛋白位于红细胞内，不属于内环境；血浆蛋白、O2、葡萄糖都存在于内环境中。",
+   "answer_mode": "choice",
+   "options": [
+    "血浆蛋白",
+    "氧气",
+    "葡萄糖",
+    "血红蛋白"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s032_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s032",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 1,
+   "stem": "正常人体血浆的pH约为",
+   "explain": "正常人血浆pH维持在7.35~7.45，靠缓冲物质（如H2CO3/NaHCO3）维持相对稳定。",
+   "answer_mode": "choice",
+   "options": [
+    "6.35~6.45",
+    "7.35~7.45",
+    "7.75~7.85",
+    "5.0~6.0"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s032_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s032",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 2,
+   "stem": "内环境稳态的主要调节机制是",
+   "explain": "现代观点认为稳态的主要调节机制是神经—体液—免疫调节网络。",
+   "answer_mode": "choice",
+   "options": [
+    "神经调节",
+    "体液调节",
+    "免疫调节",
+    "神经—体液—免疫调节网络"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s032_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s032",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "difficulty": 2,
+   "stem": "人体剧烈运动产生大量乳酸后血浆pH仍能保持稳定，主要靠",
+   "explain": "乳酸与血浆中的NaHCO3反应生成乳酸钠和碳酸，碳酸分解成CO2由肺排出，pH得以维持。",
+   "answer_mode": "choice",
+   "options": [
+    "肺排出乳酸",
+    "血液中的缓冲物质中和",
+    "肾脏立即排出乳酸",
+    "细胞把乳酸消耗掉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s033_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s033",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 1,
+   "stem": "反射弧的五个环节依次是",
+   "explain": "反射的结构基础是反射弧，依次为感受器、传入神经、神经中枢、传出神经、效应器。",
+   "answer_mode": "choice",
+   "options": [
+    "感受器→传入神经→神经中枢→传出神经→效应器",
+    "效应器→传出神经→神经中枢→传入神经→感受器",
+    "感受器→神经中枢→传入神经→效应器",
+    "传入神经→感受器→神经中枢→传出神经→效应器"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s033_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s033",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "效应器是指",
+   "explain": "效应器是传出神经末梢及其支配的肌肉或腺体，接受神经冲动后产生相应活动。",
+   "answer_mode": "choice",
+   "options": [
+    "传出神经末梢和它所支配的肌肉或腺体",
+    "肌肉细胞",
+    "腺体细胞",
+    "感受器所在的皮肤"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s033_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s033",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "神经元之间最主要的联系方式是",
+   "explain": "神经元之间通过突触相连，突触前膜释放神经递质作用于突触后膜，实现信息传递。",
+   "answer_mode": "choice",
+   "options": [
+    "直接接触传导电信号",
+    "通过突触传递化学信号",
+    "通过血液循环",
+    "通过细胞膜融合"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s034_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s034",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 1,
+   "stem": "下列属于条件反射的是",
+   "explain": "条件反射是出生后在生活过程中逐渐形成的，需大脑皮层参与，如望梅止渴、谈虎色变。",
+   "answer_mode": "choice",
+   "options": [
+    "膝跳反射",
+    "缩手反射",
+    "望梅止渴",
+    "眨眼反射"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s034_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s034",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "条件反射的神经中枢位于",
+   "explain": "非条件反射的中枢多在脊髓、脑干等低级中枢，条件反射必须有大脑皮层参与。",
+   "answer_mode": "choice",
+   "options": [
+    "脊髓",
+    "小脑",
+    "大脑皮层",
+    "脑干"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s034_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s034",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "条件反射建立后若反复给予条件刺激而不给非条件刺激，会出现",
+   "explain": "条件反射需要非条件刺激强化，长期不强化会逐渐消退，这使动物能适应变化的环境。",
+   "answer_mode": "choice",
+   "options": [
+    "反射增强",
+    "反射消退",
+    "形成新的非条件反射",
+    "神经冲动加强"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s035_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s035",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 1,
+   "stem": "神经纤维静息时的膜电位表现为",
+   "explain": "静息时K+外流，膜外正电位、膜内负电位，称静息电位；受刺激后Na+内流形成动作电位。",
+   "answer_mode": "choice",
+   "options": [
+    "外正内负",
+    "外负内正",
+    "内外皆正",
+    "内外皆负"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s035_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s035",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "动作电位的产生主要是由于",
+   "explain": "受刺激时Na+通道打开，Na+大量内流，膜电位变为外负内正，形成动作电位。",
+   "answer_mode": "choice",
+   "options": [
+    "K+外流",
+    "Na+内流",
+    "Cl-内流",
+    "Ca2+外流"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s035_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s035",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "兴奋在突触处只能单向传递，原因是",
+   "explain": "递质由突触前膜释放、受体在突触后膜上，故兴奋只能从突触前神经元传向后神经元。",
+   "answer_mode": "choice",
+   "options": [
+    "神经递质只能由突触前膜释放作用于突触后膜",
+    "突触间隙太宽",
+    "突触后膜没有受体",
+    "神经冲动速度太慢"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s036_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s036",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 1,
+   "stem": "大脑皮层言语区中S区受损，患者表现为",
+   "explain": "S区为运动性语言中枢，受损时为运动性失语症：能听懂、能写字，但不会讲话。",
+   "answer_mode": "choice",
+   "options": [
+    "能听懂话但不会讲话",
+    "不能听懂话",
+    "不会写字",
+    "看不懂文字"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s036_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s036",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "成年人能有意识地控制排尿，说明",
+   "explain": "排尿反射的低级中枢在脊髓，受大脑皮层控制，体现神经系统的分级调节。",
+   "answer_mode": "choice",
+   "options": [
+    "排尿反射不需要脊髓",
+    "大脑皮层对脊髓低级中枢有分级调节作用",
+    "排尿反射是非条件反射",
+    "膀胱不受神经支配"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s036_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s036",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "difficulty": 2,
+   "stem": "关于记忆的说法正确的是",
+   "explain": "短期记忆与海马区有关，经反复强化可转为长期记忆，可能与新突触建立有关。",
+   "answer_mode": "choice",
+   "options": [
+    "短期记忆与大脑皮层下海马区有关，长期记忆可能与新突触的建立有关",
+    "记忆与神经元无关",
+    "长期记忆不需重复",
+    "记忆中枢在脊髓"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s037_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s037",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 1,
+   "stem": "胰岛素由哪种细胞分泌",
+   "explain": "胰岛B细胞分泌胰岛素降血糖，胰岛A细胞分泌胰高血糖素升血糖。",
+   "answer_mode": "choice",
+   "options": [
+    "胰岛A细胞",
+    "胰岛B细胞",
+    "甲状腺滤泡细胞",
+    "肾上腺髓质细胞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s037_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s037",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "激素调节的特点是",
+   "explain": "激素由内分泌细胞分泌，经体液运输到全身，微量高效、作用时间较长、作用于靶器官靶细胞。",
+   "answer_mode": "choice",
+   "options": [
+    "通过导管运输",
+    "微量、高效，通过体液运输",
+    "作用范围局限、时间短暂",
+    "只能作用于神经"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s037_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s037",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "促胰液素的发现说明",
+   "explain": "斯他林和贝利斯证明小肠黏膜在盐酸作用下产生化学物质（促胰液素）经血液引起胰液分泌。",
+   "answer_mode": "choice",
+   "options": [
+    "胰液分泌只受神经调节",
+    "除神经调节外还存在化学物质调节",
+    "小肠不能分泌物质",
+    "盐酸能直接刺激胰腺"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s038_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s038",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 1,
+   "stem": "甲状腺激素分泌的分级调节顺序是",
+   "explain": "下丘脑分泌TRH促进垂体分泌TSH，TSH促进甲状腺分泌甲状腺激素。",
+   "answer_mode": "choice",
+   "options": [
+    "下丘脑→垂体→甲状腺",
+    "垂体→下丘脑→甲状腺",
+    "甲状腺→垂体→下丘脑",
+    "下丘脑→甲状腺→垂体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s038_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s038",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "血液中甲状腺激素过多时会对下丘脑和垂体产生",
+   "explain": "甲状腺激素浓度过高会抑制TRH和TSH的分泌，这种调节方式叫负反馈调节。",
+   "answer_mode": "choice",
+   "options": [
+    "促进作用",
+    "抑制作用（负反馈调节）",
+    "无影响",
+    "先促进后抑制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s038_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s038",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "血糖浓度降低时，胰高血糖素的主要作用是",
+   "explain": "胰高血糖素促进肝糖原分解、非糖物质转化为葡萄糖，使血糖升高；胰岛素作用相反。",
+   "answer_mode": "choice",
+   "options": [
+    "促进肝糖原分解和非糖物质转化为葡萄糖",
+    "促进葡萄糖进入细胞",
+    "促进糖原合成",
+    "抑制脂肪分解"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s039_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s039",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 1,
+   "stem": "人体散热的主要器官是",
+   "explain": "皮肤通过辐射、传导、对流和蒸发散热，是主要的散热器官；骨骼肌和肝脏是主要产热器官。",
+   "answer_mode": "choice",
+   "options": [
+    "肺",
+    "皮肤",
+    "肾脏",
+    "肝脏"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s039_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s039",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "寒冷环境中人体维持体温的主要调节方式是",
+   "explain": "寒冷刺激经神经传导，既引起骨骼肌战栗、血管收缩，又通过甲状腺激素、肾上腺素增加产热。",
+   "answer_mode": "choice",
+   "options": [
+    "只有神经调节",
+    "只有体液调节",
+    "神经—体液调节",
+    "免疫调节"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s039_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s039",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "difficulty": 2,
+   "stem": "细胞外液渗透压升高时，抗利尿激素的分泌量和尿量变化是",
+   "explain": "渗透压升高→下丘脑渗透压感受器兴奋→垂体释放抗利尿激素增多→肾小管重吸收水增强→尿量减少。",
+   "answer_mode": "choice",
+   "options": [
+    "分泌增加，尿量减少",
+    "分泌增加，尿量增加",
+    "分泌减少，尿量减少",
+    "分泌减少，尿量增加"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s040_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s040",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 1,
+   "stem": "人体的第一道防线是",
+   "explain": "皮肤和黏膜构成第一道防线；体液中的杀菌物质和吞噬细胞是第二道；特异性免疫是第三道。",
+   "answer_mode": "choice",
+   "options": [
+    "皮肤和黏膜",
+    "体液中的杀菌物质",
+    "吞噬细胞",
+    "淋巴细胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s040_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s040",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "下列属于免疫活性物质的是",
+   "explain": "免疫活性物质是由免疫细胞或其他细胞产生的发挥免疫作用的物质，如抗体、细胞因子、溶菌酶。",
+   "answer_mode": "choice",
+   "options": [
+    "抗体、细胞因子、溶菌酶",
+    "骨髓和胸腺",
+    "吞噬细胞和B细胞",
+    "皮肤和黏膜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s040_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s040",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "非特异性免疫与特异性免疫的主要区别是",
+   "explain": "非特异性免疫对多种病原体都有作用、生来就有；特异性免疫只针对特定抗原，由淋巴细胞参与。",
+   "answer_mode": "choice",
+   "options": [
+    "是否需要抗体",
+    "是否针对某一特定病原体",
+    "是否由淋巴细胞参与",
+    "是否生来就有"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s041_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s041",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 1,
+   "stem": "能产生并分泌抗体的细胞是",
+   "explain": "B细胞受抗原刺激后增殖分化为浆细胞（效应B细胞），由浆细胞分泌抗体。",
+   "answer_mode": "choice",
+   "options": [
+    "B细胞",
+    "浆细胞",
+    "细胞毒性T细胞",
+    "吞噬细胞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s041_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s041",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "细胞免疫中，能识别并裂解靶细胞的是",
+   "explain": "细胞毒性T细胞识别被病原体感染的靶细胞，使其裂解死亡，病原体暴露后被抗体或吞噬细胞清除。",
+   "answer_mode": "choice",
+   "options": [
+    "浆细胞",
+    "细胞毒性T细胞",
+    "辅助性T细胞",
+    "记忆B细胞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s041_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s041",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "二次免疫反应比初次免疫更快更强的根本原因是",
+   "explain": "记忆细胞在再次接触相同抗原时迅速增殖分化，短时间内产生大量抗体，故反应快、作用强。",
+   "answer_mode": "choice",
+   "options": [
+    "抗原剂量更大",
+    "记忆细胞迅速增殖分化为浆细胞",
+    "吞噬细胞更多",
+    "抗体本身会繁殖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s042_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s042",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 1,
+   "stem": "艾滋病病毒主要攻击的细胞是",
+   "explain": "HIV攻击辅助性T细胞，使其大量死亡，导致免疫功能几乎丧失，属免疫缺陷病。",
+   "answer_mode": "choice",
+   "options": [
+    "B细胞",
+    "辅助性T细胞",
+    "红细胞",
+    "神经细胞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s042_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s042",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "过敏反应的特点是",
+   "explain": "过敏反应是已免疫的机体再次接触相同过敏原时发生的组织损伤或功能紊乱，发作快、消退快。",
+   "answer_mode": "choice",
+   "options": [
+    "首次接触过敏原即发生",
+    "再次接触相同过敏原时才发生，发作迅速、消退较快",
+    "只发生在儿童身上",
+    "属于免疫缺陷病"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s042_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s042",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "difficulty": 2,
+   "stem": "器官移植中常使用免疫抑制剂，目的是",
+   "explain": "移植器官携带异体抗原会引发免疫排斥，免疫抑制剂可降低排斥反应，提高成活率。",
+   "answer_mode": "choice",
+   "options": [
+    "增强免疫功能",
+    "抑制免疫排斥反应",
+    "杀死病原体",
+    "促进伤口愈合"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s043_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s043",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 1,
+   "stem": "生长素的化学本质是",
+   "explain": "生长素的主要成分是吲哚乙酸（IAA），由温特命名，后来郭葛等分离出纯品。",
+   "answer_mode": "choice",
+   "options": [
+    "蛋白质",
+    "吲哚乙酸",
+    "胆固醇",
+    "赤霉素"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s043_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s043",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "生长素的极性运输是指",
+   "explain": "极性运输只能从形态学上端运向下端，需要载体和能量，属主动运输。",
+   "answer_mode": "choice",
+   "options": [
+    "从形态学上端向下端运输，属主动运输",
+    "从下端向上端运输",
+    "双向自由扩散",
+    "通过导管运输"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s043_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s043",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "顶端优势体现的生长素作用是",
+   "explain": "顶芽产生的生长素向下运输积累在侧芽，侧芽处浓度高被抑制，顶芽处浓度适宜生长快。",
+   "answer_mode": "choice",
+   "options": [
+    "低浓度促进生长、高浓度抑制生长",
+    "只促进生长",
+    "只抑制生长",
+    "无浓度差异"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s044_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s044",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 1,
+   "stem": "促进果实成熟的植物激素是",
+   "explain": "乙烯促进果实成熟；赤霉素促进细胞伸长、解除休眠；脱落酸抑制生长、促进休眠与脱落。",
+   "answer_mode": "choice",
+   "options": [
+    "赤霉素",
+    "细胞分裂素",
+    "乙烯",
+    "脱落酸"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s044_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s044",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "细胞分裂素的主要作用是",
+   "explain": "细胞分裂素主要在根尖合成，促进细胞分裂，与生长素比例影响芽和根的分化。",
+   "answer_mode": "choice",
+   "options": [
+    "促进细胞伸长",
+    "促进细胞分裂",
+    "抑制细胞分裂",
+    "促进叶片脱落"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s044_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s044",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "植物生长调节剂与植物激素的主要区别是",
+   "explain": "植物生长调节剂是人工合成的对植物生长发育有调节作用的化学物质，效果稳定、易控制。",
+   "answer_mode": "choice",
+   "options": [
+    "前者是人工合成的，作用效果更稳定",
+    "前者不能调节生长",
+    "后者可大量生产",
+    "两者完全相同"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s045_q1",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s045",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 1,
+   "stem": "茎的背地生长和根的向地生长主要说明",
+   "explain": "重力使生长素向近地侧运输，近地侧浓度高：根对生长素敏感被抑制，茎不敏感而生长快，故根向下、茎向上。",
+   "answer_mode": "choice",
+   "options": [
+    "重力影响生长素分布",
+    "温度影响生长",
+    "光照影响生长",
+    "水分影响生长"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s045_q2",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s045",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "植物感受光周期变化与光信号的主要物质是",
+   "explain": "光敏色素是一类色素—蛋白复合体，能感受红光和远红光的变化，参与调节开花等生命活动。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿素",
+    "光敏色素",
+    "胡萝卜素",
+    "花青素"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s045_q3",
+   "type": "knowledge",
+   "skill": "稳态与调节",
+   "topic": "cnb_s045",
+   "subject": "biology",
+   "grade": 11,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "difficulty": 2,
+   "stem": "关于植物激素作用的说法正确的是",
+   "explain": "植物生长发育是多种激素相互作用、共同调节的结果，激素通过影响基因表达发挥作用。",
+   "answer_mode": "choice",
+   "options": [
+    "各激素独立起作用，互不影响",
+    "多种激素相互作用共同调节植物的生命活动",
+    "植物只靠一种激素完成全部调节",
+    "激素不参与基因表达的调控"
+   ],
+   "answer": 2
+  }
+ ]
+}

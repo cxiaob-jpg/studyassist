@@ -1,1143 +1,1823 @@
 {
-  "schema_version": 1,
-  "generated_by": "tools/studyassist/build_knowledge_all.py",
-  "source": {
-    "repo": "cn-math-taxonomy",
-    "commit": "unknown"
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_knowledge_all.py",
+ "source": {
+  "repo": "cn-math-taxonomy",
+  "commit": "unknown"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
+ "subject": "biology",
+ "nodes": [
+  {
+   "id": "cnb_j001",
+   "name": "观察周边环境中的生物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
   },
-  "license": "CC BY-NC 4.0",
-  "attribution": "Data adapted from cn-math-taxonomy (https://github.com/xiaoyang111222/cn-math-taxonomy), licensed CC BY-NC 4.0.",
-  "subject": "biology",
-  "nodes": [
-    {
-      "id": "cnb_j001",
-      "name": "观察周边环境中的生物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j002",
-      "name": "生物的特征",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j003",
-      "name": "学习使用显微镜",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j004",
-      "name": "植物细胞",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j005",
-      "name": "动物细胞",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j006",
-      "name": "细胞的生活",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j007",
-      "name": "细胞通过分裂产生新细胞",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j008",
-      "name": "动物体的结构层次",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j009",
-      "name": "植物体的结构层次",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j010",
-      "name": "单细胞生物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第1单元 生物和细胞",
-      "domain": "生物体的结构层次"
-    },
-    {
-      "id": "cnb_j011",
-      "name": "藻类、苔藓植物和蕨类植物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j012",
-      "name": "种子植物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j013",
-      "name": "无脊椎动物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j014",
-      "name": "鱼",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j015",
-      "name": "两栖动物和爬行动物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j016",
-      "name": "鸟和哺乳动物",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j017",
-      "name": "微生物的分布",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j018",
-      "name": "细菌",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j019",
-      "name": "真菌",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j020",
-      "name": "病毒",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j021",
-      "name": "尝试对生物进行分类",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j022",
-      "name": "从种到界",
-      "grade": 7,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第2单元 多种多样的生物",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j023",
-      "name": "种子的萌发",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j024",
-      "name": "植株的生长",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j025",
-      "name": "开花和结果",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j026",
-      "name": "水的利用与散失",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j027",
-      "name": "光合作用",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j028",
-      "name": "呼吸作用",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j029",
-      "name": "植物在自然界中的作用",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第3单元 植物的生活",
-      "domain": "植物的生活"
-    },
-    {
-      "id": "cnb_j030",
-      "name": "人的生殖",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j031",
-      "name": "青春期",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j032",
-      "name": "食物中的营养物质",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j033",
-      "name": "消化和吸收",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j034",
-      "name": "合理营养与食品安全",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j035",
-      "name": "呼吸道对空气的处理",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j036",
-      "name": "发生在肺内的气体交换",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j037",
-      "name": "流动的组织——血液",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j038",
-      "name": "血流的管道——血管",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j039",
-      "name": "输送血液的泵——心脏",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j040",
-      "name": "人体内废物的排出",
-      "grade": 7,
-      "semester": "lower",
-      "unit": "u2",
-      "unit_name": "第4单元 人体生理与健康（一）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j041",
-      "name": "人体对外界环境的感知",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j042",
-      "name": "神经调节",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j043",
-      "name": "神经系统支配下的运动",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j044",
-      "name": "激素调节",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j045",
-      "name": "传染病及其预防",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j046",
-      "name": "免疫与免疫规划",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j047",
-      "name": "用药与急救",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j048",
-      "name": "选择健康的生活方式",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u1",
-      "unit_name": "第4单元 人体生理与健康（二）",
-      "domain": "人体生理与健康"
-    },
-    {
-      "id": "cnb_j049",
-      "name": "生物与环境的相互作用",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第5单元 生物与环境",
-      "domain": "生物与环境"
-    },
-    {
-      "id": "cnb_j050",
-      "name": "生态系统的结构和功能",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第5单元 生物与环境",
-      "domain": "生物与环境"
-    },
-    {
-      "id": "cnb_j051",
-      "name": "生物圈",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第5单元 生物与环境",
-      "domain": "生物与环境"
-    },
-    {
-      "id": "cnb_j052",
-      "name": "分析人类活动对生态环境的影响",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第5单元 生物与环境",
-      "domain": "生物与环境"
-    },
-    {
-      "id": "cnb_j053",
-      "name": "维护生态安全",
-      "grade": 8,
-      "semester": "upper",
-      "unit": "u2",
-      "unit_name": "第5单元 生物与环境",
-      "domain": "生物与环境"
-    },
-    {
-      "id": "cnb_j054",
-      "name": "无性生殖",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j055",
-      "name": "有性生殖",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j056",
-      "name": "基因与生物性状的关系",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j057",
-      "name": "基因在亲子代间的传递",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j058",
-      "name": "基因的显性和隐性",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j059",
-      "name": "人的性别决定",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j060",
-      "name": "生物的变异",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j061",
-      "name": "地球上生命的起源",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j062",
-      "name": "生物进化的历程",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j063",
-      "name": "生物进化的原因",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j064",
-      "name": "人类的起源",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "遗传与进化"
-    },
-    {
-      "id": "cnb_j065",
-      "name": "进化与生物多样性",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "生物的多样性"
-    },
-    {
-      "id": "cnb_j066",
-      "name": "人与自然和谐共生",
-      "grade": 8,
-      "semester": "lower",
-      "unit": "u1",
-      "unit_name": "第6单元 生命的延续和发展",
-      "domain": "生物的多样性"
-    }
-  ],
-  "edges": [
-    {
-      "from": "cnb_j002",
-      "to": "cnb_j001",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「观察周边环境中的生物」，再学「生物的特征」。"
-    },
-    {
-      "from": "cnb_j003",
-      "to": "cnb_j002",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「生物的特征」，再学「学习使用显微镜」。"
-    },
-    {
-      "from": "cnb_j009",
-      "to": "cnb_j008",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「动物体的结构层次」，再学「植物体的结构层次」。"
-    },
-    {
-      "from": "cnb_j010",
-      "to": "cnb_j009",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「植物体的结构层次」，再学「单细胞生物」。"
-    },
-    {
-      "from": "cnb_j011",
-      "to": "cnb_j010",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「单细胞生物」，再学「藻类、苔藓植物和蕨类植物」。"
-    },
-    {
-      "from": "cnb_j013",
-      "to": "cnb_j012",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「种子植物」，再学「无脊椎动物」。"
-    },
-    {
-      "from": "cnb_j017",
-      "to": "cnb_j016",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「鸟和哺乳动物」，再学「微生物的分布」。"
-    },
-    {
-      "from": "cnb_j019",
-      "to": "cnb_j018",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「细菌」，再学「真菌」。"
-    },
-    {
-      "from": "cnb_j020",
-      "to": "cnb_j019",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「真菌」，再学「病毒」。"
-    },
-    {
-      "from": "cnb_j021",
-      "to": "cnb_j020",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「病毒」，再学「尝试对生物进行分类」。"
-    },
-    {
-      "from": "cnb_j023",
-      "to": "cnb_j022",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「从种到界」，再学「种子的萌发」。"
-    },
-    {
-      "from": "cnb_j026",
-      "to": "cnb_j025",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「开花和结果」，再学「水的利用与散失」。"
-    },
-    {
-      "from": "cnb_j027",
-      "to": "cnb_j026",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「水的利用与散失」，再学「光合作用」。"
-    },
-    {
-      "from": "cnb_j030",
-      "to": "cnb_j029",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「植物在自然界中的作用」，再学「人的生殖」。"
-    },
-    {
-      "from": "cnb_j032",
-      "to": "cnb_j031",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「青春期」，再学「食物中的营养物质」。"
-    },
-    {
-      "from": "cnb_j035",
-      "to": "cnb_j034",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「合理营养与食品安全」，再学「呼吸道对空气的处理」。"
-    },
-    {
-      "from": "cnb_j037",
-      "to": "cnb_j036",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「发生在肺内的气体交换」，再学「流动的组织——血液」。"
-    },
-    {
-      "from": "cnb_j041",
-      "to": "cnb_j040",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「人体内废物的排出」，再学「人体对外界环境的感知」。"
-    },
-    {
-      "from": "cnb_j044",
-      "to": "cnb_j043",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「神经系统支配下的运动」，再学「激素调节」。"
-    },
-    {
-      "from": "cnb_j045",
-      "to": "cnb_j044",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「激素调节」，再学「传染病及其预防」。"
-    },
-    {
-      "from": "cnb_j047",
-      "to": "cnb_j046",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「免疫与免疫规划」，再学「用药与急救」。"
-    },
-    {
-      "from": "cnb_j049",
-      "to": "cnb_j048",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「选择健康的生活方式」，再学「生物与环境的相互作用」。"
-    },
-    {
-      "from": "cnb_j052",
-      "to": "cnb_j051",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「生物圈」，再学「分析人类活动对生态环境的影响」。"
-    },
-    {
-      "from": "cnb_j054",
-      "to": "cnb_j053",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「维护生态安全」，再学「无性生殖」。"
-    },
-    {
-      "from": "cnb_j059",
-      "to": "cnb_j058",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「基因的显性和隐性」，再学「人的性别决定」。"
-    },
-    {
-      "from": "cnb_j060",
-      "to": "cnb_j059",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「人的性别决定」，再学「生物的变异」。"
-    },
-    {
-      "from": "cnb_j061",
-      "to": "cnb_j060",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「生物的变异」，再学「地球上生命的起源」。"
-    },
-    {
-      "from": "cnb_j064",
-      "to": "cnb_j063",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「生物进化的原因」，再学「人类的起源」。"
-    },
-    {
-      "from": "cnb_j065",
-      "to": "cnb_j064",
-      "strength": "soft",
-      "reason": "按人教版生物学的教学顺序，先学「人类的起源」，再学「进化与生物多样性」。"
-    },
-    {
-      "from": "cnb_j004",
-      "to": "cnb_j003",
-      "strength": "hard",
-      "reason": "观察植物细胞，要先会使用显微镜。"
-    },
-    {
-      "from": "cnb_j005",
-      "to": "cnb_j004",
-      "strength": "hard",
-      "reason": "比较动物细胞和植物细胞，要先认识植物细胞的结构。"
-    },
-    {
-      "from": "cnb_j006",
-      "to": "cnb_j005",
-      "strength": "hard",
-      "reason": "理解细胞怎样生活，要先知道动物细胞有哪些结构。"
-    },
-    {
-      "from": "cnb_j007",
-      "to": "cnb_j006",
-      "strength": "hard",
-      "reason": "细胞通过分裂产生新细胞，建立在细胞生活需要物质和能量的基础上。"
-    },
-    {
-      "from": "cnb_j008",
-      "to": "cnb_j007",
-      "strength": "hard",
-      "reason": "动物体的结构层次从细胞分裂和分化讲起。"
-    },
-    {
-      "from": "cnb_j009",
-      "to": "cnb_j007",
-      "strength": "hard",
-      "reason": "植物体的结构层次同样从细胞分裂和分化讲起。"
-    },
-    {
-      "from": "cnb_j010",
-      "to": "cnb_j006",
-      "strength": "hard",
-      "reason": "单细胞生物能独立完成生命活动，要先知道细胞是生命活动的基本单位。"
-    },
-    {
-      "from": "cnb_j012",
-      "to": "cnb_j011",
-      "strength": "hard",
-      "reason": "种子植物要和藻类、苔藓植物、蕨类植物比较，先认识这些类群。"
-    },
-    {
-      "from": "cnb_j014",
-      "to": "cnb_j013",
-      "strength": "hard",
-      "reason": "鱼是脊椎动物，认识它要先区分无脊椎动物。"
-    },
-    {
-      "from": "cnb_j015",
-      "to": "cnb_j014",
-      "strength": "hard",
-      "reason": "两栖动物、爬行动物与鱼同属脊椎动物，比较类群要先认识鱼。"
-    },
-    {
-      "from": "cnb_j016",
-      "to": "cnb_j015",
-      "strength": "hard",
-      "reason": "鸟和哺乳动物与两栖动物、爬行动物都是脊椎动物，按教材顺序比较。"
-    },
-    {
-      "from": "cnb_j018",
-      "to": "cnb_j017",
-      "strength": "hard",
-      "reason": "认识细菌，要先知道微生物的分布和培养观察的基本方法。"
-    },
-    {
-      "from": "cnb_j019",
-      "to": "cnb_j017",
-      "strength": "hard",
-      "reason": "认识真菌，要先知道微生物的分布。"
-    },
-    {
-      "from": "cnb_j020",
-      "to": "cnb_j018",
-      "strength": "hard",
-      "reason": "病毒没有细胞结构，要和有细胞结构的细菌比较。"
-    },
-    {
-      "from": "cnb_j021",
-      "to": "cnb_j011",
-      "strength": "hard",
-      "reason": "尝试对生物进行分类，要用到前面学过的植物类群特征。"
-    },
-    {
-      "from": "cnb_j021",
-      "to": "cnb_j013",
-      "strength": "hard",
-      "reason": "尝试对生物进行分类，要用到前面学过的动物类群特征。"
-    },
-    {
-      "from": "cnb_j022",
-      "to": "cnb_j021",
-      "strength": "hard",
-      "reason": "从种到界的分类等级，建立在已经尝试按特征分类的基础上。"
-    },
-    {
-      "from": "cnb_j023",
-      "to": "cnb_j012",
-      "strength": "hard",
-      "reason": "种子萌发是种子植物生活的起点，要先认识种子植物。"
-    },
-    {
-      "from": "cnb_j024",
-      "to": "cnb_j023",
-      "strength": "hard",
-      "reason": "植株的生长接在种子萌发之后。"
-    },
-    {
-      "from": "cnb_j025",
-      "to": "cnb_j024",
-      "strength": "hard",
-      "reason": "开花和结果是植株生长到一定阶段后的繁殖过程。"
-    },
-    {
-      "from": "cnb_j026",
-      "to": "cnb_j024",
-      "strength": "hard",
-      "reason": "讨论水分的吸收、运输和散失，要先知道植株怎样生长。"
-    },
-    {
-      "from": "cnb_j027",
-      "to": "cnb_j004",
-      "strength": "hard",
-      "reason": "光合作用主要在叶绿体中进行，要先认识植物细胞里的叶绿体。"
-    },
-    {
-      "from": "cnb_j028",
-      "to": "cnb_j027",
-      "strength": "hard",
-      "reason": "呼吸作用和光合作用是植物体内相对的物质与能量变化。"
-    },
-    {
-      "from": "cnb_j029",
-      "to": "cnb_j028",
-      "strength": "hard",
-      "reason": "说明植物参与碳氧平衡，也要用到呼吸作用消耗氧气、产生二氧化碳。"
-    },
-    {
-      "from": "cnb_j029",
-      "to": "cnb_j026",
-      "strength": "hard",
-      "reason": "说明植物参与水循环，要先知道蒸腾作用散失水分。"
-    },
-    {
-      "from": "cnb_j031",
-      "to": "cnb_j030",
-      "strength": "hard",
-      "reason": "青春期是生殖器官发育和性成熟的阶段，接在人的生殖之后。"
-    },
-    {
-      "from": "cnb_j033",
-      "to": "cnb_j032",
-      "strength": "hard",
-      "reason": "消化和吸收针对的是食物中的营养物质。"
-    },
-    {
-      "from": "cnb_j034",
-      "to": "cnb_j033",
-      "strength": "hard",
-      "reason": "安排膳食和判断食品安全，要知道营养物质怎样被消化吸收。"
-    },
-    {
-      "from": "cnb_j036",
-      "to": "cnb_j035",
-      "strength": "hard",
-      "reason": "肺内的气体交换接在呼吸道对空气的处理之后。"
-    },
-    {
-      "from": "cnb_j038",
-      "to": "cnb_j037",
-      "strength": "hard",
-      "reason": "血管是血液流动的管道，要先认识血液。"
-    },
-    {
-      "from": "cnb_j039",
-      "to": "cnb_j038",
-      "strength": "hard",
-      "reason": "心脏把血液压进血管，要先知道三类血管。"
-    },
-    {
-      "from": "cnb_j040",
-      "to": "cnb_j039",
-      "strength": "hard",
-      "reason": "尿液排出前，废物要随血液循环送到肾，先认识心脏和血液循环。"
-    },
-    {
-      "from": "cnb_j042",
-      "to": "cnb_j041",
-      "strength": "hard",
-      "reason": "神经调节建立在感受器接受外界刺激的基础上。"
-    },
-    {
-      "from": "cnb_j043",
-      "to": "cnb_j042",
-      "strength": "hard",
-      "reason": "骨骼肌的收缩受神经系统支配。"
-    },
-    {
-      "from": "cnb_j044",
-      "to": "cnb_j042",
-      "strength": "hard",
-      "reason": "激素调节与神经调节互相配合，先认识神经调节。"
-    },
-    {
-      "from": "cnb_j046",
-      "to": "cnb_j045",
-      "strength": "hard",
-      "reason": "免疫规划用来预防传染病，要先知道传染病怎样流行。"
-    },
-    {
-      "from": "cnb_j048",
-      "to": "cnb_j045",
-      "strength": "hard",
-      "reason": "选择健康的生活方式，包括预防传染病。"
-    },
-    {
-      "from": "cnb_j048",
-      "to": "cnb_j047",
-      "strength": "hard",
-      "reason": "选择健康的生活方式，也包括合理用药和急救。"
-    },
-    {
-      "from": "cnb_j050",
-      "to": "cnb_j049",
-      "strength": "hard",
-      "reason": "生态系统的结构和功能，建立在生物与环境相互作用的基础上。"
-    },
-    {
-      "from": "cnb_j051",
-      "to": "cnb_j050",
-      "strength": "hard",
-      "reason": "生物圈是最大的生态系统，要先知道生态系统的组成。"
-    },
-    {
-      "from": "cnb_j052",
-      "to": "cnb_j050",
-      "strength": "hard",
-      "reason": "分析人类活动的影响，要先知道生态系统怎样维持稳定。"
-    },
-    {
-      "from": "cnb_j053",
-      "to": "cnb_j052",
-      "strength": "hard",
-      "reason": "维护生态安全，针对的是人类活动造成的生态问题。"
-    },
-    {
-      "from": "cnb_j054",
-      "to": "cnb_j009",
-      "strength": "hard",
-      "reason": "植物的扦插、嫁接等无性生殖，用的是根、茎、叶等营养器官。"
-    },
-    {
-      "from": "cnb_j055",
-      "to": "cnb_j054",
-      "strength": "hard",
-      "reason": "有性生殖和无性生殖是产生后代的两条途径，先比较无性生殖。"
-    },
-    {
-      "from": "cnb_j055",
-      "to": "cnb_j025",
-      "strength": "hard",
-      "reason": "被子植物的有性生殖要经过开花、传粉和受精，结出果实和种子。"
-    },
-    {
-      "from": "cnb_j055",
-      "to": "cnb_j030",
-      "strength": "hard",
-      "reason": "人的生殖是有性生殖，精子和卵细胞结合形成受精卵。"
-    },
-    {
-      "from": "cnb_j056",
-      "to": "cnb_j055",
-      "strength": "hard",
-      "reason": "基因控制的性状要通过生殖传给后代。"
-    },
-    {
-      "from": "cnb_j057",
-      "to": "cnb_j056",
-      "strength": "hard",
-      "reason": "基因在亲子代间传递，先要知道基因与性状的关系。"
-    },
-    {
-      "from": "cnb_j058",
-      "to": "cnb_j057",
-      "strength": "hard",
-      "reason": "显性和隐性是一对基因在亲子代传递中的表现。"
-    },
-    {
-      "from": "cnb_j059",
-      "to": "cnb_j057",
-      "strength": "hard",
-      "reason": "人的性别由性染色体决定，建立在基因随染色体传递的基础上。"
-    },
-    {
-      "from": "cnb_j060",
-      "to": "cnb_j056",
-      "strength": "hard",
-      "reason": "变异是亲子代性状上的差异，包括遗传物质改变引起的可遗传变异。"
-    },
-    {
-      "from": "cnb_j062",
-      "to": "cnb_j061",
-      "strength": "hard",
-      "reason": "生物进化的历程，从地球上生命的起源讲起。"
-    },
-    {
-      "from": "cnb_j063",
-      "to": "cnb_j062",
-      "strength": "hard",
-      "reason": "解释进化的原因，要先知道生物进化的大致历程。"
-    },
-    {
-      "from": "cnb_j063",
-      "to": "cnb_j060",
-      "strength": "hard",
-      "reason": "自然选择解释的是可遗传的变异怎样被保留下来。"
-    },
-    {
-      "from": "cnb_j064",
-      "to": "cnb_j062",
-      "strength": "hard",
-      "reason": "人类的起源是生物进化历程中的一部分。"
-    },
-    {
-      "from": "cnb_j064",
-      "to": "cnb_j016",
-      "strength": "hard",
-      "reason": "人类属于哺乳动物，比较人类和类人猿要先认识哺乳动物。"
-    },
-    {
-      "from": "cnb_j065",
-      "to": "cnb_j062",
-      "strength": "hard",
-      "reason": "生物多样性是长期进化的结果。"
-    },
-    {
-      "from": "cnb_j065",
-      "to": "cnb_j022",
-      "strength": "hard",
-      "reason": "描述生物多样性，要用到从种到界的分类框架。"
-    },
-    {
-      "from": "cnb_j066",
-      "to": "cnb_j065",
-      "strength": "hard",
-      "reason": "人与自然和谐共生，建立在认识并保护生物多样性的基础上。"
-    },
-    {
-      "from": "cnb_j066",
-      "to": "cnb_j053",
-      "strength": "hard",
-      "reason": "维护生态安全是人与自然和谐共生的一部分。"
-    }
-  ]
+  {
+   "id": "cnb_j002",
+   "name": "生物的特征",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j003",
+   "name": "学习使用显微镜",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j004",
+   "name": "植物细胞",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j005",
+   "name": "动物细胞",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j006",
+   "name": "细胞的生活",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j007",
+   "name": "细胞通过分裂产生新细胞",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j008",
+   "name": "动物体的结构层次",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j009",
+   "name": "植物体的结构层次",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j010",
+   "name": "单细胞生物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 生物和细胞",
+   "domain": "生物体的结构层次"
+  },
+  {
+   "id": "cnb_j011",
+   "name": "藻类、苔藓植物和蕨类植物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j012",
+   "name": "种子植物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j013",
+   "name": "无脊椎动物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j014",
+   "name": "鱼",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j015",
+   "name": "两栖动物和爬行动物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j016",
+   "name": "鸟和哺乳动物",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j017",
+   "name": "微生物的分布",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j018",
+   "name": "细菌",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j019",
+   "name": "真菌",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j020",
+   "name": "病毒",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j021",
+   "name": "尝试对生物进行分类",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j022",
+   "name": "从种到界",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元 多种多样的生物",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j023",
+   "name": "种子的萌发",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j024",
+   "name": "植株的生长",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j025",
+   "name": "开花和结果",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j026",
+   "name": "水的利用与散失",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j027",
+   "name": "光合作用",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j028",
+   "name": "呼吸作用",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j029",
+   "name": "植物在自然界中的作用",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第3单元 植物的生活",
+   "domain": "植物的生活"
+  },
+  {
+   "id": "cnb_j030",
+   "name": "人的生殖",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j031",
+   "name": "青春期",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j032",
+   "name": "食物中的营养物质",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j033",
+   "name": "消化和吸收",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j034",
+   "name": "合理营养与食品安全",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j035",
+   "name": "呼吸道对空气的处理",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j036",
+   "name": "发生在肺内的气体交换",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j037",
+   "name": "流动的组织——血液",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j038",
+   "name": "血流的管道——血管",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j039",
+   "name": "输送血液的泵——心脏",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j040",
+   "name": "人体内废物的排出",
+   "grade": 7,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第4单元 人体生理与健康（一）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j041",
+   "name": "人体对外界环境的感知",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j042",
+   "name": "神经调节",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j043",
+   "name": "神经系统支配下的运动",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j044",
+   "name": "激素调节",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j045",
+   "name": "传染病及其预防",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j046",
+   "name": "免疫与免疫规划",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j047",
+   "name": "用药与急救",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j048",
+   "name": "选择健康的生活方式",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第4单元 人体生理与健康（二）",
+   "domain": "人体生理与健康"
+  },
+  {
+   "id": "cnb_j049",
+   "name": "生物与环境的相互作用",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第5单元 生物与环境",
+   "domain": "生物与环境"
+  },
+  {
+   "id": "cnb_j050",
+   "name": "生态系统的结构和功能",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第5单元 生物与环境",
+   "domain": "生物与环境"
+  },
+  {
+   "id": "cnb_j051",
+   "name": "生物圈",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第5单元 生物与环境",
+   "domain": "生物与环境"
+  },
+  {
+   "id": "cnb_j052",
+   "name": "分析人类活动对生态环境的影响",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第5单元 生物与环境",
+   "domain": "生物与环境"
+  },
+  {
+   "id": "cnb_j053",
+   "name": "维护生态安全",
+   "grade": 8,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第5单元 生物与环境",
+   "domain": "生物与环境"
+  },
+  {
+   "id": "cnb_j054",
+   "name": "无性生殖",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j055",
+   "name": "有性生殖",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j056",
+   "name": "基因与生物性状的关系",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j057",
+   "name": "基因在亲子代间的传递",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j058",
+   "name": "基因的显性和隐性",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j059",
+   "name": "人的性别决定",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j060",
+   "name": "生物的变异",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j061",
+   "name": "地球上生命的起源",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j062",
+   "name": "生物进化的历程",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j063",
+   "name": "生物进化的原因",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j064",
+   "name": "人类的起源",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "遗传与进化"
+  },
+  {
+   "id": "cnb_j065",
+   "name": "进化与生物多样性",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_j066",
+   "name": "人与自然和谐共生",
+   "grade": 8,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第6单元 生命的延续和发展",
+   "domain": "生物的多样性"
+  },
+  {
+   "id": "cnb_s001",
+   "name": "细胞是生命活动的基本单位",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s002",
+   "name": "细胞的多样性和统一性",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s003",
+   "name": "细胞中的元素和无机物",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s004",
+   "name": "糖类和脂质",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s005",
+   "name": "蛋白质是生命活动的主要承担者",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s006",
+   "name": "核酸是遗传信息的携带者",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s007",
+   "name": "细胞膜的结构和功能",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s008",
+   "name": "细胞器之间的分工合作",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s009",
+   "name": "细胞核的结构和功能",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s010",
+   "name": "被动运输",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s011",
+   "name": "主动运输与胞吞胞吐",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "domain": "细胞的分子与结构",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s012",
+   "name": "酶与ATP",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "domain": "细胞代谢",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s013",
+   "name": "细胞呼吸的原理和应用",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "domain": "细胞代谢",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s014",
+   "name": "光合作用与能量转化",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "domain": "细胞代谢",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s015",
+   "name": "细胞的增殖",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": "第6单元·细胞的生命历程",
+   "domain": "细胞的生命历程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s016",
+   "name": "孟德尔的豌豆杂交实验（一）",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·遗传因子的发现",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s017",
+   "name": "孟德尔的豌豆杂交实验（二）",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·遗传因子的发现",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s018",
+   "name": "减数分裂和受精作用",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·基因和染色体的关系",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s019",
+   "name": "基因在染色体上",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·基因和染色体的关系",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s020",
+   "name": "伴性遗传",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·基因和染色体的关系",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s021",
+   "name": "DNA是主要的遗传物质",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·基因的本质",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s022",
+   "name": "DNA的结构和复制",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·基因的本质",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s023",
+   "name": "基因指导蛋白质的合成",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·基因的表达",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s024",
+   "name": "基因表达与性状的关系",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·基因的表达",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s025",
+   "name": "基因突变和基因重组",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·基因突变及其他变异",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s026",
+   "name": "染色体变异",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·基因突变及其他变异",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s027",
+   "name": "人类遗传病",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·基因突变及其他变异",
+   "domain": "遗传的细胞与分子基础",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s028",
+   "name": "生物有共同祖先的证据",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·生物的进化",
+   "domain": "生物进化",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s029",
+   "name": "自然选择与适应的形成",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·生物的进化",
+   "domain": "生物进化",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s030",
+   "name": "种群基因组成的变化与物种形成",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·生物的进化",
+   "domain": "生物进化",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s031",
+   "name": "细胞生活的环境",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s032",
+   "name": "内环境的稳态",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·人体的内环境与稳态",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s033",
+   "name": "神经调节的结构基础",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s034",
+   "name": "神经调节的基本方式",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s035",
+   "name": "神经冲动的产生和传导",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s036",
+   "name": "神经系统的分级调节与人脑的高级功能",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·神经调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s037",
+   "name": "激素与内分泌系统",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s038",
+   "name": "激素调节的过程",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s039",
+   "name": "体液调节与神经调节的关系",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·体液调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s040",
+   "name": "免疫系统的组成和功能",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s041",
+   "name": "特异性免疫",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s042",
+   "name": "免疫失调与免疫学的应用",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·免疫调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s043",
+   "name": "植物生长素",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s044",
+   "name": "其他植物激素与植物生长调节剂",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s045",
+   "name": "环境因素参与调节植物的生命活动",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·植物生命活动的调节",
+   "domain": "稳态与调节",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s046",
+   "name": "种群的数量特征",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·种群及其动态",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s047",
+   "name": "种群数量的变化",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·种群及其动态",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s048",
+   "name": "影响种群数量变化的因素",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·种群及其动态",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s049",
+   "name": "群落的结构",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·群落及其演替",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s050",
+   "name": "群落的主要类型",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·群落及其演替",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s051",
+   "name": "群落的演替",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·群落及其演替",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s052",
+   "name": "生态系统的结构",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·生态系统及其稳定性",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s053",
+   "name": "生态系统的能量流动",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·生态系统及其稳定性",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s054",
+   "name": "生态系统的物质循环",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·生态系统及其稳定性",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s055",
+   "name": "生态系统的信息传递",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·生态系统及其稳定性",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s056",
+   "name": "生态系统的稳定性",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·生态系统及其稳定性",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s057",
+   "name": "人与环境",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·人与环境",
+   "domain": "生物与环境",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s058",
+   "name": "传统发酵技术的应用",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s059",
+   "name": "微生物的培养技术及应用",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s060",
+   "name": "发酵工程及其应用",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·发酵工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s061",
+   "name": "植物细胞工程",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s062",
+   "name": "动物细胞工程",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s063",
+   "name": "胚胎工程",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·细胞工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s064",
+   "name": "重组DNA技术的基本工具",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s065",
+   "name": "基因工程的基本操作程序",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s066",
+   "name": "基因工程的应用与蛋白质工程",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s067",
+   "name": "生物技术的安全性与伦理问题",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·生物技术的安全性与伦理问题",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  },
+  {
+   "id": "cnb_s068",
+   "name": "基因工程要点辨析",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·基因工程",
+   "domain": "生物技术与工程",
+   "edition": "renjiao"
+  }
+ ],
+ "edges": [
+  {
+   "from": "cnb_j002",
+   "to": "cnb_j001",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「观察周边环境中的生物」，再学「生物的特征」。"
+  },
+  {
+   "from": "cnb_j003",
+   "to": "cnb_j002",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「生物的特征」，再学「学习使用显微镜」。"
+  },
+  {
+   "from": "cnb_j009",
+   "to": "cnb_j008",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「动物体的结构层次」，再学「植物体的结构层次」。"
+  },
+  {
+   "from": "cnb_j010",
+   "to": "cnb_j009",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「植物体的结构层次」，再学「单细胞生物」。"
+  },
+  {
+   "from": "cnb_j011",
+   "to": "cnb_j010",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「单细胞生物」，再学「藻类、苔藓植物和蕨类植物」。"
+  },
+  {
+   "from": "cnb_j013",
+   "to": "cnb_j012",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「种子植物」，再学「无脊椎动物」。"
+  },
+  {
+   "from": "cnb_j017",
+   "to": "cnb_j016",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「鸟和哺乳动物」，再学「微生物的分布」。"
+  },
+  {
+   "from": "cnb_j019",
+   "to": "cnb_j018",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「细菌」，再学「真菌」。"
+  },
+  {
+   "from": "cnb_j020",
+   "to": "cnb_j019",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「真菌」，再学「病毒」。"
+  },
+  {
+   "from": "cnb_j021",
+   "to": "cnb_j020",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「病毒」，再学「尝试对生物进行分类」。"
+  },
+  {
+   "from": "cnb_j023",
+   "to": "cnb_j022",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「从种到界」，再学「种子的萌发」。"
+  },
+  {
+   "from": "cnb_j026",
+   "to": "cnb_j025",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「开花和结果」，再学「水的利用与散失」。"
+  },
+  {
+   "from": "cnb_j027",
+   "to": "cnb_j026",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「水的利用与散失」，再学「光合作用」。"
+  },
+  {
+   "from": "cnb_j030",
+   "to": "cnb_j029",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「植物在自然界中的作用」，再学「人的生殖」。"
+  },
+  {
+   "from": "cnb_j032",
+   "to": "cnb_j031",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「青春期」，再学「食物中的营养物质」。"
+  },
+  {
+   "from": "cnb_j035",
+   "to": "cnb_j034",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「合理营养与食品安全」，再学「呼吸道对空气的处理」。"
+  },
+  {
+   "from": "cnb_j037",
+   "to": "cnb_j036",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「发生在肺内的气体交换」，再学「流动的组织——血液」。"
+  },
+  {
+   "from": "cnb_j041",
+   "to": "cnb_j040",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「人体内废物的排出」，再学「人体对外界环境的感知」。"
+  },
+  {
+   "from": "cnb_j044",
+   "to": "cnb_j043",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「神经系统支配下的运动」，再学「激素调节」。"
+  },
+  {
+   "from": "cnb_j045",
+   "to": "cnb_j044",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「激素调节」，再学「传染病及其预防」。"
+  },
+  {
+   "from": "cnb_j047",
+   "to": "cnb_j046",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「免疫与免疫规划」，再学「用药与急救」。"
+  },
+  {
+   "from": "cnb_j049",
+   "to": "cnb_j048",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「选择健康的生活方式」，再学「生物与环境的相互作用」。"
+  },
+  {
+   "from": "cnb_j052",
+   "to": "cnb_j051",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「生物圈」，再学「分析人类活动对生态环境的影响」。"
+  },
+  {
+   "from": "cnb_j054",
+   "to": "cnb_j053",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「维护生态安全」，再学「无性生殖」。"
+  },
+  {
+   "from": "cnb_j059",
+   "to": "cnb_j058",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「基因的显性和隐性」，再学「人的性别决定」。"
+  },
+  {
+   "from": "cnb_j060",
+   "to": "cnb_j059",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「人的性别决定」，再学「生物的变异」。"
+  },
+  {
+   "from": "cnb_j061",
+   "to": "cnb_j060",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「生物的变异」，再学「地球上生命的起源」。"
+  },
+  {
+   "from": "cnb_j064",
+   "to": "cnb_j063",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「生物进化的原因」，再学「人类的起源」。"
+  },
+  {
+   "from": "cnb_j065",
+   "to": "cnb_j064",
+   "strength": "soft",
+   "reason": "按人教版生物学的教学顺序，先学「人类的起源」，再学「进化与生物多样性」。"
+  },
+  {
+   "from": "cnb_j004",
+   "to": "cnb_j003",
+   "strength": "hard",
+   "reason": "观察植物细胞，要先会使用显微镜。"
+  },
+  {
+   "from": "cnb_j005",
+   "to": "cnb_j004",
+   "strength": "hard",
+   "reason": "比较动物细胞和植物细胞，要先认识植物细胞的结构。"
+  },
+  {
+   "from": "cnb_j006",
+   "to": "cnb_j005",
+   "strength": "hard",
+   "reason": "理解细胞怎样生活，要先知道动物细胞有哪些结构。"
+  },
+  {
+   "from": "cnb_j007",
+   "to": "cnb_j006",
+   "strength": "hard",
+   "reason": "细胞通过分裂产生新细胞，建立在细胞生活需要物质和能量的基础上。"
+  },
+  {
+   "from": "cnb_j008",
+   "to": "cnb_j007",
+   "strength": "hard",
+   "reason": "动物体的结构层次从细胞分裂和分化讲起。"
+  },
+  {
+   "from": "cnb_j009",
+   "to": "cnb_j007",
+   "strength": "hard",
+   "reason": "植物体的结构层次同样从细胞分裂和分化讲起。"
+  },
+  {
+   "from": "cnb_j010",
+   "to": "cnb_j006",
+   "strength": "hard",
+   "reason": "单细胞生物能独立完成生命活动，要先知道细胞是生命活动的基本单位。"
+  },
+  {
+   "from": "cnb_j012",
+   "to": "cnb_j011",
+   "strength": "hard",
+   "reason": "种子植物要和藻类、苔藓植物、蕨类植物比较，先认识这些类群。"
+  },
+  {
+   "from": "cnb_j014",
+   "to": "cnb_j013",
+   "strength": "hard",
+   "reason": "鱼是脊椎动物，认识它要先区分无脊椎动物。"
+  },
+  {
+   "from": "cnb_j015",
+   "to": "cnb_j014",
+   "strength": "hard",
+   "reason": "两栖动物、爬行动物与鱼同属脊椎动物，比较类群要先认识鱼。"
+  },
+  {
+   "from": "cnb_j016",
+   "to": "cnb_j015",
+   "strength": "hard",
+   "reason": "鸟和哺乳动物与两栖动物、爬行动物都是脊椎动物，按教材顺序比较。"
+  },
+  {
+   "from": "cnb_j018",
+   "to": "cnb_j017",
+   "strength": "hard",
+   "reason": "认识细菌，要先知道微生物的分布和培养观察的基本方法。"
+  },
+  {
+   "from": "cnb_j019",
+   "to": "cnb_j017",
+   "strength": "hard",
+   "reason": "认识真菌，要先知道微生物的分布。"
+  },
+  {
+   "from": "cnb_j020",
+   "to": "cnb_j018",
+   "strength": "hard",
+   "reason": "病毒没有细胞结构，要和有细胞结构的细菌比较。"
+  },
+  {
+   "from": "cnb_j021",
+   "to": "cnb_j011",
+   "strength": "hard",
+   "reason": "尝试对生物进行分类，要用到前面学过的植物类群特征。"
+  },
+  {
+   "from": "cnb_j021",
+   "to": "cnb_j013",
+   "strength": "hard",
+   "reason": "尝试对生物进行分类，要用到前面学过的动物类群特征。"
+  },
+  {
+   "from": "cnb_j022",
+   "to": "cnb_j021",
+   "strength": "hard",
+   "reason": "从种到界的分类等级，建立在已经尝试按特征分类的基础上。"
+  },
+  {
+   "from": "cnb_j023",
+   "to": "cnb_j012",
+   "strength": "hard",
+   "reason": "种子萌发是种子植物生活的起点，要先认识种子植物。"
+  },
+  {
+   "from": "cnb_j024",
+   "to": "cnb_j023",
+   "strength": "hard",
+   "reason": "植株的生长接在种子萌发之后。"
+  },
+  {
+   "from": "cnb_j025",
+   "to": "cnb_j024",
+   "strength": "hard",
+   "reason": "开花和结果是植株生长到一定阶段后的繁殖过程。"
+  },
+  {
+   "from": "cnb_j026",
+   "to": "cnb_j024",
+   "strength": "hard",
+   "reason": "讨论水分的吸收、运输和散失，要先知道植株怎样生长。"
+  },
+  {
+   "from": "cnb_j027",
+   "to": "cnb_j004",
+   "strength": "hard",
+   "reason": "光合作用主要在叶绿体中进行，要先认识植物细胞里的叶绿体。"
+  },
+  {
+   "from": "cnb_j028",
+   "to": "cnb_j027",
+   "strength": "hard",
+   "reason": "呼吸作用和光合作用是植物体内相对的物质与能量变化。"
+  },
+  {
+   "from": "cnb_j029",
+   "to": "cnb_j028",
+   "strength": "hard",
+   "reason": "说明植物参与碳氧平衡，也要用到呼吸作用消耗氧气、产生二氧化碳。"
+  },
+  {
+   "from": "cnb_j029",
+   "to": "cnb_j026",
+   "strength": "hard",
+   "reason": "说明植物参与水循环，要先知道蒸腾作用散失水分。"
+  },
+  {
+   "from": "cnb_j031",
+   "to": "cnb_j030",
+   "strength": "hard",
+   "reason": "青春期是生殖器官发育和性成熟的阶段，接在人的生殖之后。"
+  },
+  {
+   "from": "cnb_j033",
+   "to": "cnb_j032",
+   "strength": "hard",
+   "reason": "消化和吸收针对的是食物中的营养物质。"
+  },
+  {
+   "from": "cnb_j034",
+   "to": "cnb_j033",
+   "strength": "hard",
+   "reason": "安排膳食和判断食品安全，要知道营养物质怎样被消化吸收。"
+  },
+  {
+   "from": "cnb_j036",
+   "to": "cnb_j035",
+   "strength": "hard",
+   "reason": "肺内的气体交换接在呼吸道对空气的处理之后。"
+  },
+  {
+   "from": "cnb_j038",
+   "to": "cnb_j037",
+   "strength": "hard",
+   "reason": "血管是血液流动的管道，要先认识血液。"
+  },
+  {
+   "from": "cnb_j039",
+   "to": "cnb_j038",
+   "strength": "hard",
+   "reason": "心脏把血液压进血管，要先知道三类血管。"
+  },
+  {
+   "from": "cnb_j040",
+   "to": "cnb_j039",
+   "strength": "hard",
+   "reason": "尿液排出前，废物要随血液循环送到肾，先认识心脏和血液循环。"
+  },
+  {
+   "from": "cnb_j042",
+   "to": "cnb_j041",
+   "strength": "hard",
+   "reason": "神经调节建立在感受器接受外界刺激的基础上。"
+  },
+  {
+   "from": "cnb_j043",
+   "to": "cnb_j042",
+   "strength": "hard",
+   "reason": "骨骼肌的收缩受神经系统支配。"
+  },
+  {
+   "from": "cnb_j044",
+   "to": "cnb_j042",
+   "strength": "hard",
+   "reason": "激素调节与神经调节互相配合，先认识神经调节。"
+  },
+  {
+   "from": "cnb_j046",
+   "to": "cnb_j045",
+   "strength": "hard",
+   "reason": "免疫规划用来预防传染病，要先知道传染病怎样流行。"
+  },
+  {
+   "from": "cnb_j048",
+   "to": "cnb_j045",
+   "strength": "hard",
+   "reason": "选择健康的生活方式，包括预防传染病。"
+  },
+  {
+   "from": "cnb_j048",
+   "to": "cnb_j047",
+   "strength": "hard",
+   "reason": "选择健康的生活方式，也包括合理用药和急救。"
+  },
+  {
+   "from": "cnb_j050",
+   "to": "cnb_j049",
+   "strength": "hard",
+   "reason": "生态系统的结构和功能，建立在生物与环境相互作用的基础上。"
+  },
+  {
+   "from": "cnb_j051",
+   "to": "cnb_j050",
+   "strength": "hard",
+   "reason": "生物圈是最大的生态系统，要先知道生态系统的组成。"
+  },
+  {
+   "from": "cnb_j052",
+   "to": "cnb_j050",
+   "strength": "hard",
+   "reason": "分析人类活动的影响，要先知道生态系统怎样维持稳定。"
+  },
+  {
+   "from": "cnb_j053",
+   "to": "cnb_j052",
+   "strength": "hard",
+   "reason": "维护生态安全，针对的是人类活动造成的生态问题。"
+  },
+  {
+   "from": "cnb_j054",
+   "to": "cnb_j009",
+   "strength": "hard",
+   "reason": "植物的扦插、嫁接等无性生殖，用的是根、茎、叶等营养器官。"
+  },
+  {
+   "from": "cnb_j055",
+   "to": "cnb_j054",
+   "strength": "hard",
+   "reason": "有性生殖和无性生殖是产生后代的两条途径，先比较无性生殖。"
+  },
+  {
+   "from": "cnb_j055",
+   "to": "cnb_j025",
+   "strength": "hard",
+   "reason": "被子植物的有性生殖要经过开花、传粉和受精，结出果实和种子。"
+  },
+  {
+   "from": "cnb_j055",
+   "to": "cnb_j030",
+   "strength": "hard",
+   "reason": "人的生殖是有性生殖，精子和卵细胞结合形成受精卵。"
+  },
+  {
+   "from": "cnb_j056",
+   "to": "cnb_j055",
+   "strength": "hard",
+   "reason": "基因控制的性状要通过生殖传给后代。"
+  },
+  {
+   "from": "cnb_j057",
+   "to": "cnb_j056",
+   "strength": "hard",
+   "reason": "基因在亲子代间传递，先要知道基因与性状的关系。"
+  },
+  {
+   "from": "cnb_j058",
+   "to": "cnb_j057",
+   "strength": "hard",
+   "reason": "显性和隐性是一对基因在亲子代传递中的表现。"
+  },
+  {
+   "from": "cnb_j059",
+   "to": "cnb_j057",
+   "strength": "hard",
+   "reason": "人的性别由性染色体决定，建立在基因随染色体传递的基础上。"
+  },
+  {
+   "from": "cnb_j060",
+   "to": "cnb_j056",
+   "strength": "hard",
+   "reason": "变异是亲子代性状上的差异，包括遗传物质改变引起的可遗传变异。"
+  },
+  {
+   "from": "cnb_j062",
+   "to": "cnb_j061",
+   "strength": "hard",
+   "reason": "生物进化的历程，从地球上生命的起源讲起。"
+  },
+  {
+   "from": "cnb_j063",
+   "to": "cnb_j062",
+   "strength": "hard",
+   "reason": "解释进化的原因，要先知道生物进化的大致历程。"
+  },
+  {
+   "from": "cnb_j063",
+   "to": "cnb_j060",
+   "strength": "hard",
+   "reason": "自然选择解释的是可遗传的变异怎样被保留下来。"
+  },
+  {
+   "from": "cnb_j064",
+   "to": "cnb_j062",
+   "strength": "hard",
+   "reason": "人类的起源是生物进化历程中的一部分。"
+  },
+  {
+   "from": "cnb_j064",
+   "to": "cnb_j016",
+   "strength": "hard",
+   "reason": "人类属于哺乳动物，比较人类和类人猿要先认识哺乳动物。"
+  },
+  {
+   "from": "cnb_j065",
+   "to": "cnb_j062",
+   "strength": "hard",
+   "reason": "生物多样性是长期进化的结果。"
+  },
+  {
+   "from": "cnb_j065",
+   "to": "cnb_j022",
+   "strength": "hard",
+   "reason": "描述生物多样性，要用到从种到界的分类框架。"
+  },
+  {
+   "from": "cnb_j066",
+   "to": "cnb_j065",
+   "strength": "hard",
+   "reason": "人与自然和谐共生，建立在认识并保护生物多样性的基础上。"
+  },
+  {
+   "from": "cnb_j066",
+   "to": "cnb_j053",
+   "strength": "hard",
+   "reason": "维护生态安全是人与自然和谐共生的一部分。"
+  }
+ ]
 }

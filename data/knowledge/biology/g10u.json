@@ -1,0 +1,1333 @@
+{
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_biology_senior.py",
+ "source": {
+  "textbook": "必修1 分子与细胞",
+  "standard": "普通高中生物学课程标准（2017年版2020年修订）"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "教材单元取自人教版高中生物教科书（必修1、必修2、选择性必修1~3）目录；知识点与题目由本项目编写，参考《普通高中生物学课程标准（2017年版2020年修订）》。",
+ "subject": "biology",
+ "grade": 10,
+ "semester": "upper",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 走近细胞"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 组成细胞的分子"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 细胞的基本结构"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 细胞的物质输入和输出"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元 细胞的能量供应和利用"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元 细胞的生命历程"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_s001",
+   "name": "细胞是生命活动的基本单位",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "description": "理解细胞学说的建立过程与主要内容，知道生命系统的结构层次，明确细胞是最基本的生命系统。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "细胞学说的主要建立者是？",
+    "answer": "施莱登和施旺"
+   }
+  },
+  {
+   "id": "cnb_s002",
+   "name": "细胞的多样性和统一性",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "description": "区分原核细胞与真核细胞的结构差异，掌握显微镜放大倍数与视野范围、亮度的关系。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "原核细胞与真核细胞最主要的区别是？",
+    "answer": "有无以核膜为界限的细胞核"
+   }
+  },
+  {
+   "id": "cnb_s003",
+   "name": "细胞中的元素和无机物",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "description": "记住大量元素与微量元素，理解水的存在形式与作用、无机盐的离子形式与生理功能。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "细胞中含量最多的化合物是？",
+    "answer": "水"
+   }
+  },
+  {
+   "id": "cnb_s004",
+   "name": "糖类和脂质",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "description": "分清单糖、二糖、多糖的类别与功能，理解脂肪、磷脂、固醇三类脂质的作用。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "植物细胞中储存能量的多糖是？",
+    "answer": "淀粉"
+   }
+  },
+  {
+   "id": "cnb_s005",
+   "name": "蛋白质是生命活动的主要承担者",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "description": "掌握氨基酸的结构特点、脱水缩合过程与肽键计算，理解蛋白质结构多样性与功能多样性。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "组成蛋白质的基本单位是？",
+    "answer": "氨基酸"
+   }
+  },
+  {
+   "id": "cnb_s006",
+   "name": "核酸是遗传信息的携带者",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "description": "区分 DNA 与 RNA 在五碳糖、碱基上的差别，理解核苷酸连接成核酸长链的方式。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "DNA 中特有的碱基是？",
+    "answer": "胸腺嘧啶（T）"
+   }
+  },
+  {
+   "id": "cnb_s007",
+   "name": "细胞膜的结构和功能",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "description": "掌握流动镶嵌模型的基本内容，理解细胞膜控制物质进出和进行信息交流的功能。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "细胞膜的基本支架是？",
+    "answer": "磷脂双分子层"
+   }
+  },
+  {
+   "id": "cnb_s008",
+   "name": "细胞器之间的分工合作",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "description": "记住各种细胞器的结构与功能，理解分泌蛋白的合成运输途径和生物膜系统的意义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "有氧呼吸的主要场所是？",
+    "answer": "线粒体"
+   }
+  },
+  {
+   "id": "cnb_s009",
+   "name": "细胞核的结构和功能",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "description": "掌握核膜、核仁、染色质的结构特点，理解核孔的作用和细胞核作为控制中心的意义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "细胞核内储存遗传信息的物质是？",
+    "answer": "染色质（DNA）"
+   }
+  },
+  {
+   "id": "cnb_s010",
+   "name": "被动运输",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "description": "区分自由扩散与协助扩散，理解渗透作用的条件和质壁分离与复原的原理。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "自由扩散和协助扩散的共同点是？",
+    "answer": "都不消耗能量、顺浓度梯度"
+   }
+  },
+  {
+   "id": "cnb_s011",
+   "name": "主动运输与胞吞胞吐",
+   "domain": "细胞的分子与结构",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "description": "理解主动运输逆浓度梯度、需载体和能量的特点，知道胞吞胞吐运输大分子的方式。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "主动运输与被动运输最主要的区别是？",
+    "answer": "需要消耗能量"
+   }
+  },
+  {
+   "id": "cnb_s012",
+   "name": "酶与ATP",
+   "domain": "细胞代谢",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "description": "掌握酶的本质、三大特性及其影响因素，理解ATP的结构与ATP—ADP循环供能的机制。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "酶的作用机理是？",
+    "answer": "降低化学反应的活化能"
+   }
+  },
+  {
+   "id": "cnb_s013",
+   "name": "细胞呼吸的原理和应用",
+   "domain": "细胞代谢",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "description": "掌握有氧呼吸三阶段的场所与产物、无氧呼吸两种产物，理解影响细胞呼吸的因素及应用。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "有氧呼吸产生ATP最多的阶段在？",
+    "answer": "线粒体内膜（第三阶段）"
+   }
+  },
+  {
+   "id": "cnb_s014",
+   "name": "光合作用与能量转化",
+   "domain": "细胞代谢",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "description": "记住色素的种类与吸收光谱、光反应与暗反应的场所和物质变化，会分析影响光合速率的因素。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "光反应的场所是？",
+    "answer": "类囊体薄膜"
+   }
+  },
+  {
+   "id": "cnb_s015",
+   "name": "细胞的增殖",
+   "domain": "细胞的生命历程",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·细胞的生命历程",
+   "description": "理解细胞周期的概念，掌握有丝分裂各时期的染色体行为与数目变化。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "着丝粒分裂发生在有丝分裂的？",
+    "answer": "后期"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_s001_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s001",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 1,
+   "stem": "细胞学说的主要建立者是",
+   "explain": "1838—1839年，施莱登和施旺提出细胞学说，后来魏尔肖补充「细胞通过分裂产生新细胞」。",
+   "answer_mode": "choice",
+   "options": [
+    "达尔文和孟德尔",
+    "施莱登和施旺",
+    "沃森和克里克",
+    "虎克和列文虎克"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s001_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s001",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 2,
+   "stem": "下列不属于生命系统结构层次的是",
+   "explain": "病毒没有细胞结构，必须寄生在活细胞中，不属于生命系统的结构层次。",
+   "answer_mode": "choice",
+   "options": [
+    "一片叶",
+    "一个草履虫",
+    "一个病毒",
+    "一个种群"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s001_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s001",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 2,
+   "stem": "生命系统中最基本的结构层次是",
+   "explain": "细胞是生物体结构和功能的基本单位，也是生命系统中最基本的层次。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞",
+    "组织",
+    "器官",
+    "个体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s002_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s002",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 1,
+   "stem": "原核细胞与真核细胞最主要的区别是",
+   "explain": "原核细胞没有核膜包被的细胞核，只有拟核；细胞膜和核糖体两者都有。",
+   "answer_mode": "choice",
+   "options": [
+    "有无细胞壁",
+    "有无以核膜为界限的细胞核",
+    "有无核糖体",
+    "有无细胞膜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s002_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s002",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 2,
+   "stem": "下列生物中属于原核生物的是",
+   "explain": "蓝细菌（蓝藻）属原核生物；酵母菌是真菌、水绵是绿藻、草履虫是原生动物，都是真核生物。",
+   "answer_mode": "choice",
+   "options": [
+    "酵母菌",
+    "蓝细菌",
+    "水绵",
+    "草履虫"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s002_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s002",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·走近细胞",
+   "difficulty": 2,
+   "stem": "低倍镜换成高倍镜后，视野的变化是",
+   "explain": "放大倍数越大，视野范围越小、进入的光越少，所以视野变暗、看到的细胞数目变少、细胞变大。",
+   "answer_mode": "choice",
+   "options": [
+    "亮度变大，细胞数目变多",
+    "亮度变小，细胞数目变少",
+    "亮度不变，细胞变大",
+    "亮度变小，细胞数目变多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s003_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s003",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 1,
+   "stem": "细胞中含量最多的化合物是",
+   "explain": "水在细胞鲜重中含量最多（约85%~90%），蛋白质是含量最多的有机物。",
+   "answer_mode": "choice",
+   "options": [
+    "蛋白质",
+    "水",
+    "糖类",
+    "脂质"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s003_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s003",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "缺镁时植物叶片发黄，原因是镁是",
+   "explain": "Mg是叶绿素的组成元素，缺镁会影响叶绿素合成，叶片失绿发黄。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿素的组成元素",
+    "血红蛋白的组成元素",
+    "细胞膜的组成成分",
+    "核酸的组成元素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s003_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s003",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "自由水与结合水的比值升高时，细胞代谢",
+   "explain": "自由水是良好溶剂并参与代谢，比值高时代谢旺盛，但抗寒抗旱能力下降。",
+   "answer_mode": "choice",
+   "options": [
+    "减弱，抗逆性增强",
+    "增强，抗逆性减弱",
+    "不变",
+    "先减弱后增强"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s004_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s004",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 1,
+   "stem": "植物细胞中储存能量的多糖是",
+   "explain": "淀粉是植物细胞的储能多糖，糖原是动物细胞的储能多糖，纤维素是植物细胞壁的成分。",
+   "answer_mode": "choice",
+   "options": [
+    "淀粉",
+    "糖原",
+    "纤维素",
+    "乳糖"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s004_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s004",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "用于构成植物细胞壁的多糖是",
+   "explain": "植物细胞壁主要由纤维素和果胶构成，因而吃蔬菜能促进肠道蠕动。",
+   "answer_mode": "choice",
+   "options": [
+    "淀粉",
+    "纤维素",
+    "糖原",
+    "几丁质"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s004_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s004",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "下列脂质中参与构成细胞膜的是",
+   "explain": "磷脂是构成细胞膜的基本支架；脂肪储能，胆固醇和性激素属固醇类。",
+   "answer_mode": "choice",
+   "options": [
+    "脂肪",
+    "磷脂",
+    "胆固醇",
+    "性激素"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s005_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s005",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 1,
+   "stem": "组成蛋白质的基本单位是",
+   "explain": "氨基酸是组成蛋白质的基本单位，约21种，通过脱水缩合形成肽链。",
+   "answer_mode": "choice",
+   "options": [
+    "核苷酸",
+    "氨基酸",
+    "葡萄糖",
+    "甘油"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s005_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s005",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "由100个氨基酸缩合成一条肽链时，脱去的水分子数和形成的肽键数分别是",
+   "explain": "一条肽链中肽键数=脱去水分子数=氨基酸数-肽链数=100-1=99。",
+   "answer_mode": "choice",
+   "options": [
+    "100、100",
+    "99、99",
+    "99、100",
+    "100、99"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s005_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s005",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "蛋白质结构多样性的原因不包括",
+   "explain": "肽键都是—CO—NH—，结构相同；多样性来自氨基酸种类、数目、排列顺序和肽链的盘曲折叠方式。",
+   "answer_mode": "choice",
+   "options": [
+    "氨基酸的种类不同",
+    "氨基酸的数目不同",
+    "氨基酸的排列顺序不同",
+    "肽键的化学结构不同"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s006_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s006",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 1,
+   "stem": "DNA中特有的碱基是",
+   "explain": "DNA的碱基是A、T、G、C，RNA用尿嘧啶（U）代替胸腺嘧啶（T）。",
+   "answer_mode": "choice",
+   "options": [
+    "腺嘌呤（A）",
+    "鸟嘌呤（G）",
+    "胞嘧啶（C）",
+    "胸腺嘧啶（T）"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s006_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s006",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "DNA与RNA在化学组成上的区别是",
+   "explain": "DNA含脱氧核糖和碱基T，RNA含核糖和碱基U，其余成分相同。",
+   "answer_mode": "choice",
+   "options": [
+    "五碳糖和碱基不同",
+    "磷酸不同",
+    "连接方式不同",
+    "链的数目一定不同"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s006_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s006",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·组成细胞的分子",
+   "difficulty": 2,
+   "stem": "组成核酸的基本单位是",
+   "explain": "核苷酸由一分子磷酸、一分子五碳糖和一分子含氮碱基组成，许多核苷酸连接成长链即为核酸。",
+   "answer_mode": "choice",
+   "options": [
+    "氨基酸",
+    "核苷酸",
+    "磷酸",
+    "戊糖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s007_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s007",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 1,
+   "stem": "细胞膜的基本支架是",
+   "explain": "流动镶嵌模型认为磷脂双分子层构成细胞膜的基本支架，蛋白质镶嵌、贯穿或附着其上。",
+   "answer_mode": "choice",
+   "options": [
+    "蛋白质分子",
+    "磷脂双分子层",
+    "糖被",
+    "胆固醇"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s007_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s007",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "细胞膜的功能不包括",
+   "explain": "能量主要由细胞呼吸提供，与细胞膜无关；其余三项是细胞膜的三大功能。",
+   "answer_mode": "choice",
+   "options": [
+    "将细胞与外界环境分隔开",
+    "控制物质进出细胞",
+    "进行细胞间的信息交流",
+    "为细胞提供全部能量"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s007_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s007",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "细胞膜上的糖蛋白主要分布在",
+   "explain": "糖蛋白（糖被）分布在细胞膜外侧，与细胞识别、保护和润滑有关。",
+   "answer_mode": "choice",
+   "options": [
+    "膜的内侧",
+    "膜的外侧",
+    "磷脂双分子层内部",
+    "细胞质中"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s008_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s008",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 1,
+   "stem": "有氧呼吸的主要场所是",
+   "explain": "线粒体是有氧呼吸第二、三阶段的场所，被称为细胞的「动力车间」。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿体",
+    "线粒体",
+    "核糖体",
+    "高尔基体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s008_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s008",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "分泌蛋白从合成到分泌出细胞，依次经过的结构是",
+   "explain": "核糖体合成肽链，内质网加工，高尔基体进一步加工分类包装，最后由囊泡运到细胞膜分泌。",
+   "answer_mode": "choice",
+   "options": [
+    "核糖体→内质网→高尔基体→细胞膜",
+    "核糖体→高尔基体→内质网→细胞膜",
+    "内质网→核糖体→溶酶体→细胞膜",
+    "高尔基体→内质网→核糖体→细胞膜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s008_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s008",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "下列细胞器中，不含膜结构的是",
+   "explain": "核糖体和中心体没有膜结构；线粒体、内质网、溶酶体、高尔基体都有膜。",
+   "answer_mode": "choice",
+   "options": [
+    "线粒体",
+    "内质网",
+    "核糖体",
+    "溶酶体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s009_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s009",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 1,
+   "stem": "细胞核内储存遗传信息的物质主要是",
+   "explain": "细胞核中的染色质主要由DNA和蛋白质组成，DNA是遗传信息的携带者。",
+   "answer_mode": "choice",
+   "options": [
+    "蛋白质",
+    "DNA",
+    "RNA",
+    "糖类"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s009_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s009",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "核孔的作用是",
+   "explain": "核孔是大分子物质（如mRNA、蛋白质）进出细胞核的通道，具有选择性。",
+   "answer_mode": "choice",
+   "options": [
+    "控制所有物质进出细胞核",
+    "实现核质之间频繁的物质交换和信息交流",
+    "合成蛋白质",
+    "储存遗传物质"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s009_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s009",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·细胞的基本结构",
+   "difficulty": 2,
+   "stem": "细胞核被称为细胞的「控制中心」，主要因为",
+   "explain": "细胞核中的DNA携带遗传信息，控制着细胞的代谢和遗传，故称控制中心。",
+   "answer_mode": "choice",
+   "options": [
+    "它是细胞中体积最大的结构",
+    "它含有DNA，是遗传信息库",
+    "它能合成所有蛋白质",
+    "它位于细胞中央"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s010_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s010",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 1,
+   "stem": "下列物质中通过自由扩散进入细胞的是",
+   "explain": "O2、CO2、甘油、乙醇等小分子脂溶性物质以自由扩散方式跨膜运输。",
+   "answer_mode": "choice",
+   "options": [
+    "葡萄糖",
+    "氧气",
+    "氨基酸",
+    "钠离子"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s010_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s010",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 2,
+   "stem": "发生质壁分离的条件是",
+   "explain": "外界溶液浓度大于细胞液时细胞失水，且原生质层比细胞壁伸缩性大，才会出现质壁分离。",
+   "answer_mode": "choice",
+   "options": [
+    "外界溶液浓度大于细胞液浓度",
+    "细胞壁比原生质层伸缩性大",
+    "细胞液浓度大于外界溶液浓度",
+    "细胞内缺水"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s010_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s010",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 2,
+   "stem": "自由扩散和协助扩散的共同点是",
+   "explain": "两者都是被动运输：顺浓度梯度、不消耗能量，区别在于协助扩散需要转运蛋白。",
+   "answer_mode": "choice",
+   "options": [
+    "都需要载体蛋白",
+    "都顺浓度梯度、不消耗能量",
+    "都需要消耗ATP",
+    "都能逆浓度梯度运输"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s011_q1",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s011",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 1,
+   "stem": "主动运输与被动运输最主要的区别是",
+   "explain": "主动运输可以逆浓度梯度进行，需要载体蛋白并消耗ATP，这是它的根本特点。",
+   "answer_mode": "choice",
+   "options": [
+    "是否逆浓度梯度、是否消耗能量",
+    "是否需要细胞膜",
+    "是否运输离子",
+    "运输速度的快慢"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s011_q2",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s011",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 2,
+   "stem": "大分子物质进入细胞的方式是",
+   "explain": "大分子如蛋白质、部分多糖通过胞吞、胞吐进出细胞，依赖膜的流动性并消耗能量。",
+   "answer_mode": "choice",
+   "options": [
+    "自由扩散",
+    "协助扩散",
+    "主动运输",
+    "胞吞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_s011_q3",
+   "type": "knowledge",
+   "skill": "细胞的分子与结构",
+   "topic": "cnb_s011",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·细胞的物质输入和输出",
+   "difficulty": 2,
+   "stem": "小肠上皮细胞吸收葡萄糖的过程属于",
+   "explain": "肠腔葡萄糖浓度低于细胞内时仍能继续吸收，靠主动运输逆浓度梯度、耗能完成。",
+   "answer_mode": "choice",
+   "options": [
+    "自由扩散",
+    "协助扩散",
+    "主动运输",
+    "胞吞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s012_q1",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s012",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 1,
+   "stem": "酶的催化作用机理是",
+   "explain": "酶通过降低化学反应的活化能，使反应在温和条件下容易发生，本身不被消耗。",
+   "answer_mode": "choice",
+   "options": [
+    "提供反应所需的能量",
+    "降低化学反应的活化能",
+    "改变反应的方向",
+    "增加反应的产物量"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s012_q2",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s012",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "酶具有专一性的原因是",
+   "explain": "酶的活性部位与底物结构特异性结合（类似钥匙与锁），因此一种酶通常只催化一种或一类反应。",
+   "answer_mode": "choice",
+   "options": [
+    "酶都是蛋白质",
+    "酶分子与底物的特定结构相互契合",
+    "酶能提供能量",
+    "酶的活性受温度影响"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s012_q3",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s012",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "ATP中易断裂并释放大量能量的化学键是",
+   "explain": "ATP分子简式A—P~P~P，其中「~」表示高能磷酸键，远离腺苷的高能磷酸键易断裂供能。",
+   "answer_mode": "choice",
+   "options": [
+    "腺苷与第一个磷酸之间的键",
+    "两个高能磷酸键",
+    "脱氧核糖与碱基之间的键",
+    "肽键"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s013_q1",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s013",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 1,
+   "stem": "有氧呼吸过程中产生ATP最多的阶段发生在",
+   "explain": "第三阶段[H]与O2结合生成水，在线粒体内膜上进行，释放大量能量、合成大量ATP。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞质基质",
+    "线粒体基质",
+    "线粒体内膜",
+    "细胞核"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s013_q2",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s013",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "人体剧烈运动时骨骼肌细胞无氧呼吸的产物是",
+   "explain": "人和动物细胞、乳酸菌无氧呼吸产生乳酸；酵母菌则产生酒精和CO2。",
+   "answer_mode": "choice",
+   "options": [
+    "酒精和CO2",
+    "乳酸",
+    "水和CO2",
+    "丙酮酸"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s013_q3",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s013",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "有氧呼吸第二阶段的场所和产物是",
+   "explain": "第二阶段丙酮酸和水在线粒体基质中彻底分解为CO2和[H]，释放少量能量。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞质基质，丙酮酸",
+    "线粒体基质，CO2和[H]",
+    "线粒体内膜，水",
+    "类囊体薄膜，ATP"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s014_q1",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s014",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 1,
+   "stem": "光合作用光反应的场所是",
+   "explain": "光反应在类囊体薄膜上进行，水的光解释放O2并产生[H]和ATP；暗反应在叶绿体基质。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿体基质",
+    "类囊体薄膜",
+    "线粒体内膜",
+    "细胞质基质"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s014_q2",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s014",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "叶绿素主要吸收的光是",
+   "explain": "叶绿素主要吸收红光和蓝紫光，类胡萝卜素主要吸收蓝紫光，绿光被大量反射故叶片显绿色。",
+   "answer_mode": "choice",
+   "options": [
+    "红光和蓝紫光",
+    "绿光和黄光",
+    "红外光",
+    "紫外光"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_s014_q3",
+   "type": "knowledge",
+   "skill": "细胞代谢",
+   "topic": "cnb_s014",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·细胞的能量供应和利用",
+   "difficulty": 2,
+   "stem": "暗反应中CO2首先与什么结合",
+   "explain": "CO2与C5结合生成两个C3，此过程叫CO2的固定，之后C3被[H]还原并重新生成C5。",
+   "answer_mode": "choice",
+   "options": [
+    "C3",
+    "C5",
+    "[H]",
+    "ATP"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s015_q1",
+   "type": "knowledge",
+   "skill": "细胞的生命历程",
+   "topic": "cnb_s015",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·细胞的生命历程",
+   "difficulty": 1,
+   "stem": "着丝粒分裂、姐妹染色单体分开发生在有丝分裂的",
+   "explain": "后期着丝粒一分为二，姐妹染色单体分开成为两条子染色体，分别移向细胞两极。",
+   "answer_mode": "choice",
+   "options": [
+    "前期",
+    "中期",
+    "后期",
+    "末期"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_s015_q2",
+   "type": "knowledge",
+   "skill": "细胞的生命历程",
+   "topic": "cnb_s015",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·细胞的生命历程",
+   "difficulty": 2,
+   "stem": "一个细胞周期是指",
+   "explain": "细胞周期指连续分裂的细胞从一次分裂完成时开始，到下一次分裂完成时为止。",
+   "answer_mode": "choice",
+   "options": [
+    "从一次分裂开始到下一次分裂开始",
+    "从一次分裂完成到下一次分裂完成",
+    "分裂期所占的时间",
+    "间期所占的时间"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_s015_q3",
+   "type": "knowledge",
+   "skill": "细胞的生命历程",
+   "topic": "cnb_s015",
+   "subject": "biology",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·细胞的生命历程",
+   "difficulty": 2,
+   "stem": "有丝分裂间期最重要的变化是",
+   "explain": "间期完成DNA复制和有关蛋白质的合成，为分裂期做物质准备，是细胞周期中最长的阶段。",
+   "answer_mode": "choice",
+   "options": [
+    "染色体数目加倍",
+    "DNA复制和有关蛋白质的合成",
+    "着丝粒分裂",
+    "细胞板形成"
+   ],
+   "answer": 2
+  }
+ ]
+}

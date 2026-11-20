@@ -35,6 +35,8 @@ local FALLBACK_EDITIONS = {
     -- 统编「老教材」只收了小学 1~6 与初三，高一~高三（以及初中 7~8）没有题库；
     -- 家长在设置里误选老教材时回落到现行统编版，别让语文整科消失。
     chinese = { "tongbian" },
+    -- 高中生物目前只收人教版（必修1/2、选必1~3），选其他版本的高中没有题库，回落人教版。
+    biology = { "renjiao" },
 }
 
 local function edition_for(resolved, subject)
