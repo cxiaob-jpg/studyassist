@@ -605,6 +605,19 @@ end
 -- 省市年级 -> 教材匹配结果（城市为空时返回 nil）。
 local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
 
+-- 城市 o 字段里记录的出版社名 → 插件物理版本 id（与 catalog/toc 目录一致）
+local OTHER_EDITION_ID = {
+    wuli = {
+        ["人教版"] = "renjiao",
+        ["北师大版"] = "bsd", ["北京版"] = "bsd_bj",
+        ["苏科版"] = "skb", ["教科版"] = "jkb",
+        ["沪科版"] = "hkb", ["沪科粤教版"] = "hkb_hy",
+        ["鲁科版"] = "lkb_ws", ["粤教版"] = "yjb", ["沪科教版"] = "hkjb",
+    },
+}
+-- 物理从八年级开始；低于此年级不自动设版本
+local OTHER_MIN_GRADE = { wuli = 8 }
+
 function MainView:city_match()
     local settings = self.progress.data.settings
     if not settings.city then return nil end
@@ -3824,6 +3837,28 @@ function MainView:apply_city_match(city_name, from_city, silent)
         end
     end
 
+    -- 物理等 o 字段学科：出版社名 → 版本 id，按年级下限自动设置
+    local grade = tonumber(settings.grade) or 0
+    local other_applied = {}
+    if match.other and next(match.other) then
+        for okey, publisher in pairs(match.other) do
+            local idmap = OTHER_EDITION_ID[okey]
+            local min_grade = OTHER_MIN_GRADE[okey]
+            if idmap and publisher and (not min_grade or grade >= min_grade) then
+                local eid = idmap[publisher]
+                local subject = okey == "wuli" and "physics" or nil
+                -- 只在该版本确实收录当前年级时才应用（如粤教版仅高中，初中不选用）
+                if eid and subject
+                    and Catalog.edition_covers(self.plugin_path, subject, eid, grade) then
+                    settings[subject .. "_edition"] = eid
+                    other_applied[okey] = true
+                    table.insert(applied, string.format("%s %s", self:subject_label(subject),
+                        self:edition_name_of(subject, eid)))
+                end
+            end
+        end
+    end
+
     self.progress:flush()
     local lines = {}
     if #applied > 0 then
@@ -3841,7 +3876,9 @@ function MainView:apply_city_match(city_name, from_city, silent)
         local other_label = { wuli = "物理", huaxue = "化学", shengwu = "生物",
                               lishi = "历史", dili = "地理" }
         for key, publisher in pairs(match.other) do
-            table.insert(other, (other_label[key] or key) .. publisher)
+            if not other_applied[key] then
+                table.insert(other, (other_label[key] or key) .. publisher)
+            end
         end
         table.sort(other)
         table.insert(lines, "其他学科：" .. table.concat(other, "、"))

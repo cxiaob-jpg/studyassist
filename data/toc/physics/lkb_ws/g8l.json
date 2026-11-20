@@ -1,0 +1,2277 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_physics_editions.py (keyword+family chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 鲁科版（五四制） 教材目录（2026-11-20 抓取）；知识点/题目复用通用物理题库",
+  "fetched": "2026-11-20"
+ },
+ "subject": "physics",
+ "grade": 8,
+ "semester": "lower",
+ "edition": "lkb_ws",
+ "edition_label": "鲁科版（五四制）",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第六章 力与运动"
+  },
+  {
+   "id": "u2",
+   "name": "第七章 压强"
+  },
+  {
+   "id": "u3",
+   "name": "第八章 浮力"
+  },
+  {
+   "id": "u4",
+   "name": "第九章 简单机械"
+  },
+  {
+   "id": "u5",
+   "name": "第十章 功与能"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnp_029",
+   "name": "力",
+   "domain": "运动和相互作用",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "知道力是物体对物体的作用，物体间力的作用是相互的；知道力可以改变物体的运动状态和形状；知道力的三要素，会画力的示意图，力的单位是牛顿（N）。",
+   "mastery_criteria": [
+    "能说出力的作用效果",
+    "知道物体间力的作用是相互的",
+    "知道力的三要素并会画力的示意图"
+   ],
+   "example": {
+    "question": "力的单位是什么？",
+    "answer": "牛顿（N）"
+   }
+  },
+  {
+   "id": "cnp_030",
+   "name": "弹力",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "知道弹性和弹力，知道在弹性限度内弹簧伸长量与拉力成正比，会正确使用弹簧测力计测量力。",
+   "mastery_criteria": [
+    "能说出弹力产生的条件",
+    "会正确使用并读取弹簧测力计",
+    "知道弹簧伸长量与拉力成正比（弹性限度内）"
+   ],
+   "example": {
+    "question": "下列力中不属于弹力的是哪一个？",
+    "answer": "地球对物体的吸引力"
+   }
+  },
+  {
+   "id": "cnp_031",
+   "name": "重力",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "知道重力是由于地球的吸引而使物体受到的力，方向竖直向下，作用点在重心；知道 G = mg，g 约为 9.8 N/kg（题中常取 10 N/kg）。",
+   "mastery_criteria": [
+    "能用 G = mg 计算重力或质量",
+    "知道重力方向竖直向下并说出应用",
+    "能区分质量和重力"
+   ],
+   "example": {
+    "question": "质量为 50 kg 的同学，受到的重力是多少 N？（g 取 10 N/kg，只填数值）",
+    "answer": "500"
+   }
+  },
+  {
+   "id": "cnp_032",
+   "name": "牛顿第一定律",
+   "domain": "运动和相互作用",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "通过阻力对物体运动影响的实验和科学推理认识牛顿第一定律；知道一切物体都有惯性，惯性只与质量有关，能用惯性解释生活现象。",
+   "mastery_criteria": [
+    "能说出牛顿第一定律及其得出方法（实验 + 推理）",
+    "知道惯性大小只与质量有关",
+    "能用惯性解释急刹车、安全带等现象"
+   ],
+   "example": {
+    "question": "一切物体在没有受到力的作用时，总保持什么状态？",
+    "answer": "静止状态或匀速直线运动状态"
+   }
+  },
+  {
+   "id": "cnp_033",
+   "name": "二力平衡",
+   "domain": "运动和相互作用",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "知道平衡状态和平衡力，知道二力平衡的条件：作用在同一物体上，大小相等、方向相反、作用在同一直线上；能区分平衡力与相互作用力。",
+   "mastery_criteria": [
+    "能说出二力平衡的四个条件",
+    "能区分平衡力与相互作用力",
+    "会用二力平衡求未知力"
+   ],
+   "example": {
+    "question": "静止在水平桌面上的书，受到的平衡力是哪一对？",
+    "answer": "书受到的重力和桌面对书的支持力"
+   }
+  },
+  {
+   "id": "cnp_034",
+   "name": "摩擦力",
+   "domain": "运动和相互作用",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "知道摩擦力，探究并了解滑动摩擦力大小与压力大小和接触面粗糙程度有关；知道增大和减小摩擦的方法。",
+   "mastery_criteria": [
+    "能说出影响滑动摩擦力大小的两个因素",
+    "知道测滑动摩擦力要匀速直线拉动木块",
+    "能判断增大或减小摩擦的方法"
+   ],
+   "example": {
+    "question": "滑动摩擦力的大小与下列哪个因素有关？",
+    "answer": "接触面的粗糙程度"
+   }
+  },
+  {
+   "id": "cnp_035",
+   "name": "同一直线上二力的合成",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "description": "了解合力的概念，知道同一直线上方向相同的两个力的合力等于二力之和，方向相反时等于二力之差、方向与较大的力相同。",
+   "mastery_criteria": [
+    "会求同一直线上同向两力的合力",
+    "会求同一直线上反向两力的合力并判断方向"
+   ],
+   "example": {
+    "question": "同一直线上方向相同的 3 N 和 5 N 两个力，合力是多少？",
+    "answer": "8 N"
+   }
+  },
+  {
+   "id": "cnp_036",
+   "name": "压强",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "description": "理解压强 p = F/S，单位帕斯卡（Pa），知道增大和减小压强的方法；会计算固体压强。",
+   "mastery_criteria": [
+    "能用 p = F/S 计算并统一单位（面积用 m²）",
+    "能判断增大或减小压强的方法",
+    "知道压力作用效果与压力和受力面积有关"
+   ],
+   "example": {
+    "question": "压强的单位是什么？",
+    "answer": "帕斯卡（Pa）"
+   }
+  },
+  {
+   "id": "cnp_037",
+   "name": "液体的压强",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "description": "知道液体内部向各个方向都有压强；探究并了解液体压强与深度和液体密度有关，p = ρgh；了解连通器及其应用。",
+   "mastery_criteria": [
+    "知道液体压强随深度增加而增大，与液体密度有关",
+    "会用 p = ρgh 计算（h 是到自由液面的竖直距离）",
+    "能举出连通器的应用"
+   ],
+   "example": {
+    "question": "水深 2 m 处，水产生的压强是多少 Pa？（ρ水 = 1.0×10³ kg/m³，g 取 10 N/kg，只填数值）",
+    "answer": "20000"
+   }
+  },
+  {
+   "id": "cnp_038",
+   "name": "大气压强",
+   "domain": "运动和相互作用",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "description": "知道大气压强的存在，了解托里拆利实验和标准大气压（约 1.013×10⁵ Pa，相当于 760 mm 水银柱），知道大气压随高度增加而减小及其与生活的关系。",
+   "mastery_criteria": [
+    "能举例说明大气压的存在",
+    "知道标准大气压的数值",
+    "知道大气压随海拔升高而减小"
+   ],
+   "example": {
+    "question": "首先证明大气压存在的著名实验是什么？",
+    "answer": "马德堡半球实验"
+   }
+  },
+  {
+   "id": "cnp_039",
+   "name": "跨学科实践：制作简易活塞式抽水机",
+   "domain": "跨学科实践",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "description": "了解活塞式抽水机利用大气压把水抽上来的原理，动手制作简易抽水机，知道它能把水抽高的高度受大气压限制。",
+   "mastery_criteria": [
+    "能说出活塞式抽水机的工作原理",
+    "知道在 1 个标准大气压下抽水高度约为 10 m"
+   ],
+   "example": {
+    "question": "活塞式抽水机是利用什么把水抽上来的？",
+    "answer": "大气压"
+   }
+  },
+  {
+   "id": "cnp_040",
+   "name": "流体压强与流速的关系",
+   "domain": "运动和相互作用",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "description": "知道流体在流速大的地方压强小、流速小的地方压强大，能解释飞机升力、站台安全线等现象。",
+   "mastery_criteria": [
+    "能说出流体压强与流速的关系",
+    "能用它解释飞机升力和安全线等现象"
+   ],
+   "example": {
+    "question": "流体中流速越大的位置，压强怎样？",
+    "answer": "越小"
+   }
+  },
+  {
+   "id": "cnp_041",
+   "name": "浮力",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "description": "知道浮力的方向竖直向上，浮力产生的原因是液体对物体上下表面的压力差；会用称重法测浮力；探究并了解浮力大小与排开液体的体积和液体密度有关。",
+   "mastery_criteria": [
+    "会用称重法 F浮 = G - F示 求浮力",
+    "知道浮力方向竖直向上",
+    "知道浮力大小与 V排 和 ρ液 有关，与浸没深度无关"
+   ],
+   "example": {
+    "question": "浮力的方向是怎样的？",
+    "answer": "竖直向上"
+   }
+  },
+  {
+   "id": "cnp_042",
+   "name": "阿基米德原理",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "description": "知道阿基米德原理：浸在液体中的物体受到向上的浮力，大小等于它排开液体所受的重力，F浮 = G排 = ρ液 g V排。",
+   "mastery_criteria": [
+    "能说出阿基米德原理",
+    "会用 F浮 = ρ液 g V排 计算",
+    "知道 V排 与物体体积的关系（浸没时相等）"
+   ],
+   "example": {
+    "question": "根据阿基米德原理，物体受到的浮力大小等于什么？",
+    "answer": "它排开的液体所受的重力"
+   }
+  },
+  {
+   "id": "cnp_043",
+   "name": "物体的浮沉条件及应用",
+   "domain": "运动和相互作用",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "description": "知道物体的浮沉条件（比较 F浮 与 G，或 ρ物 与 ρ液），知道漂浮时 F浮 = G，了解轮船、潜水艇、气球、密度计的原理。",
+   "mastery_criteria": [
+    "能用浮力与重力或密度比较判断浮沉",
+    "知道漂浮、悬浮时 F浮 = G",
+    "能说出潜水艇靠改变自身重力实现浮沉"
+   ],
+   "example": {
+    "question": "实心物体的密度小于液体密度时，放入液体中最终会怎样？",
+    "answer": "漂浮"
+   }
+  },
+  {
+   "id": "cnp_045",
+   "name": "功",
+   "domain": "能量",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "description": "知道做功的两个必要因素（作用在物体上的力、物体在力的方向上移动的距离），会用 W = Fs 计算，单位焦耳（J）。",
+   "mastery_criteria": [
+    "能判断力是否对物体做功",
+    "会用 W = Fs 计算功"
+   ],
+   "example": {
+    "question": "下列情况中，人对物体做了功的是哪一个？",
+    "answer": "把箱子从地面搬到桌上"
+   }
+  },
+  {
+   "id": "cnp_046",
+   "name": "功率",
+   "domain": "能量",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "description": "知道功率表示做功的快慢，P = W/t，单位瓦特（W）；能推导并使用 P = Fv。",
+   "mastery_criteria": [
+    "会用 P = W/t 计算功率",
+    "能区分功和功率",
+    "会用 P = Fv 进行简单计算"
+   ],
+   "example": {
+    "question": "功率是表示什么的物理量？",
+    "answer": "做功快慢"
+   }
+  },
+  {
+   "id": "cnp_047",
+   "name": "动能和势能",
+   "domain": "能量",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "description": "知道动能、重力势能、弹性势能；知道动能与质量和速度有关，重力势能与质量和高度有关，弹性势能与弹性形变程度有关。",
+   "mastery_criteria": [
+    "能说出影响动能、重力势能大小的因素",
+    "能用控制变量法分析探究动能大小的实验"
+   ],
+   "example": {
+    "question": "动能的大小与哪些因素有关？",
+    "answer": "质量和速度"
+   }
+  },
+  {
+   "id": "cnp_048",
+   "name": "机械能及其转化",
+   "domain": "能量",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "description": "知道机械能是动能和势能的总和，能分析动能和势能的相互转化，知道只有动能和势能相互转化时机械能守恒。",
+   "mastery_criteria": [
+    "能分析滚摆、单摆、人造卫星等过程中的能量转化",
+    "知道不计空气阻力时机械能守恒"
+   ],
+   "example": {
+    "question": "苹果从树上加速下落，能量是怎样转化的？",
+    "answer": "重力势能转化为动能"
+   }
+  },
+  {
+   "id": "cnp_049",
+   "name": "杠杆",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "description": "知道杠杆的五要素，会画力臂；探究并了解杠杆的平衡条件 F₁l₁ = F₂l₂；能区分省力杠杆、费力杠杆和等臂杠杆。",
+   "mastery_criteria": [
+    "会找支点、画力臂（支点到力的作用线的距离）",
+    "会用 F₁l₁ = F₂l₂ 计算",
+    "能判断省力杠杆、费力杠杆"
+   ],
+   "example": {
+    "question": "下列工具中属于费力杠杆的是哪一个？",
+    "answer": "钓鱼竿"
+   }
+  },
+  {
+   "id": "cnp_050",
+   "name": "跨学科实践：制作简易杆秤",
+   "domain": "跨学科实践",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "description": "运用杠杆平衡条件设计并制作简易杆秤，确定定盘星（零刻度）和刻度，了解我国古代杆秤的智慧。",
+   "mastery_criteria": [
+    "能用杠杆平衡条件说明杆秤的原理",
+    "知道杆秤的刻度是均匀的"
+   ],
+   "example": {
+    "question": "杆秤是利用什么原理称量物体质量的？",
+    "answer": "杠杆平衡条件"
+   }
+  },
+  {
+   "id": "cnp_051",
+   "name": "滑轮",
+   "domain": "运动和相互作用",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "description": "知道定滑轮不省力但能改变力的方向，动滑轮能省一半力但费距离；会分析滑轮组的承重绳子段数，F = (G物 + G动)/n，s = nh。",
+   "mastery_criteria": [
+    "能说出定滑轮、动滑轮的特点",
+    "会数滑轮组承担物重的绳子段数 n",
+    "会用 F = (G + G动)/n 和 s = nh 计算"
+   ],
+   "example": {
+    "question": "旗杆顶部的滑轮是什么滑轮？它有什么作用？",
+    "answer": "定滑轮，改变力的方向"
+   }
+  },
+  {
+   "id": "cnp_052",
+   "name": "机械效率",
+   "domain": "能量",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "description": "知道有用功、额外功、总功，知道机械效率 η = W有/W总，机械效率总小于 1；了解提高机械效率的方法。",
+   "mastery_criteria": [
+    "能区分有用功、额外功和总功",
+    "会计算滑轮组、斜面的机械效率",
+    "能说出提高机械效率的方法"
+   ],
+   "example": {
+    "question": "使用任何机械时，机械效率总是怎样？",
+    "answer": "小于 1（100%）"
+   }
+  },
+  {
+   "id": "cnp_056",
+   "name": "能量的转化与守恒",
+   "domain": "能量",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "description": "知道能量既不会凭空消灭，也不会凭空产生，只会从一种形式转化为其他形式或从一个物体转移到其他物体，总量保持不变；知道永动机不可能实现。",
+   "mastery_criteria": [
+    "能说出能量守恒定律",
+    "能分析常见过程中的能量转化",
+    "能解释永动机为什么不可能实现"
+   ],
+   "example": {
+    "question": "能量守恒定律指出，在能量转化和转移的过程中，能量的总量怎样？",
+    "answer": "保持不变"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnp_029_q1",
+   "topic": "cnp_029",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "力的单位是什么？",
+   "explain": "力的单位是牛顿，简称牛，符号 N；千克是质量单位。",
+   "answer_mode": "choice",
+   "options": [
+    "千克（kg）",
+    "帕斯卡（Pa）",
+    "焦耳（J）",
+    "牛顿（N）"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_029_q2",
+   "topic": "cnp_029",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "游泳时人向后划水，人却向前进，说明了什么？",
+   "explain": "手向后推水，水同时向前推手，物体间力的作用是相互的。",
+   "answer_mode": "choice",
+   "options": [
+    "力能改变物体的形状",
+    "物体间力的作用是相互的",
+    "力的作用效果与大小无关",
+    "人不受力也能前进"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_029_q3",
+   "topic": "cnp_029",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "用力推门，推门的位置离门轴越远越容易推开，说明力的作用效果与什么有关？",
+   "explain": "推力的大小、方向不变，只改变推的位置，效果不同，说明作用效果与作用点有关。",
+   "answer_mode": "choice",
+   "options": [
+    "力的作用点",
+    "力的大小",
+    "力的方向",
+    "门的质量"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_029_q4",
+   "topic": "cnp_029",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "下列现象中，力改变了物体运动状态的是哪一个？",
+   "explain": "足球由运动变为静止，运动状态改变；其余三项是改变物体形状。",
+   "answer_mode": "choice",
+   "options": [
+    "用力把弹簧拉长",
+    "用力捏橡皮泥",
+    "风把小树吹弯",
+    "守门员接住飞来的足球"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_030_q1",
+   "topic": "cnp_030",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "下列力中不属于弹力的是哪一个？",
+   "explain": "弹力是物体发生弹性形变时产生的力；地球对物体的吸引力是重力。",
+   "answer_mode": "choice",
+   "options": [
+    "绳子对物体的拉力",
+    "地球对物体的吸引力",
+    "桌面对书的支持力",
+    "手对弹簧的拉力"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_030_q2",
+   "topic": "cnp_030",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "弹簧测力计是根据什么原理制成的？",
+   "explain": "是伸长量（不是总长度）与拉力成正比。",
+   "answer_mode": "choice",
+   "options": [
+    "在弹性限度内，弹簧的伸长量与拉力成正比",
+    "弹簧的长度与拉力成正比",
+    "弹簧的质量与拉力成正比",
+    "弹簧越长弹力越小"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_030_q4",
+   "topic": "cnp_030",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "两个人同时用 5 N 的力向两端拉一个弹簧测力计，测力计的示数是多少？",
+   "explain": "测力计示数等于挂钩上受到的拉力 5 N；另一端的力只是使它保持平衡。",
+   "answer_mode": "choice",
+   "options": [
+    "5 N",
+    "10 N",
+    "0 N",
+    "2.5 N"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_031_q1",
+   "topic": "cnp_031",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "质量为 50 kg 的同学，受到的重力是多少 N？（g 取 10 N/kg，只填数值）",
+   "explain": "G = mg = 50 kg × 10 N/kg = 500 N。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 500
+  },
+  {
+   "id": "cnp_031_q2",
+   "topic": "cnp_031",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "重力的方向是怎样的？",
+   "explain": "重力方向总是竖直向下；在斜面上“垂直于斜面向下”不对。建筑工人用重垂线检查墙是否竖直。",
+   "answer_mode": "choice",
+   "options": [
+    "竖直向下",
+    "垂直向下",
+    "垂直于地面向下",
+    "指向运动方向"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_031_q3",
+   "topic": "cnp_031",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "宇航员把一块 2 kg 的岩石从月球带回地球，岩石的质量和重力怎样变化？",
+   "explain": "质量是物体的属性，不随位置改变；地球上 g 比月球大，所以重力变大。",
+   "answer_mode": "choice",
+   "options": [
+    "质量和重力都变大",
+    "质量变大，重力不变",
+    "质量不变，重力变大",
+    "质量和重力都不变"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_031_q4",
+   "topic": "cnp_031",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "一个物体重 30 N，它的质量是多少？（g 取 10 N/kg）",
+   "explain": "m = G/g = 30 ÷ 10 = 3 kg。",
+   "answer_mode": "choice",
+   "options": [
+    "300 kg",
+    "30 kg",
+    "0.3 kg",
+    "3 kg"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_032_q1",
+   "topic": "cnp_032",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "一切物体在没有受到力的作用时，总保持什么状态？",
+   "explain": "这是牛顿第一定律：原来静止的保持静止，原来运动的保持匀速直线运动。",
+   "answer_mode": "choice",
+   "options": [
+    "静止状态或匀速直线运动状态",
+    "静止状态",
+    "匀速直线运动状态",
+    "慢慢停下来"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_032_q2",
+   "topic": "cnp_032",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "下列关于惯性的说法正确的是哪一个？",
+   "explain": "惯性是物体的属性，大小只与质量有关，与速度无关；安全带减小的是惯性带来的危害。",
+   "answer_mode": "choice",
+   "options": [
+    "运动的物体才有惯性",
+    "速度越大惯性越大",
+    "系安全带可以减小惯性",
+    "一切物体都有惯性"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_032_q3",
+   "topic": "cnp_032",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "牛顿第一定律是怎样得出的？",
+   "explain": "现实中不存在完全不受力的物体，牛顿第一定律是在实验基础上推理得出的。",
+   "answer_mode": "choice",
+   "options": [
+    "在实验基础上经过科学推理得出",
+    "直接由实验得出",
+    "凭空想象得出",
+    "由数学计算得出"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_032_q4",
+   "topic": "cnp_032",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "汽车急刹车时，车内乘客会向哪个方向倾倒？",
+   "explain": "刹车时脚随车停下，上身由于惯性保持原来的运动状态，所以向前倾。",
+   "answer_mode": "choice",
+   "options": [
+    "向前倾",
+    "向后倒",
+    "向左倒",
+    "不会倾倒"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_033_q3",
+   "topic": "cnp_033",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "用 20 N 的水平力推着木箱在水平地面上匀速直线运动，木箱受到的摩擦力是多少？",
+   "explain": "匀速直线运动是平衡状态，推力和摩擦力是一对平衡力，摩擦力等于 20 N。",
+   "answer_mode": "choice",
+   "options": [
+    "0 N",
+    "20 N",
+    "大于 20 N",
+    "小于 20 N"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_033_q4",
+   "topic": "cnp_033",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "下列物体中处于平衡状态的是哪一个？",
+   "explain": "平衡状态是静止或匀速直线运动；转弯时方向在变，最高点小球只受重力，都不是平衡状态。",
+   "answer_mode": "choice",
+   "options": [
+    "正在加速起飞的飞机",
+    "在弯道上匀速转弯的汽车",
+    "竖直上抛到最高点的小球",
+    "在平直公路上匀速直线行驶的汽车"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_034_q1",
+   "topic": "cnp_034",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "滑动摩擦力的大小与下列哪个因素有关？",
+   "explain": "滑动摩擦力与压力大小和接触面粗糙程度有关，与速度、接触面积无关。",
+   "answer_mode": "choice",
+   "options": [
+    "物体运动的速度",
+    "接触面积的大小",
+    "接触面的粗糙程度",
+    "物体的体积"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_034_q2",
+   "topic": "cnp_034",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "自行车轮胎上有凹凸不平的花纹，目的是什么？",
+   "explain": "花纹增大接触面的粗糙程度，从而增大摩擦。",
+   "answer_mode": "choice",
+   "options": [
+    "增大摩擦",
+    "减小摩擦",
+    "减小压强",
+    "使车更美观"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_034_q4",
+   "topic": "cnp_034",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "下列做法中，属于减小摩擦的是哪一个？",
+   "explain": "加润滑油使接触面分离，减小摩擦；其余都是增大摩擦。",
+   "answer_mode": "choice",
+   "options": [
+    "冬天在结冰的路面上撒沙子",
+    "用力捏自行车车闸",
+    "鞋底做出花纹",
+    "给门轴加润滑油"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_035_q3",
+   "topic": "cnp_035",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "竖直向上抛出一个重 2 N 的小球，上升时受到的空气阻力是 0.5 N，小球受到的合力是多少 N？（只填数值）",
+   "explain": "上升时重力向下，阻力也向下（与运动方向相反），合力 = 2 + 0.5 = 2.5 N，方向竖直向下。",
+   "answer_mode": "number",
+   "answer_format": "decimal",
+   "answer": 2.5
+  },
+  {
+   "id": "cnp_035_q4",
+   "topic": "cnp_035",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u1",
+   "unit_name": "第六章 力与运动",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "用 30 N 的力竖直向上提一个重 50 N 的物体，没有提起，物体所受合力是多少？",
+   "explain": "物体静止，处于平衡状态，合力为 0（地面还提供了 20 N 的支持力）。",
+   "answer_mode": "choice",
+   "options": [
+    "20 N",
+    "0 N",
+    "80 N",
+    "30 N"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_036_q1",
+   "topic": "cnp_036",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "压强的单位是什么？",
+   "explain": "压强的单位是帕斯卡，1 Pa = 1 N/m²。",
+   "answer_mode": "choice",
+   "options": [
+    "帕斯卡（Pa）",
+    "牛顿（N）",
+    "千克（kg）",
+    "焦耳（J）"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_036_q2",
+   "topic": "cnp_036",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "下列做法中，为了增大压强的是哪一个？",
+   "explain": "压力一定时，减小受力面积可以增大压强；其余三项都是增大受力面积、减小压强。",
+   "answer_mode": "choice",
+   "options": [
+    "书包带做得较宽",
+    "菜刀的刀刃磨得很薄",
+    "铁轨下铺枕木",
+    "坦克装有宽大的履带"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_036_q3",
+   "topic": "cnp_036",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "一个重 600 N 的人双脚站在水平地面上，每只脚与地面的接触面积为 0.02 m²，他对地面的压强是多少 Pa？（只填数值）",
+   "explain": "受力面积 S = 2 × 0.02 = 0.04 m²，p = F/S = 600 ÷ 0.04 = 15000 Pa。只算一只脚会得到 30000 Pa。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 15000
+  },
+  {
+   "id": "cnp_036_q4",
+   "topic": "cnp_036",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 3,
+   "stem": "压力 50 N 作用在 100 cm² 的面积上，压强是多少？",
+   "explain": "100 cm² = 0.01 m²，p = 50 ÷ 0.01 = 5000 Pa。不换算面积会算成 0.5 Pa。",
+   "answer_mode": "choice",
+   "options": [
+    "5000 Pa",
+    "0.5 Pa",
+    "50 Pa",
+    "5000 N"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_037_q1",
+   "topic": "cnp_037",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "水深 2 m 处，水产生的压强是多少 Pa？（ρ水 = 1.0×10³ kg/m³，g 取 10 N/kg，只填数值）",
+   "explain": "p = ρgh = 1000 × 10 × 2 = 20000 Pa。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 20000
+  },
+  {
+   "id": "cnp_037_q3",
+   "topic": "cnp_037",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "下列装置中，不是利用连通器原理工作的是哪一个？",
+   "explain": "茶壶、船闸、锅炉水位计都是上端开口、下部连通的连通器；注射器吸药液利用大气压。",
+   "answer_mode": "choice",
+   "options": [
+    "茶壶",
+    "船闸",
+    "锅炉水位计",
+    "注射器吸药液"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_038_q1",
+   "topic": "cnp_038",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "首先证明大气压存在的著名实验是什么？",
+   "explain": "马德堡半球实验证明了大气压的存在；托里拆利实验测出了大气压的值。",
+   "answer_mode": "choice",
+   "options": [
+    "托里拆利实验",
+    "伽利略斜面实验",
+    "奥斯特实验",
+    "马德堡半球实验"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_038_q2",
+   "topic": "cnp_038",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "用吸管吸饮料，饮料是被什么压进嘴里的？",
+   "explain": "吸气使管内气压减小，外界大气压把饮料压进嘴里。",
+   "answer_mode": "choice",
+   "options": [
+    "嘴的吸力",
+    "饮料的重力",
+    "吸管的弹力",
+    "大气压"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_038_q4",
+   "topic": "cnp_038",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "登山运动员登上高山后，大气压会怎样变化？",
+   "explain": "大气压随海拔高度增加而减小。",
+   "answer_mode": "choice",
+   "options": [
+    "增大",
+    "不变",
+    "减小",
+    "先减小后增大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_039_q1",
+   "topic": "cnp_039",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 1,
+   "stem": "活塞式抽水机是利用什么把水抽上来的？",
+   "explain": "活塞上提时下方气压减小，外界大气压把水压入圆筒。",
+   "answer_mode": "choice",
+   "options": [
+    "大气压",
+    "水的重力",
+    "活塞的推力",
+    "水的浮力"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_039_q2",
+   "topic": "cnp_039",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 1,
+   "stem": "在 1 个标准大气压下，活塞式抽水机最多能把水抽到大约多高？",
+   "explain": "1 个标准大气压能支持约 10.3 m 高的水柱，所以抽水高度约 10 m。",
+   "answer_mode": "choice",
+   "options": [
+    "76 cm",
+    "100 m",
+    "10 m",
+    "1 m"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_039_q3",
+   "topic": "cnp_039",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 2,
+   "stem": "自制抽水机的活塞与筒壁间漏气，会出现什么问题？",
+   "explain": "漏气时活塞下方气压不能足够减小，大气压压上来的水就少，甚至抽不上来。",
+   "answer_mode": "choice",
+   "options": [
+    "抽得更快",
+    "水会变热",
+    "抽不上水或抽水高度变小",
+    "没有影响"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_039_q4",
+   "topic": "cnp_039",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 2,
+   "stem": "在高原上使用同一台活塞式抽水机，最大抽水高度会怎样？",
+   "explain": "高原上大气压较小，能支持的水柱高度变小。",
+   "answer_mode": "choice",
+   "options": [
+    "变大",
+    "不变",
+    "变小",
+    "先变大后变小"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_040_q1",
+   "topic": "cnp_040",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "流体中流速越大的位置，压强怎样？",
+   "explain": "流体在流速大的地方压强小。",
+   "answer_mode": "choice",
+   "options": [
+    "越大",
+    "不变",
+    "与流速无关",
+    "越小"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_040_q2",
+   "topic": "cnp_040",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "火车站台上设置安全线，乘客必须站在安全线以外，原因是什么？",
+   "explain": "人与列车之间空气流速大、压强小，人外侧压强大，会把人推向列车。",
+   "answer_mode": "choice",
+   "options": [
+    "列车驶过时空气流速小、压强大",
+    "列车会把人吸过去是因为磁力",
+    "防止人被列车的灯光晃到",
+    "列车驶过时，人和车之间空气流速大、压强小"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_040_q4",
+   "topic": "cnp_040",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u2",
+   "unit_name": "第七章 压强",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "向两张自然下垂的纸中间吹气，两张纸会怎样运动？",
+   "explain": "中间空气流速大、压强小，外侧压强大，把纸压向中间。",
+   "answer_mode": "choice",
+   "options": [
+    "向中间靠拢",
+    "向两边分开",
+    "保持不动",
+    "一起向前飘"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_041_q1",
+   "topic": "cnp_041",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "浮力的方向是怎样的？",
+   "explain": "浮力方向总是竖直向上。",
+   "answer_mode": "choice",
+   "options": [
+    "垂直向上",
+    "竖直向上",
+    "与重力方向相同",
+    "指向液体流动方向"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_041_q3",
+   "topic": "cnp_041",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "物体浸没在水中后继续往下移动（未触底），它受到的浮力怎样变化？",
+   "explain": "浸没后排开水的体积不变，浮力不变，浮力与浸没的深度无关。",
+   "answer_mode": "choice",
+   "options": [
+    "变大",
+    "变小",
+    "先变大后变小",
+    "不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_042_q1",
+   "topic": "cnp_042",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "根据阿基米德原理，物体受到的浮力大小等于什么？",
+   "explain": "F浮 = G排，是排开液体的重力，不是物体自身的重力。",
+   "answer_mode": "choice",
+   "options": [
+    "物体所受的重力",
+    "物体的质量",
+    "它排开的液体所受的重力",
+    "液体的总重力"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_042_q2",
+   "topic": "cnp_042",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "体积为 2×10⁻⁴ m³ 的铁块浸没在水中，受到的浮力是多少 N？（g 取 10 N/kg，只填数值）",
+   "explain": "F浮 = ρ水 g V排 = 1000 × 10 × 2×10⁻⁴ = 2 N。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 2
+  },
+  {
+   "id": "cnp_042_q3",
+   "topic": "cnp_042",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "同一个铁块分别浸没在水和酒精中，在哪种液体中受到的浮力大？",
+   "explain": "V排 相同，水的密度比酒精大，由 F浮 = ρ液 g V排 知在水中浮力大。",
+   "answer_mode": "choice",
+   "options": [
+    "酒精中",
+    "一样大",
+    "水中",
+    "无法判断"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_042_q4",
+   "topic": "cnp_042",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 3,
+   "stem": "一个物体浸没在水中受到 5 N 的浮力，它的体积是多少？（g 取 10 N/kg）",
+   "explain": "V = V排 = F浮/(ρ水 g) = 5 ÷ (1000 × 10) = 5×10⁻⁴ m³。",
+   "answer_mode": "choice",
+   "options": [
+    "5×10⁻³ m³",
+    "5 m³",
+    "0.5 m³",
+    "5×10⁻⁴ m³"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_043_q1",
+   "topic": "cnp_043",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "实心物体的密度小于液体密度时，放入液体中最终会怎样？",
+   "explain": "ρ物 < ρ液 时上浮，最终漂浮；ρ物 = ρ液 时悬浮；ρ物 > ρ液 时下沉。",
+   "answer_mode": "choice",
+   "options": [
+    "下沉",
+    "悬浮",
+    "漂浮",
+    "沉底"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_043_q2",
+   "topic": "cnp_043",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "潜水艇是靠改变什么来实现上浮和下沉的？",
+   "explain": "潜水艇浸没时浮力不变，通过向水舱充水或排水改变自身重力。",
+   "answer_mode": "choice",
+   "options": [
+    "受到的浮力",
+    "海水的密度",
+    "自身的重力",
+    "自身的体积"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_043_q3",
+   "topic": "cnp_043",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "一艘轮船从长江驶入大海，它受到的浮力怎样变化？",
+   "explain": "轮船始终漂浮，F浮 = G船，重力不变，浮力不变；海水密度大，船会上浮一些。",
+   "answer_mode": "choice",
+   "options": [
+    "变大",
+    "不变",
+    "变小",
+    "无法判断"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_043_q4",
+   "topic": "cnp_043",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u3",
+   "unit_name": "第八章 浮力",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "一个重 6 N 的木块漂浮在水面上，它受到的浮力是多少？",
+   "explain": "漂浮时浮力等于重力，F浮 = 6 N。",
+   "answer_mode": "choice",
+   "options": [
+    "大于 6 N",
+    "小于 6 N",
+    "6 N",
+    "0 N"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_045_q1",
+   "topic": "cnp_045",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "下列情况中，人对物体做了功的是哪一个？",
+   "explain": "做功要有力且在力的方向上移动距离；提桶水平走时力竖直、移动水平，不做功。",
+   "answer_mode": "choice",
+   "options": [
+    "把箱子从地面搬到桌上",
+    "提着水桶在水平路面上匀速行走",
+    "用力推汽车，汽车没动",
+    "举着杠铃静止不动"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_045_q2",
+   "topic": "cnp_045",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "用 50 N 的水平推力把箱子沿水平地面推动 4 m，推力做的功是多少 J？（只填数值）",
+   "explain": "W = Fs = 50 × 4 = 200 J。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 200
+  },
+  {
+   "id": "cnp_045_q3",
+   "topic": "cnp_045",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "把重 20 N 的书包从地面提到 1.5 m 高的桌面上，人对书包至少做功多少 J？（只填数值）",
+   "explain": "W = Gh = 20 × 1.5 = 30 J。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 30
+  },
+  {
+   "id": "cnp_045_q4",
+   "topic": "cnp_045",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "足球被踢出后在草地上滚动了 20 m，在滚动过程中，脚对足球做的功是多少？",
+   "explain": "足球滚动时脚已经离开球，不再对球施力，脚对球不做功。",
+   "answer_mode": "choice",
+   "options": [
+    "无法计算",
+    "等于足球重力乘以 20 m",
+    "0 J",
+    "等于踢力乘以 20 m"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_046_q1",
+   "topic": "cnp_046",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "功率是表示什么的物理量？",
+   "explain": "功率表示做功的快慢，做功多不一定功率大。",
+   "answer_mode": "choice",
+   "options": [
+    "做功多少",
+    "做功快慢",
+    "力的大小",
+    "能量多少"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_046_q2",
+   "topic": "cnp_046",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "起重机在 10 s 内做了 5×10⁴ J 的功，它的功率是多少 W？（只填数值）",
+   "explain": "P = W/t = 50000 ÷ 10 = 5000 W。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 5000
+  },
+  {
+   "id": "cnp_046_q3",
+   "topic": "cnp_046",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "汽车上坡时司机通常换低速挡，目的是什么？",
+   "explain": "由 P = Fv，功率一定时速度越小牵引力越大。",
+   "answer_mode": "choice",
+   "options": [
+    "增大功率",
+    "节省燃油",
+    "功率一定时，减小速度来增大牵引力",
+    "增大速度"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_046_q4",
+   "topic": "cnp_046",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "汽车以 20 m/s 的速度匀速行驶，牵引力为 3000 N，发动机的功率是多少 W？（只填数值）",
+   "explain": "P = Fv = 3000 × 20 = 60000 W。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 60000
+  },
+  {
+   "id": "cnp_047_q1",
+   "topic": "cnp_047",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "动能的大小与哪些因素有关？",
+   "explain": "物体质量越大、速度越大，动能越大。",
+   "answer_mode": "choice",
+   "options": [
+    "质量和高度",
+    "速度和高度",
+    "只与速度有关",
+    "质量和速度"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_047_q2",
+   "topic": "cnp_047",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "被举高的重锤具有什么能？",
+   "explain": "被举高的物体具有重力势能。",
+   "answer_mode": "choice",
+   "options": [
+    "重力势能",
+    "动能",
+    "弹性势能",
+    "内能（只有内能）"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_047_q4",
+   "topic": "cnp_047",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "为什么交通部门对大货车的限速比小汽车低？",
+   "explain": "动能与质量有关，速度相同时大货车动能大，发生事故危害大，所以限速低。",
+   "answer_mode": "choice",
+   "options": [
+    "大货车惯性小",
+    "大货车的重力势能小",
+    "大货车刹车距离更短",
+    "速度相同时，质量大的车动能大，危险更大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_048_q1",
+   "topic": "cnp_048",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "苹果从树上加速下落，能量是怎样转化的？",
+   "explain": "高度减小、速度增大，重力势能转化为动能。",
+   "answer_mode": "choice",
+   "options": [
+    "重力势能转化为动能",
+    "动能转化为重力势能",
+    "动能转化为弹性势能",
+    "没有能量转化"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_048_q2",
+   "topic": "cnp_048",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "人造地球卫星从近地点向远地点运动时，能量怎样转化？",
+   "explain": "从近地点到远地点，高度增大、速度减小，动能转化为重力势能。",
+   "answer_mode": "choice",
+   "options": [
+    "重力势能转化为动能",
+    "动能转化为重力势能",
+    "机械能转化为内能",
+    "动能和势能都增大"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnp_048_q3",
+   "topic": "cnp_048",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "不计空气阻力，竖直上抛的小球在上升过程中机械能怎样？",
+   "explain": "只有动能和重力势能相互转化，机械能守恒。",
+   "answer_mode": "choice",
+   "options": [
+    "增大",
+    "减小",
+    "不变",
+    "先增大后减小"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_048_q4",
+   "topic": "cnp_048",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "一个皮球从高处落下，弹起的高度越来越低，说明什么？",
+   "explain": "空气阻力和撞击时的形变使部分机械能转化为内能，机械能减小。",
+   "answer_mode": "choice",
+   "options": [
+    "机械能守恒",
+    "皮球的质量变小了",
+    "皮球的重力变小了",
+    "机械能有一部分转化为内能"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_049_q1",
+   "topic": "cnp_049",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 1,
+   "stem": "下列工具中属于费力杠杆的是哪一个？",
+   "explain": "钓鱼竿动力臂小于阻力臂，是费力杠杆，但省距离；其余是省力杠杆。",
+   "answer_mode": "choice",
+   "options": [
+    "撬棒",
+    "核桃夹",
+    "钓鱼竿",
+    "瓶起子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_049_q4",
+   "topic": "cnp_049",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "探究杠杆平衡条件时，为什么要使杠杆在水平位置平衡？",
+   "explain": "杠杆水平、拉力竖直时，力臂就在杠杆上，可以直接读出。",
+   "answer_mode": "choice",
+   "options": [
+    "使杠杆不受重力",
+    "使拉力更小",
+    "使结论更有普遍性",
+    "便于从杠杆上直接读出力臂"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_050_q1",
+   "topic": "cnp_050",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 1,
+   "stem": "杆秤是利用什么原理称量物体质量的？",
+   "explain": "杆秤是一种杠杆，秤砣移动改变力臂，使杆秤平衡。",
+   "answer_mode": "choice",
+   "options": [
+    "二力平衡",
+    "阿基米德原理",
+    "连通器原理",
+    "杠杆平衡条件"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_050_q2",
+   "topic": "cnp_050",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 1,
+   "stem": "杆秤的刻度分布有什么特点？",
+   "explain": "被称物体质量与秤砣到提纽的距离成一次关系，所以刻度均匀。",
+   "answer_mode": "choice",
+   "options": [
+    "均匀",
+    "越往外越密",
+    "越往外越疏",
+    "没有规律"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_050_q3",
+   "topic": "cnp_050",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 2,
+   "stem": "如果秤砣被磨损掉一些，用这杆秤称物体，读数会怎样？",
+   "explain": "秤砣变轻，要平衡同一物体需把秤砣往外移，读数偏大。",
+   "answer_mode": "choice",
+   "options": [
+    "偏大",
+    "偏小",
+    "不变",
+    "无法读数"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_050_q4",
+   "topic": "cnp_050",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "跨学科实践",
+   "difficulty": 2,
+   "stem": "简易杆秤的提纽到挂钩的距离为 5 cm，秤砣质量 100 g，称某物体时秤砣挂在提纽另一侧 20 cm 处平衡（不计秤杆自重），物体质量是多少 g？（只填数值）",
+   "explain": "m物 × 5 = 100 × 20，m物 = 400 g。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 400
+  },
+  {
+   "id": "cnp_051_q4",
+   "topic": "cnp_051",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "运动和相互作用",
+   "difficulty": 2,
+   "stem": "用承重绳子为 3 段的滑轮组把物体提高 2 m，绳子自由端要拉过多长？",
+   "explain": "s = nh = 3 × 2 = 6 m，省力但费距离。",
+   "answer_mode": "choice",
+   "options": [
+    "2 m",
+    "3 m",
+    "0.67 m",
+    "6 m"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_052_q1",
+   "topic": "cnp_052",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "使用任何机械时，机械效率总是怎样？",
+   "explain": "使用机械总要做额外功，有用功总小于总功，所以机械效率小于 100%。",
+   "answer_mode": "choice",
+   "options": [
+    "大于 1",
+    "等于 1",
+    "可能大于 1",
+    "小于 1（100%）"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_052_q2",
+   "topic": "cnp_052",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "用滑轮组提升重物，有用功是 600 J，总功是 800 J，机械效率是多少？",
+   "explain": "η = W有/W总 = 600 ÷ 800 = 75%。",
+   "answer_mode": "choice",
+   "options": [
+    "133%",
+    "25%",
+    "75%",
+    "80%"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_052_q4",
+   "topic": "cnp_052",
+   "subject": "physics",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u4",
+   "unit_name": "第九章 简单机械",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "用同一个滑轮组提升不同的重物，下列做法能提高机械效率的是哪一个？",
+   "explain": "额外功基本不变时，物体越重，有用功占比越大，效率越高；提升高度和速度不影响效率。",
+   "answer_mode": "choice",
+   "options": [
+    "增加物体被提升的高度",
+    "加快提升速度",
+    "增加被提升物体的重力",
+    "增加动滑轮的重力"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_056_q1",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "能量守恒定律指出，在能量转化和转移的过程中，能量的总量怎样？",
+   "explain": "能量既不会凭空消灭也不会凭空产生，总量保持不变。",
+   "answer_mode": "choice",
+   "options": [
+    "逐渐减少",
+    "逐渐增加",
+    "先增后减",
+    "保持不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_056_q2",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "电风扇工作时，主要的能量转化是什么？",
+   "explain": "电风扇消耗电能，扇叶转动获得机械能。",
+   "answer_mode": "choice",
+   "options": [
+    "机械能转化为电能",
+    "内能转化为电能",
+    "电能转化为机械能",
+    "化学能转化为电能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_056_q3",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "为什么“永动机”不可能制成？",
+   "explain": "不消耗能量却源源不断对外做功，违背能量守恒定律。",
+   "answer_mode": "choice",
+   "options": [
+    "违背了能量守恒定律",
+    "材料不够结实",
+    "技术还不够先进",
+    "需要的电太多"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_056_q4",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "lower",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "汽车刹车时，车的动能主要转化成了什么？",
+   "explain": "刹车片与车轮摩擦生热，动能转化为内能，而且这部分能量不能自动再变回动能（能量转化有方向性）。",
+   "answer_mode": "choice",
+   "options": [
+    "电能",
+    "化学能",
+    "内能",
+    "重力势能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_056_q1",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "upper",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "能量守恒定律指出，在能量转化和转移的过程中，能量的总量怎样？",
+   "explain": "能量既不会凭空消灭也不会凭空产生，总量保持不变。",
+   "answer_mode": "choice",
+   "options": [
+    "逐渐减少",
+    "逐渐增加",
+    "先增后减",
+    "保持不变"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnp_056_q2",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "upper",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 1,
+   "stem": "电风扇工作时，主要的能量转化是什么？",
+   "explain": "电风扇消耗电能，扇叶转动获得机械能。",
+   "answer_mode": "choice",
+   "options": [
+    "机械能转化为电能",
+    "内能转化为电能",
+    "电能转化为机械能",
+    "化学能转化为电能"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnp_056_q3",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "upper",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "为什么“永动机”不可能制成？",
+   "explain": "不消耗能量却源源不断对外做功，违背能量守恒定律。",
+   "answer_mode": "choice",
+   "options": [
+    "违背了能量守恒定律",
+    "材料不够结实",
+    "技术还不够先进",
+    "需要的电太多"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnp_056_q4",
+   "topic": "cnp_056",
+   "subject": "physics",
+   "grade": 9,
+   "semester": "upper",
+   "edition": "lkb_ws",
+   "unit": "u5",
+   "unit_name": "第十章 功与能",
+   "type": "knowledge",
+   "skill": "能量",
+   "difficulty": 2,
+   "stem": "汽车刹车时，车的动能主要转化成了什么？",
+   "explain": "刹车片与车轮摩擦生热，动能转化为内能，而且这部分能量不能自动再变回动能（能量转化有方向性）。",
+   "answer_mode": "choice",
+   "options": [
+    "电能",
+    "化学能",
+    "内能",
+    "重力势能"
+   ],
+   "answer": 3
+  }
+ ]
+}
