@@ -1,0 +1,1688 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_chinese_senior.py",
+ "source": {
+  "path": "chinese/tongbian/g10_upper.json"
+ },
+ "subject": "chinese",
+ "grade": 10,
+ "semester": "upper",
+ "edition": "tongbian",
+ "edition_label": "统编版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·青春激扬"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·劳动光荣"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·生命的诗意"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·家乡文化生活"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·整本书阅读《乡土中国》"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元·学习之道"
+  },
+  {
+   "id": "u7",
+   "name": "第7单元·自然情怀"
+  },
+  {
+   "id": "u8",
+   "name": "第8单元·词语积累与词语解释"
+  },
+  {
+   "id": "u9",
+   "name": "第9单元·古诗词诵读"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnc_s001",
+   "name": "《沁园春·长沙》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "description": "读懂上阕的湘江秋景与下阕的回忆，抓住「看」「怅」「恰」三个领字，理解青年毛泽东的抱负。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「怅寥廓，问苍茫大地，谁主沉浮」表达了什么？",
+    "answer": "对国家命运的追问与担当"
+   }
+  },
+  {
+   "id": "cnc_s002",
+   "name": "《立在地球边上放号》《红烛》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "description": "郭沫若的自由体诗气势奔放，闻一多的《红烛》以蜡烛自比，写燃烧自己、创造光明的牺牲精神。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《红烛》中「红烛」象征什么？",
+    "answer": "燃烧自己、创造光明的奉献精神"
+   }
+  },
+  {
+   "id": "cnc_s003",
+   "name": "《峨日朵雪峰之侧》《致云雀》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "description": "昌耀写登山者在雪峰前的渺小与坚韧；雪莱把云雀比作诗人、少女、萤火虫，赞美自由与欢乐。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《致云雀》中云雀常被比作什么？",
+    "answer": "诗人、少女、萤火虫"
+   }
+  },
+  {
+   "id": "cnc_s004",
+   "name": "《百合花》《哦，香雪》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "description": "茹志鹃借一床百合花被子写军民之情；铁凝写台儿沟少女香雪对火车和铅笔盒的向往。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《百合花》中被子的图案是什么？",
+    "answer": "百合花"
+   }
+  },
+  {
+   "id": "cnc_s005",
+   "name": "人物通讯：袁隆平、张秉贵、钟扬",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "description": "本单元三篇人物通讯分别写袁隆平、张秉贵、钟扬，学会从典型事例和细节中概括人物精神。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《心有一团火，温暖众人心》写的是哪位劳模？",
+    "answer": "张秉贵"
+   }
+  },
+  {
+   "id": "cnc_s006",
+   "name": "《以工匠精神雕琢时代品质》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "description": "这是一篇新闻评论，以工匠精神为话题，从个人、企业、国家层面层层推进论证。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "本文的文体是什么？",
+    "answer": "新闻评论"
+   }
+  },
+  {
+   "id": "cnc_s007",
+   "name": "《芣苢》《插秧歌》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "description": "《芣苢》出自《诗经·周南》，重章叠句写采摘；《插秧歌》是杨万里的七言古诗，写一家冒雨插秧的辛劳。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《芣苢》出自《诗经》的哪一部分？",
+    "answer": "《周南》"
+   }
+  },
+  {
+   "id": "cnc_s008",
+   "name": "《短歌行》《归园田居（其一）》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "description": "曹操以「周公吐哺」表求贤之心；陶渊明以「羁鸟恋旧林」写归隐之志，两首诗代表两种人生选择。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「周公吐哺，天下归心」出自哪首诗？",
+    "answer": "曹操《短歌行》"
+   }
+  },
+  {
+   "id": "cnc_s009",
+   "name": "《梦游天姥吟留别》《登高》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "description": "李白以梦境写对自由的向往，结句直斥权贵；杜甫《登高》八句皆对，写尽悲秋与身世之痛。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「安能摧眉折腰事权贵」出自哪首诗？",
+    "answer": "《梦游天姥吟留别》"
+   }
+  },
+  {
+   "id": "cnc_s010",
+   "name": "《琵琶行》《念奴娇·赤壁怀古》《永遇乐》《声声慢》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "description": "白居易借琵琶女写沦落之感；苏轼以周瑜对照自身；辛弃疾连用孙权、刘裕等典；李清照以叠字开篇写愁。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「同是天涯沦落人」出自哪首诗？",
+    "answer": "白居易《琵琶行》"
+   }
+  },
+  {
+   "id": "cnc_s011",
+   "name": "记录家乡的人和物",
+   "domain": "习作基础",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·家乡文化生活",
+   "description": "学会用访谈、实地考察、查阅地方志和问卷等方法收集家乡材料，并把材料整理成调查笔记。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "了解家乡风物最直接的方法是？",
+    "answer": "实地考察与访谈"
+   }
+  },
+  {
+   "id": "cnc_s012",
+   "name": "《乡土中国》核心概念",
+   "domain": "名著阅读",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·整本书阅读《乡土中国》",
+   "description": "记住差序格局、礼俗社会、无讼、长老统治、文字下乡等概念，理解中国乡土社会的人际结构。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "费孝通用来形容乡土社会人际关系的概念是？",
+    "answer": "差序格局"
+   }
+  },
+  {
+   "id": "cnc_s013",
+   "name": "《劝学》《师说》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "description": "《劝学》以大量比喻论证学习的意义与方法；《师说》提出「道之所存，师之所存」，批判耻学于师的风气。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「青，取之于蓝，而青于蓝」出自哪篇？",
+    "answer": "《劝学》"
+   }
+  },
+  {
+   "id": "cnc_s014",
+   "name": "《反对党八股》《拿来主义》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "description": "毛泽东逐条列举党八股的罪状，破立结合；鲁迅用「大宅子」比喻文化遗产，主张占有、挑选。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《拿来主义》中「大宅子」比喻什么？",
+    "answer": "文化遗产"
+   }
+  },
+  {
+   "id": "cnc_s015",
+   "name": "《读书：目的和前提》《上图书馆》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "description": "黑塞谈读书是为了获得教养，王佐良回忆在图书馆读书的成长经历，都强调经典阅读的价值。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "黑塞认为读书的目的在于？",
+    "answer": "获得教养，完善自我"
+   }
+  },
+  {
+   "id": "cnc_s016",
+   "name": "《故都的秋》《荷塘月色》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "description": "郁达夫以「清、静、悲凉」写北国之秋；朱自清写月下荷塘，善用通感，把嗅觉写成听觉。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《故都的秋》概括北国之秋特点的三个词是？",
+    "answer": "清、静、悲凉"
+   }
+  },
+  {
+   "id": "cnc_s017",
+   "name": "《我与地坛》《赤壁赋》《登泰山记》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "description": "史铁生在地坛思考生死与母爱；苏轼以主客问答说「变与不变」；姚鼐写泰山冬景与日出。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《赤壁赋》中「变与不变」的观点由谁说出？",
+    "answer": "苏轼（苏子）"
+   }
+  },
+  {
+   "id": "cnc_s018",
+   "name": "古今词义的联系与区别",
+   "domain": "词语",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第8单元·词语积累与词语解释",
+   "description": "词义会扩大、缩小、转移，感情色彩也会变化，读文言文时不能拿今义硬套古义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「江」「河」古义专指长江、黄河，今义泛指河流，属于？",
+    "answer": "词义扩大"
+   }
+  },
+  {
+   "id": "cnc_s019",
+   "name": "《静女》《涉江采芙蓉》《虞美人》《鹊桥仙》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "description": "四首诗词分别写约会、相思、亡国之痛与爱情的坚贞，注意《诗经》的重章与词牌的句式。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「两情若是久长时，又岂在朝朝暮暮」出自谁的作品？",
+    "answer": "秦观《鹊桥仙》"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnc_s001_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s001",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 1,
+   "stem": "《沁园春·长沙》的作者是",
+   "explain": "《沁园春·长沙》是毛泽东1925年重游橘子洲时所作，「沁园春」是词牌名。",
+   "answer_mode": "choice",
+   "options": [
+    "郭沫若",
+    "毛泽东",
+    "闻一多",
+    "徐志摩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s001_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s001",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 1,
+   "stem": "「看万山红遍，层林尽染」中「看」字领起的句子写的是",
+   "explain": "「看」是领字，领起「万山红遍……百舸争流」七句，写的是湘江秋景。",
+   "answer_mode": "choice",
+   "options": [
+    "湘江两岸的秋景",
+    "冬日的雪原",
+    "春日的花海",
+    "夏夜的星空"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s001_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s001",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "「怅寥廓，问苍茫大地，谁主沉浮」表现的是",
+   "explain": "这一问由景入情，把个人抱负与民族命运连在一起，是全词的词眼所在。",
+   "answer_mode": "choice",
+   "options": [
+    "对个人得失的抱怨",
+    "对宇宙之大、人生短暂的感伤",
+    "对国家命运由谁主宰的追问与担当",
+    "对隐居生活的向往"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s002_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s002",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 1,
+   "stem": "《立在地球边上放号》的作者是",
+   "explain": "郭沫若这首诗出自诗集《女神》，是典型的自由体诗，句式长短错落、气势奔放。",
+   "answer_mode": "choice",
+   "options": [
+    "闻一多",
+    "郭沫若",
+    "昌耀",
+    "艾青"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s002_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s002",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《红烛》中反复咏叹「红烛啊」，主要借红烛表达",
+   "explain": "闻一多以红烛自比：要先燃烧，才能烧破世人的梦、捣破世人的监狱，最终创造光明。",
+   "answer_mode": "choice",
+   "options": [
+    "对爱情的忠贞",
+    "燃烧自己、创造光明的奉献精神",
+    "对故乡的思念",
+    "对现实的逃避"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s002_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s002",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《立在地球边上放号》与《红烛》在形式上共同的特点是",
+   "explain": "两首都是五四以后的自由体新诗，不讲究平仄格律，以情感的节奏代替音乐的节奏。",
+   "answer_mode": "choice",
+   "options": [
+    "都用严格格律",
+    "都是自由体新诗",
+    "都是七言古诗",
+    "都是散文诗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s003_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s003",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 1,
+   "stem": "《致云雀》的作者是",
+   "explain": "雪莱《致云雀》是英国浪漫主义的代表作，诗人把云雀当作欢乐与自由的精灵。",
+   "answer_mode": "choice",
+   "options": [
+    "拜伦",
+    "雪莱",
+    "济慈",
+    "歌德"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s003_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s003",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《致云雀》中诗人把云雀比作诗人、少女和",
+   "explain": "诗中云雀先后被比作诗人、高贵的少女、萤火虫，用来写它歌声的美与光。",
+   "answer_mode": "choice",
+   "options": [
+    "萤火虫",
+    "夜莺",
+    "玫瑰",
+    "星辰"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s003_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s003",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《峨日朵雪峰之侧》中「雪峰」在诗里的作用主要是",
+   "explain": "诗人以巨大雪峰反衬人的渺小，又写人坚持攀登的姿态，形成敬畏与不屈的双重意味。",
+   "answer_mode": "choice",
+   "options": [
+    "交代故事发生的时间和地点",
+    "衬托登山者的渺小与坚韧，写出敬畏与超越",
+    "象征城市的喧嚣",
+    "为了押韵"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s004_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s004",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 1,
+   "stem": "《百合花》的作者是",
+   "explain": "茹志鹃《百合花》写解放战争时期小通讯员与新媳妇之间的军民之情。",
+   "answer_mode": "choice",
+   "options": [
+    "铁凝",
+    "茹志鹃",
+    "丁玲",
+    "杨沫"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s004_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s004",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《百合花》中反复出现的「百合花」出现在",
+   "explain": "百合花是新媳妇嫁被上的图案，最后这床被子盖在小通讯员遗体上，成为纯洁情感的象征。",
+   "answer_mode": "choice",
+   "options": [
+    "小通讯员的军装上",
+    "新媳妇的嫁被上",
+    "村口的石碑上",
+    "担架的布上"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s004_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s004",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "difficulty": 2,
+   "stem": "《哦，香雪》中香雪最渴望得到的东西是",
+   "explain": "香雪用一篮鸡蛋换来带磁铁的自动铅笔盒，铅笔盒象征知识与外面的世界。",
+   "answer_mode": "choice",
+   "options": [
+    "一双新鞋",
+    "一个带磁铁的自动铅笔盒",
+    "一列火车",
+    "一本字典"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s005_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s005",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 1,
+   "stem": "《心有一团火，温暖众人心》写的是哪位劳动模范？",
+   "explain": "林为民写的是北京百货大楼售货员张秉贵，他练出「一抓准」的过硬本领。",
+   "answer_mode": "choice",
+   "options": [
+    "时传祥",
+    "张秉贵",
+    "王进喜",
+    "袁隆平"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s005_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s005",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 1,
+   "stem": "《喜看稻菽千重浪》写的人物是",
+   "explain": "沈英甲这篇通讯写袁隆平研究杂交水稻的事迹，「喜看稻菽千重浪」化用毛泽东诗句。",
+   "answer_mode": "choice",
+   "options": [
+    "钟扬",
+    "袁隆平",
+    "屠呦呦",
+    "钱学森"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s005_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s005",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 2,
+   "stem": "人物通讯要以事写人，最忌讳的是",
+   "explain": "人物通讯靠典型事例和细节把人物写活，只堆事迹就成了材料汇编，看不出精神。",
+   "answer_mode": "choice",
+   "options": [
+    "用典型事例表现人物",
+    "用细节刻画人物",
+    "罗列事迹而不见人物性格",
+    "写人物的语言和行动"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s006_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s006",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 1,
+   "stem": "《以工匠精神雕琢时代品质》的文体是",
+   "explain": "本文是《人民日报》的新闻评论，针对工匠精神这一话题展开评论，属于评论文体。",
+   "answer_mode": "choice",
+   "options": [
+    "人物通讯",
+    "新闻评论",
+    "散文",
+    "演讲稿"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s006_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s006",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 2,
+   "stem": "「工匠精神」在文中被概括为精益求精、专注坚守和",
+   "explain": "文章强调工匠精神既有对技艺的极致追求，也包含创新，与因循守旧相反。",
+   "answer_mode": "choice",
+   "options": [
+    "追求利润最大化",
+    "不断创新、追求卓越",
+    "遵守旧例、不越雷池",
+    "力求快速完成"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s006_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s006",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 2,
+   "stem": "本文论证工匠精神的意义时，是从个人、企业和哪个层面展开的？",
+   "explain": "文章由个人修养写到企业形象，再上升到国家形象和时代品质，层层递进。",
+   "answer_mode": "choice",
+   "options": [
+    "家庭",
+    "国家",
+    "学校",
+    "行业组织"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s007_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s007",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 1,
+   "stem": "《芣苢》出自",
+   "explain": "《芣苢》是《诗经·周南》中的劳动歌谣，反复写「采」「掇」「捋」等动作。",
+   "answer_mode": "choice",
+   "options": [
+    "《诗经·周南》",
+    "《诗经·卫风》",
+    "《楚辞·九歌》",
+    "《古诗十九首》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s007_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s007",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 2,
+   "stem": "《芣苢》通篇只换几个动词，这种写法叫",
+   "explain": "各章句式相同、只替换个别字词，就是《诗经》常见的重章叠句，靠反复咏唱推进情绪。",
+   "answer_mode": "choice",
+   "options": [
+    "重章叠句",
+    "赋比兴并用",
+    "对仗",
+    "用典"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s007_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s007",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "difficulty": 2,
+   "stem": "《插秧歌》的作者是",
+   "explain": "《插秧歌》是南宋杨万里的作品，写农家冒雨插秧，「唤渠朝餐歇半霎」是其中名句。",
+   "answer_mode": "choice",
+   "options": [
+    "杨万里",
+    "范成大",
+    "陆游",
+    "苏轼"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s008_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s008",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 1,
+   "stem": "「周公吐哺，天下归心」出自",
+   "explain": "《短歌行》结尾以周公自比，「周公吐哺」写求贤若渴，是曹操的政治抱负。",
+   "answer_mode": "choice",
+   "options": [
+    "曹操《短歌行》",
+    "陶渊明《归园田居》",
+    "李白《梦游天姥吟留别》",
+    "曹植《白马篇》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s008_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s008",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 2,
+   "stem": "「羁鸟恋旧林，池鱼思故渊」用比喻表达的是",
+   "explain": "陶渊明以羁鸟、池鱼自比，说明自己做官如鸟入笼，回到田园才得自在。",
+   "answer_mode": "choice",
+   "options": [
+    "对功名的渴望",
+    "厌倦官场、思念田园的心境",
+    "对亲人的牵挂",
+    "对时光流逝的感伤"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s008_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s008",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 2,
+   "stem": "《短歌行》中「青青子衿，悠悠我心」借用了",
+   "explain": "这两句出自《诗经·郑风·子衿》，原写思念情人，曹操借来表示对贤才的渴慕。",
+   "answer_mode": "choice",
+   "options": [
+    "《诗经·郑风·子衿》",
+    "《楚辞·离骚》",
+    "《古诗十九首》",
+    "《乐府诗集》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s009_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s009",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 1,
+   "stem": "「安能摧眉折腰事权贵，使我不得开心颜」出自",
+   "explain": "这是《梦游天姥吟留别》的结句，梦境醒来回到现实，直接表明不事权贵的态度。",
+   "answer_mode": "choice",
+   "options": [
+    "《梦游天姥吟留别》",
+    "《蜀道难》",
+    "《将进酒》",
+    "《登高》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s009_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s009",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 2,
+   "stem": "《登高》一诗在形式上的突出特点是",
+   "explain": "《登高》四联全用对仗，格律精严，被后人推为古今七律第一。",
+   "answer_mode": "choice",
+   "options": [
+    "全篇不押韵",
+    "八句皆对仗",
+    "每句都有典故",
+    "使用杂言句式"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s009_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s009",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 2,
+   "stem": "《梦游天姥吟留别》中大量描写梦境，其用意是",
+   "explain": "梦中的天姥山瑰丽自由，梦醒后回到「惟觉时之枕席」，两相对照才逼出不事权贵的宣言。",
+   "answer_mode": "choice",
+   "options": [
+    "记录一次真实的旅行",
+    "以梦境的美好反衬现实的污浊",
+    "宣传道教方术",
+    "练习写景技巧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s010_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s010",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 1,
+   "stem": "「同是天涯沦落人，相逢何必曾相识」出自",
+   "explain": "白居易《琵琶行》听琵琶女自述身世后说出这两句，把歌女的沦落与自己的贬谪连在一起。",
+   "answer_mode": "choice",
+   "options": [
+    "《琵琶行》",
+    "《长恨歌》",
+    "《卖炭翁》",
+    "《秦妇吟》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s010_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s010",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 2,
+   "stem": "《念奴娇·赤壁怀古》中苏轼追怀的历史人物是",
+   "explain": "「遥想公瑾当年，小乔初嫁了」写周瑜，用周瑜的少年得志反衬自己的早生华发。",
+   "answer_mode": "choice",
+   "options": [
+    "曹操",
+    "周瑜",
+    "诸葛亮",
+    "孙权"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s010_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s010",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "difficulty": 3,
+   "stem": "《永遇乐·京口北固亭怀古》中「廉颇老矣，尚能饭否」的用意是",
+   "explain": "辛弃疾用廉颇的典故，既写自己老当益壮的报国之心，也暗含不被朝廷信任的忧愤。",
+   "answer_mode": "choice",
+   "options": [
+    "感叹自己年老体衰、不能报国",
+    "以廉颇自比，表明虽老仍愿为国效力而忧不被用",
+    "劝人及时行乐",
+    "追念廉颇的战功"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s011_q1",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s011",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·家乡文化生活",
+   "difficulty": 1,
+   "stem": "调查家乡文化生活时，了解某位老手艺人的经历最合适的方法是",
+   "explain": "个人经历多存于记忆，访谈能获得第一手细节，问卷适合了解面上情况。",
+   "answer_mode": "choice",
+   "options": [
+    "查阅网络百科",
+    "进行访谈并记录口述",
+    "发放问卷",
+    "只拍照不询问"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s011_q2",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s011",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·家乡文化生活",
+   "difficulty": 2,
+   "stem": "「记录家乡的人和物」这类活动，最终成果一般要求",
+   "explain": "活动要求先收集材料，再整理分析，形成调查报告或文化随笔，不能停在感想层面。",
+   "answer_mode": "choice",
+   "options": [
+    "只交一份感想",
+    "有材料、有分析，能提出自己的看法",
+    "只抄录地方志原文",
+    "只写诗歌"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s011_q3",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s011",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·家乡文化生活",
+   "difficulty": 2,
+   "stem": "家乡文化调查中引用他人口述内容时，正确做法是",
+   "explain": "口述材料可能记忆有误，应注明来源并与文献、实物等互证，这是调查的基本规范。",
+   "answer_mode": "choice",
+   "options": [
+    "直接当成事实写进结论",
+    "注明来源并核对其他材料",
+    "删去讲述者姓名即可",
+    "随意改写以显得生动"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s012_q1",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s012",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·整本书阅读《乡土中国》",
+   "difficulty": 1,
+   "stem": "费孝通用来描述乡土社会人际关系格局的概念是",
+   "explain": "《乡土中国》提出「差序格局」：以己为中心，像石子投入水中的波纹，一圈圈推出去，愈推愈远愈薄。",
+   "answer_mode": "choice",
+   "options": [
+    "团体格局",
+    "差序格局",
+    "机械团结",
+    "科层制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s012_q2",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s012",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·整本书阅读《乡土中国》",
+   "difficulty": 2,
+   "stem": "《乡土中国》中「无讼」的意思是",
+   "explain": "乡土社会靠礼俗和长老调解维持秩序，打官司被视为丢脸的事，故称「无讼」。",
+   "answer_mode": "choice",
+   "options": [
+    "乡村没有纠纷",
+    "乡土社会以礼俗调解取代打官司",
+    "法律条文不完备",
+    "官府不受理民事案件"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s012_q3",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s012",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·整本书阅读《乡土中国》",
+   "difficulty": 2,
+   "stem": "费孝通分析「文字下乡」时强调，乡下人不识字主要不是能力问题，而是",
+   "explain": "乡土社会是面对面社群，表情、动作、声音足以传情达意，文字这种「间接的说话」并不常用。",
+   "answer_mode": "choice",
+   "options": [
+    "乡村没有学校",
+    "面对面社群中文字并非必需",
+    "方言无法书写",
+    "经济条件限制"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s013_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s013",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 1,
+   "stem": "「青，取之于蓝，而青于蓝」出自",
+   "explain": "《劝学》开篇以靛青取自蓝草却更青，比喻学习可以使人超越本来的自己。",
+   "answer_mode": "choice",
+   "options": [
+    "《劝学》",
+    "《师说》",
+    "《论语》",
+    "《孟子》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s013_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s013",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "《师说》中「师者，所以传道受业解惑也」的「受」意思是",
+   "explain": "「受」通「授」，全句说老师的职责是传道、授业、解惑。",
+   "answer_mode": "choice",
+   "options": [
+    "接受",
+    "同「授」，传授",
+    "承受",
+    "忍受"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s013_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s013",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "《劝学》大量使用「青出于蓝」「冰寒于水」等比喻，其作用是",
+   "explain": "荀子善用比喻论证，用生活中常见的事物说明学习能改变人、要坚持、要借助外物。",
+   "answer_mode": "choice",
+   "options": [
+    "增加文采而已",
+    "把抽象的学习道理说得具体可感",
+    "显示作者博学",
+    "为了句式整齐"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s014_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s014",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 1,
+   "stem": "《拿来主义》中「大宅子」比喻的是",
+   "explain": "鲁迅以「大宅子」比喻文化遗产，批判三种错误态度，主张「占有，挑选」。",
+   "answer_mode": "choice",
+   "options": [
+    "旧中国的官僚机构",
+    "文化遗产",
+    "外国侵略者",
+    "作者自己的家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s014_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s014",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "《反对党八股》列举党八股的罪状，共列了",
+   "explain": "文章逐条列举八条罪状，如「空话连篇，言之无物」「甲乙丙丁，开中药铺」等。",
+   "answer_mode": "choice",
+   "options": [
+    "三条",
+    "五条",
+    "八条",
+    "十条"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s014_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s014",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "《拿来主义》批判的「孱头」指的是",
+   "explain": "鲁迅以「孱头」指怕被染污而逃避的人，「昏蛋」指一把火烧光的人，「废物」指欣欣然接受一切的人。",
+   "answer_mode": "choice",
+   "options": [
+    "害怕遗产、不敢沾手的人",
+    "全盘否定遗产的人",
+    "全盘接受遗产的人",
+    "把遗产据为己有的人"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s015_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s015",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 1,
+   "stem": "《读书：目的和前提》的作者是",
+   "explain": "黑塞是德国作家，本文谈读书的目的是获得教养、完善人格，而非获取功利。",
+   "answer_mode": "choice",
+   "options": [
+    "黑塞",
+    "罗曼·罗兰",
+    "蒙田",
+    "培根"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s015_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s015",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "黑塞认为阅读经典的首要前提是",
+   "explain": "他强调先要有对精神世界的渴望和个性，才能真正进入经典，否则读书只是消遣。",
+   "answer_mode": "choice",
+   "options": [
+    "有充足的时间",
+    "有对精神的追求与热爱的个性",
+    "读过大量通俗读物",
+    "记住书中的知识"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s015_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s015",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "difficulty": 2,
+   "stem": "《上图书馆》一文以作者的读书经历为线索，主要表达",
+   "explain": "王佐良回忆清华、牛津等图书馆，写的是书籍和阅读环境如何滋养自己的精神成长。",
+   "answer_mode": "choice",
+   "options": [
+    "对图书馆建筑的赞美",
+    "图书馆对个人精神成长的滋养",
+    "对战争年代的不满",
+    "对同学友情的怀念"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s016_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s016",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 1,
+   "stem": "《故都的秋》中概括北国之秋特点的词语是",
+   "explain": "郁达夫开篇即说北国的秋「特别地来得清，来得静，来得悲凉」，全文由此展开。",
+   "answer_mode": "choice",
+   "options": [
+    "清、静、悲凉",
+    "浓、艳、热烈",
+    "湿、暖、缠绵",
+    "苍、凉、辽阔"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s016_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s016",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 2,
+   "stem": "「微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的」，这句运用的手法是",
+   "explain": "把嗅觉的「清香」写成听觉的「歌声」，感觉互换，这是通感。",
+   "answer_mode": "choice",
+   "options": [
+    "夸张",
+    "通感",
+    "拟人",
+    "排比"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s016_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s016",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 2,
+   "stem": "《荷塘月色》开篇「这几天心里颇不宁静」在文中的作用是",
+   "explain": "这一句是全文的「文眼」，先有不宁静，才有寻静之游，结尾又回到不宁静。",
+   "answer_mode": "choice",
+   "options": [
+    "交代写作时间",
+    "为全文定下情感基调，引出夜游荷塘",
+    "说明身体不适",
+    "暗示社会背景的全部内容"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s017_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s017",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 1,
+   "stem": "《我与地坛》的作者是",
+   "explain": "史铁生双腿残疾后常去地坛，文章写地坛的四季与母亲的爱，也写对生死的思考。",
+   "answer_mode": "choice",
+   "options": [
+    "史铁生",
+    "汪曾祺",
+    "张承志",
+    "贾平凹"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s017_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s017",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 2,
+   "stem": "《赤壁赋》中客与苏子问答，苏子用「变与不变」的道理说明",
+   "explain": "苏子以水、月为喻：逝者如斯而未尝往，盈虚如彼而卒莫消长，从而化解客的悲哀。",
+   "answer_mode": "choice",
+   "options": [
+    "人生短暂，应及时行乐",
+    "从变的角度看万物皆逝，从不变的角度看物我皆无尽",
+    "功名富贵终归虚无",
+    "水月皆虚幻不实"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s017_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s017",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "difficulty": 2,
+   "stem": "《登泰山记》中「苍山负雪，明烛天南」写的是",
+   "explain": "「明烛天南」意为雪光照亮了南边的天空，「烛」作动词用，是姚鼐写泰山的名句。",
+   "answer_mode": "choice",
+   "options": [
+    "日出时的霞光",
+    "雪光映照南面天空",
+    "夜晚的烛火",
+    "山间的云雾"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s018_q1",
+   "type": "knowledge",
+   "skill": "词语",
+   "topic": "cnc_s018",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·词语积累与词语解释",
+   "difficulty": 1,
+   "stem": "「江」「河」在古代专指长江、黄河，今天泛指河流，这种变化属于",
+   "explain": "古义范围小、今义范围大，叫词义扩大；如「江」「河」「菜」都是这一类。",
+   "answer_mode": "choice",
+   "options": [
+    "词义扩大",
+    "词义缩小",
+    "词义转移",
+    "感情色彩变化"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s018_q2",
+   "type": "knowledge",
+   "skill": "词语",
+   "topic": "cnc_s018",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·词语积累与词语解释",
+   "difficulty": 2,
+   "stem": "「先帝不以臣卑鄙」中的「卑鄙」古义是",
+   "explain": "古义指地位低、见识浅，是自谦之词；今义指品行恶劣，属于感情色彩的变化。",
+   "answer_mode": "choice",
+   "options": [
+    "品行恶劣",
+    "身份低微、见识短浅",
+    "卑鄙无耻的小人",
+    "谦虚谨慎"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s018_q3",
+   "type": "knowledge",
+   "skill": "词语",
+   "topic": "cnc_s018",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·词语积累与词语解释",
+   "difficulty": 2,
+   "stem": "「涕」在古代指眼泪，今天指鼻涕，这种变化属于",
+   "explain": "所指对象由眼泪变为鼻涕，是词义转移；类似的还有「走」（古义跑）、「去」（古义离开）。",
+   "answer_mode": "choice",
+   "options": [
+    "词义扩大",
+    "词义缩小",
+    "词义转移",
+    "词义轻重变化"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s019_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s019",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 1,
+   "stem": "「静女其姝，俟我于城隅」出自",
+   "explain": "《静女》是《诗经·邶风》中的爱情诗，「俟」是等待，写男女在城角约会。",
+   "answer_mode": "choice",
+   "options": [
+    "《诗经·邶风·静女》",
+    "《诗经·卫风·氓》",
+    "《楚辞·九歌》",
+    "《古诗十九首》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s019_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s019",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "「同心而离居，忧伤以终老」出自",
+   "explain": "《涉江采芙蓉》是《古诗十九首》之一，写漂泊者采芙蓉思乡念人，结句点明同心离居之苦。",
+   "answer_mode": "choice",
+   "options": [
+    "《涉江采芙蓉》",
+    "《静女》",
+    "《虞美人》",
+    "《鹊桥仙》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s019_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s019",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "「问君能有几多愁？恰似一江春水向东流」的作者是",
+   "explain": "这是李煜《虞美人》的结句，以春水喻愁，写亡国之痛绵绵无尽。",
+   "answer_mode": "choice",
+   "options": [
+    "李煜",
+    "李清照",
+    "秦观",
+    "柳永"
+   ],
+   "answer": 1
+  }
+ ]
+}

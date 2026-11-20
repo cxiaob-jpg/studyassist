@@ -1,0 +1,1157 @@
+{
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_chinese_senior.py",
+ "source": {
+  "textbook": "选择性必修中册",
+  "standard": "普通高中语文课程标准（2017年版2020年修订）"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "教材单元取自统编版高中语文教科书（必修上/下、选择性必修上/中/下）目录；知识点与题目由本项目编写，参考《普通高中语文课程标准（2017年版2020年修订）》。",
+ "subject": "chinese",
+ "grade": 11,
+ "semester": "lower",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 理论的价值"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 苦难与新生"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 历史纵横"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 丰富的心灵"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元 古诗词诵读"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnc_s050",
+   "name": "《社会历史的决定性基础》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "description": "恩格斯致博尔吉乌斯的信，阐明经济关系是社会历史的基础，同时肯定上层建筑的反作用与历史的偶然性。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "恩格斯认为社会历史的决定性基础是？",
+    "answer": "经济关系（生产方式）"
+   }
+  },
+  {
+   "id": "cnc_s051",
+   "name": "《改造我们的学习》《人的正确思想是从哪里来的？》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "description": "毛泽东批评主观主义，倡导实事求是；后文讲认识由物质到精神、又由精神到物质的两次飞跃。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《改造我们的学习》主要反对什么？",
+    "answer": "主观主义（教条主义与经验主义）"
+   }
+  },
+  {
+   "id": "cnc_s052",
+   "name": "《实践是检验真理的唯一标准》《修辞立其诚》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "description": "前者是1978年《光明日报》特约评论员文章，重新确立实践标准；后者讲「立诚」即名实一致、言行一致、表里一致。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《实践是检验真理的唯一标准》最初发表于哪一年？",
+    "answer": "1978年"
+   }
+  },
+  {
+   "id": "cnc_s053",
+   "name": "《怜悯是人的天性》《人应当坚持正义》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "description": "卢梭认为怜悯是天然的、先于理性的情感；柏拉图笔下的苏格拉底宁可受死也不以不义报不义。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "卢梭认为怜悯心是？",
+    "answer": "人天生具有的自然情感"
+   }
+  },
+  {
+   "id": "cnc_s054",
+   "name": "《记念刘和珍君》《为了忘却的记念》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "description": "两篇纪念性散文：一篇悼三一八惨案死难学生，一篇悼「左联」五烈士，悲愤中带着冷静的剖析。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《记念刘和珍君》纪念的是哪次惨案中的死难者？",
+    "answer": "三一八惨案"
+   }
+  },
+  {
+   "id": "cnc_s055",
+   "name": "《包身工》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "description": "夏衍1936年发表的报告文学，以「芦柴棒」等包身工的遭遇揭露东洋纱厂的剥削制度。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《包身工》的文体是？",
+    "answer": "报告文学"
+   }
+  },
+  {
+   "id": "cnc_s056",
+   "name": "《荷花淀》《小二黑结婚》《党费》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "description": "孙犁的诗体小说写白洋淀妇女的成长；赵树理以喜剧笔法写婚姻自主；王愿坚写黄新用咸菜交党费。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《荷花淀》的作者是？",
+    "answer": "孙犁"
+   }
+  },
+  {
+   "id": "cnc_s057",
+   "name": "《屈原列传》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "description": "司马迁为屈原立传，赞其「其文约，其辞微，其志洁，其行廉」，把人格与文品合而论之。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「其文约，其辞微」是司马迁对谁的评价？",
+    "answer": "屈原"
+   }
+  },
+  {
+   "id": "cnc_s058",
+   "name": "《苏武传》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "description": "班固写苏武出使匈奴被扣十九年，牧羊持节，拒卫律与李陵的劝降，是民族气节的典范。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "苏武被扣匈奴共多少年？",
+    "answer": "十九年"
+   }
+  },
+  {
+   "id": "cnc_s059",
+   "name": "《过秦论》《五代史伶官传序》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "description": "贾谊归结秦亡于「仁义不施」；欧阳修由庄宗成败论「忧劳可以兴国，逸豫可以亡身」。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《过秦论》的中心论点是？",
+    "answer": "仁义不施而攻守之势异也"
+   }
+  },
+  {
+   "id": "cnc_s060",
+   "name": "《玩偶之家》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "description": "易卜生的社会问题剧，娜拉从「玩偶」觉醒到出走，第三幕的对话是全剧的高潮。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《玩偶之家》的女主角是？",
+    "answer": "娜拉"
+   }
+  },
+  {
+   "id": "cnc_s061",
+   "name": "《迷娘》《致大海》《自己之歌》《树和天空》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "description": "四首外国诗：歌德的迷娘思乡曲、普希金对大海与自由的告别、惠特曼的自由体自赞、特朗斯特罗姆的静观。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「你知道吗，那柠檬花开的地方」出自？",
+    "answer": "歌德《迷娘（之一）》"
+   }
+  },
+  {
+   "id": "cnc_s062",
+   "name": "《燕歌行并序》《李凭箜篌引》《锦瑟》《书愤》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "description": "高适写边塞将士的苦乐不均；李贺以奇崛想象写音乐；李商隐的《锦瑟》朦胧多义；陆游《书愤》追忆抗金往事。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「昆山玉碎凤凰叫」出自哪首诗？",
+    "answer": "李贺《李凭箜篌引》"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnc_s050_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s050",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 1,
+   "stem": "恩格斯在《社会历史的决定性基础》中认为，社会历史的决定性基础是",
+   "explain": "恩格斯强调经济关系归根到底起决定作用，同时指出政治、思想等上层建筑也有反作用。",
+   "answer_mode": "choice",
+   "options": [
+    "杰出人物的意志",
+    "经济关系（生产方式）",
+    "地理环境",
+    "思想观念的更替"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s050_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s050",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "「政治、法律、哲学、宗教、文学、艺术等等的发展是以经济发展为基础的」，这句话同时强调的是",
+   "explain": "恩格斯反对把唯物史观简化为「经济唯一决定论」，强调诸因素相互影响，经济最终起决定作用。",
+   "answer_mode": "choice",
+   "options": [
+    "经济是唯一的因素",
+    "上层建筑由经济决定但相互作用、反作用于经济",
+    "思想决定经济",
+    "艺术与经济无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s050_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s050",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 3,
+   "stem": "恩格斯用「拿破仑」等例子说明伟大人物出现的必然性与偶然性，其结论是",
+   "explain": "需要英雄的时代总会产生英雄，但具体是谁、在何时出现是偶然的，必然通过偶然实现。",
+   "answer_mode": "choice",
+   "options": [
+    "历史完全由偶然事件构成",
+    "伟大人物的出现是历史需要的产物，具体由谁出现则带有偶然性",
+    "英雄决定历史",
+    "历史没有规律"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s051_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s051",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 1,
+   "stem": "《改造我们的学习》主要反对的是",
+   "explain": "毛泽东指出主观主义是学风不正的根源，主张「实事求是」，把理论和实际结合起来。",
+   "answer_mode": "choice",
+   "options": [
+    "教条主义与经验主义等主观主义",
+    "学习时间不足",
+    "教材编写不当",
+    "考试制度"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s051_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s051",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "《人的正确思想是从哪里来的？》认为一个正确认识的形成往往要",
+   "explain": "文章说认识要经过两次飞跃，且常常要反复多次才能得到比较正确的认识。",
+   "answer_mode": "choice",
+   "options": [
+    "一次完成",
+    "经过由物质到精神、由精神到物质的多次反复",
+    "完全依靠书本",
+    "依靠天才的直觉"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s051_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s051",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "「实事求是」中「是」的意思是",
+   "explain": "「实事」是客观存在的一切事物，「是」是事物的内部联系即规律，「求」是去研究。",
+   "answer_mode": "choice",
+   "options": [
+    "判断是非",
+    "事物的内部联系即规律",
+    "正确的事",
+    "确实如此"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s052_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s052",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 1,
+   "stem": "《实践是检验真理的唯一标准》最初发表于",
+   "explain": "1978年5月11日《光明日报》以特约评论员名义发表，引发关于真理标准问题的讨论。",
+   "answer_mode": "choice",
+   "options": [
+    "1978年《光明日报》",
+    "1966年《人民日报》",
+    "1982年《红旗》",
+    "1956年《文汇报》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s052_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s052",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "「修辞立其诚」中「立其诚」不包括",
+   "explain": "张岱年指出「立其诚」包含名实一致、言行一致、表里一致三层，重点是真实，不是文辞华丽。",
+   "answer_mode": "choice",
+   "options": [
+    "名实一致",
+    "言行一致",
+    "表里一致",
+    "辞藻华美"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_s052_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s052",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "「实践是检验真理的唯一标准」这一命题强调的是",
+   "explain": "真理不能靠书本或权威裁决，只能靠实践检验，这正是文章的立论所在。",
+   "answer_mode": "choice",
+   "options": [
+    "理论没有价值",
+    "一种认识是否正确，最终要由实践的结果来判定",
+    "多数人的意见即真理",
+    "权威的判断即真理"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s053_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s053",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 1,
+   "stem": "卢梭在《怜悯是人的天性》中认为，怜悯心是",
+   "explain": "卢梭认为在理性产生之前，人已会为他人的苦难而不忍，这是天然的、普遍的怜悯心。",
+   "answer_mode": "choice",
+   "options": [
+    "后天教育的结果",
+    "人天生具有的自然情感，先于理性",
+    "一种自私的表现",
+    "社会契约的产物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s053_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s053",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 2,
+   "stem": "《人应当坚持正义》中苏格拉底面对死刑判决的态度是",
+   "explain": "苏格拉底认为以恶报恶、破坏城邦法律都是不义的，宁可赴死也要坚持正义，这是全篇的核心。",
+   "answer_mode": "choice",
+   "options": [
+    "设法越狱逃走",
+    "即使受不义对待，也不以不义回报，坚持正义",
+    "放弃自己的主张",
+    "请求友人替他求情"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s053_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s053",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "difficulty": 3,
+   "stem": "卢梭与霍布斯对人性的看法不同，主要分歧在于",
+   "explain": "霍布斯认为人天性自私、彼此为敌；卢梭则强调人天生有怜悯心，恶是后天社会造成的。",
+   "answer_mode": "choice",
+   "options": [
+    "人是否天生具有怜悯心与善的倾向",
+    "人是否需要社会",
+    "人是否使用语言",
+    "人是否具有理性"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s054_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s054",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 1,
+   "stem": "《记念刘和珍君》纪念的是哪次惨案中的死难者？",
+   "explain": "1926年3月18日段祺瑞执政府枪杀请愿群众，刘和珍等遇难，鲁迅为此写下这篇纪念文章。",
+   "answer_mode": "choice",
+   "options": [
+    "三一八惨案",
+    "五卅惨案",
+    "九一八事变",
+    "一二·九运动"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s054_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s054",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "「真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血」中「真的猛士」指的是",
+   "explain": "鲁迅以此称颂烈士，也批判庸人的健忘：真正的勇者不回避惨淡与血腥，而是记住并抗争。",
+   "answer_mode": "choice",
+   "options": [
+    "勇猛的武人",
+    "敢于正视现实、不逃避的清醒者",
+    "死去的烈士",
+    "作者的自我标榜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s054_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s054",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "《为了忘却的记念》中「忘却」的实际含义是",
+   "explain": "题目是反语：正因为不能忘、忘不掉，才要用「忘却」来摆脱悲痛的重压，投入新的斗争。",
+   "answer_mode": "choice",
+   "options": [
+    "真的把烈士忘掉",
+    "以「忘却」为掩饰，化悲痛为力量，继续战斗",
+    "劝人不要再提此事",
+    "对烈士的埋怨"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s055_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s055",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 1,
+   "stem": "《包身工》的文体是",
+   "explain": "夏衍经过实地调查写成，既有新闻的真实性，又有文学的描写，是报告文学的典范之作。",
+   "answer_mode": "choice",
+   "options": [
+    "短篇小说",
+    "报告文学",
+    "散文诗",
+    "人物通讯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s055_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s055",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "《包身工》中「芦柴棒」这一绰号反映的是",
+   "explain": "瘦得像芦柴棒一样，绰号里就藏着被榨干的惨状，是全文最有力的细节之一。",
+   "answer_mode": "choice",
+   "options": [
+    "她喜欢柴火",
+    "包身工瘦弱不堪的身体状况",
+    "她的家乡地名",
+    "带工老板的善意"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s055_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s055",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "《包身工》在结构上的特点是",
+   "explain": "文章从清晨起身写到黑夜，用一天的时间线串起包身工的苦难，中间插入制度性的说明与分析。",
+   "answer_mode": "choice",
+   "options": [
+    "以时间顺序写一日之内的活动，穿插背景分析",
+    "完全按人物传记写",
+    "以书信体展开",
+    "以对话为主体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s056_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s056",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 1,
+   "stem": "《荷花淀》的作者是",
+   "explain": "孙犁是荷花淀派代表作家，写白洋淀妇女送夫参军、自己成长的故事，笔调清新。",
+   "answer_mode": "choice",
+   "options": [
+    "孙犁",
+    "赵树理",
+    "王愿坚",
+    "周立波"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s056_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s056",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "《小二黑结婚》中阻碍小二黑与小芹婚姻的封建势力代表是",
+   "explain": "二诸葛（刘修德）迷信择日子，三仙姑装神弄鬼，都是旧思想旧习俗的代表，小说的喜剧性由此而来。",
+   "answer_mode": "choice",
+   "options": [
+    "二诸葛与三仙姑",
+    "金旺与兴旺",
+    "小二黑父母",
+    "村公所干部"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s056_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s056",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "difficulty": 2,
+   "stem": "《党费》中黄新用来交党费的是",
+   "explain": "在极端困难的条件下，黄新把腌制的咸菜留给组织，说「盐比金子还贵」，咸菜就是她的党费。",
+   "answer_mode": "choice",
+   "options": [
+    "一块银元",
+    "一小筐咸菜",
+    "一件棉衣",
+    "一封信"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s057_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s057",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 1,
+   "stem": "《屈原列传》的作者是",
+   "explain": "《屈原列传》出自《史记》，是屈原最早的完整传记，作者司马迁在传中夹叙夹议。",
+   "answer_mode": "choice",
+   "options": [
+    "司马迁",
+    "班固",
+    "贾谊",
+    "刘向"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s057_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s057",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 2,
+   "stem": "「信而见疑，忠而被谤，能无怨乎」中「见」的意思是",
+   "explain": "「见疑」即被怀疑，「见」表被动；这句解释了屈原作品中「怨」的由来。",
+   "answer_mode": "choice",
+   "options": [
+    "看见",
+    "被",
+    "显现",
+    "会见"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s057_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s057",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 2,
+   "stem": "司马迁评价《离骚》「其文约，其辞微」，意思是",
+   "explain": "「约」是简约，「微」是含蓄深微，司马迁认为这正是屈原「志洁」「行廉」的表现。",
+   "answer_mode": "choice",
+   "options": [
+    "文字简约，含意幽深",
+    "文辞粗浅",
+    "篇幅短小",
+    "用词晦涩难懂"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s058_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s058",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 1,
+   "stem": "苏武被扣留在匈奴共多少年？",
+   "explain": "苏武出使被扣，牧羊北海十九年，始终持汉节，昭帝时才得归汉。",
+   "answer_mode": "choice",
+   "options": [
+    "十年",
+    "十九年",
+    "二十五年",
+    "三十年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s058_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s058",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 2,
+   "stem": "「杖汉节牧羊，卧起操持，节旄尽落」这一细节表现苏武",
+   "explain": "节是汉使的信物，睡觉都拿着，旄毛都脱落了，细节里全是十九年不改的忠心。",
+   "answer_mode": "choice",
+   "options": [
+    "牧羊技术高超",
+    "对汉朝的忠诚与坚守",
+    "生活的贫困",
+    "身体的衰弱"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s058_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s058",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 2,
+   "stem": "《苏武传》中李陵劝降失败，主要因为苏武",
+   "explain": "李陵以家庭遭遇、君主寡恩相劝，苏武答「臣事君，犹子事父也」，立场在义不在利。",
+   "answer_mode": "choice",
+   "options": [
+    "惧怕匈奴刑法",
+    "以国家大义为重，不以个人得失动摇",
+    "不相信李陵的话",
+    "想立功回国"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s059_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s059",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 1,
+   "stem": "《过秦论》的中心论点是",
+   "explain": "贾谊铺陈秦之强盛，再写其速亡，最后归结为不施仁义，攻守之势因此逆转。",
+   "answer_mode": "choice",
+   "options": [
+    "仁义不施而攻守之势异也",
+    "秦的强大在于变法",
+    "六国自取灭亡",
+    "陈涉起义是偶然"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s059_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s059",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 2,
+   "stem": "「忧劳可以兴国，逸豫可以亡身」出自",
+   "explain": "欧阳修由庄宗李存勖「方其盛也」到「及其衰也」的对比，得出盛衰在于人事的结论。",
+   "answer_mode": "choice",
+   "options": [
+    "《五代史伶官传序》",
+    "《过秦论》",
+    "《六国论》",
+    "《谏太宗十思疏》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s059_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s059",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "difficulty": 3,
+   "stem": "《五代史伶官传序》开篇「盛衰之理，虽曰天命，岂非人事哉」，其作用是",
+   "explain": "一个「岂非」把重心从天命移到人事，全文由此立论，体现欧阳修史论的现实关怀。",
+   "answer_mode": "choice",
+   "options": [
+    "强调天命不可违",
+    "以反问否定天命，确立「人事」决定盛衰的论点",
+    "为后文写伶人作铺垫",
+    "表达对庄宗的同情"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s060_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s060",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 1,
+   "stem": "《玩偶之家》的女主角是",
+   "explain": "娜拉为救丈夫伪造签名，事后看清丈夫的自私，最终离家出走，成为女性觉醒的象征。",
+   "answer_mode": "choice",
+   "options": [
+    "娜拉",
+    "海达",
+    "玛丝洛娃",
+    "繁漪"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s060_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s060",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 2,
+   "stem": "娜拉最终选择出走，直接原因是",
+   "explain": "海尔茂看到揭发信后先想到名声，危机过去又说「我原谅你」，娜拉由此看清八年的婚姻真相。",
+   "answer_mode": "choice",
+   "options": [
+    "家中经济困难",
+    "丈夫得知真相后只顾及自己的名誉，她认清自己只是「玩偶」",
+    "孩子不理解她",
+    "朋友的劝说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s060_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s060",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 3,
+   "stem": "《玩偶之家》被称为「社会问题剧」，主要因为它",
+   "explain": "易卜生不给出答案，而是把问题摆到观众面前，引发对婚姻、法律与女性处境的讨论。",
+   "answer_mode": "choice",
+   "options": [
+    "提出了妇女地位与婚姻真实性的社会问题",
+    "情节复杂离奇",
+    "以悲剧收场",
+    "使用了大量独白"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s061_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s061",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 1,
+   "stem": "「你知道吗，那柠檬花开的地方」出自",
+   "explain": "《迷娘（之一）》选自歌德的长篇小说《威廉·迈斯特的学习时代》，写迷娘对故国意大利的思念。",
+   "answer_mode": "choice",
+   "options": [
+    "歌德《迷娘（之一）》",
+    "普希金《致大海》",
+    "惠特曼《自己之歌》",
+    "特朗斯特罗姆《树和天空》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s061_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s061",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 2,
+   "stem": "《致大海》中普希金向大海告别，同时追怀的两位人物是",
+   "explain": "诗人在海边想起拿破仑和拜伦，两位都以非凡的个性与命运引起他的共鸣。",
+   "answer_mode": "choice",
+   "options": [
+    "拿破仑与拜伦",
+    "彼得大帝与叶卡捷琳娜",
+    "普加乔夫与十二月党人",
+    "莎士比亚与歌德"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s061_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s061",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "difficulty": 2,
+   "stem": "惠特曼《自己之歌》在形式上的突出特点是",
+   "explain": "《草叶集》开创自由体诗，不用固定格律，靠排比、列举和呼吸般的长句形成节奏。",
+   "answer_mode": "choice",
+   "options": [
+    "严格的格律",
+    "自由体，长句排比、列举铺陈",
+    "十四行诗体",
+    "每行五音步"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s062_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s062",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 1,
+   "stem": "「昆山玉碎凤凰叫，芙蓉泣露香兰笑」出自",
+   "explain": "李贺以玉碎、凤叫、芙蓉泣露等奇崛意象写箜篌声，是古代音乐描写的名句。",
+   "answer_mode": "choice",
+   "options": [
+    "李贺《李凭箜篌引》",
+    "白居易《琵琶行》",
+    "高适《燕歌行》",
+    "李商隐《锦瑟》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s062_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s062",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "《燕歌行并序》中「战士军前半死生，美人帐下犹歌舞」揭示的是",
+   "explain": "前方士卒生死一线，帐中主帅还在歌舞享乐，高适由此批判边将的腐败，全诗讽意在此。",
+   "answer_mode": "choice",
+   "options": [
+    "边塞风光的壮美",
+    "将士与主帅苦乐悬殊、赏罚不明",
+    "士兵思念家乡",
+    "战争的正义性"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s062_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s062",
+   "subject": "chinese",
+   "grade": 11,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "《书愤》中「楼船夜雪瓜洲渡，铁马秋风大散关」追忆的是",
+   "explain": "两句各写一次宋军抗金的战事与自己的从军经历，与下文「塞上长城空自许」形成对照。",
+   "answer_mode": "choice",
+   "options": [
+    "早年抗金的战斗生活",
+    "晚年的隐居岁月",
+    "出使金国的经历",
+    "读书求学的时光"
+   ],
+   "answer": 1
+  }
+ ]
+}

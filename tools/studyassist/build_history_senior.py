@@ -31,6 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = ROOT / "tools/studyassist/history_senior"
 CATALOG = ROOT / "data/catalog.json"
+GRAPH = ROOT / "data/knowledge/history_graph.json"
 
 EDITION = "tongbian"
 EDITION_LABEL = "统编版"
@@ -126,8 +127,8 @@ def check(volumes: list[dict]) -> None:
     print("✅ 素材校验通过")
 
 
-def build_volume(vol: dict, start_id: int) -> int:
-    """生成四份文件，返回下一个可用的知识点编号。"""
+def build_volume(vol: dict, start_id: int) -> tuple[int, list[dict]]:
+    """生成四份文件，返回下一个可用的知识点编号和本册的图谱节点。"""
     grade, semester, key = vol["grade"], vol["semester"], vol["key"]
     suf = "u" if semester == "upper" else "l"
     catalog_units = []
@@ -136,7 +137,7 @@ def build_volume(vol: dict, start_id: int) -> int:
         catalog_units.append({"id": f"u{i}", "name": catalog_unit_name(i, name)})
         knowledge_units.append({"id": f"u{i}", "name": knowledge_unit_name(i, name)})
 
-    topics, questions, bank_questions = [], [], []
+    topics, questions, bank_questions, nodes = [], [], [], []
     next_id = start_id
     for t_index, topic in enumerate(vol["topics"]):
         tid = f"{ID_PREFIX}{next_id:03d}"
@@ -156,6 +157,16 @@ def build_volume(vol: dict, start_id: int) -> int:
             "mastery_criteria": topic.get("criteria")
                 or ["能说出本课的关键史实、时间与人物", "能判断与教材表述相符的史实"],
             "example": {"question": example_q, "answer": example_a},
+        })
+        nodes.append({
+            "id": tid,
+            "name": topic["name"],
+            "grade": grade,
+            "semester": semester,
+            "unit": uid,
+            "unit_name": catalog_unit,
+            "domain": topic.get("domain") or vol["label"],
+            "edition": EDITION,
         })
         n = 0
         for q in vol["questions"]:
@@ -226,7 +237,7 @@ def build_volume(vol: dict, start_id: int) -> int:
     dump(ROOT / f"data/toc/history/{EDITION}/g{grade}{suf}.json", toc)
     print(f"  {vol['label']}（{grade} 年级{'上' if suf == 'u' else '下'}册）"
           f"{len(catalog_units)} 单元 / {len(topics)} 知识点 / {len(bank_questions)} 题")
-    return next_id
+    return next_id, nodes
 
 
 def update_catalog(volumes: list[dict]) -> None:
@@ -246,6 +257,27 @@ def update_catalog(volumes: list[dict]) -> None:
     print(f"  catalog: history/{EDITION} 年级 {grades}")
 
 
+def update_graph(volumes: list[dict], nodes: list[dict]) -> None:
+    """把本册知识点节点写进图谱，并清掉不再存在的旧节点/边。
+
+    知识点详情页走 Knowledge.topic()，它靠图谱节点定位年级/学期；
+    节点缺失时会报「没有找到这个知识点」，所以必须一起维护。
+    """
+    data = json.loads(GRAPH.read_text(encoding="utf-8"))
+    grades = {vol["grade"] for vol in volumes}
+    keep = [n for n in data["nodes"]
+            if not (str(n.get("id", "")).startswith(ID_PREFIX)
+                    or (n.get("edition") == EDITION and n.get("grade") in grades))]
+    new_ids = {n["id"] for n in nodes}
+    keep = [n for n in keep if n["id"] not in new_ids]
+    data["nodes"] = keep + nodes
+    ids = {n["id"] for n in data["nodes"]}
+    data["edges"] = [e for e in data["edges"]
+                     if e.get("from") in ids and e.get("to") in ids]
+    GRAPH.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"  graph: history 节点 {len(data['nodes'])}（本册新增 {len(nodes)}）")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="只校验素材，不写文件")
@@ -260,9 +292,12 @@ def main() -> None:
         return
     print("生成：")
     next_id = 1
+    nodes: list[dict] = []
     for vol in volumes:
-        next_id = build_volume(vol, next_id)
+        next_id, vol_nodes = build_volume(vol, next_id)
+        nodes.extend(vol_nodes)
     update_catalog(volumes)
+    update_graph(volumes, nodes)
     print("✅ 完成")
 
 

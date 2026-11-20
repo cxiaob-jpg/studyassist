@@ -1,0 +1,1517 @@
+{
+ "schema_version": 1,
+ "generated_by": "tools/studyassist/build_chinese_senior.py",
+ "source": {
+  "textbook": "必修下册",
+  "standard": "普通高中语文课程标准（2017年版2020年修订）"
+ },
+ "license": "CC BY-NC 4.0",
+ "attribution": "教材单元取自统编版高中语文教科书（必修上/下、选择性必修上/中/下）目录；知识点与题目由本项目编写，参考《普通高中语文课程标准（2017年版2020年修订）》。",
+ "subject": "chinese",
+ "grade": 10,
+ "semester": "lower",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元 中华文明之光"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元 良知与悲悯"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元 探索与创新"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元 信息时代的语文生活"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元 抱负与使命"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元 观察与批判"
+  },
+  {
+   "id": "u7",
+   "name": "第7单元 整本书阅读《红楼梦》"
+  },
+  {
+   "id": "u8",
+   "name": "第8单元 责任与担当"
+  },
+  {
+   "id": "u9",
+   "name": "第9单元 古诗词诵读"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnc_s020",
+   "name": "《子路、曾皙、冉有、公西华侍坐》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "description": "孔子让四位弟子各言其志，四人性格在答语中自然显露，孔子独赞曾皙「吾与点也」。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "孔子对哪位弟子的志向表示赞同？",
+    "answer": "曾皙（吾与点也）"
+   }
+  },
+  {
+   "id": "cnc_s021",
+   "name": "《齐桓晋文之事》《庖丁解牛》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "description": "孟子劝齐宣王「保民而王」，以「缘木求鱼」说方法之误；庄子借庖丁解牛讲「依乎天理」。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「缘木求鱼」出自哪篇文章？",
+    "answer": "《齐桓晋文之事》"
+   }
+  },
+  {
+   "id": "cnc_s022",
+   "name": "《烛之武退秦师》《鸿门宴》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "description": "烛之武抓住「亡郑陪邻」说服秦伯退兵；《鸿门宴》以座次、言行写项羽的骄与刘邦的忍。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "烛之武说服秦伯退兵的关键理由是？",
+    "answer": "亡郑只会使晋国得益（邻之厚，君之薄也）"
+   }
+  },
+  {
+   "id": "cnc_s023",
+   "name": "《窦娥冤》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "description": "关汉卿的杂剧代表作，窦娥临刑发下三桩誓愿，以浪漫手法控诉社会的不公。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "窦娥临刑前发下的誓愿有几桩？",
+    "answer": "三桩"
+   }
+  },
+  {
+   "id": "cnc_s024",
+   "name": "《雷雨》《哈姆莱特》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "description": "《雷雨》以周、鲁两家的纠葛写命运与阶级；《哈姆莱特》的独白表现王子对生死与复仇的沉思。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《雷雨》中周朴园三十年前抛弃的女子是？",
+    "answer": "侍萍（梅侍萍）"
+   }
+  },
+  {
+   "id": "cnc_s025",
+   "name": "《青蒿素》《一名物理学家的教育历程》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "description": "屠呦呦自述发现青蒿素的过程，加来道雄回忆童年幻想与爱因斯坦的启发，都是科普自述。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "屠呦呦从哪部古书得到低温提取的启发？",
+    "answer": "《肘后备急方》"
+   }
+  },
+  {
+   "id": "cnc_s026",
+   "name": "《中国建筑的特征》《说“木叶”》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "description": "梁思成用「词汇」「文法」说明中国建筑的风格；林庚从诗歌语言分析「木」的暗示性。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "梁思成用哪两个比喻说明中国建筑的特点？",
+    "answer": "词汇和文法"
+   }
+  },
+  {
+   "id": "cnc_s027",
+   "name": "信息时代的语文生活",
+   "domain": "习作基础",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·信息时代的语文生活",
+   "description": "认识媒介、善用媒介、辨识信息：面对海量信息要查信源、多方核对，不被标题和情绪牵着走。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "判断一条网络信息是否可信，最要紧的一步是？",
+    "answer": "查信源并与其他可靠渠道核对"
+   }
+  },
+  {
+   "id": "cnc_s028",
+   "name": "马克思、恩格斯演说与悼词",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "description": "马克思在《人民报》创刊纪念会上的演说揭示时代的矛盾；恩格斯在墓前的讲话高度评价马克思的两大发现。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "恩格斯认为马克思发现的两大规律是什么？",
+    "answer": "人类历史的发展规律与剩余价值规律"
+   }
+  },
+  {
+   "id": "cnc_s029",
+   "name": "《谏逐客书》《与妻书》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "description": "李斯以「泰山不让土壤」劝秦王广纳人才；林觉民《与妻书》把夫妻之情推向天下人之爱。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《谏逐客书》的作者是？",
+    "answer": "李斯"
+   }
+  },
+  {
+   "id": "cnc_s030",
+   "name": "《祝福》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "description": "鲁迅写祥林嫂在鲁镇祝福声中的死亡，通过「我」的所见所忆批判礼教与看客心理。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《祝福》中反复讲述「我真傻，真的」的人是？",
+    "answer": "祥林嫂"
+   }
+  },
+  {
+   "id": "cnc_s031",
+   "name": "《林教头风雪山神庙》《装在套子里的人》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "description": "林冲在风雪中被逼上梁山，环境描写推动情节；别里科夫把自己装进「套子」，成为保守势力的象征。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《装在套子里的人》的主人公是？",
+    "answer": "别里科夫"
+   }
+  },
+  {
+   "id": "cnc_s032",
+   "name": "《促织》《变形记》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "description": "蒲松龄写成名之子魂化促织以救全家；卡夫卡写格里高尔变成甲虫后的遭遇，都用荒诞揭示现实。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《促织》中成名之子最后变成了什么？",
+    "answer": "一只促织（蟋蟀）"
+   }
+  },
+  {
+   "id": "cnc_s033",
+   "name": "《红楼梦》整本书阅读",
+   "domain": "名著阅读",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·整本书阅读《红楼梦》",
+   "description": "抓住前五回的神话框架与人物关系，理清宝黛钗的情感线索，读懂判词与「木石前盟」「金玉良缘」。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「木石前盟」指的是？",
+    "answer": "贾宝玉与林黛玉的前世缘分"
+   }
+  },
+  {
+   "id": "cnc_s034",
+   "name": "《谏太宗十思疏》《答司马谏议书》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "description": "魏征以「载舟覆舟」提醒太宗居安思危；王安石逐一驳斥司马光的指责，以「名实已明」立论。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「载舟覆舟」出自哪篇文章？",
+    "answer": "《谏太宗十思疏》"
+   }
+  },
+  {
+   "id": "cnc_s035",
+   "name": "《阿房宫赋》《六国论》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "description": "杜牧借秦亡讽唐敬宗大兴土木；苏洵提出「弊在赂秦」，以史论时政，都是借古讽今的赋与论。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《六国论》的中心论点是？",
+    "answer": "六国破灭，弊在赂秦"
+   }
+  },
+  {
+   "id": "cnc_s036",
+   "name": "《登岳阳楼》《桂枝香·金陵怀古》《念奴娇·过洞庭》《游园》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "description": "四篇分别写登楼之悲、金陵怀古、洞庭澄澈与杜丽娘的春情，注意词曲的意象与抒情方式。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「吴楚东南坼，乾坤日夜浮」出自哪首诗？",
+    "answer": "杜甫《登岳阳楼》"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnc_s020_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s020",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 1,
+   "stem": "「子路、曾皙、冉有、公西华侍坐」中，表示赞同曾皙志向的一句是",
+   "explain": "「点」是曾皙的名，孔子说「吾与点也」，表示赞同曾皙描绘的太平和乐之志。",
+   "answer_mode": "choice",
+   "options": [
+    "吾与点也",
+    "何伤乎",
+    "舍瑟而作",
+    "其言不让"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s020_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s020",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "子路答「千乘之国，摄乎大国之间」时「其言不让」，可见他的性格是",
+   "explain": "子路抢先回答、语气自负，孔子「哂之」，正是笑他不够谦让。",
+   "answer_mode": "choice",
+   "options": [
+    "谦虚谨慎",
+    "直率自信、失于轻率",
+    "怯懦迟疑",
+    "沉默寡言"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s020_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s020",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "曾皙所述「莫春者，春服既成……咏而归」描绘的是",
+   "explain": "曾皙不直接谈治国，而描绘一幅人人安乐的图景，正合孔子礼乐治国、天下太平的理想。",
+   "answer_mode": "choice",
+   "options": [
+    "祭祀的仪式",
+    "礼乐教化下百姓和乐的生活图景",
+    "军事训练",
+    "春耕的劳作场面"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s021_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s021",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 1,
+   "stem": "「缘木求鱼」这个成语出自",
+   "explain": "孟子以「缘木求鱼」说明齐宣王以武力称霸、不以仁政，方向错了，越努力越远。",
+   "answer_mode": "choice",
+   "options": [
+    "《齐桓晋文之事》",
+    "《庖丁解牛》",
+    "《劝学》",
+    "《过秦论》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s021_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s021",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "孟子劝齐宣王行仁政，提出的核心主张是",
+   "explain": "孟子说「保民而王，莫之能御也」，主张安抚百姓才能统一天下，这是他的仁政思想。",
+   "answer_mode": "choice",
+   "options": [
+    "保民而王",
+    "兼爱非攻",
+    "无为而治",
+    "严刑峻法"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s021_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s021",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "《庖丁解牛》中「臣以神遇而不以目视」说明庖丁",
+   "explain": "庖丁由「所见无非牛」到「未尝见全牛」，再到以神遇，正是掌握「天理」即规律的过程。",
+   "answer_mode": "choice",
+   "options": [
+    "眼睛有疾病",
+    "技艺纯熟，已超越感官而把握规律",
+    "不重视实际操作",
+    "靠运气解牛"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s022_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s022",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 1,
+   "stem": "烛之武说服秦伯退兵，最打动秦伯的一点是",
+   "explain": "烛之武指出「邻之厚，君之薄也」：郑亡则晋强，晋强则秦危，利害一讲清，秦伯就退兵了。",
+   "answer_mode": "choice",
+   "options": [
+    "郑国愿意割地求和",
+    "亡郑只会使晋国得益，秦国受损",
+    "秦晋两国的旧日仇怨",
+    "郑国愿与秦国结盟攻晋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s022_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s022",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "《鸿门宴》中「项王、项伯东向坐」而「沛公北向坐」，座次安排的用意是",
+   "explain": "古人以东向为尊，项羽自居尊位，把刘邦置于下位，礼节中就含着轻慢和威压。",
+   "answer_mode": "choice",
+   "options": [
+    "纯属偶然",
+    "显示项羽的自尊与对刘邦的轻视",
+    "依照年龄大小",
+    "依官职高低正式排定"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s022_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s022",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "difficulty": 2,
+   "stem": "樊哙入帐后说「大行不顾细谨，大礼不辞小让」，意在",
+   "explain": "形势危急，樊哙以「人为刀俎，我为鱼肉」提醒刘邦先走，不必拘泥告辞的礼节。",
+   "answer_mode": "choice",
+   "options": [
+    "劝刘邦讲究礼节",
+    "劝刘邦脱身要紧，不必拘礼告辞",
+    "指责项羽失礼",
+    "替张良辩解"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s023_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s023",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 1,
+   "stem": "《窦娥冤》的作者是",
+   "explain": "《窦娥冤》是元杂剧代表作，作者关汉卿，与马致远、白朴、郑光祖并称元曲四大家。",
+   "answer_mode": "choice",
+   "options": [
+    "王实甫",
+    "关汉卿",
+    "马致远",
+    "白朴"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s023_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s023",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 2,
+   "stem": "窦娥临刑前发下的三桩誓愿是血溅白练、六月飞雪和",
+   "explain": "三桩誓愿是血溅白练、六月飞雪、亢旱三年，后来一一应验，用浪漫手法昭示冤情。",
+   "answer_mode": "choice",
+   "options": [
+    "大旱三年",
+    "白虹贯日",
+    "江水倒流",
+    "寒冬雷震"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s023_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s023",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 2,
+   "stem": "「地也，你不分好歹何为地！天也，你错勘贤愚枉做天」这句唱词表现窦娥",
+   "explain": "连天地都指斥，是对整个不公世道的控诉，窦娥的形象因此有了强烈的反抗色彩。",
+   "answer_mode": "choice",
+   "options": [
+    "对鬼神的顺从",
+    "对天地不公的质问与反抗",
+    "对婆婆的埋怨",
+    "对父亲的思念"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s024_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s024",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 1,
+   "stem": "《雷雨》的作者是",
+   "explain": "《雷雨》是曹禺的话剧代表作，以周、鲁两家三十年的恩怨写命运与人性的冲突。",
+   "answer_mode": "choice",
+   "options": [
+    "老舍",
+    "曹禺",
+    "田汉",
+    "夏衍"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s024_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s024",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 2,
+   "stem": "《雷雨》中周朴园三十年前抛弃的女子是",
+   "explain": "侍萍（梅侍萍）当年被周朴园抛弃，三十年后因女儿四凤到周家帮工，两家纠葛重新引爆。",
+   "answer_mode": "choice",
+   "options": [
+    "繁漪",
+    "侍萍",
+    "四凤",
+    "鲁妈的学生"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s024_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s024",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "difficulty": 2,
+   "stem": "「生存还是毁灭，这是一个值得考虑的问题」出自",
+   "explain": "这是莎士比亚《哈姆莱特》中王子的著名独白，思考生死的痛苦与复仇的责任。",
+   "answer_mode": "choice",
+   "options": [
+    "《哈姆莱特》",
+    "《玩偶之家》",
+    "《雷雨》",
+    "《窦娥冤》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s025_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s025",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 1,
+   "stem": "《青蒿素：人类征服疾病的一小步》的作者是",
+   "explain": "本文是屠呦呦的自述，讲发现青蒿素的科研过程，她因此获得诺贝尔生理学或医学奖。",
+   "answer_mode": "choice",
+   "options": [
+    "屠呦呦",
+    "加来道雄",
+    "林庚",
+    "梁思成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s025_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s025",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 2,
+   "stem": "屠呦呦从《肘后备急方》「青蒿一握，以水二升渍，绞取汁」中得到的关键启发是",
+   "explain": "古法强调「渍」（浸泡）和「绞取汁」而非煎煮，屠呦呦因此改用低沸点溶剂低温提取，获得成功。",
+   "answer_mode": "choice",
+   "options": [
+    "要加大用药剂量",
+    "要改用低温提取，避免高温破坏有效成分",
+    "要长期煎煮",
+    "要与其他药配伍"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s025_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s025",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 2,
+   "stem": "《一名物理学家的教育历程》中，加来道雄童年的「鲤鱼科学家的世界」说明",
+   "explain": "作者借鲤鱼世界的幻想说明：超出感官经验的想象，能引导人去追问世界的真相。",
+   "answer_mode": "choice",
+   "options": [
+    "鱼缸里的鱼真有智慧",
+    "想象力与对未知的好奇是科学探索的起点",
+    "科学只需要实验不需要想象",
+    "物理学很难学"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s026_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s026",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 1,
+   "stem": "梁思成说明中国建筑特点时，用「词汇」和「文法」比喻的是",
+   "explain": "梁思成把梁、柱、斗拱等比作「词汇」，把它们的组合规则比作「文法」，中国建筑由此形成独特体系。",
+   "answer_mode": "choice",
+   "options": [
+    "建筑的材料与工具",
+    "建筑的构件与组合规律",
+    "中国的文字与书法",
+    "工匠的师承关系"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s026_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s026",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 2,
+   "stem": "林庚在《说“木叶”》中认为，诗人爱用「木叶」而少用「树叶」，是因为「木」",
+   "explain": "「木」让人联想到树干、木材，带着疏朗、微黄、干燥的意味，与「叶」组合更适合写秋景。",
+   "answer_mode": "choice",
+   "options": [
+    "笔画少，写起来方便",
+    "带有落叶、微黄与干燥的暗示性",
+    "读音更响亮",
+    "在古诗中出现得更早"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s026_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s026",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "difficulty": 2,
+   "stem": "《中国建筑的特征》一文的说明顺序大体是",
+   "explain": "文章先概括中国建筑体系的特征，再分条列举，最后上升到「文法」，是典型的由总到分。",
+   "answer_mode": "choice",
+   "options": [
+    "由古到今的时间顺序",
+    "先总说特征，再分说九点，最后谈风格与文法",
+    "按地理位置分区介绍",
+    "按建筑造价高低排列"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s027_q1",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s027",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·信息时代的语文生活",
+   "difficulty": 1,
+   "stem": "判断一条网络信息是否可信，最要紧的一步是",
+   "explain": "转发量和情绪化标题都不能证明真假，关键是追溯原始信源、交叉核对。",
+   "answer_mode": "choice",
+   "options": [
+    "看转发量多少",
+    "查信源并与其他可靠渠道核对",
+    "看标题是否惊人",
+    "看评论是否一边倒"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s027_q2",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s027",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·信息时代的语文生活",
+   "difficulty": 2,
+   "stem": "同一件事在短视频、报纸和官方通报中说法不一，合理的做法是",
+   "explain": "不同媒介各有立场和呈现方式，比较信源、时间、证据，才能接近事实。",
+   "answer_mode": "choice",
+   "options": [
+    "相信最先看到的",
+    "比较各方的信息源与证据，再作判断",
+    "谁的点赞多信谁",
+    "一律不信"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s027_q3",
+   "type": "knowledge",
+   "skill": "习作基础",
+   "topic": "cnc_s027",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·信息时代的语文生活",
+   "difficulty": 2,
+   "stem": "「善用多媒介」在表达上的意思是",
+   "explain": "文字适合讲理，图片视频适合呈现场景，选择要看内容特点和受众习惯。",
+   "answer_mode": "choice",
+   "options": [
+    "尽量多用图片代替文字",
+    "根据内容与对象选择合适的媒介形式",
+    "同一内容在所有平台都发一遍",
+    "只用最流行的平台"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s028_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s028",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 1,
+   "stem": "恩格斯《在马克思墓前的讲话》中说「当代最伟大的思想家停止思想了」，这句话",
+   "explain": "不说「死」而说「停止思想」，既是对思想家的敬意，也是不忍直言的哀痛。",
+   "answer_mode": "choice",
+   "options": [
+    "是普通的叙述，没有特别含义",
+    "用「停止思想」委婉表达马克思的逝世",
+    "说明马克思放弃了自己的思想",
+    "指马克思暂时休息"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s028_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s028",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 2,
+   "stem": "恩格斯认为马克思的两大发现是唯物史观和",
+   "explain": "恩格斯把唯物史观与剩余价值规律并列为马克思的两大发现，前者揭示历史规律，后者揭示资本主义秘密。",
+   "answer_mode": "choice",
+   "options": [
+    "阶级斗争学说",
+    "剩余价值规律",
+    "辩证法",
+    "进化论"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s028_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s028",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 2,
+   "stem": "马克思在《人民报》创刊纪念会上的演说中指出，这个时代「每一种事物好像都包含有自己的反面」，意在说明",
+   "explain": "马克思说机器的应用带来贫困、技术的胜利伴随道德的败坏，揭示资本主义进步与灾难并存。",
+   "answer_mode": "choice",
+   "options": [
+    "事物都是成对出现的",
+    "资本主义的进步伴随着深刻的矛盾与危机",
+    "革命不可能成功",
+    "自然科学比社会科学重要"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s029_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s029",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 1,
+   "stem": "《谏逐客书》的作者是",
+   "explain": "李斯上此书劝秦王政收回逐客之令，最终被采纳，「书」是臣下向君主陈述意见的文体。",
+   "answer_mode": "choice",
+   "options": [
+    "李斯",
+    "韩非",
+    "苏秦",
+    "张仪"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s029_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s029",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 2,
+   "stem": "「泰山不让土壤，故能成其大」在文中的用意是",
+   "explain": "李斯以泰山、河海为喻，说明君王要成就帝业，就不能排斥外来的人才。",
+   "answer_mode": "choice",
+   "options": [
+    "赞美泰山的自然景观",
+    "说明君主应广纳人才、不分地域",
+    "劝秦王祭祀山川",
+    "批评秦国的奢侈"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s029_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s029",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "difficulty": 2,
+   "stem": "《与妻书》中「吾充吾爱汝之心，助天下人爱其所爱」表现林觉民",
+   "explain": "林觉民把夫妻深情推及天下人，正因为深爱妻子，才不愿天下人失去所爱，故以身赴死。",
+   "answer_mode": "choice",
+   "options": [
+    "对妻子的责备",
+    "把个人之爱扩展为对天下人的爱",
+    "对家庭的逃避",
+    "对革命的犹豫"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s030_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s030",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 1,
+   "stem": "《祝福》中反复讲述「我真傻，真的」这一细节的人是",
+   "explain": "祥林嫂反复讲阿毛被狼吃的故事，起初博得同情，后来只被人取笑，写出看客的冷漠。",
+   "answer_mode": "choice",
+   "options": [
+    "四婶",
+    "祥林嫂",
+    "卫老婆子",
+    "「我」"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s030_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s030",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "《祝福》以「祝福」为题，其用意是",
+   "explain": "众人忙着「祝福」求福，祥林嫂却死在祝福声中，乐与悲的反差正是对礼教社会的控诉。",
+   "answer_mode": "choice",
+   "options": [
+    "写鲁镇过年热闹的风俗",
+    "以年终祝福的喜庆反衬祥林嫂之死的悲凉",
+    "赞美传统礼俗",
+    "交代故事的季节"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s030_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s030",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "《祝福》中的「我」在文中的作用是",
+   "explain": "「我」是有独立性格的叙述者，面对祥林嫂的追问只能支吾，最后逃离鲁镇，反讽知识者的无力。",
+   "answer_mode": "choice",
+   "options": [
+    "就是鲁迅本人，可以等同作者",
+    "作为叙述者，既有同情又有软弱，参与并见证故事",
+    "是鲁四老爷的代言人",
+    "是祥林嫂的亲人"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s031_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s031",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 1,
+   "stem": "《装在套子里的人》的主人公是",
+   "explain": "别里科夫晴天也穿雨鞋、带雨伞，一切装在套子里，是沙皇俄国保守势力的象征。",
+   "answer_mode": "choice",
+   "options": [
+    "别里科夫",
+    "奥楚蔑洛夫",
+    "姚纳",
+    "格里高尔"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s031_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s031",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "《林教头风雪山神庙》中反复写风雪，其作用不包括",
+   "explain": "风雪压塌草厅、使林冲移宿山神庙，才听到真相，风雪既是环境也是情节动力，但不交代身世。",
+   "answer_mode": "choice",
+   "options": [
+    "推动情节，压塌草屋逼林冲夜宿山神庙",
+    "渲染凄凉的氛围",
+    "暗示人物处境与心境",
+    "交代林冲的身世来历"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_s031_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s031",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "林冲由「忍」到「反」的转折点是",
+   "explain": "在山神庙听到陆虞候等人放火陷害的实情，林冲彻底断绝退路，杀仇人后雪夜上梁山。",
+   "answer_mode": "choice",
+   "options": [
+    "误入白虎堂",
+    "野猪林遇险",
+    "山神庙听知陆谦等人密谋并手刃仇人",
+    "被发配沧州"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s032_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s032",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 1,
+   "stem": "《促织》的作者是",
+   "explain": "《促织》出自蒲松龄《聊斋志异》，写宣德年间宫中斗蟋蟀给百姓带来的灾难。",
+   "answer_mode": "choice",
+   "options": [
+    "蒲松龄",
+    "纪昀",
+    "冯梦龙",
+    "曹雪芹"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s032_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s032",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "《促织》中成名之子的结局是",
+   "explain": "成名之子投井后魂魄化为善斗的促织，救了全家，荒诞情节背后是血泪控诉。",
+   "answer_mode": "choice",
+   "options": [
+    "考中功名",
+    "魂化促织，使全家得救",
+    "远走他乡",
+    "被官府处死"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s032_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s032",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "difficulty": 2,
+   "stem": "《变形记》中格里高尔变成的是",
+   "explain": "卡夫卡让格里高尔一觉醒来变成巨大的甲虫，写出现代人被异化后的孤独与家庭的冷漠。",
+   "answer_mode": "choice",
+   "options": [
+    "一只甲虫",
+    "一条狗",
+    "一只鸟",
+    "一匹马"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s033_q1",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s033",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·整本书阅读《红楼梦》",
+   "difficulty": 1,
+   "stem": "「木石前盟」指的是",
+   "explain": "「木」指绛珠仙草（黛玉前身），「石」指通灵宝玉，二人前世有灌溉之恩，故称木石前盟。",
+   "answer_mode": "choice",
+   "options": [
+    "贾宝玉与薛宝钗的婚姻",
+    "贾宝玉与林黛玉的前世缘分",
+    "贾府与王家的盟约",
+    "宝玉与湘云的友谊"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s033_q2",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s033",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·整本书阅读《红楼梦》",
+   "difficulty": 2,
+   "stem": "《红楼梦》前五回中，冷子兴的作用是",
+   "explain": "「冷子兴演说荣国府」借旁观者之口把贾府谱系和现状介绍给读者，是重要的结构安排。",
+   "answer_mode": "choice",
+   "options": [
+    "主持贾府的祭祀",
+    "向贾雨村演说荣国府，交代贾府人物关系",
+    "为宝玉看病",
+    "替黛玉说媒"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s033_q3",
+   "type": "knowledge",
+   "skill": "名著阅读",
+   "topic": "cnc_s033",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u7",
+   "unit_name": "第7单元·整本书阅读《红楼梦》",
+   "difficulty": 3,
+   "stem": "《红楼梦》以「判词」「曲词」预示人物命运，这种写法的作用是",
+   "explain": "第五回的判词与《红楼梦曲》把结局提前亮相，读者于是转为关注「为什么」，悲剧感更强。",
+   "answer_mode": "choice",
+   "options": [
+    "增加阅读难度，别无他用",
+    "让读者预先知道结局，从而更关注人物如何走向命运",
+    "记录真实历史",
+    "替代情节叙述"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s034_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s034",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 1,
+   "stem": "「载舟覆舟，所宜深慎」出自",
+   "explain": "魏征以水与舟比喻百姓与君主，提醒太宗居安思危，是《谏太宗十思疏》的核心比喻。",
+   "answer_mode": "choice",
+   "options": [
+    "《谏太宗十思疏》",
+    "《阿房宫赋》",
+    "《六国论》",
+    "《答司马谏议书》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s034_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s034",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 2,
+   "stem": "《答司马谏议书》中王安石反驳对方指责的总原则是",
+   "explain": "王安石先立「名实」标准，再逐条对照，指出对方所加的四项罪名与事实不符，是典型的驳论。",
+   "answer_mode": "choice",
+   "options": [
+    "先辨名实，名实已明则天下之理得",
+    "以退为进，承认全部错误",
+    "引用经典，不作正面回答",
+    "只谈私人交情"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s034_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s034",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 2,
+   "stem": "司马光在信中指责王安石变法的罪名不包括",
+   "explain": "司马光指责的是侵官、生事、征利、拒谏四事，王安石逐一反驳，并未涉及「废帝」。",
+   "answer_mode": "choice",
+   "options": [
+    "侵官",
+    "生事",
+    "征利",
+    "废帝"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnc_s035_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s035",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 1,
+   "stem": "《六国论》的中心论点是",
+   "explain": "苏洵开篇立论「六国破灭，非兵不利，战不善，弊在赂秦」，下文围绕「赂」展开。",
+   "answer_mode": "choice",
+   "options": [
+    "六国破灭，弊在赂秦",
+    "六国破灭，非兵不利",
+    "秦国统一是历史的必然",
+    "六国应当合纵抗秦"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s035_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s035",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 2,
+   "stem": "「后人哀之而不鉴之，亦使后人而复哀后人也」出自",
+   "explain": "这是杜牧《阿房宫赋》的结尾，借秦亡警告唐朝统治者不要重蹈覆辙。",
+   "answer_mode": "choice",
+   "options": [
+    "《阿房宫赋》",
+    "《六国论》",
+    "《过秦论》",
+    "《谏太宗十思疏》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s035_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s035",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "difficulty": 2,
+   "stem": "《阿房宫赋》前两段极力铺陈阿房宫的宏伟与宫中生活，其目的是",
+   "explain": "赋体长于铺陈，前面写得越奢华，后面「楚人一炬，可怜焦土」的转折就越有力量。",
+   "answer_mode": "choice",
+   "options": [
+    "单纯赞美建筑艺术",
+    "为后文写秦的奢靡亡国作铺垫",
+    "记录真实的宫殿规模",
+    "表现工匠的高超技艺"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s036_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s036",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 1,
+   "stem": "「吴楚东南坼，乾坤日夜浮」出自",
+   "explain": "杜甫《登岳阳楼》以十字写洞庭的浩渺，接着由景入情，写身世之悲与对国家战乱的忧念。",
+   "answer_mode": "choice",
+   "options": [
+    "杜甫《登岳阳楼》",
+    "孟浩然《望洞庭湖赠张丞相》",
+    "范仲淹《岳阳楼记》",
+    "张孝祥《念奴娇·过洞庭》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s036_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s036",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "《桂枝香·金陵怀古》的作者是",
+   "explain": "王安石这首词登高怀古，「千里澄江似练，翠峰如簇」写金陵形胜，结句感叹六朝兴亡。",
+   "answer_mode": "choice",
+   "options": [
+    "王安石",
+    "苏轼",
+    "辛弃疾",
+    "周邦彦"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s036_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s036",
+   "subject": "chinese",
+   "grade": 10,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "difficulty": 3,
+   "stem": "《念奴娇·过洞庭》中「表里俱澄澈」一句，既写湖水也写",
+   "explain": "张孝祥泛舟洞庭，湖光与心地一片澄明，「肝肺皆冰雪」进一步表明自己的高洁。",
+   "answer_mode": "choice",
+   "options": [
+    "月色昏暗",
+    "词人光明磊落的心境",
+    "船上的灯火",
+    "岸边的芦花"
+   ],
+   "answer": 2
+  }
+ ]
+}

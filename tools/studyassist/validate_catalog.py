@@ -57,7 +57,7 @@ def main():
     }
     # 默认版本必须覆盖的「六三制」册次（i.e. 该学科在 6-3 学制下的标准年级）
     canonical_grades = {
-        "chinese": {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+        "chinese": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
         "math": {"1", "2", "3", "4", "5", "6"},  # renjiao etc.; junior/senior checked separately
         "english": {"3", "4", "5", "6"},  # pep; renjiao editions checked separately
         "physics": {"8", "9", "10", "11", "12"},
@@ -68,7 +68,7 @@ def main():
     }
     # 该学科理论上可能出现的年级（五四制出版社会有 6 年级地理/生物等）
     grade_universe = {
-        "chinese": canonical_grades["chinese"],
+        "chinese": canonical_grades["chinese"],  # 统编高中五册：必修上下、选必上中下
         "math": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
         "english": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
         "physics": {"8", "9", "10", "11", "12"},

@@ -32,6 +32,9 @@ local FALLBACK_EDITIONS = {
     math = { "junior", "senior" },
     -- 译林 currently ships grade 4 only; PEP covers 3-6, 人教 covers 7-12.
     english = { "pep", "yilin", "renjiao", "renjiao-senior" },
+    -- 统编「老教材」只收了小学 1~6 与初三，高一~高三（以及初中 7~8）没有题库；
+    -- 家长在设置里误选老教材时回落到现行统编版，别让语文整科消失。
+    chinese = { "tongbian" },
 }
 
 local function edition_for(resolved, subject)

@@ -1,0 +1,1070 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_chinese_senior.py",
+ "source": {
+  "path": "chinese/tongbian/g12_upper.json"
+ },
+ "subject": "chinese",
+ "grade": 12,
+ "semester": "upper",
+ "edition": "tongbian",
+ "edition_label": "统编版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·诗意的探寻"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·时代镜像"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·至情至性"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·求真求实"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·古诗词诵读"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnc_s063",
+   "name": "《氓》《离骚（节选）》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "description": "《氓》是《诗经·卫风》的弃妇诗，以桑叶起兴写情变；《离骚》以香草美人写忠贞与求索。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「桑之未落，其叶沃若」用什么手法起兴？",
+    "answer": "以桑叶起兴，喻女子容颜与情爱之盛"
+   }
+  },
+  {
+   "id": "cnc_s064",
+   "name": "《孔雀东南飞并序》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "description": "汉乐府长篇叙事诗，写焦仲卿与刘兰芝的婚姻悲剧，与《木兰诗》并称「乐府双璧」。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《孔雀东南飞》与哪首诗并称「乐府双璧」？",
+    "answer": "《木兰诗》"
+   }
+  },
+  {
+   "id": "cnc_s065",
+   "name": "《蜀道难》《蜀相》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "description": "李白以奇特的想象与夸张写蜀道之险；杜甫《蜀相》凭吊诸葛亮，寄寓自己的济世之志。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「三顾频烦天下计，两朝开济老臣心」出自？",
+    "answer": "杜甫《蜀相》"
+   }
+  },
+  {
+   "id": "cnc_s066",
+   "name": "《望海潮》《扬州慢》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "description": "柳永写杭州的繁华富丽；姜夔过扬州见荠麦荒城，以对比写黍离之悲。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《扬州慢》中写扬州残破的名句是？",
+    "answer": "过春风十里，尽荠麦青青"
+   }
+  },
+  {
+   "id": "cnc_s067",
+   "name": "《阿Q正传》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "description": "鲁迅以「精神胜利法」塑造阿Q，写未庄的革命与「不准革命」，批判国民性的弱点。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "阿Q最突出的性格特征是？",
+    "answer": "精神胜利法"
+   }
+  },
+  {
+   "id": "cnc_s068",
+   "name": "《边城》《大堰河——我的保姆》《再别康桥》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "description": "沈从文写茶峒少女翠翠的纯真与等待；艾青以保姆大堰河写苦难与感恩；徐志摩写康桥的柔美与离情。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《边城》中的女主人公是？",
+    "answer": "翠翠"
+   }
+  },
+  {
+   "id": "cnc_s069",
+   "name": "《一个消逝了的山村》《秦腔》《茶馆》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "description": "冯至写山中村落的历史感怀；贾平凹写秦地秦腔的苍凉热烈；老舍以裕泰茶馆的兴衰写三个时代。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《茶馆》的作者是？",
+    "answer": "老舍"
+   }
+  },
+  {
+   "id": "cnc_s070",
+   "name": "《陈情表》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "description": "李密以祖母年迈无人奉养为由辞谢征召，以情动人、以理服人，是古代抒情散文名篇。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「茕茕孑立，形影相吊」形容的是？",
+    "answer": "孤苦无依的处境"
+   }
+  },
+  {
+   "id": "cnc_s071",
+   "name": "《项脊轩志》《兰亭集序》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "description": "归有光借项脊轩写家族变迁与亲人零落；王羲之由宴集之乐转出「死生亦大矣」的感慨。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《项脊轩志》结尾写枇杷树「今已亭亭如盖矣」，作用是？",
+    "answer": "以物是人非寄寓对亡妻的思念"
+   }
+  },
+  {
+   "id": "cnc_s072",
+   "name": "《归去来兮辞》《种树郭橐驼传》《石钟山记》",
+   "domain": "文言文阅读",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "description": "陶渊明写归田之乐；柳宗元借郭橐驼种树讲「顺木之天」的养人之术；苏轼夜探石钟山，主张目见耳闻。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「悟已往之不谏，知来者之可追」出自？",
+    "answer": "陶渊明《归去来兮辞》"
+   }
+  },
+  {
+   "id": "cnc_s073",
+   "name": "《自然选择的证明》《宇宙的边疆》《天文学上的旷世之争》",
+   "domain": "阅读理解",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·求真求实",
+   "description": "达尔文以大量事实论证自然选择；萨根带读者巡游宇宙；关增建梳理浑盖之争的科学史脉络。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "《自然选择的证明》的作者是？",
+    "answer": "达尔文"
+   }
+  },
+  {
+   "id": "cnc_s074",
+   "name": "《拟行路难》《客至》《登快阁》《临安春雨初霁》",
+   "domain": "古诗文积累",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "description": "鲍照抒寒门之愤；杜甫写客至的欣喜与家贫；黄庭坚登快阁见澄江；陆游写临安的闲适与倦意。",
+   "mastery_criteria": [
+    "能说出本课的作者、出处与主要内容",
+    "能理解关键语句的含义与写法"
+   ],
+   "example": {
+    "question": "「小楼一夜听春雨，深巷明朝卖杏花」出自？",
+    "answer": "陆游《临安春雨初霁》"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnc_s063_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s063",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 1,
+   "stem": "《氓》出自《诗经》的哪一部分？",
+   "explain": "《氓》属《诗经·卫风》，是一首弃妇诗，叙述从相恋、成婚到被弃的全过程。",
+   "answer_mode": "choice",
+   "options": [
+    "《卫风》",
+    "《周南》",
+    "《邶风》",
+    "《秦风》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s063_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s063",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "「桑之未落，其叶沃若」在诗中的作用是",
+   "explain": "第三章以桑叶起兴，与下文「桑之落矣，其黄而陨」对照，写出容颜与情感由盛转衰。",
+   "answer_mode": "choice",
+   "options": [
+    "单纯描写景物",
+    "以桑叶起兴，喻女子年轻时的美貌与情爱之盛",
+    "交代季节变化",
+    "说明农事繁忙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s063_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s063",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "「路漫漫其修远兮，吾将上下而求索」表现屈原",
+   "explain": "前路漫长仍不放弃探索，是《离骚》中最能体现屈原人格的句子之一。",
+   "answer_mode": "choice",
+   "options": [
+    "对仕途的厌倦",
+    "对理想的执着追求",
+    "对故乡的思念",
+    "对神明的敬畏"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s064_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s064",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 1,
+   "stem": "《孔雀东南飞》与哪首诗并称「乐府双璧」？",
+   "explain": "《孔雀东南飞》与北朝《木兰诗》并称乐府双璧，前者是长篇叙事诗，写婚姻悲剧。",
+   "answer_mode": "choice",
+   "options": [
+    "《木兰诗》",
+    "《陌上桑》",
+    "《长歌行》",
+    "《十五从军征》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s064_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s064",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "刘兰芝与焦仲卿的悲剧，根本原因在于",
+   "explain": "焦母的逼迫、刘兄的势利，都是家长制与礼教的化身，两个相爱的人只能以死相抗。",
+   "answer_mode": "choice",
+   "options": [
+    "两人感情不和",
+    "封建家长制与礼教对婚姻的支配",
+    "经济困难",
+    "战乱离散"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s064_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s064",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "诗歌以「孔雀东南飞，五里一徘徊」开头，其作用是",
+   "explain": "孔雀徘徊不愿离去，与焦刘二人的依恋相应，起兴之中已含悲音。",
+   "answer_mode": "choice",
+   "options": [
+    "交代地点",
+    "以起兴营造缠绵悲凉的气氛，暗示悲剧结局",
+    "说明孔雀的习性",
+    "引出男主人公"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s065_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s065",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 1,
+   "stem": "「蜀道之难，难于上青天」在《蜀道难》中反复出现，其作用是",
+   "explain": "这一句三次出现，每次之后描写层层推进，形成回环往复的音乐效果。",
+   "answer_mode": "choice",
+   "options": [
+    "凑足字数",
+    "作为主旋律反复咏叹，强化蜀道之险与情感冲击",
+    "交代写作缘由",
+    "转换韵脚"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s065_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s065",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "「三顾频烦天下计，两朝开济老臣心」写的是",
+   "explain": "上句写刘备三顾茅庐问天下大计，下句写诸葛亮辅佐先主后主两朝，全联概括其一生。",
+   "answer_mode": "choice",
+   "options": [
+    "诸葛亮",
+    "刘备",
+    "周瑜",
+    "管仲"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s065_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s065",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "杜甫《蜀相》结尾「出师未捷身先死，长使英雄泪满襟」，其中「英雄」也包括",
+   "explain": "杜甫借诸葛亮寄托自己的济世之志，泪为古人流，也为自己流，这是咏史诗的常见笔法。",
+   "answer_mode": "choice",
+   "options": [
+    "诸葛亮本人",
+    "诗人自己及后世有志未酬者",
+    "刘备",
+    "蜀中百姓"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s066_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s066",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 1,
+   "stem": "《望海潮》中「三秋桂子，十里荷花」写的是哪座城市？",
+   "explain": "柳永《望海潮》写杭州的繁华，「三秋桂子，十里荷花」流传极广，相传金主完颜亮读后遂起南侵之念。",
+   "answer_mode": "choice",
+   "options": [
+    "杭州",
+    "扬州",
+    "苏州",
+    "金陵"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s066_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s066",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "《扬州慢》中「过春风十里，尽荠麦青青」表达的是",
+   "explain": "「春风十里」本是杜牧写扬州繁华的句子，如今只见荠麦青青，繁华尽失，故有《黍离》之悲。",
+   "answer_mode": "choice",
+   "options": [
+    "对春景的赞美",
+    "昔盛今衰的黍离之悲",
+    "对农事的关心",
+    "旅途的愉快"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s066_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s066",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "difficulty": 2,
+   "stem": "《扬州慢》小序中说「千岩老人以为有《黍离》之悲也」，「黍离」出自",
+   "explain": "《诗经·王风·黍离》写故都荒废之痛，后世以「黍离之悲」指亡国之思与盛衰之感。",
+   "answer_mode": "choice",
+   "options": [
+    "《诗经·王风》",
+    "《楚辞·九章》",
+    "《古诗十九首》",
+    "《乐府诗集》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s067_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s067",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 1,
+   "stem": "阿Q最突出的性格特征是",
+   "explain": "被人打了便想「儿子打老子」，用自轻自贱换取心理平衡，这就是「精神胜利法」。",
+   "answer_mode": "choice",
+   "options": [
+    "勤劳善良",
+    "精神胜利法",
+    "阴险狡诈",
+    "懦弱畏缩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s067_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s067",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 2,
+   "stem": "《阿Q正传》中写「不准革命」，用意是",
+   "explain": "阿Q想投革命却被假洋鬼子喝退，最后被当作替罪羊枪毙，写出革命未触动农村的旧秩序。",
+   "answer_mode": "choice",
+   "options": [
+    "说明革命纪律严明",
+    "揭示辛亥革命的不彻底与农民的处境",
+    "讽刺阿Q懒惰",
+    "表现赵太爷的权势"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s067_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s067",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 3,
+   "stem": "鲁迅说阿Q「是中国的脊梁」之外的一种「国民的魂灵」，这句话的意思是",
+   "explain": "鲁迅写阿Q不是为了嘲笑一个人，而是要用这面镜子照出国民精神中的自欺、麻木与健忘。",
+   "answer_mode": "choice",
+   "options": [
+    "赞美中国人的精神",
+    "阿Q的弱点具有普遍性，是国民性病症的写照",
+    "阿Q是民族英雄",
+    "阿Q只是个别现象"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s068_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s068",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 1,
+   "stem": "《边城》中的女主人公是",
+   "explain": "《边城》写湘西茶峒渡船老人的孙女翠翠与天保、傩送兄弟之间的情感纠葛。",
+   "answer_mode": "choice",
+   "options": [
+    "翠翠",
+    "萧萧",
+    "三三",
+    "夭夭"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s068_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s068",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 2,
+   "stem": "《大堰河——我的保姆》中「大堰河」的身份是",
+   "explain": "大堰河是艾青的乳母，一个贫苦农妇，诗人在狱中写此诗，把感恩与对苦难者的同情合在一起。",
+   "answer_mode": "choice",
+   "options": [
+    "诗人的母亲",
+    "诗人的乳母",
+    "村里的教师",
+    "邻居家的姑娘"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s068_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s068",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 2,
+   "stem": "「轻轻的我走了，正如我轻轻的来」使用反复与轻缓的节奏，表达的是",
+   "explain": "全诗以「轻轻的」「悄悄的」贯注，怕惊扰了康桥的美，越轻越见情深。",
+   "answer_mode": "choice",
+   "options": [
+    "对康桥的厌弃",
+    "离别时温柔而不舍的依恋",
+    "对未来的恐惧",
+    "旅途的疲惫"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s069_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s069",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 1,
+   "stem": "《茶馆》的作者是",
+   "explain": "《茶馆》以裕泰茶馆为窗口，写清末、民国初年与抗战后三个时代，人物众多而各具声口。",
+   "answer_mode": "choice",
+   "options": [
+    "老舍",
+    "曹禺",
+    "夏衍",
+    "田汉"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s069_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s069",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 2,
+   "stem": "《茶馆》以「莫谈国事」的纸条反复出现，其用意是",
+   "explain": "纸条越贴越大，正说明时局越来越凶险；王利发只想做生意，却始终被时代裹挟。",
+   "answer_mode": "choice",
+   "options": [
+    "表现茶馆的规矩",
+    "暗示时代的高压与百姓的处境",
+    "刻画王利发的谨慎性格，兼作时代注脚",
+    "说明茶馆生意兴隆"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnc_s069_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s069",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "difficulty": 2,
+   "stem": "《秦腔》中作者把秦腔与秦地人的性格联系起来，认为秦腔的特点是",
+   "explain": "贾平凹写秦人唱秦腔「大喊大叫」，与八百里秦川的厚土和秦人的刚硬相合。",
+   "answer_mode": "choice",
+   "options": [
+    "婉转柔美",
+    "高亢苍凉、粗犷热烈",
+    "清丽典雅",
+    "诙谐轻快"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s070_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s070",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 1,
+   "stem": "《陈情表》的作者是",
+   "explain": "李密写《陈情表》辞谢晋武帝的征召，以祖母年迈无人奉养为由，情理兼备。",
+   "answer_mode": "choice",
+   "options": [
+    "李密",
+    "诸葛亮",
+    "陶渊明",
+    "王羲之"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s070_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s070",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "「茕茕孑立，形影相吊」形容的是",
+   "explain": "「茕茕」孤独，「孑立」孤单地站着，「形影相吊」只有身影相伴，写尽孤苦。",
+   "answer_mode": "choice",
+   "options": [
+    "孤独无依的处境",
+    "身体病弱",
+    "家境贫寒",
+    "仕途失意"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s070_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s070",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "《陈情表》能打动晋武帝，主要因为它",
+   "explain": "晋以孝治天下，李密紧扣「圣朝以孝治天下」，尽孝即不违国策，皇帝便无从加罪。",
+   "answer_mode": "choice",
+   "options": [
+    "引用了大量经典",
+    "以孝道为据，把「辞官」转化为「尽孝」，合乎朝廷提倡的名教",
+    "辞藻华丽",
+    "篇幅很长"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s071_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s071",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 1,
+   "stem": "《项脊轩志》结尾写「庭有枇杷树，吾妻死之年所手植也，今已亭亭如盖矣」，其作用是",
+   "explain": "树已亭亭如盖，人却不在，不着一字抒情而情至深，是归有光最著名的笔法。",
+   "answer_mode": "choice",
+   "options": [
+    "交代庭院景物",
+    "以树的长大写时光流逝与思念之深",
+    "赞美妻子的园艺",
+    "结束全文的闲笔"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s071_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s071",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "《兰亭集序》中「死生亦大矣，岂不痛哉」的感慨由何引发？",
+   "explain": "王羲之由眼前欢聚想到「向之所欣，俯仰之间，已为陈迹」，于是生出对生死无常的痛感。",
+   "answer_mode": "choice",
+   "options": [
+    "宴集之乐与俯仰之间已为陈迹的对比",
+    "对官职升迁的忧虑",
+    "对自然山水的赞美",
+    "对朋友的埋怨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s071_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s071",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "《兰亭集序》先写乐、再写痛、最后写悲，这种情感变化的作用是",
+   "explain": "由乐转痛再转悲，情绪层层推进，最后落到「后之视今，亦犹今之视昔」，哲思才有依托。",
+   "answer_mode": "choice",
+   "options": [
+    "使文章层次分明，由具体情境上升到对生命的哲思",
+    "故意制造矛盾",
+    "模仿前人写法",
+    "为了凑足篇幅"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s072_q1",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s072",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 1,
+   "stem": "「悟已往之不谏，知来者之可追」出自",
+   "explain": "陶渊明辞彭泽令归田时所作，这两句表明迷途未远、及时归去的决心。",
+   "answer_mode": "choice",
+   "options": [
+    "《归去来兮辞》",
+    "《陈情表》",
+    "《兰亭集序》",
+    "《种树郭橐驼传》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s072_q2",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s072",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "《种树郭橐驼传》中「顺木之天，以致其性」被作者用来类比",
+   "explain": "柳宗元由种树之道推出「养人」之术，批判官吏政令繁苛、扰民伤民。",
+   "answer_mode": "choice",
+   "options": [
+    "种树的技巧",
+    "为政应顺民之性、不可烦扰百姓",
+    "读书的方法",
+    "养生的道理"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnc_s072_q3",
+   "type": "knowledge",
+   "skill": "文言文阅读",
+   "topic": "cnc_s072",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "difficulty": 2,
+   "stem": "《石钟山记》中苏轼得出的结论是",
+   "explain": "苏轼夜泊绝壁下听到水石相击之声，才明白山名由来，由此强调实地考察、反对臆断。",
+   "answer_mode": "choice",
+   "options": [
+    "事不目见耳闻，而臆断其有无，可乎",
+    "古人记载皆不可信",
+    "石钟山因形得名",
+    "山水之乐无穷"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s073_q1",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s073",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·求真求实",
+   "difficulty": 1,
+   "stem": "《自然选择的证明》的作者是",
+   "explain": "达尔文在《物种起源》中以大量观察材料论证自然选择，本文是其中的章节节选。",
+   "answer_mode": "choice",
+   "options": [
+    "达尔文",
+    "赫胥黎",
+    "拉马克",
+    "孟德尔"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s073_q2",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s073",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·求真求实",
+   "difficulty": 2,
+   "stem": "《宇宙的边疆》的作者卡尔·萨根是",
+   "explain": "萨根是美国天文学家，本文是科普作品，以解说词的方式带读者从宇宙边缘回到地球。",
+   "answer_mode": "choice",
+   "options": [
+    "天文学家",
+    "物理学家",
+    "生物学家",
+    "哲学家"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s073_q3",
+   "type": "knowledge",
+   "skill": "阅读理解",
+   "topic": "cnc_s073",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u4",
+   "unit_name": "第4单元·求真求实",
+   "difficulty": 2,
+   "stem": "《天文学上的旷世之争》中「浑盖之争」指的是",
+   "explain": "中国古代关于宇宙结构有浑天说与盖天说，两派争论千余年，关增建梳理其科学史意义。",
+   "answer_mode": "choice",
+   "options": [
+    "浑天说与盖天说关于宇宙结构的争论",
+    "中西历法的争论",
+    "日心说与地心说的争论",
+    "恒星与行星分类的争论"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s074_q1",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s074",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 1,
+   "stem": "「小楼一夜听春雨，深巷明朝卖杏花」出自",
+   "explain": "陆游在临安等待召见时所作，表面写闲适，实含「世味年来薄似纱」的倦意。",
+   "answer_mode": "choice",
+   "options": [
+    "陆游《临安春雨初霁》",
+    "杜甫《客至》",
+    "黄庭坚《登快阁》",
+    "鲍照《拟行路难》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s074_q2",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s074",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "「心非木石岂无感？吞声踯躅不敢言」出自",
+   "explain": "鲍照借《行路难》旧题写寒门受压抑的愤懑，最后一句把欲说还休的屈抑写得极沉痛。",
+   "answer_mode": "choice",
+   "options": [
+    "鲍照《拟行路难》",
+    "李白《行路难》",
+    "高适《燕歌行》",
+    "李贺《李凭箜篌引》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnc_s074_q3",
+   "type": "knowledge",
+   "skill": "古诗文积累",
+   "topic": "cnc_s074",
+   "subject": "chinese",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "tongbian",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "difficulty": 2,
+   "stem": "《客至》中「花径不曾缘客扫，蓬门今始为君开」表现的是",
+   "explain": "杜甫平日无人来访，为友人特地把花径扫净、把柴门打开，朴素的行动里都是欢喜。",
+   "answer_mode": "choice",
+   "options": [
+    "对客人的冷淡",
+    "因客至而格外欣喜、以诚相待",
+    "家境的富足",
+    "对仕途的失望"
+   ],
+   "answer": 2
+  }
+ ]
+}

@@ -6365,6 +6365,746 @@
    "unit_name": null,
    "domain": "口语交际",
    "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s001",
+   "name": "《沁园春·长沙》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s002",
+   "name": "《立在地球边上放号》《红烛》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s003",
+   "name": "《峨日朵雪峰之侧》《致云雀》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s004",
+   "name": "《百合花》《哦，香雪》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·青春激扬",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s005",
+   "name": "人物通讯：袁隆平、张秉贵、钟扬",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s006",
+   "name": "《以工匠精神雕琢时代品质》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s007",
+   "name": "《芣苢》《插秧歌》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·劳动光荣",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s008",
+   "name": "《短歌行》《归园田居（其一）》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s009",
+   "name": "《梦游天姥吟留别》《登高》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s010",
+   "name": "《琵琶行》《念奴娇·赤壁怀古》《永遇乐》《声声慢》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·生命的诗意",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s011",
+   "name": "记录家乡的人和物",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·家乡文化生活",
+   "domain": "习作基础",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s012",
+   "name": "《乡土中国》核心概念",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·整本书阅读《乡土中国》",
+   "domain": "名著阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s013",
+   "name": "《劝学》《师说》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s014",
+   "name": "《反对党八股》《拿来主义》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s015",
+   "name": "《读书：目的和前提》《上图书馆》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u6",
+   "unit_name": "第6单元·学习之道",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s016",
+   "name": "《故都的秋》《荷塘月色》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s017",
+   "name": "《我与地坛》《赤壁赋》《登泰山记》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u7",
+   "unit_name": "第7单元·自然情怀",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s018",
+   "name": "古今词义的联系与区别",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u8",
+   "unit_name": "第8单元·词语积累与词语解释",
+   "domain": "词语",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s019",
+   "name": "《静女》《涉江采芙蓉》《虞美人》《鹊桥仙》",
+   "grade": 10,
+   "semester": "upper",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s020",
+   "name": "《子路、曾皙、冉有、公西华侍坐》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s021",
+   "name": "《齐桓晋文之事》《庖丁解牛》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s022",
+   "name": "《烛之武退秦师》《鸿门宴》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·中华文明之光",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s023",
+   "name": "《窦娥冤》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s024",
+   "name": "《雷雨》《哈姆莱特》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·良知与悲悯",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s025",
+   "name": "《青蒿素》《一名物理学家的教育历程》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s026",
+   "name": "《中国建筑的特征》《说“木叶”》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·探索与创新",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s027",
+   "name": "信息时代的语文生活",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·信息时代的语文生活",
+   "domain": "习作基础",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s028",
+   "name": "马克思、恩格斯演说与悼词",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s029",
+   "name": "《谏逐客书》《与妻书》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·抱负与使命",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s030",
+   "name": "《祝福》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s031",
+   "name": "《林教头风雪山神庙》《装在套子里的人》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s032",
+   "name": "《促织》《变形记》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u6",
+   "unit_name": "第6单元·观察与批判",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s033",
+   "name": "《红楼梦》整本书阅读",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u7",
+   "unit_name": "第7单元·整本书阅读《红楼梦》",
+   "domain": "名著阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s034",
+   "name": "《谏太宗十思疏》《答司马谏议书》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s035",
+   "name": "《阿房宫赋》《六国论》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u8",
+   "unit_name": "第8单元·责任与担当",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s036",
+   "name": "《登岳阳楼》《桂枝香·金陵怀古》《念奴娇·过洞庭》《游园》",
+   "grade": 10,
+   "semester": "lower",
+   "unit": "u9",
+   "unit_name": "第9单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s037",
+   "name": "《中国人民站起来了》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·伟大的复兴",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s038",
+   "name": "《长征胜利万岁》《大战中的插曲》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·伟大的复兴",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s039",
+   "name": "《别了，“不列颠尼亚”》《县委书记的榜样——焦裕禄》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·伟大的复兴",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s040",
+   "name": "《在民族复兴的历史丰碑上》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·伟大的复兴",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s041",
+   "name": "《论语》十二章",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·百家争鸣",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s042",
+   "name": "《大学之道》《人皆有不忍人之心》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·百家争鸣",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s043",
+   "name": "《老子》四章、《五石之瓠》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·百家争鸣",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s044",
+   "name": "《兼爱》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·百家争鸣",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s045",
+   "name": "《大卫·科波菲尔》《复活》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·多样的文化",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s046",
+   "name": "《老人与海》《百年孤独》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·多样的文化",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s047",
+   "name": "逻辑的力量",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·逻辑的力量",
+   "domain": "习作基础",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s048",
+   "name": "《无衣》《春江花月夜》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s049",
+   "name": "《将进酒》《江城子·乙卯正月二十日夜记梦》",
+   "grade": 11,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s050",
+   "name": "《社会历史的决定性基础》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s051",
+   "name": "《改造我们的学习》《人的正确思想是从哪里来的？》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s052",
+   "name": "《实践是检验真理的唯一标准》《修辞立其诚》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s053",
+   "name": "《怜悯是人的天性》《人应当坚持正义》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第1单元·理论的价值",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s054",
+   "name": "《记念刘和珍君》《为了忘却的记念》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s055",
+   "name": "《包身工》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s056",
+   "name": "《荷花淀》《小二黑结婚》《党费》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u2",
+   "unit_name": "第2单元·苦难与新生",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s057",
+   "name": "《屈原列传》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s058",
+   "name": "《苏武传》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s059",
+   "name": "《过秦论》《五代史伶官传序》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u3",
+   "unit_name": "第3单元·历史纵横",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s060",
+   "name": "《玩偶之家》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s061",
+   "name": "《迷娘》《致大海》《自己之歌》《树和天空》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u4",
+   "unit_name": "第4单元·丰富的心灵",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s062",
+   "name": "《燕歌行并序》《李凭箜篌引》《锦瑟》《书愤》",
+   "grade": 11,
+   "semester": "lower",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s063",
+   "name": "《氓》《离骚（节选）》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s064",
+   "name": "《孔雀东南飞并序》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s065",
+   "name": "《蜀道难》《蜀相》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s066",
+   "name": "《望海潮》《扬州慢》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元·诗意的探寻",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s067",
+   "name": "《阿Q正传》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s068",
+   "name": "《边城》《大堰河——我的保姆》《再别康桥》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s069",
+   "name": "《一个消逝了的山村》《秦腔》《茶馆》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u2",
+   "unit_name": "第2单元·时代镜像",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s070",
+   "name": "《陈情表》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s071",
+   "name": "《项脊轩志》《兰亭集序》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s072",
+   "name": "《归去来兮辞》《种树郭橐驼传》《石钟山记》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u3",
+   "unit_name": "第3单元·至情至性",
+   "domain": "文言文阅读",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s073",
+   "name": "《自然选择的证明》《宇宙的边疆》《天文学上的旷世之争》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u4",
+   "unit_name": "第4单元·求真求实",
+   "domain": "阅读理解",
+   "edition": "tongbian"
+  },
+  {
+   "id": "cnc_s074",
+   "name": "《拟行路难》《客至》《登快阁》《临安春雨初霁》",
+   "grade": 12,
+   "semester": "upper",
+   "unit": "u5",
+   "unit_name": "第5单元·古诗词诵读",
+   "domain": "古诗文积累",
+   "edition": "tongbian"
   }
  ],
  "edges": [
