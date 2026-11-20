@@ -43,7 +43,9 @@ def main():
         if not province.get("default_math"):
             err(f"province {pid} missing default_math")
 
-    expected_editions = {
+    # 基线：这些版本必须存在；允许再挂其他出版社（物理 12 版、化学 6 版、
+    # 地理 4 版等），但基线少了就是错。
+    required_editions = {
         "chinese": {"tongbian"},
         "math": {"renjiao", "beishida", "sujiao", "sujiao2024", "qingdao", "hujiao", "junior", "senior"},
         "english": {"pep", "yilin", "renjiao", "renjiao-senior"},
@@ -53,10 +55,10 @@ def main():
         "history": {"tongbian"},
         "geography": {"renjiao"},
     }
-    elementary = {"1", "2", "3", "4", "5", "6"}
-    expected_grades = {
-        "chinese": elementary | {"7", "8", "9"},
-        "math": elementary,  # renjiao etc.; junior/senior checked separately
+    # 默认版本必须覆盖的「六三制」册次（i.e. 该学科在 6-3 学制下的标准年级）
+    canonical_grades = {
+        "chinese": {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+        "math": {"1", "2", "3", "4", "5", "6"},  # renjiao etc.; junior/senior checked separately
         "english": {"3", "4", "5", "6"},  # pep; renjiao editions checked separately
         "physics": {"8", "9", "10", "11", "12"},
         "chemistry": {"9", "10", "11", "12"},
@@ -64,36 +66,62 @@ def main():
         "history": {"7", "8", "9"},
         "geography": {"7", "8"},
     }
+    # 该学科理论上可能出现的年级（五四制出版社会有 6 年级地理/生物等）
+    grade_universe = {
+        "chinese": canonical_grades["chinese"],
+        "math": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+        "english": {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+        "physics": {"8", "9", "10", "11", "12"},
+        "chemistry": {"9", "10", "11", "12"},
+        "biology": {"6", "7", "8"},
+        "history": {"6", "7", "8", "9"},
+        "geography": {"6", "7", "8"},
+    }
+    # 默认版本（order 第一个）：必须整段覆盖 canonical
+    default_edition = {
+        "chinese": "tongbian", "math": "renjiao", "english": "pep",
+        "physics": "renjiao", "chemistry": "renjiao", "biology": "renjiao",
+        "history": "tongbian", "geography": "renjiao",
+    }
     # Editions that are bank-backed (static JSON) rather than mathgen-driven.
     bank_editions = {
         ("math", "junior"): {"7", "8", "9"},
         ("math", "senior"): {"10", "11", "12"},
         ("english", "renjiao"): {"7", "8", "9"},
         ("english", "renjiao-senior"): {"10", "11", "12"},
-        ("english", "yilin"): {"4"},
+        ("english", "yilin"): {"3", "4", "5", "6"},
     }
     known_skills = lua_skill_keys()
     if not known_skills:
         err("could not read skill_generators from mathgen.lua")
 
     seen_subjects = set()
-    for subject, expected in expected_editions.items():
+    for subject, required in required_editions.items():
         subject_data = CATALOG["subjects"].get(subject)
         if not subject_data:
             err(f"missing subject {subject}")
             continue
         seen_subjects.add(subject)
         editions = subject_data.get("editions", {})
-        if set(editions) != expected:
-            err(f"{subject} editions {sorted(editions)} != {sorted(expected)}")
+        missing = required - set(editions)
+        if missing:
+            err(f"{subject} missing editions {sorted(missing)}")
         for edition_id, edition in editions.items():
             bank_pair = bank_editions.get((subject, edition_id))
             grades = edition.get("grades", {})
             if bank_pair:
                 if set(grades) != bank_pair:
                     err(f"{subject}/{edition_id}: grades {sorted(grades)} != {sorted(bank_pair)}")
-            elif set(grades) != expected_grades[subject]:
-                err(f"{subject}/{edition_id}: grades {sorted(grades)} != {sorted(expected_grades[subject])}")
+            elif edition_id == default_edition.get(subject):
+                if set(grades) != canonical_grades[subject]:
+                    err(f"{subject}/{edition_id}: grades {sorted(grades)} != {sorted(canonical_grades[subject])}")
+            else:
+                # 非默认版本允许按学段部分覆盖（如粤教版仅高中、鲁教版仅 6~7 年级）
+                if not grades:
+                    err(f"{subject}/{edition_id}: no grades")
+                elif not set(grades) <= grade_universe[subject]:
+                    extra = sorted(set(grades) - grade_universe[subject])
+                    err(f"{subject}/{edition_id}: grades {extra} out of range")
             for grade, semesters in grades.items():
                 # Bank editions may lack one semester when the source has no
                 # questions for it (e.g. english 9下); require at least one.

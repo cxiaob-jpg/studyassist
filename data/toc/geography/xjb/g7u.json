@@ -1,0 +1,1156 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_geography_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 湘教版 七年级地理上册(2024秋版)；知识点/题目复用通用地理池",
+  "path": "xjb/dili/xc7s_2024",
+  "fetched": "2026-11-20"
+ },
+ "subject": "geography",
+ "grade": 7,
+ "semester": "upper",
+ "edition": "xjb",
+ "edition_label": "湘教版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第一章 让我们走进地理"
+  },
+  {
+   "id": "u2",
+   "name": "第二章 认识地球"
+  },
+  {
+   "id": "u3",
+   "name": "第三章 地球的面貌"
+  },
+  {
+   "id": "u4",
+   "name": "第四章 世界的居民与文化"
+  },
+  {
+   "id": "u5",
+   "name": "第五章 世界的气候"
+  },
+  {
+   "id": "u6",
+   "name": "第六章 世界的发展差异"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cng_j004",
+   "name": "地图的阅读",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "description": "知道地图三要素，会用比例尺、方向和图例读图。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地图的三要素是？",
+    "answer": "比例尺、方向、图例"
+   }
+  },
+  {
+   "id": "cng_j005",
+   "name": "地形图的判读",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "description": "会根据等高线判读海拔、坡度和五种基本地形。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "等高线地形图上，等高线越密集，表示？",
+    "answer": "坡度越陡"
+   }
+  },
+  {
+   "id": "cng_j006",
+   "name": "地图的选择和应用",
+   "domain": "地球与地图",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "description": "能根据出行、查找范围等需要选择合适的地图。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "查找北京到上海的铁路路线，最合适的是？",
+    "answer": "中国交通图"
+   }
+  },
+  {
+   "id": "cng_j002",
+   "name": "地球与地球仪",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第二章 认识地球",
+   "description": "知道地球的形状和大小，会用经纬网确定位置。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地球的平均半径大约是？",
+    "answer": "6371千米"
+   }
+  },
+  {
+   "id": "cng_j001",
+   "name": "地球的宇宙环境",
+   "domain": "地球与地图",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第三章 地球的面貌",
+   "description": "知道地球在太阳系中的位置，以及恒星、行星、卫星等天体的基本关系。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地球在太阳系中属于哪一类天体？",
+    "answer": "行星"
+   }
+  },
+  {
+   "id": "cng_j009",
+   "name": "海陆的变迁",
+   "domain": "地球与地图",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第三章 地球的面貌",
+   "description": "知道沧海桑田的证据，以及板块运动与火山地震的关系。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "海陆变迁的重要证据之一是？",
+    "answer": "有的高山上发现海洋生物化石"
+   }
+  },
+  {
+   "id": "cng_j014",
+   "name": "人口与人种",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "description": "知道世界人口的增长、分布和三大人种。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "目前世界人口最多的大洲是？",
+    "answer": "亚洲"
+   }
+  },
+  {
+   "id": "cng_j015",
+   "name": "城镇与乡村",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "description": "知道聚落的形态、城乡差异及形成条件。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "聚落通常分为？",
+    "answer": "乡村和城镇"
+   }
+  },
+  {
+   "id": "cng_j016",
+   "name": "多样的文化",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "description": "知道世界语言、宗教和文化景观的多样性。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "使用人数最多的语言是？",
+    "answer": "汉语"
+   }
+  },
+  {
+   "id": "cng_j010",
+   "name": "多变的天气",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "description": "区分天气和气候，会读天气预报中的常用符号。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "“今天多云，明天有中雨”描述的是？",
+    "answer": "天气"
+   }
+  },
+  {
+   "id": "cng_j011",
+   "name": "气温的变化与分布",
+   "domain": "世界地理",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "description": "知道气温的日变化、年变化和世界气温分布规律。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "一天中，陆地最高气温通常出现在？",
+    "answer": "午后 2 时左右"
+   }
+  },
+  {
+   "id": "cng_j012",
+   "name": "降水的变化与分布",
+   "domain": "世界地理",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "description": "知道降水的季节变化和世界降水的分布规律。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "赤道附近地区年降水量通常？",
+    "answer": "很丰富"
+   }
+  },
+  {
+   "id": "cng_j013",
+   "name": "世界的气候",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "description": "知道世界主要气候类型的分布和特征。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "热带雨林气候主要分布在？",
+    "answer": "赤道附近"
+   }
+  },
+  {
+   "id": "cng_j017",
+   "name": "发展与合作",
+   "domain": "世界地理",
+   "kp_type": "reasoning",
+   "unit": "u6",
+   "unit_name": "第六章 世界的发展差异",
+   "description": "知道发达国家与发展中国家的差异，以及国际合作的意义。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "目前世界上大多数国家属于？",
+    "answer": "发展中国家"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cng_j004_q3",
+   "topic": "cng_j004",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 2,
+   "stem": "相同图幅下，比例尺越大，表示的实地范围？",
+   "explain": "比例尺大则同一图幅覆盖的实地范围小，地理事物可以画得更详细。",
+   "answer_mode": "choice",
+   "options": [
+    "越大，内容越简略",
+    "不变，内容一样详细",
+    "越大，内容越详细",
+    "越小，内容越详细"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j005_q2",
+   "topic": "cng_j005",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "海拔一般在 200 米以下、地面平坦广阔的地形是？",
+   "explain": "平原海拔较低，地势平坦。",
+   "answer_mode": "choice",
+   "options": [
+    "高原",
+    "山地",
+    "丘陵",
+    "平原"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j005_q4",
+   "topic": "cng_j005",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "分层设色地形图上，绿色通常表示？",
+   "explain": "陆地上绿色多表示海拔较低的平原，黄色、褐色表示更高的高原山地。",
+   "answer_mode": "choice",
+   "options": [
+    "高山冰雪",
+    "平原或低地",
+    "海洋最深处",
+    "沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j006_q1",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "查找北京到上海的铁路路线，最合适的是？",
+   "explain": "交通图专门表示铁路、公路等线路。",
+   "answer_mode": "choice",
+   "options": [
+    "世界气候图",
+    "北京市区旅游图",
+    "等高线地形图",
+    "中国交通图"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j006_q2",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "去公园徒步，要判断哪条路更陡，应优先看？",
+   "explain": "等高线可以反映坡度陡缓，适合选择登山或徒步路线。",
+   "answer_mode": "choice",
+   "options": [
+    "等高线地形图",
+    "世界政区图",
+    "人口分布图",
+    "语言分布图"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j006_q3",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 2,
+   "stem": "比例尺很小的世界地图，适合用来？",
+   "explain": "小比例尺地图表示范围大、内容简略，适合看大区域位置。",
+   "answer_mode": "choice",
+   "options": [
+    "查找某条胡同的门牌",
+    "了解大洲大洋的相对位置",
+    "量算校园操场长度",
+    "辨别小区内部道路"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j006_q4",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u1",
+   "unit_name": "第一章 让我们走进地理",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "既要看清某省各市位置，又要大致了解地形起伏，较合适的组合是？",
+   "explain": "政区图给出行政区位置，地形图给出地势起伏，二者配合使用。",
+   "answer_mode": "choice",
+   "options": [
+    "只有世界气候类型图",
+    "只有太阳系示意图",
+    "省级政区图和地形图",
+    "只有城市公交线路图"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j002_q1",
+   "topic": "cng_j002",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u2",
+   "unit_name": "第二章 认识地球",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "地球的平均半径大约是？",
+   "explain": "教材给出地球平均半径约6371千米。",
+   "answer_mode": "choice",
+   "options": [
+    "40000千米",
+    "5.1亿千米",
+    "384000千米",
+    "6371千米"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j002_q4",
+   "topic": "cng_j002",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u2",
+   "unit_name": "第二章 认识地球",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "北纬40°、东经116°大致对应的城市是？",
+   "explain": "北京大约位于40°N、116°E附近。",
+   "answer_mode": "choice",
+   "options": [
+    "新加坡",
+    "开普敦",
+    "北京",
+    "纽约"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j001_q4",
+   "topic": "cng_j001",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u3",
+   "unit_name": "第三章 地球的面貌",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "可观测宇宙中，地球所在的天体系统由小到大依次是？",
+   "explain": "地球和月球组成地月系，地月系属于太阳系，太阳系属于银河系。",
+   "answer_mode": "choice",
+   "options": [
+    "太阳系、地月系、银河系、可观测宇宙",
+    "地月系、太阳系、银河系、可观测宇宙",
+    "银河系、太阳系、地月系、可观测宇宙",
+    "地月系、银河系、太阳系、可观测宇宙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j009_q1",
+   "topic": "cng_j009",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u3",
+   "unit_name": "第三章 地球的面貌",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "海陆变迁的重要证据之一是？",
+   "explain": "高山上的海相化石说明那里曾经是海洋。",
+   "answer_mode": "choice",
+   "options": [
+    "四季更替",
+    "昼夜长短变化",
+    "有的高山上发现海洋生物化石",
+    "地图上的比例尺大小"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j014_q1",
+   "topic": "cng_j014",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "目前世界人口最多的大洲是？",
+   "explain": "亚洲人口占世界一半以上。",
+   "answer_mode": "choice",
+   "options": [
+    "欧洲",
+    "大洋洲",
+    "南极洲",
+    "亚洲"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j014_q2",
+   "topic": "cng_j014",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "世界人口分布稠密区多位于？",
+   "explain": "自然条件较好、开发较早的沿海平原人口密集。",
+   "answer_mode": "choice",
+   "options": [
+    "中低纬度的近海平原",
+    "高山高原内部",
+    "热带沙漠腹地",
+    "南极大陆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j014_q3",
+   "topic": "cng_j014",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "黄色人种主要分布在？",
+   "explain": "东亚、东南亚以黄色人种为主。",
+   "answer_mode": "choice",
+   "options": [
+    "欧洲西部",
+    "亚洲东部和东南部",
+    "非洲中部",
+    "澳大利亚中部沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j014_q4",
+   "topic": "cng_j014",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "人口自然增长率最高的大洲通常是？",
+   "explain": "非洲许多国家出生率高，人口增长快。",
+   "answer_mode": "choice",
+   "options": [
+    "欧洲",
+    "北美洲",
+    "非洲",
+    "大洋洲"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j015_q1",
+   "topic": "cng_j015",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "聚落通常分为？",
+   "explain": "人类集中居住的地方称为聚落，主要分为乡村和城镇。",
+   "answer_mode": "choice",
+   "options": [
+    "乡村和城镇",
+    "只有首都和港口",
+    "只有工厂和农田",
+    "只有高原和盆地"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j015_q2",
+   "topic": "cng_j015",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "乡村聚落的居民一般主要从事？",
+   "explain": "乡村以农业活动为主，城镇以非农业活动为主。",
+   "answer_mode": "choice",
+   "options": [
+    "国际贸易结算",
+    "农业生产",
+    "航天发射",
+    "深海钻探"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j015_q3",
+   "topic": "cng_j015",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "沿河或沿交通线呈条带状分布的聚落，形态上属于？",
+   "explain": "受河流、山谷或交通线限制，聚落常沿线延伸。",
+   "answer_mode": "choice",
+   "options": [
+    "团块状聚落",
+    "完全没有形态",
+    "带状聚落",
+    "只出现在沙漠腹地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j015_q4",
+   "topic": "cng_j015",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "早期城市多出现在河流中下游平原，主要是因为？",
+   "explain": "平原土壤肥沃、用水方便、便于运输，有利于城市形成。",
+   "answer_mode": "choice",
+   "options": [
+    "完全没有水患风险",
+    "这里一定没有农业",
+    "海拔越高越适合建城",
+    "水源充足、交通便利、农业基础好"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j016_q1",
+   "topic": "cng_j016",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "使用人数最多的语言是？",
+   "explain": "汉语是世界上使用人数最多的语言；英语是使用最广泛的语言之一。",
+   "answer_mode": "choice",
+   "options": [
+    "英语",
+    "汉语",
+    "阿拉伯语",
+    "西班牙语"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j016_q2",
+   "topic": "cng_j016",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "基督教、伊斯兰教、佛教通常并称为？",
+   "explain": "这三大宗教信徒多、分布广，是世界主要宗教。",
+   "answer_mode": "choice",
+   "options": [
+    "亚洲仅有的方言",
+    "四大洋的别称",
+    "世界三大宗教",
+    "七大洲的别称"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j016_q3",
+   "topic": "cng_j016",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "佛教发源于？",
+   "explain": "佛教起源于南亚的古代印度，后传到东亚、东南亚等地。",
+   "answer_mode": "choice",
+   "options": [
+    "古代希腊",
+    "古代埃及",
+    "古代罗马",
+    "古代印度"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j016_q4",
+   "topic": "cng_j016",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u4",
+   "unit_name": "第四章 世界的居民与文化",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "语言和宗教的分布差异，说明世界文化具有？",
+   "explain": "不同地区的语言、宗教、建筑和习俗不同，体现文化多样性。",
+   "answer_mode": "choice",
+   "options": [
+    "多样性",
+    "完全同一性",
+    "只存在于城市",
+    "与地理位置无关"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j010_q1",
+   "topic": "cng_j010",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "“今天多云，明天有中雨”描述的是？",
+   "explain": "天气是短时间的大气状况，气候是长时间的平均状况。",
+   "answer_mode": "choice",
+   "options": [
+    "气候",
+    "地形",
+    "洋流",
+    "天气"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j010_q2",
+   "topic": "cng_j010",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "天气预报里，带雨点的云朵符号通常表示？",
+   "explain": "云加雨点是降雨天气符号。",
+   "answer_mode": "choice",
+   "options": [
+    "降雨",
+    "沙尘暴",
+    "大雾",
+    "霜冻"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j010_q3",
+   "topic": "cng_j010",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "空气质量指数（AQI）数值越大，通常表示？",
+   "explain": "AQI 用来表示空气质量，数值越大污染越重。",
+   "answer_mode": "choice",
+   "options": [
+    "气温越高",
+    "空气污染越重",
+    "风力越大",
+    "空气越清洁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j010_q4",
+   "topic": "cng_j010",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "下列叙述属于气候的是？",
+   "explain": "“四季如春”是长期大气状况，属于气候；其余都是短时天气。",
+   "answer_mode": "choice",
+   "options": [
+    "今晚有雷阵雨",
+    "明天最低气温 8℃",
+    "昆明四季如春",
+    "刚才刮起了大风"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j011_q1",
+   "topic": "cng_j011",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "一天中，陆地最高气温通常出现在？",
+   "explain": "地面热量积累到午后达到最高，陆地最高气温多在 14 时左右。",
+   "answer_mode": "choice",
+   "options": [
+    "午后 2 时左右",
+    "正午 12 时整",
+    "日出前后",
+    "午夜 0 时"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j011_q4",
+   "topic": "cng_j011",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "等温线在北半球陆地 1 月向南凸出，主要说明？",
+   "explain": "1 月是北半球冬季，陆地降温快，同纬度陆地气温低于海洋，等温线向低纬（南）凸出。",
+   "answer_mode": "choice",
+   "options": [
+    "同纬度陆地比海洋更热",
+    "海拔越高气温越高",
+    "该地一定位于南半球",
+    "同纬度陆地比海洋更冷"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j012_q1",
+   "topic": "cng_j012",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "赤道附近地区年降水量通常？",
+   "explain": "赤道地区空气对流旺盛，多对流雨，是世界多雨带。",
+   "answer_mode": "choice",
+   "options": [
+    "非常稀少",
+    "很丰富",
+    "全年为零",
+    "只在冬季较多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j012_q2",
+   "topic": "cng_j012",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "副热带地区的大陆西岸和内陆，降水往往？",
+   "explain": "副热带高气压控制下气流下沉，加上大陆内部水汽少，降水稀少。",
+   "answer_mode": "choice",
+   "options": [
+    "非常丰富",
+    "全年阴雨",
+    "较少",
+    "只在夜间下雨"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j012_q3",
+   "topic": "cng_j012",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "温带海洋性气候的降水特点是？",
+   "explain": "西风常年影响，降水季节分配较均匀。",
+   "answer_mode": "choice",
+   "options": [
+    "夏季暴雨、冬季滴雨没有",
+    "全年干旱",
+    "只有春季下雨",
+    "全年湿润，各月比较均匀"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j013_q3",
+   "topic": "cng_j013",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "亚洲东部季风气候显著，其降水主要集中在？",
+   "explain": "夏季风从海洋带来大量水汽，雨热同期。",
+   "answer_mode": "choice",
+   "options": [
+    "夏季",
+    "冬季",
+    "春秋两季平均且极少",
+    "全年各月都几乎无雨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j013_q4",
+   "topic": "cng_j013",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u5",
+   "unit_name": "第五章 世界的气候",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "温带海洋性气候主要分布在？",
+   "explain": "这里常年受西风和暖流影响，冬暖夏凉、降水均匀。",
+   "answer_mode": "choice",
+   "options": [
+    "赤道两侧",
+    "南北纬 40°–60°的大陆西岸",
+    "中亚内陆",
+    "南极大陆内部"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j017_q1",
+   "topic": "cng_j017",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u6",
+   "unit_name": "第六章 世界的发展差异",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "目前世界上大多数国家属于？",
+   "explain": "发达国家数量较少，发展中国家占大多数。",
+   "answer_mode": "choice",
+   "options": [
+    "发达国家",
+    "没有常住人口的国家",
+    "发展中国家",
+    "极地科学考察站"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j017_q2",
+   "topic": "cng_j017",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u6",
+   "unit_name": "第六章 世界的发展差异",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "发达国家主要分布在？",
+   "explain": "欧洲西部、美国、加拿大、澳大利亚、日本等属于发达国家。",
+   "answer_mode": "choice",
+   "options": [
+    "非洲中部和西亚沙漠",
+    "南极大陆内部",
+    "全部位于赤道",
+    "欧洲西部、北美洲、大洋洲等地"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j017_q3",
+   "topic": "cng_j017",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u6",
+   "unit_name": "第六章 世界的发展差异",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "南南合作指的是？",
+   "explain": "发展中国家多在南半球及北半球南部，它们之间的合作称南南合作。",
+   "answer_mode": "choice",
+   "options": [
+    "发展中国家之间的合作",
+    "发达国家与南极之间的合作",
+    "只发生在南半球的贸易",
+    "南北半球必须中断往来"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j017_q4",
+   "topic": "cng_j017",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "xjb",
+   "unit": "u6",
+   "unit_name": "第六章 世界的发展差异",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "国际合作日益重要，主要是因为？",
+   "explain": "经济全球化使国家之间在贸易、资源和环境问题上需要合作。",
+   "answer_mode": "choice",
+   "options": [
+    "每个国家都可以完全自给自足",
+    "各国在资源、资金、技术上相互依存",
+    "交通和通信已经停止发展",
+    "只有发达国家需要进口"
+   ],
+   "answer": 2
+  }
+ ]
+}

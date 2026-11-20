@@ -1,0 +1,1376 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 苏教版 八年级生物上册(2025秋版)；知识点/题目复用通用生物池",
+  "path": "sjb/shengwu/8s_2025",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 8,
+ "semester": "upper",
+ "edition": "sjb",
+ "edition_label": "苏教版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第12章 消化系统"
+  },
+  {
+   "id": "u2",
+   "name": "第13章 循环系统"
+  },
+  {
+   "id": "u3",
+   "name": "第14章 呼吸系统"
+  },
+  {
+   "id": "u4",
+   "name": "第15章 泌尿系统"
+  },
+  {
+   "id": "u5",
+   "name": "第16章 人体生命活动的调节"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j033",
+   "name": "消化和吸收",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "description": "能说出淀粉、蛋白质、脂肪开始消化的部位，以及小肠是主要吸收场所。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "淀粉开始被消化的部位是？",
+    "answer": "口腔"
+   }
+  },
+  {
+   "id": "cnb_j037",
+   "name": "流动的组织——血液",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "description": "能说出血浆和三种血细胞的功能，并解释贫血的常见原因。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "血液由哪两部分组成？",
+    "answer": "血浆和血细胞"
+   }
+  },
+  {
+   "id": "cnb_j039",
+   "name": "输送血液的泵——心脏",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "description": "能描述心脏四腔、瓣膜和体循环、肺循环的路径。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "心脏四个腔中，壁最厚的是？",
+    "answer": "左心室"
+   }
+  },
+  {
+   "id": "cnb_j003",
+   "name": "学习使用显微镜",
+   "domain": "生物体的结构层次",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "description": "会计算显微镜的放大倍数，并按规范找到清晰物像。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "显微镜的放大倍数等于？",
+    "answer": "目镜放大倍数乘物镜放大倍数"
+   }
+  },
+  {
+   "id": "cnb_j030",
+   "name": "人的生殖",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "description": "能说出睾丸、卵巢的功能，以及受精和胚胎发育的场所。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "男性产生精子并分泌雄性激素的器官是？",
+    "answer": "睾丸"
+   }
+  },
+  {
+   "id": "cnb_j036",
+   "name": "发生在肺内的气体交换",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "description": "能说明肺泡适于气体交换的特点，以及吸气和呼气时胸廓的变化。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "人体与外界进行气体交换的主要场所是？",
+    "answer": "肺"
+   }
+  },
+  {
+   "id": "cnb_j004",
+   "name": "植物细胞",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "description": "能认出植物细胞的细胞壁、细胞膜、细胞质、细胞核、液泡和叶绿体。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "对细胞起支持和保护作用的结构是？",
+    "answer": "细胞壁"
+   }
+  },
+  {
+   "id": "cnb_j008",
+   "name": "动物体的结构层次",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "description": "能按细胞、组织、器官、系统、动物体说明人体的结构层次。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "人体的结构层次由小到大是？",
+    "answer": "细胞、组织、器官、系统、人体"
+   }
+  },
+  {
+   "id": "cnb_j009",
+   "name": "植物体的结构层次",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "description": "能说出植物体由细胞、组织、器官构成，并区分营养器官和生殖器官。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "植物体的结构层次一般是？",
+    "answer": "细胞、组织、器官、植物体"
+   }
+  },
+  {
+   "id": "cnb_j002",
+   "name": "生物的特征",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "description": "能根据营养、呼吸、生长、繁殖和对刺激的反应等判断是否属于生物。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "下列哪一项是生物的共同特征？",
+    "answer": "能生长和繁殖"
+   }
+  },
+  {
+   "id": "cnb_j031",
+   "name": "青春期",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "description": "知道青春期身体和心理的主要变化，以及遗精、月经是正常生理现象。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "青春期发育最明显的特点是？",
+    "answer": "身高和体重迅速增长，生殖器官发育成熟"
+   }
+  },
+  {
+   "id": "cnb_j038",
+   "name": "血流的管道——血管",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "description": "能比较动脉、静脉和毛细血管的结构与功能。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "把血液从心脏送到全身各处的血管是？",
+    "answer": "动脉"
+   }
+  },
+  {
+   "id": "cnb_j040",
+   "name": "人体内废物的排出",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "description": "能区分排泄和排遗，说出泌尿系统、肾单位以及尿的形成。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "排泄是指排出？",
+    "answer": "二氧化碳、尿素和多余的水、无机盐等代谢废物"
+   }
+  },
+  {
+   "id": "cnb_j042",
+   "name": "神经调节",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "description": "能说出反射弧的五个部分，并区分简单反射和复杂反射。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "完成反射的神经结构是？",
+    "answer": "反射弧"
+   }
+  },
+  {
+   "id": "cnb_j044",
+   "name": "激素调节",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "description": "能说出生长激素、甲状腺激素和胰岛素的主要作用及异常时的表现。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "幼年时期生长激素分泌不足，可能患？",
+    "answer": "侏儒症"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j033_q1",
+   "topic": "cnb_j033",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "淀粉开始被消化的部位是？",
+   "explain": "唾液淀粉酶在口腔把部分淀粉分解成麦芽糖。",
+   "answer_mode": "choice",
+   "options": [
+    "胃",
+    "大肠",
+    "口腔",
+    "肝脏"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j033_q3",
+   "topic": "cnb_j033",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "胆汁的作用是？",
+   "explain": "胆汁由肝脏分泌，乳化脂肪，便于脂肪酶发挥作用。",
+   "answer_mode": "choice",
+   "options": [
+    "把脂肪乳化成小滴，胆汁中不含消化酶",
+    "直接把淀粉分解成葡萄糖",
+    "把蛋白质分解成氨基酸",
+    "代替胃液消化所有食物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j033_q4",
+   "topic": "cnb_j033",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "蛋白质开始被消化的部位是？",
+   "explain": "胃液中的蛋白酶把蛋白质初步分解；蛋白质在小肠才被彻底分解。",
+   "answer_mode": "choice",
+   "options": [
+    "口腔",
+    "胃",
+    "大肠",
+    "食道"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j037_q1",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "血液由哪两部分组成？",
+   "explain": "血细胞包括红细胞、白细胞和血小板。",
+   "answer_mode": "choice",
+   "options": [
+    "只有红细胞",
+    "血清和氧气",
+    "血浆和血细胞",
+    "淋巴和胆汁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j037_q2",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "运输氧的血细胞是？",
+   "explain": "红细胞里的血红蛋白在氧含量高的地方与氧结合，在氧含量低的地方释放氧。",
+   "answer_mode": "choice",
+   "options": [
+    "白细胞",
+    "血小板",
+    "血浆中的纤维蛋白",
+    "红细胞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j037_q3",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "人体受伤后能够止血，与哪种血细胞有关？",
+   "explain": "血小板在伤口处聚集成团并促进凝血。",
+   "answer_mode": "choice",
+   "options": [
+    "血小板",
+    "只有白细胞",
+    "成熟红细胞有细胞核所以能止血",
+    "叶绿体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j037_q4",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "医生说某人贫血，通常是指？",
+   "explain": "血红蛋白或红细胞不足，血液运输氧的能力下降。",
+   "answer_mode": "choice",
+   "options": [
+    "白细胞过多",
+    "红细胞数量过少或血红蛋白含量过低",
+    "血小板过多",
+    "血浆中水太多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j039_q2",
+   "topic": "cnb_j039",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "心房和心室之间的瓣膜保证血液？",
+   "explain": "心室与动脉之间也有瓣膜，防止血液从动脉流回心室。",
+   "answer_mode": "choice",
+   "options": [
+    "由心室流回心房",
+    "由心房流向心室，不会倒流",
+    "在四个腔里来回流动",
+    "直接从左心室进入右心室"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j039_q4",
+   "topic": "cnb_j039",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第12章 消化系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "经过肺循环后，血液发生的变化是？",
+   "explain": "肺循环中血液在肺部获得氧、排出二氧化碳。",
+   "answer_mode": "choice",
+   "options": [
+    "动脉血变成静脉血",
+    "血液不再含有二氧化碳",
+    "血细胞全部留在肺泡",
+    "静脉血变成动脉血"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j003_q2",
+   "topic": "cnb_j003",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "视野中已经找到物像，但不够清晰，应调节？",
+   "explain": "细准焦螺旋用来把物像调清晰；找到物像前才主要用粗准焦螺旋。",
+   "answer_mode": "choice",
+   "options": [
+    "粗准焦螺旋大幅度转动",
+    "细准焦螺旋",
+    "转换器换成更小的光圈",
+    "反光镜换成平面镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j030_q1",
+   "topic": "cnb_j030",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "男性产生精子并分泌雄性激素的器官是？",
+   "explain": "睾丸是男性的主要生殖器官。",
+   "answer_mode": "choice",
+   "options": [
+    "卵巢",
+    "子宫",
+    "输卵管",
+    "睾丸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j030_q2",
+   "topic": "cnb_j030",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "女性产生卵细胞并分泌雌性激素的器官是？",
+   "explain": "卵巢是女性的主要生殖器官；子宫是胚胎发育的场所。",
+   "answer_mode": "choice",
+   "options": [
+    "卵巢",
+    "子宫",
+    "输卵管",
+    "胎盘"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j030_q3",
+   "topic": "cnb_j030",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "精子和卵细胞结合形成受精卵的场所通常是？",
+   "explain": "受精发生在输卵管，受精卵随后进入子宫着床。",
+   "answer_mode": "choice",
+   "options": [
+    "卵巢",
+    "输卵管",
+    "子宫",
+    "阴道"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j030_q4",
+   "topic": "cnb_j030",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "胎儿通过什么从母体获得营养和氧气？",
+   "explain": "胎儿的肺尚未承担呼吸，物质交换通过胎盘和脐带完成。",
+   "answer_mode": "choice",
+   "options": [
+    "肺直接呼吸外界空气",
+    "乳腺",
+    "胎盘和脐带",
+    "卵黄"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j036_q1",
+   "topic": "cnb_j036",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "人体与外界进行气体交换的主要场所是？",
+   "explain": "肺泡数量多、壁薄，外面缠着毛细血管，便于气体交换。",
+   "answer_mode": "choice",
+   "options": [
+    "鼻腔",
+    "肺",
+    "气管",
+    "皮肤"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j036_q2",
+   "topic": "cnb_j036",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "吸气时？",
+   "explain": "胸廓扩大使肺扩张，肺内气压低于外界，空气进入肺。",
+   "answer_mode": "choice",
+   "options": [
+    "肋间肌和膈肌舒张，胸廓缩小",
+    "肺主动收缩把空气压出去",
+    "肋间肌和膈肌收缩，胸廓扩大",
+    "气管壁的肌肉把空气压进胃"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j036_q4",
+   "topic": "cnb_j036",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第13章 循环系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "肺泡适于气体交换的特点包括？",
+   "explain": "这些特点使气体经过的距离短、交换面积大。",
+   "answer_mode": "choice",
+   "options": [
+    "数目多、壁只由一层上皮细胞构成、外面包绕毛细血管",
+    "壁很厚，外面没有血管",
+    "肺泡里充满食物",
+    "肺泡直接开口在皮肤表面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j004_q2",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "植物细胞中，控制物质进出的结构是？",
+   "explain": "细胞膜能控制物质进出细胞；细胞壁全透，不能控制物质进出。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁",
+    "液泡",
+    "细胞膜",
+    "叶绿体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j004_q3",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "洋葱鳞片叶内表皮细胞一般看不到的结构是？",
+   "explain": "内表皮不见光，细胞中没有叶绿体；叶片绿色部分的细胞才有叶绿体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁",
+    "细胞核",
+    "液泡",
+    "叶绿体"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j004_q4",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "植物细胞进行光合作用的场所是？",
+   "explain": "叶绿体中的色素能吸收光能，是光合作用的场所。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿体",
+    "线粒体",
+    "液泡",
+    "细胞膜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j008_q1",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "人体的结构层次由小到大是？",
+   "explain": "细胞形成组织，组织形成器官，器官形成系统，系统构成人体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞、器官、组织、系统、人体",
+    "细胞、组织、器官、系统、人体",
+    "组织、细胞、系统、器官、人体",
+    "系统、器官、组织、细胞、人体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j008_q2",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "人的胃属于？",
+   "explain": "胃由几种组织按一定次序组成，能完成消化等功能，是器官。",
+   "answer_mode": "choice",
+   "options": [
+    "组织",
+    "系统",
+    "器官",
+    "细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j008_q3",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "下列属于结缔组织的是？",
+   "explain": "血液是结缔组织；上皮组织、肌肉组织和神经组织是另外三类基本组织。",
+   "answer_mode": "choice",
+   "options": [
+    "神经",
+    "骨骼肌",
+    "皮肤表皮",
+    "血液"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j008_q4",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "人体中，由心脏、血管和血液按一定次序组成的是？",
+   "explain": "心脏、血管等器官与血液配合，构成循环系统。",
+   "answer_mode": "choice",
+   "options": [
+    "循环系统",
+    "一个器官",
+    "一种组织",
+    "一个细胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j009_q1",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "植物体的结构层次一般是？",
+   "explain": "植物没有系统这一层次，器官直接构成植物体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞、组织、器官、系统、植物体",
+    "组织、细胞、系统、植物体",
+    "细胞、组织、器官、植物体",
+    "器官、组织、细胞、植物体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j009_q3",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "番茄的果肉主要属于？",
+   "explain": "果肉细胞壁薄、液泡大，储存营养物质，属于营养组织。",
+   "answer_mode": "choice",
+   "options": [
+    "营养组织",
+    "保护组织",
+    "分生组织",
+    "输导组织"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j009_q4",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第14章 呼吸系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "植物体内运输水和无机盐的结构属于？",
+   "explain": "导管等输导组织运输水分和无机盐；上皮组织是动物组织。",
+   "answer_mode": "choice",
+   "options": [
+    "保护组织",
+    "输导组织",
+    "分生组织",
+    "上皮组织"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j002_q1",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "下列哪一项是生物的共同特征？",
+   "explain": "生物都能生长、繁殖；单细胞生物、异养生物和用鳃呼吸的生物也都是生物。",
+   "answer_mode": "choice",
+   "options": [
+    "一定由很多细胞构成",
+    "都能自己制造有机物",
+    "都用肺呼吸",
+    "能生长和繁殖"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j002_q2",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "含羞草被碰后叶片合拢，说明生物能？",
+   "explain": "植物受到触摸后改变姿态，是对刺激作出反应。",
+   "answer_mode": "choice",
+   "options": [
+    "对外界刺激作出反应",
+    "进行光合作用",
+    "用种子繁殖",
+    "在体外消化食物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j002_q3",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "下列物体中属于生物的是？",
+   "explain": "生石花是植物；机器人、钟乳石和汽车没有生物的生命活动。",
+   "answer_mode": "choice",
+   "options": [
+    "机器人",
+    "生石花",
+    "钟乳石",
+    "汽车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j002_q4",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "生物体产生的后代与亲代既像又不完全一样，说明生物具有？",
+   "explain": "后代保持亲代的基本特征是遗传，个体之间有差异是变异。",
+   "answer_mode": "choice",
+   "options": [
+    "只有遗传、没有差异",
+    "只按环境临时改变、不能传代",
+    "遗传和变异",
+    "全部性状都与亲代不同"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j031_q1",
+   "topic": "cnb_j031",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "青春期发育最明显的特点是？",
+   "explain": "青春期是身体发育和智力发展的重要时期。",
+   "answer_mode": "choice",
+   "options": [
+    "身高和体重迅速增长，生殖器官发育成熟",
+    "只长头发、其他器官不再变化",
+    "身体停止生长",
+    "全部第二性征消失"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j031_q2",
+   "topic": "cnb_j031",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "男孩出现遗精、女孩出现月经，说明？",
+   "explain": "遗精和月经是青春期的正常现象，同时要注意清洁卫生。",
+   "answer_mode": "choice",
+   "options": [
+    "一定生病了",
+    "生殖器官开始发育成熟，是正常生理现象",
+    "生殖器官停止发育",
+    "不必讲究卫生"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j031_q3",
+   "topic": "cnb_j031",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "青春期第二性征出现，与哪一类物质直接有关？",
+   "explain": "睾丸分泌雄性激素，卵巢分泌雌性激素，促使第二性征出现。",
+   "answer_mode": "choice",
+   "options": [
+    "唾液淀粉酶",
+    "血红蛋白",
+    "性激素",
+    "生长激素是唯一原因、与性激素无关"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j031_q4",
+   "topic": "cnb_j031",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "对待青春期的身体变化，合适的做法是？",
+   "explain": "青春期的变化是正常的，需要科学认识和健康的生活习惯。",
+   "answer_mode": "choice",
+   "options": [
+    "因为害羞而拒绝所有卫生护理",
+    "自行长期服用激素加快发育",
+    "嘲笑同伴的发育差异",
+    "了解科学知识，有困惑时向家长或老师求助"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j038_q2",
+   "topic": "cnb_j038",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "静脉中防止血液倒流的结构是？",
+   "explain": "四肢静脉的内表面有静脉瓣，使血液只能流回心脏。",
+   "answer_mode": "choice",
+   "options": [
+    "静脉瓣",
+    "动脉瓣位于静脉中",
+    "声带",
+    "会厌软骨"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j038_q3",
+   "topic": "cnb_j038",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "毛细血管适于物质交换，是因为？",
+   "explain": "营养物质和氧透过这层细胞进入组织细胞，废物和二氧化碳进入血液。",
+   "answer_mode": "choice",
+   "options": [
+    "管壁最厚",
+    "管壁只由一层上皮细胞构成，血流速度慢，只允许红细胞单行通过",
+    "血流速度最快",
+    "里面没有血液"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j038_q4",
+   "topic": "cnb_j038",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第15章 泌尿系统",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "肺动脉里流的是？",
+   "explain": "肺动脉把右心室的静脉血送到肺；名称里的「动脉」指的是从心脏发出，不是血液含氧多少。",
+   "answer_mode": "choice",
+   "options": [
+    "动脉血",
+    "只含氧气、不含二氧化碳的水",
+    "静脉血",
+    "淋巴"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j040_q1",
+   "topic": "cnb_j040",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "排泄是指排出？",
+   "explain": "粪便是排遗，不是排泄；排泄经过呼吸、泌尿和皮肤等途径。",
+   "answer_mode": "choice",
+   "options": [
+    "没有消化的食物残渣",
+    "二氧化碳、尿素和多余的水、无机盐等代谢废物",
+    "全部血液",
+    "只排出粪便"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j040_q4",
+   "topic": "cnb_j040",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "健康人原尿中的葡萄糖，经过肾小管后通常？",
+   "explain": "肾小管重吸收全部葡萄糖、大部分水和部分无机盐；每天形成的尿液大约只有 1.5 升。",
+   "answer_mode": "choice",
+   "options": [
+    "被全部重吸收",
+    "全部留在尿液里",
+    "变成血细胞",
+    "直接排出体外约 180 升"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j042_q2",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "膝跳反射的神经中枢位于？",
+   "explain": "膝跳反射是简单反射，神经中枢在脊髓。",
+   "answer_mode": "choice",
+   "options": [
+    "脊髓",
+    "大脑皮层",
+    "小脑",
+    "耳蜗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j042_q3",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "望梅止渴属于？",
+   "explain": "在吃过梅的经验之后，看到梅就能分泌唾液，这是后天形成的复杂反射。",
+   "answer_mode": "choice",
+   "options": [
+    "生来就有的简单反射",
+    "复杂反射，要经过后天学习",
+    "不需要大脑皮层参与",
+    "只靠激素、不靠神经"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j042_q4",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "如果反射弧中的传入神经受损，刺激感受器后？",
+   "explain": "反射弧的五个部分缺一不可，冲动到不了神经中枢。",
+   "answer_mode": "choice",
+   "options": [
+    "反射仍然完整",
+    "只有效应器自己收缩、与神经无关",
+    "不能产生反射",
+    "神经中枢会直接看到刺激"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j044_q1",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "幼年时期生长激素分泌不足，可能患？",
+   "explain": "侏儒症智力一般正常；幼年甲状腺激素不足才会患呆小症，智力受影响。",
+   "answer_mode": "choice",
+   "options": [
+    "呆小症",
+    "侏儒症",
+    "糖尿病",
+    "甲亢"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j044_q2",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "胰岛素的主要作用是？",
+   "explain": "胰岛素由胰岛分泌，能促进组织细胞摄取和利用葡萄糖。",
+   "answer_mode": "choice",
+   "options": [
+    "促进生长发育",
+    "提高神经系统兴奋性",
+    "降低血糖",
+    "促进生殖器官发育"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j044_q3",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "体内缺碘，合成甲状腺激素的原料不足，可能引起？",
+   "explain": "甲状腺激素的合成需要碘；缺碘时甲状腺会代偿性增生。",
+   "answer_mode": "choice",
+   "options": [
+    "侏儒症",
+    "坏血病",
+    "夜盲症",
+    "地方性甲状腺肿"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j044_q4",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第16章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "神经调节和激素调节相比？",
+   "explain": "人体以神经调节为主，激素调节配合，共同维持稳定。",
+   "answer_mode": "choice",
+   "options": [
+    "神经调节迅速、准确，激素调节作用时间通常较长",
+    "激素调节不需要体液运输",
+    "两者不能配合",
+    "只有激素能对刺激作出反应"
+   ],
+   "answer": 1
+  }
+ ]
+}

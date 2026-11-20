@@ -180,7 +180,8 @@
  "subjects": {
   "chinese": {
    "order": [
-    "tongbian"
+    "tongbian",
+    "tongbian-legacy"
    ],
    "editions": {
     "tongbian": {
@@ -932,35 +933,72 @@
         "units": [
          {
           "id": "u1",
-          "name": "第1单元 古诗·四时田园杂兴"
+          "name": "第一单元"
          },
          {
           "id": "u2",
-          "name": "第2单元 课文·琥珀"
+          "name": "第二单元"
          },
          {
           "id": "u3",
-          "name": "第3单元 课文·绿"
+          "name": "第三单元"
          },
          {
           "id": "u4",
-          "name": "第4单元 课文·猫"
+          "name": "第四单元"
          },
          {
           "id": "u5",
-          "name": "第5单元 习作·游_____"
+          "name": "第五单元"
          },
          {
           "id": "u6",
-          "name": "第6单元 文言文·囊萤夜读"
+          "name": "第六单元"
          },
          {
           "id": "u7",
-          "name": "第7单元 古诗·芙蓉楼送辛渐"
+          "name": "第七单元"
          },
          {
           "id": "u8",
-          "name": "第8单元 童话·巨人的花园"
+          "name": "第八单元"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g4_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元"
+         },
+         {
+          "id": "u7",
+          "name": "第七单元"
+         },
+         {
+          "id": "u8",
+          "name": "第八单元"
          }
         ]
        }
@@ -971,35 +1009,72 @@
         "units": [
          {
           "id": "u1",
-          "name": "第1单元 古诗·四时田园杂兴"
+          "name": "第一单元"
          },
          {
           "id": "u2",
-          "name": "第2单元 名著·草船借箭"
+          "name": "第二单元"
          },
          {
           "id": "u3",
-          "name": "第3单元 综合性学习·遨游汉字王国"
+          "name": "第三单元"
          },
          {
           "id": "u4",
-          "name": "第4单元 古诗·从军行"
+          "name": "第四单元"
          },
          {
           "id": "u5",
-          "name": "第5单元 课文·人物描写一组"
+          "name": "第五单元"
          },
          {
           "id": "u6",
-          "name": "第6单元 文言文·自相矛盾"
+          "name": "第六单元"
          },
          {
           "id": "u7",
-          "name": "第7单元 课文·威尼斯的小艇"
+          "name": "第七单元"
          },
          {
           "id": "u8",
-          "name": "第8单元 文言文·杨氏之子"
+          "name": "第八单元"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g5_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元"
+         },
+         {
+          "id": "u7",
+          "name": "第七单元"
+         },
+         {
+          "id": "u8",
+          "name": "第八单元"
          }
         ]
        }
@@ -1010,35 +1085,68 @@
         "units": [
          {
           "id": "u1",
-          "name": "第1单元 课文·北京的春节"
+          "name": "第一单元"
          },
          {
           "id": "u2",
-          "name": "第2单元 名著·鲁滨逊漂流记"
+          "name": "第二单元"
          },
          {
           "id": "u3",
-          "name": "第3单元 散文·匆匆"
+          "name": "第三单元"
          },
          {
           "id": "u4",
-          "name": "第4单元 课文·十六年前的回忆"
+          "name": "第四单元"
          },
          {
           "id": "u5",
-          "name": "第5单元 文言文·学弈"
+          "name": "第五单元"
          },
          {
           "id": "u6",
-          "name": "第6单元 综合性学习·难忘小学生活"
+          "name": "第六单元"
          },
          {
           "id": "u7",
-          "name": "第7单元 古诗词诵读·采薇"
+          "name": "古诗词诵读"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g6_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元"
+         },
+         {
+          "id": "u7",
+          "name": "第七单元"
          },
          {
           "id": "u8",
-          "name": "第8单元 古诗词诵读·泊船瓜洲"
+          "name": "第八单元"
          }
         ]
        }
@@ -1070,6 +1178,234 @@
          {
           "id": "u6",
           "name": "第6单元·创意与余响"
+         }
+        ]
+       }
+      },
+      "1": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g1_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "识字（一）"
+         },
+         {
+          "id": "u2",
+          "name": "课文 1"
+         },
+         {
+          "id": "u3",
+          "name": "课文 2"
+         },
+         {
+          "id": "u4",
+          "name": "课文 3"
+         },
+         {
+          "id": "u5",
+          "name": "识字（二）"
+         },
+         {
+          "id": "u6",
+          "name": "课文 4"
+         },
+         {
+          "id": "u7",
+          "name": "课文 5"
+         },
+         {
+          "id": "u8",
+          "name": "课文 6"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g1_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "我上学了"
+         },
+         {
+          "id": "u2",
+          "name": "识字（一）"
+         },
+         {
+          "id": "u3",
+          "name": "汉语拼音"
+         },
+         {
+          "id": "u4",
+          "name": "课文 1"
+         },
+         {
+          "id": "u5",
+          "name": "识字（二）"
+         },
+         {
+          "id": "u6",
+          "name": "课文 2"
+         },
+         {
+          "id": "u7",
+          "name": "课文 3"
+         },
+         {
+          "id": "u8",
+          "name": "课文 4"
+         }
+        ]
+       }
+      },
+      "2": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g2_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "课文1"
+         },
+         {
+          "id": "u2",
+          "name": "课文2"
+         },
+         {
+          "id": "u3",
+          "name": "识字"
+         },
+         {
+          "id": "u4",
+          "name": "课文3"
+         },
+         {
+          "id": "u5",
+          "name": "课文4"
+         },
+         {
+          "id": "u6",
+          "name": "课文5"
+         },
+         {
+          "id": "u7",
+          "name": "课文6"
+         },
+         {
+          "id": "u8",
+          "name": "课文7"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g2_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "课文1"
+         },
+         {
+          "id": "u2",
+          "name": "识字"
+         },
+         {
+          "id": "u3",
+          "name": "课文2"
+         },
+         {
+          "id": "u4",
+          "name": "课文3"
+         },
+         {
+          "id": "u5",
+          "name": "课文4"
+         },
+         {
+          "id": "u6",
+          "name": "课文5"
+         },
+         {
+          "id": "u7",
+          "name": "课文6"
+         },
+         {
+          "id": "u8",
+          "name": "课文7"
+         }
+        ]
+       }
+      },
+      "3": {
+       "lower": {
+        "file": "chinese/tongbian-legacy/g3_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元"
+         },
+         {
+          "id": "u7",
+          "name": "第七单元"
+         },
+         {
+          "id": "u8",
+          "name": "第八单元"
+         }
+        ]
+       },
+       "upper": {
+        "file": "chinese/tongbian-legacy/g3_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元"
+         },
+         {
+          "id": "u7",
+          "name": "第七单元"
+         },
+         {
+          "id": "u8",
+          "name": "第八单元"
          }
         ]
        }
@@ -6703,6 +7039,43 @@
           "name": "U8·We love festivals"
          }
         ]
+       },
+       "lower": {
+        "file": "english/yilin/g5_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·Cinderella"
+         },
+         {
+          "id": "u2",
+          "name": "U2·How do you come to school?"
+         },
+         {
+          "id": "u3",
+          "name": "U3·Asking the way"
+         },
+         {
+          "id": "u4",
+          "name": "U4·Seeing the doctor"
+         },
+         {
+          "id": "u5",
+          "name": "U5·Helping our parents"
+         },
+         {
+          "id": "u6",
+          "name": "U6·In the kitchen"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Chinese festivals"
+         },
+         {
+          "id": "u8",
+          "name": "U8·Birthdays"
+         }
+        ]
        }
       },
       "6": {
@@ -6740,6 +7113,43 @@
          {
           "id": "u8",
           "name": "U8·Then and now"
+         }
+        ]
+       },
+       "lower": {
+        "file": "english/yilin/g6_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "U1·The lion and the mouse"
+         },
+         {
+          "id": "u2",
+          "name": "U2·Good habits"
+         },
+         {
+          "id": "u3",
+          "name": "U3·A healthy diet"
+         },
+         {
+          "id": "u4",
+          "name": "U4·Road safety"
+         },
+         {
+          "id": "u5",
+          "name": "U5·A party"
+         },
+         {
+          "id": "u6",
+          "name": "U6·An interesting country"
+         },
+         {
+          "id": "u7",
+          "name": "U7·Summer holiday plans"
+         },
+         {
+          "id": "u8",
+          "name": "U8·Our dreams"
          }
         ]
        }
@@ -8900,7 +9310,12 @@
   },
   "chemistry": {
    "order": [
-    "renjiao"
+    "renjiao",
+    "ljb",
+    "hjb",
+    "kyyb",
+    "sjb",
+    "lkb"
    ],
    "editions": {
     "renjiao": {
@@ -9090,12 +9505,410 @@
        }
       }
      }
+    },
+    "ljb": {
+     "name": "鲁教版",
+     "publisher": "鲁教版",
+     "grades": {
+      "9": {
+       "upper": {
+        "file": "chemistry/ljb/g9_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元 步入化学殿堂"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元 认识物质的构成"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元 探秘水世界"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元 我们周围的空气"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元 定量研究化学反应"
+         },
+         {
+          "id": "u6",
+          "name": "第六单元 控制燃烧"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/ljb/g9_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第七单元 认识酸和碱"
+         },
+         {
+          "id": "u2",
+          "name": "第八单元 海洋化学资源的利用"
+         },
+         {
+          "id": "u3",
+          "name": "第九单元 金属"
+         },
+         {
+          "id": "u4",
+          "name": "第十单元 化学与健康"
+         },
+         {
+          "id": "u5",
+          "name": "第十一单元 化学与社会发展"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "hjb": {
+     "name": "沪教版",
+     "publisher": "沪教版",
+     "grades": {
+      "9": {
+       "upper": {
+        "file": "chemistry/hjb/g9_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 开启化学之门"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 空气与水资源"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 物质构成的奥秘"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 认识化学反应"
+         },
+         {
+          "id": "u5",
+          "name": "第5章 奇妙的二氧化碳"
+         },
+         {
+          "id": "u6",
+          "name": "第6章 金属资源综合利用"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/hjb/g9_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第7章 探索溶解现象"
+         },
+         {
+          "id": "u2",
+          "name": "第8章 酸、碱、盐及其应用"
+         },
+         {
+          "id": "u3",
+          "name": "第9章 化学与社会可持续发展"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "kyyb": {
+     "name": "科粤版",
+     "publisher": "科粤版",
+     "grades": {
+      "9": {
+       "upper": {
+        "file": "chemistry/kyyb/g9_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一单元 大家都来学化学"
+         },
+         {
+          "id": "u2",
+          "name": "第二单元 空气、物质的构成与组成"
+         },
+         {
+          "id": "u3",
+          "name": "第三单元 维持生命的物质——氧气、水"
+         },
+         {
+          "id": "u4",
+          "name": "第四单元 化学式与化学方程式"
+         },
+         {
+          "id": "u5",
+          "name": "第五单元 燃料与二氧化碳"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/kyyb/g9_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第六单元 金属和金属材料"
+         },
+         {
+          "id": "u2",
+          "name": "第七单元 溶液"
+         },
+         {
+          "id": "u3",
+          "name": "第八单元 常见的酸、碱、盐"
+         },
+         {
+          "id": "u4",
+          "name": "第九单元 现代生活与化学"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "sjb": {
+     "name": "苏教版",
+     "publisher": "苏教版",
+     "grades": {
+      "10": {
+       "upper": {
+        "file": "chemistry/sjb/g10_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "专题1 物质的分类及计量"
+         },
+         {
+          "id": "u2",
+          "name": "专题2 研究物质的基本方法"
+         },
+         {
+          "id": "u3",
+          "name": "专题3 从海水中获得的化学物质"
+         },
+         {
+          "id": "u4",
+          "name": "专题4 硫与环境保护"
+         },
+         {
+          "id": "u5",
+          "name": "专题5 微观结构与物质的多样性"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/sjb/g10_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "专题6 化学反应与能量变化"
+         },
+         {
+          "id": "u2",
+          "name": "专题7 氮与社会可持续发展"
+         },
+         {
+          "id": "u3",
+          "name": "专题8 有机化合物的获得与应用"
+         },
+         {
+          "id": "u4",
+          "name": "专题9 金属与人类文明"
+         }
+        ]
+       }
+      },
+      "11": {
+       "upper": {
+        "file": "chemistry/sjb/g11_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "专题1 化学反应与能量变化"
+         },
+         {
+          "id": "u2",
+          "name": "专题2 化学反应速率与化学平衡"
+         },
+         {
+          "id": "u3",
+          "name": "专题3 水溶液中的离子反应"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/sjb/g11_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "专题1 揭示物质结构的奥秘"
+         },
+         {
+          "id": "u2",
+          "name": "专题2 原子结构与元素性质"
+         },
+         {
+          "id": "u3",
+          "name": "专题3 微粒间作用力与物质性质"
+         },
+         {
+          "id": "u4",
+          "name": "专题4 分子空间结构与物质性质"
+         }
+        ]
+       }
+      },
+      "12": {
+       "upper": {
+        "file": "chemistry/sjb/g12_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "专题1 有机化学的发展及研究思路"
+         },
+         {
+          "id": "u2",
+          "name": "专题2 有机物的结构与分类"
+         },
+         {
+          "id": "u3",
+          "name": "专题3 石油化工的基础物质——烃"
+         },
+         {
+          "id": "u4",
+          "name": "专题4 生活中常用的有机物——烃的含氧衍生物"
+         },
+         {
+          "id": "u5",
+          "name": "专题5 药物合成的重要原料——卤代烃、胺、酰胺"
+         },
+         {
+          "id": "u6",
+          "name": "专题6 生命活动的物质基础——糖类、油脂、蛋白质"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "lkb": {
+     "name": "鲁科版",
+     "publisher": "鲁科版",
+     "grades": {
+      "10": {
+       "upper": {
+        "file": "chemistry/lkb/g10_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 认识化学科学"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 元素与物质世界"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 物质的性质与转化"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/lkb/g10_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 原子结构 元素周期律"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 化学键 化学反应规律"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 简单的有机化合物"
+         }
+        ]
+       }
+      },
+      "11": {
+       "upper": {
+        "file": "chemistry/lkb/g11_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 化学反应与能量转化"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 化学反应的方向、限度"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 物质在水溶液中的行为"
+         }
+        ]
+       },
+       "lower": {
+        "file": "chemistry/lkb/g11_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 原子结构与元素性质"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 微粒间相互作用与物质性质"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 不同物质的聚集状态与性质"
+         }
+        ]
+       }
+      },
+      "12": {
+       "upper": {
+        "file": "chemistry/lkb/g12_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 有机化合物的结构与性质 烃"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 官能团与有机化学反应 烃的衍生物"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 有机合成及其应用 合成高分子化合物"
+         }
+        ]
+       }
+      }
+     }
     }
    }
   },
   "biology": {
    "order": [
-    "renjiao"
+    "renjiao",
+    "sjb",
+    "bsd",
+    "skb",
+    "jinan",
+    "jsb",
+    "lkb"
    ],
    "editions": {
     "renjiao": {
@@ -9149,6 +9962,722 @@
          {
           "id": "u5",
           "name": "第5单元·生物与环境"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "sjb": {
+     "name": "苏教版",
+     "publisher": "苏教版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "biology/sjb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 认识细胞"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 生物体的组成"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 形形色色的藻类和植物"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 千姿百态的动物"
+         },
+         {
+          "id": "u5",
+          "name": "第5章 无处不在的微生物"
+         },
+         {
+          "id": "u6",
+          "name": "第6章 生物的分类和多样性保护"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/sjb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第7章 生态系统"
+         },
+         {
+          "id": "u2",
+          "name": "第8章 生态系统的自我调节和生态安全"
+         },
+         {
+          "id": "u3",
+          "name": "第9章 绿色开花植物的生命周期"
+         },
+         {
+          "id": "u4",
+          "name": "第10章 植物的营养与物质运输"
+         },
+         {
+          "id": "u5",
+          "name": "第11章 植物的光合作用和呼吸作用"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/sjb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第12章 消化系统"
+         },
+         {
+          "id": "u2",
+          "name": "第13章 循环系统"
+         },
+         {
+          "id": "u3",
+          "name": "第14章 呼吸系统"
+         },
+         {
+          "id": "u4",
+          "name": "第15章 泌尿系统"
+         },
+         {
+          "id": "u5",
+          "name": "第16章 人体生命活动的调节"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/sjb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第17章 传染病和免疫"
+         },
+         {
+          "id": "u2",
+          "name": "第18章 健康生活"
+         },
+         {
+          "id": "u3",
+          "name": "第19章 生物的生殖"
+         },
+         {
+          "id": "u4",
+          "name": "第20章 生物的遗传和变异"
+         },
+         {
+          "id": "u5",
+          "name": "第21章 生命起源和生物进化"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "bsd": {
+     "name": "北师大版",
+     "publisher": "北师大版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "biology/bsd/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 认识生物和生物学"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 细胞"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 生物体的结构层次"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 绿色开花植物的生活方式"
+         },
+         {
+          "id": "u5",
+          "name": "第5章 绿色开花植物的生活史"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/bsd/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第6章 人体的营养"
+         },
+         {
+          "id": "u2",
+          "name": "第7章 人体的物质运输"
+         },
+         {
+          "id": "u3",
+          "name": "第8章 人体的能量供应"
+         },
+         {
+          "id": "u4",
+          "name": "第9章 人体代谢废物的排出"
+         },
+         {
+          "id": "u5",
+          "name": "第10章 人体的自我调节"
+         },
+         {
+          "id": "u6",
+          "name": "第11章 人体的运动"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/bsd/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第12章 微生物与人的生活"
+         },
+         {
+          "id": "u2",
+          "name": "第13章 传染病及其预防"
+         },
+         {
+          "id": "u3",
+          "name": "第14章 健康的生活方式"
+         },
+         {
+          "id": "u4",
+          "name": "第15章 生物的生殖和发育"
+         },
+         {
+          "id": "u5",
+          "name": "第16章 生物的遗传和变异"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/bsd/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第17章 生命的发生和发展"
+         },
+         {
+          "id": "u2",
+          "name": "第18章 生物的多样性"
+         },
+         {
+          "id": "u3",
+          "name": "第19章 动植物资源保护"
+         },
+         {
+          "id": "u4",
+          "name": "第20章 生态系统及其稳定性"
+         },
+         {
+          "id": "u5",
+          "name": "第21章 人与环境"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "skb": {
+     "name": "苏科版",
+     "publisher": "苏科版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "biology/skb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 生物学——研究生命的科学"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 生物与环境"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 生态系统和生物圈"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 生物体有相同的基本结构"
+         },
+         {
+          "id": "u5",
+          "name": "第5章 生物体有相似的结构层次"
+         },
+         {
+          "id": "u6",
+          "name": "第6章 生物的命名与分类"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/skb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第7章 藻类与植物类群"
+         },
+         {
+          "id": "u2",
+          "name": "第8章 动物的主要类群"
+         },
+         {
+          "id": "u3",
+          "name": "第9章 微生物"
+         },
+         {
+          "id": "u4",
+          "name": "第10章 保护生物多样性"
+         },
+         {
+          "id": "u5",
+          "name": "第11章 植物的生命周期"
+         },
+         {
+          "id": "u6",
+          "name": "第12章 植物维持生物圈的稳定"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/skb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第13章 人体对营养物质的获取"
+         },
+         {
+          "id": "u2",
+          "name": "第14章 人体内的物质运输"
+         },
+         {
+          "id": "u3",
+          "name": "第15章 人体的气体交换与废物排出"
+         },
+         {
+          "id": "u4",
+          "name": "第16章 人体生命活动的调节"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/skb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第17章 人类对传染病的抵御"
+         },
+         {
+          "id": "u2",
+          "name": "第18章 现代生活与人类的健康"
+         },
+         {
+          "id": "u3",
+          "name": "第19章 生物通过生殖产生后代"
+         },
+         {
+          "id": "u4",
+          "name": "第20章 遗传信息控制生物的性状"
+         },
+         {
+          "id": "u5",
+          "name": "第21章 生命的起源与生物的进化"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "jinan": {
+     "name": "济南版",
+     "publisher": "济南版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "biology/jinan/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 探究奇妙的生命现象"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 生物体具有一定的结构层次"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 藻类和植物都是能进行光合作用的生物"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 动物分为无脊椎动物和脊椎动物"
+         },
+         {
+          "id": "u5",
+          "name": "第三章 微生物主要包括病毒、细菌和真菌"
+         },
+         {
+          "id": "u6",
+          "name": "第四章 科学分类有助于认识和研究生物"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/jinan/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 植物能进行光合作用等生命活动"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 开花结果是被子植物的显著特征"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 生物能够通过生殖产生后代"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 人类通过有性生殖繁衍后代"
+         },
+         {
+          "id": "u5",
+          "name": "第三章 遗传信息控制生物性状"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/jinan/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 人体需要营养物质"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 人体需要空气"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 人体通过循环系统进行物质运输"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 人体需要排出代谢废物"
+         },
+         {
+          "id": "u5",
+          "name": "第一章 人体生命活动需要神经系统和内分泌系统的调节"
+         },
+         {
+          "id": "u6",
+          "name": "第二章 人体健康离不开免疫系统的调节"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/jinan/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 生命是不断演化的"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 人类的起源和进化经历了漫长的历史过程"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 生物与环境是相互作用的"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 生态系统是生物与环境构成的有机整体"
+         },
+         {
+          "id": "u5",
+          "name": "第三章 生物多样性是人类生存和发展的基础"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "jsb": {
+     "name": "冀少版",
+     "publisher": "冀少版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "biology/jsb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 细胞"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 组织、器官、系统和生物体"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 藻类、植物和动物"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 微生物"
+         },
+         {
+          "id": "u5",
+          "name": "第三章 生物的分类和鉴别"
+         },
+         {
+          "id": "u6",
+          "name": "第四章 生物资源及其保护"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/jsb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 消化系统与营养摄取"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 循环系统与物质运输"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 呼吸系统与气体交换"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 泌尿系统与废物排出"
+         },
+         {
+          "id": "u5",
+          "name": "第五章 人体生命活动的调节"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/jsb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 传染病与免疫"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 生活习惯与健康"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 绿色开花植物的一生"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 植物与生物圈中的水循环"
+         },
+         {
+          "id": "u5",
+          "name": "第三章 植物与生物圈的碳氧平衡"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/jsb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 生物的繁殖方式"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 生物的遗传和变异"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 生命的起源与生物的进化"
+         },
+         {
+          "id": "u4",
+          "name": "第一章 生态系统"
+         },
+         {
+          "id": "u5",
+          "name": "第二章 人与自然和谐共生"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "lkb": {
+     "name": "鲁科版",
+     "publisher": "鲁科版",
+     "grades": {
+      "6": {
+       "upper": {
+        "file": "biology/lkb/g6_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 认识生物"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 探索生命"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 认识细胞"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 从细胞到生物体"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/lkb/g6_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 藻类与植物的类群"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 动物的主要类群"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 微生物的主要类群"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 生物分类的方法"
+         }
+        ]
+       }
+      },
+      "7": {
+       "upper": {
+        "file": "biology/lkb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 生态系统"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 生态安全"
+         },
+         {
+          "id": "u3",
+          "name": "第一章 绿色开花植物的生命周期"
+         },
+         {
+          "id": "u4",
+          "name": "第二章 植物体内的物质与能量变化"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/lkb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 人的生殖和发育"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 人体的营养"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 人体的呼吸"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 人体内物质的运输"
+         },
+         {
+          "id": "u5",
+          "name": "第五章 人体内废物的排出"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "biology/lkb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第六章 人体生命活动的调节"
+         },
+         {
+          "id": "u2",
+          "name": "第七章 传染病和免疫"
+         },
+         {
+          "id": "u3",
+          "name": "第八章 健康地生活"
+         }
+        ]
+       },
+       "lower": {
+        "file": "biology/lkb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 生物的生殖和发育"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 生物的遗传和变异"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 生命的起源和生物的进化"
+         },
+         {
+          "id": "u4",
+          "name": "第一章 生物的分类"
+         },
+         {
+          "id": "u5",
+          "name": "第二章 生物的多样性"
          }
         ]
        }
@@ -9343,7 +10872,10 @@
   },
   "geography": {
    "order": [
-    "renjiao"
+    "renjiao",
+    "xjb",
+    "ljb",
+    "ztb"
    ],
    "editions": {
     "renjiao": {
@@ -9457,6 +10989,316 @@
          {
           "id": "u5",
           "name": "第5单元·建设美丽中国"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "xjb": {
+     "name": "湘教版",
+     "publisher": "湘教版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "geography/xjb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 让我们走进地理"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 认识地球"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 地球的面貌"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 世界的居民与文化"
+         },
+         {
+          "id": "u5",
+          "name": "第五章 世界的气候"
+         },
+         {
+          "id": "u6",
+          "name": "第六章 世界的发展差异"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/xjb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第七章 认识大洲"
+         },
+         {
+          "id": "u2",
+          "name": "第八章 了解地区"
+         },
+         {
+          "id": "u3",
+          "name": "第九章 走近国家"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "geography/xjb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 中国的疆域与人口"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 中国的自然环境"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 中国的自然资源"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 中国的主要产业"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/xjb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第五章 中国的地域差异"
+         },
+         {
+          "id": "u2",
+          "name": "第六章 区域地理特征与城乡分布"
+         },
+         {
+          "id": "u3",
+          "name": "第七章 区域内外联系与协同发展"
+         },
+         {
+          "id": "u4",
+          "name": "第八章 区域地理环境与未来图景"
+         },
+         {
+          "id": "u5",
+          "name": "第九章 建设永续发展的美丽中国"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "ljb": {
+     "name": "鲁教版",
+     "publisher": "鲁教版",
+     "grades": {
+      "6": {
+       "upper": {
+        "file": "geography/ljb/g6_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 地球"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 地图"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 陆地和海洋"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 天气与气候"
+         },
+         {
+          "id": "u5",
+          "name": "第五章 居民与文化"
+         },
+         {
+          "id": "u6",
+          "name": "第六章 发展与合作"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/ljb/g6_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第七章 我们生活的大洲——亚洲"
+         },
+         {
+          "id": "u2",
+          "name": "第八章 我们邻近的地区和国家"
+         },
+         {
+          "id": "u3",
+          "name": "第九章 东半球其他的地区和国家"
+         },
+         {
+          "id": "u4",
+          "name": "第十章 西半球的国家"
+         },
+         {
+          "id": "u5",
+          "name": "第十一章 极地地区"
+         }
+        ]
+       }
+      },
+      "7": {
+       "upper": {
+        "file": "geography/ljb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第一章 从世界看中国"
+         },
+         {
+          "id": "u2",
+          "name": "第二章 中国的自然环境"
+         },
+         {
+          "id": "u3",
+          "name": "第三章 中国的自然资源"
+         },
+         {
+          "id": "u4",
+          "name": "第四章 中国的经济发展"
+         },
+         {
+          "id": "u5",
+          "name": "第五章 建设美丽中国"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/ljb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第六章 中国的地理差异"
+         },
+         {
+          "id": "u2",
+          "name": "第七章 北方地区"
+         },
+         {
+          "id": "u3",
+          "name": "第八章 南方地区"
+         },
+         {
+          "id": "u4",
+          "name": "第九章 西北地区"
+         },
+         {
+          "id": "u5",
+          "name": "第十章 青藏地区"
+         },
+         {
+          "id": "u6",
+          "name": "第十一章 奋进中的中国"
+         }
+        ]
+       }
+      }
+     }
+    },
+    "ztb": {
+     "name": "中图版",
+     "publisher": "中图版",
+     "grades": {
+      "7": {
+       "upper": {
+        "file": "geography/ztb/g7_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 地球的宇宙环境"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 地球和地图"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 中国的疆域和人口"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 中国的自然环境"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/ztb/g7_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第5章 自然资源与产业活动"
+         },
+         {
+          "id": "u2",
+          "name": "第6章 中国主要的自然灾害"
+         },
+         {
+          "id": "u3",
+          "name": "第7章 认识中国的区域"
+         }
+        ]
+       }
+      },
+      "8": {
+       "upper": {
+        "file": "geography/ztb/g8_upper.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第1章 地球的运动"
+         },
+         {
+          "id": "u2",
+          "name": "第2章 海陆分布与海陆变迁"
+         },
+         {
+          "id": "u3",
+          "name": "第3章 世界气候"
+         },
+         {
+          "id": "u4",
+          "name": "第4章 世界人口、城乡景观与文化"
+         },
+         {
+          "id": "u5",
+          "name": "第5章 发展与合作"
+         }
+        ]
+       },
+       "lower": {
+        "file": "geography/ztb/g8_lower.json",
+        "units": [
+         {
+          "id": "u1",
+          "name": "第6章 认识大洲"
+         },
+         {
+          "id": "u2",
+          "name": "第7章 认识地区"
+         },
+         {
+          "id": "u3",
+          "name": "第8章 认识国家"
          }
         ]
        }

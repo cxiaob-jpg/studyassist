@@ -34,8 +34,14 @@ end
 
 -- 版本专属知识点卷：data/toc/<subject>/<edition>/g<N>{u,l}.json。
 -- 有这个文件的版本，知识点菜单按该版教材的真实目录展示（译林英语试点）。
+-- TOC 目录沿用抓取时的学科键（yuwen/shuxue/yingyu），而内部学科名是
+-- chinese/math/english；这里做别名映射，与 catalog 的 TERM_SUBJECT 保持一致。
+local TOC_SUBJECT = {
+    chinese = "yuwen", math = "shuxue", english = "yingyu",
+}
 local function toc_volume_path(plugin_path, subject, edition, grade, semester)
     if not edition or edition == "" then return nil end
+    subject = TOC_SUBJECT[subject] or subject
     return string.format("%s/data/toc/%s/%s/g%d%s.json",
         plugin_path, subject, edition, grade, semester == "lower" and "l" or "u")
 end

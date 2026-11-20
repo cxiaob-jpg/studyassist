@@ -1,0 +1,6704 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_english_toc.py (catalog unit re-anchor)",
+ "source": {
+  "site": "catalog.json 人教新目标 真实单元目录；知识点/题目复用 knowledge/english 通用池",
+  "units_from": "catalog.json"
+ },
+ "subject": "english",
+ "grade": 7,
+ "semester": "upper",
+ "edition": "renjiao",
+ "edition_label": "人教新目标",
+ "units": [
+  {
+   "id": "u0",
+   "name": "第0单元·预备单元1·Hello!"
+  },
+  {
+   "id": "u1",
+   "name": "第1单元·You and Me"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·We're Family!"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·My School"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·My Favourite Subject"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·Fun Clubs"
+  },
+  {
+   "id": "u6",
+   "name": "第6单元·A Day in the Life"
+  },
+  {
+   "id": "u7",
+   "name": "第7单元·Happy Birthday!"
+  },
+  {
+   "id": "u99",
+   "name": "综合练习"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cne_j001",
+   "name": "单词重音",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能判断常见单词的重音在第几个音节。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）官方阅读器：Unit 2 书页29 Word stress (1)，Unit 3 书页37 Word stress (2)，附录书页93「单词重音」。",
+   "mastery_criteria": [
+    "能根据字母或读音选出正确的一项",
+    "能把字母、发音和例词对上"
+   ],
+   "example": {
+    "question": "teacher 的重音在第几个音节？",
+    "answer": "第一个音节"
+   }
+  },
+  {
+   "id": "cne_j002",
+   "name": "句末升降调",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "能区分陈述句、特殊疑问句的降调和一般疑问句的升调。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）官方阅读器：Unit 7 书页69 有句末升调、降调记号练习，附录书页94「语调」写明主要表现在语句末尾的降与升。",
+   "mastery_criteria": [
+    "能根据字母或读音选出正确的一项",
+    "能把字母、发音和例词对上"
+   ],
+   "example": {
+    "question": "一般疑问句 Are you a student? 句末通常用什么语调？",
+    "answer": "升调"
+   }
+  },
+  {
+   "id": "cne_j003",
+   "name": "姓名与称呼",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "description": "认读 name、friend、girl 和 boy。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「名字」？",
+    "answer": "name"
+   }
+  },
+  {
+   "id": "cne_j005",
+   "name": "问候与自我介绍",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "description": "能问候别人，并说出自己的名字。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "初次见面，对方说 Nice to meet you. 你应回答什么？",
+    "answer": "Nice to meet you, too."
+   }
+  },
+  {
+   "id": "cne_j013",
+   "name": "学习用品",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "认读书包里的 key、cap、pencil 和 ruler。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「钥匙」？",
+    "answer": "key"
+   }
+  },
+  {
+   "id": "cne_j016",
+   "name": "确认物品是谁的",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能询问帽子、钥匙是不是对方的，并说明是谁的。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问这顶帽子是不是对方的，哪一句合适？",
+    "answer": "Is this your cap?"
+   }
+  },
+  {
+   "id": "cne_j017",
+   "name": "读物品归属",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "读一段课桌说明，找出物品是谁的、在哪里。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "This is my desk. The pencil is mine. The cap is his. The key is in the bag. 铅笔是谁的？",
+    "answer": "说话人自己"
+   }
+  },
+  {
+   "id": "cne_j018",
+   "name": "房间与家具",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "认读 room、bed、table 和 chair。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「房间」？",
+    "answer": "room"
+   }
+  },
+  {
+   "id": "cne_j020",
+   "name": "询问位置",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能询问东西在哪里，并说明位置。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "找不到书包，哪一句用来询问？",
+    "answer": "Where is my schoolbag?"
+   }
+  },
+  {
+   "id": "cne_j021",
+   "name": "读房间描述",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "读一段房间描述，找出物品位置。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "This is my room. The book is on the table. The bag is under the chair. 书在哪里？",
+    "answer": "在桌子上"
+   }
+  },
+  {
+   "id": "cne_j008",
+   "name": "指示代词 this、that、these、those",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能用 this、that 指单数，用 these、those 指复数，并回答 What's this 和 What are these。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "近处一只兔子，哪一句正确？",
+    "answer": "This is a rabbit."
+   }
+  },
+  {
+   "id": "cne_j009",
+   "name": "名词复数",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能把院子、农场里的常见名词变成复数，包括 sheep 和 goose。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "tomato 的复数是哪一个？",
+    "answer": "tomatoes"
+   }
+  },
+  {
+   "id": "cne_j004",
+   "name": "be 动词 am、is、are",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "description": "能按主语选用 am、is 或 are。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "I ___ Gina. 横线处填哪一个？",
+    "answer": "am"
+   }
+  },
+  {
+   "id": "cne_j014",
+   "name": "形容词性物主代词",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "description": "能选用 my、your、his、her 修饰名词，用来谈论你和我。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "这是她的名字。哪一句正确？",
+    "answer": "This is her name."
+   }
+  },
+  {
+   "id": "cne_j015",
+   "name": "be 动词一般疑问句",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "description": "能把含 be 动词的句子改成一般疑问句，并用来确认同学是谁。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "She is your classmate. 改成一般疑问句，哪一句正确？",
+    "answer": "Is she your classmate?"
+   }
+  },
+  {
+   "id": "cne_j006",
+   "name": "读自我介绍",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "description": "读一段自我介绍，找出姓名和身份。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Hello. My name is Gina. I am 12. I am a student. 她叫什么？",
+    "answer": "Gina"
+   }
+  },
+  {
+   "id": "cne_j007",
+   "name": "家庭成员",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "认读 family、parent、sister 和 brother。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「家庭」？",
+    "answer": "family"
+   }
+  },
+  {
+   "id": "cne_j024",
+   "name": "do 与 does",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能用 do 或 does 构成一般现在时的疑问句和否定句，用来谈家人的活动。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "___ you play chess? 横线处填哪一个？",
+    "answer": "Do"
+   }
+  },
+  {
+   "id": "cne_j246",
+   "name": "名词所有格 's",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "用 's 表示某人的，如 Tom's mother、my parents' room。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "This is ____ bike. 这是 Lucy 的自行车。",
+    "answer": "Lucy's"
+   }
+  },
+  {
+   "id": "cne_j011",
+   "name": "介绍家人",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能向别人介绍自己的家人。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想把姐姐介绍给同学，哪一句合适？",
+    "answer": "This is my sister."
+   }
+  },
+  {
+   "id": "cne_j012",
+   "name": "读家庭介绍",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "读一段家庭介绍，找出人物关系。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "This is my family. These are my parents. This is my sister, Gina. 说话人的姐姐是谁？",
+    "answer": "Gina"
+   }
+  },
+  {
+   "id": "cne_j079",
+   "name": "外貌",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "认读描述家人外貌时用到的 handsome、tall、short 和 hair。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「英俊的」？",
+    "answer": "handsome"
+   }
+  },
+  {
+   "id": "cne_j080",
+   "name": "描述外貌",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能用 be 和 have 描述家人的高矮和头发。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "他很英俊。哪一句正确？",
+    "answer": "He is handsome."
+   }
+  },
+  {
+   "id": "cne_j081",
+   "name": "询问长什么样",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能询问和描述家人的外貌。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问你哥哥长什么样，哪一句合适？",
+    "answer": "What does your brother look like?"
+   }
+  },
+  {
+   "id": "cne_j082",
+   "name": "读人物外貌",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "读一段家人外貌描述，找出人物特征。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "This is my family. My grandfather is tall and handsome. He has short grey hair. My sister is short. She has long brown hair. 爷爷高吗？",
+    "answer": "高"
+   }
+  },
+  {
+   "id": "cne_j075",
+   "name": "学校场所",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "description": "认读 hall、building、dining hall 和 reading corner。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「礼堂」？",
+    "answer": "hall"
+   }
+  },
+  {
+   "id": "cne_j076",
+   "name": "There be 句型",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "description": "能用 There is 和 There are 描述学校里有什么。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "学校里有一座礼堂。哪一句正确？",
+    "answer": "There is a hall in the school."
+   }
+  },
+  {
+   "id": "cne_j019",
+   "name": "方位介词",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "description": "能用 in front of、behind、across from 和 next to 表示学校里场所的位置。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "礼堂在教学楼前面。哪一句正确？",
+    "answer": "The hall is in front of the building."
+   }
+  },
+  {
+   "id": "cne_j077",
+   "name": "询问学校场所",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "description": "能询问学校里有没有某处，并用 across from、next to 说明位置。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问学校里有没有餐厅，哪一句合适？",
+    "answer": "Is there a dining hall in your school?"
+   }
+  },
+  {
+   "id": "cne_j078",
+   "name": "读学校位置",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "description": "读一段学校位置说明，找出场所在哪里。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Our hall is in front of the building. The dining hall is across from the hall. The reading corner is next to the library. 礼堂在哪里？",
+    "answer": "在教学楼前面"
+   }
+  },
+  {
+   "id": "cne_j098",
+   "name": "辅音与元音连读",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "能判断辅音结尾的词和元音开头的词能否连读。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）官方阅读器：Unit 4 书页45 Linking，附录书页93「连读」包括辅音加元音、以及 r/re 加元音。",
+   "mastery_criteria": [
+    "能根据字母或读音选出正确的一项",
+    "能把字母、发音和例词对上"
+   ],
+   "example": {
+    "question": "an apple 里，哪个音可以和后面的元音连读？",
+    "answer": "n 和 a"
+   }
+  },
+  {
+   "id": "cne_j040",
+   "name": "学科词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "认读 subject、science、history 和 geography。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「学科」？",
+    "answer": "subject"
+   }
+  },
+  {
+   "id": "cne_j029",
+   "name": "like 的句型",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "能用 like 的肯定句、否定句和疑问句谈论对学科的喜好。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "她喜欢历史。哪一句正确？",
+    "answer": "She likes history."
+   }
+  },
+  {
+   "id": "cne_j041",
+   "name": "because 说明原因",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "能用 because 回答 why，说明原因。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "Why do you like science? 哪一句适合作为回答？",
+    "answer": "Because it is interesting."
+   }
+  },
+  {
+   "id": "cne_j042",
+   "name": "谈论最喜欢的学科",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "能说出最喜欢的学科并说明原因。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方最喜欢的学科，哪一句合适？",
+    "answer": "What's your favorite subject?"
+   }
+  },
+  {
+   "id": "cne_j043",
+   "name": "读课程介绍",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "description": "读一段课程介绍，找出喜欢的学科和原因。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "My favorite subject is science. I have it on Monday. I like it because it is interesting. 最喜欢的学科是什么？",
+    "answer": "科学"
+   }
+  },
+  {
+   "id": "cne_j107",
+   "name": "不完全爆破",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "能识别两个爆破音相邻时，前一个音不完全爆破。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）官方阅读器：Unit 5 书页53 用括号标出发音练习，附录书页94 明确讲解「不完全爆破」。",
+   "mastery_criteria": [
+    "能根据字母或读音选出正确的一项",
+    "能把字母、发音和例词对上"
+   ],
+   "example": {
+    "question": "sit down 里，哪一个音常常不完全发出来？",
+    "answer": "sit 里的 t"
+   }
+  },
+  {
+   "id": "cne_j044",
+   "name": "才艺与俱乐部",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "认读 guitar、chess、club 和 dance。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「吉他」？",
+    "answer": "guitar"
+   }
+  },
+  {
+   "id": "cne_j045",
+   "name": "情态动词 can",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "能用 can 和 can't 谈论能力。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "我会弹吉他。哪一句正确？",
+    "answer": "I can play the guitar."
+   }
+  },
+  {
+   "id": "cne_j046",
+   "name": "谈论才能与俱乐部",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "能询问才能，并说明想加入哪个俱乐部。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方会不会画画，哪一句合适？",
+    "answer": "Can you draw?"
+   }
+  },
+  {
+   "id": "cne_j047",
+   "name": "读俱乐部广告",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "读一则俱乐部广告，找出需要的才能。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Music Club. Can you sing or dance? Come and join us. Call Mr. Brown. 这个俱乐部需要什么才能？",
+    "answer": "唱歌或跳舞"
+   }
+  },
+  {
+   "id": "cne_j022",
+   "name": "球类运动",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "认读社团活动里的 basketball、soccer、tennis 和 volleyball。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「篮球」？",
+    "answer": "basketball"
+   }
+  },
+  {
+   "id": "cne_j023",
+   "name": "have 与 has",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "description": "能按主语选用 have 或 has，用来说明家人有什么。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "I ___ a brother. 横线处填哪一个？",
+    "answer": "have"
+   }
+  },
+  {
+   "id": "cne_j025",
+   "name": "谈论社团运动",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "能询问会不会某项运动，并说想加入体育社团。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方会不会打篮球，哪一句合适？",
+    "answer": "Can you play basketball?"
+   }
+  },
+  {
+   "id": "cne_j026",
+   "name": "读体育社团短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "description": "读一段体育社团短文，找出谁会什么、哪天活动。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "The sports club meets on Friday. Tom can play basketball. He cannot play tennis. His sister can play tennis. Tom 会打网球吗？",
+    "answer": "不会"
+   }
+  },
+  {
+   "id": "cne_j048",
+   "name": "日常作息",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "description": "认读 shower、exercise、quarter 和 homework。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「淋浴」？",
+    "answer": "shower"
+   }
+  },
+  {
+   "id": "cne_j049",
+   "name": "时刻表达",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "description": "能用 past、to 和数字读出时刻。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "6:15 用哪一种说法？",
+    "answer": "a quarter past six"
+   }
+  },
+  {
+   "id": "cne_j051",
+   "name": "谈论作息时间",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "description": "能询问和说明每天几点做什么。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方几点上学，哪一句合适？",
+    "answer": "What time do you go to school?"
+   }
+  },
+  {
+   "id": "cne_j052",
+   "name": "读一天的安排",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "description": "读一段作息短文，找出时间。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Scott gets up at 6:00. He exercises at 6:30. He goes to school at 7:15. 他几点锻炼？",
+    "answer": "6:30"
+   }
+  },
+  {
+   "id": "cne_j053",
+   "name": "交通方式",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "认读 train、subway、bike 和 bus。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）和《英语 七年级下册》（ISBN 978-7-107-38255-0）官方目录和正文：两册均无交通方式或怎么上学的同名课。不按旧版七下 How do you get to school 改挂。七下正文未见独立的交通方式或怎么上学课。七上 Reading Plus Unit 3 书页77「My Floating School」是关于孟加拉浮动学校的补充阅读，文中有 “So how do I go to school? It’s easy! The school comes to me!”，并写船既是校车又是教室，但不是交通方式词汇课，也不是谈论自己怎么上学的口语课；讨论题问的是浮动学校对学生的重要性和可能困难。不足以把交通四点改挂到第3单元或其它单元。七上第6单元书页64 “After breakfast, I walk to school. It’s only a 10-minute walk”只是作息短文里的偶发句。语法附录中的 at the bus stop、on the way to 也只是介词例句。暂不挂到具体单元，待核。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「火车」？",
+    "answer": "train"
+   }
+  },
+  {
+   "id": "cne_j054",
+   "name": "How 问交通",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能用 how、how long 和 how far 询问出行方式、时间和距离。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）和《英语 七年级下册》（ISBN 978-7-107-38255-0）官方目录和正文：两册均无交通方式或怎么上学的同名课。不按旧版七下 How do you get to school 改挂。七下正文未见独立的交通方式或怎么上学课。七上 Reading Plus Unit 3 书页77「My Floating School」是关于孟加拉浮动学校的补充阅读，文中有 “So how do I go to school? It’s easy! The school comes to me!”，并写船既是校车又是教室，但不是交通方式词汇课，也不是谈论自己怎么上学的口语课；讨论题问的是浮动学校对学生的重要性和可能困难。不足以把交通四点改挂到第3单元或其它单元。七上第6单元书页64 “After breakfast, I walk to school. It’s only a 10-minute walk”只是作息短文里的偶发句。语法附录中的 at the bus stop、on the way to 也只是介词例句。暂不挂到具体单元，待核。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "询问对方怎么去学校，哪一句正确？",
+    "answer": "How do you get to school?"
+   }
+  },
+  {
+   "id": "cne_j055",
+   "name": "谈论怎么上学",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "能说明自己怎么上学、花多长时间。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）和《英语 七年级下册》（ISBN 978-7-107-38255-0）官方目录和正文：两册均无交通方式或怎么上学的同名课。不按旧版七下 How do you get to school 改挂。七下正文未见独立的交通方式或怎么上学课。七上 Reading Plus Unit 3 书页77「My Floating School」是关于孟加拉浮动学校的补充阅读，文中有 “So how do I go to school? It’s easy! The school comes to me!”，并写船既是校车又是教室，但不是交通方式词汇课，也不是谈论自己怎么上学的口语课；讨论题问的是浮动学校对学生的重要性和可能困难。不足以把交通四点改挂到第3单元或其它单元。七上第6单元书页64 “After breakfast, I walk to school. It’s only a 10-minute walk”只是作息短文里的偶发句。语法附录中的 at the bus stop、on the way to 也只是介词例句。暂不挂到具体单元，待核。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说你乘地铁上学，哪一句合适？",
+    "answer": "I take the subway to school."
+   }
+  },
+  {
+   "id": "cne_j056",
+   "name": "读上学方式",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "description": "读一段出行短文，找出方式和时间。 2026-11-11 已在智慧教育平台核人教版2022课标修订《英语 七年级上册》（ISBN 978-7-107-38254-3）和《英语 七年级下册》（ISBN 978-7-107-38255-0）官方目录和正文：两册均无交通方式或怎么上学的同名课。不按旧版七下 How do you get to school 改挂。七下正文未见独立的交通方式或怎么上学课。七上 Reading Plus Unit 3 书页77「My Floating School」是关于孟加拉浮动学校的补充阅读，文中有 “So how do I go to school? It’s easy! The school comes to me!”，并写船既是校车又是教室，但不是交通方式词汇课，也不是谈论自己怎么上学的口语课；讨论题问的是浮动学校对学生的重要性和可能困难。不足以把交通四点改挂到第3单元或其它单元。七上第6单元书页64 “After breakfast, I walk to school. It’s only a 10-minute walk”只是作息短文里的偶发句。语法附录中的 at the bus stop、on the way to 也只是介词例句。暂不挂到具体单元，待核。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Lisa lives 5 kilometers from school. She rides her bike. It takes her 15 minutes. 她怎么上学？",
+    "answer": "骑自行车"
+   }
+  },
+  {
+   "id": "cne_j036",
+   "name": "月份与序数词",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "认读 January、February、March 和 April。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「一月」？",
+    "answer": "January"
+   }
+  },
+  {
+   "id": "cne_j037",
+   "name": "When 问日期",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "能用 When 询问日期，并用月份加序数词回答。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "询问生日是哪一天，哪一句正确？",
+    "answer": "When is your birthday?"
+   }
+  },
+  {
+   "id": "cne_j038",
+   "name": "谈论生日",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "能询问和说明生日、年龄。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方的生日，哪一句合适？",
+    "answer": "When is your birthday?"
+   }
+  },
+  {
+   "id": "cne_j039",
+   "name": "读生日安排",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "读一则生日安排，找出日期和活动。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Tom's birthday is on September 21st. His party is on that day. The family dinner is on October 2nd. Tom 的生日是哪一天？",
+    "answer": "9 月 21 日"
+   }
+  },
+  {
+   "id": "cne_j032",
+   "name": "生日聚会",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "认读 birthday、party、cake 和 balloon。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「生日」？",
+    "answer": "birthday"
+   }
+  },
+  {
+   "id": "cne_j033",
+   "name": "How much 问价格",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "能用 How much 询问生日蛋糕、气球的价格。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "询问这个生日蛋糕多少钱，哪一句正确？",
+    "answer": "How much is this cake?"
+   }
+  },
+  {
+   "id": "cne_j034",
+   "name": "为聚会询价",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "能为生日聚会询问价格，并决定买或不买。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "在商店想问蛋糕的价格，哪一句合适？",
+    "answer": "How much is the cake?"
+   }
+  },
+  {
+   "id": "cne_j035",
+   "name": "读聚会购物",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "description": "读一段为聚会买东西的对话，找出价格和决定。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "Girl: How much is this cake? Clerk: It is 20 dollars. Girl: I'll take it. 蛋糕多少钱？",
+    "answer": "20 美元"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cne_j001_q1",
+   "topic": "cne_j001",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "teacher 的重音在第几个音节？",
+   "explain": "tea-cher 的重音在 tea。",
+   "answer_mode": "choice",
+   "options": [
+    "第二个音节",
+    "两个音节同样重",
+    "第一个音节",
+    "没有重音"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j001_q2",
+   "topic": "cne_j001",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "about 的重音在第几个音节？",
+   "explain": "a-bout 的重音在 bout。",
+   "answer_mode": "choice",
+   "options": [
+    "第一个音节",
+    "两个音节同样重",
+    "没有重音",
+    "第二个音节"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j001_q3",
+   "topic": "cne_j001",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪个单词的重音在第二个音节？",
+   "explain": "be-gin 的重音在 gin，其余三个词的重音在第一个音节。",
+   "answer_mode": "choice",
+   "options": [
+    "begin",
+    "student",
+    "China",
+    "apple"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j001_q4",
+   "topic": "cne_j001",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "computer 的重音在第几个音节？",
+   "explain": "com-pu-ter 的重音在 pu。",
+   "answer_mode": "choice",
+   "options": [
+    "第一个音节",
+    "第二个音节",
+    "第三个音节",
+    "三个音节同样重"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j002_q1",
+   "topic": "cne_j002",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "一般疑问句 Are you a student? 句末通常用什么语调？",
+   "explain": "一般疑问句句末通常用升调。",
+   "answer_mode": "choice",
+   "options": [
+    "降调",
+    "先降后升",
+    "每个词都重读",
+    "升调"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j002_q2",
+   "topic": "cne_j002",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "陈述句 My name is Gina. 句末通常用什么语调？",
+   "explain": "陈述句句末通常用降调。",
+   "answer_mode": "choice",
+   "options": [
+    "降调",
+    "升调",
+    "先升后降再升",
+    "没有语调"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j002_q3",
+   "topic": "cne_j002",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "特殊疑问句 Where is she? 句末通常用什么语调？",
+   "explain": "特殊疑问句句末通常用降调。",
+   "answer_mode": "choice",
+   "options": [
+    "升调",
+    "降调",
+    "和一般疑问句相同的升调",
+    "只在 where 上升"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j002_q4",
+   "topic": "cne_j002",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪一句朗读时句末通常用升调？",
+   "explain": "Is he your friend 是一般疑问句，句末用升调。",
+   "answer_mode": "choice",
+   "options": [
+    "He is my friend.",
+    "Where is your friend?",
+    "Is he your friend?",
+    "She is Gina."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j003_q1",
+   "topic": "cne_j003",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「名字」？",
+   "explain": "name 的意思是名字。",
+   "answer_mode": "choice",
+   "options": [
+    "name",
+    "friend",
+    "girl",
+    "boy"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j003_q2",
+   "topic": "cne_j003",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「friend」的中文意思是哪一个？",
+   "explain": "friend 的意思是朋友。",
+   "answer_mode": "choice",
+   "options": [
+    "名字",
+    "朋友",
+    "女孩",
+    "男孩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j003_q3",
+   "topic": "cne_j003",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「女孩」的单词。",
+   "explain": "表示女孩的单词是 girl。",
+   "answer_mode": "choice",
+   "options": [
+    "name",
+    "friend",
+    "girl",
+    "boy"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j003_q4",
+   "topic": "cne_j003",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「男孩」？",
+   "explain": "boy 的意思是男孩。",
+   "answer_mode": "choice",
+   "options": [
+    "name",
+    "friend",
+    "girl",
+    "boy"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j004_q1",
+   "topic": "cne_j004",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I ___ Gina. 横线处填哪一个？",
+   "explain": "I 后面用 am。",
+   "answer_mode": "choice",
+   "options": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j004_q2",
+   "topic": "cne_j004",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "She ___ my friend. 横线处填哪一个？",
+   "explain": "She 后面用 is。",
+   "answer_mode": "choice",
+   "options": [
+    "am",
+    "are",
+    "is",
+    "be"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j004_q3",
+   "topic": "cne_j004",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "They ___ students. 横线处填哪一个？",
+   "explain": "They 后面用 are。",
+   "answer_mode": "choice",
+   "options": [
+    "am",
+    "is",
+    "be",
+    "are"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j004_q4",
+   "topic": "cne_j004",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "He 和 is 搭配。",
+   "answer_mode": "choice",
+   "options": [
+    "He is a boy.",
+    "He am a boy.",
+    "He are a boy.",
+    "He be a boy."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j005_q1",
+   "topic": "cne_j005",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "初次见面，对方说 Nice to meet you. 你应回答什么？",
+   "explain": "回答 Nice to meet you 时加上 too。",
+   "answer_mode": "choice",
+   "options": [
+    "Good night.",
+    "See you yesterday.",
+    "Nice to meet you, too.",
+    "Nice to meeting you, too."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j005_q2",
+   "topic": "cne_j005",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想告诉别人自己叫 Gina，哪一句合适？",
+   "explain": "说自己的名字用 My name is。",
+   "answer_mode": "choice",
+   "options": [
+    "Your name is Gina.",
+    "She name is Gina.",
+    "My name are Gina.",
+    "My name is Gina."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j005_q3",
+   "topic": "cne_j005",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "早上见面，哪一句是问候？",
+   "explain": "Good morning 用来问候早晨。",
+   "answer_mode": "choice",
+   "options": [
+    "Good morning.",
+    "Good mornings.",
+    "Goodbye.",
+    "Good afternoon."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j005_q4",
+   "topic": "cne_j005",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u0",
+   "unit_name": "第0单元·预备单元1·Hello!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "对方问 What's your name? 你叫 Tom，应回答什么？",
+   "explain": "询问你的名字时，用 My name is 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "His name is Tom.",
+    "My name is Tom.",
+    "I name Tom.",
+    "You are Tom?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j006_q1",
+   "topic": "cne_j006",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Hello. My name is Gina. I am 12. I am a student. 她叫什么？",
+   "explain": "短文写 My name is Gina。",
+   "answer_mode": "choice",
+   "options": [
+    "Alice",
+    "Tom",
+    "Jack",
+    "Gina"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j006_q2",
+   "topic": "cne_j006",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Hello. My name is Gina. I am 12. I am a student. 她是做什么的？",
+   "explain": "I am a student 是学生。",
+   "answer_mode": "choice",
+   "options": [
+    "学生",
+    "老师",
+    "医生",
+    "司机"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j006_q3",
+   "topic": "cne_j006",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Hi. I am Jack. I am a boy. My friend is Gina. Jack 的朋友是谁？",
+   "explain": "短文写 My friend is Gina。",
+   "answer_mode": "choice",
+   "options": [
+    "Tom",
+    "Gina",
+    "Alice",
+    "Mike"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j006_q4",
+   "topic": "cne_j006",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Hi. I am Jack. I am a boy. My friend is Gina. 哪一句和短文一致？",
+   "explain": "短文只说 Jack is a boy，没有说他 12 岁。",
+   "answer_mode": "choice",
+   "options": [
+    "Jack is a girl.",
+    "Gina is Jack.",
+    "Jack is a boy.",
+    "Jack is 12."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j007_q1",
+   "topic": "cne_j007",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「家庭」？",
+   "explain": "family 的意思是家庭。",
+   "answer_mode": "choice",
+   "options": [
+    "family",
+    "parent",
+    "sister",
+    "brother"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j007_q2",
+   "topic": "cne_j007",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「parent」的中文意思是哪一个？",
+   "explain": "parent 的意思是父或母。",
+   "answer_mode": "choice",
+   "options": [
+    "家庭",
+    "父或母",
+    "姐姐或妹妹",
+    "哥哥或弟弟"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j007_q3",
+   "topic": "cne_j007",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「姐姐或妹妹」的单词。",
+   "explain": "表示姐姐或妹妹的单词是 sister。",
+   "answer_mode": "choice",
+   "options": [
+    "family",
+    "parent",
+    "sister",
+    "brother"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j007_q4",
+   "topic": "cne_j007",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「哥哥或弟弟」？",
+   "explain": "brother 的意思是哥哥或弟弟。",
+   "answer_mode": "choice",
+   "options": [
+    "family",
+    "parent",
+    "sister",
+    "brother"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j008_q1",
+   "topic": "cne_j008",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "近处一只兔子，哪一句正确？",
+   "explain": "近处单数用 This is。",
+   "answer_mode": "choice",
+   "options": [
+    "These are a rabbit.",
+    "This is a rabbit.",
+    "This are a rabbit.",
+    "These is a rabbit."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j008_q2",
+   "topic": "cne_j008",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "远处那些是树，哪一句正确？",
+   "explain": "远处复数用 Those are。",
+   "answer_mode": "choice",
+   "options": [
+    "That are trees.",
+    "Those is trees.",
+    "Those are trees.",
+    "This are trees."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j008_q3",
+   "topic": "cne_j008",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What are these? 这些是胡萝卜，应回答什么？",
+   "explain": "these 用 They are 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "It is carrots.",
+    "This are carrots.",
+    "They is carrots.",
+    "They are carrots."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j008_q4",
+   "topic": "cne_j008",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What's that? 远处是一只鹅，哪一句正确？",
+   "explain": "that 指单数，用 It's。",
+   "answer_mode": "choice",
+   "options": [
+    "It's a goose.",
+    "They're a goose.",
+    "This are a goose.",
+    "Those are a goose."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j009_q1",
+   "topic": "cne_j009",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "tomato 的复数是哪一个？",
+   "explain": "以 o 结尾的 tomato 加 es。",
+   "answer_mode": "choice",
+   "options": [
+    "tomatos",
+    "tomatoies",
+    "tomatoes",
+    "tomato"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j009_q2",
+   "topic": "cne_j009",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "sheep 的复数是哪一个？",
+   "explain": "sheep 单复数同形。",
+   "answer_mode": "choice",
+   "options": [
+    "sheeps",
+    "sheepes",
+    "sheepies",
+    "sheep"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j009_q3",
+   "topic": "cne_j009",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "goose 的复数是哪一个？",
+   "explain": "goose 的复数是 geese。",
+   "answer_mode": "choice",
+   "options": [
+    "geese",
+    "gooses",
+    "geeses",
+    "goose"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j009_q4",
+   "topic": "cne_j009",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句的名词复数是正确的？",
+   "explain": "two 后面用 rabbits。",
+   "answer_mode": "choice",
+   "options": [
+    "I see two rabbit.",
+    "I see two rabbits.",
+    "I see two rabites.",
+    "I see two rabbites."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j011_q1",
+   "topic": "cne_j011",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想把姐姐介绍给同学，哪一句合适？",
+   "explain": "介绍一个人用 This is。",
+   "answer_mode": "choice",
+   "options": [
+    "This is my sister.",
+    "These are my sister.",
+    "She is my parent?",
+    "I am your sister."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j011_q2",
+   "topic": "cne_j011",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "对方问 Who is he? 他是你的弟弟，应回答什么？",
+   "explain": "弟弟是 he，用 is。",
+   "answer_mode": "choice",
+   "options": [
+    "She is my brother.",
+    "He is my brother.",
+    "He are my brother.",
+    "This are my brother."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j011_q3",
+   "topic": "cne_j011",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "These are my parents. 说话人在介绍谁？",
+   "explain": "parents 是父母。",
+   "answer_mode": "choice",
+   "options": [
+    "同学",
+    "老师",
+    "父母",
+    "朋友的书"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j011_q4",
+   "topic": "cne_j011",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "哪一句能用来介绍照片里的一家人？",
+   "explain": "family 是家庭。",
+   "answer_mode": "choice",
+   "options": [
+    "This is my schoolbag.",
+    "These are my pens.",
+    "This are my family.",
+    "This is my family."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j012_q1",
+   "topic": "cne_j012",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my family. These are my parents. This is my sister, Gina. 说话人的姐姐是谁？",
+   "explain": "This is my sister, Gina 说明姐姐是 Gina。",
+   "answer_mode": "choice",
+   "options": [
+    "Tom",
+    "Gina",
+    "Alice",
+    "Jack"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j012_q2",
+   "topic": "cne_j012",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my family. These are my parents. This is my sister, Gina. 哪一句和短文一致？",
+   "explain": "短文说 This is my sister, Gina。",
+   "answer_mode": "choice",
+   "options": [
+    "Gina is the speaker's brother.",
+    "The speaker has no parents.",
+    "Gina is the speaker's sister.",
+    "Gina is a parent."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j012_q3",
+   "topic": "cne_j012",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "I have a brother. His name is Tom. I have no sister. 说话人有姐姐吗？",
+   "explain": "I have no sister 是没有姐姐或妹妹。",
+   "answer_mode": "choice",
+   "options": [
+    "有一个",
+    "有两个",
+    "短文没说",
+    "没有"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j012_q4",
+   "topic": "cne_j012",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "I have a brother. His name is Tom. I have no sister. Tom 是谁？",
+   "explain": "His name is Tom 指 brother。",
+   "answer_mode": "choice",
+   "options": [
+    "说话人的弟弟或哥哥",
+    "说话人的姐姐",
+    "说话人的父母",
+    "说话人的老师"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j013_q1",
+   "topic": "cne_j013",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「钥匙」？",
+   "explain": "key 的意思是钥匙。",
+   "answer_mode": "choice",
+   "options": [
+    "cap",
+    "pencil",
+    "key",
+    "ruler"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j013_q2",
+   "topic": "cne_j013",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「cap」的中文意思是哪一个？",
+   "explain": "cap 的意思是帽子。",
+   "answer_mode": "choice",
+   "options": [
+    "钥匙",
+    "铅笔",
+    "尺子",
+    "帽子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j013_q3",
+   "topic": "cne_j013",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「铅笔」的单词。",
+   "explain": "表示铅笔的单词是 pencil。",
+   "answer_mode": "choice",
+   "options": [
+    "pencil",
+    "key",
+    "cap",
+    "ruler"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j013_q4",
+   "topic": "cne_j013",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「尺子」？",
+   "explain": "ruler 的意思是尺子。",
+   "answer_mode": "choice",
+   "options": [
+    "key",
+    "ruler",
+    "cap",
+    "pencil"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j014_q1",
+   "topic": "cne_j014",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "这是她的名字。哪一句正确？",
+   "explain": "her 后面直接加名词。",
+   "answer_mode": "choice",
+   "options": [
+    "This is she name.",
+    "This is hers name.",
+    "This is her a name.",
+    "This is her name."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j014_q2",
+   "topic": "cne_j014",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "___ friend is Tom. 朋友是男生 Tom 的，横线处填哪一个？",
+   "explain": "Tom 是男性，形容词性物主代词用 His。",
+   "answer_mode": "choice",
+   "options": [
+    "His",
+    "He",
+    "Him",
+    "Her"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j014_q3",
+   "topic": "cne_j014",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "I 的形容词性物主代词是哪一个？",
+   "explain": "I 对应 my，不能用 myself。",
+   "answer_mode": "choice",
+   "options": [
+    "me",
+    "my",
+    "mine",
+    "myself"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j014_q4",
+   "topic": "cne_j014",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "your 修饰 book，名词性物主代词 yours 后面不再加名词。",
+   "answer_mode": "choice",
+   "options": [
+    "You book is here.",
+    "Your is book here.",
+    "Your book is here.",
+    "Yours book is here."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j015_q1",
+   "topic": "cne_j015",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "She is your classmate. 改成一般疑问句，哪一句正确？",
+   "explain": "be 动词提到句首，she 仍用 is。",
+   "answer_mode": "choice",
+   "options": [
+    "Is she your classmate?",
+    "Does she is your classmate?",
+    "Is she your classmate.",
+    "Are she your classmate?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j015_q2",
+   "topic": "cne_j015",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Are you Tom? 肯定简答是哪一句？",
+   "explain": "简答 Yes, I am 不能缩写 am。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I are.",
+    "Yes, I am.",
+    "Yes, I'm.",
+    "Yes, I is."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j015_q3",
+   "topic": "cne_j015",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Is he your friend? 否定简答是哪一句？",
+   "explain": "he 和 is 对应，否定用 isn't。",
+   "answer_mode": "choice",
+   "options": [
+    "No, he aren't.",
+    "No, he not.",
+    "No, he isn't.",
+    "No, he doesn't."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j015_q4",
+   "topic": "cne_j015",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u1",
+   "unit_name": "第1单元·You and Me",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是一般疑问句？",
+   "explain": "Are they 把 are 放在句首。",
+   "answer_mode": "choice",
+   "options": [
+    "They are your classmates.",
+    "Your classmates are they.",
+    "What they are?",
+    "Are they your classmates?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j016_q1",
+   "topic": "cne_j016",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问这顶帽子是不是对方的，哪一句合适？",
+   "explain": "询问用 Is this your cap。",
+   "answer_mode": "choice",
+   "options": [
+    "This is your cap.",
+    "Is this your cap?",
+    "Are this your cap?",
+    "What your cap?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j016_q2",
+   "topic": "cne_j016",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "对方问 Is this your key? 是你的，应回答什么？",
+   "explain": "物品用 it，肯定是 Yes, it is。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, it are.",
+    "No, it is mine.",
+    "Yes, it is.",
+    "Yes, I am."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j016_q3",
+   "topic": "cne_j016",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说这把钥匙是他的，哪一句合适？",
+   "explain": "his 修饰 key。",
+   "answer_mode": "choice",
+   "options": [
+    "This is he key.",
+    "This is him key.",
+    "This are his key.",
+    "This is his key."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j016_q4",
+   "topic": "cne_j016",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Whose cap is this? 这句在问什么？",
+   "explain": "Whose 问所属。",
+   "answer_mode": "choice",
+   "options": [
+    "这顶帽子是谁的",
+    "帽子在哪里",
+    "帽子多少钱",
+    "帽子是什么颜色"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j017_q1",
+   "topic": "cne_j017",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my desk. The pencil is mine. The cap is his. The key is in the bag. 铅笔是谁的？",
+   "explain": "The pencil is mine 是说话人自己的。",
+   "answer_mode": "choice",
+   "options": [
+    "他",
+    "老师",
+    "说话人自己",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j017_q2",
+   "topic": "cne_j017",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my desk. The pencil is mine. The cap is his. The key is in the bag. 帽子是谁的？",
+   "explain": "The cap is his。",
+   "answer_mode": "choice",
+   "options": [
+    "说话人自己",
+    "老师",
+    "Mary",
+    "他"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j017_q3",
+   "topic": "cne_j017",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "This is my desk. The pencil is mine. The cap is his. The key is in the bag. 钥匙在哪里？",
+   "explain": "The key is in the bag。",
+   "answer_mode": "choice",
+   "options": [
+    "在包里",
+    "在帽子上",
+    "在铅笔盒外的地上",
+    "在书桌上，短文没这么写"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j017_q4",
+   "topic": "cne_j017",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "This is my desk. The pencil is mine. The cap is his. The key is in the bag. 哪一句和短文一致？",
+   "explain": "钥匙在包里，帽子是他的，铅笔是我的。",
+   "answer_mode": "choice",
+   "options": [
+    "The cap is mine.",
+    "The key is in the bag.",
+    "The pencil is his.",
+    "The desk is his."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j018_q1",
+   "topic": "cne_j018",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「房间」？",
+   "explain": "room 的意思是房间。",
+   "answer_mode": "choice",
+   "options": [
+    "bed",
+    "table",
+    "chair",
+    "room"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j018_q2",
+   "topic": "cne_j018",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「bed」的中文意思是哪一个？",
+   "explain": "bed 的意思是床。",
+   "answer_mode": "choice",
+   "options": [
+    "床",
+    "房间",
+    "桌子",
+    "椅子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j018_q3",
+   "topic": "cne_j018",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「桌子」的单词。",
+   "explain": "表示桌子的单词是 table。",
+   "answer_mode": "choice",
+   "options": [
+    "room",
+    "table",
+    "bed",
+    "chair"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j018_q4",
+   "topic": "cne_j018",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「椅子」？",
+   "explain": "chair 的意思是椅子。",
+   "answer_mode": "choice",
+   "options": [
+    "room",
+    "bed",
+    "chair",
+    "table"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j019_q1",
+   "topic": "cne_j019",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "礼堂在教学楼前面。哪一句正确？",
+   "explain": "在……前面用 in front of。",
+   "answer_mode": "choice",
+   "options": [
+    "The hall is in front of the building.",
+    "The hall is in the front building.",
+    "The hall are in front of the building.",
+    "The hall is front the building."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j019_q2",
+   "topic": "cne_j019",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "教学楼在礼堂对面。哪一句正确？",
+   "explain": "在对面用 across from。",
+   "answer_mode": "choice",
+   "options": [
+    "The building is across to the hall.",
+    "The building is across from the hall.",
+    "The building across from the hall.",
+    "The building is across from hall the."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j019_q3",
+   "topic": "cne_j019",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Where is the hall? 这句在问什么？",
+   "explain": "Where 问地点。",
+   "answer_mode": "choice",
+   "options": [
+    "礼堂是什么颜色",
+    "礼堂多少钱",
+    "礼堂在哪里",
+    "礼堂是谁的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j019_q4",
+   "topic": "cne_j019",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "餐厅在教学楼旁边。哪一句正确？",
+   "explain": "在旁边用 next to。",
+   "answer_mode": "choice",
+   "options": [
+    "The dining hall is next the building.",
+    "The dining hall next to the building.",
+    "The dining hall are next to the building.",
+    "The dining hall is next to the building."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j020_q1",
+   "topic": "cne_j020",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "找不到书包，哪一句用来询问？",
+   "explain": "单数物品用 Where is。",
+   "answer_mode": "choice",
+   "options": [
+    "What is my schoolbag?",
+    "Where is my schoolbag?",
+    "Where are my schoolbag?",
+    "Who is my schoolbag?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j020_q2",
+   "topic": "cne_j020",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "书包在椅子下面，应回答什么？",
+   "explain": "单数用 It is under。",
+   "answer_mode": "choice",
+   "options": [
+    "It are under the chair.",
+    "It is the under chair.",
+    "It is under the chair.",
+    "They is under the chair."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j020_q3",
+   "topic": "cne_j020",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "对方说 Where are my books? 书在桌子上，应回答什么？",
+   "explain": "books 用 they are，在桌面上用 on。",
+   "answer_mode": "choice",
+   "options": [
+    "It is on the table.",
+    "They is on the table.",
+    "They are in the table.",
+    "They are on the table."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j020_q4",
+   "topic": "cne_j020",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "哪一句是在请对方看床底下？",
+   "explain": "Look under the bed 是看床底下。",
+   "answer_mode": "choice",
+   "options": [
+    "Look under the bed.",
+    "Look the bed under.",
+    "Look on name.",
+    "See you under."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j021_q1",
+   "topic": "cne_j021",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my room. The book is on the table. The bag is under the chair. 书在哪里？",
+   "explain": "The book is on the table。",
+   "answer_mode": "choice",
+   "options": [
+    "在椅子下面",
+    "在书包里",
+    "在桌子上",
+    "在床上"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j021_q2",
+   "topic": "cne_j021",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my room. The book is on the table. The bag is under the chair. 包在哪里？",
+   "explain": "The bag is under the chair。",
+   "answer_mode": "choice",
+   "options": [
+    "在桌子上",
+    "在床上",
+    "在书里面",
+    "在椅子下面"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j021_q3",
+   "topic": "cne_j021",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The keys are in the schoolbag. The schoolbag is on the bed. 钥匙在哪里？",
+   "explain": "The keys are in the schoolbag。",
+   "answer_mode": "choice",
+   "options": [
+    "在书包里",
+    "在床底下",
+    "在桌子上",
+    "在椅子上"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j021_q4",
+   "topic": "cne_j021",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The keys are in the schoolbag. The schoolbag is on the bed. 哪一句和短文一致？",
+   "explain": "书包在床上，钥匙在书包里，不是直接在床上。",
+   "answer_mode": "choice",
+   "options": [
+    "The keys are on the bed.",
+    "The schoolbag is on the bed.",
+    "The schoolbag is under the bed.",
+    "The keys are under the chair."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j022_q1",
+   "topic": "cne_j022",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「篮球」？",
+   "explain": "basketball 的意思是篮球。",
+   "answer_mode": "choice",
+   "options": [
+    "soccer",
+    "tennis",
+    "volleyball",
+    "basketball"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j022_q2",
+   "topic": "cne_j022",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「soccer」的中文意思是哪一个？",
+   "explain": "soccer 的意思是足球。",
+   "answer_mode": "choice",
+   "options": [
+    "足球",
+    "篮球",
+    "网球",
+    "排球"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j022_q3",
+   "topic": "cne_j022",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「网球」的单词。",
+   "explain": "表示网球的单词是 tennis。",
+   "answer_mode": "choice",
+   "options": [
+    "basketball",
+    "tennis",
+    "soccer",
+    "volleyball"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j022_q4",
+   "topic": "cne_j022",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「排球」？",
+   "explain": "volleyball 的意思是排球。",
+   "answer_mode": "choice",
+   "options": [
+    "basketball",
+    "soccer",
+    "volleyball",
+    "tennis"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j023_q1",
+   "topic": "cne_j023",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I ___ a brother. 横线处填哪一个？",
+   "explain": "I 后面用 have。",
+   "answer_mode": "choice",
+   "options": [
+    "have",
+    "has",
+    "am",
+    "is"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j023_q2",
+   "topic": "cne_j023",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "She ___ a red hat. 横线处填哪一个？",
+   "explain": "She 后面用 has。",
+   "answer_mode": "choice",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "haves"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j023_q3",
+   "topic": "cne_j023",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "They ___ two sons. 横线处填哪一个？",
+   "explain": "They 后面用 have。",
+   "answer_mode": "choice",
+   "options": [
+    "has",
+    "haves",
+    "have",
+    "is"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j023_q4",
+   "topic": "cne_j023",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "He 用 has。",
+   "answer_mode": "choice",
+   "options": [
+    "He have a ping-pong bat.",
+    "He haves a ping-pong bat.",
+    "He have bat a.",
+    "He has a ping-pong bat."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j024_q1",
+   "topic": "cne_j024",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "___ you play chess? 横线处填哪一个？",
+   "explain": "you 用 Do。",
+   "answer_mode": "choice",
+   "options": [
+    "Does",
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j024_q2",
+   "topic": "cne_j024",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "___ she have a piano? 横线处填哪一个？",
+   "explain": "she 用 Does，后面动词用原形 have。",
+   "answer_mode": "choice",
+   "options": [
+    "Do",
+    "Is",
+    "Does",
+    "Has"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j024_q3",
+   "topic": "cne_j024",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "他不踢足球。哪一句正确？",
+   "explain": "doesn't 后面用动词原形 play。",
+   "answer_mode": "choice",
+   "options": [
+    "He don't play football.",
+    "He doesn't plays football.",
+    "He not play football.",
+    "He doesn't play football."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j024_q4",
+   "topic": "cne_j024",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Do they read every evening? 肯定简答是哪一句？",
+   "explain": "Do 提问用 do 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, they do.",
+    "Yes, they have.",
+    "Yes, they does.",
+    "Yes, they are."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j025_q1",
+   "topic": "cne_j025",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方会不会打篮球，哪一句合适？",
+   "explain": "能力用 Can you play。",
+   "answer_mode": "choice",
+   "options": [
+    "Are you play basketball?",
+    "Do you can play basketball?",
+    "Can you play basketball?",
+    "Can you plays basketball?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j025_q2",
+   "topic": "cne_j025",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "对方问 Can you play tennis? 你会，应回答什么？",
+   "explain": "Can you 的肯定简答是 Yes, I can。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I can to.",
+    "Yes, I am.",
+    "Yes, I does.",
+    "Yes, I can."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j025_q3",
+   "topic": "cne_j025",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说你想加入体育社团，哪一句合适？",
+   "explain": "want to 后面用动词原形 join。",
+   "answer_mode": "choice",
+   "options": [
+    "I want to join the sports club.",
+    "I want join the sports club.",
+    "I wants to join the sports club.",
+    "I want to joining the sports club."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j025_q4",
+   "topic": "cne_j025",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Let's play soccer. 这句是在做什么？",
+   "explain": "Let's 用来提出建议。",
+   "answer_mode": "choice",
+   "options": [
+    "询问足球的价格",
+    "建议去踢足球",
+    "说自己没有足球",
+    "介绍一个姐姐"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j026_q1",
+   "topic": "cne_j026",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The sports club meets on Friday. Tom can play basketball. He cannot play tennis. His sister can play tennis. Tom 会打网球吗？",
+   "explain": "He cannot play tennis。",
+   "answer_mode": "choice",
+   "options": [
+    "会",
+    "只在星期五会，短文没这么说",
+    "短文没说",
+    "不会"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j026_q2",
+   "topic": "cne_j026",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The sports club meets on Friday. Tom can play basketball. He cannot play tennis. His sister can play tennis. 谁会打网球？",
+   "explain": "His sister can play tennis。",
+   "answer_mode": "choice",
+   "options": [
+    "Tom 的姐姐或妹妹",
+    "Tom",
+    "老师",
+    "短文没说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j026_q3",
+   "topic": "cne_j026",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The sports club meets on Friday. Tom can play basketball. He cannot play tennis. His sister can play tennis. 社团在星期几活动？",
+   "explain": "meets on Friday。",
+   "answer_mode": "choice",
+   "options": [
+    "星期一",
+    "星期五",
+    "每天",
+    "星期日"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j026_q4",
+   "topic": "cne_j026",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The sports club meets on Friday. Tom can play basketball. He cannot play tennis. His sister can play tennis. 哪一句和短文一致？",
+   "explain": "Tom can play basketball，他不会网球。",
+   "answer_mode": "choice",
+   "options": [
+    "Tom can play tennis.",
+    "The club meets on Monday.",
+    "Tom can play basketball.",
+    "His sister cannot play tennis."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j029_q1",
+   "topic": "cne_j029",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "她喜欢历史。哪一句正确？",
+   "explain": "She 后面动词加 s。",
+   "answer_mode": "choice",
+   "options": [
+    "She like history.",
+    "She likes histories.",
+    "She likes history.",
+    "She like a history."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j029_q2",
+   "topic": "cne_j029",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "我不喜欢地理。哪一句正确？",
+   "explain": "I 的否定用 don't，后面动词用原形。",
+   "answer_mode": "choice",
+   "options": [
+    "I doesn't like geography.",
+    "I don't likes geography.",
+    "I not like geography.",
+    "I don't like geography."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j029_q3",
+   "topic": "cne_j029",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "___ she like science? 横线处填哪一个？",
+   "explain": "she 用 Does，like 用原形。",
+   "answer_mode": "choice",
+   "options": [
+    "Does",
+    "Do",
+    "Is",
+    "Are"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j029_q4",
+   "topic": "cne_j029",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Do you like P.E.? 否定回答是哪一句？",
+   "explain": "Do you 的否定简答是 No, I don't。",
+   "answer_mode": "choice",
+   "options": [
+    "No, I doesn't.",
+    "No, I don't.",
+    "No, I'm not.",
+    "No, I don't like."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j032_q1",
+   "topic": "cne_j032",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「生日」？",
+   "explain": "birthday 的意思是生日。",
+   "answer_mode": "choice",
+   "options": [
+    "party",
+    "birthday",
+    "cake",
+    "balloon"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j032_q2",
+   "topic": "cne_j032",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「party」的中文意思是哪一个？",
+   "explain": "party 的意思是聚会。",
+   "answer_mode": "choice",
+   "options": [
+    "生日",
+    "蛋糕",
+    "聚会",
+    "气球"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j032_q3",
+   "topic": "cne_j032",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「蛋糕」的单词。",
+   "explain": "表示蛋糕的单词是 cake。",
+   "answer_mode": "choice",
+   "options": [
+    "birthday",
+    "party",
+    "balloon",
+    "cake"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j032_q4",
+   "topic": "cne_j032",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「气球」？",
+   "explain": "balloon 的意思是气球。",
+   "answer_mode": "choice",
+   "options": [
+    "balloon",
+    "birthday",
+    "party",
+    "cake"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j033_q1",
+   "topic": "cne_j033",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "询问这个生日蛋糕多少钱，哪一句正确？",
+   "explain": "蛋糕是单数，用 How much is。",
+   "answer_mode": "choice",
+   "options": [
+    "How much are this cake?",
+    "How many is this cake?",
+    "How much is this cake?",
+    "How much this cake is?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j033_q2",
+   "topic": "cne_j033",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "这些气球 6 美元。哪一句正确？",
+   "explain": "复数用 are，美元复数用 dollars。",
+   "answer_mode": "choice",
+   "options": [
+    "The balloons is 6 dollars.",
+    "The balloons are 6 dollar.",
+    "The balloons have 6 dollar.",
+    "The balloons are 6 dollars."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j033_q3",
+   "topic": "cne_j033",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "How much are the balloons? 这句在问什么？",
+   "explain": "How much 问价格。",
+   "answer_mode": "choice",
+   "options": [
+    "这些气球多少钱",
+    "气球是什么颜色",
+    "气球在哪里",
+    "你有几个气球"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j033_q4",
+   "topic": "cne_j033",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "蛋糕 15 美元。哪一句正确？",
+   "explain": "一个蛋糕用 is，dollars 用复数。",
+   "answer_mode": "choice",
+   "options": [
+    "The cake are fifteen dollars.",
+    "The cake is fifteen dollars.",
+    "The cake is fifteen dollar.",
+    "The cakes is fifteen dollars."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j034_q1",
+   "topic": "cne_j034",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "在商店想问蛋糕的价格，哪一句合适？",
+   "explain": "单数物品用 How much is。",
+   "answer_mode": "choice",
+   "options": [
+    "How many is the cake?",
+    "What much is the cake?",
+    "How much the cake is?",
+    "How much is the cake?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j034_q2",
+   "topic": "cne_j034",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "店员说 It is 20 dollars. 你决定买下，哪一句合适？",
+   "explain": "I'll take it 表示我买下它。",
+   "answer_mode": "choice",
+   "options": [
+    "I'll take it.",
+    "I take them are.",
+    "I'll taking it.",
+    "I am take it."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j034_q3",
+   "topic": "cne_j034",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想要一些气球，哪一句合适？",
+   "explain": "some 加复数 balloons。",
+   "answer_mode": "choice",
+   "options": [
+    "I want a balloons.",
+    "I want some balloons.",
+    "I want some balloones.",
+    "I wants some balloons."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j034_q4",
+   "topic": "cne_j034",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Can I help you? 店员这句是在做什么？",
+   "explain": "Can I help you 是商店里的招呼。",
+   "answer_mode": "choice",
+   "options": [
+    "询问你的生日",
+    "说蛋糕很贵",
+    "询问你需要什么帮助",
+    "介绍自己的家人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j035_q1",
+   "topic": "cne_j035",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Girl: How much is this cake? Clerk: It is 20 dollars. Girl: I'll take it. 蛋糕多少钱？",
+   "explain": "It is 20 dollars。",
+   "answer_mode": "choice",
+   "options": [
+    "20 美元",
+    "6 美元",
+    "15 美元",
+    "8 美元"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j035_q2",
+   "topic": "cne_j035",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Girl: How much is this cake? Clerk: It is 20 dollars. Girl: I'll take it. 她买了吗？",
+   "explain": "I'll take it 表示买下。",
+   "answer_mode": "choice",
+   "options": [
+    "没买",
+    "买了",
+    "只问了颜色",
+    "店员不卖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j035_q3",
+   "topic": "cne_j035",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Boy: How much are the balloons? Clerk: They are 6 dollars. Boy: They are too dear. I will not take them. 按男孩的话，气球贵不贵？",
+   "explain": "too dear 是太贵，他不买。",
+   "answer_mode": "choice",
+   "options": [
+    "他认为很便宜",
+    "他马上买下",
+    "他认为太贵",
+    "短文没谈价格"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j035_q4",
+   "topic": "cne_j035",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "选词填空：The cake is 20 ___. I will take it. 哪个词使句子完整？",
+   "explain": "20 后面用复数 dollars。",
+   "answer_mode": "choice",
+   "options": [
+    "dollar",
+    "much",
+    "party",
+    "dollars"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j036_q1",
+   "topic": "cne_j036",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「一月」？",
+   "explain": "January 的意思是一月。",
+   "answer_mode": "choice",
+   "options": [
+    "February",
+    "January",
+    "March",
+    "April"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j036_q2",
+   "topic": "cne_j036",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「February」的中文意思是哪一个？",
+   "explain": "February 的意思是二月。",
+   "answer_mode": "choice",
+   "options": [
+    "一月",
+    "三月",
+    "二月",
+    "四月"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j036_q3",
+   "topic": "cne_j036",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「三月」的单词。",
+   "explain": "表示三月的单词是 March。",
+   "answer_mode": "choice",
+   "options": [
+    "January",
+    "February",
+    "April",
+    "March"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j036_q4",
+   "topic": "cne_j036",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「四月」？",
+   "explain": "April 的意思是四月。",
+   "answer_mode": "choice",
+   "options": [
+    "April",
+    "January",
+    "February",
+    "March"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j037_q1",
+   "topic": "cne_j037",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "询问生日是哪一天，哪一句正确？",
+   "explain": "When is your birthday 问日期。",
+   "answer_mode": "choice",
+   "options": [
+    "When your birthday is?",
+    "What is your birthday?",
+    "When is your birthday?",
+    "When are your birthday?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j037_q2",
+   "topic": "cne_j037",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "生日是 5 月 2 日。哪一句正确？",
+   "explain": "具体日期用 on，序数词用 2nd。",
+   "answer_mode": "choice",
+   "options": [
+    "My birthday is on May two.",
+    "My birthday is in May 2nd.",
+    "My birthday are on May 2nd.",
+    "My birthday is on May 2nd."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j037_q3",
+   "topic": "cne_j037",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "第一个月是哪一个？",
+   "explain": "January 是一月。",
+   "answer_mode": "choice",
+   "options": [
+    "January",
+    "February",
+    "March",
+    "April"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j037_q4",
+   "topic": "cne_j037",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "third 对应的基数词是哪一个？",
+   "explain": "third 是第三，基数词是 three。",
+   "answer_mode": "choice",
+   "options": [
+    "thirdly",
+    "three",
+    "thirty",
+    "thirteen"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j038_q1",
+   "topic": "cne_j038",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方的生日，哪一句合适？",
+   "explain": "问日期用 When is your birthday。",
+   "answer_mode": "choice",
+   "options": [
+    "Where is your birthday?",
+    "When are your birthday?",
+    "How much is your birthday?",
+    "When is your birthday?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j038_q2",
+   "topic": "cne_j038",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "你的生日是 9 月 5 日，应回答什么？",
+   "explain": "具体日子用 on 加序数词。",
+   "answer_mode": "choice",
+   "options": [
+    "It is on September 5th.",
+    "It is in September 5.",
+    "It is on September five.",
+    "It are on September 5th."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j038_q3",
+   "topic": "cne_j038",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "How old are you? 这句在问什么？",
+   "explain": "How old 问年龄。",
+   "answer_mode": "choice",
+   "options": [
+    "你的生日是哪天",
+    "你多大",
+    "你叫什么",
+    "你来自哪里"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j038_q4",
+   "topic": "cne_j038",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说 Alice 十二岁，哪一句合适？",
+   "explain": "年龄用基数词 twelve，不是序数词 twelfth。",
+   "answer_mode": "choice",
+   "options": [
+    "Alice are twelve.",
+    "Alice is twelfth.",
+    "Alice is twelve.",
+    "Alice has twelve."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j039_q1",
+   "topic": "cne_j039",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Tom's birthday is on September 21st. His party is on that day. The family dinner is on October 2nd. Tom 的生日是哪一天？",
+   "explain": "September 21st 是 9 月 21 日。",
+   "answer_mode": "choice",
+   "options": [
+    "9 月 21 日",
+    "10 月 2 日",
+    "9 月 2 日",
+    "10 月 21 日"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j039_q2",
+   "topic": "cne_j039",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Tom's birthday is on September 21st. His party is on that day. The family dinner is on October 2nd. 家庭晚餐在哪一天？",
+   "explain": "October 2nd 是 10 月 2 日。",
+   "answer_mode": "choice",
+   "options": [
+    "9 月 21 日",
+    "10 月 2 日",
+    "10 月 21 日",
+    "11 月 2 日"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j039_q3",
+   "topic": "cne_j039",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tom's birthday is on September 21st. His party is on that day. The family dinner is on October 2nd. 聚会和生日是不是同一天？",
+   "explain": "His party is on that day，that day 指生日。",
+   "answer_mode": "choice",
+   "options": [
+    "不是",
+    "聚会在十月",
+    "是",
+    "短文没说聚会"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j039_q4",
+   "topic": "cne_j039",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u7",
+   "unit_name": "第7单元·Happy Birthday!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tom's birthday is on September 21st. His party is on that day. The family dinner is on October 2nd. 哪一句和短文一致？",
+   "explain": "聚会在生日当天，也就是 9 月 21 日。",
+   "answer_mode": "choice",
+   "options": [
+    "The dinner is on September 21st.",
+    "Tom's birthday is on October 2nd.",
+    "There is no party.",
+    "The party is on September 21st."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j040_q1",
+   "topic": "cne_j040",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「学科」？",
+   "explain": "subject 的意思是学科。",
+   "answer_mode": "choice",
+   "options": [
+    "science",
+    "subject",
+    "history",
+    "geography"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j040_q2",
+   "topic": "cne_j040",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「science」的中文意思是哪一个？",
+   "explain": "science 的意思是科学。",
+   "answer_mode": "choice",
+   "options": [
+    "学科",
+    "历史",
+    "科学",
+    "地理"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j040_q3",
+   "topic": "cne_j040",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「历史」的单词。",
+   "explain": "表示历史的单词是 history。",
+   "answer_mode": "choice",
+   "options": [
+    "subject",
+    "science",
+    "geography",
+    "history"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j040_q4",
+   "topic": "cne_j040",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「地理」？",
+   "explain": "geography 的意思是地理。",
+   "answer_mode": "choice",
+   "options": [
+    "geography",
+    "subject",
+    "science",
+    "history"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j041_q1",
+   "topic": "cne_j041",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Why do you like science? 哪一句适合作为回答？",
+   "explain": "回答 why 用 because，it 用 is。",
+   "answer_mode": "choice",
+   "options": [
+    "Because it are interesting.",
+    "So it is interesting.",
+    "Because it is interesting.",
+    "Why it is interesting."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j041_q2",
+   "topic": "cne_j041",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句正确？",
+   "explain": "because 连接原因，it is fun。",
+   "answer_mode": "choice",
+   "options": [
+    "I like history because it are fun.",
+    "I like history so it is fun.",
+    "Because I like history it is fun.",
+    "I like history because it is fun."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j041_q3",
+   "topic": "cne_j041",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Because he likes P.E. 这半句是在做什么？",
+   "explain": "because 用来说明原因。",
+   "answer_mode": "choice",
+   "options": [
+    "说明原因",
+    "询问时间",
+    "询问价格",
+    "发出命令"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j041_q4",
+   "topic": "cne_j041",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "她喜欢地理，因为它有用。哪一句正确？",
+   "explain": "She likes，because 从句里 it is。",
+   "answer_mode": "choice",
+   "options": [
+    "She like geography because it is useful.",
+    "She likes geography because it is useful.",
+    "She likes geography because it are useful.",
+    "She likes geography so it is useful."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j042_q1",
+   "topic": "cne_j042",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方最喜欢的学科，哪一句合适？",
+   "explain": "What's your favorite subject 问最喜欢的一门学科。",
+   "answer_mode": "choice",
+   "options": [
+    "What's your favorite subjects?",
+    "What your favorite subject is?",
+    "How much is your favorite subject?",
+    "What's your favorite subject?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j042_q2",
+   "topic": "cne_j042",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "你最喜欢科学，应回答什么？",
+   "explain": "subject 是单数，用 is。",
+   "answer_mode": "choice",
+   "options": [
+    "My favorite subject is science.",
+    "My favorite subject are science.",
+    "I favorite science.",
+    "Science is my favorite subject are."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j042_q3",
+   "topic": "cne_j042",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想问为什么喜欢历史，哪一句合适？",
+   "explain": "you 用 Why do you like。",
+   "answer_mode": "choice",
+   "options": [
+    "Why does you like history?",
+    "Why do you like history?",
+    "Why do you likes history?",
+    "Because do you like history?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j042_q4",
+   "topic": "cne_j042",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Friday 下午有地理课。想告诉同学，哪一句合适？",
+   "explain": "在星期几的下午用 on Friday afternoon，we have。",
+   "answer_mode": "choice",
+   "options": [
+    "We has geography on Friday afternoon.",
+    "We have geography in Friday afternoon.",
+    "We have geography on Friday afternoon.",
+    "We have geography on Friday the afternoon is."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j043_q1",
+   "topic": "cne_j043",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "My favorite subject is science. I have it on Monday. I like it because it is interesting. 最喜欢的学科是什么？",
+   "explain": "favorite subject is science。",
+   "answer_mode": "choice",
+   "options": [
+    "科学",
+    "历史",
+    "地理",
+    "体育"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j043_q2",
+   "topic": "cne_j043",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "My favorite subject is science. I have it on Monday. I like it because it is interesting. 为什么喜欢？",
+   "explain": "because it is interesting。",
+   "answer_mode": "choice",
+   "options": [
+    "因为它很难",
+    "因为它有趣",
+    "因为在星期五",
+    "因为老师很严格，短文没有写别的原因"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j043_q3",
+   "topic": "cne_j043",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Jack's favorite subject is history. He thinks it is useful. He doesn't like geography. Jack 喜欢地理吗？",
+   "explain": "He doesn't like geography。",
+   "answer_mode": "choice",
+   "options": [
+    "喜欢",
+    "只在星期一喜欢",
+    "不喜欢",
+    "短文没说"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j043_q4",
+   "topic": "cne_j043",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Jack's favorite subject is history. He thinks it is useful. 哪一句和短文一致？",
+   "explain": "favorite subject is history，而且他认为有用。",
+   "answer_mode": "choice",
+   "options": [
+    "Jack likes geography.",
+    "Jack's favorite subject is science.",
+    "History is not useful for Jack.",
+    "Jack likes history."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j044_q1",
+   "topic": "cne_j044",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「吉他」？",
+   "explain": "guitar 的意思是吉他。",
+   "answer_mode": "choice",
+   "options": [
+    "chess",
+    "guitar",
+    "club",
+    "dance"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j044_q2",
+   "topic": "cne_j044",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「chess」的中文意思是哪一个？",
+   "explain": "chess 的意思是国际象棋。",
+   "answer_mode": "choice",
+   "options": [
+    "吉他",
+    "俱乐部",
+    "国际象棋",
+    "跳舞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j044_q3",
+   "topic": "cne_j044",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「俱乐部」的单词。",
+   "explain": "表示俱乐部的单词是 club。",
+   "answer_mode": "choice",
+   "options": [
+    "guitar",
+    "chess",
+    "dance",
+    "club"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j044_q4",
+   "topic": "cne_j044",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「跳舞」？",
+   "explain": "dance 的意思是跳舞。",
+   "answer_mode": "choice",
+   "options": [
+    "dance",
+    "guitar",
+    "chess",
+    "club"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j045_q1",
+   "topic": "cne_j045",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "我会弹吉他。哪一句正确？",
+   "explain": "can 后面用动词原形；乐器前通常加 the。",
+   "answer_mode": "choice",
+   "options": [
+    "I can to play the guitar.",
+    "I can plays the guitar.",
+    "I can play the guitar.",
+    "I can play guitar the."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j045_q2",
+   "topic": "cne_j045",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "她不会下棋。哪一句正确？",
+   "explain": "can't 后面用动词原形 play。",
+   "answer_mode": "choice",
+   "options": [
+    "She can't plays chess.",
+    "She can not to play chess.",
+    "She doesn't can play chess.",
+    "She can't play chess."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j045_q3",
+   "topic": "cne_j045",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Can you swim? 肯定简答是哪一句？",
+   "explain": "can 提问用 can 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I can.",
+    "Yes, I do.",
+    "Yes, I can swim yes.",
+    "Yes, I am."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j045_q4",
+   "topic": "cne_j045",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "他会跳舞吗？哪一句是正确的疑问句？",
+   "explain": "can 直接提前，后面用原形。",
+   "answer_mode": "choice",
+   "options": [
+    "Does he can dance?",
+    "Can he dance?",
+    "Can he dances?",
+    "Is he can dance?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j046_q1",
+   "topic": "cne_j046",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方会不会画画，哪一句合适？",
+   "explain": "Can you draw 询问能力。",
+   "answer_mode": "choice",
+   "options": [
+    "Do you can draw?",
+    "Can you draws?",
+    "Are you can draw?",
+    "Can you draw?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j046_q2",
+   "topic": "cne_j046",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想加入音乐俱乐部，哪一句合适？",
+   "explain": "want to join 表示想加入。",
+   "answer_mode": "choice",
+   "options": [
+    "I want to join the music club.",
+    "I want join the music club.",
+    "I want to join the music clubbing.",
+    "I wants to join the music club."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j046_q3",
+   "topic": "cne_j046",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "对方问 Can you play the piano? 你不会，应回答什么？",
+   "explain": "can 的否定简答是 No, I can't。",
+   "answer_mode": "choice",
+   "options": [
+    "No, I don't.",
+    "No, I can't.",
+    "No, I am not.",
+    "No, I can."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j046_q4",
+   "topic": "cne_j046",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "What club do you want to join? 这句在问什么？",
+   "explain": "what club 问哪一个俱乐部。",
+   "answer_mode": "choice",
+   "options": [
+    "你会不会游泳",
+    "俱乐部在哪里",
+    "你想加入哪个俱乐部",
+    "吉他多少钱"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j047_q1",
+   "topic": "cne_j047",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Music Club. Can you sing or dance? Come and join us. Call Mr. Brown. 这个俱乐部需要什么才能？",
+   "explain": "sing or dance 是唱歌或跳舞。",
+   "answer_mode": "choice",
+   "options": [
+    "唱歌或跳舞",
+    "下棋",
+    "踢足球",
+    "画画"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j047_q2",
+   "topic": "cne_j047",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Music Club. Can you sing or dance? Come and join us. Call Mr. Brown. 要联系谁？",
+   "explain": "Call Mr. Brown。",
+   "answer_mode": "choice",
+   "options": [
+    "Mr. Green",
+    "Mr. Brown",
+    "Gina",
+    "Tom"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j047_q3",
+   "topic": "cne_j047",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "We need students for the chess club. Can you play chess? 他们需要会什么的学生？",
+   "explain": "play chess 是下棋。",
+   "answer_mode": "choice",
+   "options": [
+    "会弹吉他",
+    "会游泳",
+    "会下国际象棋",
+    "会说英语"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j047_q4",
+   "topic": "cne_j047",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "We need students for the chess club. Can you play chess? 哪一句和广告一致？",
+   "explain": "广告要会下棋的学生。",
+   "answer_mode": "choice",
+   "options": [
+    "The club wants singers.",
+    "Students must play the guitar.",
+    "The club is only for teachers.",
+    "The club wants students who can play chess."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j048_q1",
+   "topic": "cne_j048",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「淋浴」？",
+   "explain": "shower 的意思是淋浴。",
+   "answer_mode": "choice",
+   "options": [
+    "exercise",
+    "shower",
+    "quarter",
+    "homework"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j048_q2",
+   "topic": "cne_j048",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「exercise」的中文意思是哪一个？",
+   "explain": "exercise 的意思是锻炼。",
+   "answer_mode": "choice",
+   "options": [
+    "淋浴",
+    "一刻钟",
+    "锻炼",
+    "家庭作业"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j048_q3",
+   "topic": "cne_j048",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「一刻钟」的单词。",
+   "explain": "表示一刻钟的单词是 quarter。",
+   "answer_mode": "choice",
+   "options": [
+    "shower",
+    "exercise",
+    "homework",
+    "quarter"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j048_q4",
+   "topic": "cne_j048",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「家庭作业」？",
+   "explain": "homework 的意思是家庭作业。",
+   "answer_mode": "choice",
+   "options": [
+    "homework",
+    "shower",
+    "exercise",
+    "quarter"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j049_q1",
+   "topic": "cne_j049",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "6:15 用哪一种说法？",
+   "explain": "15 分是 a quarter past。",
+   "answer_mode": "choice",
+   "options": [
+    "a quarter to six",
+    "six past a quarter",
+    "a quarter past six",
+    "half past six"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j049_q2",
+   "topic": "cne_j049",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "6:30 用哪一种说法？",
+   "explain": "30 分是 half past。",
+   "answer_mode": "choice",
+   "options": [
+    "half to six",
+    "six half",
+    "a quarter past six",
+    "half past six"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j049_q3",
+   "topic": "cne_j049",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "6:45 用哪一种说法？",
+   "explain": "差 15 分到 7 点是 a quarter to seven。",
+   "answer_mode": "choice",
+   "options": [
+    "a quarter to seven",
+    "a quarter past seven",
+    "seven to a quarter",
+    "half to seven"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j049_q4",
+   "topic": "cne_j049",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What time do you get up? 这句在问什么？",
+   "explain": "What time 问时刻。",
+   "answer_mode": "choice",
+   "options": [
+    "你在哪里起床",
+    "你几点起床",
+    "你为什么起床",
+    "你和谁起床"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j051_q1",
+   "topic": "cne_j051",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方几点上学，哪一句合适？",
+   "explain": "you 用 What time do you。",
+   "answer_mode": "choice",
+   "options": [
+    "What time do you go to school?",
+    "What time does you go to school?",
+    "What time do you goes to school?",
+    "When time do you go to school?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j051_q2",
+   "topic": "cne_j051",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "你六点半起床，应怎么说？",
+   "explain": "在时刻前用 at，I get up。",
+   "answer_mode": "choice",
+   "options": [
+    "I get up in half past six.",
+    "I get up at half past six.",
+    "I gets up at half past six.",
+    "I get up on half past six."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j051_q3",
+   "topic": "cne_j051",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "When do you usually exercise? 这句在问什么？",
+   "explain": "When 加 usually 问通常的时间。",
+   "answer_mode": "choice",
+   "options": [
+    "你会不会锻炼",
+    "锻炼在哪里",
+    "你通常什么时候锻炼",
+    "锻炼多少钱"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j051_q4",
+   "topic": "cne_j051",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说他通常晚上做作业，哪一句合适？",
+   "explain": "He does，homework 不可数，in the evening。",
+   "answer_mode": "choice",
+   "options": [
+    "He usually do his homework in the evening.",
+    "He usually does his homework on the evening.",
+    "He usually does his homeworks in the evening.",
+    "He usually does his homework in the evening."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j052_q1",
+   "topic": "cne_j052",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Scott gets up at 6:00. He exercises at 6:30. He goes to school at 7:15. 他几点锻炼？",
+   "explain": "exercises at 6:30。",
+   "answer_mode": "choice",
+   "options": [
+    "6:00",
+    "6:30",
+    "7:15",
+    "8:00"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j052_q2",
+   "topic": "cne_j052",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Scott gets up at 6:00. He exercises at 6:30. He goes to school at 7:15. 他几点上学？",
+   "explain": "goes to school at 7:15。",
+   "answer_mode": "choice",
+   "options": [
+    "6:00",
+    "6:30",
+    "7:15",
+    "7:45"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j052_q3",
+   "topic": "cne_j052",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Mary usually does her homework at 7:00 in the evening. She never watches TV on school nights. 上学的晚上她看电视吗？",
+   "explain": "never watches TV on school nights。",
+   "answer_mode": "choice",
+   "options": [
+    "总是看",
+    "有时看",
+    "只看半小时",
+    "从不看"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j052_q4",
+   "topic": "cne_j052",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u6",
+   "unit_name": "第6单元·A Day in the Life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Mary usually does her homework at 7:00 in the evening. 哪一句和短文一致？",
+   "explain": "at 7:00 in the evening 是晚上七点。",
+   "answer_mode": "choice",
+   "options": [
+    "Mary usually does homework at seven in the evening.",
+    "Mary never does homework.",
+    "Mary does homework at seven in the morning.",
+    "Mary gets up at 7:00."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j053_q1",
+   "topic": "cne_j053",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「火车」？",
+   "explain": "train 的意思是火车。",
+   "answer_mode": "choice",
+   "options": [
+    "subway",
+    "bike",
+    "train",
+    "bus"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j053_q2",
+   "topic": "cne_j053",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「subway」的中文意思是哪一个？",
+   "explain": "subway 的意思是地铁。",
+   "answer_mode": "choice",
+   "options": [
+    "火车",
+    "自行车",
+    "公共汽车",
+    "地铁"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j053_q3",
+   "topic": "cne_j053",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「自行车」的单词。",
+   "explain": "表示自行车的单词是 bike。",
+   "answer_mode": "choice",
+   "options": [
+    "bike",
+    "train",
+    "subway",
+    "bus"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j053_q4",
+   "topic": "cne_j053",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「公共汽车」？",
+   "explain": "bus 的意思是公共汽车。",
+   "answer_mode": "choice",
+   "options": [
+    "train",
+    "bus",
+    "subway",
+    "bike"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j054_q1",
+   "topic": "cne_j054",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "询问对方怎么去学校，哪一句正确？",
+   "explain": "you 用 How do you get。",
+   "answer_mode": "choice",
+   "options": [
+    "How does you get to school?",
+    "How do you gets to school?",
+    "How you get to school?",
+    "How do you get to school?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j054_q2",
+   "topic": "cne_j054",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "路程大约 10 公里。哪一句正确？",
+   "explain": "it is，kilometer 的复数是 kilometers。far 不和具体距离叠用。",
+   "answer_mode": "choice",
+   "options": [
+    "It is about ten kilometers.",
+    "It are about ten kilometers.",
+    "It is about ten kilometer.",
+    "It is about ten kilometers far."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j054_q3",
+   "topic": "cne_j054",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "How long does it take? 这句在问什么？",
+   "explain": "how long 问时间长度。",
+   "answer_mode": "choice",
+   "options": [
+    "有多远",
+    "需要多长时间",
+    "怎么去",
+    "在哪里"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j054_q4",
+   "topic": "cne_j054",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "她步行上学。哪一句正确？",
+   "explain": "步行用 walks；by foot 不是标准说法，应说 on foot，且不再叠用 walks to。",
+   "answer_mode": "choice",
+   "options": [
+    "She goes to school by foot.",
+    "She walk to school.",
+    "She walks to school.",
+    "She walks to school by foot."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j055_q1",
+   "topic": "cne_j055",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说你乘地铁上学，哪一句合适？",
+   "explain": "I take the subway。",
+   "answer_mode": "choice",
+   "options": [
+    "I take the subway to school.",
+    "I by the subway to school.",
+    "I take the subway to school by.",
+    "I takes the subway to school."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j055_q2",
+   "topic": "cne_j055",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问学校有多远，哪一句合适？",
+   "explain": "问距离用 How far。",
+   "answer_mode": "choice",
+   "options": [
+    "How long is it from your home to school?",
+    "How far is it from your home to school?",
+    "How far it is from your home to school?",
+    "How old is it from your home to school?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j055_q3",
+   "topic": "cne_j055",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "对方说 It takes me 20 minutes. 这句话的意思是什么？",
+   "explain": "take 加时间表示花费时间。",
+   "answer_mode": "choice",
+   "options": [
+    "学校有 20 公里",
+    "我有 20 辆自行车",
+    "这花费我 20 分钟",
+    "我 20 岁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j055_q4",
+   "topic": "cne_j055",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说他骑自行车，哪一句合适？",
+   "explain": "He rides his bike。不必再加 by bike。",
+   "answer_mode": "choice",
+   "options": [
+    "He ride his bike to school.",
+    "He rides his bike by bike.",
+    "He by bike to school.",
+    "He rides his bike to school."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j056_q1",
+   "topic": "cne_j056",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Lisa lives 5 kilometers from school. She rides her bike. It takes her 15 minutes. 她怎么上学？",
+   "explain": "rides her bike 是骑自行车。",
+   "answer_mode": "choice",
+   "options": [
+    "乘地铁",
+    "骑自行车",
+    "乘火车",
+    "步行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j056_q2",
+   "topic": "cne_j056",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Lisa lives 5 kilometers from school. She rides her bike. It takes her 15 minutes. 大约要多久？",
+   "explain": "15 minutes 是时间，5 kilometers 是距离。",
+   "answer_mode": "choice",
+   "options": [
+    "5 分钟",
+    "50 分钟",
+    "15 分钟",
+    "15 公里"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j056_q3",
+   "topic": "cne_j056",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tom takes the bus. The bus ride takes about 20 minutes. Tom 乘什么？",
+   "explain": "takes the bus。",
+   "answer_mode": "choice",
+   "options": [
+    "自行车",
+    "火车",
+    "地铁",
+    "公共汽车"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j056_q4",
+   "topic": "cne_j056",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u99",
+   "unit_name": "综合练习",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tom takes the bus. The bus ride takes about 20 minutes. 哪一句和短文一致？",
+   "explain": "takes about 20 minutes 指乘车时间。",
+   "answer_mode": "choice",
+   "options": [
+    "Tom's bus ride is about 20 minutes.",
+    "Tom walks for 20 minutes.",
+    "Tom lives 20 kilometers away.",
+    "Tom rides a bike."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j075_q1",
+   "topic": "cne_j075",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「礼堂」？",
+   "explain": "hall 的意思是礼堂。",
+   "answer_mode": "choice",
+   "options": [
+    "hall",
+    "building",
+    "dining hall",
+    "reading corner"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j075_q2",
+   "topic": "cne_j075",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「building」的中文意思是哪一个？",
+   "explain": "building 的意思是建筑物。",
+   "answer_mode": "choice",
+   "options": [
+    "礼堂",
+    "建筑物",
+    "餐厅",
+    "阅读角"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j075_q3",
+   "topic": "cne_j075",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「餐厅」的单词。",
+   "explain": "表示餐厅的单词是 dining hall。",
+   "answer_mode": "choice",
+   "options": [
+    "hall",
+    "building",
+    "dining hall",
+    "reading corner"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j075_q4",
+   "topic": "cne_j075",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「阅读角」？",
+   "explain": "reading corner 的意思是阅读角。",
+   "answer_mode": "choice",
+   "options": [
+    "hall",
+    "building",
+    "dining hall",
+    "reading corner"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j076_q1",
+   "topic": "cne_j076",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "学校里有一座礼堂。哪一句正确？",
+   "explain": "单数用 There is a hall。",
+   "answer_mode": "choice",
+   "options": [
+    "There are a hall in the school.",
+    "There is a hall in the school.",
+    "There have a hall in the school.",
+    "There is hall in the school."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j076_q2",
+   "topic": "cne_j076",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "教学楼前面有两棵树。哪一句正确？",
+   "explain": "复数用 There are，trees 用复数。",
+   "answer_mode": "choice",
+   "options": [
+    "There is two trees in front of the building.",
+    "There are two tree in front of the building.",
+    "There are two trees in front of the building.",
+    "There have two trees in front of the building."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j076_q3",
+   "topic": "cne_j076",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Is there a dining hall in your school? 肯定回答是哪一句？",
+   "explain": "Is there 用 Yes, there is 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, there are.",
+    "Yes, it is.",
+    "Yes, there has.",
+    "Yes, there is."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j076_q4",
+   "topic": "cne_j076",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的否定句？",
+   "explain": "单数否定用 There isn't a。",
+   "answer_mode": "choice",
+   "options": [
+    "There isn't a reading corner in this building.",
+    "There aren't a reading corner in this building.",
+    "There not a reading corner in this building.",
+    "There isn't any reading corner are in this building."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j077_q1",
+   "topic": "cne_j077",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问学校里有没有餐厅，哪一句合适？",
+   "explain": "Is there a dining hall。",
+   "answer_mode": "choice",
+   "options": [
+    "Are there a dining hall in your school?",
+    "Is there dining hall in your school?",
+    "Is there a dining hall in your school?",
+    "Does there a dining hall in your school?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j077_q2",
+   "topic": "cne_j077",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "餐厅在教学楼对面，应怎么说？",
+   "explain": "across from 表示在对面。",
+   "answer_mode": "choice",
+   "options": [
+    "The dining hall is across to the building.",
+    "The dining hall across from the building.",
+    "The dining hall is across from building the.",
+    "The dining hall is across from the building."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j077_q3",
+   "topic": "cne_j077",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Where is the reading corner? 这句在问什么？",
+   "explain": "Where 问位置。",
+   "answer_mode": "choice",
+   "options": [
+    "阅读角在哪里",
+    "阅读角多少钱",
+    "阅读角是谁的",
+    "阅读角几点开门，这句没问时间"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j077_q4",
+   "topic": "cne_j077",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说礼堂在餐厅旁边，哪一句合适？",
+   "explain": "next to 表示在旁边。",
+   "answer_mode": "choice",
+   "options": [
+    "The hall is next the dining hall.",
+    "The hall is next to the dining hall.",
+    "The hall next to the dining hall.",
+    "The hall are next to the dining hall."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j078_q1",
+   "topic": "cne_j078",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Our hall is in front of the building. The dining hall is across from the hall. The reading corner is next to the library. 礼堂在哪里？",
+   "explain": "in front of the building。",
+   "answer_mode": "choice",
+   "options": [
+    "在餐厅里面",
+    "在图书馆对面",
+    "在阅读角里面",
+    "在教学楼前面"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j078_q2",
+   "topic": "cne_j078",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Our hall is in front of the building. The dining hall is across from the hall. The reading corner is next to the library. 餐厅在礼堂的哪一边？",
+   "explain": "across from the hall。",
+   "answer_mode": "choice",
+   "options": [
+    "在对面",
+    "在前面",
+    "在里面",
+    "在楼上"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j078_q3",
+   "topic": "cne_j078",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Our hall is in front of the building. The dining hall is across from the hall. The reading corner is next to the library. 阅读角在哪里？",
+   "explain": "next to the library。",
+   "answer_mode": "choice",
+   "options": [
+    "在礼堂里面",
+    "在图书馆旁边",
+    "在餐厅对面",
+    "在教学楼后面"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j078_q4",
+   "topic": "cne_j078",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u3",
+   "unit_name": "第3单元·My School",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Our hall is in front of the building. The dining hall is across from the hall. The reading corner is next to the library. 哪一句和短文一致？",
+   "explain": "餐厅在礼堂对面。礼堂在教学楼前面，不是在对面。",
+   "answer_mode": "choice",
+   "options": [
+    "The hall is across from the building.",
+    "The reading corner is in the hall.",
+    "The dining hall is across from the hall.",
+    "The library is in front of the hall."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j079_q1",
+   "topic": "cne_j079",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「英俊的」？",
+   "explain": "handsome 的意思是英俊的。",
+   "answer_mode": "choice",
+   "options": [
+    "handsome",
+    "tall",
+    "short",
+    "hair"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j079_q2",
+   "topic": "cne_j079",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「tall」的中文意思是哪一个？",
+   "explain": "tall 的意思是高的。",
+   "answer_mode": "choice",
+   "options": [
+    "英俊的",
+    "高的",
+    "矮的",
+    "头发"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j079_q3",
+   "topic": "cne_j079",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「矮的」的单词。",
+   "explain": "表示矮的的单词是 short。",
+   "answer_mode": "choice",
+   "options": [
+    "handsome",
+    "tall",
+    "short",
+    "hair"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j079_q4",
+   "topic": "cne_j079",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「头发」？",
+   "explain": "hair 的意思是头发。",
+   "answer_mode": "choice",
+   "options": [
+    "handsome",
+    "tall",
+    "short",
+    "hair"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j080_q1",
+   "topic": "cne_j080",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "他很英俊。哪一句正确？",
+   "explain": "英俊用 be 加形容词。",
+   "answer_mode": "choice",
+   "options": [
+    "He has handsome.",
+    "He is handsome.",
+    "He is a handsome.",
+    "He wears handsome."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j080_q2",
+   "topic": "cne_j080",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "她留着长发。哪一句正确？",
+   "explain": "有某种头发用 has，hair 通常不可数。",
+   "answer_mode": "choice",
+   "options": [
+    "She is long hair.",
+    "She has long hairs.",
+    "She has long hair.",
+    "She is has long hair."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j080_q3",
+   "topic": "cne_j080",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "我爷爷又高又英俊。哪一句正确？",
+   "explain": "高和英俊都用 is，不用 has。",
+   "answer_mode": "choice",
+   "options": [
+    "My grandfather has tall and handsome.",
+    "My grandfather is tall and handsome hair.",
+    "My grandfather are tall and handsome.",
+    "My grandfather is tall and handsome."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j080_q4",
+   "topic": "cne_j080",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What does he look like? 这句在问什么？",
+   "explain": "look like 问外貌，不是问喜好。",
+   "answer_mode": "choice",
+   "options": [
+    "他长什么样",
+    "他喜欢什么",
+    "他看起来在看书",
+    "他来自哪里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j081_q1",
+   "topic": "cne_j081",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问你哥哥长什么样，哪一句合适？",
+   "explain": "问外貌用 What does ... look like。What does he like 是问喜好。",
+   "answer_mode": "choice",
+   "options": [
+    "What does your brother like?",
+    "What is your brother look like?",
+    "What does your brother look like?",
+    "How does your brother look like?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j081_q2",
+   "topic": "cne_j081",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "她个子矮，应怎么说？",
+   "explain": "矮用 is short。",
+   "answer_mode": "choice",
+   "options": [
+    "She has short.",
+    "She is a short.",
+    "She wears short.",
+    "She is short."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j081_q3",
+   "topic": "cne_j081",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "He has short grey hair. 这句话的意思是什么？",
+   "explain": "short grey hair 是花白短发。",
+   "answer_mode": "choice",
+   "options": [
+    "他留着花白的短发",
+    "他很高",
+    "他很英俊所以头发长",
+    "他戴着帽子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j081_q4",
+   "topic": "cne_j081",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说那个男孩又高又英俊，哪一句合适？",
+   "explain": "is 加两个形容词。",
+   "answer_mode": "choice",
+   "options": [
+    "The boy has tall and handsome.",
+    "The boy is tall and handsome.",
+    "The boy is tall and handsome hair.",
+    "The boy are tall and handsome."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j082_q1",
+   "topic": "cne_j082",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my family. My grandfather is tall and handsome. He has short grey hair. My sister is short. She has long brown hair. 爷爷高吗？",
+   "explain": "My grandfather is tall。",
+   "answer_mode": "choice",
+   "options": [
+    "矮",
+    "和姐姐一样矮",
+    "短文没说",
+    "高"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j082_q2",
+   "topic": "cne_j082",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "This is my family. My grandfather is tall and handsome. He has short grey hair. My sister is short. She has long brown hair. 姐姐的头发是什么样的？",
+   "explain": "long brown hair。",
+   "answer_mode": "choice",
+   "options": [
+    "长的棕色头发",
+    "花白短发",
+    "短的黑发",
+    "没有头发"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j082_q3",
+   "topic": "cne_j082",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "This is my family. My grandfather is tall and handsome. He has short grey hair. My sister is short. She has long brown hair. 爷爷的头发是什么样的？",
+   "explain": "short grey hair。",
+   "answer_mode": "choice",
+   "options": [
+    "棕色长发",
+    "花白的短发",
+    "金色卷发",
+    "短文没说"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j082_q4",
+   "topic": "cne_j082",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "This is my family. My grandfather is tall and handsome. He has short grey hair. My sister is short. She has long brown hair. 哪一句和短文一致？",
+   "explain": "姐姐个子矮。爷爷高，而且头发短。",
+   "answer_mode": "choice",
+   "options": [
+    "My sister is tall.",
+    "Grandfather has long hair.",
+    "My sister is short.",
+    "My sister is handsome in this text."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j098_q1",
+   "topic": "cne_j098",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "an apple 里，哪个音可以和后面的元音连读？",
+   "explain": "an 以辅音 n 结尾，apple 以元音开头，n 可以连到后面。",
+   "answer_mode": "choice",
+   "options": [
+    "a 和 n 拆开重读",
+    "两个词都要停顿",
+    "只连读 pple",
+    "n 和 a"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j098_q2",
+   "topic": "cne_j098",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "哪一个短语适合把前一个词的辅音连到后一个词？",
+   "explain": "look 以辅音结尾，at 以元音开头。其余短语是辅音接辅音。",
+   "answer_mode": "choice",
+   "options": [
+    "look at",
+    "big dog",
+    "stop class",
+    "good time"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j098_q3",
+   "topic": "cne_j098",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "not at all 连读时，主要连在哪里？",
+   "explain": "at 的 t 和 all 的 a 可以连读。",
+   "answer_mode": "choice",
+   "options": [
+    "n 和 o 之间",
+    "t 和 a 之间",
+    "ll 后面再加一个词",
+    "三个词各自停住"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j098_q4",
+   "topic": "cne_j098",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u4",
+   "unit_name": "第4单元·My Favourite Subject",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪一种情况通常可以连读？",
+   "explain": "连读常见于辅音加元音。",
+   "answer_mode": "choice",
+   "options": [
+    "两个单词都以辅音结尾",
+    "句号后面必须连读",
+    "辅音结尾，后面单词以元音开头",
+    "每个音节都重读"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j107_q1",
+   "topic": "cne_j107",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "sit down 里，哪一个音常常不完全发出来？",
+   "explain": "t 后面紧接爆破音 d，t 通常不完全爆破。",
+   "answer_mode": "choice",
+   "options": [
+    "sit 里的 t",
+    "down 里的 n",
+    "sit 里的 s",
+    "down 里的 d"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j107_q2",
+   "topic": "cne_j107",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "哪一个短语有不完全爆破？",
+   "explain": "good 的 d 和 time 的 t 都是爆破音，相邻时前一个不完全爆破。",
+   "answer_mode": "choice",
+   "options": [
+    "my apple",
+    "good time",
+    "to a park",
+    "an old man"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_j107_q3",
+   "topic": "cne_j107",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "big kite 里，不完全爆破发生在哪里？",
+   "explain": "big 的 g 和 kite 的 k 是相邻爆破音。",
+   "answer_mode": "choice",
+   "options": [
+    "b 和 i 之间",
+    "k 和 i 之间",
+    "g 和 k 之间",
+    "词尾 e 后面"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_j107_q4",
+   "topic": "cne_j107",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u5",
+   "unit_name": "第5单元·Fun Clubs",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "不完全爆破通常出现在什么时候？",
+   "explain": "前一个爆破音受后一个爆破音影响，常常听不全。",
+   "answer_mode": "choice",
+   "options": [
+    "元音后面是句号",
+    "单词只有一个音节",
+    "句末用升调",
+    "两个爆破音挨在一起"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j246_q1",
+   "topic": "cne_j246",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "This is ____ bike. 这是 Lucy 的自行车。",
+   "explain": "单个人名后加 's。",
+   "answer_mode": "choice",
+   "options": [
+    "Lucy's",
+    "Lucys",
+    "Lucy",
+    "Lucys'"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j246_q2",
+   "topic": "cne_j246",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "「我父母的房间」正确写法是？",
+   "explain": "以 s 结尾的复数名词只加 '。",
+   "answer_mode": "choice",
+   "options": [
+    "my parents's room",
+    "my parents room's",
+    "my parent's room",
+    "my parents' room"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_j246_q3",
+   "topic": "cne_j246",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Jack's sister is 12. 句中 's 表示？",
+   "explain": "Jack's sister 是杰克的姐姐。",
+   "answer_mode": "choice",
+   "options": [
+    "所属关系「的」",
+    "复数",
+    "is 的缩写",
+    "has 的缩写"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_j246_q4",
+   "topic": "cne_j246",
+   "subject": "english",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "renjiao",
+   "unit": "u2",
+   "unit_name": "第2单元·We're Family!",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Lily and Lucy's room 表示？",
+   "explain": "共有只在最后一个名词后加 's。",
+   "answer_mode": "choice",
+   "options": [
+    "两人共有的一个房间",
+    "Lucy 不在房间",
+    "Lily 一人的房间",
+    "两人各自的房间"
+   ],
+   "answer": 1
+  }
+ ]
+}

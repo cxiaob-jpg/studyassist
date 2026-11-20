@@ -605,7 +605,7 @@ end
 -- 省市年级 -> 教材匹配结果（城市为空时返回 nil）。
 local CITY_SUBJECTS = { yuwen = "chinese", shuxue = "math", yingyu = "english" }
 
--- 城市 o 字段里记录的出版社名 → 插件物理版本 id（与 catalog/toc 目录一致）
+-- 城市 o 字段里记录的出版社名 → 插件版本 id（与 catalog/toc 目录一致）
 local OTHER_EDITION_ID = {
     wuli = {
         ["人教版"] = "renjiao",
@@ -614,9 +614,29 @@ local OTHER_EDITION_ID = {
         ["沪科版"] = "hkb", ["沪科粤教版"] = "hkb_hy",
         ["鲁科版"] = "lkb_ws", ["粤教版"] = "yjb", ["沪科教版"] = "hkjb",
     },
+    huaxue = {
+        ["人教版"] = "renjiao",
+        ["鲁教版"] = "ljb", ["沪教版"] = "hjb",
+        ["鲁科版"] = "lkb", ["科粤版"] = "kyyb", ["苏教版"] = "sjb",
+    },
+    dili = {
+        ["人教版"] = "renjiao",
+        ["湘教版"] = "xjb", ["鲁教版"] = "ljb", ["中图版"] = "ztb",
+        -- 商务版、晋教版暂无完整册次目录，未收录，保持默认版本
+    },
+    shengwu = {
+        ["人教版"] = "renjiao",
+        ["苏教版"] = "sjb", ["北师大版"] = "bsd", ["苏科版"] = "skb",
+        ["济南版"] = "jinan", ["鲁科版"] = "lkb",
+        -- cities.json 里冀少版被记成了 "jsb"（抓取残留的出版社代码），两个都认
+        ["冀少版"] = "jsb", ["jsb"] = "jsb",
+    },
 }
--- 物理从八年级开始；低于此年级不自动设版本
-local OTHER_MIN_GRADE = { wuli = 8 }
+-- o 字段学科键 -> 插件学科
+local OTHER_SUBJECT = { wuli = "physics", huaxue = "chemistry", dili = "geography",
+                        shengwu = "biology" }
+-- 各学科起始年级；低于此年级不自动设版本
+local OTHER_MIN_GRADE = { wuli = 8, huaxue = 9, dili = 7, shengwu = 7 }
 
 function MainView:city_match()
     local settings = self.progress.data.settings
@@ -3846,7 +3866,7 @@ function MainView:apply_city_match(city_name, from_city, silent)
             local min_grade = OTHER_MIN_GRADE[okey]
             if idmap and publisher and (not min_grade or grade >= min_grade) then
                 local eid = idmap[publisher]
-                local subject = okey == "wuli" and "physics" or nil
+                local subject = OTHER_SUBJECT[okey]
                 -- 只在该版本确实收录当前年级时才应用（如粤教版仅高中，初中不选用）
                 if eid and subject
                     and Catalog.edition_covers(self.plugin_path, subject, eid, grade) then
@@ -3937,9 +3957,18 @@ function MainView:render_edition_select(subject)
             selected = current == rec,
         })
     end
-    -- 同一出版社有新老两套时，按这一册的版次只列适用的那个
-    for _, edition in ipairs(Catalog.editions_for_term(self.plugin_path, subject,
-            settings.grade, settings.semester)) do
+    -- 同一出版社有新老两套时，按这一册的版次只列适用的那个；
+    -- 并且只列该年级确实有内容的版本（避免初中生选到只有高中的出版社）
+    local term_list = Catalog.editions_for_term(self.plugin_path, subject,
+        settings.grade, settings.semester)
+    local covering = {}
+    for _, edition in ipairs(term_list) do
+        if Catalog.edition_covers(self.plugin_path, subject, edition.id, settings.grade) then
+            table.insert(covering, edition)
+        end
+    end
+    if #covering > 0 then term_list = covering end
+    for _, edition in ipairs(term_list) do
         if edition.id ~= rec then
             table.insert(items, {
                 id = edition.id,

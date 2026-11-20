@@ -1,0 +1,1319 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 济南版 八年级生物下册(2026春版)；知识点/题目复用通用生物池",
+  "path": "jinan/shengwu/8x_2026",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 8,
+ "semester": "lower",
+ "edition": "jinan",
+ "edition_label": "济南版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第一章 生命是不断演化的"
+  },
+  {
+   "id": "u2",
+   "name": "第二章 人类的起源和进化经历了漫长的历史过程"
+  },
+  {
+   "id": "u3",
+   "name": "第一章 生物与环境是相互作用的"
+  },
+  {
+   "id": "u4",
+   "name": "第二章 生态系统是生物与环境构成的有机整体"
+  },
+  {
+   "id": "u5",
+   "name": "第三章 生物多样性是人类生存和发展的基础"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j061",
+   "name": "地球上生命的起源",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "description": "知道原始生命起源于原始海洋，以及米勒实验说明了什么。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "原始生命诞生的场所，目前较普遍的认识是？",
+    "answer": "原始海洋"
+   }
+  },
+  {
+   "id": "cnb_j062",
+   "name": "生物进化的历程",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "description": "能根据化石和比较的证据，说出生物进化的总体趋势。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "研究生物进化历程最直接的证据之一是？",
+    "answer": "化石"
+   }
+  },
+  {
+   "id": "cnb_j063",
+   "name": "生物进化的原因",
+   "domain": "遗传与进化",
+   "kp_type": "reasoning",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "description": "能用过度繁殖、遗传变异、生存斗争和适者生存说明自然选择。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "达尔文解释生物进化的学说是？",
+    "answer": "自然选择学说"
+   }
+  },
+  {
+   "id": "cnb_j064",
+   "name": "人类的起源",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "description": "知道现代类人猿和人类的共同祖先是森林古猿，直立行走是重要标志。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "现代类人猿和人类的共同祖先是？",
+    "answer": "森林古猿"
+   }
+  },
+  {
+   "id": "cnb_j049",
+   "name": "生物与环境的相互作用",
+   "domain": "生物与环境",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "description": "能举出环境影响生物、生物适应并影响环境的例子。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "影响生物生活的非生物因素包括？",
+    "answer": "光、温度、水和空气"
+   }
+  },
+  {
+   "id": "cnb_j051",
+   "name": "生物圈",
+   "domain": "生物与环境",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "description": "知道生物圈是最大的生态系统，以及生物生存的基本条件。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "生物圈的范围大致包括？",
+    "answer": "大气圈的底部、水圈的大部和岩石圈的表面"
+   }
+  },
+  {
+   "id": "cnb_j066",
+   "name": "人与自然和谐共生",
+   "domain": "生物的多样性",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "description": "能说出威胁生物多样性的主要原因，以及就地保护和迁地保护。",
+   "mastery_criteria": [
+    "能说出本课类群或分类的主要特征",
+    "能把类群特征对应到教材中的典型生物"
+   ],
+   "example": {
+    "question": "保护生物多样性最有效的措施是？",
+    "answer": "建立自然保护区，就地保护"
+   }
+  },
+  {
+   "id": "cnb_j001",
+   "name": "观察周边环境中的生物",
+   "domain": "生物体的结构层次",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "description": "能有目的地观察周边生物，并做真实记录。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "科学观察生物时，首先要做的是？",
+    "answer": "有明确的观察目的"
+   }
+  },
+  {
+   "id": "cnb_j050",
+   "name": "生态系统的结构和功能",
+   "domain": "生物与环境",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "description": "能说出生态系统的组成、食物链和能量流动的特点。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "生态系统中，能把无机物制造成有机物的是？",
+    "answer": "生产者"
+   }
+  },
+  {
+   "id": "cnb_j052",
+   "name": "分析人类活动对生态环境的影响",
+   "domain": "生物与环境",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "description": "能用具体事例说明人类活动对植被、生物多样性和环境质量的影响。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "大量砍伐森林后，较容易引起？",
+    "answer": "水土流失"
+   }
+  },
+  {
+   "id": "cnb_j053",
+   "name": "维护生态安全",
+   "domain": "生物与环境",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "description": "能说出保护植被、建立保护区和减少污染等维护生态安全的做法。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "维护生态安全，较合适的做法是？",
+    "answer": "保护植被、治理污染、防止外来物种随意扩散"
+   }
+  },
+  {
+   "id": "cnb_j014",
+   "name": "鱼",
+   "domain": "生物的多样性",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "description": "能说出鱼适于水中生活的形态结构和呼吸方式。",
+   "mastery_criteria": [
+    "能说出本课类群或分类的主要特征",
+    "能把类群特征对应到教材中的典型生物"
+   ],
+   "example": {
+    "question": "鱼在水中呼吸，进行气体交换的结构是？",
+    "answer": "鳃"
+   }
+  },
+  {
+   "id": "cnb_j065",
+   "name": "进化与生物多样性",
+   "domain": "生物的多样性",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "description": "能说出生物多样性的三个层次，并把多样性与进化联系起来。",
+   "mastery_criteria": [
+    "能说出本课类群或分类的主要特征",
+    "能把类群特征对应到教材中的典型生物"
+   ],
+   "example": {
+    "question": "生物多样性包括？",
+    "answer": "基因多样性、物种多样性和生态系统多样性"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j061_q1",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "原始生命诞生的场所，目前较普遍的认识是？",
+   "explain": "原始海洋为早期生命提供了场所。",
+   "answer_mode": "choice",
+   "options": [
+    "现代的陆地森林",
+    "火山口的岩石内部",
+    "原始海洋",
+    "月球"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j061_q2",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "米勒实验模拟原始大气放电后，得到了？",
+   "explain": "实验说明在类似条件下，无机物可以形成有机小分子，并没有制造出生命。",
+   "answer_mode": "choice",
+   "options": [
+    "完整的动植物",
+    "现代的细菌细胞核",
+    "氧气成为主要成分",
+    "氨基酸等有机小分子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j061_q3",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "关于原始大气，教材中的常见说法是？",
+   "explain": "原始大气中有水蒸气、氢气、氨、甲烷、二氧化碳等，氧气是后来光合生物产生的。",
+   "answer_mode": "choice",
+   "options": [
+    "没有氧气",
+    "以氧气为主要成分",
+    "与今天的大气完全相同",
+    "只含有氮气且没有其他气体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j061_q4",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "研究生命起源时，化石能够？",
+   "explain": "地层中的化石记录了不同时期生物的样子，是研究进化的重要证据。",
+   "answer_mode": "choice",
+   "options": [
+    "直接显示明天的进化结果",
+    "作为古代生物曾经生活过的证据",
+    "代替全部实验",
+    "证明每种现代生物都单独突然出现"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j062_q1",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "研究生物进化历程最直接的证据之一是？",
+   "explain": "不同地层中的化石，反映了生物出现的大致顺序。",
+   "answer_mode": "choice",
+   "options": [
+    "现在某种动物数量的多少",
+    "生物的商品价格",
+    "地图上的国界",
+    "化石"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j062_q2",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "植物进化的大致历程是？",
+   "explain": "总体趋势是从简单到复杂、从水生到陆生。",
+   "answer_mode": "choice",
+   "options": [
+    "藻类植物，到苔藓植物和蕨类植物，再到种子植物",
+    "种子植物到藻类植物",
+    "只有动物进化、植物不进化",
+    "真菌到哺乳动物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j062_q3",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "脊椎动物进化的大致顺序是？",
+   "explain": "鸟类和哺乳类都是由古代爬行动物进化而来的，不是鸟类变成哺乳类。",
+   "answer_mode": "choice",
+   "options": [
+    "哺乳类到鱼类",
+    "鱼类、两栖类、爬行类，再到鸟类和哺乳类",
+    "鸟类到爬行类再到鱼类",
+    "两栖类直接到鱼类"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j062_q4",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "生物进化的总体趋势是？",
+   "explain": "这是总体趋势，不是说每一种现存生物都还在变成另一种。",
+   "answer_mode": "choice",
+   "options": [
+    "由复杂到简单",
+    "由陆生全部回到水生并停止变化",
+    "由简单到复杂，由低等到高等，由水生到陆生",
+    "每种生物都越来越大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j063_q1",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "达尔文解释生物进化的学说是？",
+   "explain": "自然选择包括过度繁殖、遗传变异、生存斗争和适者生存。",
+   "answer_mode": "choice",
+   "options": [
+    "自然选择学说",
+    "用进废退是达尔文学说的核心",
+    "地球中心说",
+    "细胞学说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j063_q3",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "害虫抗药性增强，原因是？",
+   "explain": "农药杀死不抗药的个体，抗药个体把变异传给后代。",
+   "answer_mode": "choice",
+   "options": [
+    "农药使每一只害虫都主动产生抗药基因",
+    "害虫喜欢农药所以变强",
+    "抗药变异个体存活并繁殖，抗药性状被选择保留",
+    "没有变异也能产生抗药性"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j063_q4",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "自然选择保留的变异是？",
+   "explain": "不利变异的个体更容易被淘汰，有利的可遗传变异更可能积累。",
+   "answer_mode": "choice",
+   "options": [
+    "所有变异",
+    "只保留有害变异",
+    "环境引起、遗传物质没有改变的变异",
+    "有利于生物在当时环境中生存和繁殖的可遗传变异"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j064_q1",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "现代类人猿和人类的共同祖先是？",
+   "explain": "人类不是由现代黑猩猩或现代猴子变成的，而是和类人猿有共同的祖先。",
+   "answer_mode": "choice",
+   "options": [
+    "现在的黑猩猩",
+    "森林古猿",
+    "现在的长臂猿",
+    "恐龙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j064_q2",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "从古猿到人的进化中，最重要的标志是？",
+   "explain": "直立行走使前肢解放出来，能够使用和制造工具。",
+   "answer_mode": "choice",
+   "options": [
+    "使用鳃呼吸",
+    "体表长出羽毛",
+    "直立行走",
+    "回到四足爬行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j064_q3",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "古人类在进化过程中逐渐学会？",
+   "explain": "工具、火和语言的发展，与脑的发展和社会生活有关。",
+   "answer_mode": "choice",
+   "options": [
+    "用种子进行光合作用",
+    "用鳃在陆地呼吸",
+    "放弃群体生活",
+    "制造工具和使用火"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j064_q4",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u2",
+   "unit_name": "第二章 人类的起源和进化经历了漫长的历史过程",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "下列说法符合人类起源证据的是？",
+   "explain": "人有毛发、胎生、哺乳，属于哺乳动物，并与类人猿亲缘关系最近。",
+   "answer_mode": "choice",
+   "options": [
+    "人类和现代类人猿都起源于森林古猿",
+    "人是现代猴子直接生下来的",
+    "世界各地的人属于不同的界",
+    "人类没有哺乳动物的特征"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q1",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "影响生物生活的非生物因素包括？",
+   "explain": "非生物因素和生物因素合称生态因素。",
+   "answer_mode": "choice",
+   "options": [
+    "只有食物链",
+    "只有捕食关系",
+    "光、温度、水和空气",
+    "分类等级"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j049_q2",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "鼠妇适于生活在？",
+   "explain": "探究实验中，鼠妇较多集中在阴暗潮湿一侧。",
+   "answer_mode": "choice",
+   "options": [
+    "强光干燥的地方",
+    "开水里",
+    "没有空气的密封罐",
+    "阴暗潮湿的地方"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j049_q3",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "蚯蚓在土壤中活动，能使土壤更疏松，这说明？",
+   "explain": "生物既受环境限制，也会改变环境。",
+   "answer_mode": "choice",
+   "options": [
+    "生物能影响环境",
+    "环境对生物没有任何作用",
+    "生物不能适应环境",
+    "只有非生物因素起作用"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q4",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "沙漠中的骆驼尿液很少、体温可以在一定范围内变化，主要说明？",
+   "explain": "这些特征有利于在缺水、昼夜温差大的环境中生活。",
+   "answer_mode": "choice",
+   "options": [
+    "生物不需要水",
+    "生物能适应环境",
+    "环境不会影响生物",
+    "骆驼不属于生物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j051_q2",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "生物圈是？",
+   "explain": "森林、草原、海洋、湿地等都是生物圈中的生态系统。",
+   "answer_mode": "choice",
+   "options": [
+    "最小的一个细胞",
+    "地球上最大的生态系统",
+    "一种组织",
+    "一个器官"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j051_q3",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "生物生存需要的基本条件包括？",
+   "explain": "还需要一定的生存空间；缺少这些条件，生物就不能正常生活。",
+   "answer_mode": "choice",
+   "options": [
+    "只需要土壤的颜色",
+    "只需要重力",
+    "营养物质、阳光、空气、水和适宜的温度",
+    "不需要空间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j051_q4",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "像生物圈那样为生物提供生存条件的整体，在目前已知范围内？",
+   "explain": "保护生物圈就是保护人类自己的家园。",
+   "answer_mode": "choice",
+   "options": [
+    "太阳系每颗行星都有",
+    "月球表面已经具备",
+    "可以不依赖能量输入",
+    "地球是唯一的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j066_q1",
+   "topic": "cnb_j066",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 1,
+   "stem": "保护生物多样性最有效的措施是？",
+   "explain": "就地保护能保存生物及其生存环境；迁地保护是必要的补充。",
+   "answer_mode": "choice",
+   "options": [
+    "把所有野生生物都移出原生环境",
+    "只保护动物园里的动物",
+    "禁止任何科学研究",
+    "建立自然保护区，就地保护"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j066_q2",
+   "topic": "cnb_j066",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 1,
+   "stem": "将濒危动物迁到动物园繁殖，属于？",
+   "explain": "原生环境难以维持时，动物园、繁育中心和种质库可以进行迁地保护。",
+   "answer_mode": "choice",
+   "options": [
+    "迁地保护",
+    "就地保护",
+    "引入外来物种",
+    "自然选择本身"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j066_q3",
+   "topic": "cnb_j066",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 2,
+   "stem": "威胁生物多样性的主要原因是？",
+   "explain": "人类活动是当前许多物种濒危的主要原因。",
+   "answer_mode": "choice",
+   "options": [
+    "生物本身拒绝进化",
+    "栖息地破坏、过度利用、环境污染和外来物种入侵",
+    "分类单位太多",
+    "只有火山，与人类无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j066_q4",
+   "topic": "cnb_j066",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u3",
+   "unit_name": "第一章 生物与环境是相互作用的",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 3,
+   "stem": "做到人与自然和谐共生，个人可以？",
+   "explain": "和谐共生不是禁止认识自然，而是在利用资源时不破坏生态安全。",
+   "answer_mode": "choice",
+   "options": [
+    "食用一切野生动物",
+    "把外来生物随意放生",
+    "不购买野生动物制品，并节约资源、减少污染",
+    "破坏自然保护区的围栏去采集"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j001_q1",
+   "topic": "cnb_j001",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "科学观察生物时，首先要做的是？",
+   "explain": "科学观察要有目的、全面、真实，并及时记录。",
+   "answer_mode": "choice",
+   "options": [
+    "只看自己喜欢的部分",
+    "不写记录，全靠记忆",
+    "有明确的观察目的",
+    "把没看到的内容补进记录"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j001_q2",
+   "topic": "cnb_j001",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "观察蚂蚁的外形，不适合的做法是？",
+   "explain": "记录只能写实际观察到的现象。",
+   "answer_mode": "choice",
+   "options": [
+    "用放大镜看口器和足",
+    "从不同方向观察",
+    "把看到的现象记下来",
+    "把没有看清的足也写成六条"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j001_q3",
+   "topic": "cnb_j001",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "观察校园里的生物，较合适的一组工具是？",
+   "explain": "认识生物的外形和习性，常用放大镜，并把现象记下来。",
+   "answer_mode": "choice",
+   "options": [
+    "放大镜和记录本",
+    "天平和量筒",
+    "电压表和电流表",
+    "试管和酒精灯"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j001_q4",
+   "topic": "cnb_j001",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "下列做法符合科学观察要求的是？",
+   "explain": "观察要真实、可重复，记录的是看到的现象。",
+   "answer_mode": "choice",
+   "options": [
+    "只观察一次就下结论",
+    "反复观察，并把现象如实记下",
+    "看到的和想到的混在一起写",
+    "观察时先改动生物再记录原状"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j050_q2",
+   "topic": "cnb_j050",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "细菌和真菌在生态系统中主要作为？",
+   "explain": "分解者把动植物遗体里的有机物分解成无机物，供生产者重新利用。",
+   "answer_mode": "choice",
+   "options": [
+    "分解者",
+    "生产者",
+    "消费者中的最高营养级",
+    "非生物成分"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j050_q4",
+   "topic": "cnb_j050",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "有毒物质进入食物链后，浓度通常最高的是？",
+   "explain": "有毒物质不易分解，会沿着食物链积累。",
+   "answer_mode": "choice",
+   "options": [
+    "生产者",
+    "空气",
+    "营养级最高的生物",
+    "分解者一定最低且不受影响"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j052_q1",
+   "topic": "cnb_j052",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "大量砍伐森林后，较容易引起？",
+   "explain": "植被破坏后，土壤失去保护，雨水更容易把泥土冲走。",
+   "answer_mode": "choice",
+   "options": [
+    "空气中的氧气无限增加",
+    "水土流失",
+    "当地降水量必定升高且不再变化",
+    "生物种类一定增多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j052_q2",
+   "topic": "cnb_j052",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "随意引进外来物种，可能？",
+   "explain": "缺少天敌时，外来物种可能大量繁殖，破坏原有的食物关系。",
+   "answer_mode": "choice",
+   "options": [
+    "一定使本地生物全部受益",
+    "不会繁殖",
+    "挤占本地生物的生存空间",
+    "自动提高生态系统的调节能力且没有上限"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j052_q3",
+   "topic": "cnb_j052",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "工厂把未经处理的污水排进河流，直接影响的是？",
+   "explain": "污染会通过饮水和食物链影响其他生物和人。",
+   "answer_mode": "choice",
+   "options": [
+    "只会让水中的氧气自动增多",
+    "与人类健康无关",
+    "使有毒物质沿食物链越来越少",
+    "水生生物的生存和下游的用水安全"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j052_q4",
+   "topic": "cnb_j052",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "分析「围湖造田」的影响，较合理的结论是？",
+   "explain": "湖泊是生态系统，缩小湖面就会削弱它的生态功能。",
+   "answer_mode": "choice",
+   "options": [
+    "湖泊调蓄洪水和净化水质的能力下降",
+    "湖泊生物一定增多",
+    "当地气候完全不受影响",
+    "围得越大，生态系统越稳定"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j053_q1",
+   "topic": "cnb_j053",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "维护生态安全，较合适的做法是？",
+   "explain": "生态安全关心的是生态系统能否保持完整并持续提供服务。",
+   "answer_mode": "choice",
+   "options": [
+    "把所有野生动物都关进家里饲养",
+    "继续向河流排放污水",
+    "保护植被、治理污染、防止外来物种随意扩散",
+    "锯掉全部森林改成裸地"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j053_q2",
+   "topic": "cnb_j053",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "保护当地的森林和湿地，属于？",
+   "explain": "保护栖息地，比把生物全部搬走更能维持原有的生态关系。",
+   "answer_mode": "choice",
+   "options": [
+    "把全部生物迁到外地",
+    "只保护一种观赏植物的花色",
+    "停止一切科学观察",
+    "就地维护生态系统"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j053_q3",
+   "topic": "cnb_j053",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "垃圾分类的作用是？",
+   "explain": "分类投放可以减少有害物质进入土壤和水体。",
+   "answer_mode": "choice",
+   "options": [
+    "减少污染，便于回收可利用的物质",
+    "让有害垃圾直接进入农田",
+    "代替污水处理",
+    "使塑料在自然界中立刻消失"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j053_q4",
+   "topic": "cnb_j053",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u4",
+   "unit_name": "第二章 生态系统是生物与环境构成的有机整体",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "某地为了增加粮食而毁林开荒，后来洪水和沙尘加重。更可取的做法是？",
+   "explain": "恢复植被有利于保持水土，也有利于维护生态安全。",
+   "answer_mode": "choice",
+   "options": [
+    "继续扩大开荒",
+    "退耕还林，恢复植被",
+    "把河水全部截断",
+    "引入没有检验的外来植物"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j014_q2",
+   "topic": "cnb_j014",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 1,
+   "stem": "鱼的鳍的主要作用是？",
+   "explain": "胸鳍、腹鳍、尾鳍等配合，使鱼能够游动和转向。",
+   "answer_mode": "choice",
+   "options": [
+    "游泳并保持平衡",
+    "呼吸",
+    "产生卵细胞",
+    "吸收阳光制造有机物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j014_q3",
+   "topic": "cnb_j014",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 2,
+   "stem": "鲫鱼身体两侧的侧线能？",
+   "explain": "侧线是鱼的感觉器官，能测定方位和水压。",
+   "answer_mode": "choice",
+   "options": [
+    "代替鳃呼吸",
+    "感知水流方向和压力",
+    "分泌消化酶",
+    "进行光合作用"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j014_q4",
+   "topic": "cnb_j014",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 3,
+   "stem": "下列动物用鳃呼吸、用鳍游泳、体表常覆鳞片的是？",
+   "explain": "鲫鱼是鱼类。海豚用肺呼吸、胎生哺乳；青蛙和扬子鳄也不是鱼。",
+   "answer_mode": "choice",
+   "options": [
+    "海豚",
+    "青蛙",
+    "鲫鱼",
+    "扬子鳄"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j065_q2",
+   "topic": "cnb_j065",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 1,
+   "stem": "一个物种内部，不同个体的基因并不完全相同。这属于？",
+   "explain": "基因多样性也叫遗传多样性。",
+   "answer_mode": "choice",
+   "options": [
+    "生态系统多样性",
+    "只有物种多样性、与基因无关",
+    "非生物的多样性",
+    "基因多样性"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j065_q3",
+   "topic": "cnb_j065",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 2,
+   "stem": "森林、草原、湿地和海洋提供的多样性主要属于？",
+   "explain": "不同生态系统为不同生物提供生存条件。",
+   "answer_mode": "choice",
+   "options": [
+    "生态系统多样性",
+    "一个物种内部的全部差异",
+    "分类等级中的「种」本身",
+    "非生物因素的名称"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j065_q4",
+   "topic": "cnb_j065",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "jinan",
+   "unit": "u5",
+   "unit_name": "第三章 生物多样性是人类生存和发展的基础",
+   "type": "knowledge",
+   "skill": "生物的多样性",
+   "difficulty": 3,
+   "stem": "多种多样的生物是长期进化的结果，保护多样性首先要？",
+   "explain": "栖息地破坏后，物种和基因多样性也会失去。",
+   "answer_mode": "choice",
+   "options": [
+    "只记下生物的名字、可以破坏环境",
+    "保护生物赖以生活的栖息地和生态系统",
+    "让所有生物都变成同一个种",
+    "停止对化石和分类的研究"
+   ],
+   "answer": 2
+  }
+ ]
+}

@@ -1,0 +1,1514 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 苏教版 八年级生物下册(2026春版)；知识点/题目复用通用生物池",
+  "path": "sjb/shengwu/8x_2026",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 8,
+ "semester": "lower",
+ "edition": "sjb",
+ "edition_label": "苏教版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第17章 传染病和免疫"
+  },
+  {
+   "id": "u2",
+   "name": "第18章 健康生活"
+  },
+  {
+   "id": "u3",
+   "name": "第19章 生物的生殖"
+  },
+  {
+   "id": "u4",
+   "name": "第20章 生物的遗传和变异"
+  },
+  {
+   "id": "u5",
+   "name": "第21章 生命起源和生物进化"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j045",
+   "name": "传染病及其预防",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "description": "能说出传染病流行的三个环节和预防措施。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "传染病流行必须同时具备？",
+    "answer": "传染源、传播途径和易感人群"
+   }
+  },
+  {
+   "id": "cnb_j046",
+   "name": "免疫与免疫规划",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "description": "能区分三道免疫防线，并说明接种疫苗属于免疫规划。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "皮肤和黏膜阻挡病原体，属于？",
+    "answer": "第一道防线"
+   }
+  },
+  {
+   "id": "cnb_j047",
+   "name": "用药与急救",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "description": "能区分处方药和非处方药，并知道常见急救原则。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "非处方药的英文简称是？",
+    "answer": "OTC"
+   }
+  },
+  {
+   "id": "cnb_j048",
+   "name": "选择健康的生活方式",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "description": "能说明吸烟、酗酒、毒品和缺乏运动对健康的危害。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "健康的生活方式包括？",
+    "answer": "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品"
+   }
+  },
+  {
+   "id": "cnb_j054",
+   "name": "无性生殖",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "description": "能判断不经过两性生殖细胞结合的生殖方式，并说明嫁接的要点。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "无性生殖的特点是？",
+    "answer": "不经过两性生殖细胞的结合"
+   }
+  },
+  {
+   "id": "cnb_j055",
+   "name": "有性生殖",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "description": "知道有性生殖要经过两性生殖细胞结合，后代具有双亲的遗传特性。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "有性生殖必须经过？",
+    "answer": "两性生殖细胞结合"
+   }
+  },
+  {
+   "id": "cnb_j057",
+   "name": "基因在亲子代间的传递",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "description": "知道体细胞中染色体成对、生殖细胞中染色体成单，受精后恢复成对。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "人的体细胞中染色体数目是？",
+    "answer": "23 对"
+   }
+  },
+  {
+   "id": "cnb_j059",
+   "name": "人的性别决定",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "description": "知道女性性染色体是 XX、男性是 XY，生男生女取决于精子的类型。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "女性体细胞中的性染色体组成是？",
+    "answer": "XX"
+   }
+  },
+  {
+   "id": "cnb_j056",
+   "name": "基因与生物性状的关系",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "description": "知道基因是有遗传效应的 DNA 片段，基因控制性状，环境也会影响性状。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "基因是？",
+    "answer": "有遗传效应的 DNA 片段"
+   }
+  },
+  {
+   "id": "cnb_j058",
+   "name": "基因的显性和隐性",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "description": "能根据相对性状判断显性表现和隐性纯合时的基因组成。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "相对性状是指？",
+    "answer": "同种生物同一性状的不同表现"
+   }
+  },
+  {
+   "id": "cnb_j060",
+   "name": "生物的变异",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "description": "能区分可遗传变异和不可遗传变异。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "变异是指？",
+    "answer": "亲子代之间以及子代个体之间的差异"
+   }
+  },
+  {
+   "id": "cnb_j061",
+   "name": "地球上生命的起源",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "description": "知道原始生命起源于原始海洋，以及米勒实验说明了什么。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "原始生命诞生的场所，目前较普遍的认识是？",
+    "answer": "原始海洋"
+   }
+  },
+  {
+   "id": "cnb_j062",
+   "name": "生物进化的历程",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "description": "能根据化石和比较的证据，说出生物进化的总体趋势。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "研究生物进化历程最直接的证据之一是？",
+    "answer": "化石"
+   }
+  },
+  {
+   "id": "cnb_j063",
+   "name": "生物进化的原因",
+   "domain": "遗传与进化",
+   "kp_type": "reasoning",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "description": "能用过度繁殖、遗传变异、生存斗争和适者生存说明自然选择。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "达尔文解释生物进化的学说是？",
+    "answer": "自然选择学说"
+   }
+  },
+  {
+   "id": "cnb_j064",
+   "name": "人类的起源",
+   "domain": "遗传与进化",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "description": "知道现代类人猿和人类的共同祖先是森林古猿，直立行走是重要标志。",
+   "mastery_criteria": [
+    "能说出生殖、遗传或进化的基本事实",
+    "能用教材中的概念解释一个典型例子"
+   ],
+   "example": {
+    "question": "现代类人猿和人类的共同祖先是？",
+    "answer": "森林古猿"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j045_q1",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "传染病流行必须同时具备？",
+   "explain": "三个环节缺少任何一个，传染病就不能在人群中流行。",
+   "answer_mode": "choice",
+   "options": [
+    "只有易感人群",
+    "只有病原体、没有传染源",
+    "传染源、传播途径和易感人群",
+    "健康的生活环境就一定会流行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j045_q2",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "对患传染病的人进行隔离治疗，属于？",
+   "explain": "传染源是能够散播病原体的人或动物；隔离是为了控制传染源。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "保护易感人群",
+    "增加易感者",
+    "控制传染源"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j045_q3",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "开窗通风、食物器具消毒，主要是？",
+   "explain": "这些做法减少病原体从传染源到达健康人的机会。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "控制全部易感人群的遗传物质",
+    "消灭所有人体细胞",
+    "代替接种疫苗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j045_q4",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "艾滋病病毒主要不会通过哪一方式传播？",
+   "explain": "艾滋病通过血液、性接触和母婴传播；一般握手、共同进餐不会感染。",
+   "answer_mode": "choice",
+   "options": [
+    "输入含病毒的血液",
+    "一起进餐和握手",
+    "不安全性行为",
+    "母婴传播"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q1",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "皮肤和黏膜阻挡病原体，属于？",
+   "explain": "第一道防线是皮肤和黏膜；体液中的杀菌物质和吞噬细胞是第二道防线。",
+   "answer_mode": "choice",
+   "options": [
+    "第三道防线",
+    "特异性免疫",
+    "免疫规划",
+    "第一道防线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j046_q2",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "接种疫苗后产生抗体，这种免疫是？",
+   "explain": "疫苗相当于抗原，促使淋巴细胞产生相应抗体，只针对特定病原体。",
+   "answer_mode": "choice",
+   "options": [
+    "特异性免疫",
+    "第一道防线",
+    "生来就有、对所有病原体完全相同的非特异性免疫",
+    "只由皮肤完成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j046_q3",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "按规定有计划地接种疫苗，叫做？",
+   "explain": "免疫规划是保护易感人群的重要措施。",
+   "answer_mode": "choice",
+   "options": [
+    "控制传染源的隔离",
+    "免疫规划",
+    "非处方药治疗",
+    "反射弧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q4",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u1",
+   "unit_name": "第17章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "免疫的功能不包括？",
+   "explain": "免疫有防御、自稳和监视功能；免疫过强可能引起过敏或自身免疫病。",
+   "answer_mode": "choice",
+   "options": [
+    "抵抗抗原的侵入",
+    "清除体内衰老、死亡的细胞",
+    "制造病原体让疾病流行",
+    "监视并清除异常细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q1",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "非处方药的英文简称是？",
+   "explain": "OTC 可以按说明书自行购买使用；处方药必须凭医师处方。",
+   "answer_mode": "choice",
+   "options": [
+    "OTC",
+    "DNA",
+    "HIV",
+    "AQI"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j047_q2",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "用药时正确的做法是？",
+   "explain": "加大剂量或服用过期药都可能造成伤害。",
+   "answer_mode": "choice",
+   "options": [
+    "把几种药一起加倍服用",
+    "按说明书或医嘱使用，不随意加大剂量",
+    "过期药只要没有变色就可以吃",
+    "用别人的处方药给自己治病"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j047_q3",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "动脉出血时，止血带应压迫在？",
+   "explain": "动脉血从心脏流向伤口，近心端压迫才能阻断来血；静脉出血则压远心端。",
+   "answer_mode": "choice",
+   "options": [
+    "伤口的远心端",
+    "手指末端无论伤口在哪里",
+    "伤口的近心端",
+    "只压迫静脉的远心端"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q4",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "发现有人煤气中毒，首先应？",
+   "explain": "煤气的主要成分一氧化碳会与血红蛋白结合；先脱离现场并保持呼吸通畅。",
+   "answer_mode": "choice",
+   "options": [
+    "在密闭房间里点火查看",
+    "让中毒者继续躺在泄漏点旁边",
+    "先喂食物再开门",
+    "打开门窗，把人移到通风处，再拨打急救电话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q1",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "健康的生活方式包括？",
+   "explain": "这些习惯能降低心血管疾病和部分癌症的风险。",
+   "answer_mode": "choice",
+   "options": [
+    "用吸烟提神",
+    "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品",
+    "每天只睡很少时间",
+    "靠饮料代替饮水"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j048_q2",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "酗酒对人体危害最大的系统之一是？",
+   "explain": "酒精麻痹神经系统，长期饮酒还会损害肝脏和心血管。",
+   "answer_mode": "choice",
+   "options": [
+    "可以保护肝脏",
+    "只影响头发颜色",
+    "神经系统",
+    "使免疫力无限提高"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j048_q3",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "毒品危害健康，根本原因是？",
+   "explain": "毒品会损害脑和神经系统，一旦成瘾很难戒断。",
+   "answer_mode": "choice",
+   "options": [
+    "可以代替一日三餐",
+    "能提高学习效率且没有依赖",
+    "只影响皮肤颜色",
+    "损害神经系统，而且容易成瘾"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q4",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "sjb",
+   "unit": "u2",
+   "unit_name": "第18章 健康生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "为了降低心血管疾病的风险，合适的做法是？",
+   "explain": "生活方式与心血管疾病、癌症有关，预防要从饮食、运动和戒烟做起。",
+   "answer_mode": "choice",
+   "options": [
+    "少吃高脂食物，经常运动，不吸烟",
+    "用静坐代替所有活动",
+    "每天大量饮酒",
+    "自行长期服用未经医生同意的激素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j054_q1",
+   "topic": "cnb_j054",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "无性生殖的特点是？",
+   "explain": "扦插、嫁接、组织培养以及酵母菌的出芽生殖都属于无性生殖。",
+   "answer_mode": "choice",
+   "options": [
+    "必须经过精子和卵细胞结合",
+    "后代一定具有双亲的遗传特性",
+    "只存在于动物",
+    "不经过两性生殖细胞的结合"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j054_q2",
+   "topic": "cnb_j054",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "用葡萄的一段枝条插入土壤长成新植株，这种生殖方式是？",
+   "explain": "扦插使用的是营养器官，没有两性生殖细胞的结合。",
+   "answer_mode": "choice",
+   "options": [
+    "扦插",
+    "种子繁殖",
+    "出芽形成受精卵",
+    "分裂产生精子"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j054_q4",
+   "topic": "cnb_j054",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "用无性生殖培育果树，主要优点是？",
+   "explain": "后代的遗传物质主要来自母体，优良特性不容易被另一亲本改变。",
+   "answer_mode": "choice",
+   "options": [
+    "后代一定比母体更适应一切环境",
+    "必须经过开花传粉",
+    "后代能保持母体的优良性状",
+    "变异一定比有性生殖更大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j055_q1",
+   "topic": "cnb_j055",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "有性生殖必须经过？",
+   "explain": "精子和卵细胞结合形成受精卵，由受精卵发育成新个体。",
+   "answer_mode": "choice",
+   "options": [
+    "两性生殖细胞结合",
+    "扦插",
+    "嫁接",
+    "出芽"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j055_q2",
+   "topic": "cnb_j055",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "有性生殖的后代？",
+   "explain": "两性生殖细胞各带一份遗传物质，后代因此具有双亲的特征。",
+   "answer_mode": "choice",
+   "options": [
+    "只保留母本性状、与父本无关",
+    "具有双亲的遗传特性",
+    "与亲代没有任何相同点",
+    "不能变异"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j055_q3",
+   "topic": "cnb_j055",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "被子植物经过开花、传粉和受精后，种子里的胚由什么发育而来？",
+   "explain": "受精卵发育成胚，胚珠发育成种子，子房发育成果实。",
+   "answer_mode": "choice",
+   "options": [
+    "花瓣",
+    "叶肉细胞直接变来",
+    "受精卵",
+    "花粉管的壁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j055_q4",
+   "topic": "cnb_j055",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "与无性生殖相比，有性生殖的意义主要是？",
+   "explain": "遗传物质来自双亲，后代的差异通常更大。",
+   "answer_mode": "choice",
+   "options": [
+    "后代永远和母体一模一样",
+    "不需要生殖细胞",
+    "速度在任何情况下都更快",
+    "后代变异更多，更有利于适应变化的环境"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j057_q1",
+   "topic": "cnb_j057",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "人的体细胞中染色体数目是？",
+   "explain": "体细胞中染色体成对存在，人有 23 对、46 条。",
+   "answer_mode": "choice",
+   "options": [
+    "23 条",
+    "46 对",
+    "23 对",
+    "92 对"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j057_q2",
+   "topic": "cnb_j057",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "生殖细胞中的染色体数目是体细胞的？",
+   "explain": "形成生殖细胞时染色体数目减半，受精后才恢复成对。",
+   "answer_mode": "choice",
+   "options": [
+    "两倍",
+    "相同且仍然成对",
+    "四分之一",
+    "一半"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j057_q4",
+   "topic": "cnb_j057",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "基因在亲子代间传递时，主要随着什么传递？",
+   "explain": "染色体上有 DNA，基因位于 DNA 上，所以基因随染色体传递。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁",
+    "染色体",
+    "食物中的蛋白质",
+    "血浆"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j059_q1",
+   "topic": "cnb_j059",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "女性体细胞中的性染色体组成是？",
+   "explain": "男性是 XY，女性是 XX。",
+   "answer_mode": "choice",
+   "options": [
+    "XX",
+    "XY",
+    "YY",
+    "XO"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j059_q2",
+   "topic": "cnb_j059",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "就性染色体而言，卵细胞含有？",
+   "explain": "女性只产生含 X 的卵细胞；男性产生含 X 或含 Y 的精子。",
+   "answer_mode": "choice",
+   "options": [
+    "一条 Y 染色体",
+    "一条 X 染色体",
+    "X 和 Y 各一条",
+    "没有性染色体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j059_q4",
+   "topic": "cnb_j059",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u3",
+   "unit_name": "第19章 生物的生殖",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "从性染色体的组合看，生男生女的机会？",
+   "explain": "两种精子数量大致相当，与卵细胞结合的机会也大致相等。",
+   "answer_mode": "choice",
+   "options": [
+    "一定是男孩更多",
+    "完全由母亲决定",
+    "隔代才改变",
+    "大致相等"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j056_q2",
+   "topic": "cnb_j056",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "把大鼠生长激素基因转入小鼠体内，小鼠长得很大，说明？",
+   "explain": "转入的基因使小鼠表现出相应性状。",
+   "answer_mode": "choice",
+   "options": [
+    "性状只由食物决定，与基因无关",
+    "DNA 不是遗传物质",
+    "基因控制生物的性状",
+    "基因不能从一个细胞进入另一个细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j056_q3",
+   "topic": "cnb_j056",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "同卵双生的兄弟，一个长期锻炼、一个很少运动，肌肉发达程度不同，说明？",
+   "explain": "基因提供了发育的可能，环境会影响性状的表现。",
+   "answer_mode": "choice",
+   "options": [
+    "基因会因为锻炼立刻全部改变",
+    "两人的基因完全不同",
+    "环境不能影响任何性状",
+    "性状还受环境的影响"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j056_q4",
+   "topic": "cnb_j056",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "生物体内的遗传物质主要是？",
+   "explain": "DNA 携带遗传信息；基因是有遗传效应的 DNA 片段。",
+   "answer_mode": "choice",
+   "options": [
+    "DNA",
+    "脂肪",
+    "淀粉",
+    "纤维素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j058_q3",
+   "topic": "cnb_j058",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "隐性性状的基因组成是？",
+   "explain": "只有两个隐性基因在一起时，隐性性状才表现出来。",
+   "answer_mode": "choice",
+   "options": [
+    "一个显性基因和一个隐性基因",
+    "两个隐性基因",
+    "两个显性基因",
+    "没有基因"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j058_q4",
+   "topic": "cnb_j058",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "禁止近亲结婚，主要是为了？",
+   "explain": "近亲带有相同隐性致病基因的可能性较大，后代隐性遗传病的风险更高。",
+   "answer_mode": "choice",
+   "options": [
+    "让显性基因消失",
+    "改变人的染色体数目",
+    "降低隐性致病基因相遇的机会",
+    "阻止一切变异"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j060_q1",
+   "topic": "cnb_j060",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "变异是指？",
+   "explain": "生物界普遍存在变异，变异为进化提供了原材料。",
+   "answer_mode": "choice",
+   "options": [
+    "只有亲代和子代完全相同",
+    "亲子代之间以及子代个体之间的差异",
+    "环境永远不变化",
+    "基因不能改变"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j060_q2",
+   "topic": "cnb_j060",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "花生果实有大有小，这种差异属于？",
+   "explain": "同一性状在不同个体上的不同表现，就是变异。",
+   "answer_mode": "choice",
+   "options": [
+    "完全没有差异的同一性状",
+    "只发生在动物身上的现象",
+    "变异",
+    "分类单位"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j060_q3",
+   "topic": "cnb_j060",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "由遗传物质改变引起的变异？",
+   "explain": "遗传物质改变引起的变异是可遗传变异。",
+   "answer_mode": "choice",
+   "options": [
+    "一定不能遗传",
+    "只改变当代、后代恢复原样",
+    "都属于不可遗传变异",
+    "可以遗传给后代"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j060_q4",
+   "topic": "cnb_j060",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u4",
+   "unit_name": "第20章 生物的遗传和变异",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "把遗传物质相同的小麦分别种在肥沃和贫瘠的土壤里，植株高度不同。这种差异一般是？",
+   "explain": "如果遗传物质没有改变，只是水肥条件不同，这种变异一般不能遗传。",
+   "answer_mode": "choice",
+   "options": [
+    "环境引起的不可遗传变异",
+    "染色体数目改变",
+    "一定会传给下一代并在贫瘠土地上同样表现",
+    "基因重组"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j061_q1",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "原始生命诞生的场所，目前较普遍的认识是？",
+   "explain": "原始海洋为早期生命提供了场所。",
+   "answer_mode": "choice",
+   "options": [
+    "现代的陆地森林",
+    "火山口的岩石内部",
+    "原始海洋",
+    "月球"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j061_q2",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "米勒实验模拟原始大气放电后，得到了？",
+   "explain": "实验说明在类似条件下，无机物可以形成有机小分子，并没有制造出生命。",
+   "answer_mode": "choice",
+   "options": [
+    "完整的动植物",
+    "现代的细菌细胞核",
+    "氧气成为主要成分",
+    "氨基酸等有机小分子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j061_q3",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "关于原始大气，教材中的常见说法是？",
+   "explain": "原始大气中有水蒸气、氢气、氨、甲烷、二氧化碳等，氧气是后来光合生物产生的。",
+   "answer_mode": "choice",
+   "options": [
+    "没有氧气",
+    "以氧气为主要成分",
+    "与今天的大气完全相同",
+    "只含有氮气且没有其他气体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j061_q4",
+   "topic": "cnb_j061",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "研究生命起源时，化石能够？",
+   "explain": "地层中的化石记录了不同时期生物的样子，是研究进化的重要证据。",
+   "answer_mode": "choice",
+   "options": [
+    "直接显示明天的进化结果",
+    "作为古代生物曾经生活过的证据",
+    "代替全部实验",
+    "证明每种现代生物都单独突然出现"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j062_q1",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "研究生物进化历程最直接的证据之一是？",
+   "explain": "不同地层中的化石，反映了生物出现的大致顺序。",
+   "answer_mode": "choice",
+   "options": [
+    "现在某种动物数量的多少",
+    "生物的商品价格",
+    "地图上的国界",
+    "化石"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j062_q2",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "植物进化的大致历程是？",
+   "explain": "总体趋势是从简单到复杂、从水生到陆生。",
+   "answer_mode": "choice",
+   "options": [
+    "藻类植物，到苔藓植物和蕨类植物，再到种子植物",
+    "种子植物到藻类植物",
+    "只有动物进化、植物不进化",
+    "真菌到哺乳动物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j062_q3",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "脊椎动物进化的大致顺序是？",
+   "explain": "鸟类和哺乳类都是由古代爬行动物进化而来的，不是鸟类变成哺乳类。",
+   "answer_mode": "choice",
+   "options": [
+    "哺乳类到鱼类",
+    "鱼类、两栖类、爬行类，再到鸟类和哺乳类",
+    "鸟类到爬行类再到鱼类",
+    "两栖类直接到鱼类"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j062_q4",
+   "topic": "cnb_j062",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "生物进化的总体趋势是？",
+   "explain": "这是总体趋势，不是说每一种现存生物都还在变成另一种。",
+   "answer_mode": "choice",
+   "options": [
+    "由复杂到简单",
+    "由陆生全部回到水生并停止变化",
+    "由简单到复杂，由低等到高等，由水生到陆生",
+    "每种生物都越来越大"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j063_q1",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "达尔文解释生物进化的学说是？",
+   "explain": "自然选择包括过度繁殖、遗传变异、生存斗争和适者生存。",
+   "answer_mode": "choice",
+   "options": [
+    "自然选择学说",
+    "用进废退是达尔文学说的核心",
+    "地球中心说",
+    "细胞学说"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j063_q3",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "害虫抗药性增强，原因是？",
+   "explain": "农药杀死不抗药的个体，抗药个体把变异传给后代。",
+   "answer_mode": "choice",
+   "options": [
+    "农药使每一只害虫都主动产生抗药基因",
+    "害虫喜欢农药所以变强",
+    "抗药变异个体存活并繁殖，抗药性状被选择保留",
+    "没有变异也能产生抗药性"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j063_q4",
+   "topic": "cnb_j063",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "自然选择保留的变异是？",
+   "explain": "不利变异的个体更容易被淘汰，有利的可遗传变异更可能积累。",
+   "answer_mode": "choice",
+   "options": [
+    "所有变异",
+    "只保留有害变异",
+    "环境引起、遗传物质没有改变的变异",
+    "有利于生物在当时环境中生存和繁殖的可遗传变异"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j064_q1",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "现代类人猿和人类的共同祖先是？",
+   "explain": "人类不是由现代黑猩猩或现代猴子变成的，而是和类人猿有共同的祖先。",
+   "answer_mode": "choice",
+   "options": [
+    "现在的黑猩猩",
+    "森林古猿",
+    "现在的长臂猿",
+    "恐龙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j064_q2",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 1,
+   "stem": "从古猿到人的进化中，最重要的标志是？",
+   "explain": "直立行走使前肢解放出来，能够使用和制造工具。",
+   "answer_mode": "choice",
+   "options": [
+    "使用鳃呼吸",
+    "体表长出羽毛",
+    "直立行走",
+    "回到四足爬行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j064_q3",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 2,
+   "stem": "古人类在进化过程中逐渐学会？",
+   "explain": "工具、火和语言的发展，与脑的发展和社会生活有关。",
+   "answer_mode": "choice",
+   "options": [
+    "用种子进行光合作用",
+    "用鳃在陆地呼吸",
+    "放弃群体生活",
+    "制造工具和使用火"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j064_q4",
+   "topic": "cnb_j064",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "lower",
+   "edition": "sjb",
+   "unit": "u5",
+   "unit_name": "第21章 生命起源和生物进化",
+   "type": "knowledge",
+   "skill": "遗传与进化",
+   "difficulty": 3,
+   "stem": "下列说法符合人类起源证据的是？",
+   "explain": "人有毛发、胎生、哺乳，属于哺乳动物，并与类人猿亲缘关系最近。",
+   "answer_mode": "choice",
+   "options": [
+    "人类和现代类人猿都起源于森林古猿",
+    "人是现代猴子直接生下来的",
+    "世界各地的人属于不同的界",
+    "人类没有哺乳动物的特征"
+   ],
+   "answer": 1
+  }
+ ]
+}

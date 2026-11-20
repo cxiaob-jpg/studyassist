@@ -1,0 +1,3640 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_english_toc.py (catalog unit re-anchor)",
+ "source": {
+  "site": "catalog.json 人教版PEP 真实单元目录；知识点/题目复用 knowledge/english 通用池",
+  "units_from": "catalog.json"
+ },
+ "subject": "english",
+ "grade": 6,
+ "semester": "upper",
+ "edition": "pep",
+ "edition_label": "人教版PEP",
+ "units": [
+  {
+   "id": "u1",
+   "name": "U1·Amazing places"
+  },
+  {
+   "id": "u2",
+   "name": "U2·Getting together"
+  },
+  {
+   "id": "u3",
+   "name": "U3·Healthy life"
+  },
+  {
+   "id": "u4",
+   "name": "U4·Managing money well"
+  },
+  {
+   "id": "u5",
+   "name": "U5·Exploring space"
+  },
+  {
+   "id": "u6",
+   "name": "U6·Energy, nature and us"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cne_p155",
+   "name": "城市场所",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "认读 hospital、cinema、bookstore 和 post office。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「医院」？",
+    "answer": "hospital"
+   }
+  },
+  {
+   "id": "cne_p156",
+   "name": "左转、右转和直行",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "用 Turn left、Turn right 和 Go straight 指路。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "想说「在书店左转」，应选哪一句？",
+    "answer": "Turn left at the bookstore."
+   }
+  },
+  {
+   "id": "cne_p157",
+   "name": "问路和指路",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "用 How can I get to 问路，并用 next to 说明在旁边。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问怎么去医院，应说哪一句？",
+    "answer": "How can I get to the hospital?"
+   }
+  },
+  {
+   "id": "cne_p158",
+   "name": "读懂指路",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "读指路短文，找出怎么走。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：Go straight. Turn left at the bookstore. The hospital is on the right. 在书店怎样走？",
+    "answer": "左转"
+   }
+  },
+  {
+   "id": "cne_p185",
+   "name": "规则动词过去式",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "能把 clean、watch、stay 变成过去式 cleaned、watched、stayed。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "clean 的过去式是哪一个？",
+    "answer": "cleaned"
+   }
+  },
+  {
+   "id": "cne_p189",
+   "name": "不规则动词过去式",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "能认出 go、see、eat 的过去式 went、saw、ate。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "go 的过去式是哪一个？",
+    "answer": "went"
+   }
+  },
+  {
+   "id": "cne_p186",
+   "name": "Did 提问",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "用 Did 加动词原形询问过去的事。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "____ you clean your room? 问过去的事，横线上应填哪个词？",
+    "answer": "Did"
+   }
+  },
+  {
+   "id": "cne_p190",
+   "name": "谈论去过哪里",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "用 Where did you go? 询问过去去了哪里。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方去了哪里，应说哪一句？",
+    "answer": "Where did you go?"
+   }
+  },
+  {
+   "id": "cne_p191",
+   "name": "读懂旅行日记",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "description": "读旅行日记，找出去了哪里、看见了什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：I went to Hainan. I saw the beach. 去了哪里？",
+    "answer": "海南"
+   }
+  },
+  {
+   "id": "cne_p163",
+   "name": "周末计划",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "description": "认读 film、trip、supermarket 和 dictionary。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「电影」？",
+    "answer": "film"
+   }
+  },
+  {
+   "id": "cne_p164",
+   "name": "be going to 一般将来时",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "description": "用 am、is、are going to 表达打算或将要做的事。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "哪一句表示「我打算去旅行」？",
+    "answer": "I am going to take a trip."
+   }
+  },
+  {
+   "id": "cne_p165",
+   "name": "谈论计划",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "description": "用 be going to 说出周末计划。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说自己明天打算去旅行，应说哪一句？",
+    "answer": "I am going to take a trip tomorrow."
+   }
+  },
+  {
+   "id": "cne_p166",
+   "name": "读懂周末计划",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "description": "读计划短文，找出谁打算做什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：I am going to see a film. Amy is going to the supermarket. Amy 打算去哪里？",
+    "answer": "超市"
+   }
+  },
+  {
+   "id": "cne_p238",
+   "name": "聚会与邀请词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "description": "认读 party、invite、together、join、celebrate 等聚会相关词（Getting together）。",
+   "mastery_criteria": [
+    "能选出聚会词的意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "invite 的意思是？",
+    "answer": "邀请"
+   }
+  },
+  {
+   "id": "cne_p176",
+   "name": "should 提建议",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "description": "用 should 加动词原形提出建议。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "哪一句表示「你应该去看医生」？",
+    "answer": "You should see a doctor."
+   }
+  },
+  {
+   "id": "cne_p178",
+   "name": "读懂感受和建议",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "description": "读短文，找出人物的感受和建议。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：Sarah is sad. She should talk to her friends. Sarah 感觉怎样？",
+    "answer": "难过"
+   }
+  },
+  {
+   "id": "cne_p235",
+   "name": "健康生活词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "description": "认读 healthy、exercise、sleep、diet、habit 等健康生活词（Healthy life）。",
+   "mastery_criteria": [
+    "能选出健康生活词的意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "healthy 的意思是？",
+    "answer": "健康的"
+   }
+  },
+  {
+   "id": "cne_p236",
+   "name": "健康习惯建议",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "description": "用 You should … / You shouldn't … 给出健康生活建议。",
+   "mastery_criteria": [
+    "能选出正确的健康建议句",
+    "能区分应该和不应该"
+   ],
+   "example": {
+    "question": "想建议多锻炼，应选哪一句？",
+    "answer": "You should exercise more."
+   }
+  },
+  {
+   "id": "cne_p237",
+   "name": "读懂健康生活短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "description": "读健康生活短文，找出好习惯和建议。",
+   "mastery_criteria": [
+    "能根据短文选出健康习惯",
+    "能选出和短文一致的句子"
+   ],
+   "example": {
+    "question": "读一读：Tom exercises every day. He sleeps early. 汤姆有什么好习惯？",
+    "answer": "天天锻炼、早睡"
+   }
+  },
+  {
+   "id": "cne_p201",
+   "name": "金钱与花销词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "description": "认读 money、save、spend、cost、pocket money。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "pocket money 的意思是？",
+    "answer": "零花钱"
+   }
+  },
+  {
+   "id": "cne_p202",
+   "name": "用 hundred 和 thousand 说价格",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "description": "用 hundred、thousand 说三位数和四位数的钱数。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "three hundred and five 是多少？",
+    "answer": "305"
+   }
+  },
+  {
+   "id": "cne_p203",
+   "name": "读懂零花钱计划",
+   "domain": "读写",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "description": "读零花钱计划，找出花多少、存多少。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "I get 40 yuan a week. I spend 15 yuan on books and save the rest. 每周存多少元？",
+    "answer": "25"
+   }
+  },
+  {
+   "id": "cne_p239",
+   "name": "谈论存钱计划",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "description": "用 I want to save … / I will spend … on … 谈论零花钱计划。",
+   "mastery_criteria": [
+    "能选出正确的存钱/花钱句子",
+    "能读懂简单计划句"
+   ],
+   "example": {
+    "question": "想说「我想存钱买书」，应选哪一句？",
+    "answer": "I want to save money for books."
+   }
+  },
+  {
+   "id": "cne_p204",
+   "name": "太空词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "description": "认读 space、earth、moon、star、planet、rocket。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「行星」？",
+    "answer": "planet"
+   }
+  },
+  {
+   "id": "cne_p205",
+   "name": "用 will 说未来的太空生活",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "description": "用 will 加动词原形说将来会发生的事。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "I ____ be an astronaut in the future.",
+    "answer": "will"
+   }
+  },
+  {
+   "id": "cne_p206",
+   "name": "读懂太空短文",
+   "domain": "读写",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "description": "读介绍中国航天的短文，找出时间、人物和事件。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "Shenzhou-5 took Yang Liwei into space in 2003. 是哪一年？",
+    "answer": "2003"
+   }
+  },
+  {
+   "id": "cne_p240",
+   "name": "谈论太空探索",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "description": "用 will / be going to 谈论未来的太空旅行或探索。",
+   "mastery_criteria": [
+    "能选出谈论未来太空的句子",
+    "能读懂简单太空计划句"
+   ],
+   "example": {
+    "question": "想说「将来人们会去火星」，应选哪一句？",
+    "answer": "People will go to Mars."
+   }
+  },
+  {
+   "id": "cne_p159",
+   "name": "交通工具",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "认读 bus、plane、ship 和 train。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「公共汽车」？",
+    "answer": "bus"
+   }
+  },
+  {
+   "id": "cne_p160",
+   "name": "must 与交通规则",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "用 must 和 Do not 说明交通规则。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "哪一句表示「你必须停」？",
+    "answer": "You must stop."
+   }
+  },
+  {
+   "id": "cne_p161",
+   "name": "说明出行方式",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "用 I come to school by 说明怎么来学校。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说自己骑自行车来学校，应说哪一句？",
+    "answer": "I come to school by bike."
+   }
+  },
+  {
+   "id": "cne_p162",
+   "name": "读懂交通规则",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "读交通短文，按文字找出规则。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：I come to school by bus. Amy says, \"I come by bike.\" Amy 怎么来学校？",
+    "answer": "骑自行车"
+   }
+  },
+  {
+   "id": "cne_p207",
+   "name": "能源与节约词汇",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "认读 energy、power、save、turn off、solar、wind。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "turn off the lights 的意思是？",
+    "answer": "关灯"
+   }
+  },
+  {
+   "id": "cne_p208",
+   "name": "读懂节能倡议",
+   "domain": "读写",
+   "kp_type": "procedural",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "description": "读节能倡议，找出建议的做法。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "Please ride a bike or walk to school. 这条倡议鼓励什么？",
+    "answer": "绿色出行"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cne_p155_q1",
+   "topic": "cne_p155",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「医院」？",
+   "explain": "hospital 的意思是医院。",
+   "answer_mode": "choice",
+   "options": [
+    "hospital",
+    "cinema",
+    "bookstore",
+    "post office"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p155_q2",
+   "topic": "cne_p155",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「cinema」的中文意思是哪一个？",
+   "explain": "cinema 的意思是电影院。",
+   "answer_mode": "choice",
+   "options": [
+    "医院",
+    "电影院",
+    "书店",
+    "邮局"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p155_q3",
+   "topic": "cne_p155",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「书店」的单词。",
+   "explain": "表示书店的单词是 bookstore。",
+   "answer_mode": "choice",
+   "options": [
+    "hospital",
+    "cinema",
+    "bookstore",
+    "post office"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p155_q4",
+   "topic": "cne_p155",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「邮局」？",
+   "explain": "post office 的意思是邮局。",
+   "answer_mode": "choice",
+   "options": [
+    "hospital",
+    "cinema",
+    "bookstore",
+    "post office"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p156_q1",
+   "topic": "cne_p156",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "想说「在书店左转」，应选哪一句？",
+   "explain": "左转是 Turn left。",
+   "answer_mode": "choice",
+   "options": [
+    "Turn right at the bookstore.",
+    "Turn left at the bookstore.",
+    "Go straight at the bookstore.",
+    "Turn bookstore left."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p156_q2",
+   "topic": "cne_p156",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Where is the hospital? 这句是在问什么？",
+   "explain": "Where is 问地点。",
+   "answer_mode": "choice",
+   "options": [
+    "医院是谁的",
+    "医院里有什么",
+    "医院在哪里",
+    "怎么去电影院"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p156_q3",
+   "topic": "cne_p156",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Go straight. 这句是在说什么？",
+   "explain": "Go straight 是直行。",
+   "answer_mode": "choice",
+   "options": [
+    "左转",
+    "右转",
+    "停下",
+    "直行"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p156_q4",
+   "topic": "cne_p156",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Turn right at the cinema. 在电影院怎么走？",
+   "explain": "Turn right 是右转。",
+   "answer_mode": "choice",
+   "options": [
+    "右转",
+    "左转",
+    "直行",
+    "往回走"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p157_q1",
+   "topic": "cne_p157",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问怎么去医院，应说哪一句？",
+   "explain": "问路说 How can I get to。",
+   "answer_mode": "choice",
+   "options": [
+    "Where is a turn left?",
+    "What is the hospital like?",
+    "How can I get to the hospital?",
+    "When is the hospital?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p157_q2",
+   "topic": "cne_p157",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "The bookstore is next to the cinema. 书店在哪里？",
+   "explain": "next to the cinema 是在电影院旁边。",
+   "answer_mode": "choice",
+   "options": [
+    "在医院里",
+    "在邮局对面很远",
+    "在学校里面",
+    "在电影院旁边"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p157_q3",
+   "topic": "cne_p157",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Turn left at the post office. 在邮局怎样走？",
+   "explain": "Turn left。",
+   "answer_mode": "choice",
+   "options": [
+    "左转",
+    "右转",
+    "直行",
+    "停下"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p157_q4",
+   "topic": "cne_p157",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Is it far? 若很近，应回答哪一句？",
+   "explain": "近是 near，所以用 No。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes. It is far.",
+    "No. It is near.",
+    "Turn right.",
+    "Go to the hospital."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p158_q1",
+   "topic": "cne_p158",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Go straight. Turn left at the bookstore. The hospital is on the right. 在书店怎样走？",
+   "explain": "Turn left at the bookstore。",
+   "answer_mode": "choice",
+   "options": [
+    "右转",
+    "停下",
+    "往回走",
+    "左转"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p158_q2",
+   "topic": "cne_p158",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：The cinema is next to the hospital. 电影院在哪里？",
+   "explain": "next to the hospital。",
+   "answer_mode": "choice",
+   "options": [
+    "在医院旁边",
+    "在书店里面",
+    "在邮局里",
+    "离医院很远"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p158_q3",
+   "topic": "cne_p158",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：How can I get to the post office? Turn right at the cinema. 去邮局要在哪里右转？",
+   "explain": "Turn right at the cinema。",
+   "answer_mode": "choice",
+   "options": [
+    "在书店",
+    "在电影院",
+    "在医院",
+    "在学校"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p158_q4",
+   "topic": "cne_p158",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：It is not far. Go straight and you can see it. 哪一句和短文一致？",
+   "explain": "not far，Go straight。",
+   "answer_mode": "choice",
+   "options": [
+    "很远，要左转。",
+    "在书店左转。",
+    "不远，直行就能看见。",
+    "医院在右边。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p159_q1",
+   "topic": "cne_p159",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「公共汽车」？",
+   "explain": "bus 的意思是公共汽车。",
+   "answer_mode": "choice",
+   "options": [
+    "bus",
+    "plane",
+    "ship",
+    "train"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p159_q2",
+   "topic": "cne_p159",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「plane」的中文意思是哪一个？",
+   "explain": "plane 的意思是飞机。",
+   "answer_mode": "choice",
+   "options": [
+    "公共汽车",
+    "飞机",
+    "轮船",
+    "火车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p159_q3",
+   "topic": "cne_p159",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「轮船」的单词。",
+   "explain": "表示轮船的单词是 ship。",
+   "answer_mode": "choice",
+   "options": [
+    "bus",
+    "plane",
+    "ship",
+    "train"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p159_q4",
+   "topic": "cne_p159",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「火车」？",
+   "explain": "train 的意思是火车。",
+   "answer_mode": "choice",
+   "options": [
+    "bus",
+    "plane",
+    "ship",
+    "train"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p160_q1",
+   "topic": "cne_p160",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「你必须停」？",
+   "explain": "must 后面用动词原形 stop。",
+   "answer_mode": "choice",
+   "options": [
+    "You must stops.",
+    "You must stop.",
+    "You are must stop.",
+    "You stop must."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p160_q2",
+   "topic": "cne_p160",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Do not go at a red light. 红灯时应该怎样？",
+   "explain": "Do not go 是不要走。",
+   "answer_mode": "choice",
+   "options": [
+    "可以走",
+    "必须跑",
+    "不要走",
+    "左转"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p160_q3",
+   "topic": "cne_p160",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "We must look right before crossing. 过马路前必须看哪边？",
+   "explain": "句子写的是 look right。",
+   "answer_mode": "choice",
+   "options": [
+    "左边",
+    "上面",
+    "后面",
+    "右边"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p160_q4",
+   "topic": "cne_p160",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "I must pay attention to the traffic lights. 这句是在说什么？",
+   "explain": "must pay attention to the traffic lights。",
+   "answer_mode": "choice",
+   "options": [
+    "必须注意交通信号灯",
+    "可以不看信号灯",
+    "信号灯在书店",
+    "我不会看信号灯"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p161_q1",
+   "topic": "cne_p161",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说自己骑自行车来学校，应说哪一句？",
+   "explain": "自行车是 by bike。",
+   "answer_mode": "choice",
+   "options": [
+    "I come to school by bus.",
+    "I come to school by train.",
+    "I come to school by bike.",
+    "I come to school by plane."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p161_q2",
+   "topic": "cne_p161",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "How do you come to school? 这句是在问什么？",
+   "explain": "How do you come 问方式。",
+   "answer_mode": "choice",
+   "options": [
+    "学校在哪里",
+    "你必须停下吗",
+    "你喜欢公共汽车吗",
+    "你怎么来学校"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p161_q3",
+   "topic": "cne_p161",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "I usually walk. 这个人通常怎么来？",
+   "explain": "walk 是步行。",
+   "answer_mode": "choice",
+   "options": [
+    "步行",
+    "坐公共汽车",
+    "坐火车",
+    "坐飞机"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p161_q4",
+   "topic": "cne_p161",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Slow down and stop at a yellow light. 黄灯时应该怎样？",
+   "explain": "Slow down and stop。",
+   "answer_mode": "choice",
+   "options": [
+    "加速通过",
+    "减速并停下",
+    "不必看灯",
+    "可以跑"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p162_q1",
+   "topic": "cne_p162",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I come to school by bus. Amy says, \"I come by bike.\" Amy 怎么来学校？",
+   "explain": "引号里写的是 I come by bike。",
+   "answer_mode": "choice",
+   "options": [
+    "坐公共汽车",
+    "步行",
+    "坐火车",
+    "骑自行车"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p162_q2",
+   "topic": "cne_p162",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Do not go at a red light. You must stop. 红灯时必须怎样？",
+   "explain": "must stop。",
+   "answer_mode": "choice",
+   "options": [
+    "停下",
+    "走",
+    "跑",
+    "左转"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p162_q3",
+   "topic": "cne_p162",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：In China, people drive on the right. 在中国，车靠哪边行驶？",
+   "explain": "on the right。",
+   "answer_mode": "choice",
+   "options": [
+    "左边",
+    "右边",
+    "中间",
+    "短文没写"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p162_q4",
+   "topic": "cne_p162",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Some children come by subway. 哪一句和短文一致？",
+   "explain": "by subway。",
+   "answer_mode": "choice",
+   "options": [
+    "所有孩子步行。",
+    "孩子们坐飞机来。",
+    "有些孩子坐地铁来。",
+    "孩子们不来学校。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p163_q1",
+   "topic": "cne_p163",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「电影」？",
+   "explain": "film 的意思是电影。",
+   "answer_mode": "choice",
+   "options": [
+    "film",
+    "trip",
+    "supermarket",
+    "dictionary"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p163_q2",
+   "topic": "cne_p163",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「trip」的中文意思是哪一个？",
+   "explain": "trip 的意思是旅行。",
+   "answer_mode": "choice",
+   "options": [
+    "电影",
+    "旅行",
+    "超市",
+    "词典"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p163_q3",
+   "topic": "cne_p163",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「超市」的单词。",
+   "explain": "表示超市的单词是 supermarket。",
+   "answer_mode": "choice",
+   "options": [
+    "film",
+    "trip",
+    "supermarket",
+    "dictionary"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p163_q4",
+   "topic": "cne_p163",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「词典」？",
+   "explain": "dictionary 的意思是词典。",
+   "answer_mode": "choice",
+   "options": [
+    "film",
+    "trip",
+    "supermarket",
+    "dictionary"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p164_q1",
+   "topic": "cne_p164",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「我打算去旅行」？",
+   "explain": "I 用 am going to。",
+   "answer_mode": "choice",
+   "options": [
+    "I am go to take a trip.",
+    "I am going to take a trip.",
+    "I going to take a trip.",
+    "I are going to take a trip."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p164_q2",
+   "topic": "cne_p164",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "What are you going to do? 这句是在问什么？",
+   "explain": "going to 问打算。",
+   "answer_mode": "choice",
+   "options": [
+    "你正在做什么",
+    "你昨天做了什么",
+    "你打算做什么",
+    "你会做什么"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p164_q3",
+   "topic": "cne_p164",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "She is going to see a film. 她打算做什么？",
+   "explain": "see a film。",
+   "answer_mode": "choice",
+   "options": [
+    "买词典",
+    "去超市",
+    "看望祖父母",
+    "看电影"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p164_q4",
+   "topic": "cne_p164",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "We are going to the supermarket. 我们打算去哪里？",
+   "explain": "the supermarket。",
+   "answer_mode": "choice",
+   "options": [
+    "超市",
+    "电影院",
+    "书店",
+    "医院"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p165_q1",
+   "topic": "cne_p165",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说自己明天打算去旅行，应说哪一句？",
+   "explain": "旅行是 take a trip。",
+   "answer_mode": "choice",
+   "options": [
+    "I am going to see a film tomorrow.",
+    "I am going to the supermarket tomorrow.",
+    "I am going to take a trip tomorrow.",
+    "I am going to buy a dictionary tomorrow."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p165_q2",
+   "topic": "cne_p165",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "What are you going to do this weekend? 这句是在问什么？",
+   "explain": "this weekend 加上 going to 是打算。",
+   "answer_mode": "choice",
+   "options": [
+    "这个周末你正在做什么",
+    "上个周末你做了什么",
+    "你每天做什么",
+    "这个周末你打算做什么"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p165_q3",
+   "topic": "cne_p165",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "He is going to buy a dictionary. 他打算买什么？",
+   "explain": "a dictionary。",
+   "answer_mode": "choice",
+   "options": [
+    "词典",
+    "电影票",
+    "旅行票",
+    "超市里的面包"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p165_q4",
+   "topic": "cne_p165",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Have a good time! 这句是在说什么？",
+   "explain": "Have a good time 是祝对方玩得开心。",
+   "answer_mode": "choice",
+   "options": [
+    "你必须停下",
+    "祝你玩得开心",
+    "请靠右走",
+    "这太贵了"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p166_q1",
+   "topic": "cne_p166",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I am going to see a film. Amy is going to the supermarket. Amy 打算去哪里？",
+   "explain": "Amy is going to the supermarket。",
+   "answer_mode": "choice",
+   "options": [
+    "电影院",
+    "书店",
+    "医院",
+    "超市"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p166_q2",
+   "topic": "cne_p166",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：We are going to take a trip next week. 哪一句和短文一致？",
+   "explain": "are going to take a trip next week。",
+   "answer_mode": "choice",
+   "options": [
+    "我们下周打算去旅行。",
+    "我们正在旅行。",
+    "我们上周旅行了。",
+    "我们不去旅行。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p166_q3",
+   "topic": "cne_p166",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Mike is going to buy a dictionary this evening. Mike 今晚打算买什么？",
+   "explain": "a dictionary。",
+   "answer_mode": "choice",
+   "options": [
+    "电影票",
+    "词典",
+    "面包",
+    "地图"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p166_q4",
+   "topic": "cne_p166",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Sarah says, \"I am going to read a book.\" Sarah 打算做什么？",
+   "explain": "引号里是 read a book。",
+   "answer_mode": "choice",
+   "options": [
+    "看电影",
+    "去超市",
+    "看书",
+    "去旅行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p176_q1",
+   "topic": "cne_p176",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「你应该去看医生」？",
+   "explain": "should 后面用动词原形 see。",
+   "answer_mode": "choice",
+   "options": [
+    "You should sees a doctor.",
+    "You should see a doctor.",
+    "You are should see a doctor.",
+    "You see should a doctor."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p176_q2",
+   "topic": "cne_p176",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I feel ill. 这句的意思是？",
+   "explain": "ill 是不舒服。",
+   "answer_mode": "choice",
+   "options": [
+    "我很高兴",
+    "我很生气",
+    "我感到不舒服",
+    "我很害怕"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p176_q3",
+   "topic": "cne_p176",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "You should wear warm clothes. 这是在做什么？",
+   "explain": "should 用来提建议。",
+   "answer_mode": "choice",
+   "options": [
+    "描述过去",
+    "询问价格",
+    "问路",
+    "提出建议"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p176_q4",
+   "topic": "cne_p176",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Do not be sad. 这句的意思是？",
+   "explain": "sad 是难过。",
+   "answer_mode": "choice",
+   "options": [
+    "别难过",
+    "别生气",
+    "别害怕",
+    "别高兴"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p178_q1",
+   "topic": "cne_p178",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Sarah is sad. She should talk to her friends. Sarah 感觉怎样？",
+   "explain": "sad。",
+   "answer_mode": "choice",
+   "options": [
+    "生气",
+    "害怕",
+    "高兴",
+    "难过"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p178_q2",
+   "topic": "cne_p178",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I am ill. I should see a doctor. 哪一句和短文一致？",
+   "explain": "ill，should see a doctor。",
+   "answer_mode": "choice",
+   "options": [
+    "我不舒服，应该去看医生。",
+    "我很高兴。",
+    "我不应该看医生。",
+    "我很害怕猫。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p178_q3",
+   "topic": "cne_p178",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：He is angry. He should take a deep breath. 他应该做什么？",
+   "explain": "take a deep breath。",
+   "answer_mode": "choice",
+   "options": [
+    "去旅行",
+    "深呼吸",
+    "买词典",
+    "骑自行车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p178_q4",
+   "topic": "cne_p178",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：The cat is happy. The mouse is afraid. 谁很高兴？",
+   "explain": "The cat is happy。",
+   "answer_mode": "choice",
+   "options": [
+    "老鼠",
+    "医生",
+    "猫",
+    "两个都高兴"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p185_q1",
+   "topic": "cne_p185",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "clean 的过去式是哪一个？",
+   "explain": "规则动词 clean 的过去式是 cleaned。",
+   "answer_mode": "choice",
+   "options": [
+    "cleans",
+    "cleaning",
+    "cleaned",
+    "clean"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p185_q2",
+   "topic": "cne_p185",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「我上周末打扫了房间」？",
+   "explain": "last weekend 要和过去式 cleaned 一起用。",
+   "answer_mode": "choice",
+   "options": [
+    "I clean my room last weekend.",
+    "I cleaning my room last weekend.",
+    "I cleans my room last weekend.",
+    "I cleaned my room last weekend."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p185_q3",
+   "topic": "cne_p185",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "watched 是哪个动词的过去式？",
+   "explain": "watched 来自 watch。",
+   "answer_mode": "choice",
+   "options": [
+    "watch",
+    "wash",
+    "walk",
+    "want"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p185_q4",
+   "topic": "cne_p185",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "I stayed at home. 这句说的是什么时候的事？",
+   "explain": "stayed 是过去式。",
+   "answer_mode": "choice",
+   "options": [
+    "正在发生的事",
+    "已经发生的事",
+    "将要做的事",
+    "每天的习惯"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p186_q1",
+   "topic": "cne_p186",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "____ you clean your room? 问过去的事，横线上应填哪个词？",
+   "explain": "问过去用 Did。",
+   "answer_mode": "choice",
+   "options": [
+    "Do",
+    "Does",
+    "Are",
+    "Did"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p186_q2",
+   "topic": "cne_p186",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Did you watch TV? 肯定回答应选哪一句？",
+   "explain": "Did 的肯定回答是 Yes, I did。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I did.",
+    "Yes, I do.",
+    "Yes, I was.",
+    "Yes, I watched."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p186_q3",
+   "topic": "cne_p186",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "Did 后面用动词原形 wash。",
+   "answer_mode": "choice",
+   "options": [
+    "Did he washed his clothes?",
+    "Did he wash his clothes?",
+    "Does he washed his clothes?",
+    "Did he washes his clothes?"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p186_q4",
+   "topic": "cne_p186",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "I did not stay at home. 这句的意思是？",
+   "explain": "did not stay 表示过去没有待着。",
+   "answer_mode": "choice",
+   "options": [
+    "我待在家里",
+    "我正待在家里",
+    "我没有待在家里",
+    "我将待在家里"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p189_q1",
+   "topic": "cne_p189",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "go 的过去式是哪一个？",
+   "explain": "go 的过去式是 went。",
+   "answer_mode": "choice",
+   "options": [
+    "goed",
+    "goes",
+    "went",
+    "going"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p189_q2",
+   "topic": "cne_p189",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "see 的过去式是哪一个？",
+   "explain": "see 的过去式是 saw。",
+   "answer_mode": "choice",
+   "options": [
+    "seed",
+    "seen",
+    "sees",
+    "saw"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p189_q3",
+   "topic": "cne_p189",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "过去去了某地说 went。",
+   "answer_mode": "choice",
+   "options": [
+    "I went to the park.",
+    "I goed to the park.",
+    "I go to the park yesterday.",
+    "I going to the park yesterday."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p189_q4",
+   "topic": "cne_p189",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "eat 的过去式是哪一个？",
+   "explain": "eat 的过去式是 ate。",
+   "answer_mode": "choice",
+   "options": [
+    "eated",
+    "ate",
+    "eats",
+    "eating"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p190_q1",
+   "topic": "cne_p190",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方去了哪里，应说哪一句？",
+   "explain": "问过去去向用 Where did you go?",
+   "answer_mode": "choice",
+   "options": [
+    "Where do you go?",
+    "Where are you going?",
+    "Where did you went?",
+    "Where did you go?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p190_q2",
+   "topic": "cne_p190",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I went to Xinjiang. 去了哪里？",
+   "explain": "Xinjiang 是新疆。",
+   "answer_mode": "choice",
+   "options": [
+    "新疆",
+    "北京",
+    "上海",
+    "海南"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p190_q3",
+   "topic": "cne_p190",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "What did you do there? 这句是在问什么？",
+   "explain": "did you do there 问过去在那里做的事。",
+   "answer_mode": "choice",
+   "options": [
+    "你要去哪里",
+    "你在那里做了什么",
+    "你正在做什么",
+    "你喜欢那里吗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p190_q4",
+   "topic": "cne_p190",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "I saw grapes and ate good food. 做了什么？",
+   "explain": "saw grapes and ate good food。",
+   "answer_mode": "choice",
+   "options": [
+    "只去了公园",
+    "洗了衣服",
+    "看见了葡萄，还吃了好吃的",
+    "看了电影"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p191_q1",
+   "topic": "cne_p191",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I went to Hainan. I saw the beach. 去了哪里？",
+   "explain": "went to Hainan。",
+   "answer_mode": "choice",
+   "options": [
+    "海南",
+    "新疆",
+    "北京",
+    "上海"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p191_q2",
+   "topic": "cne_p191",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：We ate fresh food and took pictures. 哪一句和日记一致？",
+   "explain": "ate fresh food and took pictures。",
+   "answer_mode": "choice",
+   "options": [
+    "我们没有吃东西。",
+    "我们吃了新鲜的食物，还拍了照片。",
+    "我们去了学校。",
+    "我们洗了衣服。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p191_q3",
+   "topic": "cne_p191",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Where did you go? I went to a forest. 去了什么地方？",
+   "explain": "a forest。",
+   "answer_mode": "choice",
+   "options": [
+    "一片海滩",
+    "一家医院",
+    "一片森林",
+    "一家商店"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p191_q4",
+   "topic": "cne_p191",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Amazing places",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：I saw a mule. It was interesting. 看见了什么？",
+   "explain": "a mule 是骡子。",
+   "answer_mode": "choice",
+   "options": [
+    "一匹马",
+    "一只猫",
+    "一条狗",
+    "一头骡子"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p201_q1",
+   "topic": "cne_p201",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "pocket money 的意思是？",
+   "explain": "pocket money 是零花钱。",
+   "answer_mode": "choice",
+   "options": [
+    "口袋",
+    "商店",
+    "零花钱",
+    "钱包"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p201_q2",
+   "topic": "cne_p201",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "I want to ____ money for a new bike. 我想为买新车攒钱。",
+   "explain": "攒钱用 save。",
+   "answer_mode": "choice",
+   "options": [
+    "cost",
+    "spend",
+    "save",
+    "sell"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p201_q3",
+   "topic": "cne_p201",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "「花钱」用哪个英文动词？",
+   "explain": "spend money 是花钱。",
+   "answer_mode": "choice",
+   "options": [
+    "spend",
+    "send",
+    "spell",
+    "save"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p201_q4",
+   "topic": "cne_p201",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "The book ____ 20 yuan. 这本书要 20 元。",
+   "explain": "物品价格用 cost，主语单数用 costs。",
+   "answer_mode": "choice",
+   "options": [
+    "saves",
+    "spends",
+    "buys",
+    "costs"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p202_q1",
+   "topic": "cne_p202",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "three hundred and five 是多少？",
+   "explain": "three hundred 是 300，and five 是 5。",
+   "answer_mode": "choice",
+   "options": [
+    "305",
+    "350",
+    "35",
+    "3005"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p202_q2",
+   "topic": "cne_p202",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "1,200 用英语怎么读？",
+   "explain": "1,000 是 one thousand，200 是 two hundred。",
+   "answer_mode": "choice",
+   "options": [
+    "one hundred two thousand",
+    "twelve thousand",
+    "one thousand two hundred",
+    "one thousand twenty"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p202_q3",
+   "topic": "cne_p202",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪个写法正确表示 500？",
+   "explain": "具体数字前的 hundred 不加 s。",
+   "answer_mode": "choice",
+   "options": [
+    "fifty hundred",
+    "five hundreds",
+    "five hundred and",
+    "five hundred"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p202_q4",
+   "topic": "cne_p202",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "The bike is 680 yuan. 680 读作？",
+   "explain": "680 = 600 + 80。",
+   "answer_mode": "choice",
+   "options": [
+    "six hundred and eighty",
+    "sixty-eight",
+    "six thousand eighty",
+    "six hundred and eighteen"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p203_q1",
+   "topic": "cne_p203",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "I get 40 yuan a week. I spend 15 yuan on books and save the rest. 每周存多少元？",
+   "explain": "40 − 15 = 25。",
+   "answer_mode": "choice",
+   "options": [
+    "55",
+    "25",
+    "40",
+    "15"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p203_q2",
+   "topic": "cne_p203",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Amy saves 10 yuan every week. How much does she save in 4 weeks?",
+   "explain": "10 × 4 = 40。",
+   "answer_mode": "choice",
+   "options": [
+    "10 yuan",
+    "4 yuan",
+    "40 yuan",
+    "14 yuan"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p203_q3",
+   "topic": "cne_p203",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tom: I don't buy snacks. I put the money in my piggy bank. Tom 在做什么？",
+   "explain": "piggy bank 是存钱罐，他在存钱。",
+   "answer_mode": "choice",
+   "options": [
+    "花钱买零食",
+    "丢了钱",
+    "存钱",
+    "借钱"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p203_q4",
+   "topic": "cne_p203",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句是好的用钱建议？",
+   "explain": "先做计划再花钱。",
+   "answer_mode": "choice",
+   "options": [
+    "Spend all your money at once.",
+    "Never count your money.",
+    "Buy everything you see.",
+    "Make a plan before you spend money."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p204_q1",
+   "topic": "cne_p204",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「行星」？",
+   "explain": "planet 是行星。",
+   "answer_mode": "choice",
+   "options": [
+    "planet",
+    "plant",
+    "plate",
+    "plane"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p204_q2",
+   "topic": "cne_p204",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "We live on the ____. 我们住在地球上。",
+   "explain": "人类住在地球 earth 上。",
+   "answer_mode": "choice",
+   "options": [
+    "moon",
+    "star",
+    "earth",
+    "sun"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p204_q3",
+   "topic": "cne_p204",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "At night, we can see the ____ and stars.",
+   "explain": "夜里能看到月亮和星星。",
+   "answer_mode": "choice",
+   "options": [
+    "rocket",
+    "sun",
+    "rain",
+    "moon"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p204_q4",
+   "topic": "cne_p204",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "space 在 Exploring space 中的意思是？",
+   "explain": "Exploring space 是探索太空。",
+   "answer_mode": "choice",
+   "options": [
+    "太空",
+    "地方",
+    "空房间",
+    "空格"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p205_q1",
+   "topic": "cne_p205",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I ____ be an astronaut in the future.",
+   "explain": "说将来用 will 加动词原形。",
+   "answer_mode": "choice",
+   "options": [
+    "will",
+    "am",
+    "did",
+    "was"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p205_q2",
+   "topic": "cne_p205",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句正确？",
+   "explain": "will 后面接动词原形。",
+   "answer_mode": "choice",
+   "options": [
+    "We wills visit Mars one day.",
+    "We will visits Mars one day.",
+    "We will visit Mars one day.",
+    "We will visiting Mars one day."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p205_q3",
+   "topic": "cne_p205",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Will people travel to space? 肯定回答是？",
+   "explain": "Will 提问用 will 回答。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, they are.",
+    "Yes, they will.",
+    "Yes, they do.",
+    "Yes, they did."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p205_q4",
+   "topic": "cne_p205",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "「机器人将会帮助宇航员」哪一句对？",
+   "explain": "will help 表示将来。",
+   "answer_mode": "choice",
+   "options": [
+    "Robots will help astronauts.",
+    "Robots are help astronauts.",
+    "Robots will helped astronauts.",
+    "Robots helped astronauts."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p206_q1",
+   "topic": "cne_p206",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Shenzhou-5 took Yang Liwei into space in 2003. 是哪一年？",
+   "explain": "原文写 in 2003。",
+   "answer_mode": "choice",
+   "options": [
+    "2013",
+    "2003",
+    "2005",
+    "2030"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p206_q2",
+   "topic": "cne_p206",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Chang'e-5 brought back soil from the moon. 带回了什么？",
+   "explain": "soil from the moon 是月球土壤。",
+   "answer_mode": "choice",
+   "options": [
+    "月球土壤",
+    "太空水",
+    "火星石头",
+    "星星"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p206_q3",
+   "topic": "cne_p206",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The astronauts live and work in the space station for six months. 他们在空间站待多久？",
+   "explain": "six months 是六个月。",
+   "answer_mode": "choice",
+   "options": [
+    "六个月",
+    "六年",
+    "六天",
+    "六周"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p206_q4",
+   "topic": "cne_p206",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Tiangong is China's space station. Tiangong 是什么？",
+   "explain": "space station 是空间站。",
+   "answer_mode": "choice",
+   "options": [
+    "一枚火箭",
+    "一颗行星",
+    "一个月亮",
+    "中国的空间站"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p207_q1",
+   "topic": "cne_p207",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "turn off the lights 的意思是？",
+   "explain": "turn off 是关掉。",
+   "answer_mode": "choice",
+   "options": [
+    "修灯",
+    "开灯",
+    "换灯",
+    "关灯"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p207_q2",
+   "topic": "cne_p207",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "solar energy 是什么能？",
+   "explain": "solar 和太阳有关。",
+   "answer_mode": "choice",
+   "options": [
+    "水能",
+    "煤炭",
+    "风能",
+    "太阳能"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p207_q3",
+   "topic": "cne_p207",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "We can ____ energy by taking the bus. 坐公交可以节约能源。",
+   "explain": "节约用 save。",
+   "answer_mode": "choice",
+   "options": [
+    "spend",
+    "save",
+    "make",
+    "waste"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p207_q4",
+   "topic": "cne_p207",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪种做法会浪费能源？",
+   "explain": "整夜开着电视浪费电。",
+   "answer_mode": "choice",
+   "options": [
+    "Leave the TV on all night.",
+    "Walk to school.",
+    "Use both sides of paper.",
+    "Turn off the lights."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p208_q1",
+   "topic": "cne_p208",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Please ride a bike or walk to school. 这条倡议鼓励什么？",
+   "explain": "骑车或步行是绿色出行。",
+   "answer_mode": "choice",
+   "options": [
+    "在家上课",
+    "多买自行车",
+    "绿色出行",
+    "多坐出租车"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p208_q2",
+   "topic": "cne_p208",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "Don't leave the lights on. 意思是？",
+   "explain": "leave the lights on 是让灯一直亮着。",
+   "answer_mode": "choice",
+   "options": [
+    "灯坏了",
+    "不要买灯",
+    "不要开着灯不关",
+    "不要关灯"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p208_q3",
+   "topic": "cne_p208",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "Save energy, save our earth! 这句话的主题是？",
+   "explain": "energy 是能源，earth 是地球。",
+   "answer_mode": "choice",
+   "options": [
+    "学好英语",
+    "节约零花钱",
+    "节约能源，保护地球",
+    "探索太空"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p208_q4",
+   "topic": "cne_p208",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Energy, nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合写进节能倡议？",
+   "explain": "走楼梯少用电梯，能省电。",
+   "answer_mode": "choice",
+   "options": [
+    "Open the fridge often.",
+    "Use the stairs, not the lift, for one floor.",
+    "Keep the air conditioner on all day.",
+    "Print every page twice."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p238_q1",
+   "topic": "cne_p238",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "invite 的意思是？",
+   "explain": "invite 是邀请。",
+   "answer_mode": "choice",
+   "options": [
+    "邀请",
+    "参加",
+    "庆祝",
+    "聚会"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p238_q2",
+   "topic": "cne_p238",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「聚会」？",
+   "explain": "party 是聚会。",
+   "answer_mode": "choice",
+   "options": [
+    "invite",
+    "join",
+    "plan",
+    "party"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p238_q3",
+   "topic": "cne_p238",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "「一起」用哪个词？",
+   "explain": "together 是一起。",
+   "answer_mode": "choice",
+   "options": [
+    "alone",
+    "never",
+    "together",
+    "invite"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p238_q4",
+   "topic": "cne_p238",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·Getting together",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "celebrate 的意思是？",
+   "explain": "celebrate 是庆祝。",
+   "answer_mode": "choice",
+   "options": [
+    "拒绝",
+    "庆祝",
+    "取消",
+    "邀请"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p235_q1",
+   "topic": "cne_p235",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "healthy 的意思是？",
+   "explain": "healthy 是健康的。",
+   "answer_mode": "choice",
+   "options": [
+    "健康的",
+    "生病的",
+    "忙碌的",
+    "懒惰的"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p235_q2",
+   "topic": "cne_p235",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "exercise 的意思是？",
+   "explain": "exercise 是锻炼。",
+   "answer_mode": "choice",
+   "options": [
+    "睡觉",
+    "饮食",
+    "习惯",
+    "锻炼"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p235_q3",
+   "topic": "cne_p235",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "「习惯」用哪个词？",
+   "explain": "habit 是习惯。",
+   "answer_mode": "choice",
+   "options": [
+    "sleep",
+    "party",
+    "habit",
+    "diet"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p235_q4",
+   "topic": "cne_p235",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "A good ____ helps you grow.",
+   "explain": "diet 可指饮食。",
+   "answer_mode": "choice",
+   "options": [
+    "fight",
+    "diet",
+    "noise",
+    "mess"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p236_q1",
+   "topic": "cne_p236",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想建议多锻炼，应选哪一句？",
+   "explain": "should + 动词原形。",
+   "answer_mode": "choice",
+   "options": [
+    "You should exercise more.",
+    "You should exercising more.",
+    "You shouldn't exercise more.",
+    "You should exercises more."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p236_q2",
+   "topic": "cne_p236",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "You shouldn't stay up late. 这句建议是？",
+   "explain": "shouldn't 表示不该。",
+   "answer_mode": "choice",
+   "options": [
+    "应该熬夜",
+    "必须熬夜",
+    "可以不睡觉",
+    "不该熬夜"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p236_q3",
+   "topic": "cne_p236",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "哪一句是健康建议？",
+   "explain": "早睡是健康建议。",
+   "answer_mode": "choice",
+   "options": [
+    "You shouldn't drink water.",
+    "You should never exercise.",
+    "You should sleep early.",
+    "You should eat junk food every day."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p236_q4",
+   "topic": "cne_p236",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "To keep healthy, you ____ eat fruit.",
+   "explain": "should 表示建议。",
+   "answer_mode": "choice",
+   "options": [
+    "don't can",
+    "should",
+    "shouldn't",
+    "aren't"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p237_q1",
+   "topic": "cne_p237",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Tom exercises every day. He sleeps early. 汤姆有什么好习惯？",
+   "explain": "exercises every day … sleeps early。",
+   "answer_mode": "choice",
+   "options": [
+    "天天锻炼、早睡",
+    "从不锻炼",
+    "天天熬夜",
+    "只吃零食"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p237_q2",
+   "topic": "cne_p237",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：You should eat more vegetables. 短文建议吃什么？",
+   "explain": "more vegetables。",
+   "answer_mode": "choice",
+   "options": [
+    "更多糖果",
+    "更少水",
+    "不吃饭",
+    "更多蔬菜"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p237_q3",
+   "topic": "cne_p237",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：A healthy life needs good habits. Amy has a good diet. 哪一句一致？",
+   "explain": "good diet。",
+   "answer_mode": "choice",
+   "options": [
+    "健康生活不需要习惯。",
+    "艾米从不吃饭。",
+    "艾米饮食较好。",
+    "艾米没有好习惯。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p237_q4",
+   "topic": "cne_p237",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Healthy life",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Don't sit too long. Go out and exercise. 短文建议？",
+   "explain": "Don't sit too long. Go out and exercise。",
+   "answer_mode": "choice",
+   "options": [
+    "只在室内睡觉",
+    "别久坐，出去锻炼",
+    "一直坐着",
+    "不要锻炼"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p239_q1",
+   "topic": "cne_p239",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说「我想存钱买书」，应选哪一句？",
+   "explain": "want to save money for …",
+   "answer_mode": "choice",
+   "options": [
+    "I want to save money for books.",
+    "I want to spend money for save.",
+    "I want save money books.",
+    "I wants to save money."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p239_q2",
+   "topic": "cne_p239",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I will spend 10 yuan on fruit. 我打算？",
+   "explain": "spend … on … 是花钱买。",
+   "answer_mode": "choice",
+   "options": [
+    "存 10 元",
+    "卖水果",
+    "借 10 元",
+    "花 10 元买水果"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p239_q3",
+   "topic": "cne_p239",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "哪一句是存钱计划？",
+   "explain": "save pocket money。",
+   "answer_mode": "choice",
+   "options": [
+    "I never save.",
+    "I lose money on purpose.",
+    "I will save my pocket money.",
+    "I will spend all money today."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p239_q4",
+   "topic": "cne_p239",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Managing money well",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "She wants to ____ money for a gift.",
+   "explain": "攒钱用 save。",
+   "answer_mode": "choice",
+   "options": [
+    "price",
+    "save",
+    "cost",
+    "cheap"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p240_q1",
+   "topic": "cne_p240",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说「将来人们会去火星」，应选哪一句？",
+   "explain": "will + 动词原形表将来。",
+   "answer_mode": "choice",
+   "options": [
+    "People will go to Mars.",
+    "People will goes to Mars.",
+    "People going to Mars yesterday.",
+    "People go to Mars yesterday."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p240_q2",
+   "topic": "cne_p240",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I am going to be an astronaut. 这句是在说？",
+   "explain": "be going to 表打算。",
+   "answer_mode": "choice",
+   "options": [
+    "我昨天是宇航员",
+    "我不是宇航员",
+    "我害怕太空",
+    "我打算当宇航员"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p240_q3",
+   "topic": "cne_p240",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "哪一句谈未来太空生活？",
+   "explain": "will live 表将来。",
+   "answer_mode": "choice",
+   "options": [
+    "We never will.",
+    "Space is a book.",
+    "We will live on a space station.",
+    "We lived on a space station yesterday only."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p240_q4",
+   "topic": "cne_p240",
+   "subject": "english",
+   "grade": 6,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Exploring space",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "They ____ explore the moon next year.",
+   "explain": "next year 用 will。",
+   "answer_mode": "choice",
+   "options": [
+    "was",
+    "will",
+    "did",
+    "are"
+   ],
+   "answer": 2
+  }
+ ]
+}

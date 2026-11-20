@@ -1,0 +1,772 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 鲁科版 八年级生物上册(2026秋版)(五四制)；知识点/题目复用通用生物池",
+  "path": "lkb/shengwu/ws8s_2026",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 8,
+ "semester": "upper",
+ "edition": "lkb",
+ "edition_label": "鲁科版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第六章 人体生命活动的调节"
+  },
+  {
+   "id": "u2",
+   "name": "第七章 传染病和免疫"
+  },
+  {
+   "id": "u3",
+   "name": "第八章 健康地生活"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j037",
+   "name": "流动的组织——血液",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "description": "能说出血浆和三种血细胞的功能，并解释贫血的常见原因。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "血液由哪两部分组成？",
+    "answer": "血浆和血细胞"
+   }
+  },
+  {
+   "id": "cnb_j042",
+   "name": "神经调节",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "description": "能说出反射弧的五个部分，并区分简单反射和复杂反射。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "完成反射的神经结构是？",
+    "answer": "反射弧"
+   }
+  },
+  {
+   "id": "cnb_j044",
+   "name": "激素调节",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "description": "能说出生长激素、甲状腺激素和胰岛素的主要作用及异常时的表现。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "幼年时期生长激素分泌不足，可能患？",
+    "answer": "侏儒症"
+   }
+  },
+  {
+   "id": "cnb_j045",
+   "name": "传染病及其预防",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "description": "能说出传染病流行的三个环节和预防措施。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "传染病流行必须同时具备？",
+    "answer": "传染源、传播途径和易感人群"
+   }
+  },
+  {
+   "id": "cnb_j046",
+   "name": "免疫与免疫规划",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "description": "能区分三道免疫防线，并说明接种疫苗属于免疫规划。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "皮肤和黏膜阻挡病原体，属于？",
+    "answer": "第一道防线"
+   }
+  },
+  {
+   "id": "cnb_j047",
+   "name": "用药与急救",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "description": "能区分处方药和非处方药，并知道常见急救原则。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "非处方药的英文简称是？",
+    "answer": "OTC"
+   }
+  },
+  {
+   "id": "cnb_j048",
+   "name": "选择健康的生活方式",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "description": "能说明吸烟、酗酒、毒品和缺乏运动对健康的危害。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "健康的生活方式包括？",
+    "answer": "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j037_q1",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "血液由哪两部分组成？",
+   "explain": "血细胞包括红细胞、白细胞和血小板。",
+   "answer_mode": "choice",
+   "options": [
+    "只有红细胞",
+    "血清和氧气",
+    "血浆和血细胞",
+    "淋巴和胆汁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j037_q2",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "运输氧的血细胞是？",
+   "explain": "红细胞里的血红蛋白在氧含量高的地方与氧结合，在氧含量低的地方释放氧。",
+   "answer_mode": "choice",
+   "options": [
+    "白细胞",
+    "血小板",
+    "血浆中的纤维蛋白",
+    "红细胞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j037_q3",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "人体受伤后能够止血，与哪种血细胞有关？",
+   "explain": "血小板在伤口处聚集成团并促进凝血。",
+   "answer_mode": "choice",
+   "options": [
+    "血小板",
+    "只有白细胞",
+    "成熟红细胞有细胞核所以能止血",
+    "叶绿体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j037_q4",
+   "topic": "cnb_j037",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "医生说某人贫血，通常是指？",
+   "explain": "血红蛋白或红细胞不足，血液运输氧的能力下降。",
+   "answer_mode": "choice",
+   "options": [
+    "白细胞过多",
+    "红细胞数量过少或血红蛋白含量过低",
+    "血小板过多",
+    "血浆中水太多"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j042_q2",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "膝跳反射的神经中枢位于？",
+   "explain": "膝跳反射是简单反射，神经中枢在脊髓。",
+   "answer_mode": "choice",
+   "options": [
+    "脊髓",
+    "大脑皮层",
+    "小脑",
+    "耳蜗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j042_q3",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "望梅止渴属于？",
+   "explain": "在吃过梅的经验之后，看到梅就能分泌唾液，这是后天形成的复杂反射。",
+   "answer_mode": "choice",
+   "options": [
+    "生来就有的简单反射",
+    "复杂反射，要经过后天学习",
+    "不需要大脑皮层参与",
+    "只靠激素、不靠神经"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j042_q4",
+   "topic": "cnb_j042",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "如果反射弧中的传入神经受损，刺激感受器后？",
+   "explain": "反射弧的五个部分缺一不可，冲动到不了神经中枢。",
+   "answer_mode": "choice",
+   "options": [
+    "反射仍然完整",
+    "只有效应器自己收缩、与神经无关",
+    "不能产生反射",
+    "神经中枢会直接看到刺激"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j044_q1",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "幼年时期生长激素分泌不足，可能患？",
+   "explain": "侏儒症智力一般正常；幼年甲状腺激素不足才会患呆小症，智力受影响。",
+   "answer_mode": "choice",
+   "options": [
+    "呆小症",
+    "侏儒症",
+    "糖尿病",
+    "甲亢"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j044_q2",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "胰岛素的主要作用是？",
+   "explain": "胰岛素由胰岛分泌，能促进组织细胞摄取和利用葡萄糖。",
+   "answer_mode": "choice",
+   "options": [
+    "促进生长发育",
+    "提高神经系统兴奋性",
+    "降低血糖",
+    "促进生殖器官发育"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j044_q3",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "体内缺碘，合成甲状腺激素的原料不足，可能引起？",
+   "explain": "甲状腺激素的合成需要碘；缺碘时甲状腺会代偿性增生。",
+   "answer_mode": "choice",
+   "options": [
+    "侏儒症",
+    "坏血病",
+    "夜盲症",
+    "地方性甲状腺肿"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j044_q4",
+   "topic": "cnb_j044",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u1",
+   "unit_name": "第六章 人体生命活动的调节",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "神经调节和激素调节相比？",
+   "explain": "人体以神经调节为主，激素调节配合，共同维持稳定。",
+   "answer_mode": "choice",
+   "options": [
+    "神经调节迅速、准确，激素调节作用时间通常较长",
+    "激素调节不需要体液运输",
+    "两者不能配合",
+    "只有激素能对刺激作出反应"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j045_q1",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "传染病流行必须同时具备？",
+   "explain": "三个环节缺少任何一个，传染病就不能在人群中流行。",
+   "answer_mode": "choice",
+   "options": [
+    "只有易感人群",
+    "只有病原体、没有传染源",
+    "传染源、传播途径和易感人群",
+    "健康的生活环境就一定会流行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j045_q2",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "对患传染病的人进行隔离治疗，属于？",
+   "explain": "传染源是能够散播病原体的人或动物；隔离是为了控制传染源。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "保护易感人群",
+    "增加易感者",
+    "控制传染源"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j045_q3",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "开窗通风、食物器具消毒，主要是？",
+   "explain": "这些做法减少病原体从传染源到达健康人的机会。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "控制全部易感人群的遗传物质",
+    "消灭所有人体细胞",
+    "代替接种疫苗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j045_q4",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "艾滋病病毒主要不会通过哪一方式传播？",
+   "explain": "艾滋病通过血液、性接触和母婴传播；一般握手、共同进餐不会感染。",
+   "answer_mode": "choice",
+   "options": [
+    "输入含病毒的血液",
+    "一起进餐和握手",
+    "不安全性行为",
+    "母婴传播"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q1",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "皮肤和黏膜阻挡病原体，属于？",
+   "explain": "第一道防线是皮肤和黏膜；体液中的杀菌物质和吞噬细胞是第二道防线。",
+   "answer_mode": "choice",
+   "options": [
+    "第三道防线",
+    "特异性免疫",
+    "免疫规划",
+    "第一道防线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j046_q2",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "接种疫苗后产生抗体，这种免疫是？",
+   "explain": "疫苗相当于抗原，促使淋巴细胞产生相应抗体，只针对特定病原体。",
+   "answer_mode": "choice",
+   "options": [
+    "特异性免疫",
+    "第一道防线",
+    "生来就有、对所有病原体完全相同的非特异性免疫",
+    "只由皮肤完成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j046_q3",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "按规定有计划地接种疫苗，叫做？",
+   "explain": "免疫规划是保护易感人群的重要措施。",
+   "answer_mode": "choice",
+   "options": [
+    "控制传染源的隔离",
+    "免疫规划",
+    "非处方药治疗",
+    "反射弧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q4",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u2",
+   "unit_name": "第七章 传染病和免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "免疫的功能不包括？",
+   "explain": "免疫有防御、自稳和监视功能；免疫过强可能引起过敏或自身免疫病。",
+   "answer_mode": "choice",
+   "options": [
+    "抵抗抗原的侵入",
+    "清除体内衰老、死亡的细胞",
+    "制造病原体让疾病流行",
+    "监视并清除异常细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q1",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "非处方药的英文简称是？",
+   "explain": "OTC 可以按说明书自行购买使用；处方药必须凭医师处方。",
+   "answer_mode": "choice",
+   "options": [
+    "OTC",
+    "DNA",
+    "HIV",
+    "AQI"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j047_q2",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "用药时正确的做法是？",
+   "explain": "加大剂量或服用过期药都可能造成伤害。",
+   "answer_mode": "choice",
+   "options": [
+    "把几种药一起加倍服用",
+    "按说明书或医嘱使用，不随意加大剂量",
+    "过期药只要没有变色就可以吃",
+    "用别人的处方药给自己治病"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j047_q3",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "动脉出血时，止血带应压迫在？",
+   "explain": "动脉血从心脏流向伤口，近心端压迫才能阻断来血；静脉出血则压远心端。",
+   "answer_mode": "choice",
+   "options": [
+    "伤口的远心端",
+    "手指末端无论伤口在哪里",
+    "伤口的近心端",
+    "只压迫静脉的远心端"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q4",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "发现有人煤气中毒，首先应？",
+   "explain": "煤气的主要成分一氧化碳会与血红蛋白结合；先脱离现场并保持呼吸通畅。",
+   "answer_mode": "choice",
+   "options": [
+    "在密闭房间里点火查看",
+    "让中毒者继续躺在泄漏点旁边",
+    "先喂食物再开门",
+    "打开门窗，把人移到通风处，再拨打急救电话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q1",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "健康的生活方式包括？",
+   "explain": "这些习惯能降低心血管疾病和部分癌症的风险。",
+   "answer_mode": "choice",
+   "options": [
+    "用吸烟提神",
+    "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品",
+    "每天只睡很少时间",
+    "靠饮料代替饮水"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j048_q2",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "酗酒对人体危害最大的系统之一是？",
+   "explain": "酒精麻痹神经系统，长期饮酒还会损害肝脏和心血管。",
+   "answer_mode": "choice",
+   "options": [
+    "可以保护肝脏",
+    "只影响头发颜色",
+    "神经系统",
+    "使免疫力无限提高"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j048_q3",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "毒品危害健康，根本原因是？",
+   "explain": "毒品会损害脑和神经系统，一旦成瘾很难戒断。",
+   "answer_mode": "choice",
+   "options": [
+    "可以代替一日三餐",
+    "能提高学习效率且没有依赖",
+    "只影响皮肤颜色",
+    "损害神经系统，而且容易成瘾"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q4",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "lkb",
+   "unit": "u3",
+   "unit_name": "第八章 健康地生活",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "为了降低心血管疾病的风险，合适的做法是？",
+   "explain": "生活方式与心血管疾病、癌症有关，预防要从饮食、运动和戒烟做起。",
+   "answer_mode": "choice",
+   "options": [
+    "少吃高脂食物，经常运动，不吸烟",
+    "用静坐代替所有活动",
+    "每天大量饮酒",
+    "自行长期服用未经医生同意的激素"
+   ],
+   "answer": 1
+  }
+ ]
+}

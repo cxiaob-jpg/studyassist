@@ -1,0 +1,3952 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_english_toc.py (catalog unit re-anchor)",
+ "source": {
+  "site": "catalog.json 人教版PEP 真实单元目录；知识点/题目复用 knowledge/english 通用池",
+  "units_from": "catalog.json"
+ },
+ "subject": "english",
+ "grade": 5,
+ "semester": "upper",
+ "edition": "pep",
+ "edition_label": "人教版PEP",
+ "units": [
+  {
+   "id": "u1",
+   "name": "U1·Different friends"
+  },
+  {
+   "id": "u2",
+   "name": "U2·My feelings"
+  },
+  {
+   "id": "u3",
+   "name": "U3·Work and play"
+  },
+  {
+   "id": "u4",
+   "name": "U4·Healthy habits"
+  },
+  {
+   "id": "u5",
+   "name": "U5·Food we eat"
+  },
+  {
+   "id": "u6",
+   "name": "U6·Nature and us"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cne_p108",
+   "name": "开头辅音连缀 bl、cl、fl",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "能分辨 black、class、floor、blue 开头的辅音连缀。",
+   "mastery_criteria": [
+    "能根据字母或读音选出正确的一项",
+    "能把字母、发音和例词对上"
+   ],
+   "example": {
+    "question": "哪个单词以 bl 开头？",
+    "answer": "black"
+   }
+  },
+  {
+   "id": "cne_p198",
+   "name": "ai 和 ay 的读音",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "拼读含 ai、ay 的单词，如 rain、day、play。",
+   "mastery_criteria": [
+    "能在选择题中选出正确的一项",
+    "能在新版教材单元语境中运用"
+   ],
+   "example": {
+    "question": "哪个单词含有和 day 中 ay 相同的读音？",
+    "answer": "rain"
+   }
+  },
+  {
+   "id": "cne_p109",
+   "name": "性格和外貌",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "认读 old、young、kind 和 strict。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「年老的」？",
+    "answer": "old"
+   }
+  },
+  {
+   "id": "cne_p110",
+   "name": "What is he like",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "用 What is he like? 询问人的性格，而不是询问他喜欢什么。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "What is he like? 这句是在问什么？",
+    "answer": "他是什么样的人"
+   }
+  },
+  {
+   "id": "cne_p111",
+   "name": "描述老师",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "用 He is 或 She is 描述老师的性格。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说音乐老师很和蔼，应说哪一句？",
+    "answer": "The music teacher is kind."
+   }
+  },
+  {
+   "id": "cne_p112",
+   "name": "读懂老师介绍",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "description": "读介绍老师的短文，找出性格。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：Mr Li is our maths teacher. He is tall and strict. 李老师怎么样？",
+    "answer": "又高又严格"
+   }
+  },
+  {
+   "id": "cne_p175",
+   "name": "感受",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "description": "认读 angry、afraid、sad 和 happy。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「生气的」？",
+    "answer": "angry"
+   }
+  },
+  {
+   "id": "cne_p177",
+   "name": "询问感受并建议",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "description": "用 How do you feel? 询问感受，并用 should 给出建议。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方感觉怎么样，应说哪一句？",
+    "answer": "How do you feel?"
+   }
+  },
+  {
+   "id": "cne_p121",
+   "name": "能力动词",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "认读 sing、dance、draw 和 swim。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「唱歌」？",
+    "answer": "sing"
+   }
+  },
+  {
+   "id": "cne_p122",
+   "name": "can 表示能力",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 can 加动词原形表示会做某事。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "I ____ swim. 横线上应填哪个词？",
+    "answer": "can"
+   }
+  },
+  {
+   "id": "cne_p123",
+   "name": "谈论会做的事",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 What can you do? 询问对方会做什么。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方会做什么，应说哪一句？",
+    "answer": "What can you do?"
+   }
+  },
+  {
+   "id": "cne_p124",
+   "name": "读懂能力短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "读短文，找出谁会做什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：John can swim. Amy can draw. 谁会游泳？",
+    "answer": "John"
+   }
+  },
+  {
+   "id": "cne_p167",
+   "name": "爱好",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "认读 hobby、hiking、puzzle 和 dancing。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「爱好」？",
+    "answer": "hobby"
+   }
+  },
+  {
+   "id": "cne_p168",
+   "name": "does 与第三人称单数",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 does 提问，并在第三人称单数陈述句里给动词加 s 或 es。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "____ he live in China? 横线上应填哪个词？",
+    "answer": "Does"
+   }
+  },
+  {
+   "id": "cne_p169",
+   "name": "谈论笔友和爱好",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 I have a pen pal 和 He likes 介绍笔友。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说自己有一个笔友，应说哪一句？",
+    "answer": "I have a pen pal."
+   }
+  },
+  {
+   "id": "cne_p170",
+   "name": "读懂笔友介绍",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "读笔友短文，找出住在哪里、爱好是什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：I have a pen pal. He lives in Canada. He likes hiking. 笔友住在哪里？",
+    "answer": "加拿大"
+   }
+  },
+  {
+   "id": "cne_p171",
+   "name": "更多职业",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "认读 factory、worker、postman 和 businessman。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「工厂」？",
+    "answer": "factory"
+   }
+  },
+  {
+   "id": "cne_p172",
+   "name": "What does he do",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 What does he do? 询问职业，并用 works 描述在哪里工作。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "What does he do? 这句是在问什么？",
+    "answer": "他是做什么工作的"
+   }
+  },
+  {
+   "id": "cne_p173",
+   "name": "介绍职业和工作地点",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "用 He is a 和 He works 介绍家人的工作。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说妈妈是商人，应说哪一句？",
+    "answer": "My mother is a businesswoman."
+   }
+  },
+  {
+   "id": "cne_p174",
+   "name": "读懂职业短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "description": "读职业短文，找出谁做什么、在哪里工作。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：My father is a worker. He works in a factory. 爸爸在哪里工作？",
+    "answer": "工厂"
+   }
+  },
+  {
+   "id": "cne_p113",
+   "name": "星期",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "description": "认读 Monday、Tuesday、Wednesday 和 Friday。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「星期一」？",
+    "answer": "Monday"
+   }
+  },
+  {
+   "id": "cne_p114",
+   "name": "have 与 on Mondays",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "description": "用 I have 加课程，并用 on Mondays 表示在星期一。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "I ____ Chinese on Mondays. 横线上应填哪个词？",
+    "answer": "have"
+   }
+  },
+  {
+   "id": "cne_p115",
+   "name": "周末活动",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "description": "认读 wash、watch、read 和 play。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「洗」？",
+    "answer": "wash"
+   }
+  },
+  {
+   "id": "cne_p116",
+   "name": "用 often 谈论日常",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "description": "用 often 和 on the weekend 谈论经常做的事。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说自己星期六经常看书，应说哪一句？",
+    "answer": "I often read books on Saturdays."
+   }
+  },
+  {
+   "id": "cne_p117",
+   "name": "读懂一周课程",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "description": "读课程句子，找出哪一天有什么课。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：I have Chinese, English and maths on Mondays. 星期一有英语课吗？",
+    "answer": "有"
+   }
+  },
+  {
+   "id": "cne_p118",
+   "name": "餐食",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "description": "认读 tea、sandwich、salad 和 hamburger。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「茶」？",
+    "answer": "tea"
+   }
+  },
+  {
+   "id": "cne_p119",
+   "name": "What would you like to eat",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "description": "用 What would you like to eat? 点餐。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问对方想吃什么，应说哪一句？",
+    "answer": "What would you like to eat?"
+   }
+  },
+  {
+   "id": "cne_p120",
+   "name": "读懂点餐",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "description": "读点餐短文，找出每个人想吃什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：Sarah would like a sandwich. Mike would like a hamburger. Sarah 想要什么？",
+    "answer": "三明治"
+   }
+  },
+  {
+   "id": "cne_p125",
+   "name": "房间里的东西",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "认读 bed、photo、plant 和 clock。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「床」？",
+    "answer": "bed"
+   }
+  },
+  {
+   "id": "cne_p126",
+   "name": "There is 与 There are",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "用 There is 接单数，用 There are 接复数，表示某处有什么。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "房间里有一张床，应选哪一句？",
+    "answer": "There is a bed."
+   }
+  },
+  {
+   "id": "cne_p127",
+   "name": "描述自己的房间",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "用 There is 和 There are 描述房间里有什么。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说房间里有一张大床，应说哪一句？",
+    "answer": "There is a big bed."
+   }
+  },
+  {
+   "id": "cne_p128",
+   "name": "读懂房间短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "读房间短文，找出有什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：There is a big bed and a clock. There are two plants. 床有几张？",
+    "answer": "1 张"
+   }
+  },
+  {
+   "id": "cne_p129",
+   "name": "自然公园",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "认读 river、lake、mountain 和 forest。",
+   "mastery_criteria": [
+    "能选出单词的中文意思",
+    "能根据中文选出英文单词"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「河」？",
+    "answer": "river"
+   }
+  },
+  {
+   "id": "cne_p130",
+   "name": "Is there 与 Are there",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "把 There is 和 There are 改成疑问句，询问某处有没有。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能在句子里用对这个句型"
+   ],
+   "example": {
+    "question": "问「河里有鱼吗」，应选哪一句？",
+    "answer": "Are there any fish in the river?"
+   }
+  },
+  {
+   "id": "cne_p131",
+   "name": "谈论公园里有什么",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "用 Is there 和 Are there 谈论自然公园。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想问公园里有没有湖，应说哪一句？",
+    "answer": "Is there a lake in the park?"
+   }
+  },
+  {
+   "id": "cne_p132",
+   "name": "读懂自然公园",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "description": "读公园短文，按文字判断有什么。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和短文意思一致的句子"
+   ],
+   "example": {
+    "question": "读一读：There is a lake in the park. There are some ducks on the lake. 湖上有什么？",
+    "answer": "一些鸭子"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cne_p108_q1",
+   "topic": "cne_p108",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "哪个单词以 bl 开头？",
+   "explain": "black 以 bl 开头。",
+   "answer_mode": "choice",
+   "options": [
+    "class",
+    "black",
+    "floor",
+    "green"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p108_q2",
+   "topic": "cne_p108",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "哪个单词以 cl 开头？",
+   "explain": "class 以 cl 开头。",
+   "answer_mode": "choice",
+   "options": [
+    "black",
+    "blue",
+    "class",
+    "floor"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p108_q3",
+   "topic": "cne_p108",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪个单词以 fl 开头？",
+   "explain": "floor 以 fl 开头。",
+   "answer_mode": "choice",
+   "options": [
+    "black",
+    "class",
+    "blue",
+    "floor"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p108_q4",
+   "topic": "cne_p108",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "blue 和哪个词的开头辅音连缀相同？",
+   "explain": "blue 和 black 都以 bl 开头。",
+   "answer_mode": "choice",
+   "options": [
+    "black",
+    "class",
+    "floor",
+    "green"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p109_q1",
+   "topic": "cne_p109",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「年老的」？",
+   "explain": "old 的意思是年老的。",
+   "answer_mode": "choice",
+   "options": [
+    "young",
+    "kind",
+    "old",
+    "strict"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p109_q2",
+   "topic": "cne_p109",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「young」的中文意思是哪一个？",
+   "explain": "young 的意思是年轻的。",
+   "answer_mode": "choice",
+   "options": [
+    "年老的",
+    "和蔼的",
+    "严格的",
+    "年轻的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p109_q3",
+   "topic": "cne_p109",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「和蔼的」的单词。",
+   "explain": "表示和蔼的的单词是 kind。",
+   "answer_mode": "choice",
+   "options": [
+    "kind",
+    "old",
+    "young",
+    "strict"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p109_q4",
+   "topic": "cne_p109",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「严格的」？",
+   "explain": "strict 的意思是严格的。",
+   "answer_mode": "choice",
+   "options": [
+    "old",
+    "strict",
+    "young",
+    "kind"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p110_q1",
+   "topic": "cne_p110",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "What is he like? 这句是在问什么？",
+   "explain": "What is he like 问性格或外貌，不是问喜好。",
+   "answer_mode": "choice",
+   "options": [
+    "他喜欢什么",
+    "他在哪里",
+    "他是谁",
+    "他是什么样的人"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p110_q2",
+   "topic": "cne_p110",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "He is kind. 他怎么样？",
+   "explain": "kind 是和蔼的。",
+   "answer_mode": "choice",
+   "options": [
+    "很和蔼",
+    "很严格",
+    "很年轻",
+    "很强壮"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p110_q3",
+   "topic": "cne_p110",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句表示「她很严格」？",
+   "explain": "严格是 strict。",
+   "answer_mode": "choice",
+   "options": [
+    "She is kind.",
+    "She is strict.",
+    "She is funny.",
+    "She is quiet."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p110_q4",
+   "topic": "cne_p110",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Miss White is young. 怀特老师怎么样？",
+   "explain": "young 是年轻的。句子没有说她和蔼。",
+   "answer_mode": "choice",
+   "options": [
+    "很年老",
+    "很和蔼",
+    "很年轻",
+    "很有趣"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p111_q1",
+   "topic": "cne_p111",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说音乐老师很和蔼，应说哪一句？",
+   "explain": "和蔼是 kind。",
+   "answer_mode": "choice",
+   "options": [
+    "The music teacher is kind.",
+    "The music teacher is strict.",
+    "The music teacher is old.",
+    "The music teacher is young."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p111_q2",
+   "topic": "cne_p111",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "Who is your English teacher? 这句是在问什么？",
+   "explain": "Who is 问是谁。",
+   "answer_mode": "choice",
+   "options": [
+    "英语老师什么样",
+    "谁是你的英语老师",
+    "你喜欢英语吗",
+    "英语课在星期几"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p111_q3",
+   "topic": "cne_p111",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "She is strict but kind. 这句的意思是？",
+   "explain": "strict but kind。",
+   "answer_mode": "choice",
+   "options": [
+    "她只是很年轻",
+    "她不严格",
+    "她严格但是和蔼",
+    "她很有趣"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p111_q4",
+   "topic": "cne_p111",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Mr Young is our art teacher. 杨老师教什么？",
+   "explain": "art teacher 是美术老师。",
+   "answer_mode": "choice",
+   "options": [
+    "音乐",
+    "英语",
+    "数学",
+    "美术"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p112_q1",
+   "topic": "cne_p112",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Mr Li is our maths teacher. He is tall and strict. 李老师怎么样？",
+   "explain": "tall and strict。",
+   "answer_mode": "choice",
+   "options": [
+    "又矮又和蔼",
+    "又高又严格",
+    "年轻而且有趣",
+    "只说了他很老"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p112_q2",
+   "topic": "cne_p112",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Miss White is young and kind. 哪一句和短文一致？",
+   "explain": "young and kind，Miss 通常指女老师。",
+   "answer_mode": "choice",
+   "options": [
+    "怀特老师年老而且严格。",
+    "怀特老师是男老师。",
+    "怀特老师年轻而且和蔼。",
+    "怀特老师教数学。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p112_q3",
+   "topic": "cne_p112",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：I like my Chinese teacher. She is funny. 语文老师怎么样？",
+   "explain": "funny 是有趣。",
+   "answer_mode": "choice",
+   "options": [
+    "很严格",
+    "很年老",
+    "很安静",
+    "很有趣"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p112_q4",
+   "topic": "cne_p112",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：He is old. He is kind. 哪一句是短文里有的意思？",
+   "explain": "old 和 kind 都写了。",
+   "answer_mode": "choice",
+   "options": [
+    "他又年老又和蔼。",
+    "他很年轻。",
+    "他很严格。",
+    "他不和蔼。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p113_q1",
+   "topic": "cne_p113",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「星期一」？",
+   "explain": "Monday 的意思是星期一。",
+   "answer_mode": "choice",
+   "options": [
+    "Tuesday",
+    "Wednesday",
+    "Monday",
+    "Friday"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p113_q2",
+   "topic": "cne_p113",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「Tuesday」的中文意思是哪一个？",
+   "explain": "Tuesday 的意思是星期二。",
+   "answer_mode": "choice",
+   "options": [
+    "星期一",
+    "星期三",
+    "星期五",
+    "星期二"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p113_q3",
+   "topic": "cne_p113",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「星期三」的单词。",
+   "explain": "表示星期三的单词是 Wednesday。",
+   "answer_mode": "choice",
+   "options": [
+    "Wednesday",
+    "Monday",
+    "Tuesday",
+    "Friday"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p113_q4",
+   "topic": "cne_p113",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「星期五」？",
+   "explain": "Friday 的意思是星期五。",
+   "answer_mode": "choice",
+   "options": [
+    "Monday",
+    "Friday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p114_q1",
+   "topic": "cne_p114",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I ____ Chinese on Mondays. 横线上应填哪个词？",
+   "explain": "I 后面用 have。",
+   "answer_mode": "choice",
+   "options": [
+    "has",
+    "am",
+    "is",
+    "have"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p114_q2",
+   "topic": "cne_p114",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「我星期一有语文课」？",
+   "explain": "在星期几用 on，I 后面用 have。",
+   "answer_mode": "choice",
+   "options": [
+    "I have Chinese on Mondays.",
+    "I has Chinese on Mondays.",
+    "I have Chinese in Mondays.",
+    "I am Chinese on Mondays."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p114_q3",
+   "topic": "cne_p114",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Do you often read books? 肯定回答应选哪一句？",
+   "explain": "Do you 的肯定回答是 Yes, I do。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I does.",
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, I have."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p114_q4",
+   "topic": "cne_p114",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What do you have on Fridays? 这句是在问什么？",
+   "explain": "What do you have on Fridays 问星期五的课。",
+   "answer_mode": "choice",
+   "options": [
+    "星期五是几月几日",
+    "星期五天气如何",
+    "星期五有什么课",
+    "星期五你在哪里"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p115_q1",
+   "topic": "cne_p115",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「洗」？",
+   "explain": "wash 的意思是洗。",
+   "answer_mode": "choice",
+   "options": [
+    "wash",
+    "watch",
+    "read",
+    "play"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p115_q2",
+   "topic": "cne_p115",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「watch」的中文意思是哪一个？",
+   "explain": "watch 的意思是看。",
+   "answer_mode": "choice",
+   "options": [
+    "洗",
+    "看",
+    "读",
+    "玩"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p115_q3",
+   "topic": "cne_p115",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「读」的单词。",
+   "explain": "表示读的单词是 read。",
+   "answer_mode": "choice",
+   "options": [
+    "wash",
+    "watch",
+    "read",
+    "play"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p115_q4",
+   "topic": "cne_p115",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「玩」？",
+   "explain": "play 的意思是玩。",
+   "answer_mode": "choice",
+   "options": [
+    "wash",
+    "watch",
+    "read",
+    "play"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p116_q1",
+   "topic": "cne_p116",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说自己星期六经常看书，应说哪一句？",
+   "explain": "看书是 read books。",
+   "answer_mode": "choice",
+   "options": [
+    "I often watch TV on Saturdays.",
+    "I often read books on Saturdays.",
+    "I often wash clothes on Saturdays.",
+    "I often play football on Saturdays."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p116_q2",
+   "topic": "cne_p116",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "What do you do on the weekend? 这句是在问什么？",
+   "explain": "on the weekend 是在周末。",
+   "answer_mode": "choice",
+   "options": [
+    "你星期一有什么课",
+    "你喜欢什么课",
+    "你周末做什么",
+    "你的老师什么样"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p116_q3",
+   "topic": "cne_p116",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "I often wash my clothes on Sundays. 星期日经常做什么？",
+   "explain": "wash my clothes 是洗衣服。",
+   "answer_mode": "choice",
+   "options": [
+    "看书",
+    "看电视",
+    "踢足球",
+    "洗衣服"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p116_q4",
+   "topic": "cne_p116",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Do you often play sports? 若经常，应回答哪一句？",
+   "explain": "Do you 的肯定回答是 Yes, I do。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, I often do sports am.",
+    "No, I does not."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p117_q1",
+   "topic": "cne_p117",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I have Chinese, English and maths on Mondays. 星期一有英语课吗？",
+   "explain": "句子里写了 English。",
+   "answer_mode": "choice",
+   "options": [
+    "没有",
+    "只有语文",
+    "有",
+    "短文没写星期一"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p117_q2",
+   "topic": "cne_p117",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I often read books on the weekend. 周末经常做什么？",
+   "explain": "read books。",
+   "answer_mode": "choice",
+   "options": [
+    "洗衣服",
+    "看电视",
+    "踢足球",
+    "看书"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p117_q3",
+   "topic": "cne_p117",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：We have PE on Fridays. 哪一天有体育课？",
+   "explain": "on Fridays。",
+   "answer_mode": "choice",
+   "options": [
+    "星期五",
+    "星期一",
+    "星期二",
+    "星期三"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p117_q4",
+   "topic": "cne_p117",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u4",
+   "unit_name": "U4·Healthy habits",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：On Wednesdays I have art. 哪一句和短文一致？",
+   "explain": "Wednesdays 是星期三，art 是美术。",
+   "answer_mode": "choice",
+   "options": [
+    "星期三有音乐课。",
+    "星期三有美术课。",
+    "星期五有美术课。",
+    "星期一有美术课。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p118_q1",
+   "topic": "cne_p118",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「茶」？",
+   "explain": "tea 的意思是茶。",
+   "answer_mode": "choice",
+   "options": [
+    "sandwich",
+    "salad",
+    "hamburger",
+    "tea"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p118_q2",
+   "topic": "cne_p118",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「sandwich」的中文意思是哪一个？",
+   "explain": "sandwich 的意思是三明治。",
+   "answer_mode": "choice",
+   "options": [
+    "三明治",
+    "茶",
+    "沙拉",
+    "汉堡包"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p118_q3",
+   "topic": "cne_p118",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「沙拉」的单词。",
+   "explain": "表示沙拉的单词是 salad。",
+   "answer_mode": "choice",
+   "options": [
+    "tea",
+    "salad",
+    "sandwich",
+    "hamburger"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p118_q4",
+   "topic": "cne_p118",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「汉堡包」？",
+   "explain": "hamburger 的意思是汉堡包。",
+   "answer_mode": "choice",
+   "options": [
+    "tea",
+    "sandwich",
+    "hamburger",
+    "salad"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p119_q1",
+   "topic": "cne_p119",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方想吃什么，应说哪一句？",
+   "explain": "点餐问 What would you like to eat?",
+   "answer_mode": "choice",
+   "options": [
+    "What would you like to eat?",
+    "What do you have on Mondays?",
+    "Where is the kitchen?",
+    "How much is the salad?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p119_q2",
+   "topic": "cne_p119",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I would like a sandwich and some tea. 想要什么？",
+   "explain": "a sandwich and some tea。",
+   "answer_mode": "choice",
+   "options": [
+    "沙拉和汉堡包",
+    "三明治和茶",
+    "只三明治",
+    "只茶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p119_q3",
+   "topic": "cne_p119",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "What would you like to drink? 若想喝茶，应说哪一句？",
+   "explain": "喝的是 tea。",
+   "answer_mode": "choice",
+   "options": [
+    "I would like a hamburger.",
+    "I would like a sandwich.",
+    "I would like some tea.",
+    "I would like some salad."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p119_q4",
+   "topic": "cne_p119",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "She would like a salad. 她想要什么？",
+   "explain": "a salad。",
+   "answer_mode": "choice",
+   "options": [
+    "一个汉堡包",
+    "一杯茶",
+    "一个三明治",
+    "一份沙拉"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p120_q1",
+   "topic": "cne_p120",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Sarah would like a sandwich. Mike would like a hamburger. Sarah 想要什么？",
+   "explain": "Sarah 对应 sandwich。",
+   "answer_mode": "choice",
+   "options": [
+    "汉堡包",
+    "三明治",
+    "沙拉",
+    "茶"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p120_q2",
+   "topic": "cne_p120",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I would like some salad and some tea. 哪一句和文字一致？",
+   "explain": "salad and tea 都写了。",
+   "answer_mode": "choice",
+   "options": [
+    "我想要汉堡包。",
+    "我想要一个三明治。",
+    "我想要沙拉和茶。",
+    "我只想要茶。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p120_q3",
+   "topic": "cne_p120",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：What would you like to eat? I would like a hamburger. 想吃什么？",
+   "explain": "a hamburger。",
+   "answer_mode": "choice",
+   "options": [
+    "三明治",
+    "沙拉",
+    "茶",
+    "汉堡包"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p120_q4",
+   "topic": "cne_p120",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u5",
+   "unit_name": "U5·Food we eat",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：My favourite food is salad. It is healthy. 最喜欢的食物是什么？",
+   "explain": "favourite food is salad。",
+   "answer_mode": "choice",
+   "options": [
+    "沙拉",
+    "茶",
+    "汉堡包",
+    "三明治"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p121_q1",
+   "topic": "cne_p121",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「唱歌」？",
+   "explain": "sing 的意思是唱歌。",
+   "answer_mode": "choice",
+   "options": [
+    "dance",
+    "draw",
+    "sing",
+    "swim"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p121_q2",
+   "topic": "cne_p121",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「dance」的中文意思是哪一个？",
+   "explain": "dance 的意思是跳舞。",
+   "answer_mode": "choice",
+   "options": [
+    "唱歌",
+    "画画",
+    "游泳",
+    "跳舞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p121_q3",
+   "topic": "cne_p121",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「画画」的单词。",
+   "explain": "表示画画的单词是 draw。",
+   "answer_mode": "choice",
+   "options": [
+    "draw",
+    "sing",
+    "dance",
+    "swim"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p121_q4",
+   "topic": "cne_p121",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「游泳」？",
+   "explain": "swim 的意思是游泳。",
+   "answer_mode": "choice",
+   "options": [
+    "sing",
+    "swim",
+    "dance",
+    "draw"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p122_q1",
+   "topic": "cne_p122",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "I ____ swim. 横线上应填哪个词？",
+   "explain": "表示会，用 can。",
+   "answer_mode": "choice",
+   "options": [
+    "am",
+    "is",
+    "are",
+    "can"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p122_q2",
+   "topic": "cne_p122",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句表示「她会画画」？",
+   "explain": "can 后面用动词原形 draw。",
+   "answer_mode": "choice",
+   "options": [
+    "She can draw.",
+    "She can draws.",
+    "She cans draw.",
+    "She is draw."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p122_q3",
+   "topic": "cne_p122",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Can you sing? 肯定回答应选哪一句？",
+   "explain": "Can 的肯定回答是 Yes, I can。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, I do.",
+    "Yes, I can.",
+    "Yes, I am.",
+    "Yes, I sing."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p122_q4",
+   "topic": "cne_p122",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "He cannot dance. 这句的意思是？",
+   "explain": "cannot dance 是不会跳舞。",
+   "answer_mode": "choice",
+   "options": [
+    "他会跳舞",
+    "他正在跳舞",
+    "他不会跳舞",
+    "他喜欢跳舞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p123_q1",
+   "topic": "cne_p123",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方会做什么，应说哪一句？",
+   "explain": "问能力用 What can you do?",
+   "answer_mode": "choice",
+   "options": [
+    "What can you do?",
+    "What do you look like?",
+    "What would you like?",
+    "What do you have?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p123_q2",
+   "topic": "cne_p123",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I can sing and dance. 会做哪两件事？",
+   "explain": "sing and dance。",
+   "answer_mode": "choice",
+   "options": [
+    "画画和游泳",
+    "唱歌和跳舞",
+    "只唱歌",
+    "只跳舞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p123_q3",
+   "topic": "cne_p123",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Can you swim? 若不会，应回答哪一句？",
+   "explain": "Can 的否定回答是 No, I cannot。",
+   "answer_mode": "choice",
+   "options": [
+    "No, I do not.",
+    "Yes, I can.",
+    "No, I cannot.",
+    "No, I am not."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p123_q4",
+   "topic": "cne_p123",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "We can draw pictures for the party. 能为聚会做什么？",
+   "explain": "draw pictures 是画画。",
+   "answer_mode": "choice",
+   "options": [
+    "游泳",
+    "唱歌",
+    "做饭",
+    "画画"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p124_q1",
+   "topic": "cne_p124",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：John can swim. Amy can draw. 谁会游泳？",
+   "explain": "John can swim。",
+   "answer_mode": "choice",
+   "options": [
+    "Amy",
+    "John",
+    "Sarah",
+    "Mike"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p124_q2",
+   "topic": "cne_p124",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I can sing English songs. 哪一句和短文一致？",
+   "explain": "sing English songs。",
+   "answer_mode": "choice",
+   "options": [
+    "我会跳舞。",
+    "我不会唱歌。",
+    "我会唱英文歌。",
+    "我会画画。"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p124_q3",
+   "topic": "cne_p124",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：What can you do? I can dance. 这个人会什么？",
+   "explain": "I can dance。",
+   "answer_mode": "choice",
+   "options": [
+    "游泳",
+    "画画",
+    "做饭",
+    "跳舞"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p124_q4",
+   "topic": "cne_p124",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Zhang Peng cannot cook, but he can swim. Zhang Peng 会什么？",
+   "explain": "cannot cook，但是 can swim。",
+   "answer_mode": "choice",
+   "options": [
+    "游泳",
+    "做饭",
+    "唱歌",
+    "画画"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p125_q1",
+   "topic": "cne_p125",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「床」？",
+   "explain": "bed 的意思是床。",
+   "answer_mode": "choice",
+   "options": [
+    "photo",
+    "plant",
+    "bed",
+    "clock"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p125_q2",
+   "topic": "cne_p125",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「photo」的中文意思是哪一个？",
+   "explain": "photo 的意思是照片。",
+   "answer_mode": "choice",
+   "options": [
+    "床",
+    "植物",
+    "时钟",
+    "照片"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p125_q3",
+   "topic": "cne_p125",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「植物」的单词。",
+   "explain": "表示植物的单词是 plant。",
+   "answer_mode": "choice",
+   "options": [
+    "plant",
+    "bed",
+    "photo",
+    "clock"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p125_q4",
+   "topic": "cne_p125",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「时钟」？",
+   "explain": "clock 的意思是时钟。",
+   "answer_mode": "choice",
+   "options": [
+    "bed",
+    "clock",
+    "photo",
+    "plant"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p126_q1",
+   "topic": "cne_p126",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "房间里有一张床，应选哪一句？",
+   "explain": "一张床是单数，用 There is。",
+   "answer_mode": "choice",
+   "options": [
+    "There are a bed.",
+    "There is beds.",
+    "There be a bed.",
+    "There is a bed."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p126_q2",
+   "topic": "cne_p126",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "There are two photos. 有多少张照片？",
+   "explain": "two 是 2。",
+   "answer_mode": "choice",
+   "options": [
+    "2 张",
+    "1 张",
+    "3 张",
+    "12 张"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p126_q3",
+   "topic": "cne_p126",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "plants 是复数，用 There are。",
+   "answer_mode": "choice",
+   "options": [
+    "There is some plants.",
+    "There are some plants.",
+    "There are a plant.",
+    "There be plants."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p126_q4",
+   "topic": "cne_p126",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "There is a clock. 这句的意思是？",
+   "explain": "There is 表示有。",
+   "answer_mode": "choice",
+   "options": [
+    "时钟在哪里",
+    "这是谁的时钟",
+    "有一个时钟",
+    "时钟多少钱"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p127_q1",
+   "topic": "cne_p127",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说房间里有一张大床，应说哪一句？",
+   "explain": "一张床用 There is a big bed。",
+   "answer_mode": "choice",
+   "options": [
+    "There is a big bed.",
+    "There are a big bed.",
+    "There is big beds.",
+    "There be a big bed."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p127_q2",
+   "topic": "cne_p127",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "There are so many pictures. 这句的意思是？",
+   "explain": "so many pictures 是很多画。",
+   "answer_mode": "choice",
+   "options": [
+    "有一张床",
+    "有很多画",
+    "有一个时钟",
+    "房间很脏"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p127_q3",
+   "topic": "cne_p127",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "My grandparents live in a small house. 祖父母住在哪里？",
+   "explain": "a small house。",
+   "answer_mode": "choice",
+   "options": [
+    "一所大学校里",
+    "一个公园里",
+    "一所小房子里",
+    "一家商店里"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p127_q4",
+   "topic": "cne_p127",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "The computer is on the desk. 计算机在哪里？",
+   "explain": "on the desk。",
+   "answer_mode": "choice",
+   "options": [
+    "在床上",
+    "在照片里",
+    "在植物下",
+    "在书桌上"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p128_q1",
+   "topic": "cne_p128",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：There is a big bed and a clock. There are two plants. 床有几张？",
+   "explain": "There is a big bed 是一张。",
+   "answer_mode": "choice",
+   "options": [
+    "2 张",
+    "1 张",
+    "3 张",
+    "没有床"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p128_q2",
+   "topic": "cne_p128",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：There are three photos on the wall. 墙上有几张照片？",
+   "explain": "three photos。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 3
+  },
+  {
+   "id": "cne_p128_q3",
+   "topic": "cne_p128",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：There is a plant beside the clock. 植物在哪里？",
+   "explain": "beside the clock 是在时钟旁边。",
+   "answer_mode": "choice",
+   "options": [
+    "在床下",
+    "在门外",
+    "在厨房里",
+    "在时钟旁边"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p128_q4",
+   "topic": "cne_p128",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：There are some pictures. There is no computer. 哪一句和短文一致？",
+   "explain": "some pictures，并且 no computer。",
+   "answer_mode": "choice",
+   "options": [
+    "有一些画，没有计算机。",
+    "有计算机，没有画。",
+    "只有一张床。",
+    "什么都没有。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p129_q1",
+   "topic": "cne_p129",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「河」？",
+   "explain": "river 的意思是河。",
+   "answer_mode": "choice",
+   "options": [
+    "lake",
+    "mountain",
+    "river",
+    "forest"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p129_q2",
+   "topic": "cne_p129",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「lake」的中文意思是哪一个？",
+   "explain": "lake 的意思是湖。",
+   "answer_mode": "choice",
+   "options": [
+    "河",
+    "山",
+    "森林",
+    "湖"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p129_q3",
+   "topic": "cne_p129",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「山」的单词。",
+   "explain": "表示山的单词是 mountain。",
+   "answer_mode": "choice",
+   "options": [
+    "mountain",
+    "river",
+    "lake",
+    "forest"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p129_q4",
+   "topic": "cne_p129",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「森林」？",
+   "explain": "forest 的意思是森林。",
+   "answer_mode": "choice",
+   "options": [
+    "river",
+    "forest",
+    "lake",
+    "mountain"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p130_q1",
+   "topic": "cne_p130",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "问「河里有鱼吗」，应选哪一句？",
+   "explain": "fish 在这里看复数，用 Are there any。",
+   "answer_mode": "choice",
+   "options": [
+    "Is there any fish are?",
+    "There are fish?",
+    "Do there fish?",
+    "Are there any fish in the river?"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p130_q2",
+   "topic": "cne_p130",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "Is there a lake? 肯定回答应选哪一句？",
+   "explain": "Is there 的肯定回答是 Yes, there is。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, there is.",
+    "Yes, there are.",
+    "Yes, it is.",
+    "Yes, there be."
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p130_q3",
+   "topic": "cne_p130",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Are there any mountains? 否定回答应选哪一句？",
+   "explain": "Are there 的否定回答是 No, there are not。",
+   "answer_mode": "choice",
+   "options": [
+    "No, there is not.",
+    "No, there are not.",
+    "No, they are not.",
+    "No, there not."
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p130_q4",
+   "topic": "cne_p130",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "There is one forest and there are two rivers. 河有几条？",
+   "explain": "two rivers 是 2 条河。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 2
+  },
+  {
+   "id": "cne_p131_q1",
+   "topic": "cne_p131",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问公园里有没有湖，应说哪一句？",
+   "explain": "一个湖用 Is there a lake。",
+   "answer_mode": "choice",
+   "options": [
+    "Is there a lake in the park?",
+    "Are there a lake in the park?",
+    "Is there any lakes?",
+    "There is a lake?"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p131_q2",
+   "topic": "cne_p131",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "There is a forest in the park. 公园里有什么？",
+   "explain": "a forest。",
+   "answer_mode": "choice",
+   "options": [
+    "一条河",
+    "一片森林",
+    "一座山",
+    "一个湖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p131_q3",
+   "topic": "cne_p131",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Are there any tall buildings? 这句是在问什么？",
+   "explain": "tall buildings 是高楼。",
+   "answer_mode": "choice",
+   "options": [
+    "有河吗",
+    "有湖吗",
+    "有高楼吗",
+    "有森林吗"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p131_q4",
+   "topic": "cne_p131",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "The nature park is quiet. 自然公园怎么样？",
+   "explain": "quiet 是安静。",
+   "answer_mode": "choice",
+   "options": [
+    "很吵",
+    "很小",
+    "很贵",
+    "很安静"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p132_q1",
+   "topic": "cne_p132",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：There is a lake in the park. There are some ducks on the lake. 湖上有什么？",
+   "explain": "ducks on the lake。",
+   "answer_mode": "choice",
+   "options": [
+    "一些山",
+    "一些鸭子",
+    "一些高楼",
+    "一条河"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p132_q2",
+   "topic": "cne_p132",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Is there a forest? Yes, there is. 有森林吗？",
+   "explain": "Yes, there is。",
+   "answer_mode": "choice",
+   "options": [
+    "没有",
+    "只有河",
+    "有",
+    "短文没回答"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p132_q3",
+   "topic": "cne_p132",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：There are no tall buildings. There is a river. 哪一句和短文一致？",
+   "explain": "no tall buildings，there is a river。",
+   "answer_mode": "choice",
+   "options": [
+    "有高楼，没有河。",
+    "有一座山。",
+    "什么都没有。",
+    "没有高楼，有一条河。"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p132_q4",
+   "topic": "cne_p132",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u6",
+   "unit_name": "U6·Nature and us",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：There are two mountains behind the lake. 湖后面有几座山？",
+   "explain": "two mountains。",
+   "answer_mode": "number",
+   "answer_format": "integer",
+   "answer": 2
+  },
+  {
+   "id": "cne_p167_q1",
+   "topic": "cne_p167",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「爱好」？",
+   "explain": "hobby 的意思是爱好。",
+   "answer_mode": "choice",
+   "options": [
+    "hobby",
+    "hiking",
+    "puzzle",
+    "dancing"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p167_q2",
+   "topic": "cne_p167",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「hiking」的中文意思是哪一个？",
+   "explain": "hiking 的意思是远足。",
+   "answer_mode": "choice",
+   "options": [
+    "爱好",
+    "远足",
+    "谜题",
+    "跳舞"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p167_q3",
+   "topic": "cne_p167",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「谜题」的单词。",
+   "explain": "表示谜题的单词是 puzzle。",
+   "answer_mode": "choice",
+   "options": [
+    "hobby",
+    "hiking",
+    "puzzle",
+    "dancing"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p167_q4",
+   "topic": "cne_p167",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「跳舞」？",
+   "explain": "dancing 的意思是跳舞。",
+   "answer_mode": "choice",
+   "options": [
+    "hobby",
+    "hiking",
+    "puzzle",
+    "dancing"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p168_q1",
+   "topic": "cne_p168",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "____ he live in China? 横线上应填哪个词？",
+   "explain": "he 前面的一般现在时疑问句用 Does。",
+   "answer_mode": "choice",
+   "options": [
+    "Do",
+    "Does",
+    "Is",
+    "Are"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p168_q2",
+   "topic": "cne_p168",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "哪一句是正确的？",
+   "explain": "He 后面的 live 要变成 lives。",
+   "answer_mode": "choice",
+   "options": [
+    "He live in China.",
+    "He living in China.",
+    "He lives in China.",
+    "He does lives in China."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p168_q3",
+   "topic": "cne_p168",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "Does she like dancing? 肯定回答应选哪一句？",
+   "explain": "Does 的肯定回答是 Yes, she does。",
+   "answer_mode": "choice",
+   "options": [
+    "Yes, she do.",
+    "Yes, she is.",
+    "Yes, she likes.",
+    "Yes, she does."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p168_q4",
+   "topic": "cne_p168",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "What are his hobbies? 这句是在问什么？",
+   "explain": "hobbies 是爱好。",
+   "answer_mode": "choice",
+   "options": [
+    "他有什么爱好",
+    "他住在哪里",
+    "他是做什么工作的",
+    "他打算做什么"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p169_q1",
+   "topic": "cne_p169",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说自己有一个笔友，应说哪一句？",
+   "explain": "笔友是 pen pal。",
+   "answer_mode": "choice",
+   "options": [
+    "I have a puzzle.",
+    "I like hiking.",
+    "I have a pen pal.",
+    "I am dancing."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p169_q2",
+   "topic": "cne_p169",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "He likes hiking. 他喜欢什么？",
+   "explain": "hiking 是远足。",
+   "answer_mode": "choice",
+   "options": [
+    "谜题",
+    "跳舞",
+    "唱歌",
+    "远足"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p169_q3",
+   "topic": "cne_p169",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "Does your pen pal live in Sydney? 这句是在问什么？",
+   "explain": "live in Sydney。",
+   "answer_mode": "choice",
+   "options": [
+    "你的笔友住在悉尼吗",
+    "你的笔友喜欢跳舞吗",
+    "你有谜题吗",
+    "你打算去旅行吗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p169_q4",
+   "topic": "cne_p169",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "She likes doing word puzzles. 她喜欢做什么？",
+   "explain": "word puzzles 是字谜。",
+   "answer_mode": "choice",
+   "options": [
+    "远足",
+    "字谜",
+    "跳舞",
+    "游泳"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p170_q1",
+   "topic": "cne_p170",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：I have a pen pal. He lives in Canada. He likes hiking. 笔友住在哪里？",
+   "explain": "lives in Canada。",
+   "answer_mode": "choice",
+   "options": [
+    "中国",
+    "澳大利亚",
+    "英国",
+    "加拿大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p170_q2",
+   "topic": "cne_p170",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：Amy likes dancing and doing word puzzles. 哪一句和短文一致？",
+   "explain": "dancing and doing word puzzles。",
+   "answer_mode": "choice",
+   "options": [
+    "Amy 喜欢跳舞和做字谜。",
+    "Amy 喜欢远足。",
+    "Amy 住在加拿大。",
+    "Amy 不喜欢跳舞。"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p170_q3",
+   "topic": "cne_p170",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Does he like puzzles? Yes, he does. 他喜欢谜题吗？",
+   "explain": "Yes, he does。",
+   "answer_mode": "choice",
+   "options": [
+    "不喜欢",
+    "喜欢",
+    "没说",
+    "只喜欢远足"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p170_q4",
+   "topic": "cne_p170",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：Her hobby is hiking. 她的爱好是什么？",
+   "explain": "hobby is hiking。",
+   "answer_mode": "choice",
+   "options": [
+    "跳舞",
+    "字谜",
+    "远足",
+    "唱歌"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p171_q1",
+   "topic": "cne_p171",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「工厂」？",
+   "explain": "factory 的意思是工厂。",
+   "answer_mode": "choice",
+   "options": [
+    "factory",
+    "worker",
+    "postman",
+    "businessman"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p171_q2",
+   "topic": "cne_p171",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「worker」的中文意思是哪一个？",
+   "explain": "worker 的意思是工人。",
+   "answer_mode": "choice",
+   "options": [
+    "工厂",
+    "工人",
+    "邮递员",
+    "商人"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p171_q3",
+   "topic": "cne_p171",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「邮递员」的单词。",
+   "explain": "表示邮递员的单词是 postman。",
+   "answer_mode": "choice",
+   "options": [
+    "factory",
+    "worker",
+    "postman",
+    "businessman"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p171_q4",
+   "topic": "cne_p171",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「商人」？",
+   "explain": "businessman 的意思是商人。",
+   "answer_mode": "choice",
+   "options": [
+    "factory",
+    "worker",
+    "postman",
+    "businessman"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p172_q1",
+   "topic": "cne_p172",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "What does he do? 这句是在问什么？",
+   "explain": "What does he do 问职业。",
+   "answer_mode": "choice",
+   "options": [
+    "他正在做什么",
+    "他是做什么工作的",
+    "他喜欢做什么",
+    "他昨天做了什么"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p172_q2",
+   "topic": "cne_p172",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "He works in a factory. 他在哪里工作？",
+   "explain": "factory 是工厂。",
+   "answer_mode": "choice",
+   "options": [
+    "邮局",
+    "医院",
+    "工厂",
+    "学校"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p172_q3",
+   "topic": "cne_p172",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "She 后面用 works。",
+   "answer_mode": "choice",
+   "options": [
+    "She work at sea.",
+    "She working at sea.",
+    "She does works at sea.",
+    "She works at sea."
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p172_q4",
+   "topic": "cne_p172",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "My uncle is a postman. 叔叔的职业是？",
+   "explain": "postman 是邮递员。",
+   "answer_mode": "choice",
+   "options": [
+    "邮递员",
+    "商人",
+    "工人",
+    "渔民"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p173_q1",
+   "topic": "cne_p173",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说妈妈是商人，应说哪一句？",
+   "explain": "女商人是 businesswoman。",
+   "answer_mode": "choice",
+   "options": [
+    "My mother is a postman.",
+    "My mother is a worker.",
+    "My mother is a businesswoman.",
+    "My mother is a factory."
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p173_q2",
+   "topic": "cne_p173",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "Where does he work? 这句是在问什么？",
+   "explain": "Where does he work 问工作地点。",
+   "answer_mode": "choice",
+   "options": [
+    "他是谁",
+    "他喜欢什么",
+    "他打算做什么",
+    "他在哪里工作"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p173_q3",
+   "topic": "cne_p173",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "He is a fisherman. He works at sea. 他在哪里工作？",
+   "explain": "at sea。",
+   "answer_mode": "choice",
+   "options": [
+    "在海上",
+    "在工厂",
+    "在邮局",
+    "在医院"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p173_q4",
+   "topic": "cne_p173",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "She works in a university. 她在哪里工作？",
+   "explain": "university 是大学。",
+   "answer_mode": "choice",
+   "options": [
+    "工厂",
+    "大学",
+    "海上",
+    "邮局"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p174_q1",
+   "topic": "cne_p174",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：My father is a worker. He works in a factory. 爸爸在哪里工作？",
+   "explain": "in a factory。",
+   "answer_mode": "choice",
+   "options": [
+    "邮局",
+    "海上",
+    "大学",
+    "工厂"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p174_q2",
+   "topic": "cne_p174",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "读一读：My aunt is a businesswoman. She works in a university. 姑姑或阿姨的职业是？",
+   "explain": "businesswoman。工作地点是大学，职业仍是商人。",
+   "answer_mode": "choice",
+   "options": [
+    "商人",
+    "工人",
+    "邮递员",
+    "渔民"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p174_q3",
+   "topic": "cne_p174",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：He is a postman. He works in a post office. 哪一句和短文一致？",
+   "explain": "postman，post office。",
+   "answer_mode": "choice",
+   "options": [
+    "他是工人。",
+    "他是邮递员，在邮局工作。",
+    "他在工厂工作。",
+    "他在海上工作。"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p174_q4",
+   "topic": "cne_p174",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u3",
+   "unit_name": "U3·Work and play",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "读一读：John wants to be a coach. 约翰想成为什么？",
+   "explain": "a coach 是教练。",
+   "answer_mode": "choice",
+   "options": [
+    "商人",
+    "邮递员",
+    "教练",
+    "渔民"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p175_q1",
+   "topic": "cne_p175",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「生气的」？",
+   "explain": "angry 的意思是生气的。",
+   "answer_mode": "choice",
+   "options": [
+    "angry",
+    "afraid",
+    "sad",
+    "happy"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p175_q2",
+   "topic": "cne_p175",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「afraid」的中文意思是哪一个？",
+   "explain": "afraid 的意思是害怕的。",
+   "answer_mode": "choice",
+   "options": [
+    "生气的",
+    "害怕的",
+    "难过的",
+    "高兴的"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p175_q3",
+   "topic": "cne_p175",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「难过的」的单词。",
+   "explain": "表示难过的的单词是 sad。",
+   "answer_mode": "choice",
+   "options": [
+    "angry",
+    "afraid",
+    "sad",
+    "happy"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p175_q4",
+   "topic": "cne_p175",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「高兴的」？",
+   "explain": "happy 的意思是高兴的。",
+   "answer_mode": "choice",
+   "options": [
+    "angry",
+    "afraid",
+    "sad",
+    "happy"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p177_q1",
+   "topic": "cne_p177",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想问对方感觉怎么样，应说哪一句？",
+   "explain": "问感受说 How do you feel?",
+   "answer_mode": "choice",
+   "options": [
+    "What are you going to do?",
+    "Where does he work?",
+    "How do you feel?",
+    "How do you come to school?"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_p177_q2",
+   "topic": "cne_p177",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "I am angry. 这个人感觉怎样？",
+   "explain": "angry 是生气。",
+   "answer_mode": "choice",
+   "options": [
+    "害怕",
+    "难过",
+    "高兴",
+    "生气"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_p177_q3",
+   "topic": "cne_p177",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "You should take a deep breath. 这句建议做什么？",
+   "explain": "take a deep breath 是深呼吸。",
+   "answer_mode": "choice",
+   "options": [
+    "深呼吸",
+    "去看医生",
+    "穿暖和的衣服",
+    "数到十"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p177_q4",
+   "topic": "cne_p177",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u2",
+   "unit_name": "U2·My feelings",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "The mouse is afraid of the cat. 老鼠对猫感觉怎样？",
+   "explain": "afraid of 是害怕。",
+   "answer_mode": "choice",
+   "options": [
+    "生气",
+    "害怕",
+    "高兴",
+    "难过"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p198_q1",
+   "topic": "cne_p198",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "哪个单词含有和 day 中 ay 相同的读音？",
+   "explain": "ay 和 ai 都读 /eɪ/。",
+   "answer_mode": "choice",
+   "options": [
+    "car",
+    "rain",
+    "cat",
+    "ball"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_p198_q2",
+   "topic": "cne_p198",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "The dog likes to ____ in the rain. 横线上填哪个含 ay 的词？",
+   "explain": "play 是玩耍，句意通顺。",
+   "answer_mode": "choice",
+   "options": [
+    "play",
+    "way",
+    "say",
+    "pay"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p198_q3",
+   "topic": "cne_p198",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪组单词的划线部分读音相同：ai、ay？",
+   "explain": "ai 和 ay 都读 /eɪ/。",
+   "answer_mode": "choice",
+   "options": [
+    "rain — day",
+    "play — apple",
+    "rain — hat",
+    "day — dog"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_p198_q4",
+   "topic": "cne_p198",
+   "subject": "english",
+   "grade": 5,
+   "semester": "upper",
+   "edition": "pep",
+   "unit": "u1",
+   "unit_name": "U1·Different friends",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "给 s__l（航行）选字母组合，读作 /seɪl/。",
+   "explain": "ai 常在词中，ay 常在词尾，sail 写作 ai。",
+   "answer_mode": "choice",
+   "options": [
+    "ai",
+    "ar",
+    "ee",
+    "ay"
+   ],
+   "answer": 1
+  }
+ ]
+}

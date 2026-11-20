@@ -1,0 +1,2246 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_history_toc.py (identity remap onto catalog units)",
+ "source": {
+  "site": "统编版（2024）目录取自 data/catalog.json；知识点/题目复用通用历史卷",
+  "path": "history/tongbian/g7_lower.json",
+  "fetched": "2026-11-20"
+ },
+ "subject": "history",
+ "grade": 7,
+ "semester": "lower",
+ "edition": "tongbian",
+ "edition_label": "统编版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·隋唐时期：繁荣与开放的时代"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnh_j022",
+   "name": "隋朝统一与灭亡",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道隋朝统一、大运河和隋朝灭亡。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "581年建立隋朝的是？",
+    "answer": "杨坚"
+   }
+  },
+  {
+   "id": "cnh_j023",
+   "name": "唐朝建立与“贞观之治”",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道唐朝建立和贞观之治。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "618年建立唐朝的是？",
+    "answer": "李渊"
+   }
+  },
+  {
+   "id": "cnh_j024",
+   "name": "“开元盛世”",
+   "domain": "中国古代史",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道唐玄宗前期的开元盛世。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "开元盛世出现在谁统治的前期？",
+    "answer": "唐玄宗"
+   }
+  },
+  {
+   "id": "cnh_j025",
+   "name": "安史之乱与唐朝衰亡",
+   "domain": "中国古代史",
+   "kp_type": "reasoning",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道安史之乱和唐朝灭亡。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "安史之乱爆发于？",
+    "answer": "755年"
+   }
+  },
+  {
+   "id": "cnh_j026",
+   "name": "隋唐时期的民族交往与交融",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道文成公主入藏和唐朝与周边民族的交往。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "文成公主入藏，嫁给的是？",
+    "answer": "松赞干布"
+   }
+  },
+  {
+   "id": "cnh_j027",
+   "name": "隋唐时期的中外文化交流",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道玄奘西行、鉴真东渡和遣唐使。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "玄奘西行的目的地是？",
+    "answer": "天竺"
+   }
+  },
+  {
+   "id": "cnh_j028",
+   "name": "隋唐时期的科技与文化",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "description": "知道赵州桥、雕版印刷和唐诗。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "设计赵州桥的是？",
+    "answer": "李春"
+   }
+  },
+  {
+   "id": "cnh_j029",
+   "name": "北宋的政治",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道北宋建立和加强中央集权的办法。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "960年陈桥驿兵变后建立北宋的是？",
+    "answer": "赵匡胤"
+   }
+  },
+  {
+   "id": "cnh_j030",
+   "name": "辽、西夏与北宋并立",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道辽、西夏的建立和宋与它们的和议。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "916年建立契丹政权的是？",
+    "answer": "耶律阿保机"
+   }
+  },
+  {
+   "id": "cnh_j031",
+   "name": "金与南宋对峙",
+   "domain": "中国古代史",
+   "kp_type": "reasoning",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道靖康之变、南宋建立和岳飞抗金。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1115年建立金朝的是？",
+    "answer": "完颜阿骨打"
+   }
+  },
+  {
+   "id": "cnh_j032",
+   "name": "元朝的建立与统一",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道蒙古兴起、元朝统一和行省制度。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1206年统一蒙古各部的是？",
+    "answer": "铁木真"
+   }
+  },
+  {
+   "id": "cnh_j033",
+   "name": "辽宋夏金元时期经济的繁荣",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道宋元时期农业、手工业和商业的发展。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "北宋前期出现在四川地区、被看作世界上最早纸币的是？",
+    "answer": "交子"
+   }
+  },
+  {
+   "id": "cnh_j034",
+   "name": "辽宋夏金元时期的对外交流",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道海上丝绸之路和宋元港口。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "宋元时期海外贸易兴盛，重要港口有？",
+    "answer": "广州和泉州"
+   }
+  },
+  {
+   "id": "cnh_j035",
+   "name": "辽宋夏金元时期的科技与文化",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "description": "知道活字印刷、指南针、火药和宋元文学。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "发明活字印刷术的是？",
+    "answer": "毕昇"
+   }
+  },
+  {
+   "id": "cnh_j036",
+   "name": "明朝的统治",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道明朝建立和君主权力的加强。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1368年建立明朝的是？",
+    "answer": "朱元璋"
+   }
+  },
+  {
+   "id": "cnh_j037",
+   "name": "明朝的对外关系",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道郑和远航和戚继光抗倭。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1405年开始率领船队七次远航的是？",
+    "answer": "郑和"
+   }
+  },
+  {
+   "id": "cnh_j038",
+   "name": "明朝的灭亡和清朝的建立",
+   "domain": "中国古代史",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道后金建立、清军入关和郑成功收复台湾。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1616年统一女真各部、建立后金的是？",
+    "answer": "努尔哈赤"
+   }
+  },
+  {
+   "id": "cnh_j039",
+   "name": "清朝的边疆治理",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道清朝巩固边疆的措施。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "1689年中俄签订的平等条约是？",
+    "answer": "《尼布楚条约》"
+   }
+  },
+  {
+   "id": "cnh_j040",
+   "name": "清朝君主专制的强化",
+   "domain": "中国古代史",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道军机处和文字狱。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "设立军机处的皇帝是？",
+    "answer": "雍正帝"
+   }
+  },
+  {
+   "id": "cnh_j041",
+   "name": "明清时期社会经济的发展",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道明清农业、手工业和商业的发展。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "明朝后期张居正推行的赋税改革是？",
+    "answer": "一条鞭法"
+   }
+  },
+  {
+   "id": "cnh_j042",
+   "name": "明清时期的科技与文化",
+   "domain": "中国古代史",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道李时珍、宋应星、徐光启和明清小说。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "《本草纲目》的作者是？",
+    "answer": "李时珍"
+   }
+  },
+  {
+   "id": "cnh_j043",
+   "name": "我国传统节日的起源与传承",
+   "domain": "中国古代史",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "description": "知道主要传统节日的习俗及其由来。",
+   "mastery_criteria": [
+    "能说出本课的时间、人物或地点",
+    "能判断与教材表述相符的史实"
+   ],
+   "example": {
+    "question": "端午节常见的习俗是？",
+    "answer": "吃粽子、赛龙舟"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnh_j022_q1",
+   "topic": "cnh_j022",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "581年建立隋朝的是？",
+   "explain": "杨坚即隋文帝，定都大兴。",
+   "answer_mode": "choice",
+   "options": [
+    "杨广",
+    "李渊",
+    "李世民",
+    "杨坚"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j022_q2",
+   "topic": "cnh_j022",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "589年隋朝完成统一，灭掉的是？",
+   "explain": "隋文帝派军灭陈，结束南北朝分立。",
+   "answer_mode": "choice",
+   "options": [
+    "陈朝",
+    "北魏",
+    "东晋",
+    "南唐"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j022_q4",
+   "topic": "cnh_j022",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "隋炀帝开通大运河的同时，还创立了？",
+   "explain": "进士科的创立，标志科举制度正式形成。",
+   "answer_mode": "choice",
+   "options": [
+    "军机处",
+    "内阁",
+    "进士科",
+    "行省"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j023_q1",
+   "topic": "cnh_j023",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "618年建立唐朝的是？",
+   "explain": "李渊建立唐朝，定都长安。",
+   "answer_mode": "choice",
+   "options": [
+    "李渊",
+    "李世民",
+    "杨坚",
+    "武则天"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j023_q2",
+   "topic": "cnh_j023",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "贞观之治出现在谁统治时期？",
+   "explain": "唐太宗年号贞观，政治比较清明。",
+   "answer_mode": "choice",
+   "options": [
+    "唐高祖",
+    "唐太宗",
+    "唐玄宗",
+    "唐高宗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j023_q3",
+   "topic": "cnh_j023",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "唐太宗善于用人，著名谏臣是？",
+   "explain": "魏征前后进谏数百次，唐太宗多能采纳。",
+   "answer_mode": "choice",
+   "options": [
+    "魏忠贤",
+    "魏无忌",
+    "魏征",
+    "魏源"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j023_q4",
+   "topic": "cnh_j023",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "贞观时期轻徭薄赋、重视生产，带来的局面是？",
+   "explain": "贞观之治是唐朝兴盛的开端。",
+   "answer_mode": "choice",
+   "options": [
+    "立即发生安史之乱",
+    "唐朝就此灭亡",
+    "开始闭关锁国",
+    "经济逐渐恢复，社会比较安定"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j024_q1",
+   "topic": "cnh_j024",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "开元盛世出现在谁统治的前期？",
+   "explain": "唐玄宗开元年间，唐朝进入全盛。",
+   "answer_mode": "choice",
+   "options": [
+    "唐太宗",
+    "唐玄宗",
+    "唐高祖",
+    "唐肃宗"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j024_q2",
+   "topic": "cnh_j024",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "开元时期推广的先进农具是？",
+   "explain": "曲辕犁便于耕作，筒车用于灌溉。",
+   "answer_mode": "choice",
+   "options": [
+    "耦犁和耧车",
+    "青铜耒耜",
+    "曲辕犁和筒车",
+    "铁范铸剑"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j024_q3",
+   "topic": "cnh_j024",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "开元盛世在经济上的表现是？",
+   "explain": "开元年间物资丰富，长安、洛阳等城市繁荣。",
+   "answer_mode": "choice",
+   "options": [
+    "全国放弃农耕",
+    "只剩下藩镇军队",
+    "海外贸易完全中断",
+    "农业和手工业发展，人口增长"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j024_q4",
+   "topic": "cnh_j024",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "开元盛世和后来的安史之乱，发生顺序是？",
+   "explain": "755年安史之乱打断了盛世局面。",
+   "answer_mode": "choice",
+   "options": [
+    "先有开元盛世，后有安史之乱",
+    "先有安史之乱，后有开元盛世",
+    "两者发生在隋朝",
+    "两者都在贞观年间"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j025_q1",
+   "topic": "cnh_j025",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "安史之乱爆发于？",
+   "explain": "安禄山、史思明于755年起兵。",
+   "answer_mode": "choice",
+   "options": [
+    "618年",
+    "907年",
+    "755年",
+    "960年"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j025_q2",
+   "topic": "cnh_j025",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "安史之乱的直接影响是？",
+   "explain": "这场战乱持续多年，社会经济受到严重破坏。",
+   "answer_mode": "choice",
+   "options": [
+    "唐朝立即统一全国",
+    "隋朝因此建立",
+    "北宋因此灭亡",
+    "唐朝由盛转衰"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j025_q3",
+   "topic": "cnh_j025",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "907年灭亡唐朝、建立后梁的是？",
+   "explain": "朱温废掉唐朝皇帝，唐朝灭亡，历史进入五代十国。",
+   "answer_mode": "choice",
+   "options": [
+    "朱温",
+    "安禄山",
+    "黄巢",
+    "李世民"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j025_q4",
+   "topic": "cnh_j025",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "唐朝后期中央难以控制地方，主要是因为？",
+   "explain": "节度使权力膨胀，形成藩镇割据。",
+   "answer_mode": "choice",
+   "options": [
+    "推恩令成功",
+    "藩镇割据",
+    "科举制取消",
+    "行省制度推行"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j026_q1",
+   "topic": "cnh_j026",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "文成公主入藏，嫁给的是？",
+   "explain": "唐太宗把文成公主嫁给吐蕃赞普松赞干布。",
+   "answer_mode": "choice",
+   "options": [
+    "尺带珠丹",
+    "耶律阿保机",
+    "元昊",
+    "松赞干布"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j026_q2",
+   "topic": "cnh_j026",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "唐玄宗封渤海郡王的是？",
+   "explain": "粟末靺鞨首领大祚荣受封渤海郡王。",
+   "answer_mode": "choice",
+   "options": [
+    "大祚荣",
+    "皮逻阁",
+    "骨力裴罗",
+    "松赞干布"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j026_q3",
+   "topic": "cnh_j026",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "唐玄宗封皮逻阁为云南王，这个政权是？",
+   "explain": "南诏统一六诏后，皮逻阁被封为云南王。",
+   "answer_mode": "choice",
+   "options": [
+    "回纥",
+    "南诏",
+    "吐蕃",
+    "突厥"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j026_q4",
+   "topic": "cnh_j026",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "唐蕃会盟碑说明的史实是？",
+   "explain": "长庆会盟等史实反映了民族交往交融。",
+   "answer_mode": "choice",
+   "options": [
+    "唐朝从未与吐蕃来往",
+    "吐蕃位于东北",
+    "唐与吐蕃长期有战有和，后来盟誓友好",
+    "会盟发生在明朝"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j027_q3",
+   "topic": "cnh_j027",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "日本派遣到唐朝学习的使团称为？",
+   "explain": "遣唐使把唐朝制度和文化带回日本。",
+   "answer_mode": "choice",
+   "options": [
+    "遣明使",
+    "十字军",
+    "遣唐使",
+    "郑和船队"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j027_q4",
+   "topic": "cnh_j027",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "唐朝都城长安在中外交流中的地位是？",
+   "explain": "长安是当时国际大都会。",
+   "answer_mode": "choice",
+   "options": [
+    "只允许本国人进入",
+    "已经闭关",
+    "位于沿海港口",
+    "国际性大都市，汇聚各国使者和商人"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j028_q1",
+   "topic": "cnh_j028",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "设计赵州桥的是？",
+   "explain": "隋朝李春设计和主持建造赵州桥。",
+   "answer_mode": "choice",
+   "options": [
+    "僧一行",
+    "李春",
+    "孙思邈",
+    "毕昇"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j028_q2",
+   "topic": "cnh_j028",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "现知世界最早有确切日期的雕版印刷品是？",
+   "explain": "唐朝印制的《金刚经》标有咸通九年。",
+   "answer_mode": "choice",
+   "options": [
+    "北宋活字泥版",
+    "蔡侯纸",
+    "868年的《金刚经》",
+    "《梦溪笔谈》"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j028_q3",
+   "topic": "cnh_j028",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "被誉为诗仙的是？",
+   "explain": "李白有诗仙之称，杜甫有诗圣之称。",
+   "answer_mode": "choice",
+   "options": [
+    "杜甫",
+    "白居易",
+    "王维",
+    "李白"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j028_q4",
+   "topic": "cnh_j028",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u1",
+   "unit_name": "第1单元·隋唐时期：繁荣与开放的时代",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "孙思邈的《千金方》属于？",
+   "explain": "孙思邈被后世尊为药王，《千金方》是医学名著。",
+   "answer_mode": "choice",
+   "options": [
+    "医药学",
+    "农学",
+    "天文学",
+    "印刷术"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j029_q1",
+   "topic": "cnh_j029",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "960年陈桥驿兵变后建立北宋的是？",
+   "explain": "赵匡胤建立北宋，定都东京。",
+   "answer_mode": "choice",
+   "options": [
+    "赵匡义",
+    "赵构",
+    "赵匡胤",
+    "朱元璋"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j029_q2",
+   "topic": "cnh_j029",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "杯酒释兵权的直接目的是？",
+   "explain": "宋太祖用这个办法把兵权收归中央。",
+   "answer_mode": "choice",
+   "options": [
+    "增加地方节度使权力",
+    "废除科举",
+    "开通大运河",
+    "解除禁军高级将领的兵权"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j029_q3",
+   "topic": "cnh_j029",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "北宋为防止武将专权，采取的方针是？",
+   "explain": "宋太祖重用文臣，抑制武将。",
+   "answer_mode": "choice",
+   "options": [
+    "重文轻武",
+    "重武轻文",
+    "废除文官",
+    "设立军机处"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j029_q4",
+   "topic": "cnh_j029",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "北宋把地方财权收归中央，派到地方的官员是？",
+   "explain": "转运使把地方财赋运往中央。",
+   "answer_mode": "choice",
+   "options": [
+    "节度使",
+    "转运使",
+    "丞相",
+    "内阁大学士"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j030_q1",
+   "topic": "cnh_j030",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "916年建立契丹政权的是？",
+   "explain": "阿保机建立契丹，后改称辽。",
+   "answer_mode": "choice",
+   "options": [
+    "元昊",
+    "完颜阿骨打",
+    "铁木真",
+    "耶律阿保机"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j030_q2",
+   "topic": "cnh_j030",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1038年元昊称帝，建立的政权是？",
+   "explain": "党项族元昊建立西夏，都城在兴庆。",
+   "answer_mode": "choice",
+   "options": [
+    "西夏",
+    "辽",
+    "金",
+    "元"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j030_q3",
+   "topic": "cnh_j030",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "1005年宋辽订立的和约是？",
+   "explain": "澶渊之盟后，辽宋之间保持了较长时间的和平。",
+   "answer_mode": "choice",
+   "options": [
+    "绍兴和议",
+    "澶渊之盟",
+    "宋夏和议",
+    "庆历和议"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j030_q4",
+   "topic": "cnh_j030",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "澶渊之盟规定北宋每年送给辽的财物称为？",
+   "explain": "北宋每年送给辽银和绢，称为岁币。",
+   "answer_mode": "choice",
+   "options": [
+    "市舶税",
+    "交子",
+    "岁币",
+    "俸禄"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j031_q1",
+   "topic": "cnh_j031",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1115年建立金朝的是？",
+   "explain": "女真族完颜阿骨打建立金。",
+   "answer_mode": "choice",
+   "options": [
+    "完颜阿骨打",
+    "耶律阿保机",
+    "元昊",
+    "忽必烈"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j031_q2",
+   "topic": "cnh_j031",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1127年靖康之变的结果是？",
+   "explain": "徽宗、钦宗被俘，北宋灭亡。",
+   "answer_mode": "choice",
+   "options": [
+    "南宋建立并定都临安之后立刻统一",
+    "金军攻破东京，北宋灭亡",
+    "蒙古灭南宋",
+    "明朝建立"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j031_q3",
+   "topic": "cnh_j031",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "南宋的第一位皇帝是？",
+   "explain": "赵构在应天称帝，后来定都临安。",
+   "answer_mode": "choice",
+   "options": [
+    "赵匡胤",
+    "赵桓",
+    "赵构",
+    "赵光义"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j031_q4",
+   "topic": "cnh_j031",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "1141年南宋与金订立的和约是？",
+   "explain": "绍兴和议后，宋金对峙局面形成。岳飞此前已在抗金战争中取得郾城大捷。",
+   "answer_mode": "choice",
+   "options": [
+    "澶渊之盟",
+    "宋夏和议",
+    "隆兴和议",
+    "绍兴和议"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j032_q1",
+   "topic": "cnh_j032",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1206年统一蒙古各部的是？",
+   "explain": "铁木真被尊为成吉思汗。",
+   "answer_mode": "choice",
+   "options": [
+    "忽必烈",
+    "铁木真",
+    "完颜阿骨打",
+    "朱元璋"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j032_q2",
+   "topic": "cnh_j032",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1271年忽必烈改国号为元，都城是？",
+   "explain": "大都就是今天的北京。",
+   "answer_mode": "choice",
+   "options": [
+    "临安",
+    "兴庆",
+    "大都",
+    "上京"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j032_q3",
+   "topic": "cnh_j032",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "1279年元军在崖山消灭南宋残余势力，结果是？",
+   "explain": "崖山海战之后，元朝统一全国。",
+   "answer_mode": "choice",
+   "options": [
+    "北宋建立",
+    "明朝建立",
+    "金朝灭亡",
+    "元朝完成统一"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j033_q1",
+   "topic": "cnh_j033",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "北宋前期出现在四川地区、被看作世界上最早纸币的是？",
+   "explain": "交子出现于北宋四川。",
+   "answer_mode": "choice",
+   "options": [
+    "会子是后来的纸币",
+    "宝钞只在元朝通行",
+    "交子",
+    "银元"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j033_q2",
+   "topic": "cnh_j033",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "宋朝从越南引进、促进粮食增产的品种是？",
+   "explain": "占城稻成熟早，适合南方种植。",
+   "answer_mode": "choice",
+   "options": [
+    "玉米",
+    "甘薯",
+    "花生",
+    "占城稻"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j033_q3",
+   "topic": "cnh_j033",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "景德镇在宋代以后闻名的手工业产品是？",
+   "explain": "景德镇后来发展为瓷都。",
+   "answer_mode": "choice",
+   "options": [
+    "瓷器",
+    "棉布",
+    "麻纸",
+    "铁器"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j033_q4",
+   "topic": "cnh_j033",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "宋元城市中供市民娱乐的场所称为？",
+   "explain": "瓦子里有勾栏，演出各种技艺。",
+   "answer_mode": "choice",
+   "options": [
+    "草市只是城外集市",
+    "瓦子",
+    "驿站",
+    "会馆"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j034_q1",
+   "topic": "cnh_j034",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "宋元时期海外贸易兴盛，重要港口有？",
+   "explain": "广州、泉州是著名海港，设有市舶司管理贸易。",
+   "answer_mode": "choice",
+   "options": [
+    "只剩下长安一个内陆港口",
+    "涿郡和余杭",
+    "建康和洛阳",
+    "广州和泉州"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j034_q2",
+   "topic": "cnh_j034",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "管理海外贸易的机构是？",
+   "explain": "市舶司负责征收商税、管理外商。",
+   "answer_mode": "choice",
+   "options": [
+    "市舶司",
+    "转运使",
+    "宣政院",
+    "枢密院"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j034_q3",
+   "topic": "cnh_j034",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "元朝来华并留下游记的意大利旅行家是？",
+   "explain": "《马可·波罗行纪》描述了大都等城市的繁华。",
+   "answer_mode": "choice",
+   "options": [
+    "哥伦布",
+    "马可·波罗",
+    "玄奘",
+    "鉴真"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j035_q1",
+   "topic": "cnh_j035",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "发明活字印刷术的是？",
+   "explain": "北宋毕昇发明泥活字。",
+   "answer_mode": "choice",
+   "options": [
+    "毕昇",
+    "蔡伦",
+    "李春",
+    "沈括"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j035_q2",
+   "topic": "cnh_j035",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "指南针开始用于航海，大约是在？",
+   "explain": "北宋末年，指南针用于航海，后来传到欧洲。",
+   "answer_mode": "choice",
+   "options": [
+    "春秋时期",
+    "北宋末年",
+    "秦朝",
+    "明朝初年"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j035_q3",
+   "topic": "cnh_j035",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "《梦溪笔谈》的作者是？",
+   "explain": "沈括的《梦溪笔谈》记载了多项科技成就。",
+   "answer_mode": "choice",
+   "options": [
+    "司马光",
+    "苏轼",
+    "沈括",
+    "关汉卿"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j035_q4",
+   "topic": "cnh_j035",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u2",
+   "unit_name": "第2单元·辽宋夏金元时期：民族关系发展和社会变化",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "关汉卿的代表作是？",
+   "explain": "关汉卿是元曲作家，《窦娥冤》是其代表作。",
+   "answer_mode": "choice",
+   "options": [
+    "《资治通鉴》",
+    "《红楼梦》",
+    "《三国演义》",
+    "《窦娥冤》"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j036_q1",
+   "topic": "cnh_j036",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1368年建立明朝的是？",
+   "explain": "朱元璋即明太祖，定都应天府。",
+   "answer_mode": "choice",
+   "options": [
+    "朱棣",
+    "朱元璋",
+    "李自成",
+    "努尔哈赤"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j036_q3",
+   "topic": "cnh_j036",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "明成祖在锦衣卫之外增设的特务机构是？",
+   "explain": "东厂由宦官统领，与锦衣卫一起监视臣民。西厂设于明宪宗时，内阁不是特务机构。",
+   "answer_mode": "choice",
+   "options": [
+    "西厂",
+    "内阁",
+    "军机处",
+    "东厂"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j036_q4",
+   "topic": "cnh_j036",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "明朝科举考试答卷必须写成固定格式，称为？",
+   "explain": "八股取士内容限于四书五经，形式僵化。",
+   "answer_mode": "choice",
+   "options": [
+    "八股文",
+    "策论",
+    "诗赋",
+    "小品文"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j037_q1",
+   "topic": "cnh_j037",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1405年开始率领船队七次远航的是？",
+   "explain": "郑和远航从1405年持续到1433年。",
+   "answer_mode": "choice",
+   "options": [
+    "郑成功",
+    "戚继光",
+    "郑和",
+    "哥伦布"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j037_q3",
+   "topic": "cnh_j037",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "在东南沿海抗倭、在台州九战九捷的是？",
+   "explain": "戚继光训练戚家军，台州九战九捷，基本解除东南倭患。",
+   "answer_mode": "choice",
+   "options": [
+    "戚继光",
+    "郑和",
+    "郑成功",
+    "俞大猷"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j037_q4",
+   "topic": "cnh_j037",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "1553年以后，葡萄牙人攫取了哪里的居住权？",
+   "explain": "葡萄牙人通过贿赂地方官，取得在澳门的居住权。",
+   "answer_mode": "choice",
+   "options": [
+    "台湾",
+    "澳门",
+    "香港岛",
+    "澎湖"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j038_q1",
+   "topic": "cnh_j038",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1616年统一女真各部、建立后金的是？",
+   "explain": "努尔哈赤建立后金。",
+   "answer_mode": "choice",
+   "options": [
+    "皇太极",
+    "李自成",
+    "吴三桂",
+    "努尔哈赤"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j038_q2",
+   "topic": "cnh_j038",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1636年皇太极改国号为？",
+   "explain": "皇太极改女真为满洲，改国号为清。",
+   "answer_mode": "choice",
+   "options": [
+    "清",
+    "金",
+    "后金",
+    "明"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j038_q3",
+   "topic": "cnh_j038",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "1644年攻进北京、明朝崇祯帝自缢的农民军领袖是？",
+   "explain": "李自成建立大顺，攻占北京，明朝灭亡。",
+   "answer_mode": "choice",
+   "options": [
+    "张献忠",
+    "李自成",
+    "努尔哈赤",
+    "郑成功"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j038_q4",
+   "topic": "cnh_j038",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "1662年郑成功从哪一支殖民势力手中收复台湾？",
+   "explain": "郑成功打败荷兰殖民者，收复台湾。",
+   "answer_mode": "choice",
+   "options": [
+    "葡萄牙",
+    "西班牙",
+    "荷兰",
+    "英国"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j039_q1",
+   "topic": "cnh_j039",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "1689年中俄签订的平等条约是？",
+   "explain": "雅克萨之战后，双方签订《尼布楚条约》。",
+   "answer_mode": "choice",
+   "options": [
+    "《尼布楚条约》",
+    "《南京条约》",
+    "《瑷珲条约》",
+    "《北京条约》"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j039_q2",
+   "topic": "cnh_j039",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "雍正时期设置、监督西藏地方的官职是？",
+   "explain": "1727年设置驻藏大臣。",
+   "answer_mode": "choice",
+   "options": [
+    "伊犁将军",
+    "驻藏大臣",
+    "台湾府知府",
+    "军机大臣"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j039_q3",
+   "topic": "cnh_j039",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "清朝平定大小和卓叛乱后，设置的管辖新疆的机构是？",
+   "explain": "伊犁将军管辖包括巴勒喀什池在内的整个新疆地区。",
+   "answer_mode": "choice",
+   "options": [
+    "驻藏大臣",
+    "澎湖巡检司",
+    "伊犁将军",
+    "市舶司"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j039_q4",
+   "topic": "cnh_j039",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "1771年率领土尔扈特部回归祖国的是？",
+   "explain": "土尔扈特部在渥巴锡带领下回归，得到清朝妥善安置。",
+   "answer_mode": "choice",
+   "options": [
+    "噶尔丹",
+    "大小和卓",
+    "郑成功",
+    "渥巴锡"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j040_q1",
+   "topic": "cnh_j040",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "设立军机处的皇帝是？",
+   "explain": "军机处使皇帝能够独断朝政，君主专制进一步强化。",
+   "answer_mode": "choice",
+   "options": [
+    "康熙帝",
+    "雍正帝",
+    "乾隆帝",
+    "顺治帝"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j040_q3",
+   "topic": "cnh_j040",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "清朝统治者从思想文化上严密控制知识分子的手段是？",
+   "explain": "文字狱造成社会恐怖，摧残了文化。",
+   "answer_mode": "choice",
+   "options": [
+    "八股文在明朝已经开始但本问指向清朝的文字狱",
+    "焚书坑儒",
+    "推恩令",
+    "文字狱"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j040_q4",
+   "topic": "cnh_j040",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "军机处设立说明？",
+   "explain": "军机处是君主专制强化的重要标志。",
+   "answer_mode": "choice",
+   "options": [
+    "君主专制达到新的高度",
+    "丞相权力恢复",
+    "地方行省被取消",
+    "科举制度结束"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j041_q1",
+   "topic": "cnh_j041",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "明朝后期张居正推行的赋税改革是？",
+   "explain": "一条鞭法把田赋、徭役和杂税合并，折成银两征收。",
+   "answer_mode": "choice",
+   "options": [
+    "摊丁入亩",
+    "两税法",
+    "一条鞭法",
+    "方田均税法"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j041_q2",
+   "topic": "cnh_j041",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "雍正时期把丁税摊入田赋的办法是？",
+   "explain": "摊丁入亩后，无地贫民的负担有所减轻。",
+   "answer_mode": "choice",
+   "options": [
+    "一条鞭法",
+    "租庸调制",
+    "初税亩",
+    "摊丁入亩"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j041_q3",
+   "topic": "cnh_j041",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "原产美洲、明朝后期传入中国的作物有？",
+   "explain": "玉米、甘薯等高产作物提高了粮食产量。",
+   "answer_mode": "choice",
+   "options": [
+    "玉米和甘薯",
+    "占城稻和茶叶",
+    "水稻和粟",
+    "小麦和大豆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j041_q4",
+   "topic": "cnh_j041",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "明清时期著名的商帮有？",
+   "explain": "晋商、徽商在全国从事长途贩运。",
+   "answer_mode": "choice",
+   "options": [
+    "海商和市舶",
+    "晋商和徽商",
+    "行会和瓦子",
+    "匠户和机户"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j042_q1",
+   "topic": "cnh_j042",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "《本草纲目》的作者是？",
+   "explain": "李时珍的《本草纲目》是药物学巨著。",
+   "answer_mode": "choice",
+   "options": [
+    "宋应星",
+    "徐光启",
+    "贾思勰",
+    "李时珍"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnh_j042_q2",
+   "topic": "cnh_j042",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "《天工开物》的作者是？",
+   "explain": "《天工开物》总结了农业和手工业生产技术。",
+   "answer_mode": "choice",
+   "options": [
+    "宋应星",
+    "徐光启",
+    "李时珍",
+    "沈括"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j042_q3",
+   "topic": "cnh_j042",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "《农政全书》的作者是？",
+   "explain": "徐光启的《农政全书》综合记述了农学成就。",
+   "answer_mode": "choice",
+   "options": [
+    "宋应星",
+    "徐光启",
+    "李时珍",
+    "顾炎武"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j042_q4",
+   "topic": "cnh_j042",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "《红楼梦》的作者是？",
+   "explain": "曹雪芹写《红楼梦》，罗贯中写《三国演义》，施耐庵写《水浒传》，吴承恩写《西游记》。",
+   "answer_mode": "choice",
+   "options": [
+    "罗贯中",
+    "施耐庵",
+    "曹雪芹",
+    "吴承恩"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j043_q1",
+   "topic": "cnh_j043",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "端午节常见的习俗是？",
+   "explain": "端午节有吃粽子、赛龙舟等习俗，人们常把它和纪念屈原联系在一起。",
+   "answer_mode": "choice",
+   "options": [
+    "吃粽子、赛龙舟",
+    "赏月、吃月饼",
+    "扫墓、踏青",
+    "守岁、贴春联"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnh_j043_q2",
+   "topic": "cnh_j043",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 1,
+   "stem": "中秋节的典型习俗是？",
+   "explain": "中秋节在农历八月十五，人们赏月、吃月饼。",
+   "answer_mode": "choice",
+   "options": [
+    "赛龙舟",
+    "赏月、吃月饼",
+    "扫墓",
+    "燃放爆竹守岁"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnh_j043_q3",
+   "topic": "cnh_j043",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 2,
+   "stem": "清明节除了祭祖扫墓，还有哪项传统活动？",
+   "explain": "清明兼有祭祀和踏青。",
+   "answer_mode": "choice",
+   "options": [
+    "赛龙舟",
+    "猜灯谜",
+    "踏青",
+    "守岁"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnh_j043_q4",
+   "topic": "cnh_j043",
+   "subject": "history",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "tongbian",
+   "unit": "u3",
+   "unit_name": "第3单元·明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+   "type": "knowledge",
+   "skill": "中国古代史",
+   "difficulty": 3,
+   "stem": "了解传统节日的起源，合适的做法是？",
+   "explain": "活动课要求弄清节日从哪里来、怎样传到今天。",
+   "answer_mode": "choice",
+   "options": [
+    "只记住商家促销日期",
+    "认为节日没有来历",
+    "用一个节日代替所有节日",
+    "把习俗放回它形成的历史和传说中去看"
+   ],
+   "answer": 4
+  }
+ ]
+}

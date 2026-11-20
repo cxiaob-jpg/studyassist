@@ -1,0 +1,3963 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_english_toc.py (catalog unit re-anchor)",
+ "source": {
+  "site": "catalog.json 人教版高中 真实单元目录；知识点/题目复用 knowledge/english 通用池",
+  "units_from": "catalog.json"
+ },
+ "subject": "english",
+ "grade": 12,
+ "semester": "upper",
+ "edition": "renjiao-senior",
+ "edition_label": "人教版高中",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1单元·Science and Scientists"
+  },
+  {
+   "id": "u2",
+   "name": "第2单元·Bridging Cultures"
+  },
+  {
+   "id": "u3",
+   "name": "第3单元·Food and Culture"
+  },
+  {
+   "id": "u4",
+   "name": "第4单元·Journey Across a Vast Land"
+  },
+  {
+   "id": "u5",
+   "name": "第5单元·First Aid"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cne_h153",
+   "name": "科学研究",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "认读 hypothesis、experiment、data 和 evidence。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「假设」？",
+    "answer": "hypothesis"
+   }
+  },
+  {
+   "id": "cne_h154",
+   "name": "科学结论",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "认读 conclude、variable、sample 和 method。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「得出结论」？",
+    "answer": "conclude"
+   }
+  },
+  {
+   "id": "cne_h155",
+   "name": "虚拟语气",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "能用 If I were 和 would 加原形表达与现在事实相反的假设。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "与现在事实相反：如果我是你，我会先核对数据。哪一句正确？",
+    "answer": "If I were you, I would check the data"
+   }
+  },
+  {
+   "id": "cne_h156",
+   "name": "but for 与虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "能用 But for 表示“要不是”，并搭配 would have done 或 would do。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "要不是你的帮助，我当时就会失败。哪一句正确？",
+    "answer": "But for your help, I would have failed"
+   }
+  },
+  {
+   "id": "cne_h157",
+   "name": "说明科学假设",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "能说明假设、证据和还不能确定的地方。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说如果有更多证据就会更确定，哪一句合适？",
+    "answer": "If we had more evidence, we would be more certain"
+   }
+  },
+  {
+   "id": "cne_h158",
+   "name": "读科学短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "找出论点、还缺少的证据，以及作者没有直接说满的限度。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 样本更大的话，他们会怎样？",
+    "answer": "更信任这个结果"
+   }
+  },
+  {
+   "id": "cne_h159",
+   "name": "写实验评论",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "description": "能按要点选出评论中的句子。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "要点：样本更大就会更信任、要不是失败实验上个月会发表、数据还不能证明全部假设。哪一句三个要点都有？",
+    "answer": "If they had a larger sample they would trust it more, but for the failed experiment they would have published, and the data do not prove the whole hypothesis"
+   }
+  },
+  {
+   "id": "cne_h160",
+   "name": "跨文化交流",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "认读 exchange、abroad、adapt 和 homesick。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「交流」？",
+    "answer": "exchange"
+   }
+  },
+  {
+   "id": "cne_h161",
+   "name": "寄宿家庭",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "认读 host、custom、misunderstand 和 fluent。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「主人」？",
+    "answer": "host"
+   }
+  },
+  {
+   "id": "cne_h162",
+   "name": "与过去事实相反的虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "能在从句用 had done，在主句用 would have done。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "如果我当时更努力适应，我就会少一些误会。哪一句正确？",
+    "answer": "If I had adapted faster, I would have had fewer misunderstandings"
+   }
+  },
+  {
+   "id": "cne_h163",
+   "name": "错综时间虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "能在从句指过去、主句指现在时，分别使用 had done 和 would do。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "如果当时听了主人的建议，我现在就会更流利。哪一句正确？",
+    "answer": "If I had followed the advice, I would be more fluent now"
+   }
+  },
+  {
+   "id": "cne_h164",
+   "name": "比较文化差异",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "能比较习俗差异，并说明如果当时知道就会怎样。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说如果当时问了主人就不会误会，哪一句合适？",
+    "answer": "If I had asked my host, I would not have misunderstood the custom"
+   }
+  },
+  {
+   "id": "cne_h165",
+   "name": "读交流短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "推断当时发生了什么，以及现在还剩下什么感受。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 如果当时问了主人，她就不会怎样？",
+    "answer": "穿错衣服去吃饭"
+   }
+  },
+  {
+   "id": "cne_h166",
+   "name": "写交流反思",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "description": "能按要点选出反思中的句子。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "要点：当时问了就不会穿错、知道习俗现在会少些尴尬、主人有耐心。哪一句三个要点都有？",
+    "answer": "If I had asked I would not have worn the wrong clothes, if I had known the custom I would feel less embarrassed now, and my host is patient"
+   }
+  },
+  {
+   "id": "cne_h167",
+   "name": "饮食文化",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "认读 recipe、ingredient、flavour 和 appetite。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「食谱」？",
+    "answer": "recipe"
+   }
+  },
+  {
+   "id": "cne_h168",
+   "name": "餐桌礼仪",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "认读 spice、banquet、chopstick 和 manner。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「香料」？",
+    "answer": "spice"
+   }
+  },
+  {
+   "id": "cne_h169",
+   "name": "与将来事实相反的虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "能用 should、were to 加原形表示与将来事实相反的假设。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "万一明天的宴会取消，我们就会在家吃。哪一句正确？",
+    "answer": "If the banquet should be cancelled, we would eat at home"
+   }
+  },
+  {
+   "id": "cne_h170",
+   "name": "as if 虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "能在 as if 后面用过去式或 had done，表示好像并非事实。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "他谈起这道菜，好像自己是厨师。与现在不符，哪一句正确？",
+    "answer": "He talks as if he were a cook"
+   }
+  },
+  {
+   "id": "cne_h171",
+   "name": "比较饮食",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "能比较不同菜肴，并说明自己的口味。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说这道菜好像没有放盐，哪一句合适？",
+    "answer": "This dish tastes as if it had no salt"
+   }
+  },
+  {
+   "id": "cne_h172",
+   "name": "读饮食短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "推断 as if 暗示的真实情况，以及还没发生的打算。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. 宴会上有什么？",
+    "answer": "清淡的汤和辣鱼"
+   }
+  },
+  {
+   "id": "cne_h173",
+   "name": "写饮食说明",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "description": "能按要点选出说明中的句子。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "要点：有汤和辣鱼、她好像没尝过这种香料、太辣就喝汤。哪一句三个要点都有？",
+    "answer": "There was soup and spicy fish, she ate as if she had never tasted the spice, and if it should be too hot she would drink soup"
+   }
+  },
+  {
+   "id": "cne_h174",
+   "name": "长途旅行",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "认读 rail、carriage、scenery 和 delay。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「铁路」？",
+    "answer": "rail"
+   }
+  },
+  {
+   "id": "cne_h175",
+   "name": "旅途见闻",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "认读 boundless、frost、awesome 和 cross。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「一望无际的」？",
+    "answer": "boundless"
+   }
+  },
+  {
+   "id": "cne_h176",
+   "name": "wish 虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "能在 wish 后面用过去式表示与现在相反，用 had done 表示与过去相反。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "我希望我现在就在那列火车上，但事实上不在。哪一句正确？",
+    "answer": "I wish I were on that train"
+   }
+  },
+  {
+   "id": "cne_h177",
+   "name": "if only 虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "能用 If only 加过去式或 had done 表示强烈愿望。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "要是现在能看见那片一望无际的平原就好了。哪一句正确？",
+    "answer": "If only I could see the boundless plain"
+   }
+  },
+  {
+   "id": "cne_h178",
+   "name": "用语调表达态度",
+   "domain": "语音",
+   "kp_type": "procedural",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "能判断升调、降调或重读是在表示犹豫、惊讶还是强调。",
+   "mastery_criteria": [
+    "能根据重音、语调或音变选出正确的一项",
+    "能说明这个朗读规则用在什么地方"
+   ],
+   "example": {
+    "question": "Really? 用明显的升调，更可能表示什么？",
+    "answer": "惊讶"
+   }
+  },
+  {
+   "id": "cne_h179",
+   "name": "描述旅途",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "能描述沿途风景，并表达遗憾或愿望。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想说希望自己现在就在车上，哪一句合适？",
+    "answer": "I wish I were on the train"
+   }
+  },
+  {
+   "id": "cne_h180",
+   "name": "读旅途短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "推断 Lin 后悔的是什么，以及哪一句只是愿望。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. 火车黎明时穿越了什么？",
+    "answer": "一望无际的平原"
+   }
+  },
+  {
+   "id": "cne_h181",
+   "name": "写旅途邮件",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "description": "能按要点选出邮件中的句子。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "要点：黎明穿越平原、后悔没坐窗边、希望延误更短。哪一句三个要点都有？",
+    "answer": "We crossed a plain at dawn, I wish I had sat by the window, and if only the delay had been shorter"
+   }
+  },
+  {
+   "id": "cne_h182",
+   "name": "急救",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "认读 first aid、bleed、bandage 和 choke。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「急救」？",
+    "answer": "first aid"
+   }
+  },
+  {
+   "id": "cne_h183",
+   "name": "伤情处理",
+   "domain": "词汇",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "认读 wound、swelling、pressure 和 ambulance。",
+   "mastery_criteria": [
+    "能选出单词或短语的中文意思",
+    "能根据中文选出英文单词或短语"
+   ],
+   "example": {
+    "question": "哪个单词的意思是「伤口」？",
+    "answer": "wound"
+   }
+  },
+  {
+   "id": "cne_h184",
+   "name": "建议命令的虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "能在 suggest、insist、order 后面用 should 加原形，should 可以省略。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "医生建议她休息。哪一句正确？",
+    "answer": "The doctor suggested that she should rest"
+   }
+  },
+  {
+   "id": "cne_h185",
+   "name": "otherwise 虚拟",
+   "domain": "语法",
+   "kp_type": "procedural",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "能用 otherwise 表示如果不这样就，并搭配 would have done。",
+   "mastery_criteria": [
+    "能选出语法正确的词或句子",
+    "能说明这个结构在句中做什么"
+   ],
+   "example": {
+    "question": "他当时在流血，不然他就不会叫救护车。哪一句正确？",
+    "answer": "He was bleeding; otherwise he would not have called an ambulance"
+   }
+  },
+  {
+   "id": "cne_h186",
+   "name": "说明急救步骤",
+   "domain": "日常表达",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "能按步骤说明止血，并建议何时叫救护车。",
+   "mastery_criteria": [
+    "能选出符合情境的英文句子",
+    "能读懂这个功能句在问什么或在说什么"
+   ],
+   "example": {
+    "question": "想按步骤说先按压伤口，哪一句合适？",
+    "answer": "First, put pressure on the wound"
+   }
+  },
+  {
+   "id": "cne_h187",
+   "name": "读急救短文",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "找出已经做的步骤、建议，以及 otherwise 排除的结果。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. 教练建议学生做什么？",
+    "answer": "坐下"
+   }
+  },
+  {
+   "id": "cne_h188",
+   "name": "写急救步骤",
+   "domain": "读写",
+   "kp_type": "application",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "description": "能按要点选出步骤说明中的句子。",
+   "mastery_criteria": [
+    "能根据短文选出与文字一致的信息",
+    "能选出和写作要点一致的句子"
+   ],
+   "example": {
+    "question": "要点：建议坐下、按压并包扎、否则流血会危险。哪一句三个要点都有？",
+    "answer": "The coach suggested that he sit down, pressure and a bandage were used, and otherwise the bleeding would have become dangerous"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cne_h153_q1",
+   "topic": "cne_h153",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「假设」？",
+   "explain": "hypothesis 的意思是假设。",
+   "answer_mode": "choice",
+   "options": [
+    "experiment",
+    "data",
+    "hypothesis",
+    "evidence"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h153_q2",
+   "topic": "cne_h153",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「experiment」的中文意思是哪一个？",
+   "explain": "experiment 的意思是实验。",
+   "answer_mode": "choice",
+   "options": [
+    "假设",
+    "数据",
+    "证据",
+    "实验"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h153_q3",
+   "topic": "cne_h153",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「数据」的单词。",
+   "explain": "表示数据的单词是 data。",
+   "answer_mode": "choice",
+   "options": [
+    "data",
+    "hypothesis",
+    "experiment",
+    "evidence"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h153_q4",
+   "topic": "cne_h153",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「证据」？",
+   "explain": "evidence 的意思是证据。",
+   "answer_mode": "choice",
+   "options": [
+    "hypothesis",
+    "evidence",
+    "experiment",
+    "data"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h154_q1",
+   "topic": "cne_h154",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「得出结论」？",
+   "explain": "conclude 的意思是得出结论。",
+   "answer_mode": "choice",
+   "options": [
+    "variable",
+    "sample",
+    "method",
+    "conclude"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h154_q2",
+   "topic": "cne_h154",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「variable」的中文意思是哪一个？",
+   "explain": "variable 的意思是变量。",
+   "answer_mode": "choice",
+   "options": [
+    "变量",
+    "得出结论",
+    "样本",
+    "方法"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h154_q3",
+   "topic": "cne_h154",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「样本」的单词。",
+   "explain": "表示样本的单词是 sample。",
+   "answer_mode": "choice",
+   "options": [
+    "conclude",
+    "sample",
+    "variable",
+    "method"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h154_q4",
+   "topic": "cne_h154",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「方法」？",
+   "explain": "method 的意思是方法。",
+   "answer_mode": "choice",
+   "options": [
+    "conclude",
+    "variable",
+    "method",
+    "sample"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h155_q1",
+   "topic": "cne_h155",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "与现在事实相反：如果我是你，我会先核对数据。哪一句正确？",
+   "explain": "与现在相反，从句用 were，主句用 would 加原形。",
+   "answer_mode": "choice",
+   "options": [
+    "If I were you, I would check the data",
+    "If I am you, I would check the data",
+    "If I were you, I will check the data",
+    "If I were you, I checked the data"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h155_q2",
+   "topic": "cne_h155",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "If she ___ more evidence, she would be more certain. 横线处填哪一个？",
+   "explain": "与现在相反的从句用过去式 had。",
+   "answer_mode": "choice",
+   "options": [
+    "has",
+    "had",
+    "have",
+    "will have"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h155_q3",
+   "topic": "cne_h155",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是与现在事实相反的虚拟？",
+   "explain": "knew 配 would help，表示现在并不知道。",
+   "answer_mode": "choice",
+   "options": [
+    "If he knows the method, he will help us",
+    "If he knew the method, he helps us",
+    "If he knew the method, he would help us",
+    "If he knows the method, he would help us"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h155_q4",
+   "topic": "cne_h155",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "If I ___ a larger sample, I would trust the result. 横线处填哪一个？",
+   "explain": "从句用 had，主句用 would trust。",
+   "answer_mode": "choice",
+   "options": [
+    "have",
+    "has",
+    "am having",
+    "had"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h156_q1",
+   "topic": "cne_h156",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "要不是你的帮助，我当时就会失败。哪一句正确？",
+   "explain": "与过去相反用 would have failed。",
+   "answer_mode": "choice",
+   "options": [
+    "But for your help, I failed",
+    "But for your help, I would have failed",
+    "But for your help, I would fail yesterday",
+    "But for your help, I had failed"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h156_q2",
+   "topic": "cne_h156",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "But for the evidence, we ___ still unsure. 表示现在仍会不确定，横线处填哪一个？",
+   "explain": "说的是现在的结果，用 would be。",
+   "answer_mode": "choice",
+   "options": [
+    "would have been yesterday only",
+    "are",
+    "would be",
+    "were be"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h156_q3",
+   "topic": "cne_h156",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句用 but for 表示与过去相反？",
+   "explain": "would have chosen 是与过去相反的结果。",
+   "answer_mode": "choice",
+   "options": [
+    "But for the experiment, they chose the wrong method",
+    "But for the experiment, they will choose",
+    "But for the experiment, they had chose",
+    "But for the experiment, they would have chosen the wrong method"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h156_q4",
+   "topic": "cne_h156",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "But for 在这种句子里更接近哪一个意思？",
+   "explain": "But for your help 意思是如果没有你的帮助。",
+   "answer_mode": "choice",
+   "options": [
+    "如果没有",
+    "因为有了所以真实发生",
+    "在……之后",
+    "除了物品清单"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h157_q1",
+   "topic": "cne_h157",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说如果有更多证据就会更确定，哪一句合适？",
+   "explain": "与现在相反用 had 配 would be。",
+   "answer_mode": "choice",
+   "options": [
+    "If we have more evidence, we would be more certain",
+    "If we had more evidence, we are more certain",
+    "If we had more evidence, we would be more certain",
+    "If we would have more evidence, we are certain"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h157_q2",
+   "topic": "cne_h157",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说要不是那次实验，结论就会不同，哪一句合适？",
+   "explain": "But for 加 would be 表示假如没有。",
+   "answer_mode": "choice",
+   "options": [
+    "But for that experiment, the conclusion is different in the past wish",
+    "Experiment but for different is",
+    "Would be the conclusion but for real",
+    "But for that experiment, the conclusion would be different"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h157_q3",
+   "topic": "cne_h157",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想指出数据还不够，哪一句合适？",
+   "explain": "are not enough to support 用来限定结论。",
+   "answer_mode": "choice",
+   "options": [
+    "The data are not enough to support the hypothesis",
+    "The data are not enough to support the hypothessis",
+    "The data are not enough to supporting the hypothesis",
+    "The data are not enough support the hypothesis"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h157_q4",
+   "topic": "cne_h157",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想建议先控制变量，哪一句合适？",
+   "explain": "should control 用来提出下一步。",
+   "answer_mode": "choice",
+   "options": [
+    "Control should the variables we",
+    "We should control the variables first",
+    "We should controlled the variables first",
+    "We should to control the variables first"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h158_q1",
+   "topic": "cne_h158",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 样本更大的话，他们会怎样？",
+   "explain": "would trust the result more 是假设的结果。",
+   "answer_mode": "choice",
+   "options": [
+    "马上放弃",
+    "不再做实验",
+    "已经发表了",
+    "更信任这个结果"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h158_q2",
+   "topic": "cne_h158",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 要不是那次失败的实验，他们上个月会怎样？",
+   "explain": "would have published the paper last month。",
+   "answer_mode": "choice",
+   "options": [
+    "发表论文",
+    "扩大样本",
+    "证明全部假设",
+    "停止研究"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h158_q3",
+   "topic": "cne_h158",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 数据现在能证明什么？",
+   "explain": "短文写 do not prove the whole hypothesis。",
+   "answer_mode": "choice",
+   "options": [
+    "已经证明一切",
+    "还不能证明整个假设",
+    "没有任何用处",
+    "代替了实验"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h158_q4",
+   "topic": "cne_h158",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "If the team had a larger sample, they would trust the result more. But for one failed experiment, they would have published the paper last month. The data are useful, but they do not prove the whole hypothesis. 作者的论点更接近哪一种？",
+   "explain": "useful, but they do not prove 是在限定论点。",
+   "answer_mode": "choice",
+   "options": [
+    "实验失败所以数据无用",
+    "论文已经发表",
+    "数据有用，但还不足以证明全部假设",
+    "样本已经足够"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h159_q1",
+   "topic": "cne_h159",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "要点：样本更大就会更信任、要不是失败实验上个月会发表、数据还不能证明全部假设。哪一句三个要点都有？",
+   "explain": "三个要点都要出现。",
+   "answer_mode": "choice",
+   "options": [
+    "If they had a larger sample they would trust it more, but for the failed experiment they would have published, and the data do not prove the whole hypothesis",
+    "The sample is small",
+    "The experiment failed",
+    "Data can be useful"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h159_q2",
+   "topic": "cne_h159",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "评论里表示与现在相反，哪一句正确？",
+   "explain": "were 配 would repeat。",
+   "answer_mode": "choice",
+   "options": [
+    "If I am on the team, I would repeat the test",
+    "If I were on the team, I would repeat the test",
+    "If I were on the team, I will repeat the test",
+    "If I were on the team, I repeated the test"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h159_q3",
+   "topic": "cne_h159",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合作为评论的第一句？",
+   "explain": "评论可以先写出限度 not fully proved。",
+   "answer_mode": "choice",
+   "options": [
+    "The hypothesis is interest but not fully proved",
+    "The hypothesis are interesting but not fully proved",
+    "The hypothesis is interesting but not fully proved",
+    "The hypothesis is interested but not fully proved"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h159_q4",
+   "topic": "cne_h159",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u1",
+   "unit_name": "第1单元·Science and Scientists",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句用 But for 谈过去？",
+   "explain": "would have finished 对应过去。",
+   "answer_mode": "choice",
+   "options": [
+    "But for the error, they finished",
+    "But for the error, they finish tomorrow",
+    "But for the error, they had finish",
+    "But for the error, they would have finished"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h160_q1",
+   "topic": "cne_h160",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「交流」？",
+   "explain": "exchange 的意思是交流。",
+   "answer_mode": "choice",
+   "options": [
+    "abroad",
+    "exchange",
+    "adapt",
+    "homesick"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h160_q2",
+   "topic": "cne_h160",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「abroad」的中文意思是哪一个？",
+   "explain": "abroad 的意思是在国外。",
+   "answer_mode": "choice",
+   "options": [
+    "交流",
+    "适应",
+    "在国外",
+    "想家的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h160_q3",
+   "topic": "cne_h160",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「适应」的单词。",
+   "explain": "表示适应的单词是 adapt。",
+   "answer_mode": "choice",
+   "options": [
+    "exchange",
+    "abroad",
+    "homesick",
+    "adapt"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h160_q4",
+   "topic": "cne_h160",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「想家的」？",
+   "explain": "homesick 的意思是想家的。",
+   "answer_mode": "choice",
+   "options": [
+    "homesick",
+    "exchange",
+    "abroad",
+    "adapt"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h161_q1",
+   "topic": "cne_h161",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「主人」？",
+   "explain": "host 的意思是主人。",
+   "answer_mode": "choice",
+   "options": [
+    "custom",
+    "misunderstand",
+    "host",
+    "fluent"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h161_q2",
+   "topic": "cne_h161",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「custom」的中文意思是哪一个？",
+   "explain": "custom 的意思是习俗。",
+   "answer_mode": "choice",
+   "options": [
+    "主人",
+    "误解",
+    "流利的",
+    "习俗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h161_q3",
+   "topic": "cne_h161",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「误解」的单词。",
+   "explain": "表示误解的单词是 misunderstand。",
+   "answer_mode": "choice",
+   "options": [
+    "misunderstand",
+    "host",
+    "custom",
+    "fluent"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h161_q4",
+   "topic": "cne_h161",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「流利的」？",
+   "explain": "fluent 的意思是流利的。",
+   "answer_mode": "choice",
+   "options": [
+    "host",
+    "fluent",
+    "custom",
+    "misunderstand"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h162_q1",
+   "topic": "cne_h162",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "如果我当时更努力适应，我就会少一些误会。哪一句正确？",
+   "explain": "与过去相反：had adapted 配 would have had。fewer 修饰可数的 misunderstandings。",
+   "answer_mode": "choice",
+   "options": [
+    "If I adapted faster, I would have had fewer misunderstandings",
+    "If I had adapted faster, I would have less misunderstandings",
+    "If I have adapted faster, I would have fewer misunderstandings",
+    "If I had adapted faster, I would have had fewer misunderstandings"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h162_q2",
+   "topic": "cne_h162",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "If she ___ abroad earlier, she would have been more fluent. 横线处填哪一个？",
+   "explain": "从句用 had gone。",
+   "answer_mode": "choice",
+   "options": [
+    "had gone",
+    "went",
+    "has gone",
+    "would go"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h162_q3",
+   "topic": "cne_h162",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是与过去事实相反？",
+   "explain": "had asked 配 would have avoided。",
+   "answer_mode": "choice",
+   "options": [
+    "If he asked his host, he would avoid the mistake now",
+    "If he had asked his host, he would have avoided the mistake",
+    "If he had asked, he will avoid it",
+    "If he asks, he would have avoided it"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h162_q4",
+   "topic": "cne_h162",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "If they ___ the custom, they would not have been so homesick. 横线处填哪一个？",
+   "explain": "与过去相反的从句用 had understood。",
+   "answer_mode": "choice",
+   "options": [
+    "understood",
+    "understand",
+    "had understood",
+    "have understood"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h163_q1",
+   "topic": "cne_h163",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "如果当时听了主人的建议，我现在就会更流利。哪一句正确？",
+   "explain": "从句是过去，主句是现在，用 had followed 配 would be now。",
+   "answer_mode": "choice",
+   "options": [
+    "If I had followed the advice, I would be more fluent now",
+    "If I had followed the advice, I would have been more fluent now",
+    "If I followed the advice, I would be more fluent now",
+    "If I had followed the advice, I am more fluent now"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h163_q2",
+   "topic": "cne_h163",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "If she had stayed abroad, she ___ the language now. 横线处填哪一个？",
+   "explain": "now 说明结果在现在，用 would speak。",
+   "answer_mode": "choice",
+   "options": [
+    "would have spoken",
+    "would speak",
+    "spoke",
+    "had spoken"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h163_q3",
+   "topic": "cne_h163",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是错综时间？",
+   "explain": "then 在从句，now 在主句，时间不一致。",
+   "answer_mode": "choice",
+   "options": [
+    "If he had learned the custom, he would not have felt confused then",
+    "If he learned the custom, he would not feel confused",
+    "If he had learned the custom then, he would not feel confused now",
+    "If he learns the custom, he will not feel confused"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h163_q4",
+   "topic": "cne_h163",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "主句有 now 时，更常见的谓语是哪一种？",
+   "explain": "现在的结果用 would do，不用 would have done。",
+   "answer_mode": "choice",
+   "options": [
+    "would have 加过去分词",
+    "一般现在时",
+    "had 加过去分词",
+    "would 加原形"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h164_q1",
+   "topic": "cne_h164",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说如果当时问了主人就不会误会，哪一句合适？",
+   "explain": "过去的假设用 had asked 配 would not have misunderstood。",
+   "answer_mode": "choice",
+   "options": [
+    "If I asked my host, I would not have misunderstood",
+    "If I had asked my host, I would not have misunderstood the custom",
+    "If I had asked, I will not misunderstand",
+    "If I have asked, I would not misunderstood"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h164_q2",
+   "topic": "cne_h164",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说早知道习俗的话现在不会想家，哪一句合适？",
+   "explain": "过去的条件加现在的结果：would not feel now。",
+   "answer_mode": "choice",
+   "options": [
+    "If I had known the custom, I would not have felt homesick now",
+    "If I knew the custom then, I feel fine now",
+    "If I had known the custom, I would not feel so homesick now",
+    "Had known I, I am not homesick"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h164_q3",
+   "topic": "cne_h164",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想礼貌地承认自己还不够流利，哪一句合适？",
+   "explain": "so 连接原因和可能的误会。",
+   "answer_mode": "choice",
+   "options": [
+    "I am not fluent yet, so I may misunderstanded",
+    "I am not fluent yet, so I may to misunderstand",
+    "I is not fluent yet, so I may misunderstand",
+    "I am not fluent yet, so I may misunderstand"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h164_q4",
+   "topic": "cne_h164",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想建议交换生先了解习俗，哪一句合适？",
+   "explain": "should learn 用来提建议。",
+   "answer_mode": "choice",
+   "options": [
+    "Exchange students should learn local customs first",
+    "Should learn customs students exchange",
+    "Exchange students should learned local customs first",
+    "Exchange students should to learn local customs first"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h165_q1",
+   "topic": "cne_h165",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 如果当时问了主人，她就不会怎样？",
+   "explain": "would not have worn the wrong clothes 是当时可以避免的事。",
+   "answer_mode": "choice",
+   "options": [
+    "感到尴尬到现在",
+    "学习语言",
+    "穿错衣服去吃饭",
+    "遇到耐心的主人"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h165_q2",
+   "topic": "cne_h165",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 现在还可能有的感受是什么？",
+   "explain": "would feel less embarrassed now 是现在的结果。",
+   "answer_mode": "choice",
+   "options": [
+    "已经完全不想家",
+    "不再学习",
+    "主人不耐烦",
+    "没那么尴尬，如果她当时知道习俗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h165_q3",
+   "topic": "cne_h165",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 主人是怎样的人？",
+   "explain": "短文写 her host is patient。",
+   "answer_mode": "choice",
+   "options": [
+    "有耐心",
+    "很生气",
+    "不在家",
+    "不会说当地话"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h165_q4",
+   "topic": "cne_h165",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "If Lin had asked her host, she would not have worn the wrong clothes to the dinner. If she had known that custom, she would feel less embarrassed now. She is still learning, and her host is patient. 哪一句是已经发生的事实，而不是假设？",
+   "explain": "最后一句是事实。前面两句都是 If 假设。",
+   "answer_mode": "choice",
+   "options": [
+    "她当时问了主人",
+    "她仍在学习，主人有耐心",
+    "她没有穿错衣服",
+    "她现在一点也不尴尬"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h166_q1",
+   "topic": "cne_h166",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "要点：当时问了就不会穿错、知道习俗现在会少些尴尬、主人有耐心。哪一句三个要点都有？",
+   "explain": "三个要点都要出现。",
+   "answer_mode": "choice",
+   "options": [
+    "I wore the wrong clothes",
+    "I feel embarrassed",
+    "My host is kind",
+    "If I had asked I would not have worn the wrong clothes, if I had known the custom I would feel less embarrassed now, and my host is patient"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h166_q2",
+   "topic": "cne_h166",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "反思里谈过去，哪一句正确？",
+   "explain": "had listened 配 would have avoided。",
+   "answer_mode": "choice",
+   "options": [
+    "If I had listened, I would have avoided the mistake",
+    "If I listened, I would have avoided the mistake",
+    "If I had listened, I will avoid the mistake",
+    "If I have listened, I would avoided the mistake"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h166_q3",
+   "topic": "cne_h166",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合作为反思的第一句？",
+   "explain": "反思可以先写出发生的事。",
+   "answer_mode": "choice",
+   "options": [
+    "I misunderstood an custom at dinner",
+    "I misunderstood a custom at dinner",
+    "I missunderstood a custom at dinner",
+    "I misunderstanding a custom at dinner"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h166_q4",
+   "topic": "cne_h166",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u2",
+   "unit_name": "第2单元·Bridging Cultures",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句是错综时间虚拟？",
+   "explain": "had prepared 指过去，would be now 指现在。",
+   "answer_mode": "choice",
+   "options": [
+    "If I had prepared, I would have been calmer then",
+    "If I prepared, I would be calmer",
+    "If I had prepared, I would be calmer now",
+    "If I prepare, I will be calmer"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h167_q1",
+   "topic": "cne_h167",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「食谱」？",
+   "explain": "recipe 的意思是食谱。",
+   "answer_mode": "choice",
+   "options": [
+    "recipe",
+    "ingredient",
+    "flavour",
+    "appetite"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h167_q2",
+   "topic": "cne_h167",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「ingredient」的中文意思是哪一个？",
+   "explain": "ingredient 的意思是食材。",
+   "answer_mode": "choice",
+   "options": [
+    "食谱",
+    "食材",
+    "风味",
+    "食欲"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h167_q3",
+   "topic": "cne_h167",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「风味」的单词。",
+   "explain": "表示风味的单词是 flavour。",
+   "answer_mode": "choice",
+   "options": [
+    "recipe",
+    "ingredient",
+    "flavour",
+    "appetite"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h167_q4",
+   "topic": "cne_h167",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「食欲」？",
+   "explain": "appetite 的意思是食欲。",
+   "answer_mode": "choice",
+   "options": [
+    "recipe",
+    "ingredient",
+    "flavour",
+    "appetite"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h168_q1",
+   "topic": "cne_h168",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「香料」？",
+   "explain": "spice 的意思是香料。",
+   "answer_mode": "choice",
+   "options": [
+    "banquet",
+    "spice",
+    "chopstick",
+    "manner"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h168_q2",
+   "topic": "cne_h168",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「banquet」的中文意思是哪一个？",
+   "explain": "banquet 的意思是宴会。",
+   "answer_mode": "choice",
+   "options": [
+    "香料",
+    "筷子",
+    "宴会",
+    "礼仪"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h168_q3",
+   "topic": "cne_h168",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「筷子」的单词。",
+   "explain": "表示筷子的单词是 chopstick。",
+   "answer_mode": "choice",
+   "options": [
+    "spice",
+    "banquet",
+    "manner",
+    "chopstick"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h168_q4",
+   "topic": "cne_h168",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「礼仪」？",
+   "explain": "manner 的意思是礼仪。",
+   "answer_mode": "choice",
+   "options": [
+    "manner",
+    "spice",
+    "banquet",
+    "chopstick"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h169_q1",
+   "topic": "cne_h169",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "万一明天的宴会取消，我们就会在家吃。哪一句正确？",
+   "explain": "与将来相反可以用 should be cancelled 配 would eat。",
+   "answer_mode": "choice",
+   "options": [
+    "If the banquet will be cancelled, we would eat at home",
+    "If the banquet should be cancelled, we will eat at home",
+    "If the banquet should be cancelled, we would eat at home",
+    "If the banquet is cancelled, we would eat at home"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h169_q2",
+   "topic": "cne_h169",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "If it ___ to snow tomorrow, the outdoor meal would stop. 横线处填哪一个？",
+   "explain": "were to snow 表示将来不大可能发生。",
+   "answer_mode": "choice",
+   "options": [
+    "was",
+    "is",
+    "will be",
+    "were"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h169_q3",
+   "topic": "cne_h169",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是与将来事实相反？",
+   "explain": "were to forget 配 would use，表示将来的假设。",
+   "answer_mode": "choice",
+   "options": [
+    "If I were to forget the recipe, I would use a simpler one",
+    "If I forget the recipe, I will use a simpler one",
+    "If I forgot the recipe yesterday, I used another",
+    "If I am to forget, I would used one"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h169_q4",
+   "topic": "cne_h169",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "If she should miss the banquet, she ___. 横线处填哪一个？",
+   "explain": "主句用 would be upset。",
+   "answer_mode": "choice",
+   "options": [
+    "will be upset",
+    "would be upset",
+    "was upset",
+    "had been upset"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h170_q1",
+   "topic": "cne_h170",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "他谈起这道菜，好像自己是厨师。与现在不符，哪一句正确？",
+   "explain": "与现在不符，as if 后面用 were。",
+   "answer_mode": "choice",
+   "options": [
+    "He talks as if he is a cook in a false way that still uses is",
+    "He talks as if he is being a real cook now true",
+    "He talks as if he had been a cook tomorrow",
+    "He talks as if he were a cook"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h170_q2",
+   "topic": "cne_h170",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "她看着桌子，好像刚才看见了很辣的菜。哪一句正确？",
+   "explain": "好像已经看见了，用 had seen。",
+   "answer_mode": "choice",
+   "options": [
+    "She looked as if she had seen a very hot dish",
+    "She looked as if she saw a very hot dish tomorrow",
+    "She looked as if she has seen a hot dish",
+    "She looked as if she sees a hot dish"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h170_q3",
+   "topic": "cne_h170",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句表示好像并不是真的？",
+   "explain": "had never tasted 表示其实他尝过，只是好像没有。",
+   "answer_mode": "choice",
+   "options": [
+    "He eats as he tastes spice every day",
+    "He eats as if he had never tasted spice",
+    "As if he tastes, he eats real spice",
+    "He eats if as he tasted"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h170_q4",
+   "topic": "cne_h170",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "as if 从句与现在事实相反时，be 常用哪一个？",
+   "explain": "与现在相反时 be 常用 were。",
+   "answer_mode": "choice",
+   "options": [
+    "is",
+    "been",
+    "were",
+    "being"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h171_q1",
+   "topic": "cne_h171",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说这道菜好像没有放盐，哪一句合适？",
+   "explain": "as if it had no salt 表示尝起来像没有盐。",
+   "answer_mode": "choice",
+   "options": [
+    "This dish tastes as if it had no salt",
+    "This dish tastes as if it has no salt and that is the true recipe we measured",
+    "Tastes as if had it no salt",
+    "Salt as if the dish no"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h171_q2",
+   "topic": "cne_h171",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说万一买不到这种香料就换食谱，哪一句合适？",
+   "explain": "should be unavailable 配 would change。",
+   "answer_mode": "choice",
+   "options": [
+    "If the spice will be unavailable, I would change the recipe",
+    "If the spice should be unavailable, I would change the recipe",
+    "If the spice should be unavailable, I will change the recipe",
+    "If the spice unavailable, I would changed"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h171_q3",
+   "topic": "cne_h171",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想介绍用筷子的礼仪，哪一句合适？",
+   "explain": "It is good manners not to 用来说明礼仪。",
+   "answer_mode": "choice",
+   "options": [
+    "It are good manners not to point with chopsticks",
+    "It is good manners not to point with chopstiks",
+    "It is good manners not to point with chopsticks",
+    "It is good manners not to pointing with chopsticks"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h171_q4",
+   "topic": "cne_h171",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说这道菜会增进食欲，哪一句合适？",
+   "explain": "may improve 用来说明可能的效果。",
+   "answer_mode": "choice",
+   "options": [
+    "The flavour may improved your appetite",
+    "Improve may the flavour you",
+    "The flavour may to improve your appetite",
+    "The flavour may improve your appetite"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h172_q1",
+   "topic": "cne_h172",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. 宴会上有什么？",
+   "explain": "短文写 a mild soup and a spicy fish。",
+   "answer_mode": "choice",
+   "options": [
+    "只有甜品",
+    "清淡的汤和辣鱼",
+    "没有鱼",
+    "只有筷子"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h172_q2",
+   "topic": "cne_h172",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. as if 暗示香料对 Lin 来说怎样？",
+   "explain": "as if she had never tasted 表示好像从未尝过。",
+   "answer_mode": "choice",
+   "options": [
+    "她是厨师",
+    "她不吃饭",
+    "她其实可能尝过，只是反应像没尝过",
+    "汤是辣的"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h172_q3",
+   "topic": "cne_h172",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. 如果鱼太辣，她会怎样？",
+   "explain": "would drink some soup。",
+   "answer_mode": "choice",
+   "options": [
+    "离开宴会",
+    "再要一份鱼",
+    "改用筷子指人",
+    "喝一些汤"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h172_q4",
+   "topic": "cne_h172",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The banquet included a mild soup and a spicy fish. Lin ate as if she had never tasted that spice. If the fish should be too hot, she would drink some soup. 哪一句还是假设，不是已经发生的事？",
+   "explain": "If the fish should be too hot 还是假设。",
+   "answer_mode": "choice",
+   "options": [
+    "鱼太辣的话她会喝汤",
+    "宴会上有汤和鱼",
+    "她已经在吃",
+    "短文没有假设"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h173_q1",
+   "topic": "cne_h173",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "要点：有汤和辣鱼、她好像没尝过这种香料、太辣就喝汤。哪一句三个要点都有？",
+   "explain": "三个要点都要出现。",
+   "answer_mode": "choice",
+   "options": [
+    "There was soup",
+    "The fish was spicy",
+    "There was soup and spicy fish, she ate as if she had never tasted the spice, and if it should be too hot she would drink soup",
+    "Soup is mild"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h173_q2",
+   "topic": "cne_h173",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "说明里用 as if 谈已经尝过的感觉，哪一句正确？",
+   "explain": "had found 表示好像已经发现。",
+   "answer_mode": "choice",
+   "options": [
+    "He smiled as if he finds a new flavour tomorrow",
+    "He smiled as if he has found a flavour",
+    "As if smiled he had found",
+    "He smiled as if he had found a new flavour"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h173_q3",
+   "topic": "cne_h173",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合作为说明的第一句？",
+   "explain": "说明可以先写 This paragraph describes。",
+   "answer_mode": "choice",
+   "options": [
+    "This paragraph describes one banquet",
+    "This paragraph describe one banquet",
+    "This paragraf describes one banquet",
+    "This parragraph describes one banquet"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h173_q4",
+   "topic": "cne_h173",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u3",
+   "unit_name": "第3单元·Food and Culture",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句是与将来相反的虚拟？",
+   "explain": "were to run out 配 would cook。",
+   "answer_mode": "choice",
+   "options": [
+    "If the soup runs out, we will cook noodles",
+    "If the soup were to run out, we would cook noodles",
+    "If the soup ran out yesterday, we cooked noodles",
+    "Were the soup runs out, we cook"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h174_q1",
+   "topic": "cne_h174",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「铁路」？",
+   "explain": "rail 的意思是铁路。",
+   "answer_mode": "choice",
+   "options": [
+    "carriage",
+    "scenery",
+    "delay",
+    "rail"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h174_q2",
+   "topic": "cne_h174",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「carriage」的中文意思是哪一个？",
+   "explain": "carriage 的意思是车厢。",
+   "answer_mode": "choice",
+   "options": [
+    "车厢",
+    "铁路",
+    "沿途风景",
+    "延误"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h174_q3",
+   "topic": "cne_h174",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「沿途风景」的单词。",
+   "explain": "表示沿途风景的单词是 scenery。",
+   "answer_mode": "choice",
+   "options": [
+    "rail",
+    "scenery",
+    "carriage",
+    "delay"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h174_q4",
+   "topic": "cne_h174",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「延误」？",
+   "explain": "delay 的意思是延误。",
+   "answer_mode": "choice",
+   "options": [
+    "rail",
+    "carriage",
+    "delay",
+    "scenery"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h175_q1",
+   "topic": "cne_h175",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「一望无际的」？",
+   "explain": "boundless 的意思是一望无际的。",
+   "answer_mode": "choice",
+   "options": [
+    "boundless",
+    "frost",
+    "awesome",
+    "cross"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h175_q2",
+   "topic": "cne_h175",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「frost」的中文意思是哪一个？",
+   "explain": "frost 的意思是霜。",
+   "answer_mode": "choice",
+   "options": [
+    "一望无际的",
+    "霜",
+    "令人惊叹的",
+    "穿越"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h175_q3",
+   "topic": "cne_h175",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「令人惊叹的」的单词。",
+   "explain": "表示令人惊叹的的单词是 awesome。",
+   "answer_mode": "choice",
+   "options": [
+    "boundless",
+    "frost",
+    "awesome",
+    "cross"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h175_q4",
+   "topic": "cne_h175",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「穿越」？",
+   "explain": "cross 的意思是穿越。",
+   "answer_mode": "choice",
+   "options": [
+    "boundless",
+    "frost",
+    "awesome",
+    "cross"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h176_q1",
+   "topic": "cne_h176",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "我希望我现在就在那列火车上，但事实上不在。哪一句正确？",
+   "explain": "与现在相反，wish 后面用 were。",
+   "answer_mode": "choice",
+   "options": [
+    "I wish I am on that train",
+    "I wish I were on that train",
+    "I wish I were on that train and I really am",
+    "I wish I had been on that train now as a present fact"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h176_q2",
+   "topic": "cne_h176",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "她希望当时没有误车。哪一句正确？",
+   "explain": "与过去相反用 had not missed。",
+   "answer_mode": "choice",
+   "options": [
+    "She wishes she did not missed the train",
+    "She wishes she has not missed the train",
+    "She wishes she had not missed the train",
+    "She wishes she missed not the train"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h176_q3",
+   "topic": "cne_h176",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "I wish the delay ___ shorter. 说的是现在这场延误，横线处填哪一个？",
+   "explain": "希望现在的情况不同，用 were。",
+   "answer_mode": "choice",
+   "options": [
+    "is",
+    "had been",
+    "will be",
+    "were"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h176_q4",
+   "topic": "cne_h176",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句表示后悔已经发生的事？",
+   "explain": "had taken 表示当时没多拍，现在后悔。",
+   "answer_mode": "choice",
+   "options": [
+    "I wish I had taken more photos",
+    "I wish I took more photos now",
+    "I wish I take more photos",
+    "I wish I have more photos"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h177_q1",
+   "topic": "cne_h177",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "要是现在能看见那片一望无际的平原就好了。哪一句正确？",
+   "explain": "If only 表示现在不能实现的愿望，用 could see。",
+   "answer_mode": "choice",
+   "options": [
+    "If only I can see the boundless plain",
+    "If only I could saw the plain",
+    "If only I could see the boundless plain",
+    "If only can I see the plain"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h177_q2",
+   "topic": "cne_h177",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "要是当时带了外套就好了。哪一句正确？",
+   "explain": "与过去相反用 had brought。",
+   "answer_mode": "choice",
+   "options": [
+    "If only I brought a coat",
+    "If only I have brought a coat",
+    "If only had I brought a coat as a question",
+    "If only I had brought a coat"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h177_q3",
+   "topic": "cne_h177",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "If only the train ___ on time now. 横线处填哪一个？",
+   "explain": "希望现在准点，用 were。",
+   "answer_mode": "choice",
+   "options": [
+    "were",
+    "is",
+    "had been",
+    "will be"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h177_q4",
+   "topic": "cne_h177",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是对过去的遗憾？",
+   "explain": "had crossed 是已经错过的事。",
+   "answer_mode": "choice",
+   "options": [
+    "If only we crossed the mountain now",
+    "If only we had crossed the mountain before the frost",
+    "If only we cross the mountain",
+    "If only do we cross"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h178_q1",
+   "topic": "cne_h178",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "Really? 用明显的升调，更可能表示什么？",
+   "explain": "Really 的升调常表示惊讶。",
+   "answer_mode": "choice",
+   "options": [
+    "已经完全同意并且结束话题",
+    "在读单词重音",
+    "没有任何态度",
+    "惊讶"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h178_q2",
+   "topic": "cne_h178",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 1,
+   "stem": "Well... I am not sure. 把 Well 拖长并略升，更可能表示什么？",
+   "explain": "拖长的 Well 常表示犹豫。",
+   "answer_mode": "choice",
+   "options": [
+    "犹豫",
+    "愤怒的命令",
+    "高兴地结束对话",
+    "强调火车已经到达"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h178_q3",
+   "topic": "cne_h178",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "I DID see the frost. 重读 DID，更可能表示什么？",
+   "explain": "重读 did 是在强调谓语，表示确实如此。",
+   "answer_mode": "choice",
+   "options": [
+    "否定看见了",
+    "强调自己确实看见了",
+    "询问对方是否看见",
+    "表示与话题无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h178_q4",
+   "topic": "cne_h178",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "语音",
+   "difficulty": 2,
+   "stem": "哪一种读法更礼貌地表示没有听清？",
+   "explain": "升调的 Sorry 常用来请对方再说一遍，比降调生硬的说法更礼貌。",
+   "answer_mode": "choice",
+   "options": [
+    "Sorry 用很重的降调并突然停止",
+    "把每个词都读成怒气",
+    "Sorry? 用升调",
+    "完全不读 Sorry"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h179_q1",
+   "topic": "cne_h179",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说希望自己现在就在车上，哪一句合适？",
+   "explain": "wish 后面用 were 表示现在不在车上。",
+   "answer_mode": "choice",
+   "options": [
+    "I wish I were on the train",
+    "I wish I am on the train",
+    "Wish I were I am really there",
+    "I wish I had been now as a fact"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h179_q2",
+   "topic": "cne_h179",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想说要是当时拍了霜就好了，哪一句合适？",
+   "explain": "had photographed 表示当时没拍。",
+   "answer_mode": "choice",
+   "options": [
+    "If only I photographed the frost",
+    "If only I had photographed the frost",
+    "If only I have photographed the frost",
+    "Photographed if only I had"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h179_q3",
+   "topic": "cne_h179",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想描述一望无际的平原，哪一句合适？",
+   "explain": "looked boundless 用来描述风景。",
+   "answer_mode": "choice",
+   "options": [
+    "The plain was looked boundless",
+    "The plain looked boundles",
+    "The plain looked boundless",
+    "The plain looked boundlessly"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h179_q4",
+   "topic": "cne_h179",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "火车延误时想礼貌地表示失望，哪一句合适？",
+   "explain": "I am sorry 用来礼貌地表示失望。",
+   "answer_mode": "choice",
+   "options": [
+    "I is sorry the train is delayed",
+    "He is sorry the train is delayed",
+    "I am sorry the train are delayed",
+    "I am sorry the train is delayed"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h180_q1",
+   "topic": "cne_h180",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. 火车黎明时穿越了什么？",
+   "explain": "短文写 a boundless plain at dawn。",
+   "answer_mode": "choice",
+   "options": [
+    "一座城市",
+    "一望无际的平原",
+    "一片湿地",
+    "一个实验室"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h180_q2",
+   "topic": "cne_h180",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. Lin 后悔什么？",
+   "explain": "wishes she had sat by the window 说明她没坐在窗边。",
+   "answer_mode": "choice",
+   "options": [
+    "没有坐火车",
+    "延误太短",
+    "没有坐在窗边，错过了霜",
+    "平原太小"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h180_q3",
+   "topic": "cne_h180",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. If only 表达的愿望是什么？",
+   "explain": "the delay had been shorter。",
+   "answer_mode": "choice",
+   "options": [
+    "平原更小",
+    "不要看见霜",
+    "取消黎明",
+    "延误更短一些"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h180_q4",
+   "topic": "cne_h180",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The train crossed a boundless plain at dawn. Lin wishes she had sat by the window, because she missed the frost. If only the delay had been shorter. 哪一件事是已经发生的？",
+   "explain": "第一句是事实。后面两句是愿望。",
+   "answer_mode": "choice",
+   "options": [
+    "火车穿越了平原",
+    "她坐在了窗边",
+    "延误很短",
+    "她拍到了霜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h181_q1",
+   "topic": "cne_h181",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "要点：黎明穿越平原、后悔没坐窗边、希望延误更短。哪一句三个要点都有？",
+   "explain": "三个要点都要出现。",
+   "answer_mode": "choice",
+   "options": [
+    "We crossed a plain",
+    "I like windows",
+    "We crossed a plain at dawn, I wish I had sat by the window, and if only the delay had been shorter",
+    "Trains can be late"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h181_q2",
+   "topic": "cne_h181",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "邮件里表示后悔，哪一句正确？",
+   "explain": "had brought 表示当时没带。",
+   "answer_mode": "choice",
+   "options": [
+    "I wish I brought a camera now for the past",
+    "I wish I have brought a camera",
+    "Wish I had I brought",
+    "I wish I had brought a camera"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h181_q3",
+   "topic": "cne_h181",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合作为邮件的第一句？",
+   "explain": "邮件可以先写 I am writing to tell you。",
+   "answer_mode": "choice",
+   "options": [
+    "I am writing to tell you about the journey",
+    "I am write to tell you about the journey",
+    "I am writing to telling you about the journey",
+    "I am writing to tells you about the journey"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h181_q4",
+   "topic": "cne_h181",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u4",
+   "unit_name": "第4单元·Journey Across a Vast Land",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句是 If only 对现在的愿望？",
+   "explain": "were here now 表示现在火车还不在。",
+   "answer_mode": "choice",
+   "options": [
+    "If only the train had arrived yesterday as a wish about now using had for present",
+    "If only the train were here now",
+    "If only the train is here",
+    "If only is the train here"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h182_q1",
+   "topic": "cne_h182",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「急救」？",
+   "explain": "first aid 的意思是急救。",
+   "answer_mode": "choice",
+   "options": [
+    "bleed",
+    "bandage",
+    "choke",
+    "first aid"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h182_q2",
+   "topic": "cne_h182",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「bleed」的中文意思是哪一个？",
+   "explain": "bleed 的意思是流血。",
+   "answer_mode": "choice",
+   "options": [
+    "流血",
+    "急救",
+    "绷带",
+    "窒息"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h182_q3",
+   "topic": "cne_h182",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「绷带」的单词。",
+   "explain": "表示绷带的单词是 bandage。",
+   "answer_mode": "choice",
+   "options": [
+    "first aid",
+    "bandage",
+    "bleed",
+    "choke"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h182_q4",
+   "topic": "cne_h182",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「窒息」？",
+   "explain": "choke 的意思是窒息。",
+   "answer_mode": "choice",
+   "options": [
+    "first aid",
+    "bleed",
+    "choke",
+    "bandage"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h183_q1",
+   "topic": "cne_h183",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "哪个单词的意思是「伤口」？",
+   "explain": "wound 的意思是伤口。",
+   "answer_mode": "choice",
+   "options": [
+    "wound",
+    "swelling",
+    "pressure",
+    "ambulance"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h183_q2",
+   "topic": "cne_h183",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 1,
+   "stem": "「swelling」的中文意思是哪一个？",
+   "explain": "swelling 的意思是肿胀。",
+   "answer_mode": "choice",
+   "options": [
+    "伤口",
+    "肿胀",
+    "按压",
+    "救护车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h183_q3",
+   "topic": "cne_h183",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "选择表示「按压」的单词。",
+   "explain": "表示按压的单词是 pressure。",
+   "answer_mode": "choice",
+   "options": [
+    "wound",
+    "swelling",
+    "pressure",
+    "ambulance"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h183_q4",
+   "topic": "cne_h183",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "词汇",
+   "difficulty": 2,
+   "stem": "哪个单词的意思是「救护车」？",
+   "explain": "ambulance 的意思是救护车。",
+   "answer_mode": "choice",
+   "options": [
+    "wound",
+    "swelling",
+    "pressure",
+    "ambulance"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h184_q1",
+   "topic": "cne_h184",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "医生建议她休息。哪一句正确？",
+   "explain": "suggest 后面的从句用 should rest，should 也可以省略，但不用 rests。",
+   "answer_mode": "choice",
+   "options": [
+    "The doctor suggested that she rests",
+    "The doctor suggested that she should rest",
+    "The doctor suggested that she rested tomorrow as a fact",
+    "The doctor suggested her to rest that"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h184_q2",
+   "topic": "cne_h184",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "The nurse insisted that the boy ___ still. 横线处填哪一个？",
+   "explain": "insist 后面用动词原形 stay。",
+   "answer_mode": "choice",
+   "options": [
+    "stays",
+    "stayed",
+    "stay",
+    "to stay"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h184_q3",
+   "topic": "cne_h184",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句是正确的？",
+   "explain": "order 后面可以用 be cleaned，相当于 should be cleaned。",
+   "answer_mode": "choice",
+   "options": [
+    "They ordered that the wound was cleaned",
+    "They ordered that the wound is cleaned",
+    "They ordered the wound cleaned that be",
+    "They ordered that the wound be cleaned"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h184_q4",
+   "topic": "cne_h184",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "suggest 后面的 should 可以怎样？",
+   "explain": "should 可以省，但谓语仍用原形。",
+   "answer_mode": "choice",
+   "options": [
+    "可以省略，仍用动词原形",
+    "必须改成过去式",
+    "必须改成 -ing",
+    "不能出现在从句里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h185_q1",
+   "topic": "cne_h185",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "他当时在流血，不然他就不会叫救护车。哪一句正确？",
+   "explain": "otherwise 接 would not have called，表示与过去事实相反。",
+   "answer_mode": "choice",
+   "options": [
+    "He was bleeding; otherwise he would not call an ambulance yesterday",
+    "He was bleeding; otherwise he did not call",
+    "He was bleeding; otherwise he would not have called an ambulance",
+    "Otherwise he would not have called, and he was not bleeding"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h185_q2",
+   "topic": "cne_h185",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 1,
+   "stem": "She pressed the wound. Otherwise it ___ worse. 表示否则会更严重，横线处填哪一个？",
+   "explain": "与已经避免的过去结果用 would have got。",
+   "answer_mode": "choice",
+   "options": [
+    "got",
+    "would get yesterday",
+    "had got",
+    "would have got"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h185_q3",
+   "topic": "cne_h185",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "哪一句用 otherwise 表示虚拟？",
+   "explain": "would have choked 不是实际发生的结果。",
+   "answer_mode": "choice",
+   "options": [
+    "He knew first aid; otherwise the boy would have choked",
+    "He knew first aid; otherwise the boy choked",
+    "Otherwise the boy choked because he knew first aid",
+    "He knew first aid otherwise would choked"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h185_q4",
+   "topic": "cne_h185",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "语法",
+   "difficulty": 2,
+   "stem": "otherwise 在这些句子里更接近哪一个意思？",
+   "explain": "otherwise 表示如果不是前面那种情况。",
+   "answer_mode": "choice",
+   "options": [
+    "因此事实就是",
+    "否则",
+    "在……里面",
+    "比……更"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h186_q1",
+   "topic": "cne_h186",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想按步骤说先按压伤口，哪一句合适？",
+   "explain": "First 开始步骤。",
+   "answer_mode": "choice",
+   "options": [
+    "First, putting pressure on the wound",
+    "First, put pressurre on the wound",
+    "First, put pressure in the wound",
+    "First, put pressure on the wound"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h186_q2",
+   "topic": "cne_h186",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 1,
+   "stem": "想转述医生要求清洗伤口，哪一句合适？",
+   "explain": "order that 后面用 be cleaned。",
+   "answer_mode": "choice",
+   "options": [
+    "The doctor ordered that the wound be cleaned",
+    "The doctor ordered that the wound was cleaned",
+    "The doctor ordered the wound to was clean",
+    "Ordered that was the wound cleaned"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h186_q3",
+   "topic": "cne_h186",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想说不然情况会更糟，哪一句合适？",
+   "explain": "otherwise 加 would have continued 表示倘若没包扎。",
+   "answer_mode": "choice",
+   "options": [
+    "Apply a bandage; otherwise the bleeding continued as the real result of applying it",
+    "Apply a bandage; otherwise the bleeding would have continued",
+    "Otherwise continued the bleeding because of the bandage",
+    "Would have the bleeding otherwise real"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h186_q4",
+   "topic": "cne_h186",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "日常表达",
+   "difficulty": 2,
+   "stem": "想建议窒息时立即求助，哪一句合适？",
+   "explain": "call an ambulance 是明确建议。",
+   "answer_mode": "choice",
+   "options": [
+    "Choking call someone if an ambulance",
+    "If someone is choke, call an ambulance at once",
+    "If someone is choking, call an ambulance at once",
+    "If someone are choking, call an ambulance at once"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h187_q1",
+   "topic": "cne_h187",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. 教练建议学生做什么？",
+   "explain": "suggested that the student sit down。",
+   "answer_mode": "choice",
+   "options": [
+    "坐下",
+    "继续跑步",
+    "自己开车",
+    "拆掉绷带"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cne_h187_q2",
+   "topic": "cne_h187",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. 他接着做了哪两件事？",
+   "explain": "put pressure 然后 used a bandage。",
+   "answer_mode": "choice",
+   "options": [
+    "只是等待",
+    "按压伤口然后用绷带",
+    "让学生奔跑",
+    "取消救护车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h187_q3",
+   "topic": "cne_h187",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. otherwise 说明什么被避免了？",
+   "explain": "would have become dangerous 是没有发生的危险结果。",
+   "answer_mode": "choice",
+   "options": [
+    "救护车到来",
+    "学生坐下",
+    "流血变得危险",
+    "使用绷带"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h187_q4",
+   "topic": "cne_h187",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "The coach suggested that the student sit down. He put pressure on the wound and then used a bandage. Otherwise the bleeding would have become dangerous. An ambulance arrived ten minutes later. 哪一件事是事实？",
+   "explain": "最后一句 arrived 是事实。",
+   "answer_mode": "choice",
+   "options": [
+    "流血已经变得危险",
+    "没有使用绷带",
+    "教练建议他继续跑",
+    "救护车十分钟后到了"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h188_q1",
+   "topic": "cne_h188",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "要点：建议坐下、按压并包扎、否则流血会危险。哪一句三个要点都有？",
+   "explain": "三个要点都要出现。",
+   "answer_mode": "choice",
+   "options": [
+    "He sat down",
+    "The coach suggested that he sit down, pressure and a bandage were used, and otherwise the bleeding would have become dangerous",
+    "A bandage was used",
+    "Ambulances are fast"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cne_h188_q2",
+   "topic": "cne_h188",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 1,
+   "stem": "步骤里转述命令，哪一句正确？",
+   "explain": "insist 后面用 stay 原形。",
+   "answer_mode": "choice",
+   "options": [
+    "They insisted that the patient stayed awake",
+    "They insisted that the patient stays awake",
+    "They insisted that the patient stay awake",
+    "They insisted the patient to stay that"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cne_h188_q3",
+   "topic": "cne_h188",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句适合作为步骤的第一句？",
+   "explain": "步骤说明可以先写 Follow these steps。",
+   "answer_mode": "choice",
+   "options": [
+    "Follow these steps when someone is bleed",
+    "Follow these steps when someone are bleeding",
+    "Follow these step when someone is bleeding",
+    "Follow these steps when someone is bleeding"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cne_h188_q4",
+   "topic": "cne_h188",
+   "subject": "english",
+   "grade": 12,
+   "semester": "upper",
+   "edition": "renjiao-senior",
+   "unit": "u5",
+   "unit_name": "第5单元·First Aid",
+   "type": "knowledge",
+   "skill": "读写",
+   "difficulty": 2,
+   "stem": "哪一句用 otherwise 表示虚拟？",
+   "explain": "would have got worse 不是保暖之后的真实结果。",
+   "answer_mode": "choice",
+   "options": [
+    "Keep the patient warm; otherwise he would have got worse",
+    "Keep the patient warm; otherwise he got worse",
+    "Otherwise he got worse because you kept him warm",
+    "Would have he got otherwise real"
+   ],
+   "answer": 1
+  }
+ ]
+}

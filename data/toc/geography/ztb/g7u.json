@@ -1,0 +1,867 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_geography_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 中图版 七年级地理上册(2024秋版)；知识点/题目复用通用地理池",
+  "path": "ztb/dili/xc7s_2024",
+  "fetched": "2026-11-20"
+ },
+ "subject": "geography",
+ "grade": 7,
+ "semester": "upper",
+ "edition": "ztb",
+ "edition_label": "中图版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1章 地球的宇宙环境"
+  },
+  {
+   "id": "u2",
+   "name": "第2章 地球和地图"
+  },
+  {
+   "id": "u3",
+   "name": "第3章 中国的疆域和人口"
+  },
+  {
+   "id": "u4",
+   "name": "第4章 中国的自然环境"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cng_j001",
+   "name": "地球的宇宙环境",
+   "domain": "地球与地图",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1章 地球的宇宙环境",
+   "description": "知道地球在太阳系中的位置，以及恒星、行星、卫星等天体的基本关系。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地球在太阳系中属于哪一类天体？",
+    "answer": "行星"
+   }
+  },
+  {
+   "id": "cng_j002",
+   "name": "地球与地球仪",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "description": "知道地球的形状和大小，会用经纬网确定位置。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地球的平均半径大约是？",
+    "answer": "6371千米"
+   }
+  },
+  {
+   "id": "cng_j004",
+   "name": "地图的阅读",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "description": "知道地图三要素，会用比例尺、方向和图例读图。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "地图的三要素是？",
+    "answer": "比例尺、方向、图例"
+   }
+  },
+  {
+   "id": "cng_j005",
+   "name": "地形图的判读",
+   "domain": "地球与地图",
+   "kp_type": "procedural",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "description": "会根据等高线判读海拔、坡度和五种基本地形。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "等高线地形图上，等高线越密集，表示？",
+    "answer": "坡度越陡"
+   }
+  },
+  {
+   "id": "cng_j006",
+   "name": "地图的选择和应用",
+   "domain": "地球与地图",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "description": "能根据出行、查找范围等需要选择合适的地图。",
+   "mastery_criteria": [
+    "能说出本课的基本概念、数据和空间位置",
+    "能在地图或示意图上作出与教材相符的判断"
+   ],
+   "example": {
+    "question": "查找北京到上海的铁路路线，最合适的是？",
+    "answer": "中国交通图"
+   }
+  },
+  {
+   "id": "cng_j031",
+   "name": "疆域",
+   "domain": "中国地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "description": "知道中国的半球位置、海陆位置、领土面积、邻国和行政区划。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国领土面积大约是？",
+    "answer": "960 万平方千米"
+   }
+  },
+  {
+   "id": "cng_j032",
+   "name": "人口",
+   "domain": "中国地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "description": "知道中国人口数量、分布特点和人口政策。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国是世界上人口最多的国家之一，人口分布的基本特点是？",
+    "answer": "东南多、西北少"
+   }
+  },
+  {
+   "id": "cng_j033",
+   "name": "民族",
+   "domain": "中国地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "description": "知道中国是统一的多民族国家，以及民族分布特点。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国共有多少个民族？",
+    "answer": "56 个"
+   }
+  },
+  {
+   "id": "cng_j034",
+   "name": "地形",
+   "domain": "中国地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "description": "知道中国地势西高东低、三级阶梯和主要地形区。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国地势的基本特征是？",
+    "answer": "西高东低，呈三级阶梯"
+   }
+  },
+  {
+   "id": "cng_j035",
+   "name": "气候",
+   "domain": "中国地理",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "description": "知道中国气候的主要特征及其成因。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国气候的显著特征之一是？",
+    "answer": "季风气候显著"
+   }
+  },
+  {
+   "id": "cng_j036",
+   "name": "河流与湖泊",
+   "domain": "中国地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "description": "知道长江、黄河等外流河和主要湖泊的特征。",
+   "mastery_criteria": [
+    "能说出本课的位置、分布或基本国情",
+    "能把自然或人文特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "我国最长的河流是？",
+    "answer": "长江"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cng_j001_q4",
+   "topic": "cng_j001",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u1",
+   "unit_name": "第1章 地球的宇宙环境",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "可观测宇宙中，地球所在的天体系统由小到大依次是？",
+   "explain": "地球和月球组成地月系，地月系属于太阳系，太阳系属于银河系。",
+   "answer_mode": "choice",
+   "options": [
+    "太阳系、地月系、银河系、可观测宇宙",
+    "地月系、太阳系、银河系、可观测宇宙",
+    "银河系、太阳系、地月系、可观测宇宙",
+    "地月系、银河系、太阳系、可观测宇宙"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j002_q1",
+   "topic": "cng_j002",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "地球的平均半径大约是？",
+   "explain": "教材给出地球平均半径约6371千米。",
+   "answer_mode": "choice",
+   "options": [
+    "40000千米",
+    "5.1亿千米",
+    "384000千米",
+    "6371千米"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j002_q4",
+   "topic": "cng_j002",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "北纬40°、东经116°大致对应的城市是？",
+   "explain": "北京大约位于40°N、116°E附近。",
+   "answer_mode": "choice",
+   "options": [
+    "新加坡",
+    "开普敦",
+    "北京",
+    "纽约"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j004_q3",
+   "topic": "cng_j004",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 2,
+   "stem": "相同图幅下，比例尺越大，表示的实地范围？",
+   "explain": "比例尺大则同一图幅覆盖的实地范围小，地理事物可以画得更详细。",
+   "answer_mode": "choice",
+   "options": [
+    "越大，内容越简略",
+    "不变，内容一样详细",
+    "越大，内容越详细",
+    "越小，内容越详细"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j005_q2",
+   "topic": "cng_j005",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "海拔一般在 200 米以下、地面平坦广阔的地形是？",
+   "explain": "平原海拔较低，地势平坦。",
+   "answer_mode": "choice",
+   "options": [
+    "高原",
+    "山地",
+    "丘陵",
+    "平原"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j005_q4",
+   "topic": "cng_j005",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "分层设色地形图上，绿色通常表示？",
+   "explain": "陆地上绿色多表示海拔较低的平原，黄色、褐色表示更高的高原山地。",
+   "answer_mode": "choice",
+   "options": [
+    "高山冰雪",
+    "平原或低地",
+    "海洋最深处",
+    "沙漠"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j006_q1",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "查找北京到上海的铁路路线，最合适的是？",
+   "explain": "交通图专门表示铁路、公路等线路。",
+   "answer_mode": "choice",
+   "options": [
+    "世界气候图",
+    "北京市区旅游图",
+    "等高线地形图",
+    "中国交通图"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j006_q2",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 1,
+   "stem": "去公园徒步，要判断哪条路更陡，应优先看？",
+   "explain": "等高线可以反映坡度陡缓，适合选择登山或徒步路线。",
+   "answer_mode": "choice",
+   "options": [
+    "等高线地形图",
+    "世界政区图",
+    "人口分布图",
+    "语言分布图"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j006_q3",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 2,
+   "stem": "比例尺很小的世界地图，适合用来？",
+   "explain": "小比例尺地图表示范围大、内容简略，适合看大区域位置。",
+   "answer_mode": "choice",
+   "options": [
+    "查找某条胡同的门牌",
+    "了解大洲大洋的相对位置",
+    "量算校园操场长度",
+    "辨别小区内部道路"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j006_q4",
+   "topic": "cng_j006",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u2",
+   "unit_name": "第2章 地球和地图",
+   "type": "knowledge",
+   "skill": "地球与地图",
+   "difficulty": 3,
+   "stem": "既要看清某省各市位置，又要大致了解地形起伏，较合适的组合是？",
+   "explain": "政区图给出行政区位置，地形图给出地势起伏，二者配合使用。",
+   "answer_mode": "choice",
+   "options": [
+    "只有世界气候类型图",
+    "只有太阳系示意图",
+    "省级政区图和地形图",
+    "只有城市公交线路图"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j031_q1",
+   "topic": "cng_j031",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "我国领土面积大约是？",
+   "explain": "我国陆地领土面积约 960 万平方千米，居世界第三位。",
+   "answer_mode": "choice",
+   "options": [
+    "960 万平方千米",
+    "90 万平方千米",
+    "9.6 万平方千米",
+    "1700 万平方千米"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j031_q2",
+   "topic": "cng_j031",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "我国最东端在黑龙江与乌苏里江主航道中心线的相交处，最西端在？",
+   "explain": "东西端经度差大，最西端位于帕米尔高原。",
+   "answer_mode": "choice",
+   "options": [
+    "曾母暗沙",
+    "新疆帕米尔高原",
+    "漠河以北的黑龙江主航道中心线",
+    "海南岛南部"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j031_q4",
+   "topic": "cng_j031",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "我国陆上邻国有 14 个，与韩国、日本等是？",
+   "explain": "朝鲜、韩国、日本、菲律宾、马来西亚、文莱、印度尼西亚等隔海相望（教材常列 6 个隔海相望国家）。",
+   "answer_mode": "choice",
+   "options": [
+    "陆上接壤的邻国",
+    "没有海洋相隔的内陆国",
+    "位于南美洲的国家",
+    "隔海相望的国家"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j032_q3",
+   "topic": "cng_j032",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 2,
+   "stem": "人口过多会带来的突出问题是？",
+   "explain": "人口基数大，资源、环境和公共服务压力大。",
+   "answer_mode": "choice",
+   "options": [
+    "耕地会自动增加",
+    "所有资源都变得取之不尽",
+    "自然灾害完全消失",
+    "就业、教育和资源环境压力增大"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j032_q4",
+   "topic": "cng_j032",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "我国把计划生育作为基本国策后，近年来又调整生育政策，主要是为了？",
+   "explain": "政策随人口形势调整，既要控制过快增长，也要应对老龄化等问题。",
+   "answer_mode": "choice",
+   "options": [
+    "促进人口长期均衡发展",
+    "使人口无限增长",
+    "完全停止人口流动",
+    "取消所有公共服务"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j033_q1",
+   "topic": "cng_j033",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "我国共有多少个民族？",
+   "explain": "汉族和 55 个少数民族，共 56 个民族。",
+   "answer_mode": "choice",
+   "options": [
+    "55 个",
+    "16 个",
+    "56 个",
+    "1 个"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j033_q2",
+   "topic": "cng_j033",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "汉族人口最多，少数民族主要分布在？",
+   "explain": "少数民族多分布在边疆的西南、西北和东北地区。",
+   "answer_mode": "choice",
+   "options": [
+    "只有东南沿海大城市",
+    "全部集中在华北平原中部",
+    "只分布在海南岛",
+    "西南、西北和东北等地"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j033_q3",
+   "topic": "cng_j033",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 2,
+   "stem": "我国民族分布的特点常概括为？",
+   "explain": "各民族既有相对集中的聚居区，又广泛交错居住。",
+   "answer_mode": "choice",
+   "options": [
+    "大杂居、小聚居、交错居住",
+    "完全按省界隔离",
+    "汉族只住西部",
+    "少数民族只住东部沿海"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j033_q4",
+   "topic": "cng_j033",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u3",
+   "unit_name": "第3章 中国的疆域和人口",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "各少数民族都有使用和发展自己语言文字的自由，体现了？",
+   "explain": "宪法保障各民族的平等权利和文化传承。",
+   "answer_mode": "choice",
+   "options": [
+    "只允许一种语言存在",
+    "民族平等和民族团结",
+    "民族文化必须全部消失",
+    "民族区域与国家无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j034_q3",
+   "topic": "cng_j034",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 2,
+   "stem": "我国面积最大的高原是？",
+   "explain": "青藏高原有“世界屋脊”之称，面积最大、海拔最高。",
+   "answer_mode": "choice",
+   "options": [
+    "黄土高原",
+    "青藏高原",
+    "云贵高原",
+    "内蒙古高原"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j034_q4",
+   "topic": "cng_j034",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "西高东低的地势对河流的影响是？",
+   "explain": "地势使长江、黄河等东流入海，在阶梯交界处落差大、水能丰富。",
+   "answer_mode": "choice",
+   "options": [
+    "所有河流都向西流入内陆",
+    "没有落差，不能发电",
+    "许多大河东流入海，水能资源丰富",
+    "河流无法形成"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j035_q1",
+   "topic": "cng_j035",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "我国气候的显著特征之一是？",
+   "explain": "冬夏季风交替，大多数地方雨热同期。",
+   "answer_mode": "choice",
+   "options": [
+    "季风气候显著",
+    "全年受西风带控制",
+    "没有季节变化",
+    "全国都是热带雨林气候"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j035_q2",
+   "topic": "cng_j035",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "我国冬季南北温差很大，主要因为？",
+   "explain": "冬季太阳直射南半球，北方正午太阳高度更低、白昼更短，又受冬季风影响。",
+   "answer_mode": "choice",
+   "options": [
+    "地势完全平坦",
+    "纬度差异大，北方正午太阳高度小、白昼短",
+    "没有冬季风",
+    "南方一定没有阳光"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j035_q3",
+   "topic": "cng_j035",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 2,
+   "stem": "夏季风从海洋吹向陆地，使我国东部？",
+   "explain": "夏季风带来水汽，形成雨季；冬季风来自内陆，降水少。",
+   "answer_mode": "choice",
+   "options": [
+    "全年滴雨没有",
+    "只有冬季下雨",
+    "降水较多，且集中在夏季",
+    "降水与季风无关"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j035_q4",
+   "topic": "cng_j035",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "西北内陆气候干旱，主要因为？",
+   "explain": "海陆位置使水汽递减，加上山脉阻挡，降水稀少。",
+   "answer_mode": "choice",
+   "options": [
+    "纬度一定比海南更低",
+    "海拔一定低于海平面",
+    "全年受台风控制",
+    "距海远，湿润气流难以到达"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j036_q2",
+   "topic": "cng_j036",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 1,
+   "stem": "黄河中游流经黄土高原，突出的水文特征是？",
+   "explain": "黄土土质疏松，水土流失严重，使黄河成为含沙量最大的河流之一。",
+   "answer_mode": "choice",
+   "options": [
+    "流量比长江更大",
+    "没有结冰期",
+    "含沙量很大",
+    "是淡水湖"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j036_q3",
+   "topic": "cng_j036",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 2,
+   "stem": "长江水能资源主要集中在？",
+   "explain": "上游流经地势阶梯交界处，落差大、水流急。",
+   "answer_mode": "choice",
+   "options": [
+    "入海口附近的三角洲",
+    "下游平原的所有河段",
+    "没有落差的河段",
+    "上游河段"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j036_q4",
+   "topic": "cng_j036",
+   "subject": "geography",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "ztb",
+   "unit": "u4",
+   "unit_name": "第4章 中国的自然环境",
+   "type": "knowledge",
+   "skill": "中国地理",
+   "difficulty": 3,
+   "stem": "鄱阳湖、洞庭湖等属于？",
+   "explain": "它们位于东部外流区，湖水最终注入海洋，是淡水湖。",
+   "answer_mode": "choice",
+   "options": [
+    "外流区的淡水湖",
+    "内流区的咸水湖",
+    "海洋的一部分",
+    "人工运河"
+   ],
+   "answer": 1
+  }
+ ]
+}

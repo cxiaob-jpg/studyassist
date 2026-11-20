@@ -1,0 +1,1284 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 北师大版 七年级生物上册(2024秋版)；知识点/题目复用通用生物池",
+  "path": "bsd/shengwu/7s_2024",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 7,
+ "semester": "upper",
+ "edition": "bsd",
+ "edition_label": "北师大版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第1章 认识生物和生物学"
+  },
+  {
+   "id": "u2",
+   "name": "第2章 细胞"
+  },
+  {
+   "id": "u3",
+   "name": "第3章 生物体的结构层次"
+  },
+  {
+   "id": "u4",
+   "name": "第4章 绿色开花植物的生活方式"
+  },
+  {
+   "id": "u5",
+   "name": "第5章 绿色开花植物的生活史"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j002",
+   "name": "生物的特征",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第1章 认识生物和生物学",
+   "description": "能根据营养、呼吸、生长、繁殖和对刺激的反应等判断是否属于生物。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "下列哪一项是生物的共同特征？",
+    "answer": "能生长和繁殖"
+   }
+  },
+  {
+   "id": "cnb_j004",
+   "name": "植物细胞",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "description": "能认出植物细胞的细胞壁、细胞膜、细胞质、细胞核、液泡和叶绿体。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "对细胞起支持和保护作用的结构是？",
+    "answer": "细胞壁"
+   }
+  },
+  {
+   "id": "cnb_j005",
+   "name": "动物细胞",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "description": "能说出动物细胞与植物细胞在结构上的主要区别。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "人口腔上皮细胞属于？",
+    "answer": "动物细胞"
+   }
+  },
+  {
+   "id": "cnb_j006",
+   "name": "细胞的生活",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "description": "知道细胞膜、细胞质、细胞核和能量转换器在细胞生活中的作用。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "细胞中的遗传信息主要储存在？",
+    "answer": "细胞核"
+   }
+  },
+  {
+   "id": "cnb_j007",
+   "name": "细胞通过分裂产生新细胞",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "description": "知道细胞分裂时染色体先复制再平均分配，新细胞与原细胞染色体数目相同。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "细胞分裂产生的新细胞，染色体数目与原细胞相比？",
+    "answer": "相同"
+   }
+  },
+  {
+   "id": "cnb_j010",
+   "name": "单细胞生物",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "description": "知道一个细胞也能完成各项生命活动，能举出草履虫等例子。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "草履虫整个身体由几个细胞构成？",
+    "answer": "1 个"
+   }
+  },
+  {
+   "id": "cnb_j003",
+   "name": "学习使用显微镜",
+   "domain": "生物体的结构层次",
+   "kp_type": "procedural",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "description": "会计算显微镜的放大倍数，并按规范找到清晰物像。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "显微镜的放大倍数等于？",
+    "answer": "目镜放大倍数乘物镜放大倍数"
+   }
+  },
+  {
+   "id": "cnb_j008",
+   "name": "动物体的结构层次",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "description": "能按细胞、组织、器官、系统、动物体说明人体的结构层次。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "人体的结构层次由小到大是？",
+    "answer": "细胞、组织、器官、系统、人体"
+   }
+  },
+  {
+   "id": "cnb_j009",
+   "name": "植物体的结构层次",
+   "domain": "生物体的结构层次",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "description": "能说出植物体由细胞、组织、器官构成，并区分营养器官和生殖器官。",
+   "mastery_criteria": [
+    "能说出本课的基本结构和生命活动",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "植物体的结构层次一般是？",
+    "answer": "细胞、组织、器官、植物体"
+   }
+  },
+  {
+   "id": "cnb_j024",
+   "name": "植株的生长",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "description": "知道根的生长、芽的发育，以及氮、磷、钾对植株的作用。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "根吸收水分和无机盐的主要部位是？",
+    "answer": "成熟区"
+   }
+  },
+  {
+   "id": "cnb_j027",
+   "name": "光合作用",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "description": "能说明光合作用的原料、产物、条件和场所，并解释绿叶在光下制造淀粉的实验。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "光合作用的原料是？",
+    "answer": "二氧化碳和水"
+   }
+  },
+  {
+   "id": "cnb_j029",
+   "name": "植物在自然界中的作用",
+   "domain": "植物的生活",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "description": "能说明植物为其他生物提供食物、维持碳氧平衡并参与水循环。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "绿色植物维持生物圈碳氧平衡，主要依靠？",
+    "answer": "光合作用释放氧气、吸收二氧化碳"
+   }
+  },
+  {
+   "id": "cnb_j023",
+   "name": "种子的萌发",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "description": "知道种子萌发需要完整有活力的胚、适宜的温度、一定的水分和充足的空气。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "种子萌发所需的环境条件是？",
+    "answer": "适宜的温度、一定的水分和充足的空气"
+   }
+  },
+  {
+   "id": "cnb_j025",
+   "name": "开花和结果",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "description": "能说出花的主要结构，以及传粉、受精后子房和胚珠的发育结果。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "一朵花中，与结出果实和种子直接有关的结构是？",
+    "answer": "雄蕊和雌蕊"
+   }
+  },
+  {
+   "id": "cnb_j028",
+   "name": "呼吸作用",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "description": "能说明呼吸作用分解有机物、释放能量，并与光合作用比较。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "植物呼吸作用的主要场所是？",
+    "answer": "线粒体"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j002_q1",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u1",
+   "unit_name": "第1章 认识生物和生物学",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "下列哪一项是生物的共同特征？",
+   "explain": "生物都能生长、繁殖；单细胞生物、异养生物和用鳃呼吸的生物也都是生物。",
+   "answer_mode": "choice",
+   "options": [
+    "一定由很多细胞构成",
+    "都能自己制造有机物",
+    "都用肺呼吸",
+    "能生长和繁殖"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j002_q2",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u1",
+   "unit_name": "第1章 认识生物和生物学",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "含羞草被碰后叶片合拢，说明生物能？",
+   "explain": "植物受到触摸后改变姿态，是对刺激作出反应。",
+   "answer_mode": "choice",
+   "options": [
+    "对外界刺激作出反应",
+    "进行光合作用",
+    "用种子繁殖",
+    "在体外消化食物"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j002_q3",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u1",
+   "unit_name": "第1章 认识生物和生物学",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "下列物体中属于生物的是？",
+   "explain": "生石花是植物；机器人、钟乳石和汽车没有生物的生命活动。",
+   "answer_mode": "choice",
+   "options": [
+    "机器人",
+    "生石花",
+    "钟乳石",
+    "汽车"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j002_q4",
+   "topic": "cnb_j002",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u1",
+   "unit_name": "第1章 认识生物和生物学",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "生物体产生的后代与亲代既像又不完全一样，说明生物具有？",
+   "explain": "后代保持亲代的基本特征是遗传，个体之间有差异是变异。",
+   "answer_mode": "choice",
+   "options": [
+    "只有遗传、没有差异",
+    "只按环境临时改变、不能传代",
+    "遗传和变异",
+    "全部性状都与亲代不同"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j004_q2",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "植物细胞中，控制物质进出的结构是？",
+   "explain": "细胞膜能控制物质进出细胞；细胞壁全透，不能控制物质进出。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁",
+    "液泡",
+    "细胞膜",
+    "叶绿体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j004_q3",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "洋葱鳞片叶内表皮细胞一般看不到的结构是？",
+   "explain": "内表皮不见光，细胞中没有叶绿体；叶片绿色部分的细胞才有叶绿体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁",
+    "细胞核",
+    "液泡",
+    "叶绿体"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j004_q4",
+   "topic": "cnb_j004",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "植物细胞进行光合作用的场所是？",
+   "explain": "叶绿体中的色素能吸收光能，是光合作用的场所。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿体",
+    "线粒体",
+    "液泡",
+    "细胞膜"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j005_q1",
+   "topic": "cnb_j005",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "人口腔上皮细胞属于？",
+   "explain": "人口腔上皮来自人体，用来观察动物细胞。",
+   "answer_mode": "choice",
+   "options": [
+    "植物细胞",
+    "细菌细胞",
+    "动物细胞",
+    "病毒"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j005_q2",
+   "topic": "cnb_j005",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "动物细胞和植物细胞都有的结构是？",
+   "explain": "动植物细胞都有细胞膜、细胞质和细胞核。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞壁、叶绿体、液泡",
+    "只共有细胞壁",
+    "只共有叶绿体",
+    "细胞膜、细胞质、细胞核"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j005_q4",
+   "topic": "cnb_j005",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "观察人口腔上皮细胞时，在载玻片上滴的是？",
+   "explain": "生理盐水有助于保持动物细胞的正常形态；滴清水会使细胞吸水涨破。",
+   "answer_mode": "choice",
+   "options": [
+    "清水",
+    "生理盐水",
+    "碘酒原液当唯一液体",
+    "酒精"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j006_q1",
+   "topic": "cnb_j006",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "细胞中的遗传信息主要储存在？",
+   "explain": "细胞核含有遗传物质，是遗传信息库。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞膜",
+    "细胞壁",
+    "液泡",
+    "细胞核"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j006_q2",
+   "topic": "cnb_j006",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "把有机物里的化学能释放出来，供细胞利用的结构主要是？",
+   "explain": "线粒体是呼吸作用的主要场所，能分解有机物、释放能量。",
+   "answer_mode": "choice",
+   "options": [
+    "线粒体",
+    "叶绿体",
+    "液泡",
+    "细胞壁"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j006_q3",
+   "topic": "cnb_j006",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "克隆羊多莉的遗传性状主要像提供细胞核的母羊，说明？",
+   "explain": "多莉的性状与供核母羊一致，说明细胞核是遗传控制中心。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞膜决定所有性状",
+    "细胞核控制着生物的发育和遗传",
+    "细胞质中没有遗传物质所以与遗传无关",
+    "细胞壁里有全部遗传信息"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j007_q1",
+   "topic": "cnb_j007",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "细胞分裂产生的新细胞，染色体数目与原细胞相比？",
+   "explain": "染色体先复制，再平均进入两个新细胞，数目保持不变。",
+   "answer_mode": "choice",
+   "options": [
+    "相同",
+    "一定减半",
+    "一定加倍",
+    "随机增减"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j007_q3",
+   "topic": "cnb_j007",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "植物细胞分裂末期，在细胞中央形成的是？",
+   "explain": "植物细胞的细胞质分成两份后，中央长出新的细胞膜和细胞壁。",
+   "answer_mode": "choice",
+   "options": [
+    "新的叶绿体和液泡",
+    "只形成细胞核、不再分细胞质",
+    "新的细胞膜和细胞壁",
+    "一整块骨骼"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j010_q1",
+   "topic": "cnb_j010",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "草履虫整个身体由几个细胞构成？",
+   "explain": "草履虫是单细胞生物，一个细胞就是一个个体。",
+   "answer_mode": "choice",
+   "options": [
+    "2 个",
+    "无数个、没有细胞界限",
+    "没有细胞",
+    "1 个"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j010_q3",
+   "topic": "cnb_j010",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "下列都是单细胞生物的一组是？",
+   "explain": "酵母菌、衣藻和草履虫都由一个细胞构成；其余各组是多细胞生物。",
+   "answer_mode": "choice",
+   "options": [
+    "水绵、葫芦藓、肾蕨",
+    "酵母菌、衣藻、草履虫",
+    "蚯蚓、蝗虫、鲫鱼",
+    "松树、玉米、向日葵"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j010_q4",
+   "topic": "cnb_j010",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u2",
+   "unit_name": "第2章 细胞",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "单细胞生物能够独立生活，说明？",
+   "explain": "细胞是生命活动的基本单位，单细胞生物用一个细胞完成这些活动。",
+   "answer_mode": "choice",
+   "options": [
+    "只有多细胞生物才有生命活动",
+    "细胞必须组成系统才能存活",
+    "一个细胞就能完成营养、呼吸、排泄、运动和生殖等生命活动",
+    "单细胞生物没有细胞膜"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j003_q2",
+   "topic": "cnb_j003",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "视野中已经找到物像，但不够清晰，应调节？",
+   "explain": "细准焦螺旋用来把物像调清晰；找到物像前才主要用粗准焦螺旋。",
+   "answer_mode": "choice",
+   "options": [
+    "粗准焦螺旋大幅度转动",
+    "细准焦螺旋",
+    "转换器换成更小的光圈",
+    "反光镜换成平面镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j008_q1",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "人体的结构层次由小到大是？",
+   "explain": "细胞形成组织，组织形成器官，器官形成系统，系统构成人体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞、器官、组织、系统、人体",
+    "细胞、组织、器官、系统、人体",
+    "组织、细胞、系统、器官、人体",
+    "系统、器官、组织、细胞、人体"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j008_q2",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "人的胃属于？",
+   "explain": "胃由几种组织按一定次序组成，能完成消化等功能，是器官。",
+   "answer_mode": "choice",
+   "options": [
+    "组织",
+    "系统",
+    "器官",
+    "细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j008_q3",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "下列属于结缔组织的是？",
+   "explain": "血液是结缔组织；上皮组织、肌肉组织和神经组织是另外三类基本组织。",
+   "answer_mode": "choice",
+   "options": [
+    "神经",
+    "骨骼肌",
+    "皮肤表皮",
+    "血液"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j008_q4",
+   "topic": "cnb_j008",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "人体中，由心脏、血管和血液按一定次序组成的是？",
+   "explain": "心脏、血管等器官与血液配合，构成循环系统。",
+   "answer_mode": "choice",
+   "options": [
+    "循环系统",
+    "一个器官",
+    "一种组织",
+    "一个细胞"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j009_q1",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 1,
+   "stem": "植物体的结构层次一般是？",
+   "explain": "植物没有系统这一层次，器官直接构成植物体。",
+   "answer_mode": "choice",
+   "options": [
+    "细胞、组织、器官、系统、植物体",
+    "组织、细胞、系统、植物体",
+    "细胞、组织、器官、植物体",
+    "器官、组织、细胞、植物体"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j009_q3",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 2,
+   "stem": "番茄的果肉主要属于？",
+   "explain": "果肉细胞壁薄、液泡大，储存营养物质，属于营养组织。",
+   "answer_mode": "choice",
+   "options": [
+    "营养组织",
+    "保护组织",
+    "分生组织",
+    "输导组织"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j009_q4",
+   "topic": "cnb_j009",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "upper",
+   "edition": "bsd",
+   "unit": "u3",
+   "unit_name": "第3章 生物体的结构层次",
+   "type": "knowledge",
+   "skill": "生物体的结构层次",
+   "difficulty": 3,
+   "stem": "植物体内运输水和无机盐的结构属于？",
+   "explain": "导管等输导组织运输水分和无机盐；上皮组织是动物组织。",
+   "answer_mode": "choice",
+   "options": [
+    "保护组织",
+    "输导组织",
+    "分生组织",
+    "上皮组织"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j024_q2",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "使枝叶繁茂的无机盐主要含？",
+   "explain": "含氮的无机盐促进细胞分生和生长，使枝叶茂盛。",
+   "answer_mode": "choice",
+   "options": [
+    "磷",
+    "钾",
+    "氮",
+    "只有钙"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j024_q3",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "根能不断长长，是因为？",
+   "explain": "分生区增加细胞数目，伸长区使新细胞体积变大。",
+   "answer_mode": "choice",
+   "options": [
+    "根冠细胞不断进行光合作用",
+    "成熟区细胞壁消失",
+    "茎把长度直接传给根",
+    "分生区细胞分裂、伸长区细胞伸长"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j024_q4",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "植物缺钾时，较常见的表现是？",
+   "explain": "钾使茎秆健壮；磷与开花结果关系密切，氮与枝叶繁茂关系密切。",
+   "answer_mode": "choice",
+   "options": [
+    "茎秆软弱，容易倒伏",
+    "只影响开花、茎秆反而更硬",
+    "叶片立刻失去全部细胞",
+    "根毛变成叶绿体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j027_q3",
+   "topic": "cnb_j027",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "实验前把天竺葵放到黑暗处一昼夜，目的是？",
+   "explain": "这样后来检测到的淀粉，才是实验过程中新制造的。",
+   "answer_mode": "choice",
+   "options": [
+    "让叶片提前变蓝",
+    "杀死叶片细胞",
+    "运走或耗尽叶片中原有的淀粉",
+    "增加叶片中的二氧化碳储存"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j027_q4",
+   "topic": "cnb_j027",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "光合作用的表达式可以概括为？",
+   "explain": "叶绿体利用光能，把二氧化碳和水合成储存能量的有机物，并释放氧气。",
+   "answer_mode": "choice",
+   "options": [
+    "有机物和氧气生成二氧化碳和水，不需要光",
+    "水直接变成淀粉，不需要二氧化碳",
+    "氧气和水生成二氧化碳",
+    "二氧化碳和水在光与叶绿体的作用下生成有机物和氧气"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j029_q2",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "植物参与生物圈水循环，主要依靠？",
+   "explain": "蒸腾把植物吸收的水分散到大气中，再以降水等形式回到地面。",
+   "answer_mode": "choice",
+   "options": [
+    "受精作用",
+    "分裂生殖",
+    "反射",
+    "蒸腾作用"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j029_q3",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "动物和人生命活动所需的有机物，归根到底主要来自？",
+   "explain": "植物制造的有机物沿食物关系传递，动物不能自己把无机物合成有机物。",
+   "answer_mode": "choice",
+   "options": [
+    "绿色植物的光合作用",
+    "土壤中的无机盐直接变成淀粉",
+    "动物自己的光合作用",
+    "空气中的氮气"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j029_q4",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u4",
+   "unit_name": "第4章 绿色开花植物的生活方式",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "如果一个地区的森林被大面积砍伐，较可能出现的是？",
+   "explain": "森林减少后，吸收二氧化碳和蒸腾散水都减弱，保持水土的能力也下降。",
+   "answer_mode": "choice",
+   "options": [
+    "氧气立刻无限增加",
+    "空气中二氧化碳增多，水土流失加重",
+    "降水量一定增加且不再变化",
+    "植物的蒸腾作用增强"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j023_q1",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "种子萌发所需的环境条件是？",
+   "explain": "胚是活的、完整的，并已度过休眠期，再加上适宜的外界条件，种子才能萌发。",
+   "answer_mode": "choice",
+   "options": [
+    "适宜的温度、一定的水分和充足的空气",
+    "只需要光照",
+    "只需要土壤中的有机肥",
+    "必须浸泡在煮沸后密闭的水里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j023_q3",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "测定种子发芽率时，应选择？",
+   "explain": "重复实验并选用有活力的种子，结果才可靠；煮熟的种子胚已死亡。",
+   "answer_mode": "choice",
+   "options": [
+    "只挑一粒种子",
+    "已经霉变的种子",
+    "粒大饱满、储存时间短的种子重复试验",
+    "煮熟后的种子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j023_q4",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "把种子放在潮湿但密闭、没有空气的环境中，通常？",
+   "explain": "胚进行呼吸需要氧气，缺少空气时种子不能正常萌发。",
+   "answer_mode": "choice",
+   "options": [
+    "萌发得更快",
+    "只长叶不长根",
+    "一定长成完整植株",
+    "不能正常萌发"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j025_q2",
+   "topic": "cnb_j025",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "花粉落到雌蕊柱头上的过程叫做？",
+   "explain": "花粉管中的精子与卵细胞结合才是受精，发生在传粉之后。",
+   "answer_mode": "choice",
+   "options": [
+    "受精",
+    "蒸腾",
+    "呼吸",
+    "传粉"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j025_q4",
+   "topic": "cnb_j025",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "玉米传粉不足会出现缺粒，可以采用的办法是？",
+   "explain": "人工把花粉撒到柱头上，可以弥补自然传粉的不足。",
+   "answer_mode": "choice",
+   "options": [
+    "把根全部剪掉",
+    "人工辅助授粉",
+    "停止浇水",
+    "摘掉全部叶片"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j028_q1",
+   "topic": "cnb_j028",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "植物呼吸作用的主要场所是？",
+   "explain": "活细胞的线粒体分解有机物，释放能量。",
+   "answer_mode": "choice",
+   "options": [
+    "叶绿体",
+    "线粒体",
+    "液泡",
+    "导管"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j028_q2",
+   "topic": "cnb_j028",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "呼吸作用产生的气体是？",
+   "explain": "有机物被分解成二氧化碳和水，同时释放能量。",
+   "answer_mode": "choice",
+   "options": [
+    "只有氧气",
+    "只有氮气",
+    "二氧化碳",
+    "一氧化碳作为主要产物"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j028_q3",
+   "topic": "cnb_j028",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "储藏粮食时保持干燥、低温，是为了？",
+   "explain": "干燥、低温使呼吸放慢，减少有机物消耗，也抑制霉菌。",
+   "answer_mode": "choice",
+   "options": [
+    "促进光合作用",
+    "让种子立刻萌发",
+    "增加氧气使呼吸更旺盛",
+    "减弱种子的呼吸作用"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j028_q4",
+   "topic": "cnb_j028",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "bsd",
+   "unit": "u5",
+   "unit_name": "第5章 绿色开花植物的生活史",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "绿色植物在白天？",
+   "explain": "只要细胞是活的就进行呼吸；有光时叶肉细胞还进行光合作用。",
+   "answer_mode": "choice",
+   "options": [
+    "同时进行光合作用和呼吸作用",
+    "只进行光合作用",
+    "只进行呼吸作用",
+    "两种作用都停止"
+   ],
+   "answer": 1
+  }
+ ]
+}

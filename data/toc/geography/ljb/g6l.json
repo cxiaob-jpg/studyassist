@@ -1,0 +1,1296 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_geography_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 鲁教版 六年级地理下册(2025春版)；知识点/题目复用通用地理池",
+  "path": "ljb/dili/xc6x_2025",
+  "fetched": "2026-11-20"
+ },
+ "subject": "geography",
+ "grade": 6,
+ "semester": "lower",
+ "edition": "ljb",
+ "edition_label": "鲁教版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第七章 我们生活的大洲——亚洲"
+  },
+  {
+   "id": "u2",
+   "name": "第八章 我们邻近的地区和国家"
+  },
+  {
+   "id": "u3",
+   "name": "第九章 东半球其他的地区和国家"
+  },
+  {
+   "id": "u4",
+   "name": "第十章 西半球的国家"
+  },
+  {
+   "id": "u5",
+   "name": "第十一章 极地地区"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cng_j018",
+   "name": "亚洲的自然环境",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "description": "知道亚洲的位置、地形地势、河流和气候特点。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "亚洲大部分位于哪个半球？",
+    "answer": "北半球和东半球"
+   }
+  },
+  {
+   "id": "cng_j019",
+   "name": "亚洲的人文环境",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "description": "知道亚洲的人口、文化和经济发展差异。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "亚洲是世界上人口最多的大洲，人口主要集中在？",
+    "answer": "东亚、东南亚和南亚"
+   }
+  },
+  {
+   "id": "cng_j020",
+   "name": "日本",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "description": "知道日本的位置、自然环境和经济发展特点。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "日本是位于亚洲东部的？",
+    "answer": "岛国"
+   }
+  },
+  {
+   "id": "cng_j021",
+   "name": "东南亚",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "description": "知道东南亚的位置、气候、农业和马六甲海峡的重要性。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "东南亚处在亚洲与大洋洲、印度洋与太平洋之间的？",
+    "answer": "“十字路口”"
+   }
+  },
+  {
+   "id": "cng_j022",
+   "name": "印度",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "description": "知道印度的位置、热带季风气候、农业和信息技术产业。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "印度大部分地区的气候类型是？",
+    "answer": "热带季风气候"
+   }
+  },
+  {
+   "id": "cng_j023",
+   "name": "俄罗斯",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "description": "知道俄罗斯的位置、自然资源和工业、交通特点。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "俄罗斯是世界上？",
+    "answer": "面积最大的国家"
+   }
+  },
+  {
+   "id": "cng_j024",
+   "name": "西亚",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "description": "知道西亚的位置、干旱环境和石油资源。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "西亚地处亚、欧、非三洲交界，被称为？",
+    "answer": "“三洲五海之地”"
+   }
+  },
+  {
+   "id": "cng_j025",
+   "name": "欧洲西部",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "description": "知道欧洲西部的位置、温带海洋性气候和发达的经济。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "欧洲西部大多数国家属于？",
+    "answer": "发达国家"
+   }
+  },
+  {
+   "id": "cng_j026",
+   "name": "撒哈拉以南非洲",
+   "domain": "世界地理",
+   "kp_type": "reasoning",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "description": "知道撒哈拉以南非洲的位置、热带气候、资源和经济发展。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "撒哈拉以南非洲大部分位于？",
+    "answer": "热带"
+   }
+  },
+  {
+   "id": "cng_j027",
+   "name": "澳大利亚",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "description": "知道澳大利亚是独占一块大陆的国家，以及气候、动物和农矿产业。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "澳大利亚是世界上唯一独占一块大陆的国家，这块大陆是？",
+    "answer": "澳大利亚大陆"
+   }
+  },
+  {
+   "id": "cng_j028",
+   "name": "美国",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "description": "知道美国的位置、农业专业化、工业和高新技术产业。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "美国本土位于哪个大洲？",
+    "answer": "北美洲"
+   }
+  },
+  {
+   "id": "cng_j029",
+   "name": "巴西",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "description": "知道巴西的位置、热带雨林、人口城市分布和经济发展。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "巴西大部分位于？",
+    "answer": "南美洲东部，赤道和南回归线之间"
+   }
+  },
+  {
+   "id": "cng_j030",
+   "name": "极地地区",
+   "domain": "世界地理",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第十一章 极地地区",
+   "description": "知道北极地区和南极地区的自然环境及科考、环保意义。",
+   "mastery_criteria": [
+    "能说出本课的位置、自然或人文特征",
+    "能把区域特征对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "南极地区是地球上最冷的地区之一，被称为？",
+    "answer": "“冰雪高原”"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cng_j018_q1",
+   "topic": "cng_j018",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "亚洲大部分位于哪个半球？",
+   "explain": "亚洲主体在赤道以北、20°W 以东，主要位于北半球、东半球。",
+   "answer_mode": "choice",
+   "options": [
+    "南半球和西半球",
+    "只在西半球",
+    "只在南半球",
+    "北半球和东半球"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j018_q3",
+   "topic": "cng_j018",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "亚洲大河多呈放射状流向周边海洋，主要原因是？",
+   "explain": "河流由高处流向低处，中部高四周低使大河向四周分流。",
+   "answer_mode": "choice",
+   "options": [
+    "全部发源于沿海平原",
+    "地势中部高、四周低",
+    "没有高原山地",
+    "地球自转在亚洲停止"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j018_q4",
+   "topic": "cng_j018",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "亚洲分布最广的气候类型是？",
+   "explain": "亚洲内陆面积广大，温带大陆性气候分布最广；东部季风气候也十分显著。",
+   "answer_mode": "choice",
+   "options": [
+    "热带雨林气候",
+    "温带海洋性气候",
+    "温带大陆性气候",
+    "极地气候"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j019_q1",
+   "topic": "cng_j019",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "亚洲是世界上人口最多的大洲，人口主要集中在？",
+   "explain": "东亚、东南亚、南亚自然条件较好，是人口稠密区。",
+   "answer_mode": "choice",
+   "options": [
+    "东亚、东南亚和南亚",
+    "北亚和中亚内陆",
+    "西亚沙漠腹地",
+    "青藏高原内部"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j019_q2",
+   "topic": "cng_j019",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "亚洲国家中，日本、韩国等属于？",
+   "explain": "东亚一些国家工业化程度高，日本是发达国家。",
+   "answer_mode": "choice",
+   "options": [
+    "全部是最不发达国家",
+    "发达国家或经济发展水平较高的国家",
+    "没有工业的国家",
+    "只有畜牧业的国家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j019_q3",
+   "topic": "cng_j019",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "亚洲文化具有明显的？",
+   "explain": "亚洲地域辽阔，语言、宗教、建筑和习俗差异很大。",
+   "answer_mode": "choice",
+   "options": [
+    "完全单一性",
+    "只存在一种语言",
+    "多样性和东西差异",
+    "与自然环境无关"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j019_q4",
+   "topic": "cng_j019",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u1",
+   "unit_name": "第七章 我们生活的大洲——亚洲",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "西亚部分国家因大量出口石油而较富裕，说明？",
+   "explain": "石油资源给西亚产油国带来较高收入，但发展仍受多种因素影响。",
+   "answer_mode": "choice",
+   "options": [
+    "所有亚洲国家都同样富裕",
+    "没有石油就无法发展任何产业",
+    "人口越少经济一定越落后",
+    "自然资源会影响区域经济发展水平"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j020_q1",
+   "topic": "cng_j020",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "日本是位于亚洲东部的？",
+   "explain": "日本由北海道、本州、四国、九州等岛屿组成。",
+   "answer_mode": "choice",
+   "options": [
+    "内陆国",
+    "岛国",
+    "半岛国家",
+    "大陆国家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j020_q4",
+   "topic": "cng_j020",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "日本气候的海洋性特征比较明显，表现为？",
+   "explain": "四周临海，受海洋调节，气温年较差较小，降水较丰富。",
+   "answer_mode": "choice",
+   "options": [
+    "冬季较温和、降水较多",
+    "全年炎热干燥",
+    "没有四季变化",
+    "与大陆内部完全相同"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j021_q1",
+   "topic": "cng_j021",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "东南亚处在亚洲与大洋洲、印度洋与太平洋之间的？",
+   "explain": "中南半岛和马来群岛扼守两洲两洋的交通要道。",
+   "answer_mode": "choice",
+   "options": [
+    "大陆内部",
+    "极地地区",
+    "“十字路口”",
+    "世界屋脊"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j021_q3",
+   "topic": "cng_j021",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "东南亚气候湿热，主要粮食作物是？",
+   "explain": "高温多雨适合水稻生长，许多国家以稻米为主食。",
+   "answer_mode": "choice",
+   "options": [
+    "水稻",
+    "青稞",
+    "甜菜",
+    "燕麦"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j021_q4",
+   "topic": "cng_j021",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "中南半岛的城市多分布在河流沿岸及河口三角洲，主要因为？",
+   "explain": "河流提供灌溉、用水和航运，河口三角洲土壤肥沃。",
+   "answer_mode": "choice",
+   "options": [
+    "海拔越高越适合居住",
+    "地形平坦、水源充足、交通便利",
+    "这里完全没有洪水",
+    "远离所有海洋更安全"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j022_q1",
+   "topic": "cng_j022",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "印度大部分地区的气候类型是？",
+   "explain": "印度大部分位于热带，受西南季风影响，分旱雨两季。",
+   "answer_mode": "choice",
+   "options": [
+    "温带海洋性气候",
+    "寒带气候",
+    "地中海气候",
+    "热带季风气候"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j022_q2",
+   "topic": "cng_j022",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "印度人口数量在世界上的地位是？",
+   "explain": "印度是南亚面积最大、人口极多的国家。",
+   "answer_mode": "choice",
+   "options": [
+    "居世界前列的人口大国",
+    "人口最少的国家",
+    "只有数百万人",
+    "没有常住人口"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j022_q3",
+   "topic": "cng_j022",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "印度的信息技术产业中心常被称为“印度硅谷”的是？",
+   "explain": "班加罗尔集中了软件和服务外包产业。",
+   "answer_mode": "choice",
+   "options": [
+    "新德里",
+    "班加罗尔",
+    "加尔各答",
+    "孟买港口的渔村"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j022_q4",
+   "topic": "cng_j022",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "西南季风来得晚或退得早，印度容易出现？",
+   "explain": "农业依赖夏季风带来的降水，季风不稳定会导致旱涝。",
+   "answer_mode": "choice",
+   "options": [
+    "终年冰冻",
+    "与季风完全无关的火山喷发",
+    "旱灾，粮食减产",
+    "全国同时变成温带海洋性气候"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j023_q1",
+   "topic": "cng_j023",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "俄罗斯是世界上？",
+   "explain": "俄罗斯地跨亚欧大陆，面积约 1700 多万平方千米。",
+   "answer_mode": "choice",
+   "options": [
+    "面积最大的国家",
+    "人口最多的国家",
+    "海拔最高的国家",
+    "唯一的岛国"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j023_q2",
+   "topic": "cng_j023",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "俄罗斯的亚洲部分气候以什么为主？",
+   "explain": "纬度高、距海远，冬季寒冷漫长。",
+   "answer_mode": "choice",
+   "options": [
+    "热带雨林气候",
+    "温带大陆性气候，冬季漫长严寒",
+    "全年高温多雨",
+    "地中海气候"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j023_q3",
+   "topic": "cng_j023",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "西伯利亚大铁路的走向大致是？",
+   "explain": "铁路横贯亚欧大陆，连接莫斯科与远东港口。",
+   "answer_mode": "choice",
+   "options": [
+    "南北向穿过赤道",
+    "环绕南极",
+    "东西向",
+    "只连接非洲各国"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j023_q4",
+   "topic": "cng_j023",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u2",
+   "unit_name": "第八章 我们邻近的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "俄罗斯自然资源丰富，重工业发达，但农业相对薄弱，主要因为？",
+   "explain": "热量条件限制农作物种类和产量，工业则依托矿产和能源。",
+   "answer_mode": "choice",
+   "options": [
+    "完全没有平原",
+    "人口全部集中在热带",
+    "没有铁路和河流",
+    "纬度高、热量不足，耕地分布不均"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j024_q2",
+   "topic": "cng_j024",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "西亚大部分地区的气候特点是？",
+   "explain": "北回归线穿过，副高和信风影响，热带沙漠气候广布。",
+   "answer_mode": "choice",
+   "options": [
+    "终年寒冷多雨",
+    "与热带雨林相同",
+    "炎热干燥",
+    "没有沙漠"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j024_q3",
+   "topic": "cng_j024",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "西亚被称为“世界石油宝库”，石油主要分布在？",
+   "explain": "波斯湾沿岸是世界石油储量、产量和出口量最大的地区之一。",
+   "answer_mode": "choice",
+   "options": [
+    "青藏高原内部",
+    "北冰洋沿岸苔原",
+    "马来群岛全部岛屿",
+    "波斯湾及其沿岸"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j024_q4",
+   "topic": "cng_j024",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "西亚许多国家淡水资源短缺，传统农业多分布在？",
+   "explain": "两河流域、尼罗河下游附近以及绿洲有灌溉条件。",
+   "answer_mode": "choice",
+   "options": [
+    "有河流或绿洲的地方",
+    "所有沙漠腹地的沙丘顶",
+    "全年冰雪覆盖的高山内部",
+    "没有水源的戈壁中心"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j025_q1",
+   "topic": "cng_j025",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "欧洲西部大多数国家属于？",
+   "explain": "欧洲西部是发达国家最集中的地区之一。",
+   "answer_mode": "choice",
+   "options": [
+    "最不发达国家",
+    "没有工业的农业国",
+    "发达国家",
+    "热带沙漠国家"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j025_q2",
+   "topic": "cng_j025",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "欧洲西部大西洋沿岸典型的气候是？",
+   "explain": "常年受西风和北大西洋暖流影响，冬暖夏凉、降水均匀。",
+   "answer_mode": "choice",
+   "options": [
+    "热带季风气候",
+    "寒带冰原气候",
+    "热带沙漠气候",
+    "温带海洋性气候"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j025_q3",
+   "topic": "cng_j025",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "欧洲西部旅游业发达，主要因为？",
+   "explain": "海岸、山地、古城和博物馆等资源多样，接待能力强。",
+   "answer_mode": "choice",
+   "options": [
+    "自然和人文旅游资源丰富，交通便利",
+    "完全没有历史古迹",
+    "气候全年严寒",
+    "国家之间互不往来"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j025_q4",
+   "topic": "cng_j025",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "欧洲西部畜牧业发达，与气候的关系是？",
+   "explain": "温带海洋性气候光热不足但降水均匀，有利于牧草，不利于谷物成熟。",
+   "answer_mode": "choice",
+   "options": [
+    "全年干旱只适合骆驼",
+    "温和湿润适合多汁牧草生长",
+    "没有平原无法种草",
+    "冬季完全没有降水"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j026_q1",
+   "topic": "cng_j026",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "撒哈拉以南非洲大部分位于？",
+   "explain": "赤道穿过中部，大部分在南北回归线之间。",
+   "answer_mode": "choice",
+   "options": [
+    "北寒带",
+    "南寒带",
+    "只有温带",
+    "热带"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j026_q2",
+   "topic": "cng_j026",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "本区分布很广、分干湿两季的气候是？",
+   "explain": "热带草原气候在赤道雨林两侧呈半环状分布。",
+   "answer_mode": "choice",
+   "options": [
+    "热带草原气候",
+    "温带海洋性气候",
+    "冰原气候",
+    "地中海气候"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j026_q3",
+   "topic": "cng_j026",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "本区许多国家出口初级农矿产品，在国际贸易中往往？",
+   "explain": "出口价格较低的原料、进口价格较高的工业制成品，贸易条件较差。",
+   "answer_mode": "choice",
+   "options": [
+    "可以任意提高制成品价格",
+    "处于不利地位",
+    "完全不需要进口",
+    "已经全部成为发达国家"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j026_q4",
+   "topic": "cng_j026",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "非洲气候类型大致关于赤道南北对称，主要因为？",
+   "explain": "纬度因素使气候带以赤道为轴南北对称。",
+   "answer_mode": "choice",
+   "options": [
+    "整个非洲都在北极圈内",
+    "没有高原和盆地",
+    "赤道横贯中部，气压带风带对称分布",
+    "洋流只影响东岸且完全相同"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j027_q1",
+   "topic": "cng_j027",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "澳大利亚是世界上唯一独占一块大陆的国家，这块大陆是？",
+   "explain": "澳大利亚领土主体就是澳大利亚大陆，还有塔斯马尼亚岛等。",
+   "answer_mode": "choice",
+   "options": [
+    "澳大利亚大陆",
+    "亚欧大陆",
+    "北美大陆",
+    "南极大陆"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j027_q2",
+   "topic": "cng_j027",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "澳大利亚因长期孤立，保留了许多？",
+   "explain": "大陆分离早，生物独立演化。",
+   "answer_mode": "choice",
+   "options": [
+    "只有北极熊",
+    "特有的古老动物，如袋鼠、鸸鹋",
+    "没有袋类动物",
+    "与亚洲完全相同的野生大象群"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j027_q4",
+   "topic": "cng_j027",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u3",
+   "unit_name": "第九章 东半球其他的地区和国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "澳大利亚因养羊多、出口羊毛多，被称为？",
+   "explain": "畜牧业尤其是牧羊业在国民经济和出口中地位突出；因矿产丰富也称“坐在矿车上的国家”。",
+   "answer_mode": "choice",
+   "options": [
+    "“世界油库”",
+    "“赤道上的岛国”",
+    "“冰雪大陆”",
+    "“骑在羊背上的国家”"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j028_q1",
+   "topic": "cng_j028",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "美国本土位于哪个大洲？",
+   "explain": "美国主体在北美洲中部，还有阿拉斯加和夏威夷。",
+   "answer_mode": "choice",
+   "options": [
+    "南美洲",
+    "北美洲",
+    "非洲",
+    "大洋洲"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j028_q2",
+   "topic": "cng_j028",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "美国农业的突出特点之一是？",
+   "explain": "不同地区根据自然条件形成小麦带、玉米带、棉花带等。",
+   "answer_mode": "choice",
+   "options": [
+    "完全没有种植业",
+    "只在西部沙漠种水稻",
+    "地区生产专业化",
+    "全国只种一种作物"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j028_q3",
+   "topic": "cng_j028",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "美国高新技术产业的代表地区是？",
+   "explain": "旧金山东南的硅谷是全球著名高科技产业区。",
+   "answer_mode": "choice",
+   "options": [
+    "墨西哥高原",
+    "落基山最高峰",
+    "五大湖湖心岛",
+    "硅谷"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j028_q4",
+   "topic": "cng_j028",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "美国本土降水大致从东南向西北递减，农业带东西差异明显，主要受？",
+   "explain": "中部平原适合商品谷物，西部山地高原降水较少，农业类型不同。",
+   "answer_mode": "choice",
+   "options": [
+    "气候和地形等因素影响",
+    "全国气候完全相同",
+    "没有河流和土壤差异",
+    "农业布局与自然条件无关"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j029_q1",
+   "topic": "cng_j029",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "巴西大部分位于？",
+   "explain": "巴西是南美洲面积最大的国家，领土主要在热带。",
+   "answer_mode": "choice",
+   "options": [
+    "北美洲西部",
+    "非洲北部",
+    "南美洲东部，赤道和南回归线之间",
+    "欧洲西部"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cng_j029_q3",
+   "topic": "cng_j029",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "巴西人口和城市主要集中在？",
+   "explain": "东南沿海气候较温和、开发早、交通便利。",
+   "answer_mode": "choice",
+   "options": [
+    "东南沿海",
+    "亚马孙雨林内部",
+    "西部安第斯高山",
+    "赤道正中的原始密林腹地"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j029_q4",
+   "topic": "cng_j029",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u4",
+   "unit_name": "第十章 西半球的国家",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "保护亚马孙热带雨林的重要意义是？",
+   "explain": "雨林通过光合作用吸收二氧化碳、释放氧气，并保存大量物种。",
+   "answer_mode": "choice",
+   "options": [
+    "让雨林完全消失以扩大城市",
+    "维护全球气候和生物多样性",
+    "雨林对地球环境没有作用",
+    "只影响南极冰川、与巴西无关"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j030_q1",
+   "topic": "cng_j030",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u5",
+   "unit_name": "第十一章 极地地区",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "南极地区是地球上最冷的地区之一，被称为？",
+   "explain": "南极大陆平均海拔高、冰层厚，酷寒、烈风、干燥。",
+   "answer_mode": "choice",
+   "options": [
+    "热带雨林",
+    "世界油库",
+    "鱼米之乡",
+    "“冰雪高原”"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cng_j030_q2",
+   "topic": "cng_j030",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u5",
+   "unit_name": "第十一章 极地地区",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 1,
+   "stem": "北极地区的中心是？",
+   "explain": "北极点位于北冰洋上，周围是亚洲、欧洲和北美洲的北部。",
+   "answer_mode": "choice",
+   "options": [
+    "北冰洋",
+    "南极大陆",
+    "青藏高原",
+    "撒哈拉沙漠"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cng_j030_q3",
+   "topic": "cng_j030",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u5",
+   "unit_name": "第十一章 极地地区",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 2,
+   "stem": "到南极考察应选择的季节是北半球的？",
+   "explain": "南北半球季节相反，北半球冬季正值南极暖季，有极昼。",
+   "answer_mode": "choice",
+   "options": [
+    "夏季",
+    "冬季",
+    "与季节无关，全年皆宜且同样温暖",
+    "只有春分日"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cng_j030_q4",
+   "topic": "cng_j030",
+   "subject": "geography",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "ljb",
+   "unit": "u5",
+   "unit_name": "第十一章 极地地区",
+   "type": "knowledge",
+   "skill": "世界地理",
+   "difficulty": 3,
+   "stem": "极地地区对全球的意义突出表现在？",
+   "explain": "冰盖反射阳光、影响洋流和大气环流；还保存气候和环境演变信息。",
+   "answer_mode": "choice",
+   "options": [
+    "可以大规模开垦农田",
+    "气候与全球变暖毫无关系",
+    "调节全球气候，并具有科研价值",
+    "没有独特的自然环境"
+   ],
+   "answer": 3
+  }
+ ]
+}

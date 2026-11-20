@@ -1,0 +1,1078 @@
+{
+ "schema_version": 1,
+ "generated_by": "build_biology_toc.py (stage-wide chapter alignment)",
+ "source": {
+  "site": "dzkbw.com 冀少版 八年级生物上册(2025秋版)；知识点/题目复用通用生物池",
+  "path": "jsb/shengwu/8s_2025",
+  "fetched": "2026-11-20"
+ },
+ "subject": "biology",
+ "grade": 8,
+ "semester": "upper",
+ "edition": "jsb",
+ "edition_label": "冀少版",
+ "units": [
+  {
+   "id": "u1",
+   "name": "第一章 传染病与免疫"
+  },
+  {
+   "id": "u2",
+   "name": "第二章 生活习惯与健康"
+  },
+  {
+   "id": "u3",
+   "name": "第一章 绿色开花植物的一生"
+  },
+  {
+   "id": "u4",
+   "name": "第二章 植物与生物圈中的水循环"
+  },
+  {
+   "id": "u5",
+   "name": "第三章 植物与生物圈的碳氧平衡"
+  }
+ ],
+ "topics": [
+  {
+   "id": "cnb_j045",
+   "name": "传染病及其预防",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "description": "能说出传染病流行的三个环节和预防措施。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "传染病流行必须同时具备？",
+    "answer": "传染源、传播途径和易感人群"
+   }
+  },
+  {
+   "id": "cnb_j046",
+   "name": "免疫与免疫规划",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "description": "能区分三道免疫防线，并说明接种疫苗属于免疫规划。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "皮肤和黏膜阻挡病原体，属于？",
+    "answer": "第一道防线"
+   }
+  },
+  {
+   "id": "cnb_j047",
+   "name": "用药与急救",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "description": "能区分处方药和非处方药，并知道常见急救原则。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "非处方药的英文简称是？",
+    "answer": "OTC"
+   }
+  },
+  {
+   "id": "cnb_j048",
+   "name": "选择健康的生活方式",
+   "domain": "人体生理与健康",
+   "kp_type": "application",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "description": "能说明吸烟、酗酒、毒品和缺乏运动对健康的危害。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "健康的生活方式包括？",
+    "answer": "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品"
+   }
+  },
+  {
+   "id": "cnb_j023",
+   "name": "种子的萌发",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "description": "知道种子萌发需要完整有活力的胚、适宜的温度、一定的水分和充足的空气。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "种子萌发所需的环境条件是？",
+    "answer": "适宜的温度、一定的水分和充足的空气"
+   }
+  },
+  {
+   "id": "cnb_j025",
+   "name": "开花和结果",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "description": "能说出花的主要结构，以及传粉、受精后子房和胚珠的发育结果。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "一朵花中，与结出果实和种子直接有关的结构是？",
+    "answer": "雄蕊和雌蕊"
+   }
+  },
+  {
+   "id": "cnb_j029",
+   "name": "植物在自然界中的作用",
+   "domain": "植物的生活",
+   "kp_type": "reasoning",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "description": "能说明植物为其他生物提供食物、维持碳氧平衡并参与水循环。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "绿色植物维持生物圈碳氧平衡，主要依靠？",
+    "answer": "光合作用释放氧气、吸收二氧化碳"
+   }
+  },
+  {
+   "id": "cnb_j041",
+   "name": "人体对外界环境的感知",
+   "domain": "人体生理与健康",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "description": "能说出视觉、听觉形成的基本路径，以及近视的成因和矫正。",
+   "mastery_criteria": [
+    "能说出本课涉及的结构、生理过程或健康常识",
+    "能把结构与功能对应到教材中的典型事实"
+   ],
+   "example": {
+    "question": "外界物体反射来的光线，在眼球里成像的部位是？",
+    "answer": "视网膜"
+   }
+  },
+  {
+   "id": "cnb_j051",
+   "name": "生物圈",
+   "domain": "生物与环境",
+   "kp_type": "conceptual",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "description": "知道生物圈是最大的生态系统，以及生物生存的基本条件。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "生物圈的范围大致包括？",
+    "answer": "大气圈的底部、水圈的大部和岩石圈的表面"
+   }
+  },
+  {
+   "id": "cnb_j024",
+   "name": "植株的生长",
+   "domain": "植物的生活",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "description": "知道根的生长、芽的发育，以及氮、磷、钾对植株的作用。",
+   "mastery_criteria": [
+    "能说出植物生活中的结构和生理过程",
+    "能把实验现象对应到教材中的结论"
+   ],
+   "example": {
+    "question": "根吸收水分和无机盐的主要部位是？",
+    "answer": "成熟区"
+   }
+  },
+  {
+   "id": "cnb_j049",
+   "name": "生物与环境的相互作用",
+   "domain": "生物与环境",
+   "kp_type": "conceptual",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "description": "能举出环境影响生物、生物适应并影响环境的例子。",
+   "mastery_criteria": [
+    "能说出生物与环境、生态系统的基本关系",
+    "能判断食物链、能量流动或生态问题的典型事实"
+   ],
+   "example": {
+    "question": "影响生物生活的非生物因素包括？",
+    "answer": "光、温度、水和空气"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "cnb_j045_q1",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "传染病流行必须同时具备？",
+   "explain": "三个环节缺少任何一个，传染病就不能在人群中流行。",
+   "answer_mode": "choice",
+   "options": [
+    "只有易感人群",
+    "只有病原体、没有传染源",
+    "传染源、传播途径和易感人群",
+    "健康的生活环境就一定会流行"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j045_q2",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "对患传染病的人进行隔离治疗，属于？",
+   "explain": "传染源是能够散播病原体的人或动物；隔离是为了控制传染源。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "保护易感人群",
+    "增加易感者",
+    "控制传染源"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j045_q3",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "开窗通风、食物器具消毒，主要是？",
+   "explain": "这些做法减少病原体从传染源到达健康人的机会。",
+   "answer_mode": "choice",
+   "options": [
+    "切断传播途径",
+    "控制全部易感人群的遗传物质",
+    "消灭所有人体细胞",
+    "代替接种疫苗"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j045_q4",
+   "topic": "cnb_j045",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "艾滋病病毒主要不会通过哪一方式传播？",
+   "explain": "艾滋病通过血液、性接触和母婴传播；一般握手、共同进餐不会感染。",
+   "answer_mode": "choice",
+   "options": [
+    "输入含病毒的血液",
+    "一起进餐和握手",
+    "不安全性行为",
+    "母婴传播"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q1",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "皮肤和黏膜阻挡病原体，属于？",
+   "explain": "第一道防线是皮肤和黏膜；体液中的杀菌物质和吞噬细胞是第二道防线。",
+   "answer_mode": "choice",
+   "options": [
+    "第三道防线",
+    "特异性免疫",
+    "免疫规划",
+    "第一道防线"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j046_q2",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "接种疫苗后产生抗体，这种免疫是？",
+   "explain": "疫苗相当于抗原，促使淋巴细胞产生相应抗体，只针对特定病原体。",
+   "answer_mode": "choice",
+   "options": [
+    "特异性免疫",
+    "第一道防线",
+    "生来就有、对所有病原体完全相同的非特异性免疫",
+    "只由皮肤完成"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j046_q3",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "按规定有计划地接种疫苗，叫做？",
+   "explain": "免疫规划是保护易感人群的重要措施。",
+   "answer_mode": "choice",
+   "options": [
+    "控制传染源的隔离",
+    "免疫规划",
+    "非处方药治疗",
+    "反射弧"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j046_q4",
+   "topic": "cnb_j046",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u1",
+   "unit_name": "第一章 传染病与免疫",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "免疫的功能不包括？",
+   "explain": "免疫有防御、自稳和监视功能；免疫过强可能引起过敏或自身免疫病。",
+   "answer_mode": "choice",
+   "options": [
+    "抵抗抗原的侵入",
+    "清除体内衰老、死亡的细胞",
+    "制造病原体让疾病流行",
+    "监视并清除异常细胞"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q1",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "非处方药的英文简称是？",
+   "explain": "OTC 可以按说明书自行购买使用；处方药必须凭医师处方。",
+   "answer_mode": "choice",
+   "options": [
+    "OTC",
+    "DNA",
+    "HIV",
+    "AQI"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j047_q2",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "用药时正确的做法是？",
+   "explain": "加大剂量或服用过期药都可能造成伤害。",
+   "answer_mode": "choice",
+   "options": [
+    "把几种药一起加倍服用",
+    "按说明书或医嘱使用，不随意加大剂量",
+    "过期药只要没有变色就可以吃",
+    "用别人的处方药给自己治病"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j047_q3",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "动脉出血时，止血带应压迫在？",
+   "explain": "动脉血从心脏流向伤口，近心端压迫才能阻断来血；静脉出血则压远心端。",
+   "answer_mode": "choice",
+   "options": [
+    "伤口的远心端",
+    "手指末端无论伤口在哪里",
+    "伤口的近心端",
+    "只压迫静脉的远心端"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j047_q4",
+   "topic": "cnb_j047",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "发现有人煤气中毒，首先应？",
+   "explain": "煤气的主要成分一氧化碳会与血红蛋白结合；先脱离现场并保持呼吸通畅。",
+   "answer_mode": "choice",
+   "options": [
+    "在密闭房间里点火查看",
+    "让中毒者继续躺在泄漏点旁边",
+    "先喂食物再开门",
+    "打开门窗，把人移到通风处，再拨打急救电话"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q1",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "健康的生活方式包括？",
+   "explain": "这些习惯能降低心血管疾病和部分癌症的风险。",
+   "answer_mode": "choice",
+   "options": [
+    "用吸烟提神",
+    "均衡营养、坚持锻炼、不吸烟、不酗酒、拒绝毒品",
+    "每天只睡很少时间",
+    "靠饮料代替饮水"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j048_q2",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "酗酒对人体危害最大的系统之一是？",
+   "explain": "酒精麻痹神经系统，长期饮酒还会损害肝脏和心血管。",
+   "answer_mode": "choice",
+   "options": [
+    "可以保护肝脏",
+    "只影响头发颜色",
+    "神经系统",
+    "使免疫力无限提高"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j048_q3",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "毒品危害健康，根本原因是？",
+   "explain": "毒品会损害脑和神经系统，一旦成瘾很难戒断。",
+   "answer_mode": "choice",
+   "options": [
+    "可以代替一日三餐",
+    "能提高学习效率且没有依赖",
+    "只影响皮肤颜色",
+    "损害神经系统，而且容易成瘾"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j048_q4",
+   "topic": "cnb_j048",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u2",
+   "unit_name": "第二章 生活习惯与健康",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "为了降低心血管疾病的风险，合适的做法是？",
+   "explain": "生活方式与心血管疾病、癌症有关，预防要从饮食、运动和戒烟做起。",
+   "answer_mode": "choice",
+   "options": [
+    "少吃高脂食物，经常运动，不吸烟",
+    "用静坐代替所有活动",
+    "每天大量饮酒",
+    "自行长期服用未经医生同意的激素"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j023_q1",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "种子萌发所需的环境条件是？",
+   "explain": "胚是活的、完整的，并已度过休眠期，再加上适宜的外界条件，种子才能萌发。",
+   "answer_mode": "choice",
+   "options": [
+    "适宜的温度、一定的水分和充足的空气",
+    "只需要光照",
+    "只需要土壤中的有机肥",
+    "必须浸泡在煮沸后密闭的水里"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j023_q3",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "测定种子发芽率时，应选择？",
+   "explain": "重复实验并选用有活力的种子，结果才可靠；煮熟的种子胚已死亡。",
+   "answer_mode": "choice",
+   "options": [
+    "只挑一粒种子",
+    "已经霉变的种子",
+    "粒大饱满、储存时间短的种子重复试验",
+    "煮熟后的种子"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j023_q4",
+   "topic": "cnb_j023",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "把种子放在潮湿但密闭、没有空气的环境中，通常？",
+   "explain": "胚进行呼吸需要氧气，缺少空气时种子不能正常萌发。",
+   "answer_mode": "choice",
+   "options": [
+    "萌发得更快",
+    "只长叶不长根",
+    "一定长成完整植株",
+    "不能正常萌发"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j025_q2",
+   "topic": "cnb_j025",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "花粉落到雌蕊柱头上的过程叫做？",
+   "explain": "花粉管中的精子与卵细胞结合才是受精，发生在传粉之后。",
+   "answer_mode": "choice",
+   "options": [
+    "受精",
+    "蒸腾",
+    "呼吸",
+    "传粉"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j025_q4",
+   "topic": "cnb_j025",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u3",
+   "unit_name": "第一章 绿色开花植物的一生",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "玉米传粉不足会出现缺粒，可以采用的办法是？",
+   "explain": "人工把花粉撒到柱头上，可以弥补自然传粉的不足。",
+   "answer_mode": "choice",
+   "options": [
+    "把根全部剪掉",
+    "人工辅助授粉",
+    "停止浇水",
+    "摘掉全部叶片"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j029_q2",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "植物参与生物圈水循环，主要依靠？",
+   "explain": "蒸腾把植物吸收的水分散到大气中，再以降水等形式回到地面。",
+   "answer_mode": "choice",
+   "options": [
+    "受精作用",
+    "分裂生殖",
+    "反射",
+    "蒸腾作用"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j029_q3",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "动物和人生命活动所需的有机物，归根到底主要来自？",
+   "explain": "植物制造的有机物沿食物关系传递，动物不能自己把无机物合成有机物。",
+   "answer_mode": "choice",
+   "options": [
+    "绿色植物的光合作用",
+    "土壤中的无机盐直接变成淀粉",
+    "动物自己的光合作用",
+    "空气中的氮气"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j029_q4",
+   "topic": "cnb_j029",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "如果一个地区的森林被大面积砍伐，较可能出现的是？",
+   "explain": "森林减少后，吸收二氧化碳和蒸腾散水都减弱，保持水土的能力也下降。",
+   "answer_mode": "choice",
+   "options": [
+    "氧气立刻无限增加",
+    "空气中二氧化碳增多，水土流失加重",
+    "降水量一定增加且不再变化",
+    "植物的蒸腾作用增强"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j041_q2",
+   "topic": "cnb_j041",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 1,
+   "stem": "听觉感受器位于？",
+   "explain": "声波经外耳道、鼓膜和听小骨传到内耳，刺激耳蜗内的感受器。",
+   "answer_mode": "choice",
+   "options": [
+    "鼓膜",
+    "耳郭",
+    "听小骨",
+    "耳蜗"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j041_q3",
+   "topic": "cnb_j041",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 2,
+   "stem": "看近处物体时，晶状体的变化是？",
+   "explain": "睫状肌收缩，晶状体曲度变大，近处物体才能清楚成像。",
+   "answer_mode": "choice",
+   "options": [
+    "曲度变大",
+    "曲度变小",
+    "完全停止调节",
+    "移到视网膜后面"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j041_q4",
+   "topic": "cnb_j041",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "人体生理与健康",
+   "difficulty": 3,
+   "stem": "近视若是眼球前后径过长或晶状体曲度过大，物像落在视网膜前方，应佩戴？",
+   "explain": "凹透镜使光线发散后再进入眼球，使物像后移到视网膜上。",
+   "answer_mode": "choice",
+   "options": [
+    "凸透镜",
+    "凹透镜",
+    "平面镜",
+    "放大镜"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j051_q2",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "生物圈是？",
+   "explain": "森林、草原、海洋、湿地等都是生物圈中的生态系统。",
+   "answer_mode": "choice",
+   "options": [
+    "最小的一个细胞",
+    "地球上最大的生态系统",
+    "一种组织",
+    "一个器官"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "cnb_j051_q3",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "生物生存需要的基本条件包括？",
+   "explain": "还需要一定的生存空间；缺少这些条件，生物就不能正常生活。",
+   "answer_mode": "choice",
+   "options": [
+    "只需要土壤的颜色",
+    "只需要重力",
+    "营养物质、阳光、空气、水和适宜的温度",
+    "不需要空间"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j051_q4",
+   "topic": "cnb_j051",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u4",
+   "unit_name": "第二章 植物与生物圈中的水循环",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "像生物圈那样为生物提供生存条件的整体，在目前已知范围内？",
+   "explain": "保护生物圈就是保护人类自己的家园。",
+   "answer_mode": "choice",
+   "options": [
+    "太阳系每颗行星都有",
+    "月球表面已经具备",
+    "可以不依赖能量输入",
+    "地球是唯一的"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j024_q2",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 1,
+   "stem": "使枝叶繁茂的无机盐主要含？",
+   "explain": "含氮的无机盐促进细胞分生和生长，使枝叶茂盛。",
+   "answer_mode": "choice",
+   "options": [
+    "磷",
+    "钾",
+    "氮",
+    "只有钙"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j024_q3",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 2,
+   "stem": "根能不断长长，是因为？",
+   "explain": "分生区增加细胞数目，伸长区使新细胞体积变大。",
+   "answer_mode": "choice",
+   "options": [
+    "根冠细胞不断进行光合作用",
+    "成熟区细胞壁消失",
+    "茎把长度直接传给根",
+    "分生区细胞分裂、伸长区细胞伸长"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j024_q4",
+   "topic": "cnb_j024",
+   "subject": "biology",
+   "grade": 7,
+   "semester": "lower",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "植物的生活",
+   "difficulty": 3,
+   "stem": "植物缺钾时，较常见的表现是？",
+   "explain": "钾使茎秆健壮；磷与开花结果关系密切，氮与枝叶繁茂关系密切。",
+   "answer_mode": "choice",
+   "options": [
+    "茎秆软弱，容易倒伏",
+    "只影响开花、茎秆反而更硬",
+    "叶片立刻失去全部细胞",
+    "根毛变成叶绿体"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q1",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "影响生物生活的非生物因素包括？",
+   "explain": "非生物因素和生物因素合称生态因素。",
+   "answer_mode": "choice",
+   "options": [
+    "只有食物链",
+    "只有捕食关系",
+    "光、温度、水和空气",
+    "分类等级"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "cnb_j049_q2",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 1,
+   "stem": "鼠妇适于生活在？",
+   "explain": "探究实验中，鼠妇较多集中在阴暗潮湿一侧。",
+   "answer_mode": "choice",
+   "options": [
+    "强光干燥的地方",
+    "开水里",
+    "没有空气的密封罐",
+    "阴暗潮湿的地方"
+   ],
+   "answer": 4
+  },
+  {
+   "id": "cnb_j049_q3",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 2,
+   "stem": "蚯蚓在土壤中活动，能使土壤更疏松，这说明？",
+   "explain": "生物既受环境限制，也会改变环境。",
+   "answer_mode": "choice",
+   "options": [
+    "生物能影响环境",
+    "环境对生物没有任何作用",
+    "生物不能适应环境",
+    "只有非生物因素起作用"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "cnb_j049_q4",
+   "topic": "cnb_j049",
+   "subject": "biology",
+   "grade": 8,
+   "semester": "upper",
+   "edition": "jsb",
+   "unit": "u5",
+   "unit_name": "第三章 植物与生物圈的碳氧平衡",
+   "type": "knowledge",
+   "skill": "生物与环境",
+   "difficulty": 3,
+   "stem": "沙漠中的骆驼尿液很少、体温可以在一定范围内变化，主要说明？",
+   "explain": "这些特征有利于在缺水、昼夜温差大的环境中生活。",
+   "answer_mode": "choice",
+   "options": [
+    "生物不需要水",
+    "生物能适应环境",
+    "环境不会影响生物",
+    "骆驼不属于生物"
+   ],
+   "answer": 2
+  }
+ ]
+}
