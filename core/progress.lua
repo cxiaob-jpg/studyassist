@@ -204,6 +204,16 @@ function Progress:normalize()
     if type(settings.math_edition) ~= "string" or not math_editions[settings.math_edition] then
         settings.math_edition = "renjiao"
     end
+    -- 手动指定过教材的科目（parent 在「学习设置 → 教材版本」里自己点过版本）。
+    -- 地区没开这门课时（上海一年级数学、多数地区一年级英语），只有手动指定过
+    -- 才在首页和知识点里显示；没指定就是「暂无」，跟着地区走。
+    if type(settings.edition_manual) ~= "table" then
+        settings.edition_manual = {}
+    else
+        for subject, value in pairs(settings.edition_manual) do
+            if value ~= true then settings.edition_manual[subject] = nil end
+        end
+    end
     settings.ai = AIConfig.normalize(settings.ai)
     -- Online updater preferences (additive; old saves get defaults). The
     -- updater never writes user data; these only control check behaviour.

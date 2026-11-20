@@ -38,6 +38,12 @@ local function edition_for(resolved, subject)
     return resolved[subject .. "_edition"] or DEFAULT_EDITIONS[subject]
 end
 
+-- 家长在设置里手动指定过这门课的教材（不跟随地区自动匹配）。
+local function manual_edition(settings, subject)
+    local manual = settings and settings.edition_manual
+    return type(manual) == "table" and manual[subject] == true
+end
+
 local function is_correct(question, value)
     if question.topic then
         -- Knowledge-point questions (and their wrong-book snapshots) may carry
@@ -122,14 +128,17 @@ end
 -- subject menu and by the mixed "今日挑战" builder.
 --
 -- 还要过一道地区关：该地区这个年级还没开这门课（上海一年级没有沪教版数学、
--- 多数地区一年级没有英语）时直接跳过，不然只能拿别的出版社的题库顶上，
--- 孩子看到的就不是自己那本书。
+-- 多数地区一年级没有英语）时跳过，不然只能拿别的出版社的题库顶上。
+-- 例外：家长在设置里手动指定了教材 —— 那就按他的选择显示。
 function Session.subjects_for(plugin_path, grade, semester, settings)
     settings = settings or {}
     local out = {}
     if plugin_path and plugin_path ~= "" then MathGen.set_plugin_path(plugin_path) end
     for _, subject in ipairs(SUBJECTS) do
-        if Catalog.subject_not_started(plugin_path, settings.province, settings.city, subject, grade) then
+        local manual = manual_edition(settings, subject)
+        local not_started = Catalog.subject_not_started(plugin_path,
+            settings.province, settings.city, subject, grade)
+        if not_started and not manual then
             -- 该地区这门课从这个年级之后才开始，跳过
         else
             local entry
@@ -137,7 +146,7 @@ function Session.subjects_for(plugin_path, grade, semester, settings)
                 -- 数学 1~6 年级是现场生成题，教材只决定单元名，所以必须单独确认
                 -- 这一册真的存在（沪教版没有一年级，就不该出现在首页）。
                 local edition = edition_for(settings, "math")
-                if Catalog.edition_has_volume(plugin_path, "math", edition, grade, semester) then
+                if manual or Catalog.edition_has_volume(plugin_path, "math", edition, grade, semester) then
                     local units = MathGen.units(grade, edition, semester) or {}
                     if #units > 0 then
                         entry = { subject = subject, units = units }

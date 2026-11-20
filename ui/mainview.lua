@@ -689,13 +689,21 @@ function MainView:edition_tile_label(subject)
     return "未设置"
 end
 
--- 这门课在当前地区/年级/学期该不该出现 —— 首页、今日挑战、知识点、学习设置
--- 全部走这一个判定，别再各写一套（以前首页看内容、设置看任意版本，才会打架）。
+-- 家长有没有在「学习设置 → 教材版本」里手动指定过这门课的教材。
+function MainView:edition_manually_set(subject)
+    local manual = self.progress.data.settings.edition_manual
+    return type(manual) == "table" and manual[subject] == true
+end
+
+-- 这门课在当前地区/年级/学期该不该出现 —— 首页、今日挑战、知识点全部走这一个判定，
+-- 别再各写一套（以前首页看内容、设置看任意版本，才会打架）。
 --   1. 地区这门课还没开（上海一年级数学、一年级英语）→ 不显示
+--      除非家长手动指定了教材 —— 指定了就是他要用，照常显示
 --   2. 数学 1~6 年级是现场生成题，教材里没有这一册 → 不显示
 -- 映射断档/整科缺失不算「没有」（见 Catalog.city_subject_state），照旧按内容判断。
 function MainView:subject_visible(subject, grade, semester)
     local settings = self.progress.data.settings
+    if self:edition_manually_set(subject) then return true end
     if Catalog.subject_not_started(self.plugin_path, settings.province, settings.city, subject, grade) then
         return false
     end
@@ -708,12 +716,24 @@ function MainView:subject_visible(subject, grade, semester)
     return true
 end
 
+-- 地区这门课没开、家长也没手动指定 → 设置里显示「暂无」。
+function MainView:subject_unavailable(subject, grade)
+    local settings = self.progress.data.settings
+    if self:edition_manually_set(subject) then return false end
+    return Catalog.subject_not_started(self.plugin_path,
+        settings.province, settings.city, subject, grade)
+end
+
 -- 地区用的出版社插件没收录时的标注，例如「冀教版未收录」。
 -- 界面上拼在版本名后面：英语 人教版（冀教版未收录），家长一眼看出不是孩子那本书。
 function MainView:substitute_note(subject, grade)
     local settings = self.progress.data.settings
     local state, _, publisher = Catalog.city_subject_state(self.plugin_path,
         settings.province, settings.city, subject, grade)
+    if state == "not_started" then
+        -- 手动指定的情况才走到这里（没指定时格子显示「暂无」）
+        return self:edition_manually_set(subject) and "本地区未开课" or nil
+    end
     if state ~= "uncollected" then return nil end
     local used = settings_edition(settings, subject)
     local local_name = publisher or "本地教材"
@@ -3873,18 +3893,23 @@ function MainView:apply_city_match(city_name, from_city, silent)
     local match = self:city_match()
     if not match then return end
     local grade_label = self:grade_label() .. self:semester_label()
-    local applied, missing, absent, not_started = {}, {}, {}, {}
+    local applied, missing, absent, not_started, kept = {}, {}, {}, {}, {}
     local grade = tonumber(settings.grade) or 0
 
     for _, key in ipairs({ "yuwen", "shuxue", "yingyu" }) do
         local subject = CITY_SUBJECTS[key]
         local item = match[key]
-        if not item then
+        if self:edition_manually_set(subject) then
+            -- 家长手动指定过教材：自动匹配不覆盖他的选择
+            table.insert(kept, self:subject_label(subject))
+        elseif not item then
             -- 映射里这一册没有：区分「这门课还没开」和「源站这册没抓到」，
-            -- 前者首页/知识点直接不显示，后者保持原设置不动。
+            -- 前者设置里显示「暂无」、首页和知识点不显示该科；后者保持原设置不动。
             local start = Catalog.subject_start_grade(self.plugin_path,
                 settings.province, settings.city, subject)
             if start and grade < start then
+                -- 清掉上一册/上一年级匹配到的版本，否则它会被当成「已指定」继续显示
+                settings[subject .. "_edition"] = nil
                 table.insert(not_started, string.format("%s（本地区从%s开始）",
                     self:subject_label(subject), GRADE_LABEL[start] or (start .. "年级")))
             else
@@ -3928,8 +3953,9 @@ function MainView:apply_city_match(city_name, from_city, silent)
             if idmap and publisher and (not min_grade or grade >= min_grade) then
                 local eid = idmap[publisher]
                 local subject = OTHER_SUBJECT[okey]
-                -- 只在该版本确实收录当前年级时才应用（如粤教版仅高中，初中不选用）
-                if eid and subject
+                -- 只在该版本确实收录当前年级时才应用（如粤教版仅高中，初中不选用）；
+                -- 家长手动指定过的也不覆盖
+                if eid and subject and not self:edition_manually_set(subject)
                     and Catalog.edition_covers(self.plugin_path, subject, eid, grade) then
                     settings[subject .. "_edition"] = eid
                     other_applied[okey] = true
@@ -3950,7 +3976,11 @@ function MainView:apply_city_match(city_name, from_city, silent)
         table.insert(lines, "未收录：" .. table.concat(missing, "、") .. " —— 插件暂无该版本，练习暂用替代版本")
     end
     if #not_started > 0 then
-        table.insert(lines, "还没开课：" .. table.concat(not_started, "、") .. " —— 首页和知识点里不再显示该科")
+        table.insert(lines, "还没开课：" .. table.concat(not_started, "、")
+            .. " —— 教材版本里显示「暂无」，想练可以手动指定一个版本")
+    end
+    if #kept > 0 then
+        table.insert(lines, "手动指定保持不变：" .. table.concat(kept, "、"))
     end
     if #absent > 0 then
         table.insert(lines, "无书目：" .. table.concat(absent, "、") .. "（源站该年级无数据，保持原设置）")
@@ -4012,13 +4042,25 @@ function MainView:render_edition_select(subject)
     local rec_pub = nil
     if rec_key and match and match[rec_key] then rec_pub = match[rec_key].publisher end
     local items = {}
+    local manual = self:edition_manually_set(subject)
     if rec then
+        -- 第一条 = 跟随地区（清掉手动指定）
         table.insert(items, {
             id = rec,
+            follow_region = true,
             name = string.format("%s%s｜%s%s使用", self:edition_name_of(subject, rec),
                 self:edition_term_suffix(subject, rec),
                 self:city_label(), self:grade_label() .. self:semester_label()),
-            selected = current == rec,
+            selected = current == rec and not manual,
+        })
+    else
+        -- 本地区这一科没有可用版本（还没开课 / 出版社没收录）：
+        -- 给一条「跟随地区」，点它就是清掉手动指定、首页不再显示该科。
+        table.insert(items, {
+            id = "__auto__",
+            follow_region = true,
+            name = "跟随地区（本地区暂无此课，首页不显示）",
+            selected = not manual,
         })
     end
     -- 同一出版社有新老两套时，按这一册的版次只列适用的那个；
@@ -4047,9 +4089,24 @@ function MainView:render_edition_select(subject)
                 self:city_label(), self:grade_label(), rec_pub),
             timeout = 5,
         })
+    elseif not rec and self:subject_unavailable(subject, tonumber(settings.grade) or 2) then
+        UIManager:show(InfoMessage:new{
+            text = string.format("%s%s没有这门课，下面挑一个版本后首页和知识点里就会出现%s。",
+                self:grade_label(), self:semester_label(), self:subject_label(subject)),
+            timeout = 6,
+        })
     end
     self:render_choice_list(self:subject_label(subject) .. "教材", items, function(item)
-        settings[subject .. "_edition"] = item.id
+        settings.edition_manual = settings.edition_manual or {}
+        if item.follow_region then
+            -- 跟随地区：清掉手动指定，版本回到自动匹配（没匹配就是「暂无」）
+            settings[subject .. "_edition"] = item.id ~= "__auto__" and item.id or nil
+            settings.edition_manual[subject] = nil
+        else
+            -- 手动指定：钉住这个版本，地区没开课也照常显示
+            settings[subject .. "_edition"] = item.id
+            settings.edition_manual[subject] = true
+        end
         self.progress:flush()
         self:return_to_settings()
     end)
@@ -4611,16 +4668,19 @@ function MainView:render_study_settings()
     local grade = tonumber(settings.grade) or 2
     local edition_subjects = {}
     for _, subject in ipairs(SUBJECT_ORDER) do
-        if self:subject_visible(subject, grade, settings.semester)
-            and has_volume(self.plugin_path, subject, grade, settings.semester) then
+        -- 这一册在任何版本里存在就列出来。本地区没开这门课时显示「暂无」，
+        -- 但格子照样能点进去手动指定教材 —— 指定后首页和知识点就显示该科。
+        if has_volume(self.plugin_path, subject, grade, settings.semester) then
             table.insert(edition_subjects, subject)
         end
     end
     local gap = Screen:scaleBySize(8)
     local function edition_tile(subject, width)
         local note = self:substitute_note(subject, grade)
+        local label = self:subject_unavailable(subject, grade)
+            and "暂无" or self:edition_tile_label(subject)
         return Widgets.button(
-            string.format("%s %s%s", SUBJECT_LABEL[subject], self:edition_tile_label(subject),
+            string.format("%s %s%s", SUBJECT_LABEL[subject], label,
                 note and ("（" .. note .. "）") or ""), {
                 width = width,
                 height = Screen:scaleBySize(54),
@@ -4650,7 +4710,7 @@ function MainView:render_study_settings()
         end
     end
     table.insert(content, Widgets.textbox(
-        "点科目可以自己换版本。换完回这里核对一下，星星商城和练习都按这里的设置走。", cw, {
+        "点科目可以自己换版本。写「暂无」的是本地区这个年级还没开这门课——点进去照样能指定别的版本，指定后首页和知识点里就会出现该科。换完回这里核对一下，练习都按这里的设置走。", cw, {
             size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.35,
         }))
     table.insert(content, Widgets.vspace(Size.span.vertical_large))
