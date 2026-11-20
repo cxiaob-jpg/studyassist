@@ -37,6 +37,8 @@ local FALLBACK_EDITIONS = {
     chinese = { "tongbian" },
     -- 高中生物目前只收人教版（必修1/2、选必1~3），选其他版本的高中没有题库，回落人教版。
     biology = { "renjiao" },
+    -- 高中地理同样只收人教版，选湘教/鲁教/中图的高中时回落。
+    geography = { "renjiao" },
 }
 
 local function edition_for(resolved, subject)
