@@ -122,10 +122,13 @@ def render_question_svg(q, width=760):
         y += h + 18
 
     # 选项：两列网格
+    # 关键：只有「有配图且文字是超长读屏描述」才省略文字；无配图的长文字答案
+    # 必须完整显示并按列宽换行，否则会变成空白选项或溢出到相邻列。
     choices = q.get("choices") or []
     if choices:
         gap = 20
         colw = (inner_w - gap) / 2
+        per_line = 12  # 24px 字号 + 46px 缩进，每列安全容纳 12 个汉字（13 会顶到相邻列）
         rows = [choices[i:i + 2] for i in range(0, len(choices), 2)]
         for row in rows:
             row_top, row_h = y, 0
@@ -133,19 +136,34 @@ def render_question_svg(q, width=760):
                 cx = pad + idx * (colw + gap)
                 key = c.get("key", "?")
                 raw = (c.get("text") or "").strip()
-                label = raw if len(raw) <= 14 else ""  # 长描述是读屏用，图里省略
+                has_fig = bool(c.get("figure"))
+                # 有图的选项：短标签保留，长文本是读屏描述、图里省略
+                # 无图的选项：文字就是答案本身，一律完整显示并换行
+                label = raw if (not has_fig or len(raw) <= 14) else ""
+                lines = wrap_cjk(label, per_line) if label else []
+                # 字母 + 文字第一行同排；后续行缩进到文字起点
                 parts.append(f'<text x="{cx+8:.1f}" y="{row_top+30}" font-size="26" font-weight="bold" fill="#111" '
-                             f'font-family="PingFang SC, Heiti SC, sans-serif">{esc(key)}. {esc(label)}</text>')
-                ch = 38
-                if c.get("figure"):
+                             f'font-family="PingFang SC, Heiti SC, sans-serif">{esc(key)}.</text>')
+                tx = cx + 46
+                for li, ln in enumerate(lines):
+                    ly = row_top + 30 + li * 33
+                    parts.append(f'<text x="{tx:.1f}" y="{ly}" font-size="24" fill="#111" '
+                                 f'font-family="PingFang SC, Heiti SC, sans-serif">{esc(ln)}</text>')
+                text_h = 38 + max(0, len(lines) - 1) * 33
+                ch = text_h
+                if has_fig:
                     vb = svg_viewbox(c["figure"])
                     scale = min((colw - 16) / vb[2], 150 / vb[3], 1.2)
                     w, h = vb[2] * scale, vb[3] * scale
-                    ox = cx + 8 - vb[0] * scale
-                    oy = row_top + 36 - vb[1] * scale
+                    # 有文字标签时图放文字右侧；无文字（读屏描述）时图放整列宽
+                    if lines:
+                        ox = cx + colw - w - 8 - vb[0] * scale
+                    else:
+                        ox = cx + 8 - vb[0] * scale
+                    oy = row_top + 8 - vb[1] * scale
                     parts.append(f'<g transform="translate({ox:.1f},{oy:.1f}) scale({scale:.3f},{scale:.3f})">'
                                  f'{inner_svg(c["figure"])}</g>')
-                    ch += h
+                    ch = max(text_h, h + 16)
                 row_h = max(row_h, ch + 12)
             y = row_top + row_h + 6
     y += pad
