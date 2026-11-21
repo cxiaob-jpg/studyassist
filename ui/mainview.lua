@@ -116,7 +116,8 @@ local BACK_PARENT = {
     unit_select = "home",
     challenge_menu = "home",
     kp_subject = "home",
-    kp_select = "home",
+    kp_units = "kp_subject",
+    kp_select = "home",  -- 有 kp_unit_id 时改走 kp_units（见 onBack）
     kp_learn = "kp_select",
     wrongbook = "home",
     wrong_detail = "wrongbook",
@@ -270,8 +271,17 @@ function MainView:onBack()
     local parent = BACK_PARENT[state] or "home"
     if parent == "recite_menu" then
         self:render_recite_menu()
+    elseif parent == "kp_subject" then
+        self:render_kp_subject()
+    elseif parent == "kp_units" then
+        self:render_kp_units(self.kp_subject or "math")
     elseif parent == "kp_select" then
-        self:render_kp_select(self.kp_subject or self.diagnose_subject or "math")
+        -- 章节页进来的知识点列表返回章节列表；诊断等入口保持回首页
+        if self.kp_unit_id then
+            self:render_kp_units(self.kp_subject or "math")
+        else
+            self:render_kp_select(self.kp_subject or self.diagnose_subject or "math")
+        end
     elseif parent == "wrongbook" then
         self:render_wrongbook()
     elseif parent == "settings" then

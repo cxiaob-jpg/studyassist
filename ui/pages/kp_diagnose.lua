@@ -109,7 +109,7 @@ function M.render_kp_subject(self)
             width = w,
             height = Screen:scaleBySize(64),
             size = 22,
-            callback = function() self:render_kp_select(subject) end,
+            callback = function() self:render_kp_units(subject) end,
         })
     end)) do
         table.insert(content, row)
@@ -128,10 +128,52 @@ function M.render_kp_subject(self)
     })
 end
 
-function M.render_kp_select(self, subject)
-    self.state = "kp_select"
+-- 章节列表页：学科下一级只列本章所有单元/章节，每章带一句知识点注释；
+-- 点章节进 render_kp_select(subject, unit_id) 看该章知识点。
+-- 数学等学科的卷把一个章切成多个 unit（同名），按「章节名」聚合才符合课本目录。
+-- 返回按章节名分组的有序列表：{ {name=..., unit_ids={...}, topics={...}}, ... }
+local function chapters_of(volume)
+    local by_name = {}
+    local order = {}
+    for _, unit in ipairs(volume.units) do
+        if not by_name[unit.name] then
+            by_name[unit.name] = { name = unit.name, unit_ids = {} }
+            table.insert(order, unit.name)
+        end
+        table.insert(by_name[unit.name].unit_ids, unit.id)
+    end
+    local chapters = {}
+    for _, name in ipairs(order) do
+        local chapter = by_name[name]
+        chapter.topics = {}
+        for _, topic in ipairs(volume.topics) do
+            for _, uid in ipairs(chapter.unit_ids) do
+                if topic.unit == uid then
+                    table.insert(chapter.topics, topic)
+                    break
+                end
+            end
+        end
+        if #chapter.topics > 0 then table.insert(chapters, chapter) end
+    end
+    return chapters
+end
+
+local function chapter_summary(topics, limit)
+    local names = {}
+    for i = 1, math.min(limit, #topics) do table.insert(names, topics[i].name) end
+    local text = table.concat(names, "、")
+    if #topics > #names then
+        text = text .. string.format(" 等 %d 个", #topics)
+    end
+    if text == "" then text = "（本章暂无知识点）" end
+    return text
+end
+
+function M.render_kp_units(self, subject)
+    self.state = "kp_units"
     self.kp_subject = subject
-    self:set_title(self:subject_label(subject) .. "知识点")
+    self.kp_unit_id = nil
     self.selected = nil
     self.number_input = ""
     self.feedback = nil
@@ -139,7 +181,6 @@ function M.render_kp_select(self, subject)
     local settings = self.progress.data.settings
     local grade = tonumber(settings.grade) or 2
     local semester = settings.semester
-    -- 按当前所选教材版本加载：有 toc 卷的版本（如译林英语）按课本目录展示。
     local edition = settings_edition(settings, subject)
     local volume, err = Knowledge.load(self.plugin_path, subject, grade, semester, edition)
     if not volume then
@@ -151,8 +192,98 @@ function M.render_kp_select(self, subject)
         self:render_home()
         return
     end
+
+    local reference
+    if volume.edition then
+        local name = self:edition_name_of(subject, edition)
+        reference = name ~= "" and string.format("课本目录 · %s%s", name,
+            self:edition_term_suffix(subject, edition)) or "课本目录"
+    else
+        reference = (subject == "chinese" or subject == "history")
+            and "课标知识点 · 统编参考" or "课标知识点 · 2022 课标"
+    end
+
+    local content = VerticalGroup:new{
+        align = "center",
+        Widgets.label(string.format("%s · %s", kp_volume_label(grade, semester), reference), {
+            size = 17, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
+        }),
+        Widgets.vspace(Size.span.vertical_default),
+    }
+
+    local card_w = cw - 2 * Size.padding.default
+    for _, chapter in ipairs(chapters_of(volume)) do
+        local summary = chapter_summary(chapter.topics, 4)
+        local card = Widgets.card(VerticalGroup:new{
+            align = "left",
+            Widgets.label(string.format("%s（%d）", chapter.name, #chapter.topics), {
+                size = 19, bold = true, max_width = card_w,
+            }),
+            Widgets.vspace(Size.span.vertical_default),
+            Widgets.textbox(summary, card_w, {
+                size = 15, color = Blitbuffer.COLOR_DARK_GRAY, line_height = 0.25,
+            }),
+        }, { width = cw })
+        local chapter_name = chapter.name
+        table.insert(content, Widgets.tappable(card, function()
+            self:render_kp_select(subject, chapter_name)
+        end))
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    end
+
+    table.insert(content, Widgets.vspace(Size.span.vertical_default))
+    table.insert(content, Widgets.button("返回学科列表", {
+        width = cw,
+        size = 20,
+        callback = function() self:render_kp_subject() end,
+    }))
+    local scroll = ScrollableContainer:new{
+        dimen = self:scroll_viewport(),
+        show_parent = self,
+        content,
+    }
+    self:set_body(scroll)
+end
+
+function M.render_kp_select(self, subject, chapter_name)
+    self.state = "kp_select"
+    self.kp_subject = subject
+    self.kp_unit_id = chapter_name
+    self:set_title(chapter_name and (self:subject_label(subject) .. " · " .. chapter_name)
+        or (self:subject_label(subject) .. "知识点"))
+    self.selected = nil
+    self.number_input = ""
+    self.feedback = nil
+    local cw = Widgets.width()
+    local settings = self.progress.data.settings
+    local grade = tonumber(settings.grade) or 2
+    local semester = settings.semester
+    local edition = settings_edition(settings, subject)
+    local volume, err = Knowledge.load(self.plugin_path, subject, grade, semester, edition)
+    if not volume then
+        UIManager:show(InfoMessage:new{
+            text = string.format("%s%s暂无知识点内容，可在设置里切换年级后再试。",
+                self:subject_label(subject), self:grade_label()),
+            timeout = 5,
+        })
+        self:render_home()
+        return
+    end
+
+    local chapters = chapters_of(volume)
+    -- 有章节名只看该章；无章节参数（诊断/总结入口）保持旧的整册平铺
+    local shown_chapters = {}
+    if chapter_name then
+        for _, ch in ipairs(chapters) do
+            if ch.name == chapter_name then table.insert(shown_chapters, ch) end
+        end
+    else
+        shown_chapters = chapters
+    end
     local topic_ids = {}
-    for _, topic in ipairs(volume.topics) do table.insert(topic_ids, topic.id) end
+    for _, ch in ipairs(shown_chapters) do
+        for _, topic in ipairs(ch.topics) do table.insert(topic_ids, topic.id) end
+    end
     local counts = self.progress:kp_summary(subject, topic_ids)
     local reference
     if volume.edition then
@@ -171,7 +302,7 @@ function M.render_kp_select(self, subject)
     local content = VerticalGroup:new{
         align = "center",
         Widgets.label(string.format("%s · %s", kp_volume_label(grade, semester), reference), {
-            size = 17, color = Blitbuffer.COLOR_DARK_GRAY,
+            size = 17, color = Blitbuffer.COLOR_DARK_GRAY, max_width = cw,
         }),
         Widgets.vspace(Size.span.vertical_default),
         Widgets.label(string.format("已掌握 %d/%d　★已掌握 ●学习中 ▲薄弱", counts.mastered, counts.total), {
@@ -189,41 +320,39 @@ function M.render_kp_select(self, subject)
     }
 
     local half = math.floor((cw - Size.span.horizontal_default) / 2)
-    for _, unit in ipairs(volume.units) do
-        local unit_topics = {}
-        for _, topic in ipairs(volume.topics) do
-            if topic.unit == unit.id then table.insert(unit_topics, topic) end
-        end
-        if #unit_topics > 0 then
-            table.insert(content, Widgets.label(unit.name, {
+    for _, ch in ipairs(shown_chapters) do
+        if not chapter_name then
+            table.insert(content, Widgets.label(ch.name, {
                 size = 18, bold = true, max_width = cw,
             }))
             table.insert(content, Widgets.vspace(Size.span.vertical_default))
-            local row
-            for i, topic in ipairs(unit_topics) do
-                local status = self.progress:kp_status(subject, topic.id)
-                local button = Widgets.button(kp_topic_button_text(topic.name, status), {
-                    width = half,
-                    height = Screen:scaleBySize(52),
-                    size = 18,
-                    callback = function() self:render_kp_learn(subject, topic.id) end,
-                })
-                if i % 2 == 1 then
-                    row = HorizontalGroup:new{ align = "center", button }
-                    table.insert(content, row)
-                    table.insert(content, Widgets.vspace(Size.span.vertical_default))
-                else
-                    table.insert(row, Widgets.hspace(Size.span.horizontal_default))
-                    table.insert(row, button)
-                end
-            end
-            table.insert(content, Widgets.vspace(Size.span.vertical_default))
         end
+        local row
+        for i, topic in ipairs(ch.topics) do
+            local status = self.progress:kp_status(subject, topic.id)
+            local button = Widgets.button(kp_topic_button_text(topic.name, status), {
+                width = half,
+                height = Screen:scaleBySize(52),
+                size = 18,
+                callback = function() self:render_kp_learn(subject, topic.id) end,
+            })
+            if i % 2 == 1 then
+                row = HorizontalGroup:new{ align = "center", button }
+                table.insert(content, row)
+                table.insert(content, Widgets.vspace(Size.span.vertical_default))
+            else
+                table.insert(row, Widgets.hspace(Size.span.horizontal_default))
+                table.insert(row, button)
+            end
+        end
+        table.insert(content, Widgets.vspace(Size.span.vertical_default))
     end
-    table.insert(content, Widgets.button("返回首页", {
+    table.insert(content, Widgets.button(chapter_name and "返回章节列表" or "返回首页", {
         width = cw,
         size = 20,
-        callback = function() self:render_home() end,
+        callback = function()
+            if chapter_name then self:render_kp_units(subject) else self:render_home() end
+        end,
     }))
     local scroll = ScrollableContainer:new{
         dimen = self:scroll_viewport(),
@@ -232,7 +361,6 @@ function M.render_kp_select(self, subject)
     }
     self:set_body(scroll)
 end
-
 function M.render_kp_learn(self, subject, topic_id)
     self.state = "kp_learn"
     self.kp_subject = subject
@@ -242,7 +370,7 @@ function M.render_kp_learn(self, subject, topic_id)
     local topic = Knowledge.topic(self.plugin_path, subject, topic_id)
     if not topic then
         UIManager:show(InfoMessage:new{ text = "没有找到这个知识点", timeout = 3 })
-        self:render_kp_select(subject)
+        self:render_kp_select(subject, self.kp_unit_id)
         return
     end
     self:set_title(topic.name)
@@ -329,7 +457,7 @@ function M.render_kp_learn(self, subject, topic_id)
     table.insert(content, Widgets.button("返回知识点列表", {
         width = cw,
         size = 20,
-        callback = function() self:render_kp_select(subject) end,
+        callback = function() self:render_kp_select(subject, self.kp_unit_id) end,
     }))
     local scroll = ScrollableContainer:new{
         dimen = self:scroll_viewport(),
@@ -627,7 +755,7 @@ function M.render_diagnose_result(self)
     table.insert(content, Widgets.button("返回知识点列表", {
         width = cw,
         size = 20,
-        callback = function() self:render_kp_select(self.diagnose_subject) end,
+        callback = function() self:render_kp_select(self.diagnose_subject, self.kp_unit_id) end,
     }))
     table.insert(content, Widgets.vspace(Size.span.vertical_default))
     table.insert(content, Widgets.button("回首页", {
