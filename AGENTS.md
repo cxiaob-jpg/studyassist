@@ -69,6 +69,7 @@
 | 重新生成语文题库 | `python3 tools/studyassist/build_bank.py` |
 | 校验语文题库 | `python3 tools/studyassist/validate_bank.py --all` |
 | 校验教材目录 | `python3 tools/studyassist/validate_catalog.py` |
+| 校验 UI 拆分结构 | `python3 tools/studyassist/validate_ui.py`（页面登记、方法重名、`self:` 调用、内部 require、Lua 5.1 语法） |
 | 导出家长抽查清单 | `python3 tools/studyassist/export_review.py`（`--all` / `--per-unit N`） |
 | 打包安装包 | `tools/studyassist/package_plugin.sh` |
 
@@ -84,7 +85,9 @@
 
 ```text
 main.lua                 插件生命周期：注册菜单与 Dispatcher、开发环境自动打开
-ui/mainview.lua          单窗口状态机 + 所有页面布局
+ui/mainview.lua          单窗口状态机 + 公共页面骨架（home / quiz / summary 等留在本文件）
+ui/pages/                拆出去的页面模块（15 个），由 mainview 末尾挂到 MainView 上
+ui/pages/common.lua      页面间共用常量与纯函数（SUBJECT_LABEL / has_volume / subject_grid ...）
 ui/widgets.lua           墨水屏小组件（label / textbox / button / card / stat / progress）
 ui/update_dialog.lua     更新下载进度对话框（进度条 + 取消按钮，瞬态模态窗）
 core/session.lua         组题、判题、连对、重试、轮次结算
@@ -139,6 +142,13 @@ submit_answer(value)
 
 `MainView.state` 取值：`home`、`unit_select`、`quiz`、`feedback`、`summary`、`wrongbook`、`wrong_detail`、`badges`、`daily_report`、`shop`、`wallet`、`study_settings`、`shop_settings`、`settings`、`ai_settings`、`ai_service_edit`、`ai_bank`、`ai_preview`、`kp_subject`、`kp_select`、`kp_learn`、`diagnose_quiz`、`diagnose_feedback`、`diagnose_result`。
 新增页面时：设置 `state` → 改标题 → 用 `set_body(widget)` 换内容，不要新开 `UIManager:show` 的全屏窗口。
+
+页面模块（`ui/pages/*.lua`）的约定：
+
+- 新页面 = 在 `ui/pages/` 建文件（返回 `M` 表，只放 `function M.xxx(self, ...)`）+ 把模块名加进 `ui/mainview.lua` 末尾的 `PAGE_MODULES`；两处缺一个 `validate_ui.py` 就报错。
+- 方法一律挂到 `MainView` 上，页间互调只能写 `self:render_xxx()`。旧版单文件里的 `local function` 已不存在，裸调 `render_xxx(self)` 会拿到 nil 直接崩。
+- 两个以上页面（或页面 + mainview）共用的常量/纯函数放 `ui/pages/common.lua`，只被一个页面用的留在该页面内，别再把它养回第二个 mainview。
+- 挂载时同名方法会直接 `error()`（`mount_page` 里的护栏），不会静默覆盖；新增方法前先跑 `validate_ui.py`。
 
 ---
 
@@ -245,7 +255,7 @@ tools/studyassist/test_plugin.sh
 | `core/knowledge.lua` / `data/knowledge/` | `studyassist_knowledge_spec.lua` |
 | `core/diagnose.lua` | `studyassist_diagnose_spec.lua` |
 | `core/shop.lua` / `core/report.lua` | `studyassist_shop_spec.lua` |
-| `ui/mainview.lua` | `studyassist_ui_spec.lua` |
+| `ui/mainview.lua` / `ui/pages/` | `studyassist_ui_spec.lua`（smoke：页面能构建、状态正确） |
 
 测试规则：
 
@@ -395,3 +405,4 @@ tools/studyassist/test_plugin.sh
 | 2026-11-20 | 语文统编 3~6 年级上册补单元主题：`g3u/g4u/g5u` 三个版本卷的 `units[].name` 由纯序号（「第一单元」）改为「第一单元 学校生活」等，格式对齐 `g1u/g2u/g6u` 的「中文序号 + 空格 + 人文主题」；同步改 `catalog.json`（chinese/tongbian g3~g5 upper units）、`data/knowledge/chinese/g3u~g5u.json`、`chinese_graph.json` 里 142 个节点的 `unit_name`。三上=学校生活/金秋时节/预测/童话世界/留心观察/祖国河山/珍爱自然/美好品质，四上=自然之美/提问/连续观察/神话故事/把一件事写清楚/世界遗产/成长故事/家国情怀，五上=万物有灵/阅读要有一定的速度/民间故事/爱国情怀/介绍一种事物/舐犊情深/四时景物皆成趣/读书明智 | 单元名只有序号时，知识点列表顶部看不出这一单元讲什么，家长和 AI 都对不上课本；主题词按人教官网「人文主题与语文要素」表与卷内实际课文核对后取值。**注：四上卷内课文本身与统编版教材有错位**（u2 混入《方帽子店》《田忌赛马》，u6 是老人教版《长城》《颐和园》《秦兵马俑》，u7 混入《王戎不取道旁李》），所以四上命名按卷内实际内容取的，未擅自改课文 |
 | 2026-11-20 | 语文四上按 2026 秋新版教材目录对账后补齐：新增 5 个知识点（`cnc_p516~520`，各 4 题，共 20 题）——语文园地四·日积月累《嫦娥》、园地六《黄鹤楼送孟浩然之广陵》、园地八《别董大》、习作例文《我家的杏熟了》《小木船》；改名 3 条栏目前缀写错的（`cnc_p260` 语文园地四·习作→习作：我和____过一天、`cnc_p268` 语文园地六·我是小小讲解员→口语交际：我是小小讲解员、`cnc_p280` 语文园地八·习作：写信→习作：写信）；把 toc 卷独有的 13 个知识点（含原有 `cnc_p495~502`）同步进 `data/knowledge/chinese/g4u.json`，并给 `p495~502` 的 32 道题补 `unit_name`、8 个知识点补 `example` | 教材目录（dzkbw `ws4s_2026`）逐条比对后，27 篇课文与口语交际/习作全部已有知识点，缺的是 3 个园地日积月累和 2 篇习作例文；日积月累篇目取自 2026 新版全册《日积月累》汇总（园地四嫦娥、园地六黄鹤楼送孟浩然之广陵、园地八别董大）。**四上课文与新版教材一致**（方帽子店/田忌赛马/长城/颐和园/兵马俑/无我/王戎都是新版编排，之前按旧版判断「错位」是误判）|
 | 2026-11-20 | 语文四上按 2026 秋新版教材目录对账后补齐：新增 5 个知识点（`cnc_p516~520`，各 4 题，共 20 题）——语文园地四·日积月累《嫦娥》、园地六《黄鹤楼送孟浩然之广陵》、园地八《别董大》、习作例文《我家的杏熟了》《小木船》；改名 3 条栏目前缀写错的（`cnc_p260` 语文园地四·习作→习作：我和____过一天、`cnc_p268` 语文园地六·我是小小讲解员→口语交际：我是小小讲解员、`cnc_p280` 语文园地八·习作：写信→习作：写信）；把 toc 卷独有的 13 个知识点（含原有 `cnc_p495~502`）同步进 `data/knowledge/chinese/g4u.json`，并给 `p495~502` 的 32 道题补 `unit_name`、8 个知识点补 `example` | 教材目录（dzkbw `ws4s_2026`）逐条比对后，27 篇课文与口语交际/习作全部已有知识点，缺的是 3 个园地日积月累和 2 篇习作例文；日积月累篇目取自 2026 新版全册《日积月累》汇总（园地四嫦娥、园地六黄鹤楼送孟浩然之广陵、园地八别董大）。**四上课文与新版教材一致**（方帽子店/田忌赛马/长城/颐和园/兵马俑/无我/王戎都是新版编排，之前按旧版判断「错位」是误判）|
+| 2026-11-21 | `ui/mainview.lua` 5226 行单文件拆成 1264 行 + `ui/pages/` 15 个页面模块 + `common.lua`：125 个 MainView 方法逐个比对函数体**零改动**（124 个可解析方法剥掉签名与注释后逐字节一致）；挂载改为 `PAGE_MODULES` 表 + `mount_page()`，同名方法 `error()` 而不是静默覆盖；新增 `tools/studyassist/validate_ui.py` 校验页面登记、方法重名、`self:` 调用、内部 require 与 Lua 5.1 语法 | 5226 行单文件改一处要通读全文、diff 冲突面大；拆完最大文件 646 行，页间依赖第一次变得可见 |
