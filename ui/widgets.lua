@@ -202,4 +202,16 @@ function Widgets.image(path, size)
     }
 end
 
+-- Full-width figure image (e.g. a whole question rendered to PNG).
+-- Only width is fixed; ImageWidget keeps the source aspect ratio for height.
+-- Returns nil when the file is missing so callers can fall back to text.
+function Widgets.figure(path, width)
+    if not path or not util.fileExists(path) then return nil end
+    return ImageWidget:new{
+        file = path,
+        width = width,
+        scale_factor = 0,
+    }
+end
+
 return Widgets

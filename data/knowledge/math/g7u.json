@@ -1139,6 +1139,40 @@
         "question": "400 m 跑道一圈，直道长 100 m，两个弯道合计长度？",
         "answer": "200 m"
       }
+    },
+    {
+      "id": "cnm_050",
+      "name": "立体图形与平面图形",
+      "domain": "图形与几何",
+      "kp_type": "conceptual",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "description": "认识棱柱、圆柱、圆锥、球等立体图形和其由平面图形构成的特征，并辨别常见的平面图形。",
+      "mastery_criteria": [
+        "能说出常见立体图形的名称",
+        "能区分立体图形与平面图形"
+      ],
+      "example": {
+        "question": "圆柱的侧面展开后是什么平面图形？",
+        "answer": "长方形"
+      }
+    },
+    {
+      "id": "cnm_051",
+      "name": "从不同方向看与立体图形的展开图",
+      "domain": "图形与几何",
+      "kp_type": "conceptual",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "description": "会从正面、左面、上面观察简单立体图形，认识正方体等的展开图。",
+      "mastery_criteria": [
+        "能画出简单几何体的三视图草图",
+        "能判断正方体展开图"
+      ],
+      "example": {
+        "question": "正方体展开图有几种常见形状？每种展开图共有几个正方形？",
+        "answer": "共 11 种，每种有 6 个正方形"
+      }
     }
   ],
   "questions": [
@@ -4880,6 +4914,178 @@
       "answer_mode": "number",
       "answer_format": "integer",
       "answer": 100
+    },
+    {
+      "id": "cnm_050_q1",
+      "topic": "cnm_050",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 1,
+      "stem": "圆柱的侧面展开后是什么平面图形？",
+      "explain": "沿圆柱的高剪开侧面并展平，得到长方形，它的长是底面圆的周长，宽是圆柱的高。",
+      "figure_image": "data/figures/math/cnm_050_q1.png",
+      "answer_mode": "choice",
+      "options": [
+        "三角形",
+        "圆",
+        "长方形",
+        "扇形"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnm_050_q2",
+      "topic": "cnm_050",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 1,
+      "stem": "下列图形中，属于立体图形的是",
+      "explain": "球占有空间的一部分，是立体图形；圆、三角形、梯形都在同一平面内，是平面图形。",
+      "figure_image": "data/figures/math/cnm_050_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "球",
+        "圆",
+        "三角形",
+        "梯形"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnm_050_q3",
+      "topic": "cnm_050",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 2,
+      "stem": "一个六棱柱共有几个面？（含上、下两个底面）",
+      "explain": "六棱柱有 6 个侧面，再加上、下 2 个底面，共 6+2=8 个面。",
+      "figure_image": "data/figures/math/cnm_050_q3.png",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 8
+    },
+    {
+      "id": "cnm_050_q4",
+      "topic": "cnm_050",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 3,
+      "stem": "一个棱柱共有 21 条棱，这个棱柱是几棱柱？（填数字，如五棱柱填 5）",
+      "explain": "n 棱柱有 3n 条棱（上、下底面各 n 条，侧棱 n 条），3n=21，n=7，是七棱柱。",
+      "figure_image": "data/figures/math/cnm_050_q4.png",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 7
+    },
+    {
+      "id": "cnm_051_q2",
+      "topic": "cnm_051",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 1,
+      "stem": "一个直立放置的圆柱，从正面看和从上面看分别得到什么图形？",
+      "explain": "直立的圆柱从正面看是长方形，从上面看是底面的圆。",
+      "figure_image": "data/figures/math/cnm_051_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "圆，长方形",
+        "长方形，圆",
+        "长方形，长方形",
+        "圆，圆"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnm_051_q3",
+      "topic": "cnm_051",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 1,
+      "stem": "用小立方块搭几何体：底层是 2 行 2 列共 4 个小立方块，第二层只在其中一个角上放 1 个小立方块。从上面看，能看到几个小正方形？",
+      "explain": "从上面看，第二层的小立方块被遮在底层的正上方，看到的就是底层的 2×2 个小正方形，共 4 个。",
+      "figure_image": "data/figures/math/cnm_051_q3.png",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 4
+    },
+    {
+      "id": "cnm_051_q4",
+      "topic": "cnm_051",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 2,
+      "stem": "下列由 6 个相同的小正方形拼成的图形中，不能折叠成正方体的是",
+      "explain": "含有 2×2 田字形的图形不能折成正方体（会有面重叠）；其余三种分别是 3-3 型、2-2-2 型、1-4-1 型，都是正方体的展开图。",
+      "figure_image": "data/figures/math/cnm_051_q4.png",
+      "answer_mode": "choice",
+      "options": [
+        "一行 4 个，其下方再有 2 个，紧贴在这一行最左边两个小正方形的正下方（成田字形）",
+        "第一行 3 个，第二行 3 个，第二行最左边的小正方形紧贴在第一行最右边小正方形的正下方",
+        "三行各 2 个，每行都比上一行向右错开一格，相邻两行恰有一个小正方形上下紧贴",
+        "中间一行 4 个，上面 1 个、下面 1 个，分别紧贴在中间一行某个小正方形的上方和下方"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnm_051_q5",
+      "topic": "cnm_051",
+      "subject": "math",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u24",
+      "unit_name": "第六章 几何图形初步",
+      "type": "knowledge",
+      "skill": "图形与几何",
+      "difficulty": 3,
+      "stem": "正方体展开图如下：中间一行 4 个小正方形，从左到右依次标有数字 1、2、3、4；标 5 的小正方形紧贴在“2”的正上方，标 6 的小正方形紧贴在“4”的正下方。折成正方体后，与标有 2 的面相对的面上的数字是几？",
+      "explain": "中间一行 4 个面围成一圈，隔一个面相对：1 与 3 相对，2 与 4 相对；5 与 6 相对。所以与 2 相对的是 4。",
+      "figure_image": "data/figures/math/cnm_051_q5.png",
+      "answer_mode": "number",
+      "answer_format": "integer",
+      "answer": 4
     }
   ]
 }

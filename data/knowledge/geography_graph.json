@@ -1200,6 +1200,15 @@
    "unit_name": "第4单元·保障国家安全的资源、环境战略与行动",
    "domain": "资源与环境",
    "edition": "renjiao"
+  },
+  {
+   "id": "cng_j003",
+   "name": "地球的运动",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第1单元 地球",
+   "domain": "地球与地图"
   }
  ],
  "edges": [
@@ -1646,6 +1655,18 @@
    "to": "cng_j045",
    "strength": "hard",
    "reason": "奋进中的中国所谈的挑战与责任，建立在环境保护和可持续发展的基础上。"
+  },
+  {
+   "from": "cng_j004",
+   "to": "cng_j003",
+   "strength": "soft",
+   "reason": "按人教版地理的教学顺序，先学「地球的运动」，再学「地图的阅读」。"
+  },
+  {
+   "from": "cng_j003",
+   "to": "cng_j002",
+   "strength": "hard",
+   "reason": "说明自转、公转和经纬网定位，都建立在地球仪和经纬度的基础上。"
   }
  ]
 }

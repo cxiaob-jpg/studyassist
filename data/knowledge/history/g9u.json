@@ -397,6 +397,23 @@
         "question": "《国际歌》的词作者是？",
         "answer": "欧仁·鲍狄埃"
       }
+    },
+    {
+      "id": "cnh_j103",
+      "name": "探寻新航路",
+      "domain": "世界近代史",
+      "kp_type": "reasoning",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "description": "知道迪亚士、哥伦布、达·伽马和麦哲伦船队。",
+      "mastery_criteria": [
+        "能说出本课的关键年代、人物或文件",
+        "能把事件与结果对应到教材中的史实"
+      ],
+      "example": {
+        "question": "1487年迪亚士到达？",
+        "answer": "非洲好望角"
+      }
     }
   ],
   "questions": [
@@ -2168,6 +2185,102 @@
         "把它当成宫廷舞曲",
         "把它写成古代史诗",
         "它产生于哪一次工人政权的斗争"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnh_j103_q1",
+      "topic": "cnh_j103",
+      "subject": "history",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "1487年迪亚士到达？",
+      "explain": "迪亚士开辟了沿非洲西海岸到达好望角的航路。",
+      "figure_image": "data/figures/history/cnh_j103_q1.png",
+      "answer_mode": "choice",
+      "options": [
+        "非洲好望角",
+        "美洲",
+        "印度",
+        "菲律宾"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnh_j103_q2",
+      "topic": "cnh_j103",
+      "subject": "history",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 1,
+      "stem": "1492年哥伦布横渡大西洋，到达？",
+      "explain": "哥伦布认为自己到了印度，实际上到达美洲。",
+      "figure_image": "data/figures/history/cnh_j103_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "印度的卡利卡特",
+        "美洲",
+        "好望角",
+        "日本"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnh_j103_q3",
+      "topic": "cnh_j103",
+      "subject": "history",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "1497年到1498年达·伽马开辟了通往哪里的航路？",
+      "explain": "达·伽马绕过好望角，到达印度西海岸。",
+      "figure_image": "data/figures/history/cnh_j103_q3.png",
+      "answer_mode": "choice",
+      "options": [
+        "美洲",
+        "澳大利亚",
+        "印度",
+        "北极"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnh_j103_q4",
+      "topic": "cnh_j103",
+      "subject": "history",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u5",
+      "unit_name": "第5单元 走向近代",
+      "type": "knowledge",
+      "skill": "世界近代史",
+      "difficulty": 2,
+      "stem": "1519年到1522年完成环球航行的是？",
+      "explain": "麦哲伦在途中死于菲律宾，船队返回欧洲，证明了地圆说。",
+      "figure_image": "data/figures/history/cnh_j103_q4.png",
+      "answer_mode": "choice",
+      "options": [
+        "哥伦布",
+        "迪亚士",
+        "达·伽马",
+        "麦哲伦船队"
       ],
       "answer": 4
     }

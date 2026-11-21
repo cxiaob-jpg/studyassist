@@ -1885,6 +1885,15 @@
    "unit_name": "第6单元·文化的传承与保护",
    "domain": "文化传承",
    "edition": "tongbian"
+  },
+  {
+   "id": "cnh_j103",
+   "name": "探寻新航路",
+   "grade": 9,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第5单元 走向近代",
+   "domain": "世界近代史"
   }
  ],
  "edges": [
@@ -2721,6 +2730,24 @@
    "to": "cnh_j126",
    "strength": "hard",
    "reason": "冷战是第二次世界大战结束后出现的美苏对峙。"
+  },
+  {
+   "from": "cnh_j103",
+   "to": "cnh_j102",
+   "strength": "soft",
+   "reason": "按统编版历史的教学顺序，先学「西欧经济社会发展与文艺复兴运动」，再学「探寻新航路」。"
+  },
+  {
+   "from": "cnh_j104",
+   "to": "cnh_j103",
+   "strength": "soft",
+   "reason": "按统编版历史的教学顺序，先学「探寻新航路」，再学「早期殖民掠夺」。"
+  },
+  {
+   "from": "cnh_j103",
+   "to": "cnh_j035",
+   "strength": "soft",
+   "reason": "指南针由中国传入欧洲，航海者才敢驶向远洋，是新航路开辟的技术条件之一。"
   }
  ]
 }

@@ -155,10 +155,21 @@ function M.render_question_card(self, question)
         }, { width = cw - 2 * Size.padding.default }))
         table.insert(parts, Widgets.vspace(Size.span.vertical_default))
     end
-    table.insert(parts, Widgets.textbox(question.stem, inner_width, {
-        size = 27,
-        line_height = 0.35,
-    }))
+    -- Figure questions ship the whole question (stem + diagram + options) as
+    -- one PNG; show it in place of the text stem. Fall back to text if missing.
+    local figure = nil
+    if question.figure_image then
+        local path = self.plugin_path and (self.plugin_path .. "/" .. question.figure_image) or nil
+        figure = Widgets.figure(path, inner_width)
+    end
+    if figure then
+        table.insert(parts, figure)
+    else
+        table.insert(parts, Widgets.textbox(question.stem, inner_width, {
+            size = 27,
+            line_height = 0.35,
+        }))
+    end
     return Widgets.card(parts, { width = cw, padding = Size.padding.large })
 end
 function M.rerender_input(self)
@@ -173,7 +184,11 @@ function M.render_choice_area(self, question)
     local area = VerticalGroup:new{ align = "center" }
     local prefixes = { "A. ", "B. ", "C. ", "D. " }
     for i, option in ipairs(question.options or {}) do
-        table.insert(area, Widgets.choice_button(prefixes[i] .. option, cw, self.selected == i, function()
+        -- Figure questions already show the full option text in the image;
+        -- buttons only need the letter so the option isn't printed twice.
+        local label = question.figure_image and prefixes[i]:gsub("%s$", "")
+            or (prefixes[i] .. option)
+        table.insert(area, Widgets.choice_button(label, cw, self.selected == i, function()
             self.selected = i
             self:rerender_input()
         end))

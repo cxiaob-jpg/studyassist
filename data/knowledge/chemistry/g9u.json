@@ -465,6 +465,40 @@
         "question": "铜片上的白磷燃烧、红磷不燃烧，水中的白磷不燃烧。这个实验说明燃烧需要？",
         "answer": "温度达到着火点，并且与氧气接触"
       }
+    },
+    {
+      "id": "cnk_j004",
+      "name": "化学实验基本操作",
+      "domain": "科学探究与化学实验",
+      "kp_type": "procedural",
+      "unit": "u1",
+      "unit_name": "第1单元 走进化学世界",
+      "description": "初步学会药品取用、加热、检查气密性，以及溶解、过滤、蒸发，并遵守实验室安全规则。这一部分属于「化学实验与科学探究」，不是单独印出的课题名。",
+      "mastery_criteria": [
+        "能说出本课的探究步骤或实验操作要点",
+        "能把现象和证据对应到教材中的结论"
+      ],
+      "example": {
+        "question": "闻气体气味时，正确的方法是？",
+        "answer": "用手在瓶口轻轻扇动，使少量气体飘进鼻孔"
+      }
+    },
+    {
+      "id": "cnk_j009",
+      "name": "分子和原子",
+      "domain": "物质的组成与结构",
+      "kp_type": "conceptual",
+      "unit": "u3",
+      "unit_name": "第3单元 物质构成的奥秘",
+      "description": "知道物质可以由分子、原子构成。分子、原子在不断运动，彼此有间隔。化学变化中分子可以分成原子，原子再重新组合。",
+      "mastery_criteria": [
+        "能用微粒、元素或化学式表示物质的组成",
+        "能完成教材要求的简单判断或计算"
+      ],
+      "example": {
+        "question": "墙内开花墙外香，主要说明？",
+        "answer": "分子在不断运动"
+      }
     }
   ],
   "questions": [
@@ -2134,6 +2168,198 @@
         "按实验室要求回收，不随意丢弃或带出实验室"
       ],
       "answer": 4
+    },
+    {
+      "id": "cnk_j004_q1",
+      "topic": "cnk_j004",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 走进化学世界",
+      "type": "knowledge",
+      "skill": "科学探究与化学实验",
+      "difficulty": 1,
+      "stem": "闻气体气味时，正确的方法是？",
+      "explain": "扇闻可以减少吸入量。实验室里的药品不能品尝。",
+      "figure_image": "data/figures/chemistry/cnk_j004_q1.png",
+      "answer_mode": "choice",
+      "options": [
+        "把鼻孔凑到瓶口猛吸",
+        "用手在瓶口轻轻扇动，使少量气体飘进鼻孔",
+        "用嘴尝一点",
+        "直接对着瓶口吹气"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cnk_j004_q2",
+      "topic": "cnk_j004",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 走进化学世界",
+      "type": "knowledge",
+      "skill": "科学探究与化学实验",
+      "difficulty": 1,
+      "stem": "给试管里的液体加热，试管口应？",
+      "explain": "加热时液体可能喷出，试管口不能对着人；液体一般不超过试管容积的三分之一。",
+      "figure_image": "data/figures/chemistry/cnk_j004_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "对着自己方便观察",
+        "用拇指堵住",
+        "不要对着自己或别人",
+        "竖直向上并加满液体"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnk_j004_q3",
+      "topic": "cnk_j004",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 走进化学世界",
+      "type": "knowledge",
+      "skill": "科学探究与化学实验",
+      "difficulty": 2,
+      "stem": "稀释浓硫酸时，正确的操作是？",
+      "explain": "稀释时把浓硫酸慢慢加入水中，并不断搅拌。水倒进浓硫酸会因放热而飞溅。",
+      "figure_image": "data/figures/chemistry/cnk_j004_q3.png",
+      "answer_mode": "choice",
+      "options": [
+        "把水倒进浓硫酸里",
+        "把浓硫酸一次全部倒入水中后盖紧摇晃",
+        "在量筒里稀释",
+        "把浓硫酸沿器壁慢慢注入水中，并用玻璃棒搅拌"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnk_j004_q4",
+      "topic": "cnk_j004",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 走进化学世界",
+      "type": "knowledge",
+      "skill": "科学探究与化学实验",
+      "difficulty": 2,
+      "stem": "过滤时，玻璃棒的作用是？",
+      "explain": "玻璃棒下端靠在三层滤纸一侧，用来引流。滤纸不能戳破。",
+      "figure_image": "data/figures/chemistry/cnk_j004_q4.png",
+      "answer_mode": "choice",
+      "options": [
+        "引流，使液体沿玻璃棒流入漏斗",
+        "搅拌滤纸，让过滤更快",
+        "捣破滤纸上的不溶物",
+        "代替滤纸挡住杂质"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnk_j009_q1",
+      "topic": "cnk_j009",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u3",
+      "unit_name": "第3单元 物质构成的奥秘",
+      "type": "knowledge",
+      "skill": "物质的组成与结构",
+      "difficulty": 1,
+      "stem": "墙内开花墙外香，主要说明？",
+      "explain": "花的香味分子运动到墙外，说明分子在不断运动。",
+      "figure_image": "data/figures/chemistry/cnk_j009_q1.png",
+      "answer_mode": "choice",
+      "options": [
+        "分子之间没有间隔",
+        "分子在化学变化中不分裂",
+        "分子在不断运动",
+        "墙能挡住所有分子"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cnk_j009_q2",
+      "topic": "cnk_j009",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u3",
+      "unit_name": "第3单元 物质构成的奥秘",
+      "type": "knowledge",
+      "skill": "物质的组成与结构",
+      "difficulty": 1,
+      "stem": "酒精和水混合后总体积小于两者体积之和，主要因为？",
+      "explain": "分子间有间隔，混合时一种分子可以进入另一种分子的间隔。",
+      "figure_image": "data/figures/chemistry/cnk_j009_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "酒精分子变成了水分子",
+        "混合时分子停止运动",
+        "两种液体发生了燃烧",
+        "分子之间有间隔"
+      ],
+      "answer": 4
+    },
+    {
+      "id": "cnk_j009_q3",
+      "topic": "cnk_j009",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u3",
+      "unit_name": "第3单元 物质构成的奥秘",
+      "type": "knowledge",
+      "skill": "物质的组成与结构",
+      "difficulty": 2,
+      "stem": "化学变化中，下列说法正确的是？",
+      "explain": "化学变化中分子分裂成原子，原子重新组合。原子的种类不变。",
+      "figure_image": "data/figures/chemistry/cnk_j009_q3.png",
+      "answer_mode": "choice",
+      "options": [
+        "分子可以分成原子，原子再组合成新的分子",
+        "原子分成更小的质子后种类就变了",
+        "分子永远不能再分",
+        "原子的种类一定会改变"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cnk_j009_q4",
+      "topic": "cnk_j009",
+      "subject": "chemistry",
+      "grade": 9,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u3",
+      "unit_name": "第3单元 物质构成的奥秘",
+      "type": "knowledge",
+      "skill": "物质的组成与结构",
+      "difficulty": 2,
+      "stem": "水结成冰，水分子本身？",
+      "explain": "结冰是物理变化，水分子本身不变，只是间隔和排列方式改变。",
+      "figure_image": "data/figures/chemistry/cnk_j009_q4.png",
+      "answer_mode": "choice",
+      "options": [
+        "分成了氢原子和氧原子",
+        "没有变成其他分子",
+        "变成了氧气分子",
+        "数目一定减半"
+      ],
+      "answer": 2
     }
   ]
 }

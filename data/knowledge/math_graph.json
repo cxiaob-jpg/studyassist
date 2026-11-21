@@ -7969,6 +7969,42 @@
    "unit_name": "六 分数的初步认识",
    "domain": "数与代数",
    "edition": "sujiao2024"
+  },
+  {
+   "id": "cnm_050",
+   "name": "立体图形与平面图形",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第六章 几何图形初步",
+   "domain": "图形与几何"
+  },
+  {
+   "id": "cnm_051",
+   "name": "从不同方向看与立体图形的展开图",
+   "grade": 7,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第六章 几何图形初步",
+   "domain": "图形与几何"
+  },
+  {
+   "id": "cnm_258",
+   "name": "圆锥的侧面积与全面积",
+   "grade": 9,
+   "semester": "upper",
+   "unit": "u1",
+   "unit_name": "第二十九章 圆",
+   "domain": "图形与几何"
+  },
+  {
+   "id": "cnm_283",
+   "name": "三视图及由三视图想象立体图形",
+   "grade": 9,
+   "semester": "lower",
+   "unit": "u1",
+   "unit_name": "第三十三章 投影与视图",
+   "domain": "图形与几何"
   }
  ],
  "edges": [
@@ -16503,6 +16539,78 @@
    "to": "cnm_p092",
    "strength": "soft",
    "reason": "「作息时间表中的秘密」对学习「年历设计师」有帮助，但不会前者也可以开始学后者。"
+  },
+  {
+   "from": "cnm_050",
+   "to": "cnm_p207",
+   "strength": "hard",
+   "reason": "学习「立体图形与平面图形」需要先会小学的「圆柱的体积」。小学已认识基本立体图形。"
+  },
+  {
+   "from": "cnm_051",
+   "to": "cnm_p113",
+   "strength": "soft",
+   "reason": "学习「从不同方向看与立体图形的展开图」需要先会小学的「从不同方向观察物体」。需要空间想象与折叠展开。"
+  },
+  {
+   "from": "cnm_051",
+   "to": "cnm_050",
+   "strength": "hard",
+   "reason": "展开图和从不同方向看的研究对象是立体图形，需先认识常见立体图形"
+  },
+  {
+   "from": "cnm_052",
+   "to": "cnm_050",
+   "strength": "hard",
+   "reason": "是对图形组成的进一步抽象"
+  },
+  {
+   "from": "cnm_176",
+   "to": "cnm_051",
+   "strength": "soft",
+   "reason": "立体图形展开求最短距离"
+  },
+  {
+   "from": "cnm_258",
+   "to": "cnm_257",
+   "strength": "hard",
+   "reason": "圆锥侧面展开图是扇形，需要先会求扇形面积"
+  },
+  {
+   "from": "cnm_258",
+   "to": "cnm_051",
+   "strength": "hard",
+   "reason": "需要立体图形展开图"
+  },
+  {
+   "from": "cnm_281",
+   "to": "cnm_051",
+   "strength": "hard",
+   "reason": "需要从不同方向看立体图形"
+  },
+  {
+   "from": "cnm_283",
+   "to": "cnm_282",
+   "strength": "hard",
+   "reason": "三视图是物体在三个方向上的正投影，需要先理解正投影"
+  },
+  {
+   "from": "cnm_291",
+   "to": "cnm_283",
+   "strength": "hard",
+   "reason": "建筑的三视图是分析其外形的主要工具，需要先会三视图及由三视图想象立体图形"
+  },
+  {
+   "from": "cnm_051",
+   "to": "cnm_p222",
+   "strength": "soft",
+   "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「长方体纸盒的展开」。"
+  },
+  {
+   "from": "cnm_051",
+   "to": "cnm_p237",
+   "strength": "soft",
+   "reason": "学习「从不同方向看与立体图形的展开图」需要先掌握「观察简单组合体」。"
   }
  ]
 }

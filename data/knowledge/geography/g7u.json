@@ -308,6 +308,23 @@
         "question": "目前世界上大多数国家属于？",
         "answer": "发展中国家"
       }
+    },
+    {
+      "id": "cng_j003",
+      "name": "地球的运动",
+      "domain": "地球与地图",
+      "kp_type": "reasoning",
+      "unit": "u1",
+      "unit_name": "第1单元 地球",
+      "description": "知道地球自转和公转的方向、周期及地理意义。",
+      "mastery_criteria": [
+        "能说出本课的基本概念、数据和空间位置",
+        "能在地图或示意图上作出与教材相符的判断"
+      ],
+      "example": {
+        "question": "地球自转的方向是？",
+        "answer": "自西向东"
+      }
     }
   ],
   "questions": [
@@ -1299,6 +1316,102 @@
         "只有发达国家需要进口"
       ],
       "answer": 2
+    },
+    {
+      "id": "cng_j003_q1",
+      "topic": "cng_j003",
+      "subject": "geography",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 地球",
+      "type": "knowledge",
+      "skill": "地球与地图",
+      "difficulty": 1,
+      "stem": "地球自转的方向是？",
+      "explain": "从北极上空看，地球自转呈逆时针，即自西向东。",
+      "figure_image": "data/figures/geography/cng_j003_q1.png",
+      "answer_mode": "choice",
+      "options": [
+        "自西向东",
+        "自东向西",
+        "自北向南",
+        "自南向北"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cng_j003_q2",
+      "topic": "cng_j003",
+      "subject": "geography",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 地球",
+      "type": "knowledge",
+      "skill": "地球与地图",
+      "difficulty": 1,
+      "stem": "昼夜交替主要是由哪一种运动引起的？",
+      "explain": "地球不停自转，朝向太阳的一面是白天，背向太阳的一面是黑夜。",
+      "figure_image": "data/figures/geography/cng_j003_q2.png",
+      "answer_mode": "choice",
+      "options": [
+        "地球公转",
+        "地球自转",
+        "月球绕地球运动",
+        "太阳黑子活动"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "cng_j003_q3",
+      "topic": "cng_j003",
+      "subject": "geography",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 地球",
+      "type": "knowledge",
+      "skill": "地球与地图",
+      "difficulty": 2,
+      "stem": "北半球夏至日，太阳直射的纬线是？",
+      "explain": "夏至日太阳直射北回归线（约23.5°N），北半球昼最长。",
+      "figure_image": "data/figures/geography/cng_j003_q3.png",
+      "answer_mode": "choice",
+      "options": [
+        "赤道",
+        "南回归线",
+        "北回归线",
+        "北极圈"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "cng_j003_q4",
+      "topic": "cng_j003",
+      "subject": "geography",
+      "grade": 7,
+      "semester": "upper",
+      "edition": "renjiao",
+      "unit": "u1",
+      "unit_name": "第1单元 地球",
+      "type": "knowledge",
+      "skill": "地球与地图",
+      "difficulty": 2,
+      "stem": "地球公转产生的地理现象是？",
+      "explain": "公转使太阳直射点在南北回归线之间移动，从而形成四季和五带。",
+      "figure_image": "data/figures/geography/cng_j003_q4.png",
+      "answer_mode": "choice",
+      "options": [
+        "昼夜更替",
+        "地方时差异",
+        "物体水平运动方向偏转",
+        "四季更替和五带划分"
+      ],
+      "answer": 4
     }
   ]
 }
