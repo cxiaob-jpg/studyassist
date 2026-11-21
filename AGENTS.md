@@ -70,6 +70,7 @@
 | 校验语文题库 | `python3 tools/studyassist/validate_bank.py --all` |
 | 校验教材目录 | `python3 tools/studyassist/validate_catalog.py` |
 | 校验 UI 拆分结构 | `python3 tools/studyassist/validate_ui.py`（页面登记、方法重名、`self:` 调用、内部 require、Lua 5.1 语法） |
+| 增量补上游知识点 | `python3 tools/studyassist/sync_taxonomy_gaps.py --source <cn-math-taxonomy 检出目录>`（`--check` 只报告；无可用题的知识点自动跳过） |
 | 导出家长抽查清单 | `python3 tools/studyassist/export_review.py`（`--all` / `--per-unit N`） |
 | 打包安装包 | `tools/studyassist/package_plugin.sh` |
 
