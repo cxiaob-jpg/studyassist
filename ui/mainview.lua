@@ -230,6 +230,36 @@ function MainView:update_back_button()
 end
 
 --[[--
+Where a confirmed mid-practice back should land. Knowledge-point sessions are
+entered from a knowledge page, so go back there instead of dropping to home;
+other entries (home challenge, subject, wrongbook, ai) still return home.
+The state must be captured before the confirm callback clears session/diagnose.
+--]]--
+function MainView:practice_back_target(state)
+    local go_home = function() self:render_home() end
+    if state == "diagnose_quiz" or state == "diagnose_feedback" then
+        local subject = self.diagnose_subject
+        local target = self.diagnose and self.diagnose.target
+        if subject and target then
+            return function() self:render_kp_learn(subject, target) end
+        end
+        return go_home
+    end
+    local opts = self.last_session_opts
+    if opts and opts.mode == "kp" then
+        local subject = opts.subject or self.last_kp_subject
+        local topic = opts.kp_topic
+        if subject and topic then
+            return function() self:render_kp_learn(subject, topic) end
+        elseif subject then
+            local chapter = self.kp_unit_id
+            return function() self:render_kp_select(subject, chapter) end
+        end
+    end
+    return go_home
+end
+
+--[[--
 Title-bar back: leave the current page without exiting the plugin.
 Active practice/diagnosis sessions ask for confirmation first; answers
 already given stay saved.
@@ -239,6 +269,8 @@ function MainView:onBack()
     if state == "home" then return end
     if state == "quiz" or state == "feedback"
         or state == "diagnose_quiz" or state == "diagnose_feedback" then
+        -- Capture the destination before the callback clears session/diagnose.
+        local go = self:practice_back_target(state)
         UIManager:show(ConfirmBox:new{
             text = _("本轮练习还没有完成，确定返回吗？\n\n已经答过的题目和星星会保存。"),
             ok_text = _("返回"),
@@ -246,7 +278,7 @@ function MainView:onBack()
             ok_callback = function()
                 self.session = nil
                 self.diagnose = nil
-                self:render_home()
+                go()
             end,
         })
         return
